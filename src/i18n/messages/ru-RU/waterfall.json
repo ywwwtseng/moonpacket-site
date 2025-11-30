@@ -1,0 +1,27 @@
+{
+  "sent_from": "Отправить в группу:",
+  "claimed": "Получить",
+  "total": "Общая сумма",
+  "progress": "Уже получено",
+  "groups_directory": {
+    "latest_tab": "Последние группы Red Packet",
+    "hot_tab": "Популярные группы Red Packet",
+    "search_placeholder": "Искать ключевые слова в присоединенных группах"
+  },
+  "marquee": {
+    "templates": {
+      "send": "💰 {user} выдал Red Packet на {amount} {ccy} в '{group}'!",
+      "claim": "🎯 {user} получил {amount} {ccy}, Самый удачливый игрок!",
+      "topup": "🔥 Владелец группы {user} внес {amount} {ccy}",
+      "system": "📢 {message}",
+      "achievement": "🥇 Самый удачливый игрок сегодня: @{user} (накопленные {amount} {ccy})"
+    },
+    "fallback": [
+      "💰 Джон выдал 100 USDT red packet в 'Игровой гильдии А'!",
+      "🎯 Лиса получила 3.5 USDT, она была самой удачливой!",
+      "🔥 Владелец группы Кен внес 2000 USDT",
+      "📢 Обновление системы завершено, поддержка SOL добавлена!",
+      "🥇 Самая удачливая сегодня: @Mina (накоплено 28.3 USDT)"
+    ]
+  }
+}

@@ -1,0 +1,1514 @@
+{
+  "litepaper": {
+    "title": "$moonini Litepaper",
+    "description": "Pochopte designovou filozofii, ekonomický model a základní hodnoty tokenu $moonini.",
+    "seo": {
+      "title": "$moonini Litepaper — moonpacket",
+      "description": "$moonini je token pro komunitní pobídky založený na platformě moonpacket. Naučte se, jak jej získat, používat a investovat do jeho hodnoty."
+    },
+    "hero": {
+      "subtitle": "$moonini je token incentivující komunitu založený na platformě moonpacket. Čím více uživatelé interagují s moonpacket, účastní se úkolů a komunikují, tím více $moonini mohou vydělat. Pro investory je 90 % rozděleno uživatelům a 10 % jde týmu, s mechanismem půlení a lineárním uvolňováním, které efektivně snižují rizika dumpů, navržené pro dlouhodobou stabilitu.",
+      "cards": {
+        "user": {
+          "title": "Pro běžné uživatele",
+          "description": "Snadno získejte $moonini posíláním Red Packet, plněním úkolů, zváním přátel atd. Čím více to používáte, tím více vyděláváte, zcela zdarma."
+        },
+        "investor": {
+          "title": "Pro investory",
+          "description": "Celková nabídka 10 miliard, 90/10 alokace, 6 fází halvování a alokace pro tým s lineárním uvolněním, navrženo tak, aby bylo prospěšné pro dlouhodobou stabilitu a snížilo riziko dumpování."
+        },
+        "developer": {
+          "title": "Pro vývojáře/partnery",
+          "description": "Standardizované smlouvy, otevřené API, které lze integrovat do jiných aplikací nebo her. Prostřednictvím integrace API připojte své produkty k ekosystému moonpacket."
+        }
+      },
+      "live_status": "Protokol V1 je nyní aktivní",
+      "cta_start": "Začít číst",
+      "cta_hub": "Centrum pro vývojáře"
+    },
+    "sections": {
+      "overview": "Přehled",
+      "problem": "Problémy a řešení",
+      "concept": "Základní koncepty moonpacket a $moonini",
+      "tokenomics": "Přehled tokenomics",
+      "emission": "Halving a Uvolnění",
+      "utility": {
+        "subtitle": "Jak vydělat a používat"
+      },
+      "developer": "Vývojáři a integrace API",
+      "governance": "Správa a bezpečnost",
+      "roadmap": "Cestovní mapa",
+      "risks": "Rizika a odpovědnosti",
+      "faq": "Časté dotazy",
+      "cta": {
+        "title": "Jste připraveni připojit se k této sociální zkušenosti Red Packet?",
+        "earning": "Začněte vydělávat Red Packet nyní",
+        "devs": "Přečtěte si dokumentaci pro vývojáře"
+      },
+      "registry": {
+        "title": "On-chain registr smluv",
+        "network": "Hlavní síť: BSC (BNB Chain)",
+        "audit": "Stav auditu: **Naplánováno**"
+      },
+      "defense": {
+        "floor": {
+          "title": "🛡️ Inteligentní obrana podlahové ceny",
+          "mechanism": "Když se tržní cena přiblíží k podlahové ceně, protokol automaticky aktivuje obranné mechanismy, využívající akumulovaný POL (Protokolově vlastněná likvidita) k podpoře. Toto není rigidní výplata; využívá herní teorii k tomu, aby náklady na shortování byly nekonečně vysoké.",
+          "anti_gaming": "Poznámka: Aby se zabránilo arbitrážním útokům, jsou specifické prahové hodnoty a obranné síly dynamicky upravovány a přesné hodnoty nebudou zveřejněny."
+        },
+        "anti_bot": {
+          "title": "🚫 Odmítnout správu tržního tvoření",
+          "items": [
+            "Všechny transakce jsou skutečné chování uživatelů",
+            "Žádní roboti pro tvůrce trhu",
+            "Odmítněte falešnou manipulaci objemem a pump and dump"
+          ]
+        }
+      },
+      "lockup": {
+        "title": "Strategické zajištění",
+        "desc": "Na trhu plném 'skladů myší' a 'skrytých čipů' jsme zvolili nejtěžší, ale nejčestnější cestu. Hlavně chápeme, že pouze úplným odstraněním strachu uživatelů z 'dumpování týmu' můžeme vybudovat skutečnou důvěru.",
+        "benefit": "Toto není jen o pravidlech uzamčení; je to naše 'prohlášení o proti-sklizni'. Prostřednictvím tohoto poněkud přísného sebekontrolování zajišťujeme, že nikdo—ani zakladatelé, ani velcí držitelé—nemohou zradit komunitu v raných fázích.",
+        "items": [
+          "Úplně transparentní, žádné skrývání: Nemáme žádné skryté peněženky ani nezveřejněné rané oběhové množství. Všechny distribuce tokenů jsou veřejně dostupné na blockchainu, podléhající dohledu komunity.",
+          "Závazek týmu, dlouhodobá podpora: Doba uvolnění jádrového týmu trvá až 48 měsíců (4 roky). Ve světě kryptoměn jsou 4 roky dlouhým cyklem. To dokazuje, že zde nejsme, abychom rychle vydělali peníze, ale jsme odhodláni zažít býčí a medvědí trhy spolu s komunitou a budovat dlouhodobou hodnotu.",
+          "Konsensus investorů: Naši raní investoři se hluboce identifikují s kulturou 'sdílení a darování' Red Packetů a dobrovolně podepisují dohodu o postupném uvolňování po dobu 36 měsíců. To znamená, že v raných fázích projektu žádná strana (včetně investorů) nemá dostatek prostředků na to, aby ovlivnila trh."
+        ]
+      }
+    },
+    "back_to_top": "↥ Zpět na vrchol",
+    "content": {
+      "overview": {
+        "paragraphs": [
+          "moonpacket je kryptoměnový Red Packet a marketingový nástroj navržený výhradně pro komunity na Telegramu. Ať už pro provoz komunity, propagaci akcí nebo pozvání nových uživatelů, moonpacket vám s tím může snadno pomoci.",
+          "Abychom povzbudili uživatele k dalšímu používání platformy a navázali dlouhodobé vztahy, spustili jsme komunitní incentivu token $moonini. Každé aktivní chování na platformě, včetně posílání Red Packet, plnění úkolů a pozvání přátel, může přinést odpovídající odměny v $moonini.",
+          "Pro běžné uživatele je $moonini dodatečnou odměnou za používání moonpacket; čím více používáte, tím více vyděláte. Pro investory je návrh tokenové ekonomiky $moonini (90 % pro uživatele, 10 % pro tým, 6-stupňové snižování, uvolnění zámků) efektivně zaměřen na snížení rizik krátkodobého propadu a je příznivý pro dlouhodobou stabilitu hodnoty."
+        ],
+        "highlights": {
+          "title": "Hlavní body",
+          "items": [
+            "✅ **Spravedlivé rozdělení**: 90 % tokenů je distribuováno na základě aktivit uživatelů, přičemž 10 % připadá týmu a raným investorům.",
+            "✅ **Časová výhoda**: 6-fázový mechanismus půlení, čím dříve se zapojíte, tím více dostanete.",
+            "✅ **Snižte riziko**: Alokace týmu je zablokována na 3 měsíce, poté se lineárně uvolňuje během 33-45 měsíců.",
+            "✅ **Transparentní a ověřitelné**: Všechna pravidla pro distribuci a uvolnění tokenů jsou veřejně průhledná a ověřitelná na blockchainu."
+          ]
+        }
+      },
+      "problem": {
+        "title": "Problémy a řešení",
+        "problems": {
+          "title": "Problémy v současném marketingu Web3 / Telegram",
+          "items": [
+            "**Těžké sledovat účinnost**: Tradiční mechanismy red packet jsou obtížně sledovatelné pro skutečné účinky; není jasné, kdo si je nárokoval, kdo je sdílel, nebo zda přivedly nové uživatele.",
+            "**Krátkodobé vybírání zisků**: Mnoho projektů se zaměřuje pouze na krátkodobou provoz, rozdává red packet a odchází bez dlouhodobých motivačních mechanismů.",
+            "**Nedostatek dlouhodobých pobídek**: Uživatelé odcházejí po obdržení Red Packet, neschopní navázat dlouhodobé vztahy a pokračující účast."
+          ]
+        },
+        "solutions": {
+          "title": "Řešení Moonpacket + $moonini",
+          "items": [
+            "**Úplné sledování chování**: moonpacket zaznamenává příjem každého červeného balíčku, sdílení chování a uvádění nových uživatelů, což vám umožňuje jasně pochopit účinnost marketingu.",
+            "**Dlouhodobé motivační mechanismy**: Prostřednictvím tokenu $moonini, čím více uživatelé participují, tím více vydělávají, čímž se vytváří motivace k dlouhodobé účasti.",
+            "**Spravedlivé rozdělení hodnoty**: 90 % tokenů jde uživatelům, což zajišťuje prioritu komunity, zatímco mechanismy jako halving a zamčení snižují riziko dumpování."
+          ]
+        }
+      },
+      "concept": {
+        "title": "Základní koncepty moonpacket a $moonini",
+        "moonpacket": {
+          "title": "Role moonpacket",
+          "description": "moonpacket je nástroj pro Telegram Red Packet, úkoly a marketing. Ať už jste komunitní operátor, organizátor událostí nebo projekt, který se snaží přitáhnout nové uživatele, můžete moonpacket použít k:",
+          "features": [
+            "Odesílejte kryptoměnové Red Packets (podporující více tokenů, jako jsou USDT, TON, SOL, ETH atd.)",
+            "Vytvořte úkolové události (pozvat přátele, sledovat komunity, sdílet obsah atd.)",
+            "Sledovat efektivní data (míry vykoupení, míry sdílení, konverze nových uživatelů atd.)",
+            "Odesílejte Red Packets mezi skupinami a rozšiřujte dosah"
+          ]
+        },
+        "moonini": {
+          "title": "Úloha $moonini",
+          "description": "$moonini je token odměnových bodů, který uznává chování uživatelů a komunity. Každá aktivní akce, kterou na moonpacket provedete, vám přináší odpovídající $moonini:",
+          "rewards": [
+            "Odeslat Red Packet: Získejte odpovídající $moonini na základě částky Red Packet a aktuální fáze",
+            "Dokončete úkoly: Splněním úspěchů, sociálních úkolů atd. získáte navíc $moonini",
+            "Pozvěte přátele: Úspěšně pozvěte nové uživatele a dokončete úkoly sdílení, obě strany mohou vydělat $moonini",
+            "Aktivní účast: Dokončení konkrétních akcí ve spolupráci ve hrách nebo aplikacích může také vydělat $moonini"
+          ]
+        },
+        "logic": {
+          "title": "Čím více to používáte, tím více vyděláváte",
+          "description": "Logika je jednoduchá: čím aktivnější jste na moonpacket, tím více $moonini vyděláte. Ranní účastníci mohou vychutnat vyšší poměr odměn (Fáze 1, získejte 1 $moonini za každý 1 USDT Red Packet zaslaný). Čím dříve se zúčastníte, tím větší je vaše výhoda."
+        }
+      },
+      "tokenomics": {
+        "title": "Přehled tokenomiky",
+        "total": {
+          "title": "Celková nabídka tokenů",
+          "description": "Celková emise $moonini je **10 000 000 000 tokenů (10B)**, s pevně stanovenou celkovou nabídkou a bez další emise."
+        },
+        "allocation": {
+          "title": "Plán alokace",
+          "table": {
+            "headers": [
+              "Kategorie",
+              "Množství",
+              "Proporce",
+              "Popis"
+            ],
+            "rows": [
+              [
+                "Veřejné vydání",
+                "9 000 000 000 kusů",
+                "0.9",
+                "postupné uvolňování na základě aktivity uživatelů (6 fází půlení)"
+              ],
+              [
+                "Podíl týmu",
+                "1 000 000 000 kusů",
+                "0.1",
+                "uzamčení na 3 měsíce, lineární uvolnění 33-45 měsíců"
+              ],
+              [
+                "├─ Operace",
+                "200 000 000 kusů",
+                "0.02",
+                "uzamčení na 3 měsíce, uvolnění na 45 měsíců"
+              ],
+              [
+                "├─ Technický tým",
+                "200 000 000 kusů",
+                "0.02",
+                "uzamčení na 3 měsíce, uvolnění na 45 měsíců"
+              ],
+              [
+                "├─ PR/marketing",
+                "200 000 000 kusů",
+                "0.02",
+                "uzamčení na 3 měsíce, uvolnění na 45 měsíců"
+              ],
+              [
+                "└─ Raní investoři",
+                "400 000 000 kusů",
+                "0.04",
+                "uzamčení na 3 měsíce, uvolnění na 33 měsíců"
+              ]
+            ]
+          }
+        },
+        "philosophy": {
+          "title": "Proč je tento design?",
+          "items": [
+            "**Prioritizace uživatelů**: 90 % tokenů je přiděleno uživatelům, aby bylo zajištěno, že komunita skutečně profituje, místo aby byla monopolizována několika jednotlivci.",
+            "**Týmové pobídky**: 10 % pro tým a rané investory, aby projekt měl dostatečné zdroje pro neustálý vývoj, s umírněným podílem, aby se předešlo nadměrné koncentraci.",
+            "**Žádné předem rezervované předprodeje/VC**: Neponecháváme kvóty pro institucionální investory a všechny tokeny jsou distribuovány uživatelům prostřednictvím spravedlivého mechanismu.",
+            "**Omezení rizik**: Alokace týmu podléhá mechanismům uzamčení a lineárního uvolňování, čímž se účinně snižuje riziko krátkodobého dumping a chrání zájmy investorů."
+          ]
+        }
+      },
+      "emission": {
+        "title": "Halving a mechanizmus uvolnění",
+        "halving": {
+          "title": "6 fázový mechanismus halvingu",
+          "description": "Abychom podpořili rané účastníky, distribuce tokenů využívá mechanismus 'progresivního půlení'. Čím dříve se připojíte, tím více tokenů můžete získat:",
+          "table": {
+            "headers": [
+              "Fáze",
+              "Rozsah vydané částky",
+              "Vzít za 1 USDT",
+              "Popis"
+            ],
+            "rows": [
+              [
+                "Fáze 1",
+                "0 ~ 4.5B",
+                "1.0 kus",
+                "První účastníci, výměna 1:1"
+              ],
+              [
+                "Fáze 2",
+                "4.5B ~ 6.75B",
+                "0.5 kus",
+                "Půleno"
+              ],
+              [
+                "Fáze 3",
+                "6.75B ~ 7.875B",
+                "0.25 kus",
+                "Znovu půleno"
+              ],
+              [
+                "Fáze 4",
+                "7.875B ~ 8.4375B",
+                "0.125 kus",
+                "Pokračujte v dělení"
+              ],
+              [
+                "Fáze 5",
+                "8.4375B ~ 8.71875B",
+                "0.0625 kus",
+                "Blíží se konec"
+              ],
+              [
+                "Fáze 6",
+                "8.71875B ~ 9B",
+                "0.03125 kus",
+                "Poslední fáze"
+              ]
+            ]
+          },
+          "example": "Například: V Fázi 1, pokud odešlete 100 USDT Red Packet, můžete získat 100 $moonini; v Fázi 2, odeslání stejného 100 USDT Red Packet by vám přineslo pouze 50 $moonini. Čím dříve se zapojíte, tím větší je vaše výhoda!"
+        },
+        "vesting": {
+          "title": "Uzamčení a uvolnění kvóty týmu",
+          "description": "Na trhu plném 'skladů myší' a 'skrytých čipů' jsme zvolili nejsložitější, ale přesto čestnou cestu. Hlouběji rozumíme tomu, že pouze úplným odstraněním strachu uživatelů z 'prodeje týmem' můžeme vytvořit pravou důvěru.",
+          "items": [
+            "**Naprostá transparentnost, žádné skrývání**: Nemáme žádné skryté peněženky ani nezveřejněné zásoby v oběhu. Všechny distribuce tokenů jsou veřejně dostupné na řetězci a podléhají dohledu komunity.",
+            "**Týmová sebekázeň, dlouhodobý závazek**: Období uvolnění pro hlavní tým trvá **48 měsíců (4 roky)**. V oblasti kryptoměn jsou čtyři roky dlouhý cyklus. To dokazuje, že jsme zde nejen pro rychlý zisk, ale jsme odhodláni prožívat býčí a medvědí trhy spolu s komunitou, abychom vybudovali dlouhodobou hodnotu.",
+            "**Konsensus investorů**: Naši raní investoři se hluboce ztotožňují s kulturou 'sdílení a darování' Red Packet a dobrovolně podepsali **36měsíční** dohodu o lineárním uvolnění. To znamená, že v počátečních fázích projektu žádná strana (včetně investorů) nemá dostatek tokenů, aby ovlivnila trh."
+          ],
+          "benefit": "Toto není jen pravidlo uzamčení, ale naše **'Prohlášení proti sklizni'**. Skrze tuto téměř rigorózní sebekontrolu zajišťujeme, že nikdo - ať už zakladatelé nebo velcí držitelé - nemůže zradit komunitu v raných fázích. Stojíme po boku všech odesílatelů Red Packetů, abychom společně udrželi čistotu této sociální hodnoty."
+        },
+        "why": {
+          "title": "Proč to děláme?",
+          "items": [
+            "**Snížení krátkodobých dumpů**: Zámkové a lineární uvolňovací mechanismy zabraňují týmu a investorům v tom, aby prodávali velké množství již na začátku projektu.",
+            "**Prodlužte životnost projektu**: Postupné uvolňování zajišťuje, že projekt má dostatek času na rozvoj a zavedení hodnoty.",
+            "**Chraňte investory**: Mechanismy halvingu a návrhy zámků poskytují větší ochranu pro rané držitele."
+          ]
+        }
+      },
+      "utility": {
+        "title": "Získávání uživatelů a scénáře použití",
+        "how_to_earn": {
+          "title": "Jak vydělat $moonini?",
+          "methods": [
+            "**Odeslat Red Packet**: Za každý **ekvivalent 1 USDT** odeslaný jako Red Packet (podporující více měn) účastníci obdrží odpovídající $moonini na základě aktuální fáze.",
+            "**Dokončit úkoly**: Zahrnuje jednorázové úkoly a sociální úkoly. Aby byla zajištěna spravedlnost, každému účtu je povoleno dokončit každý úkol pouze jednou nebo je nastaven celkový limit, aby se předešlo zlému farmaření mincí.",
+            "**Pozvi přátele**: Pozvi nové přátele a dokonči úkoly sdílení, obě strany obdrží odměny. **Každý účet má limit na odměny za pozvání**, a konkrétní pravidla se řídí oznámeními komunity.",
+            "**Spolupracující aplikace**: Dokončování specifických akcí ve hrách nebo aplikacích integrovaných s Moonpacket API může také přinést $moonini."
+          ]
+        },
+        "how_to_use": {
+          "title": "Použití $moonini",
+          "items": [
+            "**Slevy na poplatky**: V budoucnu může být $moonini použito k pokrytí části poplatků za transakci Red Packet.",
+            "**Odemkněte funkce**: Některé prémiové funkce mohou vyžadovat držení určitého množství $moonini pro použití.",
+            "**Práva na hlasování v rámci správy**: Držení $moonini umožňuje účast v budoucích hlasováních o správě komunity, ovlivňující směr vývoje projektu.",
+            "**Redemption Ekosystému**: Můžete jej uplatnit za speciální výhody nebo odměny v partnerských aplikacích nebo hrách."
+          ]
+        }
+      },
+      "developer": {
+        "title": "Ekosystém vývojářů",
+        "description": [
+          "moonpacket je více než jen nástroj pro Red Packet; je to otevřená **sociální likviditní vrstva**.",
+          "Díky standardizovaným API a SDK může jakýkoli Telegram bot, GameFi nebo Web3 aplikace přistupovat k incentivní vrstvě $moonini. Soustřeďte se na vývoj produktu a my vám pomůžeme s růstem a udržením."
+        ],
+        "architecture": {
+          "title": "Naprogramovatelné pobídky",
+          "description": "Systém distribuce odměn založený na událostech, který podporuje zpětné volání Webhook a ověřování na blockchainu."
+        },
+        "cta": {
+          "text": "Zjistit více o integračních řešeních",
+          "link_text": "Přečtěte si dokumentaci k API pro vývojáře"
+        }
+      },
+      "contracts": {
+        "title": "Adresa smlouvy",
+        "description": "Aby byla zajištěna transparentnost, všechny klíčové adresy chytrých kontraktů budou zveřejněny a ověřeny.",
+        "items": {
+          "token": "$moonini Token (Smlouva o minulosti)",
+          "emission": "Emisní trezor (90% trezor veřejného vydání)",
+          "reserve": "Rezervní trezor (10% týmová kvóta trezoru)",
+          "phase": "Správce Fáze (Kontrolor Halvingu)",
+          "vesting": "Vesting Vault (Kontroler lineárního uvolnění)",
+          "pol": "POL Manažer (Odkup a Obrana Cenového Dna)",
+          "protection": "Ochrana spuštění (Otevřená fáze proti snipingům)",
+          "timelock": "Řídicí prvek s časovým zámkem (48hodinový zpožděný zámek)"
+        },
+        "status": "(Bude aktualizováno po nasazení mainnetu)"
+      },
+      "governance": {
+        "title": "Správa a bezpečnost",
+        "principles": {
+          "title": "Principy správy",
+          "description": "Naším základním principem je: **neexistuje žádná jediná nejvyšší autorita**, všechny důležité operace vyžadují více potvrzení a zpožděné zveřejnění k zajištění transparentnosti a bezpečnosti."
+        },
+        "market_making": {
+          "title": "Skutečné prohlášení trhu",
+          "description": [
+            "**Odmítnout falešné transakce**: Zavazujeme se nepoužívat wash trading nebo vytvářet falešnou hloubku. Každá transakce na K-lince pochází od skutečných uživatelů.",
+            "**Decentralizované tvorba trhu**: Likvidita je zcela určena tržní nabídkou a poptávkou, stejně jako automatickým mechanismem odkupu protokolu, spíše než lidskou manipulací."
+          ]
+        },
+        "floor_defense": {
+          "title": "Obrana inteligentní ceny podlahy",
+          "mechanism": "**Mechanismus**: Když cena mince dosáhne spodního pásma, nahromaděné poplatky za protokol automaticky vykoupí a zničí/vstříkne likviditu.",
+          "anti_gaming": "**Strategie proti snipingu**: Aby se zabránilo robotům v předpovídání arbitráže, obsahují specifické 'časování vstupu' a 'částku jedné transakce' náhodné proměnné a nebudou zcela veřejné. Nicméně, základní logika zůstává: **poplatky za transakce se nakonec vrátí do fondu na podporu ceny**.",
+          "variance": "Poznámka: Vzhledem k tržní volatilitě není minimální cena absolutním základem, ale dynamickým podpůrným rozsahem."
+        },
+        "process": {
+          "title": "Proces správy",
+          "steps": [
+            "**Návrhy**: Důležitá rozhodnutí vyžadují potvrzení více podpisy.",
+            "**Zpožděné potvrzení**: Všechny vysoce rizikové operace musí projít 48hodinovým zpožděním potvrzení, během něhož jsou viditelné na blockchainu.",
+            "**Provádění**: Po uplynutí prodlevy pověřený personál provede akci nebo bude provedena automaticky.",
+            "**Zrušení**: Během prodlevy může navrhovatel návrh zrušit."
+          ]
+        },
+        "security": {
+          "title": "Bezpečnostní opatření",
+          "items": [
+            "**Potvrzení o více podpisech**: Všechny důležité operace vyžadují podpisy od alespoň 2 osob, aby se předešlo riziku jednoho bodu selhání.",
+            "**Mechanismus zpožděného provedení**: Operace s vysokým rizikem musí podléhat 48hodinovému zpoždění, aby měl komunitní prostor dostatek času na posouzení a reakci.",
+            "**Standardní knihovna smluv**: Používejte auditované standardní knihovny smluv k snížení rizik zranitelnosti.",
+            "**Audity třetích stran**: Chytré kontrakty podstoupí audity bezpečnosti třetími stranami, aby byla zajištěna bezpečnost.",
+            "**Transparentnost s otevřeným zdrojovým kódem**: Kód smlouvy je open-source, každý si ho může ověřit a zkontrolovat."
+          ]
+        },
+        "risk_mitigation": {
+          "title": "Jak snížit riziko jednoho bodu?",
+          "description": "Zajišťujeme, že žádná jednotlivá osoba nebo organizace nemůže plně ovládat projekt prostřednictvím multi-podpisu, zpožděné potvrzení, audity a otevřených vícevrstvých ochranných mechanismů. Všechna důležitá rozhodnutí procházejí transparentním a sledovatelným procesem, který poskytuje ujištění komunitě a investorům."
+        }
+      },
+      "roadmap": {
+        "title": "Dvoustopá mapa vývoje",
+        "status_notice": "⚠️ Aktuální stav: Fáze plánování zveřejnění. Tokeny zatím nejsou generovány (TGE na čekání) a konečná pravidla budou založena na verzi bílé knihy zveřejněné při TGE.",
+        "tracks": {
+          "product": "📱 Sledování produktu",
+          "token": "💎 Sledování tokenů"
+        },
+        "phases": [
+          {
+            "title": "Fáze 1: Původ (Genesis)",
+            "product": [
+              "**Telegram Bot spuštěn**: lehký plugin, který umožňuje komunitní Red Packet začít",
+              "**Základní systém úloh**: funkce pozvání a přihlášení",
+              "**Uživatelské akumulace**: vytvoření rané skupiny seed uživatelů"
+            ],
+            "token": [
+              "**Zkušební provoz bodů**: chování uživatelů generuje off-chain body",
+              "**Návrh tokenového modelu**: určení rozdělení 90/10 a mechanismu poloviny",
+              "**Litepaper zveřejněn**: zveřejnění návrhu ekonomického modelu komunitě"
+            ]
+          },
+          {
+            "title": "Fáze 2: Start (Ignition)",
+            "product": [
+              "**Ekologická integrace**: připojení obchodních partnerů a marketingových scénářů",
+              "**API otevřeno Beta**: umožnění třetím stranám připojit se k systému Red Packet",
+              "**Data dashboard**: uživatelé mohou vidět podrobné údaje o Red Packet a bodech"
+            ],
+            "token": [
+              "**Audity třetích stran**: kód kontraktu prošel bezpečnostní audit",
+              "**TGE (generování tokenů)**: nasazení hlavní sítě, zahájení výměny/mining mechanismu bodů",
+              "**Počáteční likvidita**: vytvoření základního fondu, zajištění základní hodnoty"
+            ]
+          },
+          {
+            "title": "Fáze 3: Expanze (Expansion)",
+            "product": [
+              "**Nezávislá aplikace (App)**: spuštění nezávislé aplikace obsahující funkce peněženky a IM",
+              "**Mezikladková podpora**: rozšíření na Discord nebo jiné komunitní platformy",
+              "**Nástroje pro správu DAO**: funkce hlasování komunity spuštěny"
+            ],
+            "token": [
+              "**Zahájení ekonomického cyklu**: mechanismus zpětného odkupu a zničení se automaticky spouští",
+              "**Více řetězce nasazení**: rozšíření na další vysoce výkonné veřejné řetězce",
+              "**Úplná decentralizace**: správa oprávnění se postupně předává DAO"
+            ]
+          }
+        ]
+      },
+      "risks": {
+        "title": "Rizika a odpovědnosti",
+        "description": [
+          "**Důležité prohlášení**: Tento dokument nepředstavuje žádnou formu investičního poradenství. Investice do kryptoměn nese vysoké riziko, včetně, ale nikoli výhradně, rizika cenové volatility, likvidity, technického rizika, regulačního rizika a dalšího.",
+          "",
+          "**Hlavní varování o rizicích**:",
+          "- **Riziko cenové volatility**: Ceny tokenů se mohou dramaticky měnit a dokonce klesnout na nulu. Prosím, ujistěte se, že se účastníte v rámci svého akceptovatelného rozmezí ztrát.",
+          "- **Riziko likvidity**: Počáteční likvidita může být nedostatečná, což může vést k vysokému skluzu nebo obtížím při okamžitém provádění obchodů.",
+          "- **Technické riziko**: I když budou chytré kontrakty auditovány, mohou stále existovat neznámé technické zranitelnosti nebo rizika útoků hackerů.",
+          "- **Regulační riziko**: Regulační politiky týkající se kryptoměn v různých zemích se mohou kdykoli změnit, což může mít vliv na provoz projektu nebo hodnotu tokenů.",
+          "",
+          "**Dělejte si vlastní výzkum (DYOR)**: Investoři by měli plně porozumět relevantním rizikům a investovat opatrně na základě své vlastní finanční situace a tolerance rizika. Tým projektu nenese odpovědnost za žádné investiční ztráty."
+        ],
+        "disclaimer": {
+          "title": "Důležité oznámení",
+          "text": "Tento dokument nepředstavuje žádný formu investičního poradenství. Investice do kryptoměn nesou vysokou úroveň rizika, včetně, ale nikoli výhradně, cenové volatility, likviditního rizika, technického rizika, regulačního rizika a dalších. Investoři by měli plně porozumět příslušným rizikům a investovat opatrně na základě své vlastní tolerance k riziku. Tým projektu nenese odpovědnost za žádné investiční ztráty."
+        },
+        "risks": {
+          "title": "Hlavní rizika",
+          "items": [
+            "**Riziko cenové volatility**: Ceny tokenů mohou výrazně kolísat a dokonce klesnout na nulu.",
+            "**Likviditní riziko**: Počáteční likvidita může být nedostatečná, což ovlivňuje obchodní zkušenost.",
+            "**Technické riziko**: Chytré smlouvy mohou obsahovat neznámé zranitelnosti, i když provedeme audity.",
+            "**Regulační Riziko**: Regulační politiky v různých zemích se mohou měnit, což může ovlivnit provoz projektu.",
+            "**Tržní riziko**: Celková volatilita trhu s kryptoměnami může ovlivnit ceny tokenů."
+          ]
+        }
+      },
+      "faq": {
+        "title": "Často kladené dotazy",
+        "items": [
+          {
+            "question": "Jak získat tokeny?",
+            "answer": "$moonini můžete získat prostřednictvím odesílání Red Packet, plněním úkolů, pozváním přátel atd. Čím více Red Packet odešlete a čím více úkolů splníte, tím více tokenů získáte. První účastníci získají také vyšší odměny."
+          },
+          {
+            "question": "Kdy mohu provést výběr?",
+            "answer": "Po spuštění hlavní sítě mohou uživatelé vybrat $moonini do své peněženky. Výběr vyžaduje zaplatit malé poplatky za plyn (poplatky na BSC síti), prosím, sledujte oficiální oznámení pro přesný čas spuštění."
+          },
+          {
+            "question": "Je podíl týmu uzamčen?",
+            "answer": "Ano. Podíl týmu (10%) bude uzamčen na 3 měsíce a poté postupně uvolněn v době 33-45 měsíců. Podíly pro operace, technický tým, PR/marketing mají celkovou délku 48 měsíců a podíly pro první investory mají celkovou délku 36 měsíců."
+          },
+          {
+            "question": "Proč používat mechanismus půlení?",
+            "answer": "Mechanismus půlení je navržen tak, aby motivoval první účastníky a zároveň kontroloval rychlost uvolňování tokenů. Čím dříve se účastníte, tím více tokenů získáte, což pomáhá přitahovat první uživatele a investory a zároveň se vyhýbat nadměrnému uvolnění v pozdější fázi, což by mohlo vést k inflaci."
+          },
+          {
+            "question": "Jak postupovat, pokud dojde k problémům se smlouvou nebo systémem?",
+            "answer": "Snížíme riziko pomocí vícestupňových ochranných mechanismů, jako jsou bezpečnostní audity třetími stranami, potvrzení více podpisy a zpožděné provedení. Pokud nastanou problémy, aktivujeme pohotovostní postup, rozhodneme o řešení prostřednictvím správních mechanismů a včas oznámíme komunitě."
+          },
+          {
+            "question": "Jaké je celkové množství $moonini? Bude se zvyšovat?",
+            "answer": "Celková nabídka $moonini je 10 000 000 000 kusů (10B), pevně stanovené množství, nikdy se nebude zvyšovat. 90 % bude postupně uvolňováno prostřednictvím uživatelských aktivit, 10 % je určeno týmu a raným investorům."
+          },
+          {
+            "question": "Jak se zapojit do správy?",
+            "answer": "Uživatelé, kteří drží $moonini, se mohou zapojit do budoucího hlasování o správě komunity a ovlivnit směr vývoje projektu. Konkrétní mechanismy správy a způsob hlasování budou postupně zaváděny po spuštění hlavní sítě."
+          },
+          {
+            "question": "Lze obchodovat s $moonini?",
+            "answer": "Po spuštění hlavní sítě a vytvoření likviditního fondu bude možné obchodovat $moonini na decentralizovaných burzách (jako je PancakeSwap). Obchodování bude ovlivněno poptávkou a nabídkou na trhu, ceny se mohou měnit, proto investujte opatrně."
+          }
+        ]
+      }
+    },
+    "charts": {
+      "allocation": {
+        "title": "Distribuce tokenů",
+        "public": "Veřejná nabídka",
+        "team": "Týmová kvóta",
+        "operations": "Operace",
+        "tech": "Technický tým",
+        "marketing": "Public Relations/Marketing",
+        "investors": "Brzké investory"
+      },
+      "phase": {
+        "title": "6-fázový mechanismus halvování",
+        "phase": "Fáze",
+        "ratio": "Za každých 1 USDT můžete obdržet"
+      },
+      "vesting": {
+        "title": "Časový plán uvolnění kvót týmu",
+        "cliff": "Uzamykací období",
+        "release": "Období uvolnění"
+      },
+      "governance": {
+        "title": "Proces řízení",
+        "multisig": "Multisignature Wallet",
+        "proposal": "Návrh",
+        "timelock": "Opožděné potvrzení",
+        "execute": "Provést",
+        "update": "Aktualizace"
+      },
+      "flow": {
+        "title": "Proces oběhu tokenu",
+        "userSend": "Uživatel posílá Red Packet",
+        "fee": "Transakční poplatky",
+        "operations": "Provozní náklady",
+        "pol": "Fond odkupu",
+        "accumulate": "Akumulace",
+        "trigger": "Spouštěč zpětného odkupu",
+        "swap": "Výměna",
+        "addLiquidity": "Přidat likviditu",
+        "pool": "Likviditní fond",
+        "smart_floor": "Obrana chytré podlahové ceny"
+      }
+    }
+  },
+  "litepaper_api": {
+    "meta": {
+      "title": "API pro ověřování moonpacket",
+      "subtitle": "Standardní rozhraní pro dotazování na pravidla odměn a uživatelský stav (v2.3)",
+      "description": "Jednoduše poskytněte GET Endpoint pro moonpacket, aby mohl dotazovat vaše pravidla a stav uživatele, a snadno integrujte systém Red Packet a úkolů."
+    },
+    "sidebar": {
+      "overview": "Přehled integrace",
+      "logic": "Logika interakce",
+      "spec": "Specifikace API",
+      "ts_def": "Definice TypeScriptu",
+      "examples": "Příklad komunikace",
+      "security": "Bezpečnostní ověřování"
+    },
+    "hero": {
+      "badge": "API Specifikace v2.3",
+      "title": "API pro autentizaci",
+      "subtitle": "Aplikační rozhraní pro dotazy na atributy (GET)",
+      "desc": "Pomocí standardizovaného rozhraní pro dotazy GET moonpacket aktivně získává 'pravidla odměn' a 'atributy uživatelů' z vašeho serveru. Všechny logické úvahy jsou zpracovávány moonpacket.",
+      "cta_docs": "Zobrazit specifikaci",
+      "cta_key": "Vrátit Litepaper"
+    },
+    "content": {
+      "overview": {
+        "title": "Nastavení přístupu",
+        "desc": [
+          "Při výběru 'Vlastního API' v nastavení 'Podmínek nároku' moonpacket, prosím, zadejte svou URL koncového bodu.",
+          "**Metoda**: Prosím, použijte `GET`",
+          "**Typ obsahu**: `application/json`",
+          "**Autentizace**: Informace o autentizaci budou plně přenášeny prostřednictvím hlavičky (`X-API-KEY` a `Signature`), a URL nebude obsahovat citlivé informace."
+        ]
+      },
+      "logic": {
+        "title": "Logika interakce",
+        "desc": "Celý proces je rozdělen do dvou fází: 'Fáze nastavení' a 'Fáze spuštění'. moonpacket zašle požadavky na vaše API pomocí metody GET:",
+        "modes": [
+          {
+            "title": "Fáze 1: definice pravidel (konfigurace)",
+            "trigger": "Spouštěcí okamžik: když je zadán URL do „Nastavení podmínek“, a je odeslán",
+            "request": "GET",
+            "response": "vrátí objekt definice pravidel se znakem (gt, eq, lt...)"
+          },
+          {
+            "title": "Fáze 2: Ověření uživatele (Runtime)",
+            "trigger": "Spouštěcí podmínka: Uživatel se pokouší vybrat Red Packet",
+            "request": "GET ?user_id=...",
+            "response": "vrátí skutečné hodnoty atributů tohoto konkrétního uživatele (čisté číselné nebo řetězcové)"
+          }
+        ],
+        "note": "Podporovaní operátoři: `eq` (rovná se, podporuje řetězce/čísla), `gt` (větší než), `gte` (větší než nebo rovno), `lt` (menší než), `lte` (menší než nebo rovno). Hodnoty pro ne-`eq` operátory musí být čísla.",
+        "steps": {
+          "step1_label": "Krok jedna",
+          "step2_label": "Krok Dva"
+        }
+      },
+      "diagram": {
+        "user": "Uživatel",
+        "moonpacket": "moonpacket",
+        "dev_api": "Váš API",
+        "step1": "1. Během nastavení: Pravidla pro získávání (GET)",
+        "step2": "2. Během uplatnění: Dotaz na stav (GET)",
+        "click": "Klikněte pro uplatnění",
+        "check": "Logická shoda (místní)",
+        "grant": "Rozdělit odměny",
+        "reject": "Oznámení o kvalifikaci",
+        "client_app": "Klient / Server",
+        "json_data": "JSON data",
+        "saved_rule": "Pravidla uložená:",
+        "user_state": "Stav uživatele:"
+      },
+      "spec": {
+        "title": "Specifikace rozhraní (Specifikace)",
+        "request": {
+          "title": "Parametry žádosti (dotazovací parametry)",
+          "headers": [],
+          "query": [
+            "**api_key** (povinné): API klíč, který jste nastavili pro identifikaci",
+            "**user_id** (volitelné): Vrátí uživatelské atributy, pokud jsou přítomny; vrátí definice pravidel, pokud nejsou přítomny"
+          ]
+        },
+        "ts_def": {
+          "title": "Definice datové struktury (TypeScript)",
+          "desc": "Následující rozhraní definuje strukturu JSON, která musí být vrácena, aby ji mohly číst nástroje s asistencí AI:"
+        }
+      },
+      "scenarios": {
+        "title": "Scénáře aplikace",
+        "items": [
+          {
+            "title": "Integrace GameFi",
+            "desc": "Definujte pravidlo `level >= 10`. Když uživatel požádá, moonpacket zkontroluje atributy uživatele, pokud `level: 12`, pak je schváleno."
+          },
+          {
+            "title": "Odměna za vázání identity",
+            "desc": "Definujte pravidlo `kyc == true`. moonpacket kontroluje stav uživatele, a pokud se vrátí `kyc: true`, jsou poté rozděleny odměny."
+          },
+          {
+            "title": "Filtrace černé listiny",
+            "desc": "Definujte pravidlo `is_blacklist == false`. Pokud API vrátí `is_blacklist: true`, odmítněte výběr."
+          }
+        ]
+      },
+      "examples": {
+        "title": "Příklad komunikace (GET požadavek)",
+        "mode_a": {
+          "title": "1. Definovat pravidla (Nastavení)",
+          "desc": "Při odesílání nastavení vraťte JSON obsahující operátory."
+        },
+        "mode_b": {
+          "title": "2. Stav dotazu (běh)",
+          "desc": "Když uživatel uplatní nárok, vraťte čisté hodnoty nebo řetězce."
+        }
+      },
+      "signature": {
+        "title": "Ověření zabezpečení",
+        "desc": "Aby byla zajištěna autenticita požadavků, moonpacket zahrne do hlavičky podpis. Můžete se podívat na kód napravo pro validaci:",
+        "required_headers": "Potřebné hlavičky",
+        "algo_title": "Algoritmus podpisu",
+        "headers": {
+          "key": "X-API-KEY",
+          "ts": "X-API-TIMESTAMP",
+          "nonce": "X-API-NONCE",
+          "sig": "X-API-PODPIS"
+        },
+        "algo": "HMAC-SHA256",
+        "formula": "Podpis = HMAC_SHA256(tajný_kľúč, tělo + časová známka + nonce)",
+        "steps": [
+          "1. Extrahujte časové razítko, nonce a podpis z hlaviček",
+          "2. Ověřte, zda je časová značka v rozumném časovém rozsahu (např. ±5 minut)",
+          "3. Sjednoťte řetězec: RequestBody + Timestamp + Nonce",
+          "4. Vypočítejte HMAC-SHA256 pomocí vašeho tajného klíče",
+          "5. Porovnejte vypočítaný výsledek s podpisem v záhlaví"
+        ]
+      },
+      "reliability": {
+        "title": "Poznámka",
+        "items": [
+          "**Časový limit**: Zajistěte, aby API mohlo vracet výsledky během **3 sekund**.",
+          "**Formát**: Prosím striktně dodržujte strukturu JSON, jinak dojde k chybě při analýze."
+        ]
+      },
+      "error_codes": {
+        "title": "Stavové kódy",
+        "items": [
+          {
+            "code": "200",
+            "status": "OK",
+            "desc": "žádost byla úspěšná"
+          },
+          {
+            "code": "400",
+            "status": "Bad Request",
+            "desc": "došlo k chybě v parametrech žádosti (např. nesprávný formát)."
+          },
+          {
+            "code": "401",
+            "status": "Unauthorized",
+            "desc": "Chybí autorizace hlavička nebo klíč je neplatný."
+          },
+          {
+            "code": "403",
+            "status": "Forbidden",
+            "desc": "IP omezení nebo nemáte oprávnění k přístupu k tomuto zdroji."
+          },
+          {
+            "code": "404",
+            "status": "Not Found",
+            "desc": "ID uživatele neexistuje (pro scénář dotazování na stav uživatele)."
+          },
+          {
+            "code": "500",
+            "status": "Server Error",
+            "desc": "Chyba interního serveru."
+          }
+        ]
+      },
+      "disclaimer": {
+        "title": "Zpráva o odpovědnosti za API třetích stran",
+        "text": "Metody integrace pro platformy třetích stran uvedené v tomto dokumentu jsou pouze orientační. Vývojáři by měli konzultovat a dodržovat nejnovější oficiální dokumentaci pro vývojáře dané platformy."
+      }
+    },
+    "labels": {
+      "request": "Obsah žádosti",
+      "response": "Vrátit výsledek",
+      "code": "Kód stavu",
+      "status": "Stav",
+      "desc": "Popis"
+    }
+  },
+  "whitepaper": {
+    "title": "$moonini Bíla kniha",
+    "description": "Porozumění designové filozofii, ekonomickému modelu a technické architektuře tokenu $moonini",
+    "seo": {
+      "title": "$moonini Bíla kniha — moonpacket",
+      "description": "Kompletní popis tokenomiky $moonini, technické architektury a mechanismu správy"
+    },
+    "hero": {
+      "subtitle": "$moonini je pobídkový token komunity založený na platformě moonpacket. Čím více se uživatelé zapojují a interagují na moonpacket, tím více $moonini mohou získat. Pro investory je 90 % distribuováno uživatelům a 10 % týmu, čímž se efektivně snižuje riziko kolapsu trhu v kombinaci s mechanismem půlení a lineárním uvolněním.",
+      "cards": {
+        "user": {
+          "title": "Pro běžné uživatele",
+          "description": "Snadno vydělávejte $moonini zasíláním Red Packets, plněním úkolů a zváním přátel. Čím více používáte, tím více vyděláte, zcela zdarma."
+        },
+        "investor": {
+          "title": "Pro investory",
+          "description": "Celková částka 10B, distribuce 90/10, 6 fází půlení, lineární uvolnění týmu, navrženo pro dlouhodobou stabilitu, čímž se snižuje riziko kolapsu trhu."
+        },
+        "developer": {
+          "title": "Pro vývojáře/partnery",
+          "description": "Standardizované smlouvy, otevřené API, lze integrovat do jiných aplikací nebo her. Prosím, odkazujte se na technickou dokumentaci pro podrobné technické specifikace."
+        }
+      }
+    },
+    "toc": {
+      "title": "Obsah"
+    },
+    "sections": {
+      "overview": "1. Přehled projektu",
+      "tokenomics": "2. Tokenomika",
+      "architecture": "Tři, Technická architektura",
+      "emission": "Čtyři, Mechanismus uvolnění",
+      "governance": "Pět, Správa a bezpečnost",
+      "incentives": "Šest, Systém pobídek pro uživatele",
+      "developer": "Sedm, Průvodce pro vývojáře",
+      "roadmap": "8. Plánování cesty",
+      "risks": "9. Varování o riziku",
+      "faq": "Deset, Otázky k potvrzení"
+    },
+    "content": {
+      "overview": {
+        "what_is": [
+          "**$moonini** je token ekosystému platformy moonpacket, který se používá k odměňování uživatelů za aktivní chování na platformě, včetně:",
+          "- Odesílání červených obálek",
+          "- Pozvání přátel",
+          "- Dokončení úkolů",
+          "- Účast na komunitních aktivitách",
+          "",
+          "**Jednoduše řečeno**: Čím více používáte moonpacket, tím více $moonini vyděláte."
+        ],
+        "core_values": {
+          "title": "Základní hodnoty",
+          "values": [
+            "- ✅ **Decentralizace**: Na základě Binance Smart Chain (BSC) jsou všechny transakce transparentní a ověřitelné, není třeba důvěřovat třetím stranám.",
+            "- ✅ **Spravedlivé Rozdělení**: 90 % tokenů je distribuováno na základě uživatelských aktivit, 10 % je vyhrazeno pro tým a investory, což zajišťuje prioritu komunity.",
+            "- ✅ **Postupné Uvolnění**: Přijímá mechanismus půlení v 6 stupních, který povzbuzuje rané účastníky, aby si vydělali více, čím dříve se připojí.",
+            "- ✅ **Bezpečné a spolehlivé**: Používá auditované standardní knihovny smluv, všechny hlavní operace vyžadují potvrzení s více podpisy, plánování auditu bezpečnosti třetími stranami."
+          ]
+        }
+      },
+      "tokenomics": {
+        "info": {
+          "title": "2.1 Základní informace o tokenu",
+          "description": [
+            "| Položka | Hodnota | Popis |",
+            "|------|------|------|",
+            "| **Název tokenu** | moonini | Celý název |",
+            "| **Symbol tokenu** | MOONINI | Obchodní symbol |",
+            "| **Celková nabídka** | 10 000 000 000 tokenů (10B) | Fixní celková nabídka, nikdy inflační |",
+            "| **Desetinná místa** | 18 | Standard BSC |",
+            "| **Blockchain** | Binance Smart Chain (BSC) | Standard BEP-20 |"
+          ]
+        },
+        "allocation": {
+          "title": "2.2 Plán alokace",
+          "description": [
+            "**Celková nabídka: 10 000 000 000 tokenů (10B)**",
+            "",
+            "**Principy alokace**:",
+            "- **90% pro komunitu a likviditu**:",
+            "- Zahrnuje \"miningovou část\" generovanou prostřednictvím Red Packet a úkolů, stejně jako \"likviditní část\" používanou k vytvoření počátečních obchodních párů (projektový tým na začátku vkládá 10 000 USDT jako pool pro zajištění hodnoty při spuštění).",
+            "- Tato částka je plně vrácena účastníkům ekosystému, bez rezerv pro instituce nebo privátní umístění.",
+            "",
+            "- **10% pro tým a rané podporovatele**:",
+            "- **4% raní investoři**: Odměny za ranou finanční podporu.",
+            "- **2% technický tým**: Zajišťuje průběžný vývoj a údržbu protokolu.",
+            "- **2% Operační tým**: Odpovědný za správu komunity a plánování akcí.",
+            "- **2% Marketing a Stabilita Ekosystému**: Podporujte růst trhu a udržujte stabilitu ekosystému během extrémních podmínek jako rezervní fond.",
+            "",
+            "**Závazek správy**:",
+            "Implementujeme nejpřísnější interní kontrolu fondů. Všechny přidělení pro tým a provozní výdaje podléhají omezením **Multisig** a **Timelock**. Žádná jednotlivá osoba nemůže volně přistupovat k prostředkům, což zajišťuje, že každé výdaje jsou prováděny prostřednictvím kolektivního rozhodování a jsou veřejně transparentní."
+          ]
+        },
+        "phase": {
+          "title": "2.3 6-fázový mechanismus půlení",
+          "description": [
+            "Abychom povzbudili rané účastníky, distribuce tokenu přijímá mechanismus 'progresivního půlení':",
+            "",
+            "| Fáze | Rozsah vydané částky | Poměr výměny (za 1 USDT) | Popis |",
+            "|------|------------|---------------------|------|",
+            "| **Fáze 1** | 0 ~ 4.5B | **1.0 token** | Ranní účastníci, výměna 1:1 |",
+            "| **Fáze 2** | 4.5B ~ 6.75B | **0.5 token** | Půleno |",
+            "| **Fáze 3** | 6.75B ~ 7.875B | **0.25 token** | Znovu půleno |",
+            "| **Fáze 4** | 7.875B ~ 8.4375B | **0.125 token** | Pokračující půlení |",
+            "| **Fáze 5** | 8.4375B ~ 8.71875B | **0.0625 token** | Blíží se ke konci |",
+            "| **Fáze 6** | 8.71875B ~ 9B | **0.03125 token** | Poslední fáze |",
+            "",
+            "**Příklad**:",
+            "- Ve fázi 1, pokud pošlete Red Packet 100 USDT, můžete obdržet 100 $moonini",
+            "- Ve fázi 2, pokud pošlete Red Packet 100 USDT, můžete obdržet pouze 50 $moonini",
+            "- Čím dříve se zapojíte, tím více tokenů obdržíte!"
+          ],
+          "value_logic": [
+            "💡 Filozofie a hodnotový cyklus Red Packet",
+            "",
+            "**Duch Red Packetu je 'Dávání' a 'Spojení'**:",
+            "Pocházející z východní kultury, Red Packet představuje nejen převod prostředků, ale také lásku od starších k mladším, gratulace a sdílení mezi přáteli. V moonpacket, každé odeslání Red Packet je teplá sociální interakce.",
+            "",
+            "**Od sociálního chování k ekonomické hodnotě**:",
+            "Věříme, že tyto činy dobré vůle by měly být zaznamenány a oceněny. $moonini není pouze odměnový token; je hodnotovým nosičem této sociální sítě, generující dlouhodobé ekonomické efekty z každého 'dávání'.",
+            "",
+            "**Podpora skutečné hodnoty:**",
+            "Pro udržení stability této sociální hodnoty protokol specifikuje: **50 % příjmů z transakčních poplatků bude automaticky vloženo do likviditního fondu**.",
+            "",
+            "To znamená: čím aktivnější je komunita ➔ tím více interakcí s Red Packet ➔ tím více prostředků vložených do likviditního poolu ➔ tím solidnější základ hodnoty $moonini. Toto je pozitivní cyklus založený na skutečných společenských potřebách a podnikových příjmech, spíše než pouze spekulativním hazardem."
+          ]
+        }
+      },
+      "architecture": {
+        "blockchain": {
+          "title": "3.1 Výběr blockchainu: Binance Smart Chain (BSC)",
+          "why": [
+            "**Proč zvolit BSC?**",
+            "",
+            "| Výhoda | Popis |",
+            "|------|------|",
+            "| ✅ **Nízké poplatky** | Průměrné náklady na transakci $0.1-$0.5, což je mnohem méně než u Etherea |",
+            "| ✅ **Rychlé potvrzení** | Průměrná doba potvrzení 3 sekundy pro plynulý zážitek |",
+            "| ✅ **Zralý Ekosystém** | Bohaté DeFi nástroje s širokou uživatelskou základnou |",
+            "| ✅ **EVM kompatibilní** | Lze znovu používat zdroje ekosystému Ethereum |",
+            "| ✅ **Adopce peněženek** | Hlavní peněženky jako MetaMask, Trust Wallet podporují |"
+          ]
+        },
+        "contracts": {
+          "title": "3.2 Architektura chytrých smluv",
+          "description": [
+            "Používáme průmyslově ověřené standardy chytrých kontraktů, abychom zajistili bezpečnost a spolehlivost tokenů.",
+            "",
+            "**Základní designové principy**:",
+            "- **Decentralizované**: Všechny mechanismy emisí a uvolnění tokenů jsou automaticky prováděny prostřednictvím chytrých kontraktů, což nevyžaduje žádnou lidskou intervenci.",
+            "- **Transparentní a Sledovatelné**: Všechny provozní záznamy jsou uloženy na blockchainu, přístupné komukoli.",
+            "- **Bezpečné a spolehlivé**: Využívání standardní knihovny smluv auditované třetí stranou pro zajištění kvality kódu a bezpečnosti.",
+            "",
+            "**Hlavní funkce**:",
+            "- **Emitování tokenů**: Vydávání a převod tokenů v souladu se standardy BSC.",
+            "- **Automatické uvolnění**: Spravujte postupné uvolnění (6 fází půlení) 90 % veřejně vydaných tokenů.",
+            "- **Lock-up Týmu**: Řízení 10% alokace týmu pro lock-up a lineární uvolnění",
+            "- **Mechanismus řízení**: Všechny důležité operace vyžadují potvrzení více podpisy, s 48hodinovým čekacím obdobím, aby měla komunita čas na přezkoumání.",
+            "- **Automatické zpětné odkupy**: Poplatky na platformě jsou automaticky použity na zpětný odkup tokenů, čímž se zvyšuje likvidita",
+            "",
+            "**Bezpečnostní opatření**:",
+            "- Využívá standardní knihovnu smluv auditovanou třetí stranou k zajištění kvality kódu a bezpečnosti",
+            "- Všechny důležité operace vyžadují potvrzení více podpisy, s 48hodinovou dobou na rozmyšlenou, která dává komunitě čas na zhodnocení",
+            "- Pokročilá autentizační technologie používaná při výběrech uživatelů, která zajišťuje, že pouze uživatel může provádět operace",
+            "- Používá mechanismus prevence opětovného přehrávání, aby chránil uživatelské prostředky",
+            "- Plán provést audit bezpečnosti třetími stranami (CertiK / PeckShield / SlowMist)",
+            "",
+            "*Pro podrobné technické specifikace, rozhraní smluv a definice funkcí prosím odkazujte na: [Dokument technické specifikace](/cs-CZ/docs/technical)*"
+          ]
+        }
+      },
+      "emission": {
+        "public": {
+          "title": "4.1 Veřejná nabídka (90%)",
+          "initial_liquidity": [
+            "**Počáteční likvidita**:",
+            "- Předfinancujte část tokenů z veřejné nabídky 90 % z pokladny, abyste vytvořili počáteční likviditní pool s USDT",
+            "- Zajistit, aby byly tokeny po spuštění obchodovatelné normálně a poskytovaly investorům zajištění likvidity.",
+            "- Specifické částky budou oznámeny před spuštěním mainnetu"
+          ],
+          "launch_protection": [
+            "**Otevírání mechanismu proti snipeům**:",
+            "- **Limity na jednorázový nákup**: 30 minut před otevřením může jedna peněženka zakoupit pouze 0,5 % nebo 1 % z celkové částky",
+            "- **Chráníme malé retailové investory**: Zabraňte velkým držitelům, aby při otevření trhu odčerpali veškerou likviditu.",
+            "- **Časové okno**: Automaticky zrušeno po 30 minutách, neovlivňuje normální obchodování",
+            "- **Zajistit stabilitu cen**: Vyhněte se prudkým cenovým výkyvům při otevření"
+          ],
+          "release_methods": [
+            "**Metoda vydání**: Postupné vydání prostřednictvím uživatelských aktivit",
+            "",
+            "**Zdroje verze**:",
+            "1. **Odeslat Red Packet**: Za každé odeslání 1 USDT Red Packet obdržíte odpovídající $moonini podle aktuální fáze",
+            "2. **Pozvěte přátele**: Úspěšně pozvěte nové uživatele a dokončete úkoly sdílení, abyste získali $moonini",
+            "3. **Dokončete úkoly**: Dokončete úkoly za úspěch, sociální úkoly atd., abyste získali extra $moonini",
+            "4. **Ziskový Podíl Majitele Skupiny**: Majitelé skupin mohou získat 3% ziskový podíl (USDT) za rozesílání Red Packetů mezi skupinami"
+          ],
+          "cost_vs_price": [
+            "💡 **Náklady na výrobu vs Tržní cena**:",
+            "",
+            "V Fázi 1 je implicitní náklad na získání 1 $moonini prostřednictvím těžby Red Packet přibližně **0,02 USDT** (na základě 2% transakčního poplatku).",
+            "",
+            "Naše počáteční cena za uvedení je **0,01 USDT**.",
+            "",
+            "To znamená, že **cena nákupu na sekundárním trhu je o 50 % nižší než výrobní náklady**, což poskytuje přírodním držitelům bezpečnostní rezervu."
+          ],
+          "withdraw_mechanism": [
+            "**Mechanismus výběru**:",
+            "- Po získání $moonini na platformě mohou uživatelé provést výběr do své peněženky prostřednictvím bezpečného mechanismu ověření identity.",
+            "- Systém ověří na základě záznamů o aktivitách uživatele, aby zajistil, že operace může provádět pouze uživatel.",
+            "- Jakmile budou ověřeni, uživatelé si mohou vybrat své tokeny do své peněženky.",
+            "- **Minimální práh výběru**: 10 $moonini",
+            "- **Transakční poplatek**: Uživatelé musí zaplatit pouze poplatek za transakci v síti (v souladu s praktiky blockchainu)",
+            "",
+            "*Pro podrobné technické provedení se prosím podívejte na: [Dokument technických specifikací](/cs-CZ/docs/technical)*"
+          ],
+          "phase_switch": [
+            "**Přepínání fáze**:",
+            "- Automaticky se přepne na další fázi, když vydaná částka dosáhne prahu fáze",
+            "- Proces přepínání je průhledný a sledovatelný, zaznamenaný na řetězci"
+          ]
+        },
+        "team": {
+          "title": "4.2 Týmová kvóta (10%)",
+          "vesting_rules": [
+            "**Pravidla uzamčení a uvolnění**:",
+            "",
+            "| Kategorie | Proporce | Zásnubní období (Cliff) | Lineární období uvolnění | Celková doba trvání |",
+            "|------|------|---------------|-----------|--------|",
+            "| **Operace** | 2% (200M) | 3 měsíce | 45 měsíců | 48 měsíců |",
+            "| **Technický tým** | 2 % (200M) | 3 měsíce | 45 měsíců | 48 měsíců |",
+            "| **Veřejné vztahy/Marketing** | 2% (200M) | 3 měsíce | 45 měsíců | 48 měsíců |",
+            "| **Raní investoři** | 4 % (400M) | 3 měsíce | 33 měsíců | 36 měsíců |",
+            "",
+            "**Metoda uvolnění**:",
+            "- **Lineární akumulace**: Tokeny se akumulují lineárně v průběhu času a částku dostupnou k výběru lze zkontrolovat kdykoli.",
+            "- **Pravidelné vydání**: Automatické pravidelné spouštění pro uvolnění bez nutnosti manuálního zásahu.",
+            "- **Mechanismus upozornění**: Automatická upozornění zasílaná příjemcům po dokončení každého uvolnění.",
+            "",
+            "**Příklad**:",
+            "- Investor A obdrží 1 000 000 $moonini",
+            "- První 3 měsíce: Uzamčení, vybírání není povoleno",
+            "- Od 4. měsíce: Tokeny se akumulují lineárně v průběhu času, s pravidelnými výběry nahromaděné části",
+            "- Po 33 měsících: Všechny vydání dokončena."
+          ]
+        },
+        "kyc": {
+          "title": "4.3 Investor KYC a správa",
+          "methods": [
+            "**Metoda KYC** (pro omezený počet počátečních investorů):",
+            "",
+            "1. **KYC skutečného jména zakládajícího týmu** (Doporučeno, vhodné pro malé měřítko)",
+            "- Vhodné pro menší počet počátečních investorů (< 10 osob)",
+            "- Členové zakládajícího týmu (provoz + technika) provádějí videorozhovory s investory",
+            "- Ověřte identifikační doklady, doklady o adrese a další materiály",
+            "- Potvrdit prostřednictvím elektronického podpisu PDF (DocuSign/SignNow)",
+            "- **Výhody**: Nízké náklady, flexibilní proces, buduje důvěru",
+            "",
+            "2. **Shufti Pro** (Vhodné pro střední měřítka)",
+            "- Vhodné pro střední počet investorů (10-50 lidí)",
+            "- 10 volných ověřovacích slotů za měsíc (vhodné pro počáteční použití)",
+            "- Automatizovaný proces, podporuje ověřování dokumentů pro více zemí.",
+            "- **Výhody**: Automatizace, vysoká shoda, podporuje dokumentaci pro více zemí.",
+            "",
+            "3. **Jiné třetí strany KYC** (Budoucí rozšíření)",
+            "- Persona / Sumsub / Onfido jako alternativy",
+            "- Vhodné pro větší počet investorů (> 50 lidí)"
+          ],
+          "flexibility": [
+            "**Flexibilní design pro investory**:",
+            "",
+            "**Podpora pro více peněženek a různé poměry**:",
+            "- Investor může mít více peněženek pro přijímání tokenů.",
+            "- Každá peněženka může nastavit různé poměry alokace (např. 60 % / 40 %).",
+            "- Různí investoři mohou mít různé časy vstupu.",
+            "",
+            "**Mechanismus nahrazení peněženky (strategie zrušení a znovuvydání)**:",
+            "- Investoři mohou změnit svou peněženku pro příjem (vyžaduje opětovné ověření KYC).",
+            "- **Základní logika**: Místo přímé úpravy staré peněženky zrušte starý plán vydání a vytvořte nový plán vydání pro novou peněženku.",
+            "- **Proces**:",
+            "1. Investoři hlásí ztrátu/krádež svých starých peněženek a dokončují off-chain ověření KYC.",
+            "2. Prostřednictvím návrhu na vícestupňovou peněženku zrušte starý plán uvolnění a vraťte neprodané tokeny.",
+            "3. Vytvořte nový plán vydání pro novou peněženku, přičemž částka je zbývající část a čas je zbývající trvání.",
+            "4. Všechny operace mají 48hodinové zpoždění potvrzení, aby byla zajištěna transparentnost a bezpečnost.",
+            "- **Výhody**: Logika smlouvy je jednodušší (pouze vytvoření a zrušení), což výrazně snižuje riziko hacknutí.",
+            "- Ovlivňuje pouze část 'nebyla vydána'; vydané tokeny nelze zvrátit."
+          ]
+        }
+      },
+      "governance": {
+        "mechanism": {
+          "title": "5.1 Mechanismus řízení",
+          "core_principle": [
+            "**Základní princip**: **Žádná jediná nejvyšší autorita**, všechny důležité operace musí podléhat zpožděnému veřejnému přezkumu",
+            "",
+            "**Proces správy**:",
+            "1. **Návrh**: Návrh na správu vytvořený po schválení více podpisové peněženky",
+            "2. **Časové období přezkoumání**: Vstupte do fronty se zpožděním 48 hodin, všechny akce jsou veřejně viditelné na blockchainu",
+            "3. **Provedení**: Návrhy mohou být realizovány po uplynutí lhůty",
+            "4. **Zrušení**: Během období přezkoumání může navrhovatel zrušit návrh.",
+            "",
+            "**Spravovatelné položky**:",
+            "- Úpravy parametrů (transakční poplatky, limity zpětného odkupu atd.)",
+            "- Alokace rozpočtů (kvóty na další fázi, rozpočty akcí atd.)",
+            "- Vylepšení smlouvy (musí projít auditem)"
+          ]
+        },
+        "security": {
+          "title": "5.2 Bezpečnostní opatření",
+          "description": [
+            "**Víceúrovňová ochrana**:",
+            "1. **Multisignature peněženka**: Všechny důležité operace vyžadují alespoň 2 podpisy pro potvrzení",
+            "2. **Zpožděné provedení**: Všechny vysoce rizikové operace vyžadují 48 hodin zpoždění",
+            "3. **Auditing**: Prostřednictvím auditů zabezpečení třetích stran",
+            "4. **Open Source**: Kód smlouvy je open source a může být veřejně ověřen.",
+            "",
+            "**Správa oprávnění**:",
+            "- **Autorita vydávání tokenů**: Odvolána nebo převedena do správy pokladny, nemůže vydávat tokeny podle potřeby.",
+            "- **Zmrazení autority**: Uzavřeno, nelze zmrazit uživatelské tokeny.",
+            "- **Aktualizace autority**: Pouze adresa správy může měnit informace o tokenu."
+          ]
+        },
+        "pol": {
+          "title": "5.3 Vykup a tržní tvorba (POL - Neomezený vykup + Ochrana podlahové ceny)",
+          "mechanism": [
+            "**Mechanismus**:",
+            "- **1 %** z poplatků za transakce na platformě použito k odkupu $moonini a prohloubení likviditního fondu",
+            "- **Neomezené zpětné odkupy**: Žádný denní limit na zpětné odkupy; tolik transakčních poplatků, kolik jich je, zpětné odkupy i nadále poskytují podporu likvidity pro token.",
+            "- **Automatizovaná strategie**: Použití chytrých strategií zpětného odkupu k snížení předvídatelnosti a vyhnutí se manipulaci s trhem",
+            "- **Koupit ochranu**: Automaticky zvyšuje snahy o zpětný odkup, když dojde k výraznému poklesu na trhu, čímž chrání zájmy investorů."
+          ],
+          "floor_defense": [
+            "**Obrana cenové podlahy**:",
+            "- **Psychologická cenová úroveň**: 0,01 USDT",
+            "- **Automatická obrana**: Když cena klesne pod úroveň obrany, obranný mód se automaticky aktivuje a zvyšuje úsilí o zpětný odkup.",
+            "- **Automatizované tvorba trhu**: Automatizovaná tvorba trhu založená na chytrých kontraktech, vyžadující žádnou manuální intervenci, zajišťující stabilitu trhu",
+            "- **Ušetřete na poplatcích za tvůrce trhu**: Použijte rozpočet na vydávání Red Packetů, marketing nebo zvýšení počáteční likvidity"
+          ],
+          "philosophy": [
+            "**Design Philosophy**:",
+            "- Nízké vstupní bariéry, vysoké výnosy z herní teorie",
+            "- Projektová párty nezasahuje do trhu (pouze poskytuje odkupy transakčních poplatků)",
+            "- Čistý model SocialFi",
+            "- Automaticky udržuje psychologickou cenovou úroveň, aby podpořil důvěru na trhu",
+            "",
+            "*Pro podrobné technické parametry a implementační strategie se prosím odkazujte na: [Technická specifikace](/cs-CZ/docs/technical)*"
+          ]
+        },
+        "kyc": {
+          "title": "4.3 Investor KYC a správa",
+          "methods": [
+            "**Metody KYC** (pro malé množství počátečních investorů):",
+            "",
+            "1. **Zakládající tým Oprávněná osoba KYC** (doporučeno, vhodné pro malé projekty)",
+            "- Vhodné pro méně počátečních investorů (< 10 osob)",
+            "- Video rozhovory mezi členy zakládajícího týmu (operace + technologie) a investory",
+            "- Ověření identifikačních dokumentů, potvrzení o adrese a dalších dokumentů",
+            "- Potvrzení prostřednictvím PDF e-podpisu (DocuSign/SignNow)",
+            "- **Výhody**: Nízké náklady, flexibilní procesy, lze budovat vztahy založené na důvěře",
+            "",
+            "2. **Shufti Pro** (vhodné pro střední škálu)",
+            "- Vhodné pro mírný počet investorů (10-50 osob).",
+            "- 10 volných ověřovacích kreditů měsíčně (vhodné pro počáteční použití).",
+            "- Automatizované procesy podporující ověřování dokumentů v několika zemích",
+            "- **Výhody**: Automatizace, vysoká shoda, podpora dokumentů pro více zemí",
+            "",
+            "3. **Jiné KYC třetích stran** (budoucí rozšíření)",
+            "- Persona / Sumsub / Onfido jako alternativy",
+            "- Vhodné pro větší počet investorů (> 50 lidí)"
+          ],
+          "flexibility": [
+            "**Flexibilní design pro investory**:",
+            "",
+            "**Podpora pro více peněženek a různé poměry**:",
+            "- Investor může mít několik peněženek pro přijímání tokenů.",
+            "- Každá peněženka může mít nastaveny různé poměry alokace (např. 60 % / 40 %).",
+            "- Různí investoři mohou mít různá časová období vstupu.",
+            "",
+            "**Mechanismus změny peněženky (strategie zrušení a nového vydání)**:",
+            "- Investoři mohou změnit přijímací peněženku (vyžaduje opětovné ověření KYC).",
+            "- **Jádrová logika**: Místo přímé úpravy staré peněženky zrušte starý plán vydání a vytvořte nový plán vydání pro novou peněženku.",
+            "- **Proces**:",
+            "1. Investor nahlásí ztrátu/krádež staré peněženky a dokončí KYC verifikaci mimo řetězec.",
+            "2. Na základě návrhu vícera podpisové peněženky zrušte starý plán vydání a vraťte nevydané tokeny.",
+            "3. Vytvořte nový plán vydání pro novou peněženku, přičemž částka bude zbývající část a čas bude zbývající doba.",
+            "4. Všechny operace podléhají 48hodinovému potvrzení zpoždění, aby se zajistila transparentnost a bezpečnost.",
+            "- **Výhody**: Logika kontraktu je jednodušší (pouze vytváření a zrušení), což významně snižuje rizika hackování.",
+            "- Ovlivňuje pouze \"nevydanou\" část; již vydané tokeny nejsou k dispozici k získání."
+          ]
+        }
+      },
+      "incentives": {
+        "how_to_earn": {
+          "title": "6.1 Jak získat $moonini?",
+          "send_gift": [
+            "#### A. Odesílání Red Packetů",
+            "",
+            "- **Základní pravidla**: Za každý odeslaný **ekvivalent 1 USDT** červeného balíčku (podporuje více tokenů) systém vypočítá a rozdělí $moonini na základě aktuálního směnného kurzu fáze.",
+            "- **Přenos požehnání**: Červené obálky nejsou jen peníze; jsou přenosem požehnání. Každý akt darování bude zaznamenán na blockchainu a odměněn."
+          ],
+          "invite": [
+            "#### B. Pozvěte přátele (Sdílet Červené Obálky)",
+            "",
+            "- **Pravidla**: Pozvěte nové přátele a splňte úkoly sdílení, obě strany obdrží odměny.",
+            "- **Antispam mechanizmus**: Aby se zajistila spravedlnost, **každý účet má limit odměn za pozvání**, který bude dynamicky upravován podle nejnovějšího oznámení o herním designu komunity.",
+            "- **Řízení rizik**: Máme přísné mechanismy řízení rizik; jakékoli abnormální chování spamu bude považováno za neplatné."
+          ],
+          "quests": [
+            "#### C. Dokončování úkolů",
+            "",
+            "**Typy úloh**:",
+            "- Zahrnuje jednorázové úkoly pro dosažení (jako je zaslání prvního red packet) a sociální úkoly (jako je sledování oficiální komunity).",
+            "- Tyto úkoly jsou navrženy tak, aby se nováčci seznámili s funkcemi platformy, **každý účet může dokončit pouze jednou nebo má celkový limit množství**.",
+            "",
+            "**Účel návrhu**:",
+            "- Abychom zabránili automatizaci skriptů, která spammuje mince, a ponechali odměny pro skutečně aktivní uživatele."
+          ]
+        },
+        "fee_structure": {
+          "title": "6.2 Struktura poplatků",
+          "description": [
+            "**Transakční poplatky při odesílání Red Packet**:",
+            "",
+            "| Scénář | Celkové poplatky | Popis |",
+            "|------|---------|------|",
+            "| **Odesílání ve vlastní skupině** | 2% | 1% Operace + 1% Zpětný výkup |",
+            "| **Odesílání mezi skupinami** | 5% | 1% Operace + 1% Zpětný odkup + 3% Sdílení zisku vlastníka skupiny |",
+            "",
+            "**Použití poplatků**:",
+            "- **1% Operace**: Používá se na náklady spojené se servery, vývojem a marketingem.",
+            "- **1% zpětné odkupy**: Používá se k odkupu $moonini a prohloubení LP (bude realizováno v budoucnu).",
+            "- **3% Zisk z Podílu pro Vlastníka Skupiny**: Vypláceno vlastníkovi skupiny (poplatek se účtuje pouze za odesílání mezi skupinami)."
+          ]
+        }
+      },
+      "developer": {
+        "contracts": {
+          "title": "7.1 Adresa smlouvy (čeká na nasazení)",
+          "description": [
+            "Jakmile token oficiálně spustí, zde budou oznámeny všechny adresy chytrých kontraktů spolu se odpovídajícími odkazy na technické specifikace.",
+            "",
+            "**Hlavní smluvní moduly**:",
+            "- Smlouva o tokenu",
+            "- Správa a kontrola prodlev",
+            "- Veřejná nabídka pokladny",
+            "- Alokace týmu (pokladna)",
+            "- Správa odkupu",
+            "- Likviditní fond",
+            "- Víceúčelová peněženka",
+            "",
+            "*Pro podrobné adresy smluv a technické specifikace prosím odkazujte na: [Dokument technických specifikací](/cs-CZ/docs/technical)*"
+          ]
+        },
+        "api": {
+          "title": "7.2 Módy integrace a API (v plánování)",
+          "intro": [
+            "moonpacket plánuje poskytnout kompletní API ekosystém, který umožní třetím stranám a partnerům snadno integrovat mechanismus odměn $moonini do svých produktů. Ať už se jedná o Telegram bota, Web3 hru nebo platformu pro marketingové kampaně, naše API umožňuje uživatelům přijímat odměny $moonini a rozšiřovat ekologický vliv."
+          ],
+          "types": [
+            "**Typy API**:",
+            "",
+            "Plánujeme poskytnout následující typy API, abychom splnili různé integrační potřeby:",
+            "",
+            "- **API pro čtení dat**: Dotazujte se na záznamy o distribuci Red Packet, stav dokončení úloh, zůstatek uživatele $moonini a další, což umožňuje partnerům pochopit stav aktivity uživatelů.",
+            "",
+            "- **Distribuční a úkolový API**: Umožňuje partnerům spouštět distribuce Red Packet nebo odměny za úkoly ve svých vlastních produktech, například automaticky distribuovat odměny $moonini, když uživatelé dosáhnou konkrétních milníků ve hře.",
+            "",
+            "- **Webhook události**: Systém proaktivně informuje partnery o důležitých událostech, jako je dokončení úkolů, uplatnění Red Packet nebo dokončení výběrů, což umožňuje reakce v reálném čase a synchronizaci dat."
+          ],
+          "security": [
+            "**Bezpečnost a oprávnění**:",
+            "",
+            "Abychom zajistili bezpečnost a stabilitu API, zavádíme následující mechanismy:",
+            "",
+            "- **Autentizace API klíčem**: Každý partner obdrží vyhrazený API klíč nebo ID aplikace pro identifikaci a autorizaci.",
+            "",
+            "- **Omezení rychlosti**: Všechny API požadavky jsou omezeny, aby se zabránilo zneužívání a přetížení, čímž se zajišťuje stabilita služby.",
+            "",
+            "- **Ověření podpisu**: Kritické operace (např. vydávání odměn) vyžadují ověření podpisu žádosti, aby se předešlo padělání a neoprávněným akcím.",
+            "",
+            "- **Úrovně oprávnění**: Různí partneři budou mít různé úrovně API oprávnění na základě jejich spolupráce a potřeb, což zajišťuje princip minimálního oprávnění."
+          ],
+          "release": [
+            "**Uvolňovací rytmus**:",
+            "",
+            "API přijme progresivní otevírací strategii, aby zajistila stabilitu a bezpečnost:",
+            "",
+            "- **Uzavřená Beta**: Původně poskytováno partnerům a raným vývojářům her v formátu uzavřené bety pro sběr zpětné vazby a optimalizaci zkušeností.",
+            "",
+            "- **Postupné Otevírání**: Po ověření stability během beta fáze se aplikace postupně otevírají, aby umožnily více vývojářům integrovat ekosystém $moonini.",
+            "",
+            "- **Oficiální vydání**: Jakmile API dosáhne stabilní produkční úrovně, bude oficiálně otevřeno pro veřejnost, s kompletní dokumentací a podporou."
+          ],
+          "scenarios": {
+            "title": "Typické integrační scénáře",
+            "items": [
+              "**Telegram Bot / Mini App**: Posílejte Red Packets ve svých skupinách nebo aplikacích, aby uživatelé mohli získat odměny $moonini a zvýšili tak zapojení uživatelů.",
+              "",
+              "**Web3 hry**: Nahlaste stav dokončení úkolů ve hrách moonpacket, což hráčům umožní automaticky získat další odměny $moonini po dokončení herních úkolů.",
+              "",
+              "**Platformy marketingových kampaní**: Automaticky zasílejte odměny $moonini na základě chování uživatelů na sociálních médiích (např. sdílení, přetweetování, sledování atd.), čímž dosáhnete přesného marketingu.",
+              "",
+              "**DeFi protokoly**: Integrujte $moonini jako další vrstvu odměn, která uživatelům umožní získávat odměny v $moonini navíc k původním ziskům za splnění specifických DeFi akcí.",
+              "",
+              "**Platformy pro tvorbu obsahu**: Automaticky vydávejte odměny $moonini, když tvůrci dokončí specifické úkoly nebo dosáhnou milníků, což podporuje kvalitní tvorbu obsahu."
+            ]
+          }
+        },
+        "tools": {
+          "title": "7.3 Nástroje pro vývojáře a dokumentace",
+          "description": [
+            "Abychom pomohli vývojářům snáze integrovat Moonpacket API, plánujeme poskytnout kompletní vývojářské nástroje a dokumentaci:",
+            "",
+            "- **Developer Portal**: Poskytuje jednotný vstupní bod pro vývojáře, včetně správy API klíčů, statistik využití, protokolů chyb a dalšího, což vývojářům umožňuje snadno spravovat své integrace.",
+            "",
+            "- **API Dokumentace**: Poskytuje kompletní dokumentaci REST API a Webhook, včetně vzorů požadavků, formátů odpovědí, vysvětlení chybových kódů atd., což vývojářům umožňuje rychlý start.",
+            "",
+            "- **SDK a ukázky kódu**: Poskytuje SDK v několika jazycích (například JavaScript, Python) a ukázky kódu, aby se snížily integrační překážky a umožnilo se rychlé zavedení pro vývojáře.",
+            "",
+            "V současnosti jsou technické dokumenty prezentovány na technické stránce dokumentačního centra (docs), včetně specifikací chytrých kontraktů, distribučních mechanismů, systémů úkolů a dalších technických podrobností. Kompletní dokumentace API bude organizována na stránce 《[Dokumentace API pro vývojáře](/cs-CZ/docs/api/)》 a oficiální dokumentace API a nástroje pro vývojáře budou postupně uvolňovány kolem spuštění mainnetu, takže zůstaňte s námi v kontaktu."
+          ]
+        }
+      },
+      "roadmap": {
+        "labels": {
+          "current": "Probíhá",
+          "done": "Dokončeno"
+        },
+        "phase1": {
+          "title": "Fáze 1: Infrastruktura (Dokončeno ✅)",
+          "items": [
+            "- [x] Návrh smlouvy tokenu",
+            "- [x] Dokument technické specifikace",
+            "- [x] Návrh datové struktury"
+          ]
+        },
+        "phase2": {
+          "title": "Fáze 2: Vývoj smlouvy (v probíhu 🚧)",
+          "items": [
+            "- [ ] Nasazení tokenové smlouvy (Testnet)",
+            "- [ ] Smlouva o řízení fáze",
+            "- [ ] Smlouva o převodu práv",
+            "- [ ] Integrace časového zámku",
+            "- [ ] Audit třetí stranou"
+          ]
+        },
+        "phase3": {
+          "title": "Fáze 3: Příprava na launch (plánováno 📅)",
+          "items": [
+            "- [ ] Nasazení na mainnet",
+            "- [ ] Vytvoření počáteční likviditní poolu",
+            "- [ ] Spuštění uživatelského incentivního systému",
+            "- [ ] Spuštění dashboardu"
+          ]
+        },
+        "phase4": {
+          "title": "Fáze 4: Rozšíření ekosystému (budoucnost 🔮)",
+          "items": [
+            "- [ ] Aktivace mechanismu odkupu POL",
+            "- [ ] Podpora mezi řetězci (Polygon / Arbitrum)",
+            "- [ ] Více DeFi integrací"
+          ]
+        }
+      },
+      "risks": {
+        "technical": {
+          "title": "9.1 Technické riziko",
+          "description": [
+            "| Riziko | Popis | Opatření proti riziku |",
+            "|------|------|---------|",
+            "| Zranitelnosti chytrých smluv | Smlouva může mít neznámé zranitelnosti | Prostřednictvím auditu třetími stranami, Bug Bounty |",
+            "| Únik soukromého klíče | Může dojít ke krádeži administrátorských soukromých klíčů | Používejte hardwarové peněženky, MPC, vícestupňové podpisy |",
+            "| Problémy se sítí | Špičkové časy BSC mohou způsobit zpoždění | Víceuzlová redundance, optimalizace plynu |"
+          ]
+        },
+        "market": {
+          "title": "9.2 Tržní Riziko",
+          "description": [
+            "- **Cena Volatility**: Ceny Tokenů se mohou výrazně měnit.",
+            "- **Riziko likvidity**: Počáteční likvidita může být nedostatečná",
+            "- **Regulační riziko**: Regulační politiky v různých zemích se mohou měnit"
+          ]
+        },
+        "notice": {
+          "title": "9.3 Upozornění pro uživatele",
+          "description": [
+            "- ⚠️ **Riziko investice**: Ceny tokenů mohou klesnout na nulu, prosím investujte obezřetně",
+            "- ⚠️ **Není investiční poradenství**: Tento white paper nepředstavuje žádné investiční poradenství",
+            "- ⚠️ **Proveďte vlastní výzkum**: Prosím, proveďte vlastný výzkum a zhodnoťte rizika sami."
+          ]
+        }
+      },
+      "faq": {
+        "title": "Deset, problémy k potvrzení",
+        "description": [
+          "Tento white paper popisuje základní zásady návrhu a ekonomický model $moonini. Následující záležitosti jsou stále v koordinaci s poradci a partnery a budou finalizovány před spuštěním mainnetu:",
+          "",
+          "- **Časování vydání tokenu a burzy pro kotaci**: Konkrétní čas vydání a to, zda bude kotován na centralizovaných burzách (CEX), je stále v koordinaci s poradci a partnery.",
+          "",
+          "- **Technické detaily**: Některé technické implementační detaily (jako například podpora mezi blokovými řetězci a úpravy parametrů strategie odkupu) budou dokončeny před spuštěním mainnetu a aktualizovány v technickém dokumentu.",
+          "",
+          "- **Soulad a zdanění**: Požadavky na soulad a daňové zacházení jsou neustále aktualizovány na základě odborných názorů z Tchaj-wanu a místní oblasti, aby se zajistilo dodržování místních předpisů.",
+          "",
+          "- **Aktualizace bílého dokumentu**: Tento bílý dokument může mít drobné úpravy, ale základní principy (90/10 alokace, 6-fázový mechanismus halvingu, uzamčení a lineární uvolnění) zůstávají nezměněny.",
+          "",
+          "Všechny technické detaily, kroky nasazení a funkční rozhraní naleznete v [Dokumentu Technických Specifikací](/cs-CZ/docs/technical)."
+        ]
+      }
+    },
+    "charts": {
+      "phase": {
+        "title": "6fázový mechanismus halvingu",
+        "description": "Čím dříve se zapojíte, tím více tokenů obdržíte.",
+        "xAxis": "Oběh",
+        "yAxis": "Poměr výměny (na 1 USDT)",
+        "phase": "Fáze",
+        "ratio": "Poměr",
+        "range": "Interval",
+        "units": {
+          "ratio": "Kusy",
+          "usdt": "USDT"
+        }
+      },
+      "vesting": {
+        "title": "Časová osa uvolnění",
+        "description": "Přidělení týmu bude uzamčeno na 3 měsíce, poté uvolněno lineárně podle kategorie",
+        "cliff": "Období zámku",
+        "linear": "Linární doba uvolnění",
+        "total": "Celková doba",
+        "months": "Měsíce",
+        "operations": "Operace",
+        "tech": "Technický tým",
+        "marketing": "Veřejné vztahy/Marketing",
+        "investors": "Brzké investory"
+      },
+      "flow": {
+        "title": "Tokénový oběh",
+        "userSend": "Uživatel odešle Red Packet",
+        "fee": "Transakční poplatky",
+        "operations": "Provozně náklady",
+        "pol": "Fond zpětného odkupu",
+        "accumulate": "Akumulace",
+        "trigger": "Spouštěč zpětného odkupu",
+        "swap": "Token Swap",
+        "addLiquidity": "Přidat likviditu",
+        "pool": "Likviditní fond"
+      },
+      "governance": {
+        "title": "Governance Process",
+        "multisig": "Multi-signature peněženka",
+        "proposal": "Návrh",
+        "timelock": "Zpožděné provedení",
+        "execute": "Provést",
+        "update": "Aktualizace"
+      },
+      "architecture": {
+        "title": "Architektura chytrých kontraktů",
+        "token": "Tokenová smlouva",
+        "vault": "Trezor",
+        "manager": "Manažer",
+        "protection": "Ochranný mechanizmus"
+      },
+      "progress": {
+        "title": "Pokrok fáze",
+        "current": "Aktuální fáze",
+        "issued": "Vydáno",
+        "remaining": "Zbývá"
+      }
+    }
+  },
+  "api": {
+    "actions": {
+      "items": {
+        "0": "Přečtěte si [whitepaper](/cs-CZ/docs/whitepaper/) a dozvíte se o tokenu $moonini a jeho ekonomickém modelu.",
+        "1": "Přečtěte si [Dokument o technických specifikacích](/cs-CZ/docs/technical/), abyste porozuměli chytrým kontraktům a mechanismu uvolňování.",
+        "2": "Odešlete svůj požadavek na spolupráci s API přes oficiální kanály (Telegram, e-mail) a my vás prioritně informujeme, když bude API připraveno."
+      },
+      "title": "Co můžete nyní udělat?"
+    },
+    "content": {
+      "0": "Tato stránka brzy poskytne kompletní dokumentaci pro Moonpacket / $moonini API, včetně technických podrobností o REST API, událostech Webhook, OAuth autentizaci, správě API klíčů a další.",
+      "2": "API je v současnosti ve fázi návrhu a interní validace a bude nejprve zpřístupněna v uzavřené betě pro vybrané partnery, aby ji otestovali, shromáždili zpětnou vazbu a optimalizovali zkušenosti.",
+      "4": "Všechny technické detaily by měly odkazovat na 'Dokument technických specifikací' a bílé konto před zveřejněním oficiální dokumentace API."
+    },
+    "description": "Zjistěte, jak integrovat moonpacket a $moonini do svých produktů prostřednictvím API.",
+    "seo": {
+      "description": "Kompletní dokumentace API, REST API, Webhook a průvodce integrací",
+      "title": "Moonpacket / $moonini API Dokumentace — moonpacket"
+    },
+    "status": {
+      "planned": "(V přípravě)"
+    },
+    "subtitle": "Dokončit dokumentaci k API a průvodce integrací (v plánování)",
+    "title": "Dokumentace API Moonpacket / $moonini"
+  },
+  "countdown": {
+    "days": "Sky",
+    "hours": "Hodina",
+    "minutes": "minuty",
+    "seconds": "druhý",
+    "title": "Vzdálenost k oficiálnímu vydání $moonini"
+  },
+  "disclaimer": {
+    "badge": "Důležitá zpráva",
+    "text": "Tato položka je stále ve vývoji a bude následovat časový plán uvedený na mapě webu. Bíla kniha může být stále předmětem změn před oficiální distribucí tokenů, a žádáme uživatele o pochopení. Po distribuci tokenů nebude obvykle docházet ke změnám."
+  },
+  "distribution": {
+    "back_to_whitepaper": "Vrátit se k whitepaperu",
+    "description": "Rozumějte interním pravidlům distribuce a účetním metodám $moonini",
+    "intro": {
+      "0": "**Tento dokument je určen pro inženýry a vývojáře backendu**, a definuje specifická pravidla pro 'jak vydávat, jak mohou uživatelé uplatnit a zobrazit' v rámci produktu moonpacket.",
+      "2": "**Principy designu**:",
+      "3": "- **Minimální změny**: Upřednostněte použití stávající datové struktury, aniž byste okamžitě přidávali složité databázové tabulky.",
+      "4": "- **Rozšiřitelný**: V budoucnu, pokud $moonini chce být plně na blockchainu, stačí přidat logiku pro výběr/mapování.",
+      "5": "- **Transparentní a dohledatelné**: Všechny rozdělení a spotřeba $moonini jsou zaznamenány v `user_activity_logs`",
+      "7": "**Hlavní obsah**:",
+      "8": "- Datový model a účetní metoda (interní účetnictví)",
+      "9": "- $moonini distribuční zdroj a pravidla",
+      "10": "- Podrobnosti o realizaci účetnictví",
+      "12": "*Tento dokument obsahuje technické detaily, běžní uživatelé se mohou odkazovat na [whitepaper](/cs-CZ/docs/whitepaper/) pro přehled projektu.*",
+      "14": "Pro podrobnou dokumentaci se prosím odkažte na: `docs/technical/moonini-distribution.md`"
+    },
+    "seo": {
+      "description": "Dokončete pokyny k pravidlům a účetnímu systému distribuce $moonini",
+      "title": "$moonini distribuční mechanismus — moonpacket"
+    },
+    "title": "$moonini Distribuce a design sběru"
+  },
+  "index": {
+    "description": "Dokončete projektovou dokumentaci, bílou knihu a technické specifikace",
+    "sections": {
+      "general": "Obecné dokumenty",
+      "technical": "Technická dokumentace"
+    },
+    "title": "moonpacket Dokumentační centrum"
+  },
+  "missions": {
+    "back_to_whitepaper": "Vrátit se k bílé knize",
+    "description": "Zjistěte, jak vydělávat $moonini prostřednictvím úkolů a dosažení.",
+    "intro": {
+      "0": "**Tento dokument je určen inženýrům a vývojářům produktů**, definuje systém misí a mechanismus dosažení $moonini, a zahrnuje pocit úspěchu a společenské úkoly nad dvěma základními akcemi \"Red Packet + Pozvi přátele.\"",
+      "2": "**Principy návrhu**:",
+      "3": "- Všechny úkoly \"dodatečný $moonini\" se v zásadě točí kolem: **posílání Red Packetů, zvání přátel, sledování oficiálních komunit**",
+      "4": "- Úkol 'Jednorázová úloha' trvale zmizí po dokončení.",
+      "5": "- Systém úkolů poskytuje pouze \"bonusové body\" a nemění základní pravidla rozdělování.",
+      "7": "**Kategorie úkolu**:",
+      "8": "- **Úkoly za úspěchy** (jednorázové): Milníky pro posílání Red Packetů, milníky pro pozvání přátel, atd.",
+      "9": "- **Sociální úkoly** (jednorázové): Sledujte oficiální sociální média, připojte se k oficiálním komunitám, atd.",
+      "10": "- **Denní/Týdenní úkoly** (Rezervováno): Budoucí škálovatelné periodické úkoly",
+      "12": "*Tento dokument obsahuje technické detaily; běžní uživatelé se mohou odkazovat na [whitepaper](/cs-CZ/docs/whitepaper/) pro přehled projektu.*",
+      "14": "Pro podrobnou dokumentaci se prosím odvolejte na: `docs/technical/moonini-missions.md`"
+    },
+    "seo": {
+      "description": "Dokončení popisu systému misí a mechanismu úspěchů",
+      "title": "$moonini Úkolový systém — moonpacket"
+    },
+    "title": "$moonini úkoly a design dosažení"
+  },
+  "nav": {
+    "api": "API dokumentace",
+    "distribution": "Distribuční mechanismus",
+    "docs": "Dokument",
+    "missions": "Systém úloh",
+    "technical": "Technické specifikace",
+    "whitepaper": "Bílá Kniha"
+  },
+  "technical": {
+    "back_to_whitepaper": "Vrátit se na White Paper",
+    "description": "Inženýři vypracovávají specifikace, včetně rozhraní chytrých kontraktů, logiky fáze a mechanismů POL.",
+    "intro": {
+      "0": "**Tento dokument je určen pro inženýry, vývojáře chytrých smluv a auditory**, obsahující úplné technické implementační podrobnosti.",
+      "2": "**Cílový řetězec**: Binance Smart Chain (BSC)",
+      "3": "**Verze**: v1.0 (2024-11)",
+      "5": "**Hlavní obsah**：",
+      "6": "- Architektura inteligentních kontraktů a definice rozhraní",
+      "7": "- Logika správy fází (mechanismus půlení v 6 fázích)",
+      "8": "- Implementace mechanismu POL (Repurchase a Market Making)",
+      "9": "- Mechanismus uvolnění vestingů",
+      "10": "- Návrh správy a zabezpečení",
+      "11": "- Příklady kódu a technické grafy",
+      "13": "*Tento dokument obsahuje technické detaily. Obecní uživatelé si mohou přečíst [white paper](/cs-CZ/docs/whitepaper/) pro přehled projektu.*",
+      "15": "Pro podrobnou technickou dokumentaci se prosím odkažte na: `docs/technical/moonini-bsc-technical-spec.md`"
+    },
+    "seo": {
+      "description": "Dokončete technické specifikace a vývojovou příručku BSC smart kontraktů",
+      "title": "$moonini Technické specifikace — moonpacket"
+    },
+    "title": "$moonini BSC Technické specifikace"
+  },
+  "title": "Dokument",
+  "toc": {
+    "back_to_index": "Návrat do Centra dokumentů",
+    "title": "Katalog"
+  }
+}

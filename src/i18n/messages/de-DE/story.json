@@ -1,0 +1,101 @@
+{
+  "illustration_alt": "moonini umarmt die Illustration",
+  "title": "🌕 Die Geschichte von moonini",
+  "origin": [
+    "Eines Tages fiel ein roter Meteorit auf die andere Seite des Mondes,",
+    "Der Mondschein brach beim Aufprall und verwandelte sich in einen silber-weißen Lichtregen.",
+    "Aus diesem flimmernden roten 'red packet-Meteoriten',",
+    "Wurde ein leuchtendes kleines Mondkaninchen geboren — moonini.",
+    "",
+    "moonini trägt ein goldgelbes Mondabzeichen auf seiner Brust.",
+    "Er kann jede aufrichtige red packet spüren, die von der Erde gesendet wird.",
+    "Egal wie viel, es ist die reinste warme Energie.",
+    "Ja, moonini wächst dank der red packet Energie von allen.",
+    "",
+    "Diese Energien verwandelten sich in red packet-Zertifikate, die auf der Solana-Kette geboren wurden —",
+    "Das ist der Ursprung des $moonini Tokens."
+  ],
+  "secrets_title": "🌸 Sein Geheimnis",
+  "secrets_intro": "Jedes Mal, wenn Sie ein red packet senden, wird moonini einen Energieeintrag auf dem Mond aufzeichnen:",
+  "secrets_flow": "red packet senden → Entsprechenden Energiewert produzieren (in USDT-Wert umgerechnet) → Auf 10 ansammeln → Mindest einlösbaren $moonini Wert erreichen.",
+  "secrets_halving": [
+    "In der Anfangsphase (Phase 1) wird moonini in der Regel im besten 1:1 Verhältnis an den Sender des red packet zurückgeben. Um Fairness zu wahren und das Risiko von Wash/Ping-Pong zu verringern, werden wir das Konzept der effektiven Energie einführen.",
+    "Wenn die insgesamt gesendeten und abgehobenen Beträge aus der Gemeinschaft den festgelegten Halving-Schwellenwert des Systems erreichen, wird das erste Halving stattfinden; danach wird das Erreichen der Hälfte der vorherigen Menge ein weiteres Halving auslösen."
+  ],
+  "schedule_title": "Token Freigaberegeln",
+  "schedule_headers": [
+    "Bühne",
+    "Ausgabe-Limit",
+    "Ausgabeverhältnis (Energieproduktion pro 1 USDT angesammelt)",
+    "Beschreibung"
+  ],
+  "schedule_rows": [
+    [
+      "Phase 1",
+      "0 ~ 4.5 billion",
+      "1.0 $moonpacket / USDT",
+      "Initial period, energy overflow."
+    ],
+    [
+      "Phase 2",
+      "4.5B ~ 6.75B",
+      "0.5 $moonpacket / USDT",
+      "First halving."
+    ],
+    [
+      "Phase 3",
+      "6.75B ~ 7.875B",
+      "0.25 $moonpacket / USDT",
+      "Stabilization period."
+    ],
+    [
+      "Phase 4",
+      "7.875B ~ 8.4375B",
+      "0.125 $moonpacket / USDT",
+      "Scarcity period."
+    ],
+    [
+      "Phase 5",
+      "8.4375B ~ 8.71875B",
+      "0.0625 $moonpacket / USDT",
+      "Late mining phase."
+    ],
+    [
+      "Phase 6",
+      "8.71875B ~ 9B",
+      "0.03125 $moonpacket / USDT",
+      "Crystallization period (final phase)."
+    ]
+  ],
+  "cap_note": [
+    "Wenn die gesamte Umlaufmenge 9 Milliarden erreicht, wird moonini die Ausgabe weiterer Token stoppen.",
+    "Die verbleibenden 1 Milliarde (10 % des Gesamtangebots),",
+    "Vom Offiziellen für zukünftige Community-Belohnungen und den Nutzungspool für Zusammenarbeit reserviert."
+  ],
+  "belief_title": "🌕 Die Energie des Mondes und der Glaube an red packets",
+  "belief_paragraphs": [
+    "moonini liebt jeden, der bereit ist zu 'teilen'.",
+    "Er glaubt, dass red packets nicht nur Geld sind, sondern einen Austausch von Segnungen und Energie.",
+    "Jedes Mal, wenn Sie einen red packet senden, eine Aufgabe abschließen oder der moonpacket-Community beitreten,",
+    "haben Sie die Chance, eine Rückkehr vom Mond zu erhalten – zufällig $moonini.",
+    "",
+    "Das ist das Licht, das Ihnen das Universum zurückgibt, nachdem Sie Freude verbreitet haben."
+  ],
+  "future_title": "💫 Zukünftige Anwendungen",
+  "future_intro": "Derzeit ist $moonini für keine offiziellen Anwendungsszenarien geöffnet, sondern wurde als Belohnung und Energiezertifikat für die zukünftige red packet-Welt konzipiert, möglicherweise zu verwenden für:",
+  "future_list": [
+    "✅ Rabatte auf die Transaktionsgebühren für red packets",
+    "🎁 Händlergutscheine/Rabatte bei Einlösungen",
+    "🌐 Event-Airdrops und Community-Aufgabenbelohnungen"
+  ],
+  "disclaimer_title": "⚠️ Erklärung",
+  "disclaimer_paragraphs": [
+    "Der Offizielle garantiert keinen Fiat-Wechselkurs für $moonini.",
+    "Man kann es als Bonuspunkte einer großzügigen Person betrachten.",
+    "Symbolisiert jeden, der bereit ist, Glück zu teilen und Energie zu verbreiten."
+  ],
+  "closing": [
+    "moonini — der Mondkaninchen, geboren aus der Energie des red packets.",
+    "Jeder Segen ist ein Lichtstrahl für sein Wachstum."
+  ]
+}

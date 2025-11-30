@@ -1,0 +1,134 @@
+---
+interface Props {
+  lang?: string;
+}
+
+const { lang } = Astro.props;
+---
+
+<a 
+  href="#top" 
+  id="back-to-top"
+  class="back-to-top-button"
+  aria-label="返回頁面頂部"
+>
+  <span class="back-to-top-icon">↑</span>
+  <span class="back-to-top-text">Top</span>
+</a>
+
+<script>
+  // 滾動顯示/隱藏按鈕
+  const button = document.getElementById('back-to-top');
+  if (button) {
+    const showScrollThreshold = 300; // 滾動超過 300px 後顯示
+
+    function updateButtonVisibility() {
+      if (window.scrollY > showScrollThreshold) {
+        button.classList.add('visible');
+      } else {
+        button.classList.remove('visible');
+      }
+    }
+
+    // 初始檢查
+    updateButtonVisibility();
+
+    // 滾動事件監聽
+    window.addEventListener('scroll', updateButtonVisibility, { passive: true });
+
+    // 點擊平滑滾動到頂部
+    button.addEventListener('click', (e) => {
+      e.preventDefault();
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    });
+  }
+</script>
+
+<style>
+  .back-to-top-button {
+    position: fixed;
+    bottom: 2rem;
+    inset-inline-end: 2rem;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background: var(--primary);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
+    z-index: 1000;
+    opacity: 0;
+    pointer-events: none;
+    cursor: pointer;
+    font-family: 'Sora', system-ui, sans-serif;
+  }
+
+  .back-to-top-button.visible {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  .back-to-top-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+    background: var(--primary-dark);
+  }
+
+  .back-to-top-button:active {
+    transform: translateY(0);
+  }
+
+  .back-to-top-icon {
+    font-size: 1.25rem;
+    line-height: 1;
+    margin-bottom: 0.125rem;
+  }
+
+  .back-to-top-text {
+    font-size: 0.625rem;
+    font-weight: 600;
+    line-height: 1;
+  }
+
+  /* 移動端調整 */
+  @media (max-width: 768px) {
+    .back-to-top-button {
+      width: 2.5rem;
+      height: 2.5rem;
+      bottom: 1.5rem;
+      inset-inline-end: 1.5rem;
+    }
+
+    .back-to-top-icon {
+      font-size: 1rem;
+    }
+
+    .back-to-top-text {
+      font-size: 0.5rem;
+    }
+  }
+
+  /* RTL 支持 */
+  [dir="rtl"] .back-to-top-button {
+    inset-inline-end: 2rem;
+    inset-inline-start: auto;
+  }
+
+  /* 日夜间模式支持（按钮颜色已使用 CSS 变量） */
+  [data-theme="dark"] .back-to-top-button {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  }
+
+  [data-theme="dark"] .back-to-top-button:hover {
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.5);
+  }
+</style>
+

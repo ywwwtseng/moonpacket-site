@@ -1,0 +1,1514 @@
+{
+  "litepaper": {
+    "title": "$moonini Litepaper",
+    "description": "Értsd meg a $moonini token tervezési filozófiáját, gazdasági modelljét és alapvető értékeit.",
+    "seo": {
+      "title": "$moonini Litepaper — moonpacket",
+      "description": "$moonini egy közösségi ösztönző token, amely a moonpacket platformon alapul. Tudjon meg többet arról, hogyan szerezheti meg, használhatja és fektethet be az értékébe."
+    },
+    "hero": {
+      "subtitle": "$moonini egy közösségi ösztönző token, amely a moonpacket platformon alapul. Minél több felhasználó vesz részt a moonpacket tevékenységeiben, végez feladatokat és lép kapcsolatba, annál több $moonini-t kereshetnek. A befektetők számára a 90%-ot a felhasználóknak osztják ki, és 10% megy a csapatnak, egy felezési mechanizmussal és lineáris kiadással, amelyek hatékonyan csökkentik a dump kockázatokat, a hosszú távú stabilitás érdekében tervezve.",
+      "cards": {
+        "user": {
+          "title": "Általános Felhasználók Számára",
+          "description": "Könnyen kereshetsz $moonini-t Red Packet küldésével, feladatok teljesítésével, barátok meghívásával stb. Minél többet használod, annál többet keresel, teljesen ingyen."
+        },
+        "investor": {
+          "title": "A Befektetők Számára",
+          "description": "Összes kínálat 10B, 90/10 elosztás, 6 fázisú felezés és csapatelosztás lineáris kibocsátással, a hosszú távú stabilitás érdekében és a dump kockázat csökkentése érdekében tervezve."
+        },
+        "developer": {
+          "title": "Fejlesztők/Partnerek",
+          "description": "Szabványosított szerződések, nyitott API-k, amelyeket más alkalmazásokba vagy játékokba lehet integrálni. API-integráción keresztül csatlakoztassa termékeit a moonpacket ökoszisztémához."
+        }
+      },
+      "live_status": "A Protocol V1 mostantól elérhető",
+      "cta_start": "Kezdő olvasás",
+      "cta_hub": "Fejlesztői Központ"
+    },
+    "sections": {
+      "overview": "Áttekintés",
+      "problem": "Problémák és megoldások",
+      "concept": "moonpacket és $moonini alapfogalmai",
+      "tokenomics": "Tokenomika áttekintése",
+      "emission": "Félidő és Kiadás",
+      "utility": {
+        "subtitle": "Hogyan lehet keresni és használni"
+      },
+      "developer": "Fejlesztők és API integráció",
+      "governance": "Kormányzás és Biztonság",
+      "roadmap": "Útiterv",
+      "risks": "Kockázatok és Nyilatkozatok",
+      "faq": "GYIK",
+      "cta": {
+        "title": "Készen állsz csatlakozni ehhez a Red Packet közösségi élményhez?",
+        "earning": "Kezdj el most pénzt keresni Red Packetekkel",
+        "devs": "Fejlesztői Dokumentáció Olvasása"
+      },
+      "registry": {
+        "title": "On-chain Szerződés Nyilvántartás",
+        "network": "Mainnet: BSC (BNB Chain)",
+        "audit": "Audit állapot: **Ütemezve**"
+      },
+      "defense": {
+        "floor": {
+          "title": "🛡️ Intelligens padlóár védelem",
+          "mechanism": "Amikor a piaci ár megközelíti a padlóárat, a protokoll automatikusan aktiválja a védelmi mechanizmusokat, felhasználva az összegyűjtött POL-t (Protokoll Által Tulajdonolt Likviditás) a támogatás érdekében. Ez nem egy rigid kifizetés; játékelméletet alkalmaz, hogy a rövidítési költségeket végtelenül magasra emelje.",
+          "anti_gaming": "Megjegyzés: Az árfolyamnyereség-érzékelő támadások megelőzése érdekében a konkrét aktiválási küszöbök és védelmi erősségek dinamikusan vannak beállítva, és a pontos értékek nem kerülnek nyilvánosságra."
+        },
+        "anti_bot": {
+          "title": "🚫 Piacalkotás Menedzsment Elutasítása",
+          "items": [
+            "Minden tranzakció valódi felhasználói viselkedés.",
+            "Nincs piaci készítő bot",
+            "Elutasítja a hamis mennyiség manipulálását és a pumpálás/lerombolás folyamatát"
+          ]
+        }
+      },
+      "lockup": {
+        "title": "Stratégiai Zárolás",
+        "desc": "Egy olyan piacon, ahol 'egér raktárak' és 'rejtett chippek' léteznek, mi a legnehezebb, de legőszintébb utat választottuk. Mélyen megértjük, hogy csak a felhasználók 'csapat dumpokkal' kapcsolatos félelmeinek teljes megszüntetésével tudunk valódi bizalmat építeni.",
+        "benefit": "Ez nem csupán a zárolási szabályokról szól; ez a mi 'anti-harvest nyilatkozatunk'. Ezen a valamennyire szigorú önkorlátozáson keresztül biztosítjuk, hogy senki - legyenek akár alapítók vagy nagy birtokosok - ne tudja elárulni a közösséget a korai szakaszokban.",
+        "items": [
+          "Teljesen átlátható, nincs rejtőzködés: Nincsenek rejtett tárcáink vagy nyilvánosan nem közzétett korai forgalomban lévő készleteink. Minden chip elosztás nyilvánosan hozzáférhető láncon, a közösség felügyelete alatt.",
+          "Csapat elköteleződés, hosszú távú támogatás: A központi csapat kiadási időszaka akár 48 hónapig (4 év) is eltarthat. A kripto világában 4 év hosszú ciklusnak számít. Ez bizonyítja, hogy nem azért vagyunk itt, hogy gyors pénzt keressünk, hanem elkötelezettek vagyunk az iránt, hogy együtt tapasztaljuk meg a bikapiacot és a medvepiacot a közösséggel, és hosszú távú értéket építsünk.",
+          "Befektetői Konszenzus: Korai befektetőink mélyen azonosulnak a Red Packet kultúrájával, amely a 'megosztás és ajándékozás' köré épül, és önként aláírnak egy 36 hónapos lineáris kiadási megállapodást. Ez azt jelenti, hogy a projekt korai szakaszában egyik félnek (beleértve a befektetőket is) sincs elegendő chips-e ahhoz, hogy befolyásolja a piacot."
+        ]
+      }
+    },
+    "back_to_top": "↥ Vissza a tetejére",
+    "content": {
+      "overview": {
+        "paragraphs": [
+          "A moonpacket egy kripto Red Packet és marketing eszköz, amely kifejezetten Telegram közösségek számára készült. Legyen szó közösségi műveletekről, események népszerűsítéséről vagy új felhasználók meghívásáról, a moonpacket segítségével ezt könnyedén elérheti.",
+          "A felhasználók folyamatos használatának ösztönzése és a hosszú távú kapcsolatok kiépítése érdekében bevezettük a $moonini közösségi ösztönző tokent. Minden aktív tevékenység a platformon, beleértve a red packet küldését, feladatok teljesítését és barátok meghívását, megfelelő $moonini jutalmakat kereshet.",
+          "Általános felhasználók számára a $moonini egy további jutalom a Moonpacket használatáért; minél többet használ, annál többet keres. Befektetők számára a $moonini token gazdasági tervezése (90% a felhasználóknak, 10% a csapatnak, 6 szakaszos felezés, zárolási kiadások) hatékonyan csökkenti a rövid távú dump kockázatokat, és elősegíti a hosszú távú érték stabilitását."
+        ],
+        "highlights": {
+          "title": "Főbb jellemzők",
+          "items": [
+            "✅ **Tisztes elosztás**: A tokenek 90%-át felhasználói tevékenységeken keresztül osztják el, míg 10%-a a csapatnak és a korai befektetőknek jut.",
+            "✅ **Korai előny**: 6 lépcsős felezési mechanizmus, minél korábban csatlakozol, annál többet kapsz.",
+            "✅ **Kockázat csökkentése**: A csapat allokációja 3 hónapra lezárásra kerül, majd 33-45 hónap alatt lineárisan felszabadul.",
+            "✅ **Átlátható és ellenőrizhető**: Minden token elosztási és kibocsátási szabály nyilvánosan átlátható és on-chain ellenőrizhető."
+          ]
+        }
+      },
+      "problem": {
+        "title": "Problémák és Megoldások",
+        "problems": {
+          "title": "Fájdalompontok a meglévő Web3 / Telegram marketingben",
+          "items": [
+            "**Nehezen nyomon követhető hatékonyság**: A hagyományos Red Packet mechanizmusok nehezen követhetők a tényleges hatások szempontjából; nem világos, hogy ki igényelte, ki osztotta meg, vagy hogy hozott-e be új felhasználókat.",
+            "**Rövid távú profitrealizálás**: Sok projekt csak a rövid távú forgalomra összpontosít, piros borítékokat osztogatva, és hosszú távú ösztönző mechanizmusok nélkül távozik.",
+            "**Hosszú távú ösztönzők hiánya**: A felhasználók elhagyják a platformot a red packetek igénylése után, nem tudva hosszú távú kapcsolatokat kialakítani és folyamatos részvételt biztosítani."
+          ]
+        },
+        "solutions": {
+          "title": "A moonpacket + $moonini megoldása",
+          "items": [
+            "**Teljes viselkedésnyomozás**: A moonpacket nyilvántartja minden red packet átvételét, a megosztási magatartást és az új felhasználók bevezetését, lehetővé téve, hogy világosan megértsd a marketinghatékonyságot.",
+            "**Hosszú távú ösztönző mechanizmusok**: A $moonini token segítségével, minél többen vesznek részt, annál többet keresnek, így ösztönözve a hosszú távú részvételt.",
+            "**Mérsékelt érték elosztás**: A tokenek 90%-a a felhasználóknak jut, biztosítva a közösség prioritását, míg az olyan mechanizmusok, mint a felére csökkentés és a zárolás, csökkentik az árfolyam esésének kockázatát."
+          ]
+        }
+      },
+      "concept": {
+        "title": "moonpacket és $moonini alapfogalmai",
+        "moonpacket": {
+          "title": "A moonpacket szerepe",
+          "description": "A moonpacket egy Telegram Red Packet, feladat- és marketingeszköz. Legyen szó közösségi üzemeltetőről, eseményszervezőről vagy olyan projektről, amely új felhasználók vonzására törekszik, a moonpacket használatával:",
+          "features": [
+            "Küldj kripto Red Packeteket (több token, például USDT, TON, SOL, ETH stb. támogatásával)",
+            "Feladat események létrehozása (barátok meghívása, közösségek követése, tartalom megosztása stb.)",
+            "Kövesse a hatásadatokat (visszaváltási arányok, megosztási arányok, új felhasználói átalakítások stb.)",
+            "Küldj Red Packet-eket csoportokon át, bővítve a hatókört"
+          ]
+        },
+        "moonini": {
+          "title": "$moonini szerepe",
+          "description": "$moonini egy jutalompont token, amely elismeri a felhasználói és közösségi magatartást. Minden aktív lépés, amelyet a moonpacket-en teszel, a megfelelő $moonini-t hozza számodra.",
+          "rewards": [
+            "Küldj Red Packet: Keress a Red Packet összegétől és a jelenlegi fázistól függően megfelelő $moonini-t",
+            "Feladatok teljesítése: Az elért sikerek, társadalmi feladatok stb. extra $moonini-t hoznak.",
+            "Hívj meg barátokat: Sikeresen hívj meg új felhasználókat és teljesítsd a megosztási feladatokat, mindkét fél $moonini-t kereshet.",
+            "Aktív Részvétel: Meghatározott tevékenységek végrehajtása együttműködő játékokban vagy alkalmazásokban szintén lehetővé teszi a $moonini megszerzését."
+          ]
+        },
+        "logic": {
+          "title": "Minél többet használod, annál többet keresel",
+          "description": "A logika egyszerű: minél aktívabb vagy a moonpacket-en, annál több $moonini-t keresel. A korai résztvevők magasabb jutalmi arányt élvezhetnek (1. fázis, 1 $moonini minden elküldött 1 USDT Red Packet után). Minél korábban veszel részt, annál nagyobb az előnyöd."
+        }
+      },
+      "tokenomics": {
+        "title": "A Tokenomics áttekintése",
+        "total": {
+          "title": "Összes Token Kínálat",
+          "description": "A $moonini összes kibocsátása **10,000,000,000 token (10B)**, fix összmennyiséggel és további kibocsátás nélkül."
+        },
+        "allocation": {
+          "title": "Hozzáférési terv",
+          "table": {
+            "headers": [
+              "Kategória",
+              "Mennyiség",
+              "Arány",
+              "Leírás"
+            ],
+            "rows": [
+              [
+                "Nyilvános Kiadás",
+                "9,000,000,000 darab",
+                "90%",
+                "Fokozatos kiadás felhasználói tevékenységek révén (6-fázisú felezés)"
+              ],
+              [
+                "Csapatallokáció",
+                "1,000,000,000 darab",
+                "10%",
+                "3 hónapra zárolva, lineáris kiadás 33-45 hónap alatt"
+              ],
+              [
+                "├─ Működés",
+                "200,000,000 darab",
+                "2%",
+                "3 hónapra zárolva, kibocsátva 45 hónap alatt"
+              ],
+              [
+                "├─ Technikai Csapat",
+                "200,000,000 darab",
+                "2%",
+                "3 hónapra zárolva, kibocsátva 45 hónap alatt"
+              ],
+              [
+                "├─ PR/Marketing",
+                "200,000,000 darab",
+                "2%",
+                "3 hónapra zárolva, kibocsátva 45 hónap alatt"
+              ],
+              [
+                "└─ Korai Befektetők",
+                "400,000,000 darab",
+                "4%",
+                "3 hónapra zárolva, kibocsátva 33 hónap alatt"
+              ]
+            ]
+          }
+        },
+        "philosophy": {
+          "title": "Miért ez a dizájn?",
+          "items": [
+            "**Felhasználói Prioritás**: A tokenek 90%-át a felhasználóknak osztják ki, hogy a közösség valóban hasznot húzhasson belőle, ahelyett, hogy néhány egyén monopolizálná.",
+            "**Csapatösztönzők**: 10% a csapatnak és a korai befektetőknek, hogy biztosítsuk a projekt folyamatos fejlődéséhez szükséges elegendő forrást, mérsékelt arányban az túlzott koncentráció elkerülése érdekében.",
+            "**Nincs Előre Foglalt Elővásárlás/VC**: Nem tartunk fenn kvótákat intézményi befektetők számára, és minden tokent egy tisztességes mechanizmuson keresztül osztunk szét a felhasználók között.",
+            "**Kockázatmérséklés**: A csapat allokációja zárolásnak és lineáris kibocsátási mechanizmusoknak van alávetve, ami hatékonyan csökkenti a rövid távú eladás kockázatát és védi a befektetők érdekeit."
+          ]
+        }
+      },
+      "emission": {
+        "title": "Félidő és kibocsátási mechanizmus",
+        "halving": {
+          "title": "6 Fázisú Felezési Mechanizmus",
+          "description": "A korai résztvevők ösztönzése érdekében a tokenelosztás egy 'progresszív felezés' mechanizmust alkalmaz. Minél korábban csatlakozol, annál több tokent kereshetsz.",
+          "table": {
+            "headers": [
+              "Fázis",
+              "Kibocsátott Összeg Tartomány",
+              "Keress 1 USDT után",
+              "Leírás"
+            ],
+            "rows": [
+              [
+                "Fázis 1",
+                "0 ~ 4,5B",
+                "1.0 darab",
+                "Korai résztvevők, 1:1 csere"
+              ],
+              [
+                "Fázis 2",
+                "4,5B ~ 6,75B",
+                "0.5 darab",
+                "Felezés"
+              ],
+              [
+                "Fázis 3",
+                "6,75B ~ 7,875B",
+                "0.25 darab",
+                "Újabb felezés"
+              ],
+              [
+                "Fázis 4",
+                "7,875B ~ 8,4375B",
+                "0.125 darab",
+                "Folyamatos felezés"
+              ],
+              [
+                "Fázis 5",
+                "8,4375B ~ 8,71875B",
+                "0.0625 darab",
+                "Közeledve a végéhez"
+              ],
+              [
+                "Fázis 6",
+                "8,71875B ~ 9B",
+                "0.03125 darab",
+                "Végső szakasz"
+              ]
+            ]
+          },
+          "example": "Például: Az 1. fázisban, ha küldesz egy 100 USDT Red Packet-et, 100 $moonini-t kereshetsz; a 2. fázisban a ugyanazon 100 USDT Red Packet küldése csak 50 $moonini-t hozna. Minél korábban veszel részt, annál nagyobb az előnyöd!"
+        },
+        "vesting": {
+          "title": "Csapat kvóta lezárása és felszabadítása",
+          "description": "Egy olyan piacon, amely tele van 'egér raktárakkal' és 'rejtett chippekkel', a legnehezebb, de őszinte utat választottuk. Mélyen megértjük, hogy csak a felhasználók 'csapatértékesítéstől' való félelmét teljesen megszüntetve tudunk valódi bizalmat kialakítani.",
+          "items": [
+            "**Teljes Átláthatóság, Nincs Rejtőzködés**: Nincsenek rejtett pénztárcáink vagy titkosított korai forgalomban lévő készleteink. Minden token elosztás nyilvánosan elérhető a blokkláncon, a közösségi felügyelet alatt.",
+            "**Csapat Önkorlátozás, Hosszú Távú Elköteleződés**: A magcsapat kibocsátási periódusa **48 hónap (4 év)**. A kripto világában négy év hosszú ciklus. Ez bizonyítja, hogy nem azért vagyunk itt, hogy gyors pénzt keressünk, hanem elkötelezettek vagyunk amellett, hogy a közösséggel együtt tapasztaljuk meg a bikapiacokat és a medvepiacokat, hogy hosszú távú értéket építsünk.",
+            "**Befektetői Konszenzus**: Korai befektetőink mélyen azonosulnak a Red Packetek 'megosztási és ajándékozási' kultúrájával, és önként aláírtak egy **36 hónapos** lineáris kibocsátási megállapodást. Ez azt jelenti, hogy a projekt korai szakaszában egyik félnek (beleértve a befektetőket is) sincs elegendő tokenje a piac befolyásolására."
+          ],
+          "benefit": "Ez nemcsak egy zárolási szabály, hanem a **'Anti-Harvest Declaration'**. Ezen szinte szigorú önkorlátozáson keresztül biztosítjuk, hogy senki—sem az alapítók, sem a nagy birtokosok—ne árulja el a közösséget a korai szakaszokban. Minden Red Packet küldővel együtt állunk, hogy közösen fenntartsuk ennek a társadalmi értéknek a tisztaságát."
+        },
+        "why": {
+          "title": "Miért érdemes ezt tenni?",
+          "items": [
+            "**Rövid távú eladás csökkentése**: A zárolási és lineáris kibocsátási mechanizmusok megakadályozzák, hogy a csapat és a befektetők nagy mennyiségeket adjanak el a projekt korai szakaszában.",
+            "**A projekt élettartamának meghosszabbítása**: A fokozatos megjelenés biztosítja, hogy a projektnek elegendő ideje legyen a fejlesztésre és az érték kialakítására.",
+            "**Védje meg a befektetőket**: A felezési mechanizmusok és a lekötési tervek több védelmet nyújtanak a korai birtokosok számára."
+          ]
+        }
+      },
+      "utility": {
+        "title": "Felhasználói megszerzés és használati forgatókönyvek",
+        "how_to_earn": {
+          "title": "Hogyan lehet keresni $moonini?",
+          "methods": [
+            "**Küldj Red Packetet**: Minden **1 USDT megfelelő küldéséért** Red Packet formájában (több valuta támogatásával) a résztvevők a jelenlegi szakasz alapján megfelelő $moonini-t kapnak.",
+            "**Feladatok teljesítése**: Egyszeri teljesítési feladatokat és társadalmi feladatokat tartalmaz. A méltányosság érdekében minden fiók csak egyszer teljesítheti a feladatokat, vagy összlím kerül beállításra a rosszindulatú coin farmok elkerülése érdekében.",
+            "**Barátok meghívása**: Hívj meg új barátokat és teljesítsd a megosztási feladatokat, mindkét fél jutalmat kap. **Minden fióknak van egy korlátja a meghívási jutalmakra**, a konkrét szabályok a közösségi bejelentések hatálya alá tartoznak.",
+            "**Együttműködő Alkalmazások**: Meghatározott műveletek végrehajtása játékokban vagy a moonpacket API-val integrált alkalmazásokban szintén $moonini-t eredményezhet."
+          ]
+        },
+        "how_to_use": {
+          "title": "A $moonini felhasználásai",
+          "items": [
+            "**Díjkedvezmények**: A jövőben a $moonini felhasználható a Red Packet tranzakciós díjainak egy részének kompenzálására.",
+            "**Funkciók feloldása**: Néhány prémium funkció használatához szükség lehet egy bizonyos mennyiségű $moonini birtoklására.",
+            "**Kormányzati Szavazati Jogok**: A $moonini birtoklása lehetővé teszi a jövőbeni közösségi kormányzati szavazásokban való részvételt, befolyásolva a projekt fejlesztési irányát.",
+            "**Ökoszisztéma Visszaváltás**: Különleges előnyökért vagy jutalmakért váltható be partneralkalmazásokban vagy játékokban."
+          ]
+        }
+      },
+      "developer": {
+        "title": "Fejlesztői Ökoszisztéma",
+        "description": [
+          "a moonpacket több mint egy Red Packet eszköz; ez egy nyitott **Social Liquidity Layer**.",
+          "A standardizált API-kon és SDK-kon keresztül bármely Telegram Bot, GameFi vagy Web3 alkalmazás hozzáférhet a $moonini ösztönző réteghez. Ön a termékfejlesztésre összpontosít, mi pedig segítünk a növekedésben és a megtartásban."
+        ],
+        "architecture": {
+          "title": "Programozható ösztönzők",
+          "description": "Egy eseményalapú jutalmazási rendszer, amely támogatja a Webhook visszahívásokat és a láncon belüli ellenőrzést."
+        },
+        "cta": {
+          "text": "Tudjon meg többet az integrációs megoldásokról",
+          "link_text": "Olvassa el Fejlesztői API Dokumentációt"
+        }
+      },
+      "contracts": {
+        "title": "Szerződés címe",
+        "description": "A transzparencia biztosítása érdekében az összes alapvető okos szerződés címet nyilvánosan közzéteszik és ellenőrzik.",
+        "items": {
+          "token": "$moonini Token (Token Szerződés)",
+          "emission": "Kibocsátási Pince (90% Nyilvános Kibocsátási Pince)",
+          "reserve": "Kezelési Pénztárca (10% Csapat Képviseleti Pénztárca)",
+          "phase": "Fázis Menedzser (Félidő Kontroller)",
+          "vesting": "Vesting Vault (Lineáris Kiadás Kezelő)",
+          "pol": "POL Menedzser (Visszavásárlás és Árvédelem)",
+          "protection": "Indítási védelem (Nyitott fázisú Anti-Sniping)",
+          "timelock": "Időzár Szabályozó (48 órás késleltetett zár)"
+        },
+        "status": "(Frissítés a főháló bevezetése után)"
+      },
+      "governance": {
+        "title": "Irányítás és biztonság",
+        "principles": {
+          "title": "Irányítási elvek",
+          "description": "A fő alapelvünk: **nincs egyetlen legfőbb hat authority**, minden fontos művelet több megerősítést és késleltetett közzétételt igényel a transzparencia és a biztonság érdekében."
+        },
+        "market_making": {
+          "title": "Valódi piaci nyilatkozat",
+          "description": [
+            "**Hamis tranzakciók elutasítása**: Elkötelezzük magunkat amellett, hogy nem használunk wash tradinget vagy hozunk létre hamis mélységet. Minden K-vonalbeli tranzakció valós felhasználóktól származik.",
+            "**Decentralizált piac létrehozás**: A likviditás teljes mértékben a piaci kínálat és kereslet, valamint a protokoll automatikus visszavásárlási mechanizmusa által van meghatározva, nem pedig emberi manipuláció által."
+          ]
+        },
+        "floor_defense": {
+          "title": "Okos padló ár védelem",
+          "mechanism": "**Mechanizmus**: Amikor a coin ára eléri a padló szintet, a felhalmozódott protokoll díjak automatikusan visszavásárlásra kerülnek, és megsemmisítésre vagy likviditás injektálására kerülnek.",
+          "anti_gaming": "**Anti-sniping stratégia**: A botok által végzett arbitrálások előrejelzésének elkerülése érdekében a 'belépési időpont' és az 'egyetlen tranzakció összeg' véletlenszerű változókat tartalmaz, és nem lesz teljesen nyilvános. A lényeg azonban változatlan marad: **a tranzakciós díjak végül visszatérnek a medencébe a ár támogatására**.",
+          "variance": "Megjegyzés: A piaci volatilitás miatt a minimum ár nem egy abszolút támasz, hanem egy dinamikus támogatási tartomány."
+        },
+        "process": {
+          "title": "Kormányzati folyamat",
+          "steps": [
+            "**Javaslatok**: Fontos döntésekhez több aláírásos megerősítés szükséges.",
+            "**Késleltetett megerősítés**: Minden magas kockázatú tranzakciónak 48 órás késleltetett megerősítési időszakon kell átesnie, amely alatt láthatóak a láncon.",
+            "**Végrehajtás**: A késleltetési időszak után az engedéllyel rendelkező személyzet végrehajtja, vagy automatikusan végrehajtásra kerül.",
+            "**Törlés**: A késleltetési időszak alatt a javasló lemondhatja a javaslatot."
+          ]
+        },
+        "security": {
+          "title": "Biztonsági intézkedések",
+          "items": [
+            "**Többlépcsős megerősítés**: Minden fontos művelethez legalább 2 személy aláírása szükséges az egy pontú kockázat elkerülése érdekében.",
+            "**Késleltetett végrehajtási mechanizmus**: A magas kockázatú műveleteknek 48 órás késlekedést kell szenvedniük, hogy a közösségnek elegendő ideje legyen a felülvizsgálatra és a válaszadásra.",
+            "**Standard szerződéstár**: Használjon auditált standard szerződési könyvtárakat a sebezhetőségi kockázatok csökkentésére.",
+            "**Harmadik fél átvizsgálása**: Az okosszerződések harmadik fél által végzett biztonsági átvizsgálatokon fognak átesni a biztonság biztosítása érdekében.",
+            "**Nyílt forráskódú átláthatóság**: A szerződés kódja nyílt forráskódú, bárki ellenőrizheti és auditálhatja."
+          ]
+        },
+        "risk_mitigation": {
+          "title": "Hogyan csökkenthető az egyedi kockázat?",
+          "description": "Biztosítjuk, hogy egyetlen személy vagy szervezet se tudja teljesen irányítani a projektet többszörös aláírás, késleltetett megerősítés, auditok és nyílt forráskódú, többrétegű védelmi mechanizmusok révén. Minden fontos döntés egy átlátható és nyomon követhető folyamaton megy keresztül, biztosítva a közösség és a befektetők megnyugtatását."
+        }
+      },
+      "roadmap": {
+        "title": "Kétpontos Ütemterv",
+        "status_notice": "⚠️ Jelenlegi állapot: Tervezési nyilvánosság szakasz. A tokenek még nincsenek generálva (TGE Függőben), és a végső szabályok a TGE-kor kiadott fehér könyv verzióján alapulnak.",
+        "tracks": {
+          "product": "📱 Termék Nyomkövetés",
+          "token": "💎 Token Nyomkövetés"
+        },
+        "phases": [
+          {
+            "title": "1. fázis: Genesis",
+            "product": [
+              "**Telegram Bot Indítás**: Egy könnyű plugin a közösségi Red Packetek elindításához",
+              "**Alapvető Feladat Rendszer**: Meghívó és bejelentkezési funkciók",
+              "**Felhasználói Felhalmozás**: Korai mag felhasználói csoport kialakítása"
+            ],
+            "token": [
+              "**Pontok Próbafutás**: A felhasználói viselkedés off-chain pontokat generál",
+              "**Token Modell Tervezés**: A 90/10-es elosztás és felezési mechanizmus megerősítése",
+              "**Litepaper Bejelentés**: A gazdasági modell vázlatának népszerűsítése a közösség előtt"
+            ]
+          },
+          {
+            "title": "2. fázis: Gyújtás",
+            "product": [
+              "**Ökoszisztéma Integráció**: Kapcsolódás partnerboltokhoz és marketing forgatókönyvekhez",
+              "**API Nyílt Béta**: Harmadik féltől származó botok integrálása a Red Packet rendszerbe",
+              "**Adatirányítópult**: A felhasználók részletes adatokat nézhetnek meg a Red Packetekről és a pontokról"
+            ],
+            "token": [
+              "**Harmadik Féltől Származó Ellenőrzés**: A szerződés kódja átmegy a biztonsági ellenőrzéseken",
+              "**TGE (Token Generálás)**: A főhálózat telepítése, a pontok beváltására/mining mechanizmusok megnyitása",
+              "**Kezdeti Likviditás**: Alap medence létrehozása az alapvető érték biztosítása érdekében"
+            ]
+          },
+          {
+            "title": "3. fázis: Terjeszkedés",
+            "product": [
+              "**Független Alkalmazás**: Egy önálló alkalmazás elindítása pénztárca és IM funkciókkal",
+              "**Keresztplatform Támogatás**: Terjeszkedés Discordra vagy más közösségi platformokra",
+              "**DAO Kormányzási Eszköz**: Közösségi szavazási funkció élesítése"
+            ],
+            "token": [
+              "**Gazdasági Ciklus Aktiválása**: Visszavásárlási és égetési mechanizmusok automatikusan működnek",
+              "**Többláncú Telepítés**: Terjeszkedés más, nagy teljesítményű nyilvános láncokra",
+              "**Teljesen Decentralizált**: A kezelési jogok fokozatos átadása a DAO-nak"
+            ]
+          }
+        ]
+      },
+      "risks": {
+        "title": "Kockázatok és nyilatkozatok",
+        "description": [
+          "**Fontos nyilatkozat**: Ez a dokumentum nem jelent befektetési tanácsot. A kriptovaluta befektetés magas kockázattal jár, beleértve, de nem kizárólag a árfolyam-ingadozást, likviditási kockázatot, technikai kockázatot, szabályozási kockázatot és még sok mást.",
+          "",
+          "**Főbb kockázati figyelmeztetések**:",
+          "- **Árfolyam-ingadozás kockázata**: A tokenek ára drámaian ingadozhat, és akár nullára is csökkenhet. Kérjük, győződjön meg arról, hogy olyan mértékben vesz részt, amelyet elviselhető veszteségként kezel.",
+          "- **Likviditási kockázat**: A kezdeti likviditás nem biztos, hogy elegendő, ami potenciálisan magas csúszást vagy nehézségeket okozhat a kereskedések azonnali végrehajtásában.",
+          "- **Technikai Kockázat**: Bár a okos szerződéseket ellenőrizni fogják, még mindig lehetnek ismeretlen technikai sebezhetőségek vagy hackertámadások kockázatai.",
+          "- **Szabályozási Kockázat**: A különböző országokban a kriptovalutákkal kapcsolatos szabályozási politikák bármikor változhatnak, ami befolyásolhatja a projekt működését vagy a tokenek értékét.",
+          "",
+          "**Kutatás saját magadnak (DYOR)**: A befektetőknek teljes mértékben meg kell érteniük a vonatkozó kockázatokat, és óvatosan kell befektetniük saját pénzügyi helyzetük és kockázattűrő képességük alapján. A projektcsapat nem vállal felelősséget a befektetési veszteségekért."
+        ],
+        "disclaimer": {
+          "title": "Fontos értesítés",
+          "text": "Ez a dokumentum nem minősül befektetési tanácsnak. A kriptovaluta befektetések magas szintű kockázatot hordoznak, beleértve, de nem kizárólag, az árfolyam-ingadozást, a likviditási kockázatot, a technikai kockázatot, a szabályozási kockázatot és még sok mást. A befektetőknek teljes mértékben meg kell érteniük a releváns kockázatokat, és óvatosan kell befektetniük saját kockázattűrő képességük alapján. A projektcsapat nem vállal felelősséget a befektetési veszteségekért."
+        },
+        "risks": {
+          "title": "Főbb Kockázatok",
+          "items": [
+            "**Árfolyam-ingadozás kockázata**: A tokenárak jelentősen ingadozhatnak, sőt akár nullára is csökkenhetnek.",
+            "**Likviditási Kockázat**: A kezdeti likviditás elégtelen lehet, ami befolyásolja a kereskedési élményt.",
+            "**Műszaki Kockázat**: Az okos szerződések ismeretlen sebezhetőségeket tartalmazhatnak, bár auditokat fogunk végezni.",
+            "**Szabályozási kockázat**: A különböző országokban a szabályozási politikák megváltozhatnak, ami hatással lehet a projekt működésére.",
+            "**Piaci kockázat**: A kriptovaluta piac általános volatilitása befolyásolhatja a tokenek árát."
+          ]
+        }
+      },
+      "faq": {
+        "title": "Gyakran Ismételt Kérdések",
+        "items": [
+          {
+            "question": "Hogyan szerezhetek tokent?",
+            "answer": "$moonini-t szerezhet azzal, hogy Red Packet-eket küld, feladatokat teljesít, barátokat hív meg, és még sok mást. Minnél több Red Packet-et küldesz és feladatot teljesítesz, annál több tokent fogsz keresni. A korai résztvevők emellett magasabb jutalmi arányt is élveznek."
+          },
+          {
+            "question": "Mikor tudom visszavonni?",
+            "answer": "Miután a főhálózat elindult, a felhasználók visszavonhatják a $moonini-t a tárcáikba. A visszavonásokhoz egy kis gáz díj (BSC hálózati díj) szükséges. Kérjük, figyelj a hivatalos bejelentésekre a pontos indulási időpontért."
+          },
+          {
+            "question": "Van lock-up időszak a csapat allokációk számára?",
+            "answer": "Igen. A csapat allokáció (10%) 3 hónapra le lesz zárva, majd 33-45 hónap alatt fokozatosan felszabadul. A működési, technikai csapat, PR/marketing allokációk összesen 48 hónapig tartanak, míg a korai befektetők allokációja 36 hónapig tart."
+          },
+          {
+            "question": "Miért használjuk a felezési mechanizmust?",
+            "answer": "A felezési mechanizmus célja a korai résztvevők ösztönzése, miközben ellenőrzi a tokenek elosztási ütemét. Minél korábban veszel részt, annál több tokent keresel, ami segít vonzani a korai felhasználókat és befektetőket, miközben elkerülheti a túlzott elosztást, ami későbbi inflációt okozhat."
+          },
+          {
+            "question": "Mit tegyek, ha szerződéses vagy rendszerprobléma merül fel?",
+            "answer": "A kockázatok csökkentése érdekében harmadik fél általi biztonsági auditokat, multi-aláírásos megerősítéseket, késleltetett végrehajtást és egyéb többrétegű védelmi mechanizmusokat alkalmazunk. Ha probléma merül fel, azonnal megkezdjük a vészhelyzeti válaszadást, meghatározzuk a kezelési tervet a kormányzási mechanizmuson keresztül, és azonnal értesítjük a közösséget."
+          },
+          {
+            "question": "Mi a $moonini teljes kínálata? Nőni fog?",
+            "answer": "A $moonini teljes kínálata 10,000,000,000 darab (10B), amely egy rögzített összeg, ami soha nem fog nőni. A 90%-ot fokozatosan felosztják a felhasználói tevékenységek során, míg a 10% a csapatot és a korai befektetőket illeti."
+          },
+          {
+            "question": "Hogyan vehetnek részt a kormányzásban?",
+            "answer": "A $moonini birtokosai részt vehetnek a jövőbeli közösségi kormányzási szavazásokban, befolyásolva a projekt fejlesztési irányát. A konkrét kormányzási mechanizmusokat és szavazási módszereket fokozatosan vezetik be a főhálózat elindulása után."
+          },
+          {
+            "question": "Kereskedhető a $moonini?",
+            "answer": "Miután elindult a főhálózat és létrejött egy likviditási pool, a $moonini kereskedhető decentralizált tőzsdéken (például PancakeSwap). A kereskedést befolyásolják a piaci kereslet és kínálat, és az árak ingadozhatnak, ezért kérjük, óvatosan fektessen be."
+          }
+        ]
+      }
+    },
+    "charts": {
+      "allocation": {
+        "title": "Token Elosztás",
+        "public": "Nyilvános ajánlattétel",
+        "team": "Csapat lehetőség",
+        "operations": "Műveletek",
+        "tech": "Műszaki Csapat",
+        "marketing": "Közkapcsolatok/Marketing",
+        "investors": "Korai Befektetők"
+      },
+      "phase": {
+        "title": "6-fázisú felezési mechanizmus",
+        "phase": "Fázis",
+        "ratio": "Minden 1 USDT-ért kaphat"
+      },
+      "vesting": {
+        "title": "Csapat Költségkeret Kiadási Idővonal",
+        "cliff": "Zárolási időszak",
+        "release": "Kibocsátási Időtartam"
+      },
+      "governance": {
+        "title": "Kormányzási Folyamat",
+        "multisig": "Többleküldeményes Tárca",
+        "proposal": "Javaslat",
+        "timelock": "Késleltetett megerősítés",
+        "execute": "Végrehajtás",
+        "update": "Frissítés"
+      },
+      "flow": {
+        "title": "Token Forgalmi Folyamat",
+        "userSend": "Felhasználó Küldte Red Packet",
+        "fee": "Tranzakciós díjak",
+        "operations": "Üzemeltetési Költségek",
+        "pol": "Visszavásárlási Alap",
+        "accumulate": "Felhalmozás",
+        "trigger": "Visszavásárlási Váltó",
+        "swap": "Készlet",
+        "addLiquidity": "Likviditás hozzáadása",
+        "pool": "Likviditási Pool",
+        "smart_floor": "Okos Szint ár Védelme"
+      }
+    }
+  },
+  "litepaper_api": {
+    "meta": {
+      "title": "moonpacket Hitelesítési API",
+      "subtitle": "Jutalmi Szabályok és Felhasználói Állapot Lekérdezésének Standard Felülete (v2.3)",
+      "description": "Egyszerűen biztosítson egy GET végpontot a moonpacket számára, hogy lekérdezhesse a szabályait és a felhasználói állapotot, amely lehetővé teszi a Red Packet és a feladatrendszerek egyszerű integrálását."
+    },
+    "sidebar": {
+      "overview": "Integráció Áttekintés",
+      "logic": "Interakciós Logika",
+      "spec": "API Specifikáció",
+      "ts_def": "TypeScript meghatározás",
+      "examples": "Kommunikációs példa",
+      "security": "Biztonsági Hitelesítés"
+    },
+    "hero": {
+      "badge": "API Specifikáció v2.3",
+      "title": "Authentikációs API",
+      "subtitle": "Attribútum Lekérdezési Felület (GET)",
+      "desc": "A moonpacket egy szabványos GET kérési felületen keresztül aktívan lekéri a 'jutalom szabályokat' és a 'felhasználói attribútumokat' az ön szerveréről. Minden logikai döntést a moonpacket kezel.",
+      "cta_docs": "Specifikáció Megtekintése",
+      "cta_key": "Térj vissza a Litepaperhez"
+    },
+    "content": {
+      "overview": {
+        "title": "Hozzáférés konfigurálása",
+        "desc": [
+          "Amikor a moonpacket 'Egyedi API' lehetőséget választja a 'Kérelmezési Feltételek Beállítása' menüben, kérjük, adja meg az Endpoint URL-jét.",
+          "**Módszer**: Kérjük, használja a `GET`-et",
+          "**Tartalom-Típus**: `application/json`",
+          "**Hitelesítés**: A hitelesítési információk teljes mértékben a Header-en keresztül lesznek továbbítva (`X-API-KEY` és `Signature`), és az URL nem fog érzékeny információkat tartalmazni."
+        ]
+      },
+      "logic": {
+        "title": "Interakciós Logika",
+        "desc": "A teljes folyamat két fázisra oszlik: 'Beállítási Fázis' és 'Futási Fázis'. A moonpacket HTTP GET módszerrel kéréseket küld az API-jára:",
+        "modes": [
+          {
+            "title": "1. szakasz: Szabályok meghatározása (Konfiguráció)",
+            "trigger": "Kiváltó esemény: amikor az URL meg van adva az 'Igénylési Feltételek Beállítása' részben és beküldve",
+            "request": "GET",
+            "response": "Visszaadja a szabály definíciós objektumot operátorokkal (gt, eq, lt...)"
+          },
+          {
+            "title": "Fázis 2: Felhasználó érvényesítése (Futásidő)",
+            "trigger": "Indító esemény: amikor a felhasználó megpróbálja igényelni a Red Packet-et",
+            "request": "GET ?user_id=...",
+            "response": "Visszaadja a konkrét felhasználó valódi attribútumértékét (sima érték vagy szöveg)"
+          }
+        ],
+        "note": "Támogatott operátorok: `eq` (egyenlő, támogatja a szövegeket/számokat), `gt` (nagyobb mint), `gte` (nagyobb vagy egyenlő), `lt` (kisebb mint), `lte` (kisebb vagy egyenlő). A nem `eq` operátorok értékei számoknak kell lenniük.",
+        "steps": {
+          "step1_label": "Első lépés",
+          "step2_label": "Második lépés"
+        }
+      },
+      "diagram": {
+        "user": "Felhasználó",
+        "moonpacket": "moonpacket",
+        "dev_api": "Az API-ja",
+        "step1": "1. Telepítés során: Lekérdezési szabályok (GET)",
+        "step2": "2. Igénylés alatt: Állapot lekérdezése (GET)",
+        "click": "Kattints a követeléshez",
+        "check": "Logikai Egyezés (Helyi)",
+        "grant": "Jutalmak Kiosztása",
+        "reject": "Képesítési Értesítő",
+        "client_app": "Kliens / Szerver",
+        "json_data": "JSON adatok",
+        "saved_rule": "Szabályok mentve:",
+        "user_state": "Felhasználói állapot:"
+      },
+      "spec": {
+        "title": "Interface Specifikáció (Specifikáció)",
+        "request": {
+          "title": "Kérés paraméterek (lekérdezési paraméterek)",
+          "headers": [],
+          "query": [
+            "**api_key** (kötelező): Az API kulcs, amelyet az azonosításhoz beállított",
+            "**user_id** (opcionális): Visszaadja a felhasználói attribútumokat, ha jelen vannak; visszaadja a szabályok meghatározását, ha hiányoznak."
+          ]
+        },
+        "ts_def": {
+          "title": "Adatszerkezet Meghatározás (TypeScript)",
+          "desc": "A következő felület határozza meg a JSON struktúrát, amelyet vissza kell adni az AI-asszisztált eszközök olvasásához:"
+        }
+      },
+      "scenarios": {
+        "title": "Alkalmazási Szenáriók",
+        "items": [
+          {
+            "title": "GameFi Integráció",
+            "desc": "Határozza meg a szabályt `level >= 10`. Amikor a felhasználó igényli, a moonpacket ellenőrzi a felhasználó attribútumait, ha `level: 12`, akkor jóváhagyva."
+          },
+          {
+            "title": "Azonosítói Kötés Jutalom",
+            "desc": "Határozza meg a szabályt `kyc == true`. A moonpacket ellenőrzi a felhasználó státuszát, és ha az `kyc: true` értéket ad vissza, akkor a jutalmak kiosztásra kerülnek."
+          },
+          {
+            "title": "Fekete lista szűrés",
+            "desc": "Határozd meg a szabályt `is_blacklist == false`. Ha az API `is_blacklist: true`-t ad vissza, az igénylés elutasításra kerül."
+          }
+        ]
+      },
+      "examples": {
+        "title": "Kommunikációs példa (GET kérés)",
+        "mode_a": {
+          "title": "1. Szabályok meghatározása (Beállítás)",
+          "desc": "A beállítások benyújtásakor térjen vissza JSON formátumban az operátorokkal."
+        },
+        "mode_b": {
+          "title": "2. Lekérdezés állapot (Futtatás)",
+          "desc": "Amikor a felhasználó érvényesíti, tiszta értékeket vagy szövegeket kell visszaadni."
+        }
+      },
+      "signature": {
+        "title": "Biztonsági Ellenőrzés",
+        "desc": "A kérések hitelességének biztosítása érdekében a moonpacket aláírást fog tartalmazni a fejlécben. Az érvényesítéshez a jobb oldalon található kódra hivatkozhat:",
+        "required_headers": "Szükséges fejléc",
+        "algo_title": "Aláírási algoritmus",
+        "headers": {
+          "key": "X-API-KEY",
+          "ts": "X-API-IDŐJEL",
+          "nonce": "X-API-NONCE",
+          "sig": "X-API-SIGNATURE"
+        },
+        "algo": "HMAC-SHA256",
+        "formula": "Aláírás = HMAC_SHA256(titkos, test + időbélyeg + nonce)",
+        "steps": [
+          "1. Időbélyeg, Nonce, Aláírás kinyerése a Fejlécekből",
+          "2. Ellenőrizze, hogy a időbélyeg a megengedett időintervallumban van-e (pl. ±5 perc)",
+          "3. Összefűzött szöveg: KérésTest + Időbélyeg + Nonce",
+          "4. Számítsd ki a HMAC-SHA256-ot a Titkos kulcsod használatával",
+          "5. Hasonlítsa össze a kiszámított eredményt a fejlécben lévő aláírással."
+        ]
+      },
+      "reliability": {
+        "title": "Megjegyzés",
+        "items": [
+          "**Időtúllépés**: Győződjön meg róla, hogy az API **3 másodpercen** belül képes eredményeket visszaadni.",
+          "**Formátum**: Kérjük, szigorúan kövesse a JSON struktúrát, különben elemzési hiba léphet fel."
+        ]
+      },
+      "error_codes": {
+        "title": "Állapotkódok",
+        "items": [
+          {
+            "code": "200",
+            "status": "OK",
+            "desc": "Kérés sikeres"
+          },
+          {
+            "code": "400",
+            "status": "Bad Request",
+            "desc": "Kérés paraméter hiba (pl. hibás formátum)."
+          },
+          {
+            "code": "401",
+            "status": "Unauthorized",
+            "desc": "Hiányzik az engedélyezési fejléc vagy a kulcs érvénytelen."
+          },
+          {
+            "code": "403",
+            "status": "Forbidden",
+            "desc": "IP korlátozás vagy jogosulatlan hozzáférés az erőforráshoz."
+          },
+          {
+            "code": "404",
+            "status": "Not Found",
+            "desc": "Felhasználói azonosító nem létezik (a felhasználói állapot lekérdezésének forgatókönyveihez)."
+          },
+          {
+            "code": "500",
+            "status": "Server Error",
+            "desc": "Belső szerverhiba."
+          }
+        ]
+      },
+      "disclaimer": {
+        "title": "Harmadik Feles API Felelősségkizárás",
+        "text": "A harmadik fél platformok integrációs módszerei, amelyeket ebben a dokumentumban említünk, csak tájékoztató jellegűek. A fejlesztőknek konzultálniuk kell a platform legfrissebb hivatalos fejlesztői dokumentációjával, és ahhoz kell tartaniuk magukat."
+      }
+    },
+    "labels": {
+      "request": "Kérés tartalma",
+      "response": "Eredmény visszatérése",
+      "code": "Állapotkód",
+      "status": "Állapot",
+      "desc": "Leírás"
+    }
+  },
+  "whitepaper": {
+    "title": "$moonini Fehér Könyv",
+    "description": "A $moonini token tervezési filozófiájának, gazdasági modelljének és technikai architektúrájának megértése",
+    "seo": {
+      "title": "$moonini Fehér Könyv — moonpacket",
+      "description": "Teljes $moonini Tokenomika, Technikai Architektúra és Irányítási Mechanizmus Leírás"
+    },
+    "hero": {
+      "subtitle": "A $moonini a moonpacket platform alapján működő közösségi ösztönző token. Minél többen vesznek részt és interakcióba lépnek a moonpacket-en, annál több $moonini-t kereshetnek. A befektetők számára az 90%-ot a felhasználóknak osztják ki, míg 10%-ot a csapatnak, hatékonyan csökkentve a piaci összeomlás kockázatát a felezési mechanizmussal és a lineáris kibocsátással kombinálva.",
+      "cards": {
+        "user": {
+          "title": "Általános felhasználóknak",
+          "description": "Könnyen kereshet $moonini-t Piros Csomagok küldésével, feladatok teljesítésével és barátok meghívásával. Minél többet használ, annál többet keres, teljesen ingyen."
+        },
+        "investor": {
+          "title": "Befektetőknek",
+          "description": "Összesen 10B, 90/10 elosztás, 6 fázisú felezés, csapatallokáció lineáris kibocsátása, a hosszú távú stabilitásra tervezve, csökkentve a piaci összeomlás kockázatát."
+        },
+        "developer": {
+          "title": "Fejlesztőknek/Partnereknek",
+          "description": "Szabványosított szerződések, nyílt API, más alkalmazásokba vagy játékokba integrálható. Kérjük, nézze meg a technikai dokumentációt a részletes műszaki specifikációkért."
+        }
+      }
+    },
+    "toc": {
+      "title": "Tartalomjegyzék"
+    },
+    "sections": {
+      "overview": "1. Projekt Áttekintés",
+      "tokenomics": "2. Tokenomika",
+      "architecture": "Három, Technikai Architektúra",
+      "emission": "Négy, Kibocsátási Mechanizmus",
+      "governance": "Öt, Irányítás és Biztonság",
+      "incentives": "Hat, Felhasználói Ösztönző Rendszer",
+      "developer": "Hét, Fejlesztői Útmutató",
+      "roadmap": "8. Útvonalterv",
+      "risks": "9. Kockázati Figyelmeztetés",
+      "faq": "Tíz, Megerősítendő Kérdések"
+    },
+    "content": {
+      "overview": {
+        "what_is": [
+          "**$moonini** a moonpacket platform ökoszisztéma tokenje, amelyet a felhasználók aktív viselkedésének jutalmazására használnak a platformon, beleértve a következőket:",
+          "- Piros csomagok küldése",
+          "- Barátok meghívása",
+          "- Feladatok teljesítése",
+          "- Közösségi tevékenységekben való részvétel",
+          "",
+          "**Egyszerűen Fogalmazva**: Minél többet használja a moonpacket-et, annál több $moonini-t fog keresni."
+        ],
+        "core_values": {
+          "title": "Alapértékek",
+          "values": [
+            "- ✅ **Decentralizáció**: A Binance Smart Chain (BSC) alapú, minden tranzakció átlátható és ellenőrizhető, nincs szükség harmadik felekbe vetett bizalomra.",
+            "- ✅ **Igazságos Elosztás**: A tokenek 90%-át felhasználói tevékenységeken keresztül osztják el, 10%-ot a csapat és a befektetők számára tartanak fenn, biztosítva a közösség prioritását.",
+            "- ✅ **Fokozatos Kioldás**: Egy 6 szakaszból álló felezési mechanizmust alkalmaz, amely arra ösztönzi a korai résztvevőket, hogy minél korábban csatlakozzanak és így többet keressenek.",
+            "- ✅ **Biztonságos és Megbízható**: Auditált standard szerződési könyvtárakat használ, minden főbb művelet több aláírásos jóváhagyást igényel, harmadik féltől származó biztonsági auditokra tervezve."
+          ]
+        }
+      },
+      "tokenomics": {
+        "info": {
+          "title": "2.1 Token Alapinformációk",
+          "description": [
+            "| Tétel | Érték | Leírás |",
+            "|------|------|------|",
+            "| **Token Név** | moonini | Teljes Név |",
+            "| **Token Szimbólum** | MOONINI | Kereskedési Szimbólum |",
+            "| **Összes Kínálat** | 10,000,000,000 token (10B) | Fix összes kínálat, soha nem inflációs |",
+            "| **Tizedes Helyek** | 18 | BSC Szabvány |",
+            "| **Blockchain** | Binance Smart Chain (BSC) | BEP-20 Szabvány |"
+          ]
+        },
+        "allocation": {
+          "title": "2.2 Allokációs Terv",
+          "description": [
+            "**Teljes Kínálat: 10,000,000,000 token (10B)**",
+            "",
+            "**Allokációs Elvek**:",
+            "- **90% Közösség & Likviditás számára**:",
+            "- Tartalmazza a \"bányászati részesedést\", amely a Red Packet és feladatok révén keletkezik, valamint a \"likviditási részesedést\", amelyet kezdeti kereskedési párok létrehozására használnak (a projektcsapat kezdetben 10,000 USDT-t helyezett el a medencében, hogy biztosítsa az értéket a bevezetéskor).",
+            "- Ez a rész teljesen visszatér az ökoszisztéma résztvevőihez, intézményeknek vagy magánelhelyezéseknek nem tartanak fenn.",
+            "",
+            "- **10% Csapat & Korai Támogatók számára**:",
+            "- **4% Korai Befektetők**: Jutalmak a korai pénzügyi támogatásért.",
+            "- **2% Műszaki Csapat**: Folyamatos fejlesztés és karbantartás biztosítása a protokoll számára.",
+            "- **2% Műveleti Csapat**: Felelős a közösségi menedzsmentért és az eseménytervezésért.",
+            "- **2% Marketing és Ökoszisztéma Stabilitás**: A piaci növekedés előmozdítása és az ökoszisztéma stabilitásának fenntartása szélsőséges körülmények között tartalék alapkén.",
+            "",
+            "**Kormányzási Ígéret**:",
+            "A legszigorúbb belső alapkezelést valósítunk meg. Minden csapattag allokációja és működési költsége **Multisig** és **Időzár** korlátozásoknak van alávetve. Egyetlen személy sem férhet hozzá szabadon a forrásokhoz, biztosítva, hogy minden kiadás közös döntéshozatal alapján történik és nyilvánosan átlátható."
+          ]
+        },
+        "phase": {
+          "title": "2.3 6-Fázisú Felezési Mechanizmus",
+          "description": [
+            "A korai résztvevők ösztönzése érdekében a token elosztás egy 'progresszív felezési' mechanizmust alkalmaz:",
+            "",
+            "| Fázis | Kibocsátott Összeg Tartomány | Visszatérítési Arány (1 USDT-re) | Leírás |",
+            "|------|------------|---------------------|------|",
+            "| **1. fázis** | 0 ~ 4.5B | **1.0 token** | Korai résztvevők, 1:1 csere |",
+            "| **2. fázis** | 4.5B ~ 6.75B | **0.5 token** | Felezett |",
+            "| **3. fázis** | 6.75B ~ 7.875B | **0.25 token** | Újabb felezés |",
+            "| **4. fázis** | 7.875B ~ 8.4375B | **0.125 token** | Folyamatos felezés |",
+            "| **5. fázis** | 8.4375B ~ 8.71875B | **0.0625 token** | A végéhez közelít |",
+            "| **6. fázis** | 8.71875B ~ 9B | **0.03125 token** | Végső fázis |",
+            "",
+            "**Példa**:",
+            "- Az 1. fázisban, ha egy 100 USDT Red Packet-et küldesz, 100 $moonini-t kapsz",
+            "- A 2. fázisban, ha egy 100 USDT Red Packet-et küldesz, csak 50 $moonini-t kaphatsz",
+            "- Minél korábban veszel részt, annál több tokent kapsz!"
+          ],
+          "value_logic": [
+            "💡 Red Packet Filozófiája és Értékciklusa",
+            "",
+            "**A Red Packet szelleme a 'Adományozás' és 'Kapcsolódás'**:",
+            "A keleti kultúrából eredően a Red Packet nemcsak a források átvitelét jelenti, hanem az idősebbek szeretetét a fiatalabbak felé, gratulációt és barátok közötti megosztást is. A moonpacketnél minden alkalommal, amikor Red Packet-et küldesz, egy meleg társadalmi interakciót valósítasz meg.",
+            "",
+            "**A Társadalmi Magatartásból Gazdasági Érték**:",
+            "Úgy véljük, hogy ezeket a jóakarat cselekedeteket nyilván kell tartani és értékelni. A $moonini nem csupán egy jutalom token; ez annak a társadalmi hálózatnak az értékhordozója, amely minden 'adományozás' révén hosszú távú gazdasági hatásokat generál.",
+            "",
+            "**Valódi Érték Támogatás**:",
+            "A társadalmi érték stabilitásának megőrzése érdekében a protokoll előírja: **a tranzakciós díjak bevételének 50%-át automatikusan a Likviditási Medencébe kell befecskendezni**.",
+            "",
+            "Ez azt jelenti: minél aktívabb a közösség ➔ annál több Red Packet interakció ➔ annál több forrás befektetése a likviditási medencébe ➔ annál szilárdabb értékalapja $moonini-nek. Ez egy pozitív ciklus, amely a valós társadalmi szükségleteken és üzleti bevételeken alapul, nem pedig pusztán spekulatív szerencsejátékon."
+          ]
+        }
+      },
+      "architecture": {
+        "blockchain": {
+          "title": "3.1 Blokklánc kiválasztása: Binance Smart Chain (BSC)",
+          "why": [
+            "**Miért válaszd a BSC-t?**",
+            "",
+            "| Előny | Leírás |",
+            "|------|------|",
+            "| ✅ **Alacsony Díjak** | Az átlagos tranzakciós költség $0.1-$0.5, ami jóval alacsonyabb, mint az Ethereum ",
+            "| ✅ **Gyors Jólváhagyás** | Átlagos jóváhagyási idő 3 másodperc, a zökkenőmentes élmény érdekében |",
+            "| ✅ **Érett Ökoszisztéma** | Gazdag DeFi eszközök nagy felhasználói bázissal |",
+            "| ✅ **EVM Kompatibilis** | Az Ethereum ökoszisztéma erőforrásai újrahasználhatók |",
+            "| ✅ **Pénztárca Elfogadás** | Főstream pénztárcák, mint a MetaMask és Trust Wallet támogatása |"
+          ]
+        },
+        "contracts": {
+          "title": "3.2 Okos Szerződés Architektúra",
+          "description": [
+            "Iparilag ellenőrzött okos szerződés szabványokat használunk, hogy biztosítsuk a tokenek biztonságát és megbízhatóságát.",
+            "",
+            "**Alapvető Tervezési Elvek**:",
+            "- **Decentralizált**: Minden érme kibocsátási és kiadási mechanizmusa automatikusan, okos szerződések révén valósul meg, emberi beavatkozás nélkül.",
+            "- **Átlátható és Nyomon Követhető**: Minden működési rekord a blokkláncon van tárolva, bárki számára elérhető.",
+            "- **Biztonságos és Megbízható**: Harmadik fél által auditált standard szerződéskönyvtár használata a kódminőség és a biztonság biztosítása érdekében.",
+            "",
+            "**Fő Funkciók**:",
+            "- **Token kibocsátás**: Tokenek kibocsátása és átransferálása a BSC szabványoknak megfelelően.",
+            "- **Automatikus Kiadás**: Kezelje a nyilvánosan kibocsátott tokenek 90%-ának fokozatos kiadását (6 fázis a felére csökkentésből).",
+            "- **Csapat Rögzítés**: A csapat 10%-os allokációjának kezelése a rögzítéshez és a lineáris kiadáshoz",
+            "- **Irányítási Mechanizmus**: Minden fontos művelethez több aláírás szükséges, és 48 órás türelmi időt biztosít a közösség számára a felülvizsgálatra.",
+            "- **Automatikus visszavásárlás**: A platform díjai automatikusan tokenek visszavásárlására kerülnek felhasználásra, növelve ezzel a likviditást",
+            "",
+            "**Biztonsági intézkedések**:",
+            "- Egy harmadik fél által auditált standard szerződés könyvtárat használ a kód minőségének és biztonságának biztosítása érdekében",
+            "- Minden fontos művelethez több aláírásos megerősítés szükséges, 48 órás türelmi idővel, hogy a közösség számára legyen idő a felülvizsgálatra",
+            "- Fejlett hitelesítési technológia, amelyet a felhasználói kivonások során alkalmaznak, hogy biztosítsák, hogy csak a felhasználó végezhet műveleteket",
+            "- Replay támadás megelőző mechanizmus alkalmazása a felhasználói alapok védelme érdekében",
+            "- Tervezze meg a harmadik fél általi biztonsági auditok elvégzését (CertiK / PeckShield / SlowMist)",
+            "",
+            "*A részletes műszaki specifikációkért, szerződés interfészekért és funkciódefiníciókért kérjük, hivatkozzon a következőre: [Műszaki Specifikációs Dokumentum](/hu-HU/docs/technical)*"
+          ]
+        }
+      },
+      "emission": {
+        "public": {
+          "title": "4.1 Nyilvános ajánlattétel (90%)",
+          "initial_liquidity": [
+            "**Kezdeti Likviditás**:",
+            "- A nyilvános ajánlattétel 90%-os kincstárának a tokenjeit előre kell bocsátani az elsődleges likviditási alap létrehozásához USDT-vel.",
+            "- Biztosítsa, hogy a tokenek normálisan kereskedhetők legyenek az online elérhetőség után, ezzel likviditási garanciát nyújtva a befektetőknek",
+            "- A konkrét összegek a főháló indítása előtt kerülnek bejelentésre"
+          ],
+          "launch_protection": [
+            "**Antisznik Mechanizmus Megnyitása**:",
+            "- **Egyszeri Vásárlási Korlát**: 30 perccel a nyitás előtt egyetlen pénztárca csak a teljes összeg 0,5%-át vagy 1%-át vásárolhatja meg.",
+            "- **Kis Kiskereskedők Védelme**: Megakadályozni, hogy a nagy birtokosok elvigyék az összes likviditást, amikor a piac megnyílik",
+            "- **Időkeret**: Automatikusan feloldódik 30 perc után, nem befolyásolja a normál kereskedést",
+            "- **Árstabilitás fenntartása**: Kerülni kell az éles árfolyamingadozásokat a nyitáskor"
+          ],
+          "release_methods": [
+            "**Kibocsátási Módszer**: Fokozatos kibocsátás a felhasználói tevékenységek alapján",
+            "",
+            "**Kiadási Források**:",
+            "1. **Küldj Red Packet-et**: Minden alkalommal, amikor 1 USDT Red Packet-et küldesz, a jelenlegi szakasz alapján kapj megfelelő mennyiségű $moonini-t.",
+            "2. **Barátok Meghívása**: Sikeresen hívd meg az új felhasználókat és teljesítsd a megosztási feladatokat, hogy megkapd a $moonini-t.",
+            "3. **Feladatok teljesítése**: Teljesíts elért feladatokat, közösségi feladatokat stb., hogy extra $moonini-t keress.",
+            "4. **Csoporttulajdonosi Profitmegosztás**: A csoporttulajdonosok 3% profitmegosztást (USDT) kaphatnak a Red Packet-ek csoportok közötti küldéséért."
+          ],
+          "cost_vs_price": [
+            "💡 **Termelési költség vs Piaci ár**:",
+            "",
+            "Az 1 $moonini megszerzésének implicit költsége a Red Packet bányászaton keresztül az 1. fázisban körülbelül **0,02 USDT** (2%-os tranzakciós díj alapján).",
+            "",
+            "Mivel kezdeti listázási árunk **0,01 USDT**.",
+            "",
+            "Ez azt jelenti, hogy **a másodlagos piaci vásárlási költség 50%-kal alacsonyabb, mint a termelési költség**, biztosítva ezzel a korai tartóknak egy természetes biztonsági ráhagyást."
+          ],
+          "withdraw_mechanism": [
+            "**Kivonási Mechanizmus**:",
+            "- Miután a felhasználók megszerzik a $moonini-t a platformon, biztonságos személyazonosság-ellenőrzési mechanizmuson keresztül átutalhatják azt a pénztárcájukba.",
+            "- A rendszer a felhasználói tevékenységi nyilvántartások alapján ellenőrzi, hogy csak a felhasználó végezheti el a műveleteket.",
+            "- A hitelesítést követően a felhasználók visszavonhatják tokenjeiket a tárcájukba",
+            "- **Minimum Withdrawal Threshold**: 10 $moonini",
+            "- **Tranzakciós díj**: A felhasználóknak csak a hálózati tranzakciós díjat kell megfizetniük (a blokklánc gyakorlatoknak megfelelően)",
+            "",
+            "*A részletes műszaki végrehajtáshoz kérjük, hivatkozzon a következőre: [Műszaki Specifikációs Dokumentum](/hu-HU/docs/technical)*"
+          ],
+          "phase_switch": [
+            "**Fázisváltás**:",
+            "- Automatikusan vált a következő szakaszra, amikor az kibocsátott összeg eléri a szakasz küszöbértékét",
+            "- A váltási folyamat átlátható és nyomon követhető, az on-chain rögzítve van"
+          ]
+        },
+        "team": {
+          "title": "4.2 Csapat Kvóta (10%)",
+          "vesting_rules": [
+            "**Rögzítési és Feloldási Szabályok**:",
+            "",
+            "| Kategória | Arány | Záradék Időszak (Kliff) | Lineáris Kibocsátási Időszak | Összes Időtartam |",
+            "|------|------|---------------|-----------|--------|",
+            "| **Műveletek** | 2% (200M) | 3 hónap | 45 hónap | 48 hónap |",
+            "| **Műszaki Csapat** | 2% (200M) | 3 hónap | 45 hónap | 48 hónap |",
+            "| **Közügyi Kapcsolatok/Marketing** | 2% (200M) | 3 hónap | 45 hónap | 48 hónap |",
+            "| **Korai Befektetők** | 4% (400M) | 3 hónap | 33 hónap | 36 hónap |",
+            "",
+            "**Kibocsátási Módszer**:",
+            "- **Lineáris Felhalmozás**: A tokenok időben lineárisan halmozódnak, és a kivehető összeg bármikor ellenőrizhető.",
+            "- **Szabályos Kiadások**: Automatikus szabályos indítók a kiadáshoz, manuális beavatkozás nélkül.",
+            "- **Értesítési Mechanizmus**: Automatikus értesítések küldése a kedvezményezetteknek, miután minden kibocsátás befejeződött.",
+            "",
+            "**Példa**:",
+            "- A Befektető A 1,000,000 $moonini-t kap",
+            "- Első 3 hónap: Lekötési időszak, a kivételek nem engedélyezettek",
+            "- A 4. hónaptól kezdve: A tokenek időben lineárisan gyűlnek, a felhalmozott rész rendszeres kivonása mellett.",
+            "- 33 hónap után: Minden kiadás befejezve."
+          ]
+        },
+        "kyc": {
+          "title": "4.3 Befektető KYC és Menedzsment",
+          "methods": [
+            "**KYC Módszer** (korlátozott számú kezdeti befektető számára):",
+            "",
+            "1. **Alapító Csapat Valódi Név KYC** (Ajánlott, kisméretű vállalkozások számára megfelelő)",
+            "- Kisebb kezdeti befektetők számára alkalmas (< 10 fő)",
+            "- A megalapító csapat tagjai (Műveletek + Technikai) videóinterjúkat készítenek a befektetőkkel",
+            "- Azonosító dokumentumok, lakcímigazolás és egyéb anyagok ellenőrzése",
+            "- Erősítse meg PDF elektronikus aláírással (DocuSign/SignNow)",
+            "- **Előnyök**: Alacsony költség, rugalmas folyamat, bizalmat épít",
+            "",
+            "2. **Shufti Pro** (Közepes méretű vállalkozások számára alkalmas)",
+            "- Közepes számú befektető számára alkalmas (10-50 fő)",
+            "- Havi 10 ingyenes ellenőrzési slot (alkalmas kezdeti használatra)",
+            "- Automatizált folyamat, támogatja a több országra kiterjedő dokumentumellenőrzést.",
+            "- **Előnyök**: Automatizálás, magas megfelelőség, több ország dokumentációs támogatása.",
+            "",
+            "3. **Egyéb Harmadik Fél KYC** (Jövőbeni Bővítés)",
+            "- Persona / Sumsub / Onfido mint alternatívák",
+            "- Alkalmas nagyobb számú befektető számára (> 50 fő)"
+          ],
+          "flexibility": [
+            "**Befektetői Rugalmas Tervezés**:",
+            "",
+            "**Támogatás több pénztárcához és különböző arányokhoz**:",
+            "- Egy befektető több tárcát is birtokolhat a tokenek fogadására.",
+            "- Minden pénztárca beállíthat különböző elosztási arányokat (pl. 60% / 40%).",
+            "- Különböző befektetők különböző belépési időpontokkal rendelkezhetnek.",
+            "",
+            "**Pénztárca Csere Mechanizmus (Lemondási és Újra kiadási Stratégia)**:",
+            "- A befektetők megváltoztathatják a fogadó tárcájukat (új KYC azonosítás szükséges).",
+            "- **Fő Logika**: A régi pénztárca közvetlen módosítása helyett vonja vissza a régi kiadási tervet, és hozzon létre egy új kiadási tervet az új pénztárca számára.",
+            "- **Folyamat**:",
+            "1. A befektetők bejelentik régi pénztárcájuk elvesztését/lopását, és teljesítik az off-chain KYC ellenőrzést.",
+            "2. Egy több aláírásos pénztárca javaslatán keresztül vonja vissza a régi kibocsátási tervet, és adja vissza a ki nem adott tokeneket.",
+            "3. Készítsen egy új kiadási tervet az új pénztárcához, ahol az összeg a fennmaradó rész, az idő pedig a fennmaradó időtartam.",
+            "4. Minden művelet 48 órás késleltetéssel kerül megerősítésre a transzparencia és a biztonság biztosítása érdekében.",
+            "- **Előnyök**: A szerződés logikája egyszerűbb (csak létrehozás és visszavonás), jelentősen csökkentve a hackelés kockázatát.",
+            "- Csak az \"ki nem adott\" részt érinti; a kiadott tokenek nem vonhatók vissza."
+          ]
+        }
+      },
+      "governance": {
+        "mechanism": {
+          "title": "5.1 Kormányzási Mechanizmus",
+          "core_principle": [
+            "**Alapelv**: **Nincs egyetlen legmagasabb hatóság**, minden fontos műveletnek késleltetett nyilvános felülvizsgálaton kell átesnie",
+            "",
+            "**Irányítási folyamat**:",
+            "1. **Javaslat**: Irányítási javaslat a többszörös aláírású pénztárca jóváhagyása után",
+            "2. **Felülvizsgálati időszak**: Lépj be a 48 órás késleltetési sorba, minden tevékenység nyilvánosan látható a blokkláncon.",
+            "3. **Végrehajtás**: A javaslatok a késleltetés lejártát követően végrehajthatók.",
+            "4. **Törlés**: A felülvizsgálati időszak alatt a javaslattevő törölheti a javaslatot",
+            "",
+            "**Irányítható tételek**:",
+            "- Paraméterek módosítása (tranzakciós díjak, visszavásárlási korlátok stb.)",
+            "- Kincstári allokációk (következő fázis kvótái, események költségvetése, stb.)",
+            "- Szerződésfrissítések (át kell menniük az auditáláson)"
+          ]
+        },
+        "security": {
+          "title": "5.2 Biztonsági Intézkedések",
+          "description": [
+            "**Többrétegű Védelem**:",
+            "1. **Többszörös aláírású pénztárca**: Minden fontos művelethez legalább 2 aláírás szükséges a megerősítéshez",
+            "2. **Késleltetett végrehajtás**: Minden magas kockázatú művelet 48 órás késleltetést igényel",
+            "3. **Audit**: Harmadik fél általi biztonsági auditokon keresztül",
+            "4. **Nyílt forráskód**: A szerződés kódja nyílt forráskódú és nyilvánosan ellenőrizhető.",
+            "",
+            "**Engedélykezelés**:",
+            "- **Token Kibocsátás Hatóság**: Visszavonva vagy átruházva a kormányzati kincstárra, nem tud tokeneket szabadon kibocsátani.",
+            "- **Fagyasztási Hatóság**: Zárva, nem tudja fagyasztani a felhasználói tokeneket.",
+            "- **Határozati Frissítés**: Csak a kormányzati cím módosíthatja a token információkat."
+          ]
+        },
+        "pol": {
+          "title": "5.3 Visszavásárlás és Piacszabályozás (POL - Korlátlan Visszavásárlás + Alapár Védelem)",
+          "mechanism": [
+            "**Mechanizmus**:",
+            "- **1%** a platform tranzakciós díjakból, amelyet a $moonini visszavásárlására használnak és a likviditási medence mélyítésére.",
+            "- **Korlátlan visszavásárlás**: Nincs napi korlát a visszavásárlásokra; annyi tranzakciós díj, amennyi van, a visszavásárlások továbbra is likviditási támogatást nyújtanak a token számára.",
+            "- **Automatizált Stratégia**: Okos visszavásárlási stratégiák alkalmazása a kiszámíthatóság csökkentésére és a piaci manipuláció elkerülésére",
+            "- **Védelem vásárlása**: Automatikusan növeli a visszavásárlási erőfeszítéseket, ha jelentős piaci csökkenés történik, védve a befektetők érdekeit"
+          ],
+          "floor_defense": [
+            "**Padlóár Védelem**:",
+            "- **Pszichológiai Ár Szint**: 0,01 USDT",
+            "- **Automatikus Védelem**: Amikor az ár a védekezési küszöb alatt csökken, a védekező üzemmód automatikusan aktiválódik, fokozva a visszavásárlási erőfeszítéseket",
+            "- **Automatizált Piac Képzés**: Automatikus piac képzés okos szerződések alapján, amely nem igényel kézi beavatkozást, biztosítva a piaci stabilitást",
+            "- **Takarítson meg a Piacgyártó Díjakon**: Használja a költségvetést Piros Csomagok kibocsátására, marketingre vagy a kezdeti likviditás növelésére"
+          ],
+          "philosophy": [
+            "**Tervezési Filozófia**:",
+            "- Alacsony belépési korlátok, magas játékelméleti hozamok",
+            "- A projektparti nem vonja ki magát a piacról (csak tranzakciós díj visszavásárlásokat biztosít)",
+            "- Tiszta SocialFi modell",
+            "- Automatikusan fenntartja a pszichológiai ár szintet a piaci bizalom megőrzése érdekében",
+            "",
+            "*A részletes műszaki paraméterek és megvalósítási stratégiák érdekében kérjük, tekintse meg: [Műszaki Specifikációs Dokumentum](/hu-HU/docs/technical)*"
+          ]
+        },
+        "kyc": {
+          "title": "4.3 Befektető KYC és kezelés",
+          "methods": [
+            "**KYC Módszerek** (kisebb számú kezdeti befektető számára):",
+            "",
+            "1. **Alapító Csapat Valódi Személy KYC** (ajánlott, kis léptékhez megfelelő)",
+            "- Kevesebb kezdeti befektető számára alkalmas (< 10 fő)",
+            "- Videóinterjúk az alapító csapat tagjai (műveletek + technológia) és a befektetők között",
+            "- Az azonosító okmányok, címigazolás és egyéb dokumentumok ellenőrzése",
+            "- Megerősítés PDF e-alkotás (DocuSign/SignNow)",
+            "- **Előnyök**: Alacsony költség, rugalmas folyamatok, képes bizalmi kapcsolatokat kialakítani",
+            "",
+            "2. **Shufti Pro** (közepes méretű vállalkozásokhoz megfelelő)",
+            "- Közepes számú befektető számára alkalmas (10-50 fő).",
+            "- 10 ingyenes hitelesítési kredit havonta (alkalmas kezdeti használatra).",
+            "- Automatizált folyamatok, támogatva a több országra kiterjedő dokumentumellenőrzést",
+            "- **Előnyök**: Automatizálás, magas megfelelőség, több országra kiterjedő dokumentumok támogatása",
+            "",
+            "3. **Egyéb Harmadik Fél KYC** (jövőbeni bővítés)",
+            "- Persona / Sumsub / Onfido alternatívaként",
+            "- Alkalmas nagyobb számú befektető számára (> 50 fő)"
+          ],
+          "flexibility": [
+            "**Rugalmas Tervezés a Befektetők Számára**:",
+            "",
+            "**Több Penztárca és Különböző Arányok Támogatása**:",
+            "- A befektető több pénztárcával is rendelkezhet a tokenek fogadásához.",
+            "- Minden tárca beállítható különböző allokációs arányokra (pl. 60% / 40%).",
+            "- A különböző befektetők eltérő belépési időpontokkal rendelkezhetnek.",
+            "",
+            "**Pénztárca Változtatási Mechanizmus (Visszavonási és Újraiadási Stratégia)**:",
+            "- A befektetők megváltoztathatják a fogadó tárcát (új KYC azonosítás szükséges).",
+            "- **Alap Logika**: A régi pénztárca közvetlen módosítása helyett vonja vissza a régi kiadási tervet, és hozzon létre egy új kiadási tervet az új pénztárcához.",
+            "- **Folyamat**:",
+            "1. A befektető bejelenti a régi pénztárca elvesztését/lopását, és elvégzi az off-chain KYC ellenőrzést.",
+            "2. Egy több aláírásos pénztárca javaslatán keresztül vonja vissza a régi kiadási tervet és térítse vissza a kiadatlan tokeneket.",
+            "3. Hozzon létre egy új kiadási tervet az új tárcához, ahol az összeg a fennmaradó rész és az idő a fennmaradó időtartam.",
+            "4. Minden művelet 48 órás késleltetett megerősítéssel zajlik a transzparencia és a biztonság érdekében.",
+            "- **Előnyök**: A szerződés logikája egyszerűbb (csak létrehozás és visszavonás), ami jelentősen csökkenti a hackelési kockázatokat.",
+            "- Csak a \"kiadatlan\" rész érinti; a már kiadott tokenek nem visszanyerhetők."
+          ]
+        }
+      },
+      "incentives": {
+        "how_to_earn": {
+          "title": "6.1 Hogyan szerezhetjük meg a $moonini-t?",
+          "send_gift": [
+            "#### A. Piros Csomagok Küldése",
+            "",
+            "- **Alap szabályok**: Minden elküldött **1 USDT** red packet (több token is támogatott) után a rendszer kiszámítja és elosztja a $moonini-t a jelenlegi fázis árfolyama alapján.",
+            "- **Áldások Közvetítése**: A Red Packet nem csupán pénz; áldások közvetítője. Minden ajándékozási cselekedet rögzítésre kerül a blokkláncon és jutalmazásra kerül."
+          ],
+          "invite": [
+            "#### B. Barátok meghívása (Piros Csomagok megosztása)",
+            "",
+            "- **Szabályok**: Hívj meg új barátokat és végezd el a megosztási feladatokat, mindkét fél jutalomban részesül.",
+            "- **Spamellenes Mechanizmus**: A méltányosság biztosítása érdekében **minden fióknak van egy meghívási jutalomkorlátja**, amelyet a legfrissebb közösségi játéktervezési bejelentés szerint dinamikusan állítanak be.",
+            "- **Kockázatkezelés**: Szigorú kockázatkezelési mechanizmusaink vannak; bármilyen rendellenes spamelési viselkedést érvénytelennek tekintünk."
+          ],
+          "quests": [
+            "#### C. Feladatok Befejezése",
+            "",
+            "**Feladat Típusok**:",
+            "- Tartalmaz egyszeri teljesítményt feladatokat (például az első red packet elküldése) és közösségi feladatokat (például a hivatalos közösség követése).",
+            "- Ezek a feladatok arra szolgálnak, hogy megismertessék az újoncokat a platform jellemzőivel, **minden fiók csak egyszer teljesítheti őket, vagy van egy maximális mennyiségi korlátja**.",
+            "",
+            "**Tervezési Cél**:",
+            "- A szkript automatizálásának megakadályozása a érmék spamelése érdekében, így jutalmakat biztosítva a valóban aktív felhasználók számára."
+          ]
+        },
+        "fee_structure": {
+          "title": "6.2 Díjszabás",
+          "description": [
+            "**Tranzakciós Díjak Piros Csomagok Küldésekor**:",
+            "",
+            "| Szenárió | Összes Díj | Leírás |",
+            "|------|---------|------|",
+            "| **Küldés Saját Csoportban** | 2% | 1% Műveletek + 1% Visszavásárlás |",
+            "| **Keresztcsoportos Küldés** | 5% | 1% Műveletek + 1% Visszavásárlás + 3% Csoporttulajdonosi Profitmegosztás |",
+            "",
+            "**Díjak használata**:",
+            "- **1% Műveletek**: A szerver, fejlesztési és marketingköltségekhez használják.",
+            "- **1% Visszavásárlás**: A $moonini visszavásárlására szolgál, és mélyíti a likviditási medencét (a jövőben realizálásra kerül).",
+            "- **3% Csoport Tulajdonosi Profitmegosztás**: Kifizetés a csoport tulajdonosának (csak a csoportok közötti küldés esetén kerül felszámításra)."
+          ]
+        }
+      },
+      "developer": {
+        "contracts": {
+          "title": "7.1 Szerződés címe (Folyamatban lévő telepítés)",
+          "description": [
+            "Amint a token hivatalosan elindul, itt bejelentjük az összes okos szerződés címet, a megfelelő műszaki specifikációs linkekkel együtt.",
+            "",
+            "**Fő Szerződés Modulok**:",
+            "- Token Szerződés",
+            "- Irányítás és Késleltetés Ellenőrzés",
+            "- Nyilvános Kínálati Pénztár",
+            "- Csapatallokációs Kincstár",
+            "- Visszavásárlás Menedzsment",
+            "- Likviditási alap",
+            "- Többleírásos pénztárca",
+            "",
+            "*A részletes szerződéscímek és műszaki specifikációk megtekintéséhez kérjük, hivatkozzon a következőre: [Műszaki Specifikációs Dokumentum](/hu-HU/docs/technical)*"
+          ]
+        },
+        "api": {
+          "title": "7.2 Integrációs módok és API (Tervezés alatt)",
+          "intro": [
+            "a moonpacket tervezi, hogy egy teljes API ökoszisztémát biztosít, lehetővé téve a külső fejlesztők és partnerek számára, hogy könnyen integrálják a $moonini jutalmazási mechanizmust termékeikbe. Legyen szó Telegram botról, Web3 játékról vagy marketingkampány platformról, API-nk lehetővé teszi a felhasználók számára, hogy $moonini jutalmakat kapjanak, ezzel bővítve az ökológiai hatást."
+          ],
+          "types": [
+            "**API típusok**:",
+            "",
+            "Tervezzük, hogy a következő típusú API-kat biztosítjuk a különböző integrációs igények kielégítésére:",
+            "",
+            "- **Adatlekérdező API**: Lekérdezheti a Red Packet elosztási nyilvántartásokat, a feladat teljesítési állapotát, a felhasználó $moonini egyenlegét és még sok mást, lehetővé téve a partnerek számára, hogy megértsék a felhasználói aktivitás állapotát.",
+            "",
+            "- **Elosztási és Feladat API**: Lehetővé teszi a partnerek számára, hogy Red Packet elosztásokat vagy feladatjutalmakat indítsanak saját termékeikben, például automatikusan elosztva a $moonini jutalmakat, amikor a felhasználók bizonyos mérföldköveket érnek el egy játékban.",
+            "",
+            "- **Webhook események**: A rendszer proaktívan értesíti a partnereket a fontos eseményekről, például amikor a felhasználók feladatokat teljesítenek, Red Packet-eket igényelnek, vagy befejezik a kivételeket, lehetővé téve ezzel a valós idejű válaszokat és az adatok szinkronizálását."
+          ],
+          "security": [
+            "**Biztonság és Engedélyek**:",
+            "",
+            "A API biztonságának és stabilitásának biztosítása érdekében az alábbi mechanizmusokat alkalmazzuk:",
+            "",
+            "- **API Kulcs Hitelesítés**: Minden partner egy dedikált API kulcsot vagy alkalmazás azonosítót kap az azonosítás és a jogosultságok kezelésére.",
+            "",
+            "- **Korlátozott hozzáférés**: Minden API kérés korlátozva van, hogy megakadályozza a visszaéléseket és a túlterhelést, biztosítva a szolgáltatás stabilitását.",
+            "",
+            "- **Aláírás Ellenőrzés**: Kritikus műveletek (pl. jutalmak kiadása) megkövetelik a kérés aláírásának ellenőrzését a hamisítványok és jogosulatlan tevékenységek megelőzése érdekében.",
+            "",
+            "- **Engedélyezési Szintek**: Különböző partnerek eltérő API engedélyezési szintekkel rendelkeznek az együttműködési kapcsolatuk és igényeik alapján, biztosítva a legkisebb kiváltság elvét."
+          ],
+          "release": [
+            "**Kibocsátási Ritmus**:",
+            "",
+            "Az API egy fokozatos nyitási stratégiát fog alkalmazni a stabilitás és a biztonság biztosítása érdekében:",
+            "",
+            "- **Zárt Béta**: Hozzáférést biztosítunk partnereinknek és korai játékfejlesztőknek egy zárt béta formátumban, hogy visszajelzéseket gyűjtsünk és optimalizáljuk a tapasztalatokat.",
+            "",
+            "- **Fokozatos Megnyitás**: A Béta szakaszban tapasztalt stabilitás ellenőrzése után az alkalmazások fokozatosan meg fognak nyílni, hogy több fejlesztő integrálhassa a $moonini ökoszisztémát.",
+            "",
+            "- **Hivatalos Kiadás**: Amint az API eléri a termelési szintű stabilitást, hivatalosan is megnyílik a nyilvánosság számára, teljes dokumentációval és támogatással."
+          ],
+          "scenarios": {
+            "title": "Tipikus integrációs forgatókönyvek",
+            "items": [
+              "**Telegram Bot / Mini App**: Küldj Red Packet-eket a csoportjaidban vagy alkalmazásaidban, hogy a felhasználók $moonini jutalmakat kapjanak, növelve a felhasználói elköteleződést.",
+              "",
+              "**Web3 Játékok**: A játékokban a feladatok teljesítési státuszát jelentheti a moonpacketnek, lehetővé téve a játékosok számára, hogy automatikusan további $moonini jutalmakat kapjanak a játékfeladatok befejezésekor.",
+              "",
+              "**Marketingkampány Platformok**: Automatikusan küldj $moonini jutalmakat a felhasználói viselkedés alapján a közösségi médiában (pl. megosztás, újratweetelés, követés stb.), precíz marketing elérésével.",
+              "",
+              "**DeFi protokollok**: Integrálja a $moonini-t, mint egy további jutalmi réteget, lehetővé téve a felhasználók számára, hogy $moonini jutalmakat keressenek az eredeti nyereségek felett, ha specifikus DeFi műveleteket végeznek.",
+              "",
+              "**Tartalomkészítő Platformok**: Automatikusan kiadja a $moonini jutalmakat, amikor a készítők teljesítik a konkrét feladatokat vagy elérik a mérföldköveket, ösztönözve ezzel a minőségi tartalomkészítést."
+            ]
+          }
+        },
+        "tools": {
+          "title": "7.3 Fejlesztői Eszközök és Dokumentáció",
+          "description": [
+            "A fejlesztők Moonpacket API könnyebb integrációjának elősegítése érdekében tervezzük, hogy teljes fejlesztői eszközöket és dokumentációt biztosítunk:",
+            "",
+            "- **Fejlesztői Portál**: Egységes belépési pontot biztosít a fejlesztők számára, beleértve az API kulcsok kezelését, a használati statisztikákat, a hibajegyzékeket és még sok mást, lehetővé téve a fejlesztők számára az integrációik egyszerű kezelését.",
+            "",
+            "- **API Dokumentáció**: Teljes REST API és Webhook dokumentációt biztosít, beleértve a kérésmintákat, válaszformátumokat, hibaüzenetek magyarázatait, stb., lehetővé téve a fejlesztők számára, hogy gyorsan elkezdjék.",
+            "",
+            "- **SDK és Kód Példák**: Több nyelvű SDK-kat (mint például JavaScript, Python) és kód példákat biztosít az integrációs akadályok csökkentésére, lehetővé téve a fejlesztők számára a gyors megvalósítást.",
+            "",
+            "Jelenleg a technikai dokumentumok a dokumentum központ (docs) technikai oldaláról érhetők el, beleértve az okosszerződés specifikációkat, a disztribúciós mechanizmusokat, a feladat rendszereket és egyéb technikai részleteket. A teljes API dokumentáció a 《[Fejlesztői API Dokumentáció](/hu-HU/docs/api/)》 oldalon lesz elérhető, és a hivatalos API dokumentációt és fejlesztői eszközöket fokozatosan fogják közzétenni a mainnet elindítása körüli időszakban, ezért kövesse figyelemmel!"
+          ]
+        }
+      },
+      "roadmap": {
+        "labels": {
+          "current": "Folyamatban",
+          "done": "Befejeződött"
+        },
+        "phase1": {
+          "title": "1. fázis: Infrastruktúra (Befejezve ✅)",
+          "items": [
+            "- [x] Token szerződés tervezése",
+            "- [x] Műszaki specifikációs dokumentum",
+            "- [x] Adatszerkezet tervezés"
+          ]
+        },
+        "phase2": {
+          "title": "2. fázis: Szerződés fejlesztés (Folyamatban 🚧)",
+          "items": [
+            "- [ ] Token szerződés telepítése (Teszt hálózat)",
+            "- [ ] Fázis kezelési szerződés",
+            "- [ ] Jutalék szerződés",
+            "- [ ] Időzár integráció",
+            "- [ ] Harmadik fél audit"
+          ]
+        },
+        "phase3": {
+          "title": "3. fázis: Indítás előkészítése (Tervezték 📅)",
+          "items": [
+            "- [ ] Főhálózat telepítése",
+            "- [ ] Kezdeti likviditás medence létrehozása",
+            "- [ ] Felhasználói ösztönző rendszer elindítása",
+            "- [ ] Irhely indítása"
+          ]
+        },
+        "phase4": {
+          "title": "4. fázis: Ökosystem bővítése (Jövő 🔮)",
+          "items": [
+            "- [ ] POL visszavásárlási mechanizmus aktiválása",
+            "- [ ] Keresztlánc támogatás (Polygon / Arbitrum)",
+            "- [ ] További DeFi integrációk"
+          ]
+        }
+      },
+      "risks": {
+        "technical": {
+          "title": "9.1 Technikai Kockázat",
+          "description": [
+            "| Kockázat | Leírás | Mítoszkezelési intézkedések |",
+            "|------|------|---------|",
+            "| Okos szerződés sebezhetőségei | A szerződés ismeretlen sebezhetőségeket tartalmazhat | Harmadik féltől származó auditok, Bug Bounty |",
+            "| Magánkulcs szivárgás | Az adminisztrátor magánkulcsai ellophatóak | Használjon hardveres tárcákat, MPC-t, több aláírásos megoldásokat |",
+            "| Hálózati torlódás | A BSC csúcsidők késedelmeket okozhatnak | Többcsomópontú redundancia, gázoptimalizálás |"
+          ]
+        },
+        "market": {
+          "title": "9.2 Piaci Kockázat",
+          "description": [
+            "- **Ár Volatilitás**: A token árak jelentősen ingadozhatnak.",
+            "- **Likviditási Kockázat**: A kezdeti likviditás elégtelen lehet",
+            "- **Szabályozási Kockázat**: A különböző országok szabályozási politikái változhatnak"
+          ]
+        },
+        "notice": {
+          "title": "9.3 Felhasználói Értesítés",
+          "description": [
+            "- ⚠️ **Befektetési Kockázat**: A tokenek ára akár nullára is csökkenhet, kérjük, óvatosan fektessen be",
+            "- ⚠️ **Nem befektetési tanács**: Ez a fehér könyv nem minősül befektetési tanácsnak",
+            "- ⚠️ **Csak Saját Kutatás**: Kérjük, végezzen saját kutatást és értékelje a kockázatokat."
+          ]
+        }
+      },
+      "faq": {
+        "title": "Tíz, megerősítendő ügy",
+        "description": [
+          "Ez a fehér könyv a $moonini alapvető tervezési elveit és gazdasági modelljét írja le. Az alábbi ügyek még tanácsadókkal és partnerekkel való egyeztetés alatt állnak, és a főhálózat indítása előtt véglegesítve lesznek:",
+          "",
+          "- **Tokenkiadás időzítése és listázási tőzsdék**: A konkrét kiadási idő és az, hogy központosított tőzsdéken (CEX) kerül-e listázásra, még mindig tanácsadókkal és partnerekkel való egyeztetés alatt áll.",
+          "",
+          "- **Műszaki részletek**: Néhány műszaki megvalósítási részlet (például a láncok közötti támogatás és a visszavásárlási stratégia paramétereinek módosítása) véglegesítésre kerül a főhálózat indítása előtt, és frissítve lesz a műszaki dokumentumban.",
+          "",
+          "- **Megfelelőség és Adóztatás**: A megfelelőségi követelmények és az adózás kezelése folyamatosan frissül a Tajvanról és a helyi területről származó szakmai vélemények alapján, hogy biztosítsa a helyi előírásoknak való megfelelést.",
+          "",
+          "- **Fehér Könyv Frissítések**: Ez a fehér könyv kisebb módosításokat tartalmazhat, de az alapelvek (90/10 elosztás, 6 fázisú felére csökkentési mechanizmus, zárolás és lineáris kiadás) változatlanok maradnak.",
+          "",
+          "Az összes technikai részlet, telepítési lépés és funkciós interfész megtalálható a [Műszaki Specifikációs Dokkban](/hu-HU/docs/technical)."
+        ]
+      }
+    },
+    "charts": {
+      "phase": {
+        "title": "6 fázisú felezési mechanizmus",
+        "description": "Minél korábban veszel részt, annál több tokent kapsz.",
+        "xAxis": "Keringés",
+        "yAxis": "Visszaváltási arány (1 USDT-ra vonatkozóan)",
+        "phase": "Fázis",
+        "ratio": "Arány",
+        "range": "Időköz",
+        "units": {
+          "ratio": "Darabok",
+          "usdt": "USDT"
+        }
+      },
+      "vesting": {
+        "title": "Kibocsátási ütemterv",
+        "description": "A csapat allokáció 3 hónapra lezárásra kerül, majd kategóriánként lineárisan felszabadul.",
+        "cliff": "Zárolási időszak",
+        "linear": "Lineáris Kibocsátási Időszak",
+        "total": "Teljes időtartam",
+        "months": "Hónapok",
+        "operations": "Műveletek",
+        "tech": "Műszaki Csapat",
+        "marketing": "Közügyek/Marketing",
+        "investors": "Korai befektetők"
+      },
+      "flow": {
+        "title": "Token Forgalmi Áramlás",
+        "userSend": "Felhasználó Küldte Red Packet",
+        "fee": "Tranzakciós díjak",
+        "operations": "Üzemeltetési Költségek",
+        "pol": "Visszavásárlási Alap",
+        "accumulate": "Felhalmozás",
+        "trigger": "Visszavásárlási Aktiváló",
+        "swap": "Token Csere",
+        "addLiquidity": "Fizikai hozzáadása",
+        "pool": "Likviditási Medence"
+      },
+      "governance": {
+        "title": "Kormányzási folyamat",
+        "multisig": "Több aláírásos pénztárca",
+        "proposal": "Javaslat",
+        "timelock": "Késleltetett végrehajtás",
+        "execute": "Végrehajtás",
+        "update": "Frissítés"
+      },
+      "architecture": {
+        "title": "Okos Szerződés Építkezés",
+        "token": "Token Szerződés",
+        "vault": "Pénztárca",
+        "manager": "Menedzser",
+        "protection": "Védelmi Mechanizmus"
+      },
+      "progress": {
+        "title": "Fázis Haladás",
+        "current": "Jelenlegi fázis",
+        "issued": "Kibocsátva",
+        "remaining": "Hátralévő"
+      }
+    }
+  },
+  "api": {
+    "actions": {
+      "items": {
+        "0": "Olvasd el a [whitepaper](/hu-HU/docs/whitepaper/) dokumentumot, hogy többet megtudhass a $moonini tokenről és annak gazdasági modelljéről.",
+        "1": "Olvasd el a [Műszaki Specifikációs Dokumentumot](/hu-HU/docs/technical/) a smart contractok és a kibocsátási mechanizmus megértéséhez.",
+        "2": "Kérjük, nyújtsa be API együttműködési kérését hivatalos csatornákon (Telegram, Email), és prioritást élvez, hogy értesítsük, amikor az API készen áll."
+      },
+      "title": "Mit tehetsz most?"
+    },
+    "content": {
+      "0": "Ez a oldal hamarosan teljes dokumentációt nyújt a moonpacket / $moonini API-ról, beleértve a REST API technikai részleteit, Webhook eseményeket, OAuth hitelesítést, API Kulcs kezelését és még sok mást.",
+      "2": "Az API jelenleg a tervezési és belső validációs szakaszban van, és először egy zárt bétában lesz elérhető néhány kiválasztott partner számára, hogy teszteljék, visszajelzést gyűjtsenek és optimalizálják a tapasztalatot.",
+      "4": "Minden műszaki részletet a 'Műszaki Specifikációs Dokumentumra' és a fehér könyvre kell hivatkozni, mielőtt a hivatalos API dokumentáció közzétételre kerül."
+    },
+    "description": "Tudja meg, hogyan integrálhatja a moonpacket és a $moonini szolgáltatásokat a termékeibe az API-n keresztül.",
+    "seo": {
+      "description": "Teljes API dokumentáció, REST API, Webhook és integrációs útmutató",
+      "title": "Moonpacket / $moonini API Dokumentáció — moonpacket"
+    },
+    "status": {
+      "planned": "(Tervezés alatt)"
+    },
+    "subtitle": "Teljes API dokumentáció és integrációs útmutató (tervezés alatt)",
+    "title": "moonpacket / $moonini API Dokumentáció"
+  },
+  "countdown": {
+    "days": "Ég",
+    "hours": "Óra",
+    "minutes": "percek",
+    "seconds": "másodperc",
+    "title": "A távolság a $moonini hivatalos megjelenéséig"
+  },
+  "disclaimer": {
+    "badge": "Fontos értesítés",
+    "text": "Ez a tétel még fejlesztés alatt áll, és követni fogja a főoldalon található ütemtervet. A fehér könyv még változásoknak lehet kitéve a hivatalos token megosztás előtt, és kérjük a felhasználók megértését. A token megosztása után általában nem lesznek változtatások."
+  },
+  "distribution": {
+    "back_to_whitepaper": "Visszatérés a Fehér Könyvhöz",
+    "description": "Ismerje meg a $moonini belső elosztási szabályait és számviteli módszereit",
+    "intro": {
+      "0": "**Ez a dokumentum mérnökök és háttérfejlesztők számára készült**, meghatározva a konkrét szabályokat azzal kapcsolatban, hogy 'hogyan kell kibocsátani, hogyan tudják a felhasználók beváltani és megtekinteni' a moonpacket terméken belül.",
+      "2": "**Tervezési Elvek**:",
+      "3": "- **Minimalis változtatások**: Prioritás az meglévő adatstruktúra használatára, anélkül, hogy azonnal összetett DB táblákat adna hozzá.",
+      "4": "- **Bővíthető**: A jövőben, ha a $moonini teljesen on-chain kíván lenni, csak a kivonási/térképezési logikát kell hozzáadnunk.",
+      "5": "- **Átlátható és Nyomon Követhető**: Minden $moonini elosztás és felhasználás rögzítve van a `user_activity_logs`-ban.",
+      "7": "**Fő Tartalom**:",
+      "8": "- Adatmodell és számviteli módszer (belső főkönyv)",
+      "9": "- $moonini elosztási forrás és szabályok",
+      "10": "- Könyvelési végrehajtási részletek",
+      "12": "*Ez a dokumentum technikai részleteket tartalmaz, a általános felhasználók a projekt áttekintéséhez a [whitepaper](/hu-HU/docs/whitepaper/) dokumentumot használhatják.*",
+      "14": "A részletes dokumentációért kérjük, válogasson itt: `docs/technical/moonini-distribution.md`"
+    },
+    "seo": {
+      "description": "A $moonini elosztási szabályainak és könyvelési rendszerének utasításai",
+      "title": "$moonini elosztási mechanizmus — moonpacket"
+    },
+    "title": "$moonini Elosztás és Gyűjtés Tervezés"
+  },
+  "index": {
+    "description": "A projekt dokumentációjának, a fehér könyvnek és a műszaki specifikációknak a befejezése",
+    "sections": {
+      "general": "Általános Dokumentumok",
+      "technical": "Műszaki Dokumentáció"
+    },
+    "title": "moonpacket Dokumentumközpont"
+  },
+  "missions": {
+    "back_to_whitepaper": "Vissza a Fehér Réteghez",
+    "description": "Tudd meg, hogyan kereshetsz $moonini-t feladatok és teljesítmények révén.",
+    "intro": {
+      "0": "**Ez a dokumentum mérnököknek és termékfejlesztőknek szól**, meghatározva a $moonini missziós rendszerét és teljesítménymechanizmusát, ötvözve a sikerélményt és a szociális feladatokat a \"Red Packet + Barátok meghívása\" két alapvető cselekedete mellett.",
+      "2": "**Tervezési Elvek**:",
+      "3": "- Minden feladat az \"additional $moonini\" körül forog: **Pénzes Red Packet küldése, barátok meghívása, hivatalos közösségek követése**",
+      "4": "- A 'One-time Task' véglegesen eltűnik a befejezés után.",
+      "5": "- A feladatkezelő rendszer csak \"bónuszpontokat\" biztosít, és nem változtatja meg az alap elosztási szabályokat.",
+      "7": "**Feladatkategória**:",
+      "8": "- **Teljesítmény Feladatok** (egyszeri): Mérföldkövek a Red Packet küldéséhez, mérföldkövek barátok meghívásához stb.",
+      "9": "- **Közösségi Feladatok** (egyszeri): Kövesd hivatalos közösségi médiákat, csatlakozz hivatalos közösségekhez, stb.",
+      "10": "- **Napi/Havi Feladatok** (Fenntartott): Jövőbeli skálázható időszakos feladatok",
+      "12": "*Ez a dokumentum technikai részleteket tartalmaz; általános felhasználók a projekt áttekintéséhez a [whitepaper](/hu-HU/docs/whitepaper/) -re hivatkozhatnak.*",
+      "14": "A részletes dokumentációért kérjük, hivatkozzon erre: `docs/technical/moonini-missions.md`"
+    },
+    "seo": {
+      "description": "A küldetésrendszer és a teljesítménymechanizmus leírásának befejezése",
+      "title": "$moonini Feladat Rendszer — moonpacket"
+    },
+    "title": "$moonini feladatok és eredmények tervezése"
+  },
+  "nav": {
+    "api": "API Dokumentáció",
+    "distribution": "Elosztási mechanizmus",
+    "docs": "Dokumentum",
+    "missions": "Feladat Rendszer",
+    "technical": "Műszaki Specifikációk",
+    "whitepaper": "Fehér Könyv"
+  },
+  "technical": {
+    "back_to_whitepaper": "Vissza a Fehér Könyvhöz",
+    "description": "A mérnökök specifikációkat fejlesztenek, beleértve az okos szerződés interfészeket, a fázis logikát és a POL mechanizmusokat.",
+    "intro": {
+      "0": "**Ez a dokumentum mérnökök, okos szerződés fejlesztők és auditorok számára készült**, tartalmazza a teljes műszaki végrehajtási részleteket.",
+      "2": "**Cél lánc**: Binance Smart Chain (BSC)",
+      "3": "**Verzió**: v1.0 (2024-11)",
+      "5": "**Fő Tartalom**：",
+      "6": "- Okos szerződés architektúra és interfész definíció",
+      "7": "- Fáziskezelő logika (6 szakaszos felezési mechanizmus)",
+      "8": "- POL (Visszavásárlás és Piacletétel) mechanizmus végrehajtása",
+      "9": "- A kibocsátás felszabadítási mechanizmusa",
+      "10": "- Irányítási és Biztonsági Tervezés",
+      "11": "- Kód példák és technikai grafikonok",
+      "13": "*Ez a dokumentum technikai részleteket tartalmaz. Általános felhasználók a projekt áttekintéséhez a [fehér könyv](/hu-HU/docs/whitepaper/) útmutatóját használhatják.*",
+      "15": "Részletes műszaki dokumentációért kérjük, látogasson el ide: `docs/technical/moonini-bsc-technical-spec.md`"
+    },
+    "seo": {
+      "description": "A BSC okosszerződési műszaki specifikációk és fejlesztési útmutató teljesítése",
+      "title": "$moonini Műszaki Specifikációk — moonpacket"
+    },
+    "title": "$moonini BSC Műszaki Specifikációk"
+  },
+  "title": "Dokumentum",
+  "toc": {
+    "back_to_index": "Vissza a Dokumentumközpontba",
+    "title": "Katalógus"
+  }
+}

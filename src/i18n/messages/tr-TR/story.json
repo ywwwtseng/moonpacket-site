@@ -1,0 +1,101 @@
+{
+  "illustration_alt": "moonini, illüstrasyona kucak açıyor",
+  "title": "🌕 moonini'nin Hikayesi",
+  "origin": [
+    "Bir gün, uzak tarafında bir kırmızı meteor düştü.",
+    "Ay ışığı, çarpmanın etkisiyle patladı ve gümüş-beyaz bir ışık yağmuruna dönüştü.",
+    "O titrek kırmızı 'kırmızı paket meteoru'ndan",
+    "Parlayan küçük bir ay tavşanı doğdu — moonini.",
+    "",
+    "moonini göğsünde altın-sarı bir ay rozeti taşıyor.",
+    "Her kalpten gönderilen kırmızı paketi hissedebiliyor.",
+    "Miktar ne olursa olsun, bu en saf sıcak enerjidir.",
+    "Evet, moonini herkesin kırmızı paket enerjisi sayesinde büyüyor.",
+    "",
+    "Bu enerjiler, Solana zincirinde doğan kırmızı paket belgelerine dönüştü —",
+    "Bu, $moonini Token'ının kökenidir."
+  ],
+  "secrets_title": "🌸 Onun Sırrı",
+  "secrets_intro": "Her kırmızı paket gönderdiğinizde, moonini ayda bir enerji girişi kaydedecek:",
+  "secrets_flow": "Kırmızı paket gönder → Karşılık gelen enerji değerini üret (USDT değerine dönüştür) → 10 biriktir → Minimum geri alınabilir $moonini değerine ulaş.",
+  "secrets_halving": [
+    "Başlangıç aşamasında (Aşama 1), moonini genellikle kırmızı paketi gönderen kişi için en iyi 1:1 oranında geri dönecektir. Adaleti sağlamak ve yıkama/ping-pong riskini azaltmak için etkin enerji kavramını tanıtacağız.",
+    "Topluluk tarafından gönderilen ve çekilen toplam miktar, sistemin belirlediği yarılanma eşiğine ulaştığında, ilk yarılanma gerçekleşecektir; daha sonra, bir önceki aşamanın miktarının yarısına ulaşmak başka bir yarılanmayı tetikleyecektir."
+  ],
+  "schedule_title": "Token Yayın Kuralları",
+  "schedule_headers": [
+    "Aşama",
+    "Sorun Limiti",
+    "Çıktı Oranı (birikmiş her 1 USDT başına üretilen enerji)",
+    "Açıklama"
+  ],
+  "schedule_rows": [
+    [
+      "Aşama 1",
+      "0 ~ 4.5 billion",
+      "1.0 $moonpacket / USDT",
+      "Initial period, energy overflow."
+    ],
+    [
+      "Aşama 2",
+      "4.5B ~ 6.75B",
+      "0.5 $moonpacket / USDT",
+      "First halving."
+    ],
+    [
+      "Aşama 3",
+      "6.75B ~ 7.875B",
+      "0.25 $moonpacket / USDT",
+      "Stabilization period."
+    ],
+    [
+      "Aşama 4",
+      "7.875B ~ 8.4375B",
+      "0.125 $moonpacket / USDT",
+      "Scarcity period."
+    ],
+    [
+      "Aşama 5",
+      "8.4375B ~ 8.71875B",
+      "0.0625 $moonpacket / USDT",
+      "Late mining phase."
+    ],
+    [
+      "Aşama 6",
+      "8.71875B ~ 9B",
+      "0.03125 $moonpacket / USDT",
+      "Crystallization period (final phase)."
+    ]
+  ],
+  "cap_note": [
+    "Toplam dolaşım 9 milyara ulaştığında, moonini daha fazla çıkarım yapmayacak.",
+    "Kalan 1 milyar (toplam arzın %10'u),",
+    "Gelecek topluluk ödülleri ve iş birliği enerji havuzu kullanımı için resmi olarak ayrılmıştır."
+  ],
+  "belief_title": "🌕 Ayın enerjisi ve kırmızı paketlere olan inanç",
+  "belief_paragraphs": [
+    "moonini, 'paylaşmaya' istekli herkesi sever.",
+    "O, kırmızı paketlerin sadece para olmadığını, aynı zamanda bereket ve enerji alışverişi olduğunu inanıyor.",
+    "Her seferinde bir kırmızı paket gönderdiğinizde, bir görevi tamamladığınızda veya moonpacket topluluğuna katıldığınızda,",
+    "Şanslı bir şekilde $moonini geri alma şansına sahip olacaksınız.",
+    "",
+    "Bu, mutluluk yaydıktan sonra evrenin size geri verdiği ışıktır."
+  ],
+  "future_title": "💫 Gelecek uygulamalar",
+  "future_intro": "Şu anda, $moonini herhangi bir resmi uygulama senaryosu için açık değildir, ancak gelecekteki kırmızı paket dünyası için bir ödül ve enerji belgesi olarak tasarlanmıştır, muhtemel kullanım alanları şunlardır:",
+  "future_list": [
+    "✅ Kırmızı paket işlem ücreti indirimleri",
+    "🎁 Tüccar kuponları/geri ödeme indirimleri",
+    "🌐 Etkinlik airdrop'ları ve topluluk görev ödülleri"
+  ],
+  "disclaimer_title": "⚠️ Beyan",
+  "disclaimer_paragraphs": [
+    "Resmi, $moonini için herhangi bir döviz değişim değeri garanti etmemektedir.",
+    "Bunu cömert birinin bonus puanı olarak düşünebilirsiniz.",
+    "Herkesin mutluluğu paylaşmaya ve enerjiyi yaymaya istekli olduğunu sembolize ediyor."
+  ],
+  "closing": [
+    "moonini — kırmızı paket enerjisinden doğmuş ay tavşanı.",
+    "Her nimet, onun büyümesi için bir ışık huzmesidir."
+  ]
+}

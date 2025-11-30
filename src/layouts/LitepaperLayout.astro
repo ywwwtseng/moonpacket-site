@@ -1,0 +1,225 @@
+---
+/**
+ * 🌑 Litepaper Layout
+ * Based on BaseLayout but optimized for "Master Class" reading experience.
+ * Features:
+ * - Minimal Header (Protocol / Developers)
+ * - Sticky Chapter Scroller
+ * - Global Motion Context (Framer Motion)
+ * - No Sidebar (Focus Mode)
+ */
+import '@/styles.css';
+import '/src/styles/typography.css';
+import '/src/styles/theme.css';
+import '/src/styles/rtl-utils.css';
+import LanguageMenu from '@/components/LanguageMenu.astro';
+import BrandWordMoonpacket from '@/components/BrandWordMoonpacket.astro';
+import SocialLinks from '@/components/SocialLinks.astro';
+import { publicLocales as locales, defaultLocale } from '@/i18n/locales.config';
+import { ogTags, jsonLdOrganization } from '@/utils/head';
+import { isBot } from '@/config/i18n-defaults';
+import { LOCALE_ORDER } from '@/config/locales';
+import { buildLocaleUrl } from '@/utils/locale-url';
+import { isRTL } from '@/i18n/rtl';
+
+interface Props {
+  lang: string;
+  title: string;
+  description: string;
+  canonicalUrl: string;
+  ogImage?: string;
+  faqJsonLd?: string;
+  xDefaultForRoot?: boolean;
+  allLocales?: readonly string[];
+  rtl?: boolean;
+}
+
+const { lang = defaultLocale, title, description, canonicalUrl, ogImage, faqJsonLd, xDefaultForRoot = false, rtl = false } = Astro.props as Props;
+const publicOnly = (import.meta as any)?.env?.PUBLIC_ONLY === '1' || (typeof process !== 'undefined' && (process as any)?.env?.PUBLIC_ONLY === '1');
+const allLocales = publicOnly ? (await import('@/i18n/locales.config')).PUBLIC_LOCALE_CODES : LOCALE_ORDER;
+const locale = typeof lang === "string" ? lang : (Astro as any).locals?.lang ?? "en-US";
+const dir = isRTL(locale) ? "rtl" : "ltr";
+
+// Bot detection
+let botFlag: string | undefined = undefined;
+try {
+  const ua = Astro.request?.headers?.get('user-agent') || '';
+  botFlag = isBot(ua) ? '1' : undefined;
+} catch { }
+
+function hrefForLocaleSEO(code: string): string {
+  try{
+    const u = new URL(Astro.url);
+    u.search = '';
+    u.hash = '';
+    const base = Astro.site?.toString() || '';
+    const relativeUrl = buildLocaleUrl(code, u, allLocales as readonly string[]);
+    return base + relativeUrl;
+  }catch{
+    return '';
+  }
+}
+
+const defaultOg = `${import.meta.env.BASE_URL}images/og-default.png`;
+const lowerBrand = (s: string) => s;
+const meta = {
+  title: lowerBrand(title || 'moonpacket'),
+  description: description || '',
+  url: canonicalUrl,
+  image: (ogImage === undefined || ogImage === null || ogImage === '') ? defaultOg : ogImage,
+  locale: lang
+};
+
+// i18n loader
+const messages = await import(`@/i18n/loadMessages`).then(m => m.loadAllMessages(lang as any)).catch(async () => {
+  const fallback = await import(`@/i18n/loadMessages`).then(m => m.loadAllMessages(defaultLocale));
+  return fallback;
+});
+const year = new Date().getFullYear();
+---
+<html lang={lang} dir={dir} data-base={import.meta.env.BASE_URL} data-bot={botFlag} class="scroll-smooth">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="canonical" href={canonicalUrl} />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@400;600;700;800&family=IBM+Plex+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Favicon -->
+    <link rel="icon" href={`${import.meta.env.BASE_URL}favicon.ico`} sizes="any" />
+    <link rel="shortcut icon" type="image/x-icon" href={`${import.meta.env.BASE_URL}favicon.ico`} />
+    <link rel="icon" type="image/png" href={`${import.meta.env.BASE_URL}favicon.png`} />
+    
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    {dir === 'rtl' && <link rel="stylesheet" href={`${import.meta.env.BASE_URL}styles.rtl.css`} />}
+    <Fragment set:html={ogTags(meta)} />
+    {allLocales.map((code) => (
+      <link rel="alternate" hrefLang={code} href={hrefForLocaleSEO(code)} />
+    ))}
+    {xDefaultForRoot && <link rel="alternate" hrefLang="x-default" href={hrefForLocaleSEO('en-US')} />}
+    <Fragment set:html={jsonLdOrganization({ name: 'moonpacket', url: canonicalUrl })} />
+  </head>
+  
+  <body class:list={{ antialiased: true, rtl: dir === "rtl", 'bg-bg': true, 'text-text': true }}>
+    <!-- Minimal Header for Litepaper -->
+    <header class="sticky top-0 z-50 w-full border-b border-white/10 bg-bg/80 backdrop-blur-md supports-[backdrop-filter]:bg-bg/60">
+      <div class="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
+        <!-- Logo -->
+        <a href={`${import.meta.env.BASE_URL}${lang}/`} aria-label="Home" class="flex items-center gap-3">
+          <img src={`${import.meta.env.BASE_URL}favicon.png`} alt="" width="32" height="32" class="h-8 w-8 rounded" />
+          <BrandWordMoonpacket as="span" className="hidden sm:inline-block text-xl font-brand font-bold tracking-tight text-text" />
+          <span class="hidden sm:inline-block px-2 py-0.5 text-[10px] font-bold uppercase tracking-wider text-textSubtle border border-white/10 rounded">Litepaper</span>
+        </a>
+
+        <!-- Center Nav (Desktop) -->
+        <nav class="hidden md:flex items-center gap-8">
+          <a href={`${import.meta.env.BASE_URL}${lang}/docs/litepaper/`} class="text-sm font-semibold text-text hover:text-primary transition-colors">Protocol</a>
+          <a href={`${import.meta.env.BASE_URL}${lang}/docs/api/`} class="text-sm font-semibold text-textSubtle hover:text-text transition-colors">Developers</a>
+        </nav>
+
+        <!-- Right Actions -->
+        <div class="flex items-center gap-4">
+          <LanguageMenu lang={lang} />
+          <button id="theme-toggle" type="button" class="p-2 text-textSubtle hover:text-text transition-colors" aria-label="Toggle theme">
+            <span class="light">🌞</span><span class="dark hidden">🌙</span>
+          </button>
+        </div>
+      </div>
+      
+      <!-- Chapter Scroller Placeholder (Will be populated by page) -->
+      <div id="chapter-scroller" class="hidden md:block w-full border-b border-white/5 bg-bg/40 h-1"></div>
+    </header>
+
+    <!-- Main Content (Focus Mode) -->
+    <main id="main-content" class="min-h-screen relative">
+      <slot />
+    </main>
+
+    <!-- Minimal Footer -->
+    <footer class="border-t border-white/10 bg-bgDark py-12 mt-20">
+      <div class="mx-auto max-w-7xl px-4 flex flex-col md:flex-row justify-between items-center gap-6">
+        <div class="text-sm text-textSubtle">
+          © {year} <span class="brand-mark">moonpacket</span> protocol.
+        </div>
+        <div class="flex gap-6 text-sm text-textSubtle">
+          <a href={`${import.meta.env.BASE_URL}${lang}/privacy/`} class="hover:text-text transition-colors">Privacy</a>
+          <a href={`${import.meta.env.BASE_URL}${lang}/terms/`} class="hover:text-text transition-colors">Terms</a>
+        </div>
+        <SocialLinks />
+      </div>
+    </footer>
+
+    <!-- Theme Script (Inline for zero FOUC) -->
+    <script is:inline>
+      (function(){
+        var html = document.documentElement;
+        var KEY = 'mp_theme';
+        function apply(v, persist){
+          if(!v){v='light';}
+          html.setAttribute('data-theme', v);
+          if(persist){ try{ localStorage.setItem(KEY, v); document.cookie = KEY+'='+encodeURIComponent(v)+'; Path=/; Max-Age='+(365*24*60*60); }catch(_){} }
+          var btn=document.getElementById('theme-toggle');
+          if(btn){ var on=v==='dark'; try{ btn.querySelector('.light').classList.toggle('hidden', on); btn.querySelector('.dark').classList.toggle('hidden', !on);}catch(_){} }
+        }
+        function resolveAuto(){
+          try{ if(window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) return 'dark'; }catch(_){}
+          return 'dark'; // Default to Dark for Litepaper
+        }
+        var saved=null; try{ saved = localStorage.getItem(KEY) || (document.cookie.match(/(?:^|;\s*)mp_theme=([^;]+)/)||[])[1]; if(saved) saved=decodeURIComponent(saved); }catch(_){}
+        var initial = saved || resolveAuto();
+        apply(initial, !!saved);
+        
+        var btn=document.getElementById('theme-toggle');
+        if(btn){ btn.addEventListener('click', function(){ var next=(html.getAttribute('data-theme')==='dark')?'light':'dark'; apply(next, true); }); }
+      })();
+    </script>
+    
+    <!-- Brandify Script -->
+    <script is:inline>
+      (function(){
+        // Simplified brandify logic for text nodes
+        try{
+          var SKIP = new Set(['SCRIPT','STYLE','CODE','PRE','LINK','META','TITLE','NOSCRIPT','SVG']);
+          function brandifyText(text){
+            if(!text) return null;
+            var re = /(moonpacket|\$?moonini)/gi;
+            if(!re.test(text)) return null;
+            var frag=document.createDocumentFragment();
+            var parts = text.split(re);
+            for(var i=0;i<parts.length;i++){
+              var part = parts[i];
+              if(!part) continue;
+              if(/^(?:moonpacket)$/i.test(part)){
+                var span=document.createElement('span'); span.className='brand-mark'; span.textContent='moonpacket'; frag.appendChild(span);
+              }else if(/^(?:\$?moonini)$/i.test(part)){
+                var hasDollar = part[0] === '$';
+                var span2=document.createElement('span'); span2.className='brand-mark'; span2.textContent=(hasDollar?'$':'')+'moonini'; frag.appendChild(span2);
+              }else{
+                frag.appendChild(document.createTextNode(part));
+              }
+            }
+            return frag;
+          }
+          function walk(node){
+            if(!node) return;
+            if(node.nodeType===3){ 
+              var p=node.parentElement; 
+              if(p && (p.classList.contains('brand-mark') || SKIP.has(p.tagName))) return;
+              var repl = brandifyText(node.nodeValue);
+              if(repl){ node.parentNode.replaceChild(repl, node); }
+              return;
+            }
+            if(node.nodeType===1 && !SKIP.has(node.tagName)){
+              for(var c=node.firstChild; c;){ var next=c.nextSibling; walk(c); c=next; }
+            }
+          }
+          if(document.readyState==='loading') document.addEventListener('DOMContentLoaded', function(){ walk(document.body); }); else walk(document.body);
+        }catch(_){ }
+      })();
+    </script>
+  </body>
+</html>
+

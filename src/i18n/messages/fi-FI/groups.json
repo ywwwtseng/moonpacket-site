@@ -1,0 +1,57 @@
+{
+  "tabs": {
+    "latest": "Uusimmat",
+    "hot": "Suosittu"
+  },
+  "search": {
+    "placeholder": "Hae ryhmiä…",
+    "label": "Hae ryhmiä"
+  },
+  "card": {
+    "ownerLabel": "Omistaja:",
+    "members": "Jäsenet",
+    "totalSent": "Yhteensä lähetetty",
+    "sent": "Nykyinen lähetys",
+    "unnamed": "Nimeämätön ryhmä"
+  },
+  "pagination": {
+    "prev": "Edellinen sivu",
+    "next": "Seuraava sivu",
+    "pageInfo": "{{count}} ryhmää (Sivu {{page}} / {{pages}})"
+  },
+  "cta": {
+    "launch": "Aktivoi moonpacket"
+  },
+  "empty": "Ei saatavilla olevia ryhmiä",
+  "group": {
+    "members": "Jäsenluettelo",
+    "owner": "Ryhmän omistaja: {owner}",
+    "sent": "Lähetetty summa",
+    "totalSent": "Yhteensä lähetetty summa",
+    "unnamed": "Nimeämätön ryhmä"
+  },
+  "marquee": {
+    "fallback": [
+      "💰 John lähetti red packetin, jossa oli 100 USDT ryhmässä 'Game Guild A'!",
+      "🎯 Lisa lunasti 3.5 USDT, onnekas voittaja!",
+      "🔥 Ryhmän omistaja Ken lisäsi 2000 USDT",
+      "📢 Järjestelmän päivitys saatu päätökseen, tuki SOL:lle lisätty!",
+      "🥇 Tänään onnekas voittaja: @Mina (yhteensä 28.3 USDT)"
+    ],
+    "templates": {
+      "daily_winner": "🥇 Tänään onnekas voittaja: {user} (yhteensä {amount} {ccy})",
+      "red_packet_claimed": "{user} lunasti {amount} {ccy}, onnekas voittaja!",
+      "red_packet_sent": "{user} lähetti red packetin, jossa oli {amount} {ccy} ryhmässä '{group}'!",
+      "system_upgrade": "📢 Järjestelmän päivitys saatu päätökseen, tuki {ccy} lisätty!",
+      "top_up": "Ryhmän omistaja {user} lisäsi {amount} {ccy}"
+    }
+  },
+  "pager": {
+    "groups": "Ryhmien määrä",
+    "next": "Seuraava sivu",
+    "pageOf": "(Sivu {page} / {pages})",
+    "prev": "Edellinen sivu"
+  },
+  "searchLabel": "Hae ryhmiä",
+  "searchPlaceholder": "Ole hyvä ja syötä hakusanoja ryhmien etsimiseen…"
+}

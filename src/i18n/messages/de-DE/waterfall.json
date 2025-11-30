@@ -1,0 +1,27 @@
+{
+  "sent_from": "An Gruppe senden:",
+  "claimed": "Abholen",
+  "total": "Gesamtbetrag",
+  "progress": "Beansprucht",
+  "groups_directory": {
+    "latest_tab": "Neueste Red Packet Gruppen",
+    "hot_tab": "Beliebte Red Packet Gruppen",
+    "search_placeholder": "Nach Schlüsselwörtern in beigetretenen Gruppen suchen"
+  },
+  "marquee": {
+    "templates": {
+      "send": "💰 {user} hat ein Red Packet über {amount} {ccy} in '{group}' ausgegeben!",
+      "claim": "🎯 {user} hat {amount} {ccy} erhalten, Glücklichster Spieler!",
+      "topup": "🔥 Gruppenbesitzer {user} hat {amount} {ccy} eingezahlt",
+      "system": "📢 {message}",
+      "achievement": "🥇 Der glücklichste Spieler heute: @{user} (insgesamt {amount} {ccy})"
+    },
+    "fallback": [
+      "💰 John hat ein 100 USDT red packet in 'Game Guild A' herausgegeben!",
+      "🎯 Lisa hat 3.5 USDT beansprucht, die glücklichste von allen!",
+      "🔥 Gruppenbesitzer Ken hat 2000 USDT eingezahlt",
+      "📢 System-Upgrade abgeschlossen, SOL-Unterstützung hinzugefügt!",
+      "🥇 Die heutige Glücklichste: @Mina (insgesamt 28.3 USDT)"
+    ]
+  }
+}

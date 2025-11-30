@@ -1,0 +1,27 @@
+{
+  "sent_from": "Kirim ke grup:",
+  "claimed": "Klaim",
+  "total": "Jumlah total",
+  "progress": "Sudah diklaim",
+  "groups_directory": {
+    "latest_tab": "Grup Angpao Terbaru",
+    "hot_tab": "Grup Angpao Populer",
+    "search_placeholder": "Cari kata kunci di grup yang bergabung"
+  },
+  "marquee": {
+    "templates": {
+      "send": "💰 {user} mengeluarkan angpao {amount} {ccy} di '{group}'!",
+      "claim": "🎯 {user} menerima {amount} {ccy}, Pemain Paling Beruntung!",
+      "topup": "🔥 Pemilik grup {user} menyetor {amount} {ccy}",
+      "system": "📢 {message}",
+      "achievement": "🥇 Pemain paling beruntung hari ini: @{user} (terakumulasi {amount} {ccy})"
+    },
+    "fallback": [
+      "💰 John mengeluarkan angpao 100 USDT di 'Game Guild A'!",
+      "🎯 Lisa mengklaim 3.5 USDT, yang paling beruntung dari semuanya!",
+      "🔥 Pemilik grup Ken menyetor 2000 USDT",
+      "📢 Peningkatan sistem selesai, dukungan SOL ditambahkan!",
+      "🥇 Yang paling beruntung hari ini: @Mina (mengumpulkan 28.3 USDT)"
+    ]
+  }
+}

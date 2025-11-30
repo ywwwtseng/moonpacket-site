@@ -1,0 +1,27 @@
+{
+  "sent_from": "שלח לקבוצה:",
+  "claimed": "תעשה תביעה",
+  "total": "סך הכל",
+  "progress": "כבר נתבע",
+  "groups_directory": {
+    "latest_tab": "קבוצות Red Packet האחרונות",
+    "hot_tab": "קבוצות Red Packet פופולריות",
+    "search_placeholder": "חפש מילות מפתח בקבוצות שהצטרפת אליהם"
+  },
+  "marquee": {
+    "templates": {
+      "send": "💰 {user} הנפיק {amount} {ccy} Red Packet ב'{group}'!",
+      "claim": "🎯 {user} קיבל {amount} {ccy}, השחקן הכי בר מזל!",
+      "topup": "🔥 הבעלים של הקבוצה {user} הפקיד {amount} {ccy}",
+      "system": "📢 {message}",
+      "achievement": "🥇 השחקן הכי בר מזל היום: @{user} (צבר {amount} {ccy})"
+    },
+    "fallback": [
+      "💰 ג'ון הנפיק 100 USDT Red Packet ב'כנסת משחקים א'!",
+      "🎯 ליסה נטלה 3.5 USDT, המזל הגדול ביותר מביניהם!",
+      "🔥 בעל הקבוצה קן הפקיד 2000 USDT",
+      "📢 שדרוג מערכת הושלם, נוסף תמיכה ב-SOL!",
+      "🥇 המזלניק של היום: @מינה (צברה 28.3 USDT)"
+    ]
+  }
+}

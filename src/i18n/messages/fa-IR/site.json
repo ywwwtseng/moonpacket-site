@@ -1,0 +1,177 @@
+{
+  "title": "moonpacket — بسته‌های قرمز کریپتویی آسان، ایمن و سریع",
+  "description": "ربات بسته قرمز رمزنگاری شده moonpacket | از USDT، TON، SOL، ETH پشتیبانی می‌کند. به راحتی بسته‌های قرمز را ارسال کنید، بلافاصله و به‌طور ایمن دریافت کنید، غیر حضانتی، عالی برای رشد جامعه تلگرام و افزایش تعامل.",
+  "nav": {
+    "home": "خانه",
+    "about": "درباره",
+    "pricing": "قیمت گذاری",
+    "team": "تیم",
+    "blog": "وبلاگ",
+    "faq": "پر پرسش‌ها",
+    "contact": "تماس با ما",
+    "careers": "فرصت‌های شغلی",
+    "claim": "ادعای بسته قرمز",
+    "send": "ارسال بسته قرمز",
+    "api": "مستندات API",
+    "docs": "مدرک"
+  },
+  "hero": {
+    "title": "red packet های رمزارزی، در دسترس همه",
+    "subtitle": "تجربه جامعه خود را با خدمات ساده و جهانی افزایش دهید.",
+    "desc": "بهترین ربات red packet برای پروژه‌های توکن meme و صاحبان گروه‌های تلگرام برای جذب کاربران جدید و افزایش تعامل.",
+    "ctaPrimaryLabel": "moonpacket را راه‌اندازی کنید",
+    "ctaPrimaryHref": "https://t.me/moonpackageDevBot https://t.me/MoonPackageDevBot",
+    "ctaSecondaryLabel": "چگونه متصل شویم",
+    "ctaSecondaryHref": "/fa-IR/integration",
+    "lead": "red packet های تلگرام TON، meme، USDT | بهترین ربات red packet برای پروژه‌های توکن meme و صاحبان گروه‌های تلگرام برای جذب کاربران جدید و افزایش تعامل.",
+    "cta_primary": "اکنون moonpacket را فعال کنید",
+    "cta_secondary": "چگونه با گروه‌ها یکپارچه شویم",
+    "headline_line1": "moonpacket",
+    "headline_line2": "شروع کنید، به سمت ماه هدف بزنید.",
+    "tagline": "red packet های تلگرام TON، meme و USDT برای بازاریابی و نگه‌داشت جامعه. ربات red packet گروهی طراحی شده برای مدیران جهت افزایش تعامل، جذب اعضای جدید و تشویق به تعامل."
+  },
+  "features": {
+    "f1": "ثبت‌نام سریع",
+    "f2": "محلی‌سازی جهانی",
+    "f3": "امنیت غیر حضانتی",
+    "title": "ویژگی‌های اصلی",
+    "items": "__TODO_TRANSLATE_zh-CN__"
+  },
+  "sections": {
+    "features_heading": "برجسته‌های ویژگی",
+    "features_subtitle": "شما می‌توانید دریافت کنید",
+    "tokens_heading": "توکن‌ها و آمارها",
+    "testimonials_heading": "نظرات کاربران",
+    "pricing_heading": "طرح‌ها و قیمت‌ها",
+    "waterfall_title": "آبشار بسته قرمز"
+  },
+  "footer": {
+    "rights": "",
+    "privacy": "سیاست حفظ حریم خصوصی",
+    "terms": "شرایط خدمات",
+    "social": {
+      "telegram_group": "گروه تلگرام",
+      "telegram_channel": "کانال تلگرام",
+      "x": "X",
+      "youtube": "یوتیوب"
+    },
+    "copyright": "حق نشر."
+  },
+  "a11y": {
+    "skip_to_main": "به محتوای اصلی بروید",
+    "language_menu": "منوی زبان را باز کنید",
+    "language": "زبان"
+  },
+  "metrics": {
+    "heading": "شاخص‌های لحظه‌ای",
+    "price_btc": "قیمت BTC",
+    "total_sent": "مجموع مبلغ ارسال شده",
+    "total_claimed_amount": "مجموع مبلغ دریافتی (USDT)",
+    "title": "توکن‌ها و آمار",
+    "groups": "گروه‌های متصل",
+    "groupsLinkLabel": "گروه‌های بسته‌های قرمز متصل",
+    "sent": "بسته‌های قرمز ارسال شده",
+    "claimed": "مجموع مبلغ درخواست شده",
+    "sort": {
+      "latest": "آخرین",
+      "oldest": "قدیمی‌ترین",
+      "most": "حداکثر شرکت‌کنندگان",
+      "least": "حداقل شرکت‌کنندگان"
+    }
+  },
+  "errors": {
+    "stale": "اطلاعات ممکن است قدیمی باشد",
+    "not_found": "صفحه پیدا نشد",
+    "not_found_desc": "متأسفیم، ما نتوانستیم این صفحه را پیدا کنیم، یا حذف شده است."
+  },
+  "pricing": {
+    "starter": "طرح پایه",
+    "pro": "خدمات حرفه‌ای",
+    "enterprise": "طرح سازمانی",
+    "price_free": "رایگان",
+    "price_19": "$۱۹",
+    "price_contact": "با ما تماس بگیرید",
+    "sla_support": "SLA و پشتیبانی",
+    "bullets": {
+      "starter": {
+        "0": "ویژگی‌های پایه",
+        "1": "پشتیبانی از جامعه"
+      },
+      "pro": {
+        "0": "شامل طرح پایه",
+        "1": "محلی‌سازی پیشرفته"
+      },
+      "enterprise": {
+        "0": "SLA و پشتیبانی",
+        "1": "ادغام سفارشی"
+      }
+    }
+  },
+  "story": {
+    "belief_title": "🌕 انرژی ماه و باور به بسته‌های قرمز",
+    "disclaimer_title": "⚠️ هشدار",
+    "future_title": "💫 برنامه‌های آینده",
+    "schedule_title": "قوانین انتشار توکن",
+    "secrets_title": "🌸 راز او",
+    "title": "🌕 داستان moonini"
+  },
+  "waterfall": {
+    "claimed": "دریافت کنید",
+    "progress": "دریافت شد",
+    "sent_from": "ارسال گروهی:",
+    "total": "مجموع کل"
+  },
+  "seo": {
+    "og": {
+      "image": "/images/og-default.png",
+      "type": "وب‌سایت"
+    },
+    "routes": {
+      "claim": {
+        "description": "ویژگی بسته قرمز moonpacket از توکن‌های مختلفی از جمله SOL و USDT پشتیبانی می‌کند و امکان ارسال توکن‌های میم خودتان را فراهم می‌کند. ابزاری قدرتمند برای جذب کاربران جدید و افزایش تعامل در گروه‌های تلگرام.",
+        "title": "برنامه کوچک بسته قرمز تلگرام — moonpacket"
+      },
+      "privacy": {
+        "description": "سیاست حفظ حریم خصوصی moonpacket توضیح می‌دهد که چگونه داده‌های شخصی شما را جمع‌آوری، استفاده و محافظت می‌کنیم.",
+        "title": "سیاست حفظ حریم خصوصی — moonpacket"
+      },
+      "send": {
+        "description": "از moonpacket برای ارسال red packet، تنظیم شرایط وظیفه و یکپارچه‌سازی API استفاده کنید تا به طور مؤثر کاربران جدید را جذب کنید و تعامل جامعه کاربران ارزشمند را افزایش دهید.",
+        "title": "ارسال red packet — moonpacket"
+      },
+      "terms": {
+        "description": "شرایط خدمات moonpacket، دستورالعمل‌های استفاده و بیانیه‌های قانونی.",
+        "title": "شرایط خدمات — moonpacket"
+      },
+      "docs": {
+        "description": "تکمیل مستندات پروژه، مقاله سفید و مشخصات فنی",
+        "distribution": {
+          "description": "تکمیل قوانین توزیع $moonini و توضیحات سیستم حسابداری",
+          "title": "مکانیسم توزیع $moonini — moonpacket"
+        },
+        "litepaper": {
+          "description": "$moonini یک توکن انگیزشی اجتماعی مبتنی بر پلتفرم moonpacket است. یاد بگیرید چگونه درآمد کسب کنید، استفاده کنید و در ارزش آن سرمایه‌گذاری کنید.",
+          "title": "مقاله سبک $moonini — moonpacket"
+        },
+        "missions": {
+          "description": "تکمیل سیستم وظایف و توضیحات مکانیسم دستیابی",
+          "title": "سیستم وظایف $moonini — moonpacket"
+        },
+        "technical": {
+          "description": "تکمیل مشخصات فنی قرارداد هوشمند BSC و راهنمای توسعه",
+          "title": "مشخصات فنی $moonini — moonpacket"
+        },
+        "title": "مرکز مستندات — moonpacket",
+        "whitepaper": {
+          "description": "تکمیل اقتصاد توکن $moonini، معماری فنی، و توضیحات مکانیسم Governance",
+          "title": "مقاله سفید $moonini — moonpacket"
+        }
+      }
+    },
+    "site": {
+      "description": "ربات تلگرام red packet ارز دیجیتال moonpacket | از USDT، TON، SOL، ETH، DOGE پشتیبانی می‌کند. همچنین می‌توانید red packet توکن‌های meme خود را ارسال کنید که برای جذب کاربران جدید، ایجاد فضایی زنده و افزایش تعامل در جوامع تلگرام ایده‌آل است.",
+      "site_name": "moonpacket",
+      "title": "moonpacket — red packet ارز دیجیتال توکن meme، کیف پول red packet اختصاصی"
+    }
+  }
+}

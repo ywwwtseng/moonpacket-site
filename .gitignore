@@ -1,0 +1,43 @@
+dist/
+build/
+.next/
+.turbo/
+node_modules/
+coverage/
+*.log
+*.map
+*.zip
+*.png
+*.jpg
+!public/**/*.jpg
+!public/**/*.png
+*.mp4
+*.mov
+
+# large archives
+public/fonts/*.zip
+dist/fonts/*.zip
+backups/*.bundle.lock
+
+# deployment secrets (never commit this!)
+.env.deploy.local
+
+# build artifacts
+dist/
+build/
+.next/
+.turbo/
+node_modules/
+coverage/
+
+# large archives
+public/fonts/*.zip
+dist/fonts/*.zip
+backups/*.bundle.lock
+
+# deployment secrets (never commit this!)
+.env.deploy.local
+backups/
+.tmp-private-push/
+.tmp-public/
+scripts/reports

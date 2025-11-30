@@ -1,0 +1,27 @@
+{
+  "sent_from": "그룹에 전송:",
+  "claimed": "받기",
+  "total": "총 금액",
+  "progress": "이미 청구됨",
+  "groups_directory": {
+    "latest_tab": "최신 레드패킷 그룹",
+    "hot_tab": "인기 레드패킷 그룹",
+    "search_placeholder": "가입한 그룹에서 키워드 검색"
+  },
+  "marquee": {
+    "templates": {
+      "send": "💰 {user}가 '{group}'에서 {amount} {ccy} 레드패킷을 발행했습니다!",
+      "claim": "🎯 {user}가 {amount} {ccy}를 수령했습니다, 행운의 플레이어!",
+      "topup": "🔥 그룹 소유자 {user}가 {amount} {ccy}를 입금했습니다",
+      "system": "📢 {message}",
+      "achievement": "🥇 오늘의 행운의 플레이어: @{user} ({amount} {ccy} 누적)"
+    },
+    "fallback": [
+      "💰 존이 '게임 길드 A'에서 100 USDT 레드패킷을 발행했습니다!",
+      "🎯 리사가 3.5 USDT를 수령했으며, 그녀가 가장 행운이 있었습니다!",
+      "🔥 그룹 소유자 켄이 2000 USDT를 입금했습니다",
+      "📢 시스템 업그레이드가 완료되어 SOL 지원이 추가되었습니다!",
+      "🥇 오늘의 가장 행운 있는 사람: @Mina (총 28.3 USDT 누적)"
+    ]
+  }
+}

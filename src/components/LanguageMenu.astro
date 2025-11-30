@@ -1,0 +1,98 @@
+---
+interface Props {
+  lang?: string;
+}
+
+const { lang } = Astro.props as Props;
+import { listLocalesWithStatus } from '@/config/locales';
+import { buildLocaleUrl } from '@/utils/locale-url';
+import { LOCALE_ORDER } from '@/config/locales';
+
+const items = await listLocalesWithStatus();
+
+// Get current lang from props, params, or default to en-US
+const current = lang || Astro.params.lang || 'en-US';
+
+// Build URL with proper trailing slash handling
+function hrefFor(code:string) {
+  const supportedCodes = LOCALE_ORDER as readonly string[];
+  return buildLocaleUrl(code, Astro.url, supportedCodes);
+}
+---
+
+<nav aria-label="Language" class="lang-menu relative">
+  <details class="relative cursor-pointer">
+    <summary>🌐 {items.find(i=>i.code===current)?.nativeName ?? current}</summary>
+    <ul class="lang-menu-list">
+      {items.map(i => (
+        <li class="px-2 py-1">
+          {i.ready
+            ? <a href={hrefFor(i.code)} aria-current={i.code===current ? 'true':'false'} class={i.code===current ? 'font-semibold underline' : ''}>
+                {i.nativeName} <small>({i.englishName})</small>
+              </a>
+            : <span class="opacity-45 cursor-not-allowed">{i.nativeName} <small>({i.englishName})</small></span>
+          }
+        </li>
+      ))}
+    </ul>
+  </details>
+</nav>
+
+<style>
+/* 保持必要的自定义样式 */
+.lang-menu details { cursor: pointer; }
+.lang-menu li { padding: 0.25rem 0.5rem; }
+.lang-menu a[aria-current="true"] { font-weight: 600; text-decoration: underline; }
+.lang-menu .disabled { opacity: 0.45; cursor: not-allowed; }
+
+/* 基础列表样式（移动端：在移动菜单内正常展开） */
+.lang-menu-list {
+  list-style: none;
+  margin: 0;
+  padding: 0.5rem 0;
+  /* 移动端默认：静态定位，在文档流中展开，无背景边框 */
+}
+
+/* 桌面端：绝对定位下拉菜单（只在大屏幕上，720px 以上） */
+@media (min-width: 721px) {
+  .lang-menu-list {
+    position: absolute;
+    top: 100%;
+    inset-inline-end: 0; /* LTR: 右对齐，RTL: 左对齐 */
+    margin-top: 0.5rem;
+    min-width: 200px;
+    max-width: fit-content;
+    max-height: 50vh;
+    z-index: 1000;
+    /* 使用 CSS 变量以支持日夜间模式 */
+    background-color: var(--card-bg);
+    color: var(--text);
+    border: 1px solid rgba(0, 0, 0, 0.1); /* 浅色模式边框 */
+    border-radius: 0.5rem; /* rounded-lg */
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); /* 浅色模式阴影 */
+    overflow-y: auto;
+  }
+  
+  /* 深色模式：边框和阴影适配 */
+  :global([data-theme="dark"]) .lang-menu-list {
+    border-color: rgba(255, 255, 255, 0.1); /* 深色模式边框 */
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.3); /* 深色模式阴影 */
+  }
+  
+  /* 深色模式：链接颜色 */
+  :global([data-theme="dark"]) .lang-menu-list a {
+    color: var(--text);
+  }
+  
+  /* Hover 效果 */
+  .lang-menu-list li:hover {
+    background-color: rgba(0, 0, 0, 0.05); /* 浅色模式 hover */
+  }
+  
+  /* 深色模式：hover 效果 */
+  :global([data-theme="dark"]) .lang-menu-list li:hover {
+    background-color: rgba(255, 255, 255, 0.08); /* 深色模式 hover */
+  }
+}
+</style>
+

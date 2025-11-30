@@ -1,0 +1,27 @@
+{
+  "sent_from": "Send to group:",
+  "claimed": "Claim",
+  "total": "Total amount",
+  "progress": "Already claimed",
+  "groups_directory": {
+    "latest_tab": "Latest Red Packet Groups",
+    "hot_tab": "Popular Red Packet Groups",
+    "search_placeholder": "Search for keywords in joined groups"
+  },
+  "marquee": {
+    "templates": {
+      "send": "💰 {user} issued a {amount} {ccy} Red Packet in '{group}'!",
+      "claim": "🎯 {user} received {amount} {ccy}, Luckiest Player!",
+      "topup": "🔥 Group owner {user} deposited {amount} {ccy}",
+      "system": "📢 {message}",
+      "achievement": "🥇 Today's luckiest player: @{user} (accumulated {amount} {ccy})"
+    },
+    "fallback": [
+      "💰 John issued a 100 USDT red packet in 'Game Guild A'!",
+      "🎯 Lisa claimed 3.5 USDT, luckiest of them all!",
+      "🔥 Group owner Ken deposited 2000 USDT",
+      "📢 System upgrade completed, added SOL support!",
+      "🥇 Today's luckiest: @Mina (accumulated 28.3 USDT)"
+    ]
+  }
+}

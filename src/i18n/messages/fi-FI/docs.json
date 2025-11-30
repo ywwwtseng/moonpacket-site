@@ -1,0 +1,1514 @@
+{
+  "litepaper": {
+    "title": "$moonini Litepaper",
+    "description": "Ymmärrä $moonini-tokenin muotoilufilosofia, taloudellinen malli ja ydin arvot.",
+    "seo": {
+      "title": "$moonini Litepaper — moonpacket",
+      "description": "$moonini on moonpacket-alustaan perustuva yhteisöpalkkiovaluutta. Opi, kuinka hankkia, käyttää ja sijoittaa sen arvoon."
+    },
+    "hero": {
+      "subtitle": "$moonini on moonpacket-alustalle perustuva yhteisöpalkkio token. Mitä enemmän käyttäjät osallistuvat moonpacketin toimintaan, suorittavat tehtäviä ja ovat vuorovaikutuksessa, sitä enemmän $moonini he voivat ansaita. Sijoittajille 90 % jakautuu käyttäjille ja 10 % menee tiimille, ja käytössä on puolitusmekanismi sekä lineaarinen julkaisu, jotka tehokkaasti vähentävät romahdusriskejä, ja suunniteltu pitkäaikaista vakautta varten.",
+      "cards": {
+        "user": {
+          "title": "Yleisiä käyttäjiä varten",
+          "description": "Ansaitse $moonini helposti lähettämällä Red Packets, suorittamalla tehtäviä, kutsumalla ystäviä jne. Mitä enemmän käytät sitä, sitä enemmän ansaitset, täysin ilmaiseksi."
+        },
+        "investor": {
+          "title": "Sijoittajille",
+          "description": "Kokonaismäärä 10 miljardia, 90/10 jakelu, 6 puolitusvaihetta ja tiimin jakelu lineaarisella vapautuksella, suunniteltu pitkäaikaista vakautta varten ja myynnin riskin vähentämiseksi."
+        },
+        "developer": {
+          "title": "Kehittäjille/Kumppaneille",
+          "description": "Standardisoidut sopimukset, avoimet API:t, voidaan integroida muihin sovelluksiin tai peleihin. API-integraation kautta voit yhdistää tuotteesi moonpacket-ekosysteemiin."
+        }
+      },
+      "live_status": "Protokolla V1 on nyt käytössä",
+      "cta_start": "Aloita lukeminen",
+      "cta_hub": "Kehittäjäkeskus"
+    },
+    "sections": {
+      "overview": "Yleisnäkymä",
+      "problem": "Ongelmia ja ratkaisuja",
+      "concept": "moonpacketin ja $mooninin ydinperiaatteet",
+      "tokenomics": "Tokenomiikka Yhteenveto",
+      "emission": "Jakaminen ja Julkaisu",
+      "utility": {
+        "subtitle": "Kuinka ansaita ja käyttää"
+      },
+      "developer": "Kehittäjät & API-integraatio",
+      "governance": "Hallinto ja turvallisuus",
+      "roadmap": "Tiekartta",
+      "risks": "Riskit ja vastuuvapauslausekkeet",
+      "faq": "UKK",
+      "cta": {
+        "title": "Oletko valmis liittymään tähän Red Packet -sosiaaliseen kokemukseen?",
+        "earning": "Aloita Red Packetien ansaitseminen nyt",
+        "devs": "Lue kehittäjädokumentaatio"
+      },
+      "registry": {
+        "title": "Ketjurobottirekisteri",
+        "network": "Pääverkko: BSC (BNB Ketju)",
+        "audit": "Tarkastustila: **Aikataulutettu**"
+      },
+      "defense": {
+        "floor": {
+          "title": "🛡️ Älykäs lattiahinnan puolustus",
+          "mechanism": "Kun markkinahintataso lähestyy perustasoa, protokolla aktivoi automaattisesti puolustusmekanismeja käyttäen kerättyä POL:ia (Protokollan Omistama Likviditeetti) tuekseen. Tämä ei ole jäykkä maksu; se hyödyntää peliteoriaa tehdäkseen myyntikustannuksista äärettömän korkeita.",
+          "anti_gaming": "Huom: Arbitraasi-iskujen estämiseksi tietyt laukaisukynnykset ja puolustusvoimat säädetään dynaamisesti, eikä tarkkoja arvoja paljasteta."
+        },
+        "anti_bot": {
+          "title": "🚫 Hylkää markkinan tekemisen hallinta",
+          "items": [
+            "Kaikki tapahtumat ovat todellisia käyttäjien käyttäytymisiä",
+            "Ei markkinantekijäbotteja",
+            "Hylkää väärä volyymimanipulaatio ja pump and dump"
+          ]
+        }
+      },
+      "lockup": {
+        "title": "Strateginen lukitus",
+        "desc": "Markkinassa, jossa on runsaasti 'hiirivarastoja' ja 'piilotettuja siruja', olemme valinneet vaikeimman mutta rehellisimmän polun. Ymmärrämme syvästi, että vain poistamalla täysin käyttäjien pelot 'tiimimyynnistä' voimme rakentaa todellista luottamusta.",
+        "benefit": "Tässä ei ole kyse vain lukituksen säännöistä; se on meidän 'anti-harvest -ilmoituksemme'. Tämän hieman tiukan itsesäätelyn kautta varmistamme, ettei kukaan - olipa kyseessä perustajat tai suuret haltijat - voi Pettää yhteisöä varhaisessa vaiheessa.",
+        "items": [
+          "Täysin läpinäkyvä, ei piilottelua: Meillä ei ole piilotettuja lompakoita tai julkistamatonta aikaisempaa kiertoa. Kaikki sirujen jakelut ovat julkisesti saatavilla ketjussa, ja ne ovat yhteisön valvonnan alaisia.",
+          "Tiimin sitoutuminen, pitkäaikainen tuki: Ydin-tiimimme julkaisuaika kestää jopa 48 kuukautta (4 vuotta). Kryptomaailmassa 4 vuotta on pitkä sykli. Tämä todistaa, että emme ole täällä tekemässä nopeaa rahaa, vaan olemme päättäneet kokea karhu- ja härkämarkkinat yhdessä yhteisön kanssa ja rakentaa pitkäaikaista arvoa.",
+          "Sijoittajien Konsensus: Varhaiset sijoittajamme identifioituvat syvästi Punaisen Pussin 'jakamisen ja lahjoittamisen' kulttuuriin ja allekirjoittavat vapaaehtoisesti 36 kuukauden lineaarisen vapautussopimuksen. Tämä tarkoittaa, että projektin varhaisessa vaiheessa mikään osapuoli (mukaan lukien sijoittajat) ei omista tarpeeksi pääomia vaikuttaakseen markkinoihin."
+        ]
+      }
+    },
+    "back_to_top": "↥ Takaisin ylös",
+    "content": {
+      "overview": {
+        "paragraphs": [
+          "moonpacket on kryptopohjainen Red Packet ja markkinointityökalu, joka on suunniteltu erityisesti Telegram-yhteisöille. Olipa kyseessä yhteisön toiminnot, tapahtumien mainostaminen tai uusien käyttäjien kutsuminen, moonpacket voi auttaa sinua saavuttamaan sen helposti.",
+          "Kannustaaksemme käyttäjiä jatkamaan alustan käyttöä ja luomaan pitkäaikaisia suhteita, lanseerasimme $moonini-yhteisö kannustintokenin. Jokainen aktiivinen toiminta alustalla, mukaan lukien punapaketin lähettäminen, tehtävien suorittaminen ja ystävien kutsuminen, voi ansaita vastaavia $moonini-palkintoja.",
+          "Yleisille käyttäjille $moonini on lisäbonus Moonpacketin käytöstä; mitä enemmän käytät, sitä enemmän ansaitset. Sijoittajille $mooninin token-ekonomiassa on suunniteltu 90 % käyttäjille, 10 % tiimille, 6-vaiheinen puolitus ja lukitusvapautukset, joka tehokkaasti vähentää lyhytaikaisia dump-riskkejä ja edistää pitkän aikavälin arvon vakautta."
+        ],
+        "highlights": {
+          "title": "Ydin kohokohdat",
+          "items": [
+            "✅ **Reilu jakelu**: 90 % tokeneista jaetaan käyttäjätoimintojen kautta, ja 10 % menee tiimille ja varhaisille sijoittajille.",
+            "✅ **Aikainen etu**: 6-vaiheinen puolittamisjärjestelmä, mitä aikaisemmin osallistut, sitä enemmän saat.",
+            "✅ **Vähennä riskiä**: Tiimiallokointi on lukittu 3 kuukaudeksi ja vapautuu sitten lineaarisesti 33-45 kuukauden aikana.",
+            "✅ **Avoin ja varmennettavissa**: Kaikki tokenin jakamisen ja vapauttamisen säännöt ovat julkisesti avoimia ja ketjun sisällä varmennettavissa."
+          ]
+        }
+      },
+      "problem": {
+        "title": "Ongelmat ja Ratkaisut",
+        "problems": {
+          "title": "Ongelmia nykyisessä Web3 / Telegram-markkinoinnissa",
+          "items": [
+            "**Vaikeaa seurata tehokkuutta**: Perinteiset Red Packet -mekanismit ovat vaikeita jäljittää todellisten vaikutusten osalta; ei ole selvää, kuka on lunastanut, kuka on jakanut tai onko se tuonut uusia käyttäjiä.",
+            "**Lyhyen aikavälin voittojen realisointi**: Monet projektit keskittyvät vain lyhyen aikavälin liikenteeseen, jakavat Red Packetteja ja lähtevät ilman pitkäaikaisia kannustinmekanismeja.",
+            "**Pitkäaikaisten kannustimien puute**: Käyttäjät lähtevät punaisia paketteja lunastettuaan, eivätkä pysty luomaan pitkäaikaisia suhteita ja jatkuvaa osallistumista."
+          ]
+        },
+        "solutions": {
+          "title": "Moonpacketin ratkaisu + $moonini",
+          "items": [
+            "**Käyttäytymisen seurannan täydentäminen**: moonpacket tallentaa jokaisen Red Packetin vastaanoton, jakamiseen liittyvän käyttäytymisen sekä uusien käyttäjien esittelyn, mikä auttaa sinua ymmärtämään markkinoinnin tehokkuutta selkeästi.",
+            "**Pitkäaikaiset kannustimekanismit**: $moonini-tokenin avulla, mitä enemmän käyttäjät osallistuvat, sitä enemmän he ansaitsevat, luoden pitkäaikaista osallistumismotivaatiota.",
+            "**Reilu arvon jakaminen**: 90 % tokenista menee käyttäjille, varmistamalla yhteisön prioriteetti, kun taas mekanismit kuten puolitus ja lukitus vähentävät romahdusriskejä."
+          ]
+        }
+      },
+      "concept": {
+        "title": "moonpacketin ja $mooninin ydin käsitteet",
+        "moonpacket": {
+          "title": "moonpacketin rooli",
+          "description": "moonpacket on Telegram Red Packet, tehtävä ja markkinointityökalu. Olitpa sitten yhteisön ylläpitäjä, tapahtuman järjestäjä tai projekti, joka haluaa houkutella uusia käyttäjiä, voit käyttää moonpacketia:",
+          "features": [
+            "Lähetä kryptovaluutta Red Packets (tukee useita tokeneita kuten USDT, TON, SOL, ETH jne.)",
+            "Luo tehtävätilaisuuksia (kutsu ystäviä, seuraa yhteisöjä, jaa sisältöä jne.)",
+            "Seurantaefektidataa (lunastussuhteet, jakamissuhteet, uusien käyttäjien määräytymiset jne.)",
+            "Lähetä Red Packets ryhmien yli, laajentamalla saavuttavuutta"
+          ]
+        },
+        "moonini": {
+          "title": "$moonini:n rooli",
+          "description": "$moonini on palkkioiden pisteetoken, joka tunnustaa käyttäjien ja yhteisön käyttäytymisen. Jokainen aktiivinen toimi, jonka teet moonpacketissa, ansaitsee sinulle vastaavat $moonini:",
+          "rewards": [
+            "Lähetä Red Packet: Ansaitse vastaava $moonini Red Packetin määrästä ja nykyisestä vaiheesta",
+            "Suorita tehtäviä: Saavuttamalla saavutuksia, sosiaalisia tehtäviä jne. ansaitset ylimääräistä $moonini",
+            "Kutsu ystäviä: Onnistuneesti kutsu uusia käyttäjiä ja suorita jakotehtävät, molemmat osapuolet voivat ansaita $moonini",
+            "Aktiivinen osallistuminen: Tiettyjen toimintojen suorittaminen yhteistyöpeleissä tai -sovelluksissa voi myös ansaita $moonini"
+          ]
+        },
+        "logic": {
+          "title": "Mitä enemmän käytät sitä, sitä enemmän ansaitset",
+          "description": "Logiikka on yksinkertainen: mitä aktiivisempi olet moonpacketissa, sitä enemmän ansaitset $moonini. Varhaiset osallistujat voivat nauttia korkeammasta palkkiosuhteesta (Vaihe 1, ansaitse 1 $moonini jokaisesta lähetetystä 1 USDT Red Packetista). Mitä aikaisemmin osallistut, sitä suurempi etu sinulla on."
+        }
+      },
+      "tokenomics": {
+        "title": "Tokenomisten yleiskatsaus",
+        "total": {
+          "title": "Kokonais token-öförity",
+          "description": "$moonini:n kokonais määrä on **10,000,000,000 tokenia (10B)**, ja sillä on kiinteä kokonais tarjonta ilman lisä tuotantoa."
+        },
+        "allocation": {
+          "title": "Jakosuunnitelma",
+          "table": {
+            "headers": [
+              "Kategoria",
+              "Määrä",
+              "Suhde",
+              "Kuvaus"
+            ],
+            "rows": [
+              [
+                "Julkinen jakelu",
+                "9,000,000,000 kappaletta",
+                "0.9",
+                "Vapautetaan vähitellen käyttäjätoiminnan kautta (6 vaiheen puolittaminen)"
+              ],
+              [
+                "Tiimiosuus",
+                "1,000,000,000 kappaletta",
+                "0.1",
+                "Lukitus 3 kuukauden jälkeen, lineaarinen vapautus 33–45 kuukauden aikana"
+              ],
+              [
+                "├─ Toiminta",
+                "200,000,000 kappaletta",
+                "0.02",
+                "Lukitus 3 kuukauden ajan, vapautus 45 kuukauden aikana"
+              ],
+              [
+                "├─ Tekninen tiimi",
+                "200,000,000 kappaletta",
+                "0.02",
+                "Lukitus 3 kuukauden ajan, vapautus 45 kuukauden aikana"
+              ],
+              [
+                "├─ PR/Markkinointi",
+                "200,000,000 kappaletta",
+                "0.02",
+                "Lukitus 3 kuukauden ajan, vapautus 45 kuukauden aikana"
+              ],
+              [
+                "└─ Varhaiset sijoittajat",
+                "400,000,000 kappaletta",
+                "0.04",
+                "Lukitus 3 kuukauden ajan, vapautus 33 kuukauden aikana"
+              ]
+            ]
+          }
+        },
+        "philosophy": {
+          "title": "Miksi tämä muotoilu on?",
+          "items": [
+            "**Käyttäjien priorisointi**: 90 % tokeneista on varattu käyttäjille, jotta yhteisö todella hyötyy, sen sijaan että se monopolisoitaisiin muutaman yksilön toimesta.",
+            "**Tiimin kannustimet**: 10 % tiimille ja aikaisille sijoittajille varmistaakseen, että projektilla on riittävät resurssit jatkuvaan kehitykseen, kohtuullisella osuudella liiallisen keskittymisen välttämiseksi.",
+            "**Ei ennakkovarattuja esimyyntejä/VC**: Emme varaa kiintiöitä institutionaalisille sijoittajille, ja kaikki tokenit jaetaan käyttäjille reilun mekanismin kautta.",
+            "**Risk Mitigation**: Tiimin allokointi on sidottu lukitukseen ja lineaarisiin vapautusmekanismeihin, mikä tehokkaasti vähentää lyhytaikaisen myynnin riskiä ja suojaa sijoittajien etuja."
+          ]
+        }
+      },
+      "emission": {
+        "title": "Puolittaminen ja Julkaisumekanismi",
+        "halving": {
+          "title": "6 Vaiheen Puolitus Mekanismi",
+          "description": "Kannustamme aikaisia osallistujia, ja tokenin jakamisessa käytetään 'progressiivista puolittamista' -mekanismia. Mitä aikaisemmin liityt, sitä enemmän tokeneita voit ansaita:",
+          "table": {
+            "headers": [
+              "Vaihe",
+              "Laskettu määrä",
+              "Ansaitse per 1 USDT",
+              "Kuvaus"
+            ],
+            "rows": [
+              [
+                "Vaihe 1",
+                "0 ~ 4.5B",
+                "1.0 kpl",
+                "Varhaiset osallistujat, 1:1 vaihto"
+              ],
+              [
+                "Vaihe 2",
+                "4.5B ~ 6.75B",
+                "0.5 kpl",
+                "Puolittaminen"
+              ],
+              [
+                "Vaihe 3",
+                "6.75B ~ 7.875B",
+                "0.25 kpl",
+                "Jatkuva puolittaminen"
+              ],
+              [
+                "Vaihe 4",
+                "7.875B ~ 8.4375B",
+                "0.125 kpl",
+                "Jatka puolittamista"
+              ],
+              [
+                "Vaihe 5",
+                "8.4375B ~ 8.71875B",
+                "0.0625 kpl",
+                "Lähellä loppua"
+              ],
+              [
+                "Vaihe 6",
+                "8.71875B ~ 9B",
+                "0.03125 kpl",
+                "Viimeinen vaihe"
+              ]
+            ]
+          },
+          "example": "Esimerkiksi: Vaiheessa 1, jos lähetät 100 USDT Red Packetin, voit ansaita 100 $moonini; vaiheessa 2, saman 100 USDT Red Packetin lähettäminen tuottaa sinulle vain 50 $moonini. Mitä aikaisemmin osallistut, sitä enemmän etua saat!"
+        },
+        "vesting": {
+          "title": "Tiimin kiintiö lukitus ja vapautus",
+          "description": "Markkinoilla, jossa on 'hiirivarastoja' ja 'piilotettuja siruja', valitsimme vaikeimman mutta rehellisen polun. Ymmärrämme syvästi, että vain poistamalla kokonaan käyttäjien pelon 'tiimimyyntiin' voimme luoda todellista luottamusta.",
+          "items": [
+            "**Täysi läpinäkyvyys, ei piilottelua**: Meillä ei ole piilotettuja lompakoita tai ilmoittamatonta varhaista kiertoa. Kaikki tokenjakaumat ovat julkisesti saatavilla ketjussa, ja ne ovat yhteisön valvonnassa.",
+            "**Tiimin Itsekuri, Pitkäaikainen Sitoutuminen**: Ydintiimin julkaisuajanjakso kestää **48 kuukautta (4 vuotta)**. Kryptovaluuttamaailmassa neljä vuotta on pitkä sykli. Tämä todistaa, että emme ole täällä tekemässä nopeaa rahaa, vaan olemme sitoutuneet kokemaan nousu- ja laskumarkkinoita yhteisön kanssa rakentaaksemme pitkäaikaista arvoa.",
+            "**Sijoittajien Konsensus**: Varhaiset sijoittajamme samaistuvat syvästi Red Packetin 'jakamisen ja lahjoittamisen' kulttuuriin ja ovat vapaaehtoisesti allekirjoittaneet **36 kuukauden** lineaarisen vapautussopimuksen. Tämä tarkoittaa, että projektin varhaisvaiheissa miltään osapuolelta (sisältäen sijoittajat) ei ole tarpeeksi tokeneita markkinan vaikuttamiseksi."
+          ],
+          "benefit": "Tämä ei ole vain sitoutumissääntö, vaan meidän **'Anti-Harvest Declaration'**. Tämän lähes tiukan itsehillinnän kautta varmistamme, että kukaan – olipa kyseessä perustajat tai suuria omistajia – ei voi pettää yhteisöä varhaisessa vaiheessa. Me seisomme kaikkien Red Packet -lähettäjien kanssa yhdessä ylläpitääksemme tämän sosiaalisen arvon puhtautta."
+        },
+        "why": {
+          "title": "Miksi tehdä tämä?",
+          "items": [
+            "**Lyhyen aikavälin myynnin vähentäminen**: Lukitsemis- ja lineaariset vapautusmekanismit estävät tiimiä ja sijoittajia myymästä suuria määriä aikaisin projektissa.",
+            "**Laajenna projektin elinkaarta**: Tasainen julkaisu varmistaa, että projektilla on riittävästi aikaa kehittyä ja luoda arvoa.",
+            "**Suojele sijoittajia**: Puolittamismekanismit ja lukitussuunnitelmat tarjoavat enemmän suojaa varhaisille haltijoille."
+          ]
+        }
+      },
+      "utility": {
+        "title": "Käyttäjähankinta ja käyttötilanteet",
+        "how_to_earn": {
+          "title": "Miten ansaita $moonini?",
+          "methods": [
+            "**Lähetä Red Packet**: Jokaisesta **1 USDT:n** arvoisesta Red Packetista (useita valuuttoja tukien) osallistujat saavat vastaavan määrän $moonini tämänhetkisen vaiheen perusteella.",
+            "**Suorita tehtävät**: sisältää kertaluonteiset saavutustehtävät ja sosiaaliset tehtävät. Reiluuden varmistamiseksi jokaisen tilin sallitaan suorittaa jokainen tehtävä vain kerran tai asettaa niille kokonaisraja välttääkseen haitallista kolikkoviljelyä.",
+            "**Kutsu ystäviä**: Kutsu uusia ystäviä ja suorita jakotehtäviä, jolloin molemmat osapuolet saavat palkintoja. **Jokaisella tilillä on rajoitus kutsupalkinnoissa**, ja tarkat säännöt määräytyvät yhteisöilmoitusten mukaan.",
+            "**Yhteistyösovellukset**: Tiettyjen toimintojen suorittaminen peleissä tai sovelluksissa, jotka on integroitu moonpacket API:hin, voi myös ansaita $moonini."
+          ]
+        },
+        "how_to_use": {
+          "title": "$moonini käyttötarkoitukset",
+          "items": [
+            "**Maksualennukset**: Tulevaisuudessa $moonini voidaan käyttää osan Red Packet -transaktiomaksujen kattamiseen.",
+            "**Avaa ominaisuudet**: Tietyt premium-ominaisuudet saattavat vaatia tietyn määrän $moonini käyttöä varten.",
+            "**Hallituksen äänestysoikeudet**: $moonini:n pitäminen mahdollistaa osallistumisen tuleviin yhteisöhallinnan äänestyksiin, vaikuttaen projektin kehityssuuntaan.",
+            "**Ekosysteemi Lunastus**: Voidaan lunastaa erityisiä etuja tai palkintoja kumppanisovelluksissa tai peleissä."
+          ]
+        }
+      },
+      "developer": {
+        "title": "Kehittäjäekosysteemi",
+        "description": [
+          "moonpacket on enemmän kuin pelkkä Red Packet -työkalu; se on avoin **Sosiaalinen Likviditeettikerros**.",
+          "Standardisoitujen API:en ja SDK:iden kautta mikä tahansa Telegram-botti, GameFi- tai Web3-sovellus voi käyttää $moonini-incentiivikerrosta. Keskittymällä tuotekehitykseen autamme sinua kasvussa ja asiakasuskollisuudessa."
+        ],
+        "architecture": {
+          "title": "Ohjelmoitavat kannustimet",
+          "description": "Tapahtumiin perustuva palkkiojakelujärjestelmä, joka tukee Webhook-palauksia ja on-chain-vahvistusta."
+        },
+        "cta": {
+          "text": "Tutustu tarkemmin integraatioratkaisuihin",
+          "link_text": "Lue kehittäjän API-dokumentaatio"
+        }
+      },
+      "contracts": {
+        "title": "Sopimusosoite",
+        "description": "Varmistaaksemme läpinäkyvyyden, kaikki keskeiset älykkäät sopimusosoitteet julkistetaan ja vahvistetaan.",
+        "items": {
+          "token": "$moonini Token (Token Sopimus)",
+          "emission": "Eläkeholvi (90 % julkinen liikkeeseenlaskuholvi)",
+          "reserve": "Varauskaappi (10 % Tiimin Kiintiö Kaappi)",
+          "phase": "Vaihehallinta (Puolitusohjain)",
+          "vesting": "Vesting Vault (Lineaarinen Vapautusohjain)",
+          "pol": "POL Manager (Ostot ja hintalattian puolustus)",
+          "protection": "Käynnistys suojaus (Avoin vaihe Anti-Sniping)",
+          "timelock": "Aikalukon ohjain (48h viivästyslukko)"
+        },
+        "status": "(Päivitetään mainnetin käyttöönoton jälkeen)"
+      },
+      "governance": {
+        "title": "Hallinto ja turvallisuus",
+        "principles": {
+          "title": "Hallintoperiaatteet",
+          "description": "Ydinperiaatteemme on: **ei ole olemassa yhtään korkeinta viranomaista**, kaikki tärkeät toiminnot vaativat useita vahvistuksia ja viivästettyä julkaisua läpinäkyvyyden ja turvallisuuden varmistamiseksi."
+        },
+        "market_making": {
+          "title": "Reaali markkinailmoitus",
+          "description": [
+            "**Hylkää valehtelutapahtumat**: Sitoudumme olemaan käyttämättä pesukauppaa tai luomatta vääriä syvyyksiä. Jokin tahansa tapahtuma K-viivalla tulee oikeilta käyttäjiltä.",
+            "**Hajautettu markkinoiden tekeminen**: Likviditeetti määräytyy täysin markkinoiden tarjonnan ja kysynnän sekä protokollan automaattisen takaisinosto mekanismin perusteella, ei ihmisten manipuloinnin."
+          ]
+        },
+        "floor_defense": {
+          "title": "Älykäs lattiahinnan puolustus",
+          "mechanism": "**Mekanismi**: Kun kolikon hinta saavuttaa pohja-alueen, kertyneet protokollamaksut ostavat automaattisesti takaisin ja tuhoavat/ruiskuttavat likviditeettiä.",
+          "anti_gaming": "**Anti-sniping strategia**: Vältääksemme bottien ennustamasta välihuojuntaa, erityiset 'sisäänkäynnin ajoitukset' ja 'yksittäisen kaupankäyntimäärän' sisältävät satunnaisia muuttujia eivätkä ole täysin julkisia. Kuitenkin, ydinlogiikka pysyy: **kauppakustannukset palaavat lopulta allas takaisin tukemaan hintaa**.",
+          "variance": "Huomautus: Markkinoiden volatiilisuuden vuoksi pohjahinta ei ole ehdoton ankkuri, vaan dynaaminen tukialue."
+        },
+        "process": {
+          "title": "HALLINTOPROSESSI",
+          "steps": [
+            "**Ehdotukset**: Tärkeitä päätöksiä varten tarvitaan moniaqueen allekirjoitusvahvistus.",
+            "**Viivästynyt vahvistus**: Kaikkien korkean riskin operaatioiden on oltava 48 tunnin viivästysvahvistusjakson aikana, jolloin ne ovat näkyvissä lohkossa.",
+            "**Suoritus**: Viivästyksen jälkeen valtuutetut henkilöt suorittavat tai se suoritetaan automaattisesti.",
+            "**Peruminen**: Viivytysjakson aikana ehdottaja voi perua ehdotuksen."
+          ]
+        },
+        "security": {
+          "title": "Turvatoimenpiteet",
+          "items": [
+            "**Monimerkintä vahvistus**: Kaikki tärkeät toiminnot vaativat vähintään 2 henkilön allekirjoitukset välttääkseen yksittäisen pisteen riskin.",
+            "**Viivästetty toteutusmekanismi**: Korkean riskin toimenpiteet on alistettava 48 tunnin viiveelle, jolloin yhteisöllä on riittävästi aikaa tarkistaa ja reagoida.",
+            "**Standard sopimus kirjasto**: Käytä tarkastettuja standardisopimuskirjastoja haavoittuvuusriskien vähentämiseksi.",
+            "**Kolmannen osapuolen auditoinnit**: Älykkäät sopimukset käyvät läpi kolmannen osapuolen tietoturva-auditointeja turvallisuuden varmistamiseksi.",
+            "**Avoimen lähdekoodin läpinäkyvyys**: Sopimusohjelmointi on avointa lähdekoodia, kuka tahansa voi vahvistaa ja auditoida sen."
+          ]
+        },
+        "risk_mitigation": {
+          "title": "Kuinka vähentää yksittäisten pisteiden riskiä?",
+          "description": "Varmistamme, ettei kukaan yksittäinen henkilö tai organisaatio voi täysin hallita projektia monenkeskeisen allekirjoituksen, viivästetyn vahvistuksen, tarkastusten ja avoimen lähdekoodin monikerroksisten suojamekanismien avulla. Kaikki tärkeät päätökset kulkevat läpinäkyvän ja jäljitettävän prosessin kautta, mikä tarjoaa rauhoittavan viestin yhteisölle ja sijoittajille."
+        }
+      },
+      "roadmap": {
+        "title": "Kaksijohdintinen tiekartta",
+        "status_notice": "⚠️ Nykyinen tila: Suunnitteluvaiheen julkistus. Tokenit eivät ole vielä luotu (TGE odottaa), ja lopulliset säännöt perustuvat TGE:ssä julkaistavaan white paper -versioon.",
+        "tracks": {
+          "product": "📱 Tuotteen seuranta",
+          "token": "💎 Token Track"
+        },
+        "phases": [
+          {
+            "title": "Vaihe 1: Alku (Genesis)",
+            "product": [
+              "**Telegram-botin julkaisu**: Kevyt liitännäinen, joka saa yhteisön punaiset paketit liikkeelle",
+              "**Perustehtäväsysteemi**: Kutsuminen ja kirjautumistoiminto",
+              "**Käyttäjien kasaaminen**: Varhaisten siemenkäyttäjäryhmien luominen"
+            ],
+            "token": [
+              "**Pisteiden kokeilu**: Käyttäjäkäyttäytyminen tuottaa off-chain pisteitä",
+              "**Token-mallin suunnittelu**: Määritä 90/10 jakautuminen ja puolittamismekanismi",
+              "**Litepaperin julkistus**: Julkaise yhteisölle taloudellisen mallin luonnos"
+            ]
+          },
+          {
+            "title": "Phase 2: Käynnistys (Ignition)",
+            "product": [
+              "**Ekologinen yhdistäminen**: Liitä yhteistyökumppaniliikkeitä ja markkinointiskenaarioita",
+              "**API:n avointa Beta**: Anna kolmansien osapuolien bottien liittää punainen paketti -järjestelmä",
+              "**Dataohjauspaneeli**: Käyttäjät voivat tarkastella yksityiskohtaisia tietoja punaisista paketeista ja pisteistä"
+            ],
+            "token": [
+              "**Kolmansien osapuolien auditointi**: Sopimuskoodi läpäisee turvallisuusauditoinnin",
+              "**TGE (Token Generation)**: Pääverkon käyttöönotto, pisteiden vaihto/kaivostoiminnan käynnistäminen",
+              "**Alkuperäinen likviditeetti**: Perusta likviditeettipooli, varmista perusarvo"
+            ]
+          },
+          {
+            "title": "Phase 3: Laajentaminen (Expansion)",
+            "product": [
+              "**Itsenäinen sovellus (App)**: Julkaise itsenäinen sovellus, joka sisältää lompakon ja IM-toiminnot",
+              "**Ristiin alusta tuki**: Laajenna Discordiin tai muihin yhteisöalustoihin",
+              "**DAO-hallintotyökalut**: Yhteisön äänestystoiminto käynnistyy"
+            ],
+            "token": [
+              "**Taloudellisen kierron käynnistys**: Ostopalautus ja polttomekanismi toimivat automaattisesti",
+              "**Moniketjuverkoitus**: Laajene muille tehokkaille julkisille ketjuille",
+              "**Täydellinen hajauttaminen**: Hallintaoikeus siirtyy vaiheittain DAO:lle"
+            ]
+          }
+        ]
+      },
+      "risks": {
+        "title": "Riskit ja vastuuvapaudet",
+        "description": [
+          "**Tärkeä huomautus**: Tämä asiakirja ei muodosta minkäänlaista sijoitusneuvontaa. Kryptovaluuttasijoitukseen liittyy korkea riski, mukaan lukien mutta ei rajoittuen hintavaihteluun, likviditeettiriskin, teknisiin riskeihin, sääntelyriskeihin ja muuhun.",
+          "",
+          "**Merkittävät riski varoitukset**:",
+          "- **Hinnan vaihtelun riski**: Tokenin hinnat voivat vaihdella dramaattisesti ja jopa laskea nollaan. Varmistathan, että osallistut sietämissäsi tappiorajoissa.",
+          "- **Likviditeettiriski**: Alkuperäinen likviditeetti saattaa olla riittämätöntä, mikä voi johtaa suureen slippageen tai vaikeuksiin kauppojen välittömässä suorittamisessa.",
+          "- **Tekninen riski**: Vaikka älysopimukset tullaan auditoimaan, voi silti olla tuntemattomia teknisiä haavoittuvuuksia tai hakkereiden hyökkäyksiin liittyviä riskejä.",
+          "- **Sääntelyriski**: Sääntelypolitiikat eri maiden kryptovaluuttojen suhteen voivat muuttua milloin tahansa, mikä voi vaikuttaa projektin toimintaan tai tokenien arvoon.",
+          "",
+          "**Tee Oma Tutkimus (DYOR)**: Sijoittajien tulisi ymmärtää täysin asiaan liittyvät riskit ja sijoittaa varovaisesti oman taloudellisen tilanteensa ja riskinsietokykynsä perusteella. Projektitiimi ei ole vastuussa mahdollisista sijoitustappioista."
+        ],
+        "disclaimer": {
+          "title": "Tärkeä ilmoitus",
+          "text": "Tämä asiakirja ei muodosta mitään muotoa sijoitusneuvontaa. Kryptovaluuttainvestoinneissa on korkea riski, mukaan lukien mutta ei rajoittuen hinnan vaihteluun, likviditeettiriskiin, tekniseen riskiin, sääntelyriskiin ja muuhun. Sijoittajien tulisi ymmärtää täysin asiaankuuluvat riskit ja sijoittaa varovaisesti omien riskinsietokykynsä mukaan. Projektiryhmä ei ole vastuussa mahdollisista sijoitustappioista."
+        },
+        "risks": {
+          "title": "Suurimmat riskit",
+          "items": [
+            "**Hintojen Vaihteluriski**: Tokenien hinnat saattavat vaihdella merkittävästi ja jopa laskea nollaan.",
+            "**Likviditeettiriski**: Alkuperäinen likviditeetti voi olla riittämätöntä, mikä vaikuttaa kaupankäyntikokemukseen.",
+            "**Tekninen Riski**: Älykkäissä sopimuksissa saattaa olla tuntemattomia haavoittuvuuksia, vaikka teemme tarkastuksia.",
+            "**Sääntelyriski**: Eri maiden sääntelypolitiikat saattavat muuttua, mikä vaikuttaa projektin toimintaan.",
+            "**Markkinariski**: Kryptovaluuttamarkkinoiden yleinen volatiliteetti saattaa vaikuttaa token-hintoihin."
+          ]
+        }
+      },
+      "faq": {
+        "title": "Usein Kysytyt Kysymykset",
+        "items": [
+          {
+            "question": "Miten tokeneita voidaan ansaita?",
+            "answer": "Voit ansaita $moonini lähettämällä punaisia paketteja, suorittamalla tehtäviä, kutsumalla ystäviä ja muita tapoja. Mitä enemmän lähetät punaisia paketteja ja suoritat tehtäviä, sitä enemmän voittoja saat. Varhaiset osallistujat saavat myös korkeampia palkintoja."
+          },
+          {
+            "question": "Milloin voi nostaa?",
+            "answer": "Kun päälohkoketju avataan, käyttäjät voivat nostaa $moonini omalle lompakolleen. Nostaminen vaatii pienen kaasumaksun (BSC-verkkomaksu), tarkka avausaika ilmoitetaan virallisessa ilmoituksessa."
+          },
+          {
+            "question": "Onko tiimin jakoon lukitsemista?",
+            "answer": "Kyllä. Tiimille varattu osuus (10%) lukitaan 3 kuukaudeksi, jonka jälkeen se vapautuu lineaarisesti 33-45 kuukauden aikana. Toiminta-, teknologia-tiimille ja PR/markkinointiosuudet ovat 48 kuukauden kokonaiskesto, varhaisten sijoittajien osuus on 36 kuukauden kokonaiskesto."
+          },
+          {
+            "question": "Miksi puolittamisjärjestelmää käytetään?",
+            "answer": "Puolittamisjärjestelmä on suunniteltu kannustamaan varhaisia osallistujia ja samalla kontrolloimaan tokenien jakelunopeutta. Mitä aikaisemmin osallistut, sitä enemmän tokeneita saat, mikä voi houkutella varhaisia käyttäjiä ja sijoittajia, samalla välttäen myöhemmän liiallisen jakelun aiheuttamaa inflaatiota."
+          },
+          {
+            "question": "Miten toimitaan, jos sopimuksessa tai järjestelmässä ilmenee ongelmia?",
+            "answer": "Vähennämme riskejä kolmannen osapuolen turvallisuustarkastusten, moninkertaisten allekirjoitusten varmistamisen ja viivästettyjen toimintojen avulla. Jos ongelmia ilmenee, käynnistämme välittömästi hätäprosessin ja päätämme ratkaisusta hallintomekanismin kautta sekä ilmoitamme yhteisölle."
+          },
+          {
+            "question": "Mikä on $moonini kokonaismäärä? Lisääkö se?",
+            "answer": "$moonini kokonaismäärä on 10,000,000,000 kpl (10B), kiinteä määrä, eikä lisää julkaista. 90% julkaistaan käyttäjätoimintojen kautta asteittain, 10% tiimille ja varhaisille sijoittajille."
+          },
+          {
+            "question": "Miten osallistun hallintaan?",
+            "answer": "$moonini haltijat voivat osallistua tulevassa yhteisön hallintovaalissa, joka vaikuttaa projektin kehityssuuntiin. Tarkemmat hallintomekanismit ja äänestystavat julkaistaan päälohkoketjun avauksen jälkeen."
+          },
+          {
+            "question": "Voiko $moonini kaupata?",
+            "answer": "Kun päälohkoketju avataan ja likviditeettipooli perustetaan, $moonini voidaan kaupata hajautetuilla pörsseillä (kuten PancakeSwap). Kauppa vaikuttaa markkinoiden kysyntään ja tarjontaan, joten hinnat saattavat vaihdella; sijoita varovaisesti."
+          }
+        ]
+      }
+    },
+    "charts": {
+      "allocation": {
+        "title": "Tokenin jakelu",
+        "public": "Julkinen tarjous",
+        "team": "Tiimikiintiö",
+        "operations": "Toiminnot",
+        "tech": "Tekninen tiimi",
+        "marketing": "Viestintä/Markkinointi",
+        "investors": "Varhaiset sijoittajat"
+      },
+      "phase": {
+        "title": "6-vaiheinen puolitusmekanismi",
+        "phase": "Vaihe",
+        "ratio": "Jokaisesta 1 USDT:stä voit saada"
+      },
+      "vesting": {
+        "title": "Tiimi Kiintiön Vapautumisajankohta",
+        "cliff": "Lukitusjakso",
+        "release": "Julkaisuaika"
+      },
+      "governance": {
+        "title": "Hallintoprosessi",
+        "multisig": "Monetallennuslompakko",
+        "proposal": "Ehdotus",
+        "timelock": "Viivästynyt vahvistus",
+        "execute": "Suorita",
+        "update": "Päivitä"
+      },
+      "flow": {
+        "title": "Tokenin kiertoprosessi",
+        "userSend": "Käyttäjä lähettää Red Packetin",
+        "fee": "Käsittelymaksut",
+        "operations": "Käyttökulut",
+        "pol": "Osto-ohjelma",
+        "accumulate": "Kertymä",
+        "trigger": "Osto-ohjaus",
+        "swap": "Vaihto",
+        "addLiquidity": "Lisää likviditeettiä",
+        "pool": "Likviditeettipooli",
+        "smart_floor": "Älykäs Lattiahinnan Puolustus"
+      }
+    }
+  },
+  "litepaper_api": {
+    "meta": {
+      "title": "moonpacketin todennuskäyttöliittymä",
+      "subtitle": "Standardi käyttöliittymä palkkiosääntöjen ja käyttäjästatuksen kyselyyn (v2.3)",
+      "description": "Anna vain GET-päätepiste moonpacketille, jotta se voi kysyä sääntöjäsi ja käyttäjätilaa, integroimalla helposti Red Packet ja tehtäväjärjestelmät."
+    },
+    "sidebar": {
+      "overview": "Integraation yleiskatsaus",
+      "logic": "Vuorovaikutuslogiikka",
+      "spec": "API-määrittely",
+      "ts_def": "TypeScript-määritelmä",
+      "examples": "Viestintäesimerkki",
+      "security": "Turvallisuustodennus"
+    },
+    "hero": {
+      "badge": "API Määrittely v2.3",
+      "title": "Todennus API",
+      "subtitle": "Ominaisuus kyselyrajapinta (GET)",
+      "desc": "Standardisoidun GET-kyselyrajapinnan kautta moonpacket noutaa aktiivisesti 'palkkiosäännöt' ja 'käyttäjätiedot' palvelimeltasi. Kaikki loogiset arvioinnit hoitaa moonpacket.",
+      "cta_docs": "Katsokaa erityksiä",
+      "cta_key": "Palaa Litepaperiin"
+    },
+    "content": {
+      "overview": {
+        "title": "Pääsykonfiguraatio",
+        "desc": [
+          "Kun valitset 'Mukautettu API' moonpacketin 'Vaatimusten asettaminen'-osiossa, anna Endpoint-URL-osoitteesi.",
+          "**Menetelmä**: Käytä `GET`-metodia.",
+          "**Sisältötyyppi**: `application/json`",
+          "**Todennus**: Todennustiedot siirretään täysin Headerin (`X-API-KEY` ja `Signature`) kautta, eikä URL-osoitteessa ole arkaluonteisia tietoja."
+        ]
+      },
+      "logic": {
+        "title": "Vuorovaikutuslogiikka",
+        "desc": "Koko prosessi on jaettu kahteen vaiheeseen: 'Asennusvaihe' ja 'Suoritusvaihe'. moonpacket lähettää pyyntöjä API:si käyttämällä GET-menetelmää:",
+        "modes": [
+          {
+            "title": "Vaihe 1: Sääntöjen määrittäminen (Konfiguraatio)",
+            "trigger": "Käynnistysohje: Syötä URL „vaatimusehdot“ ja lähetä se",
+            "request": "GET",
+            "response": "Palauta objekti, jossa on operaattorit (gt, eq, lt...) sääntöjen määrittelemiseksi"
+          },
+          {
+            "title": "Vaihe 2: Käyttäjän vahvistaminen (Suorituskyky)",
+            "trigger": "Käynnistysohje: Käyttäjä yrittää nostaa punakirin.",
+            "request": "GET ?user_id=...",
+            "response": "Palauta kyseisen käyttäjän todelliset ominaisuusarvot (puhdas numero tai merkkijono)"
+          }
+        ],
+        "note": "Tuetut operaattorit: `eq` (yhtä suuri, tukee merkkijonoja/lukuja), `gt` (suurempi kuin), `gte` (suurempi tai yhtä suuri kuin), `lt` (pienempi kuin), `lte` (pienempi tai yhtä suuri kuin). Arvojen, jotka eivät ole `eq` operaattoreita, on oltava lukuja.",
+        "steps": {
+          "step1_label": "Vaihe Yksi",
+          "step2_label": "Vaihe Kaksi"
+        }
+      },
+      "diagram": {
+        "user": "Käyttäjä",
+        "moonpacket": "moonpacket",
+        "dev_api": "Sinun APIsi",
+        "step1": "1. Asennuksen aikana: Hakusäännöt (GET)",
+        "step2": "2. Vaatimisvaihe: Tarkista tila (GET)",
+        "click": "Klikkaa kerätäksesi",
+        "check": "Looginen vastaavuus (paikallinen)",
+        "grant": "Jaa palkintoja",
+        "reject": "Kelpoisuusilmoitus",
+        "client_app": "Asiakas / Palvelin",
+        "json_data": "JSON data",
+        "saved_rule": "Säännöt tallennettu:",
+        "user_state": "Käyttäjätila:"
+      },
+      "spec": {
+        "title": "Käyttöliittymän määrittely (Määrittely)",
+        "request": {
+          "title": "Pyyntöparametrit (Kyselyparametrit)",
+          "headers": [],
+          "query": [
+            "**api_key** (vaaditaan): API-avain, jonka olet määrittänyt tunnistusta varten",
+            "**user_id** (valinnainen): Palauttaa käyttäjäattribuutit, kun ne ovat läsnä; palauttaa sääntömääritykset, kun niitä ei ole."
+          ]
+        },
+        "ts_def": {
+          "title": "Tietorakenteen määrittely (TypeScript)",
+          "desc": "Seuraava käyttöliittymä määrittelee JSON-rakenteen, joka on palautettava, jotta tekoälyavusteiset työkalut voivat lukea sen:"
+        }
+      },
+      "scenarios": {
+        "title": "Sovellusskenaariot",
+        "items": [
+          {
+            "title": "GameFi yhdistäminen",
+            "desc": "Määritä sääntö `level >= 10`. Kun käyttäjä lunastaa, moonpacket tarkistaa käyttäjän ominaisuudet, jos `level: 12`, niin se hyväksytään."
+          },
+          {
+            "title": "Identiteettisitoutumispalkinto",
+            "desc": "Määrittele sääntö `kyc == true`. moonpacket tarkistaa käyttäjän tilan, ja jos se palauttaa `kyc: true`, niin palkintoja jaetaan."
+          },
+          {
+            "title": "Blacklist-suodatus",
+            "desc": "Määritä sääntö `is_blacklist == false`. Jos API palauttaa `is_blacklist: true`, hylkää hakemus."
+          }
+        ]
+      },
+      "examples": {
+        "title": "Viestintäesimerkki (GET-pyyntö)",
+        "mode_a": {
+          "title": "1. Määritä säännöt (Määritys)",
+          "desc": "Kun asetuksia lähetetään, palauta JSON, joka sisältää operaattorit."
+        },
+        "mode_b": {
+          "title": "2. Kyselyn tila (Suorituskyky)",
+          "desc": "Kun käyttäjä vaatii, palauta puhtaat arvot tai merkkijonot."
+        }
+      },
+      "signature": {
+        "title": "Turvatarkistus",
+        "desc": "Varmistaaksesi pyyntöjen aitouden, moonpacket lisää allekirjoituksen otsikkoon. Voit viitata oikealla olevaan koodiin validoimista varten:",
+        "required_headers": "Tarvittavat otsikot",
+        "algo_title": "Allekirjoitusalgoritmi",
+        "headers": {
+          "key": "X-API-AVAIN",
+          "ts": "X-API-AIKANPÄIVÄ",
+          "nonce": "X-API-NONCE",
+          "sig": "X-API-AL signed"
+        },
+        "algo": "HMAC-SHA256",
+        "formula": "Allekirjoitus = HMAC_SHA256(salaisuus, viesti + aikaleima + nonce)",
+        "steps": [
+          "1. Poimi aikaleima, nonce, allekirjoitus otsikoista",
+          "2. Vahvista, että aikaleima on kohtuullisella aikavälillä (esim. ±5 minuuttia)",
+          "3. Yhdistä merkkijono: RequestBody + Timestamp + Nonce",
+          "4. Laske HMAC-SHA256 käyttäen Salaisuuttasi",
+          "5. Vertaa laskettua tulosta Otsikon allekirjoitukseen"
+        ]
+      },
+      "reliability": {
+        "title": "Huomautus",
+        "items": [
+          "**Aikakatkos**: Varmista, että API voi palauttaa tuloksia **3 sekunnin** kuluessa.",
+          "**Muoto**: Ole hyvä ja noudata tarkasti JSON-rakennetta, muuten se johtaa jäsentämisvirheeseen."
+        ]
+      },
+      "error_codes": {
+        "title": "Tilakoodit",
+        "items": [
+          {
+            "code": "200",
+            "status": "OK",
+            "desc": "Pyyntö onnistui"
+          },
+          {
+            "code": "400",
+            "status": "Bad Request",
+            "desc": "Pyyntöparametri virheellinen (esim. muoto ei oikein)."
+          },
+          {
+            "code": "401",
+            "status": "Unauthorized",
+            "desc": "Valtuutuspäänsisi puuttuu tai avain on voimaton."
+          },
+          {
+            "code": "403",
+            "status": "Forbidden",
+            "desc": "IP-rajoitus tai ei oikeutta päästä tähän resurssiin."
+          },
+          {
+            "code": "404",
+            "status": "Not Found",
+            "desc": "Käyttäjän ID ei ole olemassa (koskee käyttäjätietojen hakuja)."
+          },
+          {
+            "code": "500",
+            "status": "Server Error",
+            "desc": "Palvelimen sisäinen virhe."
+          }
+        ]
+      },
+      "disclaimer": {
+        "title": "Kolmannen Osapuolen API Varoitus",
+        "text": "Kolmannen osapuolen alustojen integrointimenetelmät, jotka on mainittu tässä asiakirjassa, ovat vain viittausmateriaalia. Kehittäjien tulisi ottaa huomioon ja noudattaa alustojen uusinta virallista kehittäjädokumentaatiota."
+      }
+    },
+    "labels": {
+      "request": "Pyydä sisältö",
+      "response": "Palauta tulos",
+      "code": "Tilakoodi",
+      "status": "Tila",
+      "desc": "Kuvaus"
+    }
+  },
+  "whitepaper": {
+    "title": "$moonini Valkoinen Kirja",
+    "description": "Ymmärrys $moonini-tokenin suunnittelufilosofiasta, taloudellisesta mallista ja teknisestä arkkitehtuurista",
+    "seo": {
+      "title": "$moonini Valkoinen Kirja — moonpacket",
+      "description": "Kattava kuvaus $moonini Tokenomista, Teknistä Arkkitehtuuria ja Hallintomekanismista"
+    },
+    "hero": {
+      "subtitle": "$moonini on moonpacket-alustalle perustuva yhteisöincentiiviraha. Mitä enemmän käyttäjät osallistuvat ja vuorovaikuttavat moonpacketilla, sitä enemmän $moonini:ta he voivat ansaita. Sijoittajille 90 % jaetaan käyttäjille ja 10 % tiimille, mikä vähentää tehokkaasti markkinakaatumisen riskiä puolitusmekanismin ja lineaarisen julkaisun yhdistelmän avulla.",
+      "cards": {
+        "user": {
+          "title": "Yleiskäyttäjille",
+          "description": "Voit ansaita helposti $moonini:ta lähettämällä Red Packetteja, suorittamalla tehtäviä ja kutsumalla ystäviä. Mitä enemmän käytät, sitä enemmän ansaitset, täysin ilmaiseksi."
+        },
+        "investor": {
+          "title": "Sijoittajille",
+          "description": "Kokonaismäärä 10 miljardia, 90/10 jakelu, 6-vaiheen puolitus, tiimijakaminen lineaarinen julkaisu, suunniteltu pitkäaikaiseen vakauteen, markkinariskin vähentäminen."
+        },
+        "developer": {
+          "title": "Kehittäjille/Kumppaneille",
+          "description": "Standardoidut sopimukset, avoin API, voidaan integroida muihin sovelluksiin tai peleihin. Tarkempia teknisiä tietoja varten katso tekninen dokumentaatio."
+        }
+      }
+    },
+    "toc": {
+      "title": "Sisällysluettelo"
+    },
+    "sections": {
+      "overview": "1. Projektin Yhteenveto",
+      "tokenomics": "2. Tokeneiden Talous",
+      "architecture": "Kolme, Tekninen Arkkitehtuuri",
+      "emission": "Neljä, Julkaisumekanismi",
+      "governance": "Viisi, Hallinto ja Turvallisuus",
+      "incentives": "Kuusi, Käyttäjä-incentiivijärjestelmä",
+      "developer": "Seitsemän, Kehittäjän Opas",
+      "roadmap": "8. Tiekartta",
+      "risks": "9. Riskivaroitus",
+      "faq": "Kymmenen, Vahvistettavat Kysymykset"
+    },
+    "content": {
+      "overview": {
+        "what_is": [
+          "**$moonini** on moonpacket-alustalla käytettävä ekosysteemin token, jota käytetään käyttäjien palkitsemiseen aktiivisista toiminnoista alustalla, mukaan lukien:",
+          "- Lähettää red packet",
+          "- Kutsutaan ystäviä",
+          "- Tehtävien suorittaminen",
+          "- Osallistuminen yhteisön toimintaan",
+          "",
+          "**Yksinkertaisesti sanottuna**: Mitä enemmän käytät moonpacketia, sitä enemmän $moonini ansaitset."
+        ],
+        "core_values": {
+          "title": "Ydinarvot",
+          "values": [
+            "- ✅ **Hajauttaminen**: Rakennettu Binance Smart Chain (BSC) -alustalle, kaikki transaktiot ovat läpinäkyviä ja varmennettavissa, eikä kolmansien osapuolien luottamista tarvita.",
+            "- ✅ **Reilu Jakelu**: 90% tokeneista jaetaan käyttäjätoimintojen kautta, 10% varattu tiimille ja sijoittajille, varmistaen yhteisön prioriteetti.",
+            "- ✅ **Vaiheittainen Vapautus**: Omaksuu 6-vaiheisen puolitusmekanismin, joka kannustaa aikaisia osallistujia ansaitsemaan enemmän, mitä aikaisemmin he liittyvät.",
+            "- ✅ **Turvallinen ja Luotettava**: Käyttää tarkastettuja standardisopimuskirjastoja, kaikki tärkeimmät toiminnot vaativat monenkeskisiä vahvistuksia, suunnitelmia kolmansien osapuolten turvallisuustarkastuksiin."
+          ]
+        }
+      },
+      "tokenomics": {
+        "info": {
+          "title": "2.1 Tokenin Perustiedot",
+          "description": [
+            "| Kohde | Arvo | Kuvaus |",
+            "|------|------|------|",
+            "| **Tokenin Nimi** | moonini | Täydellinen Nimi |",
+            "| **Tokenin Symboli** | MOONINI | Kauppasymboli |",
+            "| **Kokonaismäärä** | 10 000 000 000 tokenia (10B) | Kiinteä kokonaismäärä, ei koskaan inflaatiota |",
+            "| **Desimaalit** | 18 | BSC-standardi |",
+            "| **Lochainska** | Binance Smart Chain (BSC) | BEP-20-standardi |"
+          ]
+        },
+        "allocation": {
+          "title": "2.2 Allokointisuunnitelma",
+          "description": [
+            "**Kokonaismäärä: 10 000 000 000 tokenia (10B)**",
+            "",
+            "**Allokointiperiaatteet**:",
+            "- **90 % Yhteisölle ja Likviditeetille**:",
+            "- Sisältää \"kaivososuuden\", joka syntyy Red Packetien ja tehtävien kautta, sekä \"likviditeettiosuuden\", jota käytetään alkuperäisten kaupankäyntiparien perustamiseen (projektitiimi syöttää aluksi 10 000 USDT pullona varmistamaan arvon alussa).",
+            "- Tämä osa palautetaan täysin ekosysteemin osallistujille, eikä varata organisaatioille tai yksityisille sijoituksille.",
+            "",
+            "- **10 % Tiimille ja Varhaisille Tukijoille**:",
+            "- **4 % Varhaiset Sijoittajat**: Palkkioita varhaisesta taloudellisesta tuesta.",
+            "- **2 % Tekninen Tiimi**: Varmistaa jatkuvan kehityksen ja ylläpidon protokollassa.",
+            "- **2% Toimintatiimi**: Vastaa yhteisön hallinnasta ja tapahtumien suunnittelusta.",
+            "- **2% Markkinointi ja Ekosysteemin Vakauttaminen**: Edistetään markkinakasvua ja ylläpidetään ekosysteemin vakautta äärimmäisissä olosuhteissa vararahastona.",
+            "",
+            "**Hallintalupaus**:",
+            "Toteutamme tiukimmat sisäiset varojenhallintakäytännöt. Kaikki tiimin allokoinnit ja toimintakulut ovat **Multisig** ja **Ajastettu** rajoitusten alaisia. Kukaakaan yksittäistä henkilöä ei voi vapaasti käyttää varoja, varmistamalla, että kaikki menot tehdään kollektiivisesti ja ovat julkisesti läpinäkyviä."
+          ]
+        },
+        "phase": {
+          "title": "2.3 6-Vaiheinen Puolitus Mekanismi",
+          "description": [
+            "Kannustaaksemme varhaisia osallistujia, tokenin jakaminen käyttää 'progressiivista puolitus' mekanismia:",
+            "",
+            "| Vaihe | Annetun Määrän Kenttä | Vaihtosuhde (per 1 USDT) | Kuvaus |",
+            "|------|------------|---------------------|------|",
+            "| **Vaihe 1** | 0 ~ 4.5B | **1.0 token** | Varhaiset osallistujat, 1:1 vaihto |",
+            "| **Vaihe 2** | 4.5B ~ 6.75B | **0.5 token** | Puolitettu |",
+            "| **Vaihe 3** | 6.75B ~ 7.875B | **0.25 token** | Taas puolitettu |",
+            "| **Vaihe 4** | 7.875B ~ 8.4375B | **0.125 token** | Jatkuva puolitus |",
+            "| **Vaihe 5** | 8.4375B ~ 8.71875B | **0.0625 token** | Lähestyy loppua |",
+            "| **Vaihe 6** | 8.71875B ~ 9B | **0.03125 token** | Viimeinen vaihe |",
+            "",
+            "**Esimerkki**:",
+            "- Vaiheessa 1, jos lähetät 100 USDT Red Packetin, voit vastaanottaa 100 $moonini",
+            "- Vaiheessa 2, jos lähetät 100 USDT Red Packetin, voit vastaanottaa vain 50 $moonini",
+            "- Mitä aikaisemmin osallistut, sitä enemmän tokenia saat!"
+          ],
+          "value_logic": [
+            "💡 Red Packet Filosofia ja Arvokierto",
+            "",
+            "**Red Packetin henki on 'Antaminen' ja 'Yhteys'**:",
+            "Itäisestä kulttuurista juontava Red Packet edustaa ei vain rahansiirtoa, vaan myös rakkautta vanhemmilta nuoremmille, onnituksia ja jakamista ystävien kesken. moonpacketissa, jokainen kerta kun lähetät Red Packetin, on lämmin sosiaalinen vuorovaikutus.",
+            "",
+            "**Sosiaalisesta Käyttäytymisestä Taloudelliseen Arvoon**:",
+            "Uskomme, että nämä hyvyyskohteet tulisi kirjata ja arvostaa. $moonini ei ole pelkästään palkkio-token; se on tämän sosiaalisen verkoston arvon kantaja, tuottaen pitkän aikavälin taloudellisia vaikutuksia jokaisesta 'antamisesta'.",
+            "",
+            "**Todellinen Arvon Tuki**:",
+            "Tämän sosiaalisen arvon vakauden ylläpitämiseksi protokolla määrittelee: **50 % transaktiomaksuista ohjataan automaattisesti Likviditeettialtaaseen**.",
+            "",
+            "Tämä tarkoittaa: mitä aktiivisempi yhteisö ➔ sitä enemmän Red Packet vuorovaikutuksia ➔ sitä enemmän varoja injektoidaan likviditeettipooliin ➔ sitä vahvempi $moonini:n arvopohja. Tämä on positiivinen sykli, joka perustuu todellisiin sosiaalisiin tarpeisiin ja liiketoimintatulokseen, ei pelkästään spekulatiiviseen uhkapeliin."
+          ]
+        }
+      },
+      "architecture": {
+        "blockchain": {
+          "title": "3.1 Lohkoketjun valinta: Binance Smart Chain (BSC)",
+          "why": [
+            "**Miksi valita BSC?**",
+            "",
+            "| Etu | Kuvaus |",
+            "|------|------|",
+            "| ✅ **Alhaiset maksut** | Keskimääräinen transaktiokustannus 0,1-0,5 dollaria, paljon alhaisempi kuin Ethereumin |",
+            "| ✅ **Nopea Vahvistus** | Keskimääräinen vahvistusaika 3 sekuntia sujuvan kokemuksen takaamiseksi |",
+            "| ✅ **Aikuinen Ekosysteemi** | Rikkaat DeFi-työkalut suurella käyttäjäkunnalla |",
+            "| ✅ **EVM-yhteensopiva** | Voidaan käyttää Ethereum-ekosysteemin resursseja uudelleen |",
+            "| ✅ **Lompakon Omaksuminen** | Päävirran lompakot kuten MetaMask, Trust Wallet tukevat |"
+          ]
+        },
+        "contracts": {
+          "title": "3.2 Älykäs sopimusarkkitehtuuri",
+          "description": [
+            "Käytämme teollisuusvahvistettuja älysopimusstandardeja varmistaaksemme tokenien turvallisuuden ja luotettavuuden.",
+            "",
+            "**Ydinsuunnitteluperiaatteet**:",
+            "- **Hajautettu**: Kaikki tokenin liikkeeseenlasku- ja vapautusmekanismit toteutetaan automaattisesti älykkäiden sopimusten kautta, ilman ihmisen väliintuloa.",
+            "- **Läpinäkyvä ja jäljitettävä**: Kaikki operatiiviset tiedot tallennetaan lohkoketjuun, johon pääsee käsiksi kuka tahansa.",
+            "- **Turvallinen ja luotettava**: Hyödyntäen kolmannen osapuolen auditoitua standardisopimuskirjastoa koodin laadun ja turvallisuuden varmistamiseksi.",
+            "",
+            "**Päätoiminnot**:",
+            "- **Tokenin myöntäminen**: Tokenin myöntäminen ja siirtäminen BSC-standardien mukaisesti.",
+            "- **Automaattinen julkaisu**: Hallitse 90 %:n julkisesti myyntiin annettujen tokenien vaiheittaista julkaisua (6 puolitusvaihetta).",
+            "- **Tiimin lukitus**: 10 % tiimin osuuden hallinta lukitsemiseen ja lineaariseen vapauttamiseen",
+            "- **Hallintomekanismi**: Kaikki tärkeät toiminnot vaativat monisignaali vahvistuksen, ja niissä on 48 tunnin jäähdyttelyaika, jotta yhteisöllä on aikaa tarkastella.",
+            "- **Automaattinen takaisinosto**: Alustan maksut käytetään automaattisesti tokenien takaisinostoon, mikä parantaa likviditeettiä",
+            "",
+            "**Turvatoimenpiteet**:",
+            "- Hyödyntää kolmannen osapuolen tarkastamaa standardisopimuskirjastoa koodin laadun ja turvallisuuden varmistamiseksi",
+            "- Kaikki tärkeät toiminnot vaativat monen allekirjoittajan vahvistuksen, ja niihin liittyy 48 tunnin jäädytysaika, jotta yhteisöllä on aikaa tarkastella niitä.",
+            "- Edistynyt todennusmenetelmä, jota käytetään käyttäjän nostojen aikana varmistaakseen, että vain käyttäjä voi toimia",
+            "- Käyttää uudelleen hyökkäyksen estomekanismia suojatakseen käyttäjien varat",
+            "- Suunnittele kolmannen osapuolen turvallisuustarkastuksia (CertiK / PeckShield / SlowMist)",
+            "",
+            "*Yksityiskohtaisia teknisiä tietoja, sopimusrajapintoja ja toimintoja varten, viittaathan: [Tekninen erittelydokumentti](/fi-FI/docs/technical)*"
+          ]
+        }
+      },
+      "emission": {
+        "public": {
+          "title": "4.1 Julkinen tarjous (90%)",
+          "initial_liquidity": [
+            "**Alkuperäinen likviditeetti**:",
+            "- Edistää osaa tokeneista 90 %:n julkisesta tarjouskassasta alkuperäisen likviditeettialtaan luomiseksi USDT:llä",
+            "- Varmista, että tokeneita voidaan kaupata normaalisti after verkossa, tarjoten likviditeettivakuuden sijoittajille",
+            "- Tarkat summat ilmoitetaan ennen pääverkon lanseerausta"
+          ],
+          "launch_protection": [
+            "**Avaamalla Anti-Snipe Mekanismin**:",
+            "- **Yksittäinen Ostoraja**: 30 minuuttia ennen avautumista yksittäinen lompakko voi ostaa vain 0.5% tai 1% koko määrästä",
+            "- **Suojele pieniä vähittäisinvestoijia**: Estä suuria omistajia viemästä koko likviditeettiä markkinoiden avautuessa",
+            "- **Aikaväli**: Nostetaan automaattisesti 30 minuutin jälkeen, ei vaikuta normaaliin kaupankäyntiin",
+            "- **Säilytä Hintavakaus**: Vältä jyrkkiä hintavaihteluita avauksessa"
+          ],
+          "release_methods": [
+            "**Julkaisumenetelmä**: Vähittäinen julkaisu käyttäjien aktiviteettien kautta",
+            "",
+            "**Julkaisulähteet**:",
+            "1. **Lähetä Red Packet**: Jokaisella kerralla, kun 1 USDT Red Packet lähetetään, saat vastaavan määrän $moonini nykyisen vaiheen mukaan.",
+            "2. **Kutsu ystäviä**: Onnistuneesti kutsu uusia käyttäjiä ja suorita jakotehtävät saadaksesi $moonini",
+            "3. **Suorita tehtävät**: Suorita saavutustehtäviä, sosiaalisia tehtäviä jne. ansaitaksesi ylimääräistä $moonini",
+            "4. **Ryhmän Omistajan Voitto-osuus**: Ryhmän omistajat voivat saada 3 % voitto-osuutta (USDT) lähettämällä Red Packetteja ryhmien välillä."
+          ],
+          "cost_vs_price": [
+            "💡 **Tuotantokustannus vs Markkinahinta**:",
+            "",
+            "Vaiheessa 1, 1 $moonini saamisen epäsuora kustannus Red Packet -kaivoksen kautta on noin **0,02 USDT** (perustuen 2 %:n transaktiomaksuun).",
+            "",
+            "Vaikka alkuperäinen listahinta on **0.01 USDT**.",
+            "",
+            "Tämä tarkoittaa, että **toissijaisen markkinan ostohtinta on 50 % alhaisempi kuin tuotantokustannus**, mikä tarjoaa aikaisille haltijoille luonnollisen turvallisuusmarginaalin."
+          ],
+          "withdraw_mechanism": [
+            "**Nostomekanismi**:",
+            "- Kun käyttäjät ansaitsevat $moonini alustalla, he voivat nostaa sen lompakkoonsa turvallisen henkilöllisyystarkistusmekanismin kautta.",
+            "- Järjestelmä tarkistaa käyttäjätoimintatietojen perusteella varmistaakseen, että vain käyttäjä voi toimia.",
+            "- Kun vahvistus on saatu, käyttäjät voivat nostaa tokeninsa lompakkoonsa.",
+            "- **Minimimiesiirto**: 10 $moonini",
+            "- **Käsittelykulu**: Käyttäjien tarvitsee maksaa vain verkkotapahtumamaksu (lohkoketjukäytännön mukaisesti)",
+            "",
+            "*Yksityiskohtaisia teknisiä toteutuksia varten, katso: [Tekninen eräspesifikaatiodokumentti](/fi-FI/docs/technical)*"
+          ],
+          "phase_switch": [
+            "**Vaiheantaa**:",
+            "- Vaihda automaattisesti seuraavaan vaiheeseen, kun myönnetty summa saavuttaa vaiheen kynnyksen",
+            "- Vaihtoprosessi on läpinäkyvä ja jäljitettävissä, tallennettu lohkoketjuun"
+          ]
+        },
+        "team": {
+          "title": "4.2 Tiimin kiintiö (10%)",
+          "vesting_rules": [
+            "**Lukitus- ja vapautussäännöt**:",
+            "",
+            "| Kategoria | Osuus | Lukitusjakso (Cliff) | Lineaarinen Vapautusjakso | Kokonaiskesto |",
+            "|------|------|---------------|-----------|--------|",
+            "| **Toiminnot** | 2% (200M) | 3 kuukautta | 45 kuukautta | 48 kuukautta |",
+            "| **Tekninen tiimi** | 2% (200M) | 3 kuukautta | 45 kuukautta | 48 kuukautta |",
+            "| **Julkiset suhteet/Markkinointi** | 2% (200M) | 3 kuukautta | 45 kuukautta | 48 kuukautta |",
+            "| **Aikaiset sijoittajat** | 4% (400M) | 3 kuukautta | 33 kuukautta | 36 kuukautta |",
+            "",
+            "**Julkaisumenetelmä**:",
+            "- **Lineaarinen kertymä**: Tokeneita kertyy lineaarisesti ajan myötä, ja nostettavissa oleva määrä voidaan tarkistaa milloin tahansa.",
+            "- **Säännölliset julkaisut**: Automaattiset säännölliset laukaisut julkaisuille ilman tarvetta manuaaliselle toiminnalle.",
+            "- **Ilmoitusmekanismi**: Automaattiset ilmoitukset lähetetään vastaanottajille jokaisen vapautuksen jälkeen.",
+            "",
+            "**Esimerkki**:",
+            "- Sijoittaja A vastaanottaa 1 000 000 $moonini",
+            "- Ensimmäiset 3 kuukautta: Lukituskausi, kotiutuksia ei sallita",
+            "- Alkaen 4. kuukaudesta: Tokenit kertyvät lineaarisesti ajan myötä, säännöllisillä nostoilla kertyneestä osasta",
+            "- 33 kuukauden jälkeen: Kaikki julkaisut saatu päätökseen."
+          ]
+        },
+        "kyc": {
+          "title": "4.3 Sijoittajan KYC ja Hallinta",
+          "methods": [
+            "**KYC-menetelmä** (rajalliselle määrälle alkuperäisiä sijoittajia):",
+            "",
+            "1. **Perustajajoukkueen oikean nimen KYC** (Suositeltava, sopii pienille skaaloille)",
+            "- Sopii pienemmälle alkuperäiselle sijoittajamäärälle (< 10 henkilöä)",
+            "- Perustajajäsenet (Toiminta + Tekniikka) toteuttavat videokeskusteluja sijoittajien kanssa",
+            "- Vahvista henkilöllisyysasiakirjat, osoitetehosteet ja muut materiaalit",
+            "- Vahvista PDF-sähkösignatuurilla (DocuSign/SignNow)",
+            "- **Edut**: Alhaiset kustannukset, joustava prosessi, luo luottamusta",
+            "",
+            "2. **Shufti Pro** (Sopii keskikokoisille yrityksille)",
+            "- Sopii kohtuulliselle määrälle sijoittajia (10-50 henkilöä)",
+            "- 10 ilmaista varmennuspaikkaa kuukaudessa (sopii ensikäyttöön)",
+            "- Automaattinen prosessi, tukee monimaalaista asiakirjatarkistusta.",
+            "- **Edut**: Automaatio, korkea vaatimustenmukaisuus, tukee monimaan asiakirjoja.",
+            "",
+            "3. **Muut kolmannet osapuolet KYC** (Tuleva laajennus)",
+            "- Persona / Sumsub / Onfido vaihtoehtoina",
+            "- Sopii suuremmalle joukolle sijoittajia (> 50 henkilöä)"
+          ],
+          "flexibility": [
+            "**Sijoittajan joustava muotoilu**:",
+            "",
+            "**Tuki useille lompakoille ja eri suhdeluvuille**:",
+            "- Sijoittajalla voi olla useita lompakoita, joihin vastaanottaa tokeneita.",
+            "- Jokainen lompakko voi asettaa erilaisia jakosuhteita (esim. 60 % / 40 %).",
+            "- Eri sijoittajilla voi olla eri sisäänkäynnit.",
+            "",
+            "**Lompakon Vaihtomekanismi (Peruutus- ja Uudelleenmyöntöstrategia)**:",
+            "- Sijoittajat voivat vaihtaa vastaanottolompakkonsa (vaatii uusintakäynnistettävän KYC-tarkistuksen).",
+            "- **Ydinsisältö**: Sen sijaan, että vanhaa lompakkoa muokattaisiin suoraan, peruuta vanha julkaisuohjelma ja luo uusi julkaisuohjelma uudelle lompakolle.",
+            "- **Prosessi**:",
+            "1. Sijoittajat ilmoittavat vanhojen lompakoidensa menetyksestä/varastamisesta ja suorittavat off-chain KYC -tunnistamisen.",
+            "2. Moniulotteisen lompakon ehdotuksen kautta, peruuta vanha julkaisusuunnitelma ja palauta jakamattomat tokenit.",
+            "3. Luo uusi julkaisusuunnitelma uudelle lompakolle, jossa määrä on jäljellä oleva osa ja aika on jäljellä oleva kesto.",
+            "4. Kaikilla operaatioilla on 48 tunnin vahvistusviivästys läpinäkyvyyden ja turvallisuuden varmistamiseksi.",
+            "- **Edut**: Sopimuslogiikka on yksinkertaisempi (vain luodaan ja perutaan), mikä vähentää merkittävästi hakkeroinnin riskiä.",
+            "- Vaikuttaa vain 'julkaisemattomaan' osaan; julkaistuja tokeneita ei voida peruuttaa."
+          ]
+        }
+      },
+      "governance": {
+        "mechanism": {
+          "title": "5.1 Hallintamekanismi",
+          "core_principle": [
+            "**Keskusperiaate**: **Ei ole yksittäistä korkeinta valtaa**, kaikkien tärkeiden toimintojen on käyvä läpi viivästetty julkinen arviointi",
+            "",
+            "**Hallintoprosessi**:",
+            "1. **Ehdotus**: Hallintoehdotus, joka on laadittu usean allekirjoittajan lompakon hyväksymisen jälkeen",
+            "2. **Arviointi Aika**: Liity 48 tunnin viivästysjonoon, kaikki toiminnot näkyvät julkisesti lohkoketjussa.",
+            "3. **Suoritus**: Ehdotuksia voidaan toteuttaa, kun viive on päättynyt",
+            "4. **Peruutus**: Tarkistusjakson aikana ehdottaja voi peruuttaa ehdotuksen",
+            "",
+            "**Hallittavat kohteet**:",
+            "- Parametrin säätö (transaktiomaksut, ostopalvelurajat jne.)",
+            "- Valtiovarain allocations (seuraavan vaiheen kiintiöt, tapahtumabudjetit jne.)",
+            "- Sopimuspäivitykset (on läpäistävä tarkastus)"
+          ]
+        },
+        "security": {
+          "title": "5.2 Turvatoimenpiteet",
+          "description": [
+            "**Monikerroksinen suojaus**:",
+            "1. **Monisiohjelma**: Kaikki tärkeät toiminnot vaativat vähintään 2 allekirjoitusta vahvistusta varten",
+            "2. **Viivästetty Suoritus**: Kaikki korkean riskin toiminnot vaativat 48 tunnin viiveen",
+            "3. **Audit**: Kolmannen osapuolen turvallisuusauditoinnin kautta",
+            "4. **Avoin lähdekoodi**: Sopimuskoodi on avointa lähdekoodia ja sen voi tarkistaa julkisesti.",
+            "",
+            "**Oikeushallinta**:",
+            "- **Tokenin myöntämisvalta**: Kumottu tai siirretty hallintokassalle, ei voi myöntää tokeneita omasta tahdostaan.",
+            "- **Freezing Authority**: Suljettu, ei voi jäädyttää käyttäjätunnuksia.",
+            "- **Päivitysvaltuutus**: Vain hallintosoite voi muokata token-tietoja."
+          ]
+        },
+        "pol": {
+          "title": "5.3 Osto takaisin ja markkinoiden luominen (POL - Rajaton osto takaisin + Lattiahintapuolustus)",
+          "mechanism": [
+            "**Mekaniikka**:",
+            "- **1%** alustatransaktioista käytetään $moonini takaisinostamiseen ja likviditeettipoolin syventämiseen",
+            "- **Rajoittamaton takaisinosto**: Ei päivittäistä rajaa takaisinostoille; niin monta transaktiomaksua kuin on, takaisinostot jatkavat likviditeettituen tarjoamista tokenille",
+            "- **Automaattinen strategia**: Älykkäiden takaisinostostrategioiden käyttäminen ennakoitavuuden vähentämiseksi ja markkinoiden manipuloinnin välttämiseksi",
+            "- **Osta Suojelua**: Automaattisesti lisää takaisinosto-pyrkimyksiä, kun markkinoilla on merkittävä lasku, suojaten sijoittajien etuja"
+          ],
+          "floor_defense": [
+            "**Lattiahinnan puolustus**:",
+            "- **Psykologinen hintataso**: 0,01 USDT",
+            "- **Automaattinen puolustus**: Kun hinta laskee puolustusrajan alle, puolustusvaihe aktivoituu automaattisesti, mikä lisää ostoponnisteluja",
+            "- **Automaattinen markkinoiden tekeminen**: Automaattinen markkinoiden tekeminen älykkäiden sopimusten perusteella, joka ei vaadi manuaalista väliintuloa ja varmistaa markkinoiden vakauden",
+            "- **Säästä markkinatakausmaksuissa**: Käytä budjettia Red Packetien jakamiseen, markkinointiin tai alkuperäisen likviditeetin lisäämiseen"
+          ],
+          "philosophy": [
+            "**Suunnittelufilosofia**:",
+            "- Alhaiset sisäänpääsyesteet, korkeat peliteoreettiset tuottot",
+            "- Projektin juhla ei häiritse markkinoita (vain tarjoaa kaupankäyntimaksujen takaisinostoja)",
+            "- Puhtaasti SocialFi-malli",
+            "- Ylläpitää automaattisesti psykologista hintatasoa markkinakunnioituksen säilyttämiseksi",
+            "",
+            "*Yksityiskohtaisia teknisiä parametreja ja toteutusstrategioita varten, katso: [Tekninen erittelyasiakirja](/fi-FI/docs/technical)*"
+          ]
+        },
+        "kyc": {
+          "title": "4.3 Sijoittajan KYC ja hallinta",
+          "methods": [
+            "**KYC-menetelmät** (pienelle määrälle alkuperäisiä sijoittajia):",
+            "",
+            "1. **Perustajatiimi Oikea Henkilö KYC** (suositeltava, sopii pienimuotoiseen)",
+            "- Sopii vähemmälle määrälle ensimmäisiä sijoittajia (< 10 henkilöä)",
+            "- Videokeskustelut perustajatiimin jäsenten (toiminnot + teknologia) ja sijoittajien välillä",
+            "- Tunnistusasiakirjojen, osoitetodistuksen ja muiden asiakirjojen varmennus",
+            "- Vahvistus PDF-sähköisemalla allekirjoituksella (DocuSign/SignNow)",
+            "- **Edut**: Alhainen kustannus, joustavat prosessit, voi luoda luottamussuhteita",
+            "",
+            "2. **Shufti Pro** (sopii keskikokoisille)",
+            "- Sopii kohtuulliselle määrälle sijoittajia (10-50 henkilöä).",
+            "- 10 ilmaista vahvistusveloitusta kuukaudessa (sopii alkuvaiheen käyttöön).",
+            "- Automaattiset prosessit, jotka tukevat usean maan asiakirjavahvistusta",
+            "- **Edut**: Automaatio, korkea yhteensopivuus, tuki usean maan asiakirjoille",
+            "",
+            "3. **Muut kolmannen osapuolen KYC** (tulevaisuuden laajentaminen)",
+            "- Persona / Sumsub / Onfido vaihtoehtoina",
+            "- Sopiva suuremmalle joukolle sijoittajia (> 50 henkilöä)"
+          ],
+          "flexibility": [
+            "**Joustava Suunnittelu Sijoittajille**:",
+            "",
+            "**Tuki useille lompakoille ja erilaisille suhteille**:",
+            "- Sijoittajalla voi olla useita lompakoita tokenien vastaanottamiseksi.",
+            "- Jokaiselle lompakolle voidaan asettaa erilaiset allokaatiosuhteet (esim. 60 % / 40 %).",
+            "- Eri sijoittajilla voi olla eri sisäänpääsyajat.",
+            "",
+            "**Lompakon Vaihtomekanismi (Perumisen ja Uudelleenmyöntämisen Strategia)**:",
+            "- Sijoittajat voivat muuttaa vastaanottolompakkoa (vaatii uudelleen KYC-tarkistuksen).",
+            "- **Ydintoteutus**: Sen sijaan, että vanhaa lompakkoa muokataan suoraan, peruuta vanha julkaisusuunnitelma ja luo uusi julkaisusuunnitelma uudelle lompakolle.",
+            "- **Prosessi**:",
+            "1. Sijoittaja ilmoittaa kadonneesta/varastetusta vanhasta lompakosta ja suorittaa off-chain KYC-vahvistuksen.",
+            "2. Moninkertaisen allekirjoituksen lompakkosuunnitelman kautta, peruuta vanha julkaisusuunnitelma ja palauta julkaisemattomat tokenit.",
+            "3. Luo uusi julkaisusuunnitelma uudelle lompakolle, jossa määrä on jäljellä oleva osa ja aika on jäljellä oleva kesto.",
+            "4. Kaikki toiminnot käyvät läpi 48 tunnin viivästystarkistuksen varmistaakseen läpinäkyvyyden ja turvallisuuden.",
+            "- **Edut**: Sopimuslogiikka on yksinkertaisempi (vain luominen ja peruuttaminen), mikä vähentää merkittävästi hakkerointIRISKEJÄ.",
+            "- Vaikuttaa vain \"julkaisemattomaan\" osuuteen; jo julkaistuja tokeneita ei voi palauttaa."
+          ]
+        }
+      },
+      "incentives": {
+        "how_to_earn": {
+          "title": "6.1 Kuinka hankkia $moonini?",
+          "send_gift": [
+            "#### A. Lähettäminen Red Packet -paketteja",
+            "",
+            "- **Perus Säännöt**: Jokaisesta lähetetystä **1 USDT** punaisesta paketista (tukee useita tokeneita) järjestelmä laskee ja jakaa $moonini nykyisen vaihtoarvon mukaan.",
+            "- **Siunausten Välittäminen**: Red Packetit eivät ole pelkästään rahaa; ne ovat siunauksien välittämistä. Jokainen lahjananto tallennetaan lohkoketjuun ja siitä palkitaan."
+          ],
+          "invite": [
+            "#### B. Kutsu ystäviä (Jaa Punaisia Pusseja)",
+            "",
+            "- **Säännöt**: Kutsu uusia ystäviä ja suorita jakotehtäviä, molemmat osapuolet saavat palkintoja.",
+            "- **Roskapostin vastainen mekanismi**: Varmistaaksemme oikeudenmukaisuuden, **jokaisella tilillä on kutsupalkkioraja**, jota säädetään dynaamisesti viimeisimmän yhteisön pelisuunnitteluilmoituksen mukaan.",
+            "- **Risk Control**: Meillä on tiukat riskinhallintamekanismit; kaikki epänormaalit roskapostikäyttäytymiset katsotaan voimattomiksi."
+          ],
+          "quests": [
+            "#### C. Tehtävien täydentäminen",
+            "",
+            "**Tehtävätyypit**:",
+            "- Sisältää kertaluonteisia saavutustehtäviä (kuten ensimmäisen Red Packetin lähettäminen) ja sosiaalisia tehtäviä (kuten virallisen yhteisön seuraaminen).",
+            "- Nämä tehtävät on suunniteltu perehdyttämään uusia käyttäjiä alustan ominaisuuksiin, **jokainen tili voi suorittaa only kerran tai sillä on kokonaismääräraja**.",
+            "",
+            "**Suunnittelun tarkoitus**:",
+            "- Estääksesi skriptiautomaation roskapostittamasta kolikoita, jättämällä palkintoja aidoille aktiivisille käyttäjille."
+          ]
+        },
+        "fee_structure": {
+          "title": "6.2 Maksurakenne",
+          "description": [
+            "**Siirtojen kulut Punaisia Pussukoita lähetettäessä**:",
+            "",
+            "| Kohtalo | Kokonaiskulut | Kuvaus |",
+            "|------|---------|------|",
+            "| **Lähettäminen omassa ryhmässä** | 2% | 1% Toiminnot + 1% Ostohyvitys |",
+            "| **Ryhmärajojen ylittäminen** | 5% | 1% Toimintakulut + 1% Takaisinosto + 3% Ryhmän omistajan voitto-osuus |",
+            "",
+            "**Käyttö maksuille**:",
+            "- **1% Toiminnot**: Käytetään palvelin-, kehitys- ja markkinointikustannuksiin.",
+            "- **1% Osto takaisin**: Käytetään $moonini:n takaisinostamiseen ja LP:n syventämiseen (realisoituu tulevaisuudessa).",
+            "- **3% Ryhmän Omistajan Voitto-osuus**: Maksetaan ryhmän omistajalle (vain ylityöryhmälähetyksille veloitettu)."
+          ]
+        }
+      },
+      "developer": {
+        "contracts": {
+          "title": "7.1 Sopimusosoite (Odottaa käyttöönottoa)",
+          "description": [
+            "Kun token virallisesti lanseerataan, kaikki älykkään sopimuksen osoitteet ilmoitetaan täällä yhdessä vastaavien teknisten spesifikaatioiden linkkien kanssa.",
+            "",
+            "**Pääsopimuksen moduulit**:",
+            "- Token-sopimus",
+            "- Hallinto ja Viivekontrolli",
+            "- Julkinen tarjoaminen Treasury",
+            "- Tiimi Allocointi Valtiovarainministeriö",
+            "- Osto-ohjauksen hallinta",
+            "- Likviditeettipooli",
+            "- Monimerkkilompakko",
+            "",
+            "*Yksityiskohtaisia sopimusosoitteita ja teknisiä erittelyjä varten viittaatte seuraavaan: [Tekninen Eritysasiakirja](/fi-FI/docs/technical)*"
+          ]
+        },
+        "api": {
+          "title": "7.2 Integraatiotavat ja API (Suunnittelussa)",
+          "intro": [
+            "moonpacket aikoo tarjota täydellisen API-ekosysteemin, jonka avulla kolmannen osapuolen kehittäjät ja kumppanit voivat helposti integroida $moonini-palkitsemismekanismia tuotteisiinsa. Olipa kyseessä Telegram-botti, Web3-peli tai markkinointikampanjalava, API:mme mahdollistaa käyttäjien vastaanottaa $moonini-palkintoja, laajentaen ekologista vaikutusta."
+          ],
+          "types": [
+            "**API-tyypit**:",
+            "",
+            "Suunnittelumme on tarjota seuraavanlaisia API-tyyppejä erilaisten integraatiotarpeiden täyttämiseksi:",
+            "",
+            "- **Tietojen Lukeminen API**: Kysely Red Packet -jakelutiedoista, tehtävien suoritusstatus, käyttäjän $moonini-saldo ja paljon muuta, mikä mahdollistaa kumppaneiden ymmärtää käyttäjätoiminnan tilaa.",
+            "",
+            "- **Jakelu- ja Tehtävä-API**: Mahdollistaa kumppaneille Red Packet -jakelujen tai tehtäväpalkkioiden käynnistämisen omissa tuotteissaan, esimerkiksi automaattisesti jakamalla $moonini-palkintoja, kun käyttäjät saavuttavat tiettyjä virstanpylväitä pelissä.",
+            "",
+            "- **Webhook-tapahtumat**: Järjestelmä ilmoittaa aktiivisesti kumppaneille tärkeistä tapahtumista, kuten kun käyttäjät suorittavat tehtäviä, vaativat Red Packets tai viimeistelevät nostot, mikä mahdollistaa reaaliaikaiset vastaukset ja tietojen synkronoinnin."
+          ],
+          "security": [
+            "**Turvallisuus ja Oikeudet**:",
+            "",
+            "Varmistaaksemme API:n turvallisuuden ja vakauden, toteutamme seuraavat mekanismit:",
+            "",
+            "- **API-avainautentointi**: Jokainen kumppani saa henkilökohtaisen API-avaimen tai sovellustunnuksen tunnistusta ja valtuutusta varten.",
+            "",
+            "- **Kuormitusrajoitus**: Kaikki API-pyynnöt ovat kuormitusrajoitettuja väärinkäytösten ja ylikuormituksen estämiseksi, mikä varmistaa palvelun vakauden.",
+            "",
+            "- **Allekirjoituksen vahvistaminen**: Kriittiset toiminnot (esim. palkkioiden myöntäminen) vaativat pyyntöallekirjoituksen vahvistamista väärennösten ja valtuuttamattomien toimien estämiseksi.",
+            "",
+            "- **Käyttöoikeustasot**: Eri kumppaneilla on erilaiset API-käyttöoikeustasot heidän yhteistyösuhteensa ja tarpeidensa perusteella, mikä varmistaa vähimmän etuoikeuden periaatteen."
+          ],
+          "release": [
+            "**Julkaisurytmi**:",
+            "",
+            "API ottaa käyttöön progressiivisen avautumisstrategian varmistaakseen vakauden ja turvallisuuden:",
+            "",
+            "- **Suljettu Beta**: Aluksi tarjottu kumppaneille ja varhaisille pelinkehittäjille suljetun beta-muodon kautta palautteen keräämiseksi ja kokemusten optimoimiseksi.",
+            "",
+            "- **Vähittäinen avaus**: Beta-vaiheen vakauden vahvistamisen jälkeen sovellukset avautuvat vähitellen, jotta yhä useammat kehittäjät voivat integroida $moonini-ekosysteemin.",
+            "",
+            "- **Virallinen Julkaisu**: Kun API saavuttaa tuotantotason vakauden, se avataan virallisesti yleisölle, tarjoten täydelliset asiakirjat ja tuen."
+          ],
+          "scenarios": {
+            "title": "Tyypilliset integrointitilanteet",
+            "items": [
+              "**Telegram Bot / Mini App**: Lähetä Red Packets ryhmissäsi tai sovelluksissasi, jotta käyttäjät voivat vastaanottaa $moonini palkintoja, mikä lisää käyttäjien sitoutumista.",
+              "",
+              "**Web3-pelit**: Ilmoita tehtävän valmistumisesta moonpacketille, jolloin pelaajat voivat automaattisesti vastaanottaa lisä $moonini -palkintoja pelitehtävien suorittamisesta.",
+              "",
+              "**Markkinointikampanjat**: Lähetä automaattisesti $moonini-palkintoja käyttäjien käyttäytymisen perusteella sosiaalisessa mediassa (esim. jakaminen, uudelleen twiittaminen, seuraaminen jne.), saavuttaen tarkan markkinoinnin.",
+              "",
+              "**DeFi-protokollat**: Integroi $moonini lisäpalkkiokerrokseksi, jonka avulla käyttäjät voivat ansaita $moonini-palkintoja alkuperäisten voittojen lisäksi suorittamalla tiettyjä DeFi-toimia.",
+              "",
+              "**Sisältöluontialustat**: Anna automaattisesti $moonini palkintoja, kun luojat suorittavat tiettyjä tehtäviä tai saavuttavat virstanpylväitä, kannustaen laadukkaan sisällön luomiseen."
+            ]
+          }
+        },
+        "tools": {
+          "title": "7.3 Kehittäjätyökalut ja dokumentaatio",
+          "description": [
+            "Helpottaaksemme kehittäjiä integroimaan moonpacket API:n helpommin, suunnittelemme tarjoavamme täydelliset kehittäjät työkalut ja dokumentaation:",
+            "",
+            "- **Kehittäjäportaali**: Tarjoaa yhtenäisen pääsyn kehittäjille, mukaan lukien API-avainhallinta, käyttötilastot, virhelokit ja paljon muuta, mikä mahdollistaa kehittäjien hallita integraatioitaan helposti.",
+            "",
+            "- **API-dokumentaatio**: Tarjoaa täydelliset REST API- ja Webhook-dokumentaatiot, mukaan lukien pyyntöesimerkit, vastausmuodot, virhekoodiselitykset jne., mahdollistaen kehittäjien aloittaa nopeasti.",
+            "",
+            "- **SDK ja koodinäytteet**: Tarjoaa SDK:ita useilla kielillä (kuten JavaScript, Python) ja koodinäytteitä integrointirajojen alentamiseksi, jotta kehittäjät voivat toteuttaa nopeasti.",
+            "",
+            "Tällä hetkellä tekniset asiakirjat esitetään asiakirjakeskuksen (docs) teknisellä sivulla, mukaan lukien älysopimusten spesifikaatiot, jakomekanismit, tehtäväjärjestelmät ja muut tekniset yksityiskohdat. Täydellinen API-dokumentaatio järjestetään sivulla 《[Kehittäjä API-dokumentaatio](/fi-FI/docs/api/)》, ja virallinen API-dokumentaatio sekä kehitystyökalut julkaistaan vähitellen pääverkon lanseerauksen yhteydessä, joten pysykää kuulolla."
+          ]
+        }
+      },
+      "roadmap": {
+        "labels": {
+          "current": "Käynnissä",
+          "done": "Valmistunut"
+        },
+        "phase1": {
+          "title": "Vaihe 1: Infrastruktuuri (Valmis ✅)",
+          "items": [
+            "- [x] Token-sopimuksen suunnittelu",
+            "- [x] Tekninen spesifikaatodokumentti",
+            "- [x] Tietorakenteen suunnittelu"
+          ]
+        },
+        "phase2": {
+          "title": "Vaihe 2: Sopimuksen kehitys (Käynnissä 🚧)",
+          "items": [
+            "- [ ] Token sopimuksen käyttöönotto (Testnet)",
+            "- [ ] Vaiheiden hallintakontrahti",
+            "- [ ] Vesting-sopimus",
+            "- [ ] Ajastetun integrointi",
+            "- [ ] Kolmannen osapuolen tarkastus"
+          ]
+        },
+        "phase3": {
+          "title": "Vaihe 3: Käynnistämisvalmistelut (Suunniteltu 📅)",
+          "items": [
+            "- [ ] Pääverkon käyttöönotto",
+            "- [ ] Alkuperäisen likviditeettipoolin luominen",
+            "- [ ] Käyttäjäkannustinjärjestelmän käyttöönotto",
+            "- [ ] Hallintapaneelin käyttöönotto"
+          ]
+        },
+        "phase4": {
+          "title": "Vaihe 4: Ekosysteemin laajentaminen (Tulevaisuus 🔮)",
+          "items": [
+            "- [ ] POL takaisinosto mekanismin aktivointi",
+            "- [ ] Ketjujen välinen tuki (Polygon / Arbitrum)",
+            "- [ ] Lisää DeFi integraatioita"
+          ]
+        }
+      },
+      "risks": {
+        "technical": {
+          "title": "9.1 Tekninen Riski",
+          "description": [
+            "| Risk | Kuvaus | Lieventämistoimenpiteet |",
+            "|------|------|---------|",
+            "| Älykkään sopimuksen haavoittuvuudet | Sopimuksessa saattaa olla tuntemattomia haavoittuvuuksia | Kolmannen osapuolen auditoinnin, Bug Bounty kautta |",
+            "| Yksityisen avaimen vuotaminen | Järjestelmänvalvojan yksityisiä avaimia voidaan varastaa | Käytä laitteistolompakoita, MPC:tä, monisignatuureja |",
+            "| Verkkokongestiot | BSC:n huipputunnit voivat aiheuttaa viivästyksiä | Monisolmuinen redundanssi, kaasun optimointi |"
+          ]
+        },
+        "market": {
+          "title": "9.2 Markkinariski",
+          "description": [
+            "- **Hintaheilahtelu**: Token-hinnat saattavat vaihdella merkittävästi.",
+            "- **Likviditeettiriski**: Alkuperäinen likviditeetti voi olla riittämätöntä",
+            "- **Sääntelyriski**: Sääntelypolitiikka eri maissa saattaa muuttua"
+          ]
+        },
+        "notice": {
+          "title": "9.3 Käyttäjätieto",
+          "description": [
+            "- ⚠️ **Sijoitusriskit**: Tokenien hinnat voivat laskea nollaan, sijoita varovaisesti",
+            "- ⚠️ **Ei sijoitusneuvona**: Tämä valkoinen asiakirja ei muodosta sijoitusneuvontaa",
+            "- ⚠️ **Tee Omat Tutkimukset**: Ole hyvä ja tutki ja arvioi riskit itse"
+          ]
+        }
+      },
+      "faq": {
+        "title": "Kymmenen, vahvistettavaa asiaa",
+        "description": [
+          "Tässä asiakirjassa kuvataan $moonini:n ydinsuunnitteluperiaatteet ja talousmalli. Seuraavat asiat ovat edelleen neuvotteluvaiheessa neuvonantajien ja kumppaneiden kanssa ja ne tullaan viimeistelemään ennen pääverkon lanseerausta:",
+          "",
+          "- **Tokenin julkaisuajankohta ja listauspörssit**: Tarkka julkaisuajankohta ja se, listataanko se keskitettyihin pörsseihin (CEX), ovat edelleen koordinaatiossa neuvonantajien ja kumppaneiden kanssa.",
+          "",
+          "- **Tekniset tiedot**: Joitakin teknisiä toteutustietoja (kuten ristiin ketjun tuki ja osto-ohjelman strategian parametreihin tehtävät säädöt) viimeistellään ennen pääverkon lanseerausta ja päivitetään tekniseen asiakirjaan.",
+          "",
+          "- **Vaatimukset ja verotus**: Vaatimusten noudattamista ja verotusta päivitetään jatkuvasti asiantuntija-arvioiden perusteella Taiwanista ja paikalliselta alueelta varmistaaksemme, että noudatamme paikallisia sääntöjä.",
+          "",
+          "- **Valkoisen paperin päivitykset**: Tässä valkoisessa paperissa saattaa olla pieniä muutoksia, mutta keskeiset periaatteet (90/10-allokaatio, 6-vaiheinen puolitusmekanismi, lukitus ja lineaarinen vapautus) pysyvät ennallaan.",
+          "",
+          "Kaikki tekniset tiedot, käyttöönottoaskeleet ja toiminto-rajapinnat löytyvät [Teknisestä Erityisasiakirjasta](/fi-FI/docs/technical)."
+        ]
+      }
+    },
+    "charts": {
+      "phase": {
+        "title": "6 vaiheen puolittamisjärjestelmä",
+        "description": "Mitä aikaisemmin osallistut, sitä enemmän tokeneita saat.",
+        "xAxis": "Liikenne",
+        "yAxis": "Käyttöoikeus (per 1 USDT)",
+        "phase": "Vaihe",
+        "ratio": "Suhde",
+        "range": "Väli",
+        "units": {
+          "ratio": "Palat",
+          "usdt": "USDT"
+        }
+      },
+      "vesting": {
+        "title": "Julkaisuaikataulu",
+        "description": "Tiimijakauma lukitaan 3 kuukaudeksi, jonka jälkeen se vapautetaan lineaarisesti kategorian mukaan",
+        "cliff": "Lukitusjakso",
+        "linear": "Lineaarinen Julkaisuaika",
+        "total": "Kokonaiskesto",
+        "months": "Kuukaudet",
+        "operations": "Toiminnot",
+        "tech": "Tekninen tiimi",
+        "marketing": "Julkiset suhteet/Mainonta",
+        "investors": "Aikaiset sijoittajat"
+      },
+      "flow": {
+        "title": "Tokenin Kierron Virta",
+        "userSend": "Käyttäjä lähettää Red Packetin",
+        "fee": "Transaktionsmaksut",
+        "operations": "Toimintakulut",
+        "pol": "Ostotarrahasto",
+        "accumulate": "Kerrytys",
+        "trigger": "Ostoaktivointi",
+        "swap": "Token Swap",
+        "addLiquidity": "Lisää likviditeettiä",
+        "pool": "Likviditeettiallas"
+      },
+      "governance": {
+        "title": "Hallintoprosessi",
+        "multisig": "Monetallainas",
+        "proposal": "Ehdotus",
+        "timelock": "Viivästynyt toteutus",
+        "execute": "Suorita",
+        "update": "Päivitä"
+      },
+      "architecture": {
+        "title": "Älykäs sopimusrakenne",
+        "token": "Token-otsikko",
+        "vault": "Holvi",
+        "manager": "Johtaja",
+        "protection": "Suojausmekanismi"
+      },
+      "progress": {
+        "title": "Vaiheen edistyminen",
+        "current": "Nykyinen vaihe",
+        "issued": "Myönnetty",
+        "remaining": "Jäljellä"
+      }
+    }
+  },
+  "api": {
+    "actions": {
+      "items": {
+        "0": "Lue [whitepaper](/fi-FI/docs/whitepaper/) saadaksesi tietoa $moonini tokenista ja sen talousmallista.",
+        "1": "Lue [Teknisten Erityisasiakirjojen](/fi-FI/docs/technical/) dokumentti ymmärtääksesi älysopimukset ja julkaisumekanismin.",
+        "2": "Lähetä API-yhteistyöpyyntösi virallisten kanavien (Telegram, sähköposti) kautta, ja priorisoimme ilmoittamisen sinulle, kun API on valmis."
+      },
+      "title": "Mitä voit tehdä nyt?"
+    },
+    "content": {
+      "0": "Tämä sivu tarjoaa pian täydelliset asiakirjat moonpacket / $moonini API:lle, mukaan lukien tekniset tiedot REST API:sta, Webhook-tapahtumista, OAuth-todennuksesta, API-avainten hallinnasta ja muusta.",
+      "2": "API on tällä hetkellä suunnittelu- ja sisäisessä validointivaiheessa, ja se tulee aluksi saataville suljetussa beetaversiossa valituille kumppaneille testattavaksi, palautteen keräämiseksi ja kokemuksen optimoinniksi.",
+      "4": "Kaikkien teknisten yksityiskohtien tulisi viitata 'Teknisten erittelyjen asiakirjaan' ja valkoiseen kirjaan ennen virallisen API-dokumentaation julkaisua."
+    },
+    "description": "Opettele integroidaksesi moonpacket ja $moonini tuotteisiisi API:n kautta.",
+    "seo": {
+      "description": "Täydellinen API-dokumentaatio, REST API, Webhook ja integrointiohje",
+      "title": "Moonpacket / $moonini API-dokumentaatio — moonpacket"
+    },
+    "status": {
+      "planned": "(Suunnitteilla)"
+    },
+    "subtitle": "Täydellinen API-dokumentaatio ja integrointiopas (suunnitteilla)",
+    "title": "Moonpacket / $moonini API Dokumentaatio"
+  },
+  "countdown": {
+    "days": "Taivas",
+    "hours": "Tunti",
+    "minutes": "minuuttia",
+    "seconds": "toinen",
+    "title": "Etäisyys $moonini virallisesta julkaisusta"
+  },
+  "disclaimer": {
+    "badge": "Tärkeä ilmoitus",
+    "text": "Tämä tuote on edelleen kehitysvaiheessa ja seuraa etusivun tiekartalla esitettyä aikarajaa. Valkoinen kirja saattaa edelleen olla muutosten kohteena ennen virallista token-jakelua, ja pyydämme käyttäjien ymmärrystä. Token-jakelun jälkeen muutoksia ei yleisesti ottaen tehdä."
+  },
+  "distribution": {
+    "back_to_whitepaper": "Palaa valkoiseen kirjaan",
+    "description": "Ymmärrä $moonini:n sisäiset jakosäännöt ja kirjanpitomenetelmät",
+    "intro": {
+      "0": "**Tämä asiakirja on tarkoitettu insinööreille ja taustakehittäjille**, ja se määrittelee erityiset säännöt siitä, 'kuinka myöntää, kuinka käyttäjät voivat lunastaa ja nähdä' moonpacket-tuotteessa.",
+      "2": "**Suunnitteluperiaatteet**:",
+      "3": "- **Vähäiset muutokset**: Aseta etusijalle olemassa olevan tietorakenteen käyttäminen, ilman että lisätään monimutkaisia tietokantatauluja heti.",
+      "4": "- **Laajennettavissa**: Tulevaisuudessa, jos $moonini haluaa olla täysin on-chain, meidän täytyy vain lisätä nostamisen/kartoituksen logiikka.",
+      "5": "- **Läpinäkyvä ja jäljitettävä**: Kaikki $moonini-jakelut ja kulutus tallennetaan `user_activity_logs`-tiedostoon",
+      "7": "**Pääsisältö**:",
+      "8": "- Datan malli ja kirjanpitomenetelmä (sisäinen kirjanpito)",
+      "9": "- $moonini jakelulähde ja säännöt",
+      "10": "- Kirjanpidon toteutuksen yksityiskohdat",
+      "12": "*Tämä asiakirja sisältää teknisiä tietoja, tavalliset käyttäjät voivat tutustua [whitepaperiin](/fi-FI/docs/whitepaper/) saadakseen yleiskatsauksen hankkeesta.*",
+      "14": "Yksityiskohtaisen asiakirjoituksen osalta viittaatte: `docs/technical/moonini-distribution.md`"
+    },
+    "seo": {
+      "description": "Täytä $moonini jakosäännöt ja kirjanpitojärjestelmän ohjeet",
+      "title": "$moonini jakelumekanismi — moonpacket"
+    },
+    "title": "$moonini jakelu- ja keräysasu"
+  },
+  "index": {
+    "description": "Valmiit projektin asiakirjat, valkoinen kirja ja tekniset vaatimukset",
+    "sections": {
+      "general": "Yleiset asiakirjat",
+      "technical": "Tekninen dokumentaatio"
+    },
+    "title": "moonpacket-dokumenttikeskus"
+  },
+  "missions": {
+    "back_to_whitepaper": "Palaa valkoiseen kirjaan",
+    "description": "Opettele, miten ansaita $moonini tehtävien ja saavutusten kautta.",
+    "intro": {
+      "0": "**Tämä asiakirja on suunnattu insinööreille ja tuotekehittäjille**, ja siinä määritellään $mooninin tehtäväjärjestelmä ja saavutuskäytännöt, jotka sisältävät saavutuksen tunnetta ja sosiaalisia tehtäviä kahden ydintoiminnan, \"Red Packet + Kutsu ystäviä\", lisäksi.",
+      "2": "**Suunnitteluperiaatteet**:",
+      "3": "- Kaikki tehtävät \"lisä $moonini\" liittyvät olennaisesti: **punaisia paketteja lähettämiseen, ystävien kutsumiseen, virallisten yhteisöjen seuraamiseen**",
+      "4": "- 'One-time Task' häviää pysyvästi suorittamisen jälkeen.",
+      "5": "- Tehtäväjärjestelmä tarjoaa vain \"bonuspisteitä\" eikä muuta perusjakosääntöjä.",
+      "7": "**Tehtäväkategoria**:",
+      "8": "- **Saavutus Tehtävät** (kertakäyttöiset): Virstanpylväät Punaisen Paketin lähettämiseen, ystävien kutsumiseen jne.",
+      "9": "- **Sosiaalitehtävät** (kerta): Seuraa virallisia sosiaalisen median tilejä, liity virallisiin yhteisöihin jne.",
+      "10": "- **Päivittäiset/Viikoittaiset Tehtävät** (Varattu): Tulevaisuuden skaalautuvat jaksottaiset tehtävät",
+      "12": "*Tämä asiakirja sisältää teknisiä tietoja; yleiset käyttäjät voivat viitata [valkoiseen kirjaan](/fi-FI/docs/whitepaper/) projektin yleiskatsaukselle.*",
+      "14": "Yksityiskohtaisen dokumentaation osalta, katso: `docs/technical/moonini-missions.md`"
+    },
+    "seo": {
+      "description": "Valmistele tehtäväjärjestelmän ja saavutusten mekanismin kuvaus",
+      "title": "$moonini Tehtäväsysteemi — moonpacket"
+    },
+    "title": "$moonini tehtävät ja saavutusten suunnittelu"
+  },
+  "nav": {
+    "api": "API-dokumentaatio",
+    "distribution": "Jakelumekanismi",
+    "docs": "Dokumentti",
+    "missions": "Tehtäväjärjestelmä",
+    "technical": "Teknisiä tietoja",
+    "whitepaper": "Valkoinen kirja"
+  },
+  "technical": {
+    "back_to_whitepaper": "Palaa White Paperiin",
+    "description": "Insinöörit kehittävät eritelmiä, mukaan lukien älysopimusrajapinnat, vaiheen logiikka ja POL-mekanismit.",
+    "intro": {
+      "0": "**Tämä asiakirja on tarkoitettu insinööreille, älysopimuskehittäjille ja tarkastajille**, ja se sisältää täydelliset tekniset toteutustiedot.",
+      "2": "**Kohdeketju**: Binance Smart Chain (BSC)",
+      "3": "**Versio**: v1.0 (2024-11)",
+      "5": "**Pääsisältö**：",
+      "6": "- Älykäs sopimusarkkitehtuuri ja käyttöliittymän määrittely",
+      "7": "- Vaiheiden hallintalogia (6-vaiheinen puolitusmekanismi)",
+      "8": "- POL (Uudelleenosto- ja markkinatoteutus) mekanismin toteutus",
+      "9": "- Vapautusmekanismi",
+      "10": "- Hallinto- ja turvallisuussuunnittelu",
+      "11": "- Koodiesimerkit ja tekniset kaaviot",
+      "13": "*Tämä asiakirja sisältää teknisiä tietoja. Yleiskäyttäjät voivat tutustua [valkoiseen kirjaan](/fi-FI/docs/whitepaper/) saadakseen yleiskatsauksen hankkeesta.*",
+      "15": "Tarkempia teknisiä asiakirjoja varten, viittaatte: `docs/technical/moonini-bsc-technical-spec.md`"
+    },
+    "seo": {
+      "description": "Viimeistele BSC älysopimuksen tekniset eritelmät ja kehitysopas",
+      "title": "$moonini tekniset tiedot — moonpacket"
+    },
+    "title": "$moonini BSC Teknisiä Erityisvaatimuksia"
+  },
+  "title": "Asiakirja",
+  "toc": {
+    "back_to_index": "Paluu asiakirjakeskukseen",
+    "title": "Katalogi"
+  }
+}

@@ -1,0 +1,1514 @@
+{
+  "litepaper": {
+    "title": "$moonini Litepaper",
+    "description": "Understand the design philosophy, economic model, and core values of the $moonini token.",
+    "seo": {
+      "title": "$moonini Litepaper — moonpacket",
+      "description": "$moonini is a community incentive token based on the moonpacket platform. Learn how to obtain, use, and invest in its value."
+    },
+    "hero": {
+      "subtitle": "$moonini is a community incentive token based on the moonpacket platform. The more users engage with moonpacket, participate in tasks, and interact, the more $moonini they can earn. For investors, 90% is distributed to users, and 10% goes to the team, with a halving mechanism and linear release that effectively reduce dump risks, designed for long-term stability.",
+      "cards": {
+        "user": {
+          "title": "For General Users",
+          "description": "Earn $moonini easily through sending Red Packets, completing tasks, inviting friends, etc. The more you use it, the more you earn, completely free."
+        },
+        "investor": {
+          "title": "For Investors",
+          "description": "Total supply of 10B, 90/10 allocation, 6 phases of halving, and team allocation with linear release, designed to be beneficial for long-term stability and reduce dumping risk."
+        },
+        "developer": {
+          "title": "For Developers/Partners",
+          "description": "Standardized contracts, open APIs, can be integrated into other applications or games. Through API integration, connect your products to the Moonpacket ecosystem."
+        }
+      },
+      "live_status": "Protocol V1 is now live",
+      "cta_start": "Start Reading",
+      "cta_hub": "Developer Center"
+    },
+    "sections": {
+      "overview": "Overview",
+      "problem": "Problems and Solutions",
+      "concept": "Core concepts of moonpacket & $moonini",
+      "tokenomics": "Tokenomics Overview",
+      "emission": "Halving and Release",
+      "utility": {
+        "subtitle": "How to Earn and Use"
+      },
+      "developer": "Developers & API Integration",
+      "governance": "Governance and Security",
+      "roadmap": "Roadmap",
+      "risks": "Risks and Disclaimers",
+      "faq": "FAQ",
+      "cta": {
+        "title": "Are you ready to join this Red Packet social experience?",
+        "earning": "Start Earning Red Packets Now",
+        "devs": "Read Developer Documentation"
+      },
+      "registry": {
+        "title": "On-chain Contract Registry",
+        "network": "Mainnet: BSC (BNB Chain)",
+        "audit": "Audit Status: **Scheduled**"
+      },
+      "defense": {
+        "floor": {
+          "title": "🛡️ Intelligent floor price defense",
+          "mechanism": "When the market price approaches the floor price, the protocol will automatically activate defense mechanisms, using accumulated POL (Protocol Owned Liquidity) for support. This is not a rigid payout; it uses game theory to make shorting costs infinitely high.",
+          "anti_gaming": "Note: To prevent arbitrage attacks, specific trigger thresholds and defense strengths are dynamically adjusted and the exact values will not be disclosed."
+        },
+        "anti_bot": {
+          "title": "🚫 Reject Market Making Management",
+          "items": [
+            "All transactions are real user behaviors",
+            "No Market Maker Bots",
+            "Reject false volume manipulation and pump and dump"
+          ]
+        }
+      },
+      "lockup": {
+        "title": "Strategic Lock-up",
+        "desc": "In a market rife with 'mouse warehouses' and 'hidden chips', we have chosen the hardest but most honest path. We deeply understand that only by completely eliminating user fears of 'team dumps' can we build true trust.",
+        "benefit": "This is not just about lock-up rules; it’s our 'anti-harvest declaration'. Through this somewhat stringent self-restraint, we ensure that no one—whether founders or large holders—can betray the community in the early stages.",
+        "items": [
+          "Completely transparent, no hiding: We have no hidden wallets or undisclosed early circulating supply. All chip distributions are publicly available on-chain, subject to community oversight.",
+          "Team commitment, long-term support: The core team's release period lasts up to 48 months (4 years). In the crypto world, 4 years is a long cycle. This proves that we are not here to make quick money, but are determined to experience the bull and bear markets together with the community and build long-term value.",
+          "Investor Consensus: Our early investors deeply identify with the 'sharing and gifting' culture of Red Packets and voluntarily sign a 36-month linear release agreement. This means that in the early stages of the project, no party (including investors) has enough chips to impact the market."
+        ]
+      }
+    },
+    "back_to_top": "↥ Back to Top",
+    "content": {
+      "overview": {
+        "paragraphs": [
+          "Moonpacket is a crypto Red Packet and marketing tool designed specifically for Telegram communities. Whether for community operations, event promotions, or inviting new users, Moonpacket can help you accomplish it easily.",
+          "To encourage users to continue using the platform and establish long-term relationships, we launched the $moonini community incentive token. Every active behavior on the platform, including sending red packets, completing tasks, and inviting friends, can earn corresponding $moonini rewards.",
+          "For general users, $moonini is an additional reward for using Moonpacket; the more you use, the more you earn. For investors, the token economics design of $moonini (90% for users, 10% for the team, 6-stage halving, lockup releases) effectively reduces short-term dump risks and is conducive to long-term value stability."
+        ],
+        "highlights": {
+          "title": "Core highlights",
+          "items": [
+            "✅ **Fair distribution**: 90% of tokens are distributed through user activities, with 10% going to the team and early investors.",
+            "✅ **Early advantage**: 6-stage halving mechanism, the earlier you participate, the more you receive.",
+            "✅ **Reduce risk**: Team allocation is locked for 3 months, then linearly released over 33-45 months.",
+            "✅ **Transparent and verifiable**: All token distribution and release rules are publicly transparent and on-chain verifiable."
+          ]
+        }
+      },
+      "problem": {
+        "title": "Issues and Solutions",
+        "problems": {
+          "title": "Pain points in existing Web3 / Telegram marketing",
+          "items": [
+            "**Difficult to track effectiveness**: Traditional red packet mechanisms are hard to trace for actual effects; it is unclear who claimed, who shared, or whether it brought in new users.",
+            "**Short-term profit-taking**: Many projects focus only on short-term traffic, handing out red packets and leaving without long-term incentive mechanisms.",
+            "**Lack of long-term incentives**: Users leave after claiming red packets, unable to establish long-term relationships and continuous participation."
+          ]
+        },
+        "solutions": {
+          "title": "The solution of Moonpacket + $moonini",
+          "items": [
+            "**Complete behavior tracking**: Moonpacket records the reception of each red packet, sharing behavior, and new user introductions, allowing you to clearly understand marketing effectiveness.",
+            "**Long-term incentive mechanisms**: Through the $moonini token, the more users participate, the more they earn, establishing long-term participation motivation.",
+            "**Fair value distribution**: 90% of tokens go to users, ensuring community priority, while mechanisms like halving and lockup reduce dump risks."
+          ]
+        }
+      },
+      "concept": {
+        "title": "Core Concepts of moonpacket & $moonini",
+        "moonpacket": {
+          "title": "The Role of moonpacket",
+          "description": "moonpacket is a Telegram Red Packet, task, and marketing tool. Whether you are a community operator, event organizer, or a project looking to attract new users, you can use moonpacket to:",
+          "features": [
+            "Send crypto Red Packets (supporting multiple tokens such as USDT, TON, SOL, ETH, etc.)",
+            "Create task events (invite friends, follow communities, share content, etc.)",
+            "Track effect data (redemption rates, sharing rates, new user conversions, etc.)",
+            "Send Red Packets cross-group, expanding the reach"
+          ]
+        },
+        "moonini": {
+          "title": "The Role of $moonini",
+          "description": "$moonini is a reward points token that recognizes user and community behavior. Every active action you take on moonpacket earns you corresponding $moonini:",
+          "rewards": [
+            "Send Red Packet: Earn corresponding $moonini based on the amount of the Red Packet and the current phase",
+            "Complete Tasks: Accomplishing achievements, social tasks, etc., earns extra $moonini",
+            "Invite Friends: Successfully invite new users and complete sharing tasks, both parties can earn $moonini",
+            "Active Participation: Completing specific actions in collaborative games or applications can also earn $moonini"
+          ]
+        },
+        "logic": {
+          "title": "The more you use it, the more you earn",
+          "description": "The logic is simple: the more active you are on moonpacket, the more $moonini you earn. Early participants can enjoy a higher reward ratio (Phase 1, earn 1 $moonini for every 1 USDT Red Packet sent). The earlier you participate, the greater your advantage."
+        }
+      },
+      "tokenomics": {
+        "title": "Overview of Tokenomics",
+        "total": {
+          "title": "Total Token Supply",
+          "description": "The total issuance of $moonini is **10,000,000,000 tokens (10B)**, with a fixed total supply and no additional issuance."
+        },
+        "allocation": {
+          "title": "Allocation Plan",
+          "table": {
+            "headers": [
+              "Category",
+              "Quantity",
+              "Proportion",
+              "Description"
+            ],
+            "rows": [
+              [
+                "Public Release",
+                "9,000,000,000 pieces",
+                "0.9",
+                "Gradual release through user activities (6-phase halving)"
+              ],
+              [
+                "Team allocation",
+                "1,000,000,000 pieces",
+                "0.1",
+                "Locked for 3 months, linear release over 33-45 months"
+              ],
+              [
+                "├─ Operations",
+                "200,000,000 pieces",
+                "0.02",
+                "Locked for 3 months, released over 45 months"
+              ],
+              [
+                "├─ Technical Team",
+                "200,000,000 pieces",
+                "0.02",
+                "Locked for 3 months, released over 45 months"
+              ],
+              [
+                "├─ PR/Marketing",
+                "200,000,000 pieces",
+                "0.02",
+                "Locked for 3 months, released over 45 months"
+              ],
+              [
+                "└─ Early Investors",
+                "400,000,000 pieces",
+                "0.04",
+                "Locked for 3 months, released over 33 months"
+              ]
+            ]
+          }
+        },
+        "philosophy": {
+          "title": "Why is this design?",
+          "items": [
+            "**User Prioritization**: 90% of tokens are allocated to users to ensure that the community truly benefits, instead of being monopolized by a few individuals.",
+            "**Team Incentives**: 10% for the team and early investors to ensure the project has sufficient resources for continuous development, with a moderate proportion to avoid excessive concentration.",
+            "**No Pre-Reserved Presale/VC**: We do not reserve quotas for institutional investors, and all tokens are distributed to users through a fair mechanism.",
+            "**Risk Mitigation**: Team allocation is subject to lock-up and linear release mechanisms, effectively reducing the risk of short-term dumping and protecting investor interests."
+          ]
+        }
+      },
+      "emission": {
+        "title": "Halving and Release Mechanism",
+        "halving": {
+          "title": "6 Phase Halving Mechanism",
+          "description": "To encourage early participants, token distribution employs a 'progressive halving' mechanism. The earlier you join, the more tokens you can earn:",
+          "table": {
+            "headers": [
+              "Phase",
+              "Issued Amount Range",
+              "Earn per 1 USDT",
+              "Description"
+            ],
+            "rows": [
+              [
+                "Phase 1",
+                "0 ~ 4.5B",
+                "1.0 piece",
+                "Early participants, 1:1 exchange"
+              ],
+              [
+                "Phase 2",
+                "4.5B ~ 6.75B",
+                "0.5 piece",
+                "Halving"
+              ],
+              [
+                "Phase 3",
+                "6.75B ~ 7.875B",
+                "0.25 piece",
+                "Halved again"
+              ],
+              [
+                "Phase 4",
+                "7.875B ~ 8.4375B",
+                "0.125 pieces",
+                "Continue halving"
+              ],
+              [
+                "Phase 5",
+                "8.4375B ~ 8.71875B",
+                "0.0625 pieces",
+                "Approaching the end"
+              ],
+              [
+                "Phase 6",
+                "8.71875B ~ 9B",
+                "0.03125 pieces",
+                "Final stage"
+              ]
+            ]
+          },
+          "example": "For example: In Phase 1, if you send a 100 USDT Red Packet, you can earn 100 $moonini; in Phase 2, sending the same 100 USDT Red Packet would only earn you 50 $moonini. The earlier you participate, the greater your advantage!"
+        },
+        "vesting": {
+          "title": "Team Quota Lock-up and Release",
+          "description": "In a market filled with 'mouse warehouses' and 'hidden chips,' we chose the most difficult yet honest path. We deeply understand that only by completely eliminating users' fear of 'team selling' can we establish true trust.",
+          "items": [
+            "**Total Transparency, No Hiding**: We have no hidden wallets or undisclosed early circulating supply. All token distributions are publicly available on-chain, subject to community oversight.",
+            "**Team Self-Restraint, Long-term Commitment**: The release period for the core team lasts **48 months (4 years)**. In the crypto space, four years is a long cycle. This proves we are not here to make quick money but are committed to experiencing bull and bear markets alongside the community to build long-term value.",
+            "**Investor Consensus**: Our early investors deeply resonate with the 'sharing and gifting' culture of Red Packets and voluntarily signed a **36-month** linear release agreement. This means in the early stages of the project, no party (including investors) has enough tokens to impact the market."
+          ],
+          "benefit": "This is not just a lock-in rule but our **'Anti-Harvest Declaration'**. Through this almost rigorous self-restraint, we ensure that no one—whether founders or large holders—can betray the community in the early stages. We stand with all Red Packet senders to jointly maintain the purity of this social value."
+        },
+        "why": {
+          "title": "Why do this?",
+          "items": [
+            "**Reduce short-term dumps**: Lockup and linear release mechanisms prevent the team and investors from selling off large amounts early in the project.",
+            "**Extend project lifespan**: Gradual release ensures the project has enough time to develop and establish value.",
+            "**Protect investors**: Halving mechanisms and lockup designs provide more protection for early holders."
+          ]
+        }
+      },
+      "utility": {
+        "title": "User acquisition and usage scenarios",
+        "how_to_earn": {
+          "title": "How to earn $moonini?",
+          "methods": [
+            "**Send Red Packet**: For every **equivalent of 1 USDT** sent as a Red Packet (supporting multiple currencies), participants receive corresponding $moonini based on the current stage.",
+            "**Complete Tasks**: Includes one-time achievement tasks and social tasks. To ensure fairness, each account is allowed to complete each task only once or set with a total limit to avoid malicious coin farming.",
+            "**Invite Friends**: Invite new friends and complete sharing tasks, both parties receive rewards. **Each account has a limit on invitation rewards**, and specific rules are subject to community announcements.",
+            "**Collaborating Applications**: Completing specific actions in games or applications integrated with the Moonpacket API can also earn $moonini."
+          ]
+        },
+        "how_to_use": {
+          "title": "Uses of $moonini",
+          "items": [
+            "**Fee Discounts**: In the future, $moonini can be used to offset part of the Red Packet transaction fees.",
+            "**Unlock Features**: Certain premium features may require holding a certain amount of $moonini to use.",
+            "**Governance Voting Rights**: Holding $moonini allows participation in future community governance votes, influencing the project's development direction.",
+            "**Ecosystem Redemption**: Can be redeemed for special benefits or rewards in partner applications or games."
+          ]
+        }
+      },
+      "developer": {
+        "title": "Developer Ecosystem",
+        "description": [
+          "moonpacket is more than just a Red Packet tool; it is an open **Social Liquidity Layer**.",
+          "Through standardized APIs and SDKs, any Telegram Bot, GameFi, or Web3 application can access the $moonini incentive layer. You focus on product development, and we help you with growth and retention."
+        ],
+        "architecture": {
+          "title": "Programmable Incentives",
+          "description": "An event-driven reward distribution system that supports Webhook callbacks and on-chain verification."
+        },
+        "cta": {
+          "text": "Learn more about integration solutions",
+          "link_text": "Read the Developer API Documentation"
+        }
+      },
+      "contracts": {
+        "title": "Contract Address",
+        "description": "To ensure transparency, all core smart contract addresses will be publicly disclosed and verified.",
+        "items": {
+          "token": "$moonini Token (Token Contract)",
+          "emission": "Emission Vault (90% Public Issuance Vault)",
+          "reserve": "Reserve Vault (10% Team Quota Vault)",
+          "phase": "Phase Manager (Halving Controller)",
+          "vesting": "Vesting Vault (Linear Release Controller)",
+          "pol": "POL Manager (Buyback and Price Floor Defense)",
+          "protection": "Launch Protection (Open Phase Anti-Sniping)",
+          "timelock": "Timelock Controller (48h Delay Lock)"
+        },
+        "status": "(To be updated after mainnet deployment)"
+      },
+      "governance": {
+        "title": "Governance and security",
+        "principles": {
+          "title": "Governance principles",
+          "description": "Our core principle is: **there is no single highest authority**, all important operations require multiple confirmations and delayed publication to ensure transparency and security."
+        },
+        "market_making": {
+          "title": "Real market declaration",
+          "description": [
+            "**Reject false transactions**: We commit to not using wash trading or creating fake depth. Every transaction on the K-line comes from real users.",
+            "**Decentralized market making**: Liquidity is entirely determined by market supply and demand as well as the protocol's automated repurchase mechanism, rather than human manipulation."
+          ]
+        },
+        "floor_defense": {
+          "title": "Smart floor price defense",
+          "mechanism": "**Mechanism**: When the coin price hits the floor area, the accumulated protocol fees will automatically buy back and destroy/inject liquidity.",
+          "anti_gaming": "**Anti-sniping strategy**: To avoid bots predicting arbitrage, specific 'entry timing' and 'single transaction amount' contain random variables and will not be completely public. However, the core logic remains: **transaction fees will ultimately return to the pool to support the price**.",
+          "variance": "Note: Due to market volatility, the floor price is not an absolute anchor but a dynamic support range."
+        },
+        "process": {
+          "title": "Governance process",
+          "steps": [
+            "**Proposals**: Important decisions require multi-signature confirmation.",
+            "**Delayed confirmation**: All high-risk operations must undergo a 48-hour delay confirmation period, during which they are visible on-chain.",
+            "**Execution**: After the delay period, authorized personnel will execute or it will be executed automatically.",
+            "**Cancellation**: During the delay period, the proposer can cancel the proposal."
+          ]
+        },
+        "security": {
+          "title": "Security measures",
+          "items": [
+            "**Multi-signature confirmation**: All important operations require signatures from at least 2 people to avoid single point risk.",
+            "**Delayed execution mechanism**: High-risk operations must undergo a 48-hour delay, giving the community enough time to review and respond.",
+            "**Standard contract library**: Use audited standard contract libraries to reduce vulnerability risks.",
+            "**Third-party audits**: Smart contracts will undergo third-party security audits to ensure safety.",
+            "**Open-source transparency**: Contract code is open-source, anyone can verify and audit it."
+          ]
+        },
+        "risk_mitigation": {
+          "title": "How to reduce single point risk?",
+          "description": "We ensure that no single person or organization can fully control the project through multi-signature, delayed confirmation, audits, and open-source multi-layer protection mechanisms. All important decisions go through a transparent and traceable process, providing reassurance to the community and investors."
+        }
+      },
+      "roadmap": {
+        "title": "Dual-Track Roadmap",
+        "status_notice": "⚠️ Current Status: Planning Disclosure Stage. Tokens are not yet generated (TGE Pending), and the final rules will be based on the version of the white paper released at TGE.",
+        "tracks": {
+          "product": "📱 Product Track",
+          "token": "💎 Token Track"
+        },
+        "phases": [
+          {
+            "title": "Phase 1: Genesis",
+            "product": [
+              "**Telegram Bot Launch**: A lightweight plugin to get community Red Packets started",
+              "**Basic Task System**: Invitation and check-in features",
+              "**User Accumulation**: Building an early seed user group"
+            ],
+            "token": [
+              "**Points Trial Run**: User behavior generates off-chain points",
+              "**Token Model Design**: Confirming 90/10 distribution and halving mechanism",
+              "**Litepaper Announcement**: Publicizing the economic model draft to the community"
+            ]
+          },
+          {
+            "title": "Phase 2: Ignition",
+            "product": [
+              "**Ecosystem Integration**: Connecting with partner stores and marketing scenarios",
+              "**API Open Beta**: Allowing third-party bots to integrate with the Red Packet system",
+              "**Data Dashboard**: Users can view detailed data on Red Packets and points"
+            ],
+            "token": [
+              "**Third-Party Audit**: Contract code passes security audits",
+              "**TGE (Token Generation)**: Mainnet deployment, points open for redemption/mining mechanisms",
+              "**Initial Liquidity**: Establishing a base pool to ensure foundational value"
+            ]
+          },
+          {
+            "title": "Phase 3: Expansion",
+            "product": [
+              "**Independent App**: Launching a standalone app with wallet and IM functions",
+              "**Cross-Platform Support**: Expanding to Discord or other community platforms",
+              "**DAO Governance Tool**: Community voting feature goes live"
+            ],
+            "token": [
+              "**Economic Cycle Activation**: Buyback and burn mechanisms operate automatically",
+              "**Multi-Chain Deployment**: Expanding to other high-performance public chains",
+              "**Fully Decentralized**: Management rights gradually handed over to DAO"
+            ]
+          }
+        ]
+      },
+      "risks": {
+        "title": "Risks and Disclaimers",
+        "description": [
+          "**Important statement**: This document does not constitute any form of investment advice. Cryptocurrency investment carries a high risk, including but not limited to price volatility, liquidity risk, technical risk, regulatory risk, and more.",
+          "",
+          "**Major risk warnings**:",
+          "- **Price volatility risk**: Token prices may fluctuate dramatically and even drop to zero. Please ensure you participate within your tolerable loss range.",
+          "- **Liquidity risk**: Initial liquidity may be insufficient, potentially leading to high slippage or difficulties in executing trades immediately.",
+          "- **Technical Risk**: Although smart contracts will be audited, there may still be unknown technical vulnerabilities or risks of hacker attacks.",
+          "- **Regulatory Risk**: Regulatory policies regarding cryptocurrencies in different countries may change at any time, which could affect the project's operations or the value of the tokens.",
+          "",
+          "**Do Your Own Research (DYOR)**: Investors should fully understand the relevant risks and invest cautiously based on their own financial situation and risk tolerance. The project team is not responsible for any investment losses."
+        ],
+        "disclaimer": {
+          "title": "Important Notice",
+          "text": "This document does not constitute any form of investment advice. Cryptocurrency investments carry a high level of risk, including but not limited to price volatility, liquidity risk, technical risk, regulatory risk, and more. Investors should fully understand the relevant risks and invest cautiously based on their own risk tolerance. The project team is not responsible for any investment losses."
+        },
+        "risks": {
+          "title": "Major Risks",
+          "items": [
+            "**Price Volatility Risk**: Token prices may fluctuate significantly and even go to zero.",
+            "**Liquidity Risk**: Initial liquidity may be insufficient, affecting the trading experience.",
+            "**Technical Risk**: Smart contracts may contain unknown vulnerabilities, although we will conduct audits.",
+            "**Regulatory Risk**: Regulatory policies in various countries may change, affecting project operations.",
+            "**Market Risk**: The overall volatility of the cryptocurrency market may affect token prices."
+          ]
+        }
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "items": [
+          {
+            "question": "How can I earn tokens?",
+            "answer": "You can obtain $moonini by sending Red Packets, completing tasks, inviting friends, and more. The more Red Packets you send and tasks you complete, the more tokens you will earn. Early participants will also enjoy a higher reward ratio."
+          },
+          {
+            "question": "When can I withdraw?",
+            "answer": "After the mainnet goes live, users can withdraw $moonini to their wallets. Withdrawals require a small Gas fee (BSC network fee). Please pay attention to official announcements for the specific launch time."
+          },
+          {
+            "question": "Is there a lock-up period for team allocations?",
+            "answer": "Yes. The team allocation (10%) will be locked for 3 months and then released linearly over 33-45 months. The operation, technical team, public relations/marketing allocations will have a total duration of 48 months, while the early investors' allocation will last for 36 months."
+          },
+          {
+            "question": "Why use the halving mechanism?",
+            "answer": "The halving mechanism is designed to encourage early participants while controlling the token distribution rate. The earlier you participate, the more tokens you earn, which helps attract early users and investors while avoiding excessive distribution leading to inflation later on."
+          },
+          {
+            "question": "What to do if there is a contract or system issue?",
+            "answer": "We will reduce risks through third-party security audits, multi-signature confirmations, delayed execution, and other multi-layered protective mechanisms. If a problem occurs, we will immediately initiate an emergency response, determine a handling plan through the governance mechanism, and promptly notify the community."
+          },
+          {
+            "question": "What is the total supply of $moonini? Will it increase?",
+            "answer": "The total supply of $moonini is 10,000,000,000 pieces (10B), with a fixed total that will never increase. 90% will be gradually released through user activities, and 10% will go to the team and early investors."
+          },
+          {
+            "question": "How can I participate in governance?",
+            "answer": "Holders of $moonini can participate in future community governance votes, influencing the project's development direction. Specific governance mechanisms and voting methods will be rolled out gradually after the mainnet goes live."
+          },
+          {
+            "question": "Can $moonini be traded?",
+            "answer": "After the mainnet goes live and a liquidity pool is established, $moonini can be traded on decentralized exchanges (such as PancakeSwap). Trading will be influenced by supply and demand in the market, and prices may fluctuate, so please invest cautiously."
+          }
+        ]
+      }
+    },
+    "charts": {
+      "allocation": {
+        "title": "Token Distribution",
+        "public": "Public Offering",
+        "team": "Team Quota",
+        "operations": "Operations",
+        "tech": "Technical Team",
+        "marketing": "Public Relations/Marketing",
+        "investors": "Early Investors"
+      },
+      "phase": {
+        "title": "6-phase halving mechanism",
+        "phase": "Phase",
+        "ratio": "For every 1 USDT you can receive"
+      },
+      "vesting": {
+        "title": "Team Quota Release Timeline",
+        "cliff": "Lock-up Period",
+        "release": "Release Period"
+      },
+      "governance": {
+        "title": "Governance Process",
+        "multisig": "Multisignature Wallet",
+        "proposal": "Proposal",
+        "timelock": "Delayed Confirmation",
+        "execute": "Execute",
+        "update": "Update"
+      },
+      "flow": {
+        "title": "Token Circulation Process",
+        "userSend": "User Sends Red Packet",
+        "fee": "Transaction Fees",
+        "operations": "Operating Expenses",
+        "pol": "Buyback Fund",
+        "accumulate": "Accumulation",
+        "trigger": "Buyback Trigger",
+        "swap": "Exchange",
+        "addLiquidity": "Add Liquidity",
+        "pool": "Liquidity Pool",
+        "smart_floor": "Smart Floor Price Defense"
+      }
+    }
+  },
+  "litepaper_api": {
+    "meta": {
+      "title": "Moonpacket Authentication API",
+      "subtitle": "Standard Interface for Querying Reward Rules and User Status (v2.3)",
+      "description": "Simply provide a GET Endpoint for Moonpacket to query your rules and user status, easily integrating Red Packet and task systems."
+    },
+    "sidebar": {
+      "overview": "Integration Overview",
+      "logic": "Interaction Logic",
+      "spec": "API Specification",
+      "ts_def": "TypeScript Definition",
+      "examples": "Communication Example",
+      "security": "Security Authentication"
+    },
+    "hero": {
+      "badge": "API Specification v2.3",
+      "title": "Authentication API",
+      "subtitle": "Attribute Query Interface (GET)",
+      "desc": "Through a standardized GET query interface, moonpacket actively retrieves 'reward rules' and 'user attributes' from your server. All logical judgments are handled by moonpacket.",
+      "cta_docs": "View Specification",
+      "cta_key": "Return Litepaper"
+    },
+    "content": {
+      "overview": {
+        "title": "Access Configuration",
+        "desc": [
+          "When selecting 'Custom API' in moonpacket’s 'Claim Conditions Setting', please provide your Endpoint URL.",
+          "**Method**: Please use `GET`",
+          "**Content-Type**: `application/json`",
+          "**Authentication**: Authentication information will be fully transmitted via Header (`X-API-KEY` and `Signature`), and the URL will not contain sensitive information."
+        ]
+      },
+      "logic": {
+        "title": "Interaction Logic",
+        "desc": "The entire process is divided into two phases: 'Setup Phase' and 'Runtime Phase'. moonpacket will send requests to your API using the GET method:",
+        "modes": [
+          {
+            "title": "Phase 1: Define Rules (Configuration)",
+            "trigger": "Triggering event: when the URL is filled in the 'Claim Conditions Setup' and submitted",
+            "request": "GET",
+            "response": "Returns the rule definition object with operators (gt, eq, lt...)"
+          },
+          {
+            "title": "Phase 2: Validate User (Runtime)",
+            "trigger": "Triggering event: when the user attempts to claim the Red Packet",
+            "request": "GET ?user_id=...",
+            "response": "Returns the actual attribute value of that specific user (plain value or string)"
+          }
+        ],
+        "note": "Supported Operators: `eq` (equals, supports string/numbers), `gt` (greater than), `gte` (greater than or equal to), `lt` (less than), `lte` (less than or equal to). Values for non-`eq` operators must be numbers.",
+        "steps": {
+          "step1_label": "Step One",
+          "step2_label": "Step Two"
+        }
+      },
+      "diagram": {
+        "user": "User",
+        "moonpacket": "moonpacket",
+        "dev_api": "Your API",
+        "step1": "1. During Setup: Retrieval Rules (GET)",
+        "step2": "2. During Claim: Query Status (GET)",
+        "click": "Click to Claim",
+        "check": "Logical Match (Local)",
+        "grant": "Distribute Rewards",
+        "reject": "Qualification Notice",
+        "client_app": "Client / Server",
+        "json_data": "JSON data",
+        "saved_rule": "Rules Stored:",
+        "user_state": "User Status:"
+      },
+      "spec": {
+        "title": "Interface Specification (Specification)",
+        "request": {
+          "title": "Request Parameters (Query Params)",
+          "headers": [],
+          "query": [
+            "**api_key** (required): The API Key you set up for identification",
+            "**user_id** (optional): Returns user attributes when present; returns rule definitions when absent"
+          ]
+        },
+        "ts_def": {
+          "title": "Data Structure Definition (TypeScript)",
+          "desc": "The following interface defines the JSON structure that must be returned for AI-assisted tools to read:"
+        }
+      },
+      "scenarios": {
+        "title": "Application Scenarios",
+        "items": [
+          {
+            "title": "GameFi Integration",
+            "desc": "Define the rule `level >= 10`. When the user claims, moonpacket checks the user's attributes, if `level: 12` then it is approved."
+          },
+          {
+            "title": "Identity Binding Reward",
+            "desc": "Define the rule `kyc == true`. moonpacket checks the user status, and if it returns `kyc: true`, then rewards are distributed."
+          },
+          {
+            "title": "Blacklist Filtering",
+            "desc": "Define rule `is_blacklist == false`. If the API returns `is_blacklist: true`, the claim is rejected."
+          }
+        ]
+      },
+      "examples": {
+        "title": "Communication Example (GET Request)",
+        "mode_a": {
+          "title": "1. Define Rules (Setup)",
+          "desc": "When submitting settings, return JSON containing operators."
+        },
+        "mode_b": {
+          "title": "2. Query Status (Runtime)",
+          "desc": "When the user claims, return pure values or strings."
+        }
+      },
+      "signature": {
+        "title": "Security Validation",
+        "desc": "To ensure the authenticity of requests, moonpacket will include a signature in the Header. You can refer to the code on the right for validation:",
+        "required_headers": "Necessary Headers",
+        "algo_title": "Signature Algorithm",
+        "headers": {
+          "key": "X-API-KEY",
+          "ts": "X-API-TIMESTAMP",
+          "nonce": "X-API-NONCE",
+          "sig": "X-API-SIGNATURE"
+        },
+        "algo": "HMAC-SHA256",
+        "formula": "Signature = HMAC_SHA256(secret, body + timestamp + nonce)",
+        "steps": [
+          "1. Extract Timestamp, Nonce, Signature from Headers",
+          "2. Verify if Timestamp is within a reasonable time range (e.g., ±5 minutes)",
+          "3. Concatenate string: RequestBody + Timestamp + Nonce",
+          "4. Calculate HMAC-SHA256 using your Secret",
+          "5. Compare the calculated result with the Signature in the Header"
+        ]
+      },
+      "reliability": {
+        "title": "Note",
+        "items": [
+          "**Timeout**: Ensure the API can return results within **3 seconds**.",
+          "**Format**: Please strictly adhere to JSON structure, otherwise it will lead to parsing failure."
+        ]
+      },
+      "error_codes": {
+        "title": "Status Codes",
+        "items": [
+          {
+            "code": "200",
+            "status": "OK",
+            "desc": "Request successful"
+          },
+          {
+            "code": "400",
+            "status": "Bad Request",
+            "desc": "Request parameter error (e.g. format incorrect)."
+          },
+          {
+            "code": "401",
+            "status": "Unauthorized",
+            "desc": "Authorization Header missing or key is invalid."
+          },
+          {
+            "code": "403",
+            "status": "Forbidden",
+            "desc": "IP restriction or unauthorized access to the resource."
+          },
+          {
+            "code": "404",
+            "status": "Not Found",
+            "desc": "User ID does not exist (for querying user status scenarios)."
+          },
+          {
+            "code": "500",
+            "status": "Server Error",
+            "desc": "Internal server error."
+          }
+        ]
+      },
+      "disclaimer": {
+        "title": "Third-Party API Disclaimer",
+        "text": "The integration methods for third-party platforms mentioned in this document are for reference only. Developers should consult and adhere to the latest official developer documentation of the platform."
+      }
+    },
+    "labels": {
+      "request": "Request Content",
+      "response": "Return Result",
+      "code": "Status Code",
+      "status": "Status",
+      "desc": "Description"
+    }
+  },
+  "whitepaper": {
+    "title": "$moonini Whitepaper",
+    "description": "Understanding the design philosophy, economic model, and technical architecture of the $moonini token",
+    "seo": {
+      "title": "$moonini Whitepaper — moonpacket",
+      "description": "Complete $moonini Tokenomics, Technical Architecture, and Governance Mechanism Description"
+    },
+    "hero": {
+      "subtitle": "$moonini is the community incentive token based on the moonpacket platform. The more users engage and interact on moonpacket, the more $moonini they can earn. For investors, 90% is distributed to users, and 10% to the team, effectively reducing the risk of market crashing in combination with the halving mechanism and linear release.",
+      "cards": {
+        "user": {
+          "title": "For General Users",
+          "description": "Easily earn $moonini through sending Red Packets, completing tasks, and inviting friends. The more you use, the more you earn, completely free."
+        },
+        "investor": {
+          "title": "For Investors",
+          "description": "Total amount 10B, 90/10 distribution, 6-phase halving, team allocation linear release, designed for long-term stability, reducing the risk of market crashing."
+        },
+        "developer": {
+          "title": "For Developers/Partners",
+          "description": "Standardized contracts, open API, can be integrated into other applications or games. Please refer to the technical documentation for detailed technical specifications."
+        }
+      }
+    },
+    "toc": {
+      "title": "Table of Contents"
+    },
+    "sections": {
+      "overview": "1. Project Overview",
+      "tokenomics": "2. Tokenomics",
+      "architecture": "Three, Technical Architecture",
+      "emission": "Four, Release Mechanism",
+      "governance": "Five, Governance and Security",
+      "incentives": "Six, User Incentive System",
+      "developer": "Seven, Developer Guide",
+      "roadmap": "8. Roadmap",
+      "risks": "9. Risk Warning",
+      "faq": "Ten, Issues to Confirm"
+    },
+    "content": {
+      "overview": {
+        "what_is": [
+          "**$moonini** is the ecosystem token of the moonpacket platform, used to reward users for active behaviors on the platform, including:",
+          "- Sending red packets",
+          "- Inviting friends",
+          "- Completing tasks",
+          "- Participating in community activities",
+          "",
+          "**In Simple Terms**: The more you use on moonpacket, the more $moonini you will earn."
+        ],
+        "core_values": {
+          "title": "Core Values",
+          "values": [
+            "- ✅ **Decentralization**: Based on Binance Smart Chain (BSC), all transactions are transparent and verifiable, no need to trust third parties.",
+            "- ✅ **Fair Distribution**: 90% of tokens are distributed through user activities, 10% reserved for the team and investors, ensuring community priority.",
+            "- ✅ **Gradual Release**: Adopts a 6-stage halving mechanism, encouraging early participants to earn more the earlier they join.",
+            "- ✅ **Safe and Reliable**: Uses audited standard contract libraries, all major operations require multi-signature confirmations, planning for third-party security audits."
+          ]
+        }
+      },
+      "tokenomics": {
+        "info": {
+          "title": "2.1 Token Basic Information",
+          "description": [
+            "| Item | Value | Description |",
+            "|------|------|------|",
+            "| **Token Name** | moonini | Full Name |",
+            "| **Token Symbol** | MOONINI | Trading Symbol |",
+            "| **Total Supply** | 10,000,000,000 tokens (10B) | Fixed total supply, never inflationary |",
+            "| **Decimal Places** | 18 | BSC Standard |",
+            "| **Blockchain** | Binance Smart Chain (BSC) | BEP-20 Standard |"
+          ]
+        },
+        "allocation": {
+          "title": "2.2 Allocation Plan",
+          "description": [
+            "**Total Supply: 10,000,000,000 tokens (10B)**",
+            "",
+            "**Allocation Principles**:",
+            "- **90% to Community & Liquidity**:",
+            "- Includes the \"mining portion\" generated through Red Packets and tasks, as well as the \"liquidity portion\" used to establish initial trading pairs (the project team initially inputs 10,000 USDT as the pool to ensure value at launch).",
+            "- This portion is fully returned to ecosystem participants, with no reserved for institutions or private placements.",
+            "",
+            "- **10% to Team & Early Supporters**:",
+            "- **4% Early Investors**: Rewards for early financial support.",
+            "- **2% Technical Team**: Ensures ongoing development and maintenance of the protocol.",
+            "- **2% Operation Team**: Responsible for community management and event planning.",
+            "- **2% Marketing and Ecosystem Stability**: Promote market growth and maintain ecosystem stability during extreme conditions as a reserve fund.",
+            "",
+            "**Governance Pledge**:",
+            "We implement the strictest internal fund control. All team allocations and operational expenses are subject to **Multisig** and **Timelock** restrictions. No single person can freely access funds, ensuring that every expenditure is made through collective decision-making and is publicly transparent."
+          ]
+        },
+        "phase": {
+          "title": "2.3 6-Phase Halving Mechanism",
+          "description": [
+            "To encourage early participants, the token distribution adopts a 'progressive halving' mechanism:",
+            "",
+            "| Phase | Issued Amount Range | Redemption Ratio (per 1 USDT) | Description |",
+            "|------|------------|---------------------|------|",
+            "| **Phase 1** | 0 ~ 4.5B | **1.0 token** | Early participants, 1:1 exchange |",
+            "| **Phase 2** | 4.5B ~ 6.75B | **0.5 token** | Halved |",
+            "| **Phase 3** | 6.75B ~ 7.875B | **0.25 token** | Halved again |",
+            "| **Phase 4** | 7.875B ~ 8.4375B | **0.125 token** | Continuing halving |",
+            "| **Phase 5** | 8.4375B ~ 8.71875B | **0.0625 token** | Nearing the end |",
+            "| **Phase 6** | 8.71875B ~ 9B | **0.03125 token** | Final phase |",
+            "",
+            "**Example**:",
+            "- In Phase 1, if you send a 100 USDT Red Packet, you can receive 100 $moonini",
+            "- In Phase 2, if you send a 100 USDT Red Packet, you can only receive 50 $moonini",
+            "- The earlier you participate, the more tokens you receive!"
+          ],
+          "value_logic": [
+            "💡 Red Packet Philosophy and Value Cycle",
+            "",
+            "**The spirit of the Red Packet is 'Giving' and 'Connection'**:",
+            "Originating from Eastern culture, the Red Packet represents not only the transfer of funds but also the love from elders to juniors, congratulations, and sharing among friends. At moonpacket, each time you send a Red Packet is a warm social interaction.",
+            "",
+            "**From Social Behavior to Economic Value**:",
+            "We believe that these acts of goodwill should be recorded and valued. $moonini is not just a reward token; it is the value carrier of this social network, generating long-tail economic effects from every 'giving'.",
+            "",
+            "**Real Value Support**:",
+            "To maintain the stability of this social value, the protocol specifies: **50% of transaction fee revenue will automatically be injected into the Liquidity Pool**.",
+            "",
+            "This means: the more active the community ➔ the more Red Packet interactions ➔ the more funds injected into the liquidity pool ➔ the more solid the value foundation of $moonini. This is a positive cycle based on real social needs and business revenue, rather than purely speculative gambling."
+          ]
+        }
+      },
+      "architecture": {
+        "blockchain": {
+          "title": "3.1 Blockchain Selection: Binance Smart Chain (BSC)",
+          "why": [
+            "**Why Choose BSC?**",
+            "",
+            "| Advantage | Description |",
+            "|------|------|",
+            "| ✅ **Low Fees** | Average transaction cost $0.1-$0.5, far lower than Ethereum |",
+            "| ✅ **Fast Confirmation** | Average confirmation time of 3 seconds for a smooth experience |",
+            "| ✅ **Mature Ecosystem** | Rich DeFi tools with a large user base |",
+            "| ✅ **EVM Compatible** | Can reuse Ethereum ecosystem resources |",
+            "| ✅ **Wallet Adoption** | Mainstream wallets like MetaMask, Trust Wallet support |"
+          ]
+        },
+        "contracts": {
+          "title": "3.2 Smart Contract Architecture",
+          "description": [
+            "We use industry-verified smart contract standards to ensure the security and reliability of the tokens.",
+            "",
+            "**Core Design Principles**:",
+            "- **Decentralized**: All token issuance and release mechanisms are executed automatically via smart contracts, requiring no human intervention.",
+            "- **Transparent and Traceable**: All operational records are stored on the blockchain, accessible by anyone.",
+            "- **Secure and Reliable**: Utilizing a third-party audited standard contract library to ensure code quality and security.",
+            "",
+            "**Main Functions**:",
+            "- **Token Issuance**: Token issuing and transferring in compliance with BSC standards.",
+            "- **Automatic Release**: Manage the gradual release (6 phases of halving) of 90% of publicly issued tokens.",
+            "- **Team Lock-up**: Management of 10% team allocation for lock-up and linear release",
+            "- **Governance Mechanism**: All important operations require multi-signature confirmation, with a 48-hour cooling-off period to allow the community time to review",
+            "- **Automatic Buyback**: Platform fees are automatically used to buy back tokens, enhancing liquidity",
+            "",
+            "**Security Measures**:",
+            "- Utilizes a third-party audited standard contract library to ensure code quality and security",
+            "- All important operations require multi-signature confirmation, with a 48-hour cooling-off period to allow the community time to review",
+            "- Advanced authentication technology used during user withdrawals to ensure only the user can operate",
+            "- Employs a replay attack prevention mechanism to protect user funds",
+            "- Plan to undergo third-party security audits (CertiK / PeckShield / SlowMist)",
+            "",
+            "*For detailed technical specifications, contract interfaces, and function definitions, please refer to: [Technical Specification Document](/en-US/docs/technical)*"
+          ]
+        }
+      },
+      "emission": {
+        "public": {
+          "title": "4.1 Public Offering (90%)",
+          "initial_liquidity": [
+            "**Initial Liquidity**:",
+            "- Advance part of the tokens from the 90% public offering treasury to establish the initial liquidity pool with USDT",
+            "- Ensure that tokens can be traded normally after going online, providing liquidity assurance to investors",
+            "- Specific amounts will be announced before the mainnet launch"
+          ],
+          "launch_protection": [
+            "**Opening Anti-Snipe Mechanism**:",
+            "- **Single Purchase Limit**: 30 minutes before opening, a single wallet can buy only 0.5% or 1% of the total amount",
+            "- **Protect Small Retail Investors**: Prevent large holders from taking away all liquidity when the market opens",
+            "- **Time Window**: Automatically lifted after 30 minutes, not affecting normal trading",
+            "- **Maintain Price Stability**: Avoid sharp price fluctuations at opening"
+          ],
+          "release_methods": [
+            "**Release Method**: Gradual release through user activities",
+            "",
+            "**Release Sources**:",
+            "1. **Send Red Packets**: Each time 1 USDT Red Packet is sent, receive corresponding $moonini based on the current phase",
+            "2. **Invite Friends**: Successfully invite new users and complete sharing tasks to receive $moonini",
+            "3. **Complete Tasks**: Complete achievement tasks, social tasks, etc., to earn extra $moonini",
+            "4. **Group Owner Profit Sharing**: Group owners can receive 3% profit share (USDT) for sending Red Packets across groups"
+          ],
+          "cost_vs_price": [
+            "💡 **Production Cost vs Market Price**:",
+            "",
+            "In Phase 1, the implicit cost of obtaining 1 $moonini through Red Packet mining is approximately **0.02 USDT** (based on 2% transaction fee).",
+            "",
+            "While our initial listing price is **0.01 USDT**.",
+            "",
+            "This means that **the secondary market purchase cost is 50% lower than production cost**, providing early holders with a natural safety margin."
+          ],
+          "withdraw_mechanism": [
+            "**Withdrawal Mechanism**:",
+            "- After users earn $moonini on the platform, they can withdraw it to their wallet through a secure identity verification mechanism",
+            "- The system will verify based on user activity records to ensure that only the user can operate",
+            "- Once verified, users can withdraw their tokens to their wallet",
+            "- **Minimum Withdrawal Threshold**: 10 $moonini",
+            "- **Transaction Fee**: Users only need to pay the network transaction fee (in line with blockchain practices)",
+            "",
+            "*For detailed technical implementation, please refer to: [Technical Specification Document](/en-US/docs/technical)*"
+          ],
+          "phase_switch": [
+            "**Phase Switching**:",
+            "- Automatically switch to the next phase when the issued amount reaches the phase threshold",
+            "- The switching process is transparent and traceable, recorded on-chain"
+          ]
+        },
+        "team": {
+          "title": "4.2 Team Quota (10%)",
+          "vesting_rules": [
+            "**Lockup and Release Rules**:",
+            "",
+            "| Category | Proportion | Lock-up Period (Cliff) | Linear Release Period | Total Duration |",
+            "|------|------|---------------|-----------|--------|",
+            "| **Operations** | 2% (200M) | 3 months | 45 months | 48 months |",
+            "| **Technical Team** | 2% (200M) | 3 months | 45 months | 48 months |",
+            "| **Public Relations/Marketing** | 2% (200M) | 3 months | 45 months | 48 months |",
+            "| **Early Investors** | 4% (400M) | 3 months | 33 months | 36 months |",
+            "",
+            "**Release Method**:",
+            "- **Linear Accumulation**: Tokens accumulate linearly over time, and the amount available for withdrawal can be checked at any time.",
+            "- **Regular Releases**: Automatic regular triggers for release without the need for manual operation.",
+            "- **Notification Mechanism**: Automatic notifications sent to beneficiaries after each release is completed.",
+            "",
+            "**Example**:",
+            "- Investor A receives 1,000,000 $moonini",
+            "- First 3 months: Lock-up period, no withdrawals allowed",
+            "- Starting from the 4th month: Tokens accumulate linearly over time, with regular withdrawals of the accumulated portion",
+            "- After 33 months: All releases completed."
+          ]
+        },
+        "kyc": {
+          "title": "4.3 Investor KYC and Management",
+          "methods": [
+            "**KYC Method** (for a limited number of initial investors):",
+            "",
+            "1. **Founding Team Real-Name KYC** (Recommended, suitable for small scale)",
+            "- Suitable for a smaller initial number of investors (< 10 people)",
+            "- Founding team members (Operations + Technical) conduct video interviews with investors",
+            "- Verify identity documents, address proof, and other materials",
+            "- Confirm via PDF electronic signature (DocuSign/SignNow)",
+            "- **Advantages**: Low cost, flexible process, builds trust",
+            "",
+            "2. **Shufti Pro** (Suitable for medium scale)",
+            "- Suitable for a moderate number of investors (10-50 people)",
+            "- 10 free verification slots per month (suitable for initial use)",
+            "- Automated process, supports multi-country document verification.",
+            "- **Advantages**: Automation, high compliance, supports multi-country documentation.",
+            "",
+            "3. **Other Third-Party KYC** (Future Expansion)",
+            "- Persona / Sumsub / Onfido as alternatives",
+            "- Suitable for larger number of investors (> 50 people)"
+          ],
+          "flexibility": [
+            "**Investor Flexible Design**:",
+            "",
+            "**Support for Multiple Wallets and Different Ratios**:",
+            "- An investor can have multiple wallets to receive tokens.",
+            "- Each wallet can set different allocation ratios (e.g., 60% / 40%).",
+            "- Different investors can have different entry times.",
+            "",
+            "**Wallet Replacement Mechanism (Cancellation and Reissuance Strategy)**:",
+            "- Investors can change their receiving wallet (requires re-KYC verification).",
+            "- **Core Logic**: Rather than directly modifying the old wallet, revoke the old release plan and create a new release plan for the new wallet.",
+            "- **Process**:",
+            "1. Investors report the loss/theft of their old wallets and complete off-chain KYC verification.",
+            "2. Through a multi-signature wallet proposal, revoke the old release plan and return unissued tokens.",
+            "3. Create a new release plan for the new wallet, with the amount being the remaining portion and the time being the remaining duration.",
+            "4. All operations have a 48-hour delay confirmation to ensure transparency and security.",
+            "- **Advantages**: Contract logic is simpler (only create and revoke), significantly reducing the risk of hacking.",
+            "- Only affects the 'unreleased' portion; released tokens cannot be reversed."
+          ]
+        }
+      },
+      "governance": {
+        "mechanism": {
+          "title": "5.1 Governance Mechanism",
+          "core_principle": [
+            "**Core Principle**: **No single highest authority**, all important operations must undergo delayed public review",
+            "",
+            "**Governance Process**:",
+            "1. **Proposal**: Governance proposal established after multi-signature wallet approval",
+            "2. **Review Period**: Enter 48-hour delay queue, all actions publicly visible on the blockchain",
+            "3. **Execution**: Proposals can be executed after the delay expires",
+            "4. **Cancellation**: During the review period, the proposer can cancel the proposal",
+            "",
+            "**Governable Items**:",
+            "- Parameter adjustments (transaction fees, buyback limits, etc.)",
+            "- Treasury allocations (next phase quotas, event budgets, etc.)",
+            "- Contract upgrades (must pass audit)"
+          ]
+        },
+        "security": {
+          "title": "5.2 Security Measures",
+          "description": [
+            "**Multi-layer Protection**:",
+            "1. **Multi-signature Wallet**: All important operations require at least 2 signatures for confirmation",
+            "2. **Delayed Execution**: All high-risk operations require a 48h delay",
+            "3. **Audit**: Through third-party security audits",
+            "4. **Open Source**: The contract code is open source and can be publicly verified.",
+            "",
+            "**Permission Management**:",
+            "- **Token Issuance Authority**: Revoked or transferred to the governance treasury, cannot issue tokens at will.",
+            "- **Freezing Authority**: Closed, cannot freeze user tokens.",
+            "- **Updating Authority**: Only the governance address can modify token information."
+          ]
+        },
+        "pol": {
+          "title": "5.3 Buyback and Market Making (POL - Unlimited Buyback + Floor Price Defense)",
+          "mechanism": [
+            "**Mechanism**:",
+            "- **1%** of platform transaction fees used to buy back $moonini and deepen the liquidity pool",
+            "- **Unlimited Buyback**: No daily limit on buybacks; as many transaction fees as there are, buybacks continue to provide liquidity support for the token",
+            "- **Automated Strategy**: Using smart buyback strategies to reduce predictability and avoid market manipulation",
+            "- **Buy Protection**: Automatically increases buyback efforts when there is a significant market drop, protecting investor interests"
+          ],
+          "floor_defense": [
+            "**Floor Price Defense**:",
+            "- **Psychological Price Level**: 0.01 USDT",
+            "- **Automatic Defense**: When the price drops below the defense threshold, defense mode is triggered automatically, increasing buyback efforts",
+            "- **Automated Market Making**: Automatic market making based on smart contracts, requiring no manual intervention, ensuring market stability",
+            "- **Save on Market Maker Fees**: Use the budget for issuing Red Packets, marketing, or increasing initial liquidity"
+          ],
+          "philosophy": [
+            "**Design Philosophy**:",
+            "- Low entry barriers, high game-theoretic returns",
+            "- Project party does not interfere with the market (only provides transaction fee buybacks)",
+            "- Pure SocialFi model",
+            "- Automatically maintains the psychological price level to uphold market confidence",
+            "",
+            "*For detailed technical parameters and implementation strategies, please refer to: [Technical Specification Document](/en-US/docs/technical)*"
+          ]
+        },
+        "kyc": {
+          "title": "4.3 Investor KYC and management",
+          "methods": [
+            "**KYC Methods** (for a small number of initial investors):",
+            "",
+            "1. **Founding Team Real Person KYC** (recommended, suitable for small scale)",
+            "- Suitable for fewer initial investors (< 10 people)",
+            "- Video interviews between founding team members (operations + technology) and investors",
+            "- Verification of identification documents, address proof, and other documents",
+            "- Confirmation through PDF e-signature (DocuSign/SignNow)",
+            "- **Advantages**: Low cost, flexible processes, can build trust relationships",
+            "",
+            "2. **Shufti Pro** (suitable for medium scale)",
+            "- Suitable for a moderate number of investors (10-50 people).",
+            "- 10 free verification credits per month (suitable for initial use).",
+            "- Automated processes, supporting multi-country document verification",
+            "- **Advantages**: Automation, high compliance, support for multi-country documents",
+            "",
+            "3. **Other Third-Party KYC** (future expansion)",
+            "- Persona / Sumsub / Onfido as alternatives",
+            "- Suitable for larger number of investors (> 50 people)"
+          ],
+          "flexibility": [
+            "**Flexible Design for Investors**:",
+            "",
+            "**Support for Multiple Wallets and Different Ratios**:",
+            "- An investor can have multiple wallets to receive tokens.",
+            "- Each wallet can be set to different allocation ratios (e.g., 60% / 40%).",
+            "- Different investors can have different entry times.",
+            "",
+            "**Wallet Change Mechanism (Revocation and Reissuance Strategy)**:",
+            "- Investors can change the receiving wallet (requires re-KYC verification).",
+            "- **Core Logic**: Instead of directly modifying the old wallet, revoke the old release plan and create a new release plan for the new wallet.",
+            "- **Process**:",
+            "1. Investor reports lost/stolen old wallet and completes off-chain KYC verification.",
+            "2. Through a multi-signature wallet proposal, revoke the old release plan and return the unreleased tokens.",
+            "3. Create a new release plan for the new wallet, with the amount being the remaining portion and the time being the remaining duration.",
+            "4. All operations undergo a 48-hour delay confirmation to ensure transparency and security.",
+            "- **Advantages**: Contract logic is simpler (only create and revoke), significantly reducing hacking risks.",
+            "- Only affects the \"unreleased\" portion; already released tokens are not retrievable."
+          ]
+        }
+      },
+      "incentives": {
+        "how_to_earn": {
+          "title": "6.1 How to Obtain $moonini?",
+          "send_gift": [
+            "#### A. Sending Red Packets",
+            "",
+            "- **Basic Rules**: For every sent **equivalent of 1 USDT** red packet (supports multiple tokens), the system will calculate and distribute $moonini based on the current phase exchange rate.",
+            "- **Conveying Blessings**: Red packets are not just money; they are a conveyance of blessings. Each act of gifting will be recorded on the blockchain and rewarded."
+          ],
+          "invite": [
+            "#### B. Invite Friends (Share Red Packets)",
+            "",
+            "- **Rules**: Invite new friends and complete sharing tasks, both parties receive rewards.",
+            "- **Anti-Spam Mechanism**: To ensure fairness, **each account has an invitation reward limit**, which will be dynamically adjusted according to the latest community game design announcement.",
+            "- **Risk Control**: We have strict risk control mechanisms; any abnormal spamming behavior will be deemed invalid."
+          ],
+          "quests": [
+            "#### C. Completing Tasks",
+            "",
+            "**Task Types**:",
+            "- Includes one-time achievement tasks (such as sending the first red packet) and social tasks (such as following the official community).",
+            "- These tasks are designed to familiarize newcomers with platform features, **each account can only complete once or has a total quantity limit**.",
+            "",
+            "**Design Purpose**:",
+            "- To prevent script automation from spamming coins, leaving rewards for genuine active users."
+          ]
+        },
+        "fee_structure": {
+          "title": "6.2 Fee Structure",
+          "description": [
+            "**Transaction Fees When Sending Red Packets**:",
+            "",
+            "| Scenario | Total Fees | Description |",
+            "|------|---------|------|",
+            "| **Sending in Own Group** | 2% | 1% Operations + 1% Buyback |",
+            "| **Cross-Group Sending** | 5% | 1% Operations + 1% Buyback + 3% Group Owner Profit Sharing |",
+            "",
+            "**Usage of Fees**:",
+            "- **1% Operations**: Used for server, development, and marketing costs.",
+            "- **1% Buyback**: Used to repurchase $moonini and deepen LP (to be realized in the future).",
+            "- **3% Group Owner Profit Sharing**: Paid to the group owner (only charged for cross-group sending)."
+          ]
+        }
+      },
+      "developer": {
+        "contracts": {
+          "title": "7.1 Contract Address (Pending Deployment)",
+          "description": [
+            "Once the token officially launches, all smart contract addresses will be announced here, along with corresponding technical specification links.",
+            "",
+            "**Main Contract Modules**:",
+            "- Token Contract",
+            "- Governance and Delay Control",
+            "- Public Offering Treasury",
+            "- Team Allocation Treasury",
+            "- Buyback Management",
+            "- Liquidity Pool",
+            "- Multi-Signature Wallet",
+            "",
+            "*For detailed contract addresses and technical specifications, please refer to the: [Technical Specification Document](/en-US/docs/technical)*"
+          ]
+        },
+        "api": {
+          "title": "7.2 Integration Modes and API (In Planning)",
+          "intro": [
+            "moonpacket plans to provide a complete API ecosystem, enabling third-party developers and partners to easily integrate the $moonini reward mechanism into their products. Whether it's a Telegram bot, Web3 game, or marketing campaign platform, our API allows users to receive $moonini rewards, expanding ecological influence."
+          ],
+          "types": [
+            "**API Types**:",
+            "",
+            "We plan to provide the following types of APIs to meet various integration needs:",
+            "",
+            "- **Data Reading API**: Query Red Packet distribution records, task completion status, user $moonini balance, and more, allowing partners to understand user activity status.",
+            "",
+            "- **Distribution and Task API**: Allows partners to trigger Red Packet distributions or task rewards in their own products, for example, automatically distributing $moonini rewards when users achieve specific milestones in a game.",
+            "",
+            "- **Webhook Events**: The system proactively notifies partners of important events such as when users complete tasks, claim Red Packets, or finalize withdrawals, enabling real-time responses and data synchronization."
+          ],
+          "security": [
+            "**Security and Permissions**:",
+            "",
+            "To ensure the security and stability of the API, we implement the following mechanisms:",
+            "",
+            "- **API Key Authentication**: Each partner will receive a dedicated API Key or application ID for identification and authorization.",
+            "",
+            "- **Rate Limiting**: All API requests are rate limited to prevent abuse and overloading, ensuring service stability.",
+            "",
+            "- **Signature Verification**: Critical operations (e.g., issuing rewards) require request signature verification to prevent forgery and unauthorized actions.",
+            "",
+            "- **Permission Levels**: Different partners will have different API permission levels based on their collaboration relationship and needs, ensuring the principle of least privilege."
+          ],
+          "release": [
+            "**Release Rhythm**:",
+            "",
+            "The API will adopt a progressive opening strategy to ensure stability and security:",
+            "",
+            "- **Closed Beta**: Initially provided to partners and early game developers in a closed beta format to collect feedback and optimize experiences.",
+            "",
+            "- **Gradual Opening**: After verifying stability during the Beta phase, applications will gradually open to allow more developers to integrate the $moonini ecosystem.",
+            "",
+            "- **Formal Release**: Once the API reaches production-level stability, it will be officially open to the public, providing complete documentation and support."
+          ],
+          "scenarios": {
+            "title": "Typical Integration Scenarios",
+            "items": [
+              "**Telegram Bot / Mini App**: Send Red Packets in your groups or applications to allow users to receive $moonini rewards, increasing user engagement.",
+              "",
+              "**Web3 Games**: Report task completion status in games to moonpacket, allowing players to automatically receive additional $moonini rewards upon completing game tasks.",
+              "",
+              "**Marketing Campaign Platforms**: Automatically send $moonini rewards based on user behavior on social media (e.g., sharing, retweeting, following, etc.), achieving precise marketing.",
+              "",
+              "**DeFi Protocols**: Integrate $moonini as an additional reward layer, allowing users to earn $moonini rewards on top of original profits for completing specific DeFi actions.",
+              "",
+              "**Content Creation Platforms**: Automatically issue $moonini rewards when creators complete specific tasks or reach milestones, encouraging quality content creation."
+            ]
+          }
+        },
+        "tools": {
+          "title": "7.3 Developer Tools and Documentation",
+          "description": [
+            "To help developers integrate Moonpacket API more easily, we plan to provide complete developer tools and documentation:",
+            "",
+            "- **Developer Portal**: Provides a unified entry point for developers, including API key management, usage statistics, error logs, and more, allowing developers to easily manage their integrations.",
+            "",
+            "- **API Documentation**: Provides complete REST API and Webhook documentation, including request samples, response formats, error code explanations, etc., enabling developers to quickly get started.",
+            "",
+            "- **SDK and Code Samples**: Provides SDKs in multiple languages (such as JavaScript, Python) and code samples to lower integration barriers, allowing developers to implement quickly.",
+            "",
+            "Currently, technical documents are presented from the document center (docs) technical page, including smart contract specifications, distribution mechanisms, task systems, and other technical details. Complete API documentation will be organized on the 《[Developer API Documentation](/en-US/docs/api/)》 page, and official API documentation and developer tools will be gradually released around the mainnet launch, so please stay tuned."
+          ]
+        }
+      },
+      "roadmap": {
+        "labels": {
+          "current": "In Progress",
+          "done": "Completed"
+        },
+        "phase1": {
+          "title": "Phase 1: Infrastructure (Completed ✅)",
+          "items": [
+            "- [x] Token contract design",
+            "- [x] Technical specification document",
+            "- [x] Data structure design"
+          ]
+        },
+        "phase2": {
+          "title": "Phase 2: Contract Development (In Progress 🚧)",
+          "items": [
+            "- [ ] Token contract deployment (Testnet)",
+            "- [ ] Phase management contract",
+            "- [ ] Vesting contract",
+            "- [ ] Timelock integration",
+            "- [ ] Third-party audit"
+          ]
+        },
+        "phase3": {
+          "title": "Phase 3: Launch Preparation (Planned 📅)",
+          "items": [
+            "- [ ] Mainnet deployment",
+            "- [ ] Initial liquidity pool creation",
+            "- [ ] User incentive system launch",
+            "- [ ] Dashboard launch"
+          ]
+        },
+        "phase4": {
+          "title": "Phase 4: Ecosystem Expansion (Future 🔮)",
+          "items": [
+            "- [ ] POL buyback mechanism activation",
+            "- [ ] Cross-chain support (Polygon / Arbitrum)",
+            "- [ ] More DeFi integrations"
+          ]
+        }
+      },
+      "risks": {
+        "technical": {
+          "title": "9.1 Technical Risk",
+          "description": [
+            "| Risk | Description | Mitigation Measures |",
+            "|------|------|---------|",
+            "| Smart Contract Vulnerabilities | The contract may have unknown vulnerabilities | Through third-party audits, Bug Bounty |",
+            "| Private Key Leakage | Admin private keys may be stolen | Use hardware wallets, MPC, multi-signature |",
+            "| Network Congestion | BSC peak times may cause delays | Multi-node redundancy, Gas optimization |"
+          ]
+        },
+        "market": {
+          "title": "9.2 Market Risk",
+          "description": [
+            "- **Price Volatility**: Token prices may fluctuate significantly.",
+            "- **Liquidity Risk**: Initial liquidity may be insufficient",
+            "- **Regulatory Risk**: Regulatory policies in various countries may change"
+          ]
+        },
+        "notice": {
+          "title": "9.3 User Notice",
+          "description": [
+            "- ⚠️ **Investment Risk**: Token prices may drop to zero, please invest cautiously",
+            "- ⚠️ **Not Investment Advice**: This white paper does not constitute any investment advice",
+            "- ⚠️ **Do Your Own Research**: Please research and assess risks yourself"
+          ]
+        }
+      },
+      "faq": {
+        "title": "Ten, Issues to Confirm",
+        "description": [
+          "This white paper describes the core design principles and economic model of $moonini. The following matters are still under coordination with advisors and partners and will be finalized before the mainnet launch:",
+          "",
+          "- **Token Issuance Timing and Listing Exchanges**: The specific issuance time and whether it will be listed on centralized exchanges (CEX) are still under coordination with advisors and partners.",
+          "",
+          "- **Technical Details**: Some technical implementation details (such as cross-chain support and adjustments to buyback strategy parameters) will be finalized before the mainnet launch and updated in the technical document.",
+          "",
+          "- **Compliance and Taxation**: Compliance requirements and tax treatment are updated continuously based on professional opinions from Taiwan and the local area to ensure compliance with local regulations.",
+          "",
+          "- **White Paper Updates**: This white paper may have minor adjustments, but the core principles (90/10 allocation, 6-phase halving mechanism, lock-up and linear release) remain unchanged.",
+          "",
+          "All technical details, deployment steps, and function interfaces can be found in the [Technical Specification Document](/en-US/docs/technical)."
+        ]
+      }
+    },
+    "charts": {
+      "phase": {
+        "title": "6 Phase Halving Mechanism",
+        "description": "The earlier you participate, the more tokens you will receive",
+        "xAxis": "Circulation",
+        "yAxis": "Redemption Ratio (per 1 USDT)",
+        "phase": "Phase",
+        "ratio": "Ratio",
+        "range": "Interval",
+        "units": {
+          "ratio": "Pieces",
+          "usdt": "USDT"
+        }
+      },
+      "vesting": {
+        "title": "Release Timeline",
+        "description": "Team allocation will be locked for 3 months, then released linearly by category",
+        "cliff": "Lock-up Period",
+        "linear": "Linear Release Period",
+        "total": "Total Duration",
+        "months": "Months",
+        "operations": "Operations",
+        "tech": "Technical Team",
+        "marketing": "Public Relations/Marketing",
+        "investors": "Early Investors"
+      },
+      "flow": {
+        "title": "Token Circulation Flow",
+        "userSend": "User Sends Red Packet",
+        "fee": "Transaction Fees",
+        "operations": "Operational Expenses",
+        "pol": "Buyback Fund",
+        "accumulate": "Accumulation",
+        "trigger": "Buyback Trigger",
+        "swap": "Token Swap",
+        "addLiquidity": "Add Liquidity",
+        "pool": "Liquidity Pool"
+      },
+      "governance": {
+        "title": "Governance Process",
+        "multisig": "Multi-signature Wallet",
+        "proposal": "Proposal",
+        "timelock": "Delayed Execution",
+        "execute": "Execute",
+        "update": "Update"
+      },
+      "architecture": {
+        "title": "Smart Contract Architecture",
+        "token": "Token Contract",
+        "vault": "Vault",
+        "manager": "Manager",
+        "protection": "Protection Mechanism"
+      },
+      "progress": {
+        "title": "Phase Progress",
+        "current": "Current Phase",
+        "issued": "Issued",
+        "remaining": "Remaining"
+      }
+    }
+  },
+  "api": {
+    "actions": {
+      "items": {
+        "0": "Read the [whitepaper](/en-US/docs/whitepaper/) to learn about the $moonini token and its economic model.",
+        "1": "Read the [Technical Specifications Document](/en-US/docs/technical/) to understand smart contracts and the release mechanism.",
+        "2": "Submit your API collaboration request through official channels (Telegram, Email), and we will prioritize notifying you when the API is ready."
+      },
+      "title": "What can you do now?"
+    },
+    "content": {
+      "0": "This page will soon provide a complete documentation for the Moonpacket / $moonini API, including technical details on REST API, Webhook events, OAuth authentication, API Key management, and more.",
+      "2": "The API is currently in the design and internal validation stage and will first be made available in a closed beta for a select few partners to test, collect feedback, and optimize the experience.",
+      "4": "All technical details should refer to the 'Technical Specifications Document' and the white paper before the official API documentation is published."
+    },
+    "description": "Learn how to integrate Moonpacket and $moonini into your products through the API.",
+    "seo": {
+      "description": "Complete API documentation, REST API, Webhook, and integration guide",
+      "title": "Moonpacket / $moonini API Documentation — moonpacket"
+    },
+    "status": {
+      "planned": "(In Planning)"
+    },
+    "subtitle": "Complete API documentation and integration guide (in planning)",
+    "title": "Moonpacket / $moonini API Documentation"
+  },
+  "countdown": {
+    "days": "Sky",
+    "hours": "Hour",
+    "minutes": "minutes",
+    "seconds": "second",
+    "title": "Distance to the official release of $moonini"
+  },
+  "disclaimer": {
+    "badge": "Important Notice",
+    "text": "This item is still under development and will follow the timeline outlined on the homepage roadmap. The white paper may still be subject to changes before the official token distribution, and we ask for users' understanding. After the token distribution, changes will generally not be made."
+  },
+  "distribution": {
+    "back_to_whitepaper": "Return to Whitepaper",
+    "description": "Understand the internal distribution rules and accounting methods of $moonini",
+    "intro": {
+      "0": "**This document is intended for engineers and backend developers**, defining the specific rules for 'how to issue, how users can redeem and view' within the moonpacket product.",
+      "2": "**Design Principles**:",
+      "3": "- **Minimal Changes**: Prioritize using the existing data structure, without immediately adding complex DB tables.",
+      "4": "- **Expandable**: In the future, if $moonini wants to be fully on-chain, we just need to add withdrawal/mapping logic.",
+      "5": "- **Transparent and Traceable**: All $moonini distributions and consumption are recorded in `user_activity_logs`",
+      "7": "**Main Content**:",
+      "8": "- Data model and accounting method (internal ledger)",
+      "9": "- $moonini distribution source and rules",
+      "10": "- Bookkeeping implementation details",
+      "12": "*This document contains technical details, general users can refer to the [whitepaper](/en-US/docs/whitepaper/) for an overview of the project.*",
+      "14": "For detailed documentation, please refer to: `docs/technical/moonini-distribution.md`"
+    },
+    "seo": {
+      "description": "Complete $moonini distribution rules and accounting system instructions",
+      "title": "$moonini distribution mechanism — moonpacket"
+    },
+    "title": "$moonini Distribution and Collection Design"
+  },
+  "index": {
+    "description": "Complete project documentation, whitepaper, and technical specifications",
+    "sections": {
+      "general": "General Documents",
+      "technical": "Technical Documentation"
+    },
+    "title": "moonpacket Document Center"
+  },
+  "missions": {
+    "back_to_whitepaper": "Return to White Paper",
+    "description": "Learn how to earn $moonini through tasks and achievements.",
+    "intro": {
+      "0": "**This document is aimed at engineers and product developers**, defining the mission system and achievement mechanism of $moonini, incorporating a sense of accomplishment and social tasks on top of the two core actions of \"Red Packet + Invite Friends.\"",
+      "2": "**Design Principles**:",
+      "3": "- All tasks \"additional $moonini\" essentially revolve around: **sending Red Packets, inviting friends, following official communities**",
+      "4": "- The 'One-time Task' will permanently disappear after completion.",
+      "5": "- The task system only provides \"bonus points\" and does not change the basic distribution rules.",
+      "7": "**Task Category**:",
+      "8": "- **Achievement Tasks** (one-time): Milestones for sending Red Packets, milestones for inviting friends, etc.",
+      "9": "- **Social Tasks** (one-time): Follow official social media, join official communities, etc.",
+      "10": "- **Daily/Weekly Tasks** (Reserved): Future scalable periodic tasks",
+      "12": "*This document contains technical details; general users can refer to the [whitepaper](/en-US/docs/whitepaper/) for an overview of the project.*",
+      "14": "For detailed documentation, please refer to: `docs/technical/moonini-missions.md`"
+    },
+    "seo": {
+      "description": "Complete mission system and achievement mechanism description",
+      "title": "$moonini Task System — moonpacket"
+    },
+    "title": "$moonini tasks and achievement design"
+  },
+  "nav": {
+    "api": "API Documentation",
+    "distribution": "Distribution Mechanism",
+    "docs": "Document",
+    "missions": "Task System",
+    "technical": "Technical Specifications",
+    "whitepaper": "White Paper"
+  },
+  "technical": {
+    "back_to_whitepaper": "Return to White Paper",
+    "description": "Engineers develop specifications, including smart contract interfaces, Phase logic, and POL mechanisms.",
+    "intro": {
+      "0": "**This document is intended for engineers, smart contract developers, and auditors**, containing complete technical implementation details.",
+      "2": "**Target Chain**: Binance Smart Chain (BSC)",
+      "3": "**Version**: v1.0 (2024-11)",
+      "5": "**Main Content**：",
+      "6": "- Smart contract architecture and interface definition",
+      "7": "- Phase management logic (6-stage halving mechanism)",
+      "8": "- POL (Repurchase and Market Making) mechanism implementation",
+      "9": "- Vesting Release Mechanism",
+      "10": "- Governance and Security Design",
+      "11": "- Code examples and technical charts",
+      "13": "*This document contains technical details. General users can refer to the [white paper](/en-US/docs/whitepaper/) for an overview of the project.*",
+      "15": "For detailed technical documentation, please refer to: `docs/technical/moonini-bsc-technical-spec.md`"
+    },
+    "seo": {
+      "description": "Complete BSC smart contract technical specifications and development guide",
+      "title": "$moonini Technical Specifications — moonpacket"
+    },
+    "title": "$moonini BSC Technical Specifications"
+  },
+  "title": "Document",
+  "toc": {
+    "back_to_index": "Return to Document Center",
+    "title": "Catalog"
+  }
+}

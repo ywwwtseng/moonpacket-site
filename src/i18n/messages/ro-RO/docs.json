@@ -1,0 +1,1514 @@
+{
+  "litepaper": {
+    "title": "$moonini Litepaper",
+    "description": "Înțelegeți filosofia de design, modelul economic și valorile de bază ale tokenului $moonini.",
+    "seo": {
+      "title": "$moonini Litepaper — moonpacket",
+      "description": "$moonini este un token de stimulare a comunității bazat pe platforma moonpacket. Aflați cum să obțineți, să utilizați și să investiți în valoarea sa."
+    },
+    "hero": {
+      "subtitle": "$moonini este un token de stimulare a comunității bazat pe platforma moonpacket. Cu cât mai mulți utilizatori se implică în moonpacket, participă la sarcini și interacționează, cu atât mai mult $moonini pot câștiga. Pentru investitori, 90% este distribuit utilizatorilor, iar 10% merge către echipă, cu un mecanism de reducere la jumătate și o eliberare liniară care reduc eficient riscurile de vânzare, concepută pentru stabilitate pe termen lung.",
+      "cards": {
+        "user": {
+          "title": "Pentru utilizatorii generali",
+          "description": "Câștigă $moonini ușor prin trimiterea de Red Packets, finalizarea sarcinilor, invitarea prietenilor etc. Cu cât îl folosești mai mult, cu atât câștigi mai mult, complet gratuit."
+        },
+        "investor": {
+          "title": "Pentru Investitori",
+          "description": "O ofertă totală de 10 miliarde, o alocare de 90/10, 6 faze de reducere, și o alocare pentru echipă cu eliberare liniară, concepută pentru a fi benefică pentru stabilitatea pe termen lung și a reduce riscul de dump."
+        },
+        "developer": {
+          "title": "Pentru dezvoltatori/parteneri",
+          "description": "Contracte standardizate, API-uri deschise, pot fi integrate în alte aplicații sau jocuri. Prin integrarea API-ului, conectați produsele dumneavoastră la ecosistemul moonpacket."
+        }
+      },
+      "live_status": "Protocolul V1 este acum activ",
+      "cta_start": "Începeți să citiți",
+      "cta_hub": "Centrul Dezvoltatorului"
+    },
+    "sections": {
+      "overview": "Prezentare Generală",
+      "problem": "Probleme și Soluții",
+      "concept": "Conceptele de bază ale moonpacket și $moonini",
+      "tokenomics": "Prezentare generală a tokenomicelor",
+      "emission": "Reducerea și Lansarea",
+      "utility": {
+        "subtitle": "Cum să câștigi și să folosești"
+      },
+      "developer": "Dezvoltatori și integrarea API-ului",
+      "governance": "Guvernanță și Securitate",
+      "roadmap": "Planul de Dezvoltare",
+      "risks": "Riscuri și Declarații",
+      "faq": "Întrebări Frecvente",
+      "cta": {
+        "title": "Ești pregătit să te alături acestei experiențe sociale Red Packet?",
+        "earning": "Începe să câștigi Red Packets acum",
+        "devs": "Citiți Documentația pentru Dezvoltatori"
+      },
+      "registry": {
+        "title": "Registrul contractelor on-chain",
+        "network": "Rețeaua principală: BSC (BNB Chain)",
+        "audit": "Starea auditului: **Programat**"
+      },
+      "defense": {
+        "floor": {
+          "title": "🛡️ Apărare inteligentă a prețului de bază",
+          "mechanism": "Când prețul de piață se apropie de prețul minim, protocolul va activa automat mecanismele de apărare, folosind POL acumulat (Liquidity deținut de protocol) pentru a oferi suport. Acesta nu este un plată rigidă; folosește teoria jocurilor pentru a face costurile de vânzare în lipsă infinit de mari.",
+          "anti_gaming": "Notă: Pentru a preveni atacurile de arbitraj, pragurile specifice de declanșare și forțele de apărare sunt ajustate dinamic, iar valorile exacte nu vor fi dezvăluite."
+        },
+        "anti_bot": {
+          "title": "🚫 Respinge Managementul Creării Pieței",
+          "items": [
+            "Toate tranzacțiile sunt comportamente reale ale utilizatorilor",
+            "Fără Boti Market Maker",
+            "Respinge manipularea falsă a volumului și schemele de pompare și dumping"
+          ]
+        }
+      },
+      "lockup": {
+        "title": "Lock-up strategic",
+        "desc": "Într-o piață plină de 'depozite de șoareci' și 'cipuri ascunse', am ales calea cea mai grea, dar și cea mai onestă. Înțelegem profund că doar prin eliminarea completă a temerilor utilizatorilor legate de 'vânzările de echipă' putem construi încredere reală.",
+        "benefit": "Aceasta nu este doar o chestiune de reguli de blocare; este declarația noastră 'anti-recoltare'. Prin această auto-restricție oarecum stringentă, ne asigurăm că nimeni - fie că sunt fondatorii sau deținătorii mari - nu poate trăda comunitatea în etapele timpurii.",
+        "items": [
+          "Complet transparent, fără ascunzători: Nu avem portofele ascunse sau oferte circulante timpurii nedivulgate. Toate distribuțiile de chipuri sunt disponibile public pe blockchain, supuse supravegherii comunității.",
+          "Angajamentul echipei, suport pe termen lung: Perioada de lansare a echipei de bază durează până la 48 de luni (4 ani). În lumea crypto, 4 ani reprezintă un ciclu lung. Acest lucru dovedește că nu suntem aici pentru a face bani repede, ci suntem determinați să experimentăm împreună cu comunitatea piețele în creștere și în scădere și să construim valoare pe termen lung.",
+          "Consensul Investitorilor: Investitorii noștri timpurii se identifică profund cu cultura de 'împărtășire și cadouri' a Red Packet și semnează voluntar un acord de eliberare liniară pe o perioadă de 36 de luni. Acest lucru înseamnă că în etapele incipiente ale proiectului, nicio parte (inclusiv investitorii) nu are suficiente fonduri pentru a influența piața."
+        ]
+      }
+    },
+    "back_to_top": "↥ Înapoi la vârf",
+    "content": {
+      "overview": {
+        "paragraphs": [
+          "moonpacket este un instrument criptografic Red Packet și de marketing conceput special pentru comunitățile Telegram. Fie că este vorba despre operarea comunității, promovarea evenimentelor sau invitarea de noi utilizatori, moonpacket te poate ajuta să reușești cu ușurință.",
+          "Pentru a încuraja utilizatorii să continue să folosească platforma și să stabilească relații pe termen lung, am lansat tokenul de stimulente pentru comunitatea $moonini. Fiecare comportament activ pe platformă, inclusiv trimiterea de red packets, finalizarea sarcinilor și invitarea prietenilor, poate câștiga recompense corespunzătoare în $moonini.",
+          "Pentru utilizatorii generali, $moonini este o recompensă suplimentară pentru utilizarea Moonpacket; cu cât îl folosești mai mult, cu atât câștigi mai mult. Pentru investitori, designul economiei tokenului $moonini (90% pentru utilizatori, 10% pentru echipă, reducerea la jumătate în 6 etape, lansări cu blocare) reduce eficient riscurile de vânzare pe termen scurt și este favorabil stabilității valorii pe termen lung."
+        ],
+        "highlights": {
+          "title": "Punctele cheie",
+          "items": [
+            "✅ **Distribuție corectă**: 90% din tokenuri sunt distribuite prin activitățile utilizatorilor, iar 10% merg către echipă și investitorii timpurii.",
+            "✅ **Avantaj timpuriu**: mecanism de reducere în 6 etape, cu cât participi mai devreme, cu atât primești mai mult.",
+            "✅ **Reducerea riscurilor**: Alocarea echipei este blocată timp de 3 luni, apoi eliberată liniar pe parcursul a 33-45 de luni.",
+            "✅ **Transparent și verificabil**: Toate regulile de distribuție și eliberare a token-urilor sunt public transparente și verificabile pe blockchain."
+          ]
+        }
+      },
+      "problem": {
+        "title": "Probleme și soluții",
+        "problems": {
+          "title": "Puncte de dificultate în marketingul existent pe Web3 / Telegram",
+          "items": [
+            "**Dificil de urmărit eficiența**: Mecanismele tradiționale de red packet sunt greu de urmărit pentru efectele reale; nu este clar cine a revendicat, cine a împărtășit sau dacă a adus utilizatori noi.",
+            "**Realizarea de profit pe termen scurt**: Multe proiecte se concentrează doar pe traficul pe termen scurt, distribuite red packet-uri și plecând fără mecanisme de stimulare pe termen lung.",
+            "**Lipsa stimulentelor pe termen lung**: Utilizatorii pleacă după ce revendică Red Packet, fiind incapabili să stabilească relații pe termen lung și să participe continuu."
+          ]
+        },
+        "solutions": {
+          "title": "Soluția Moonpacket + $moonini",
+          "items": [
+            "**Completarea urmăririi comportamentului**: moonpacket înregistrează primirea fiecărui Red Packet, comportamentul de partajare și introducerea de utilizatori noi, permițându-vă să înțelegeți clar eficiența marketingului.",
+            "**Mecanisme de stimulente pe termen lung**: Prin intermediul token-ului $moonini, cu cât mai mulți utilizatori participă, cu atât mai mult câștigă, stabilind o motivație de participare pe termen lung.",
+            "**Distribuția valorii corecte**: 90% din token-uri merg către utilizatori, asigurând prioritatea comunității, în timp ce mecanismele precum jumătățirea și blocarea reduc riscurile de vânzare."
+          ]
+        }
+      },
+      "concept": {
+        "title": "Concepte fundamentale ale moonpacket & $moonini",
+        "moonpacket": {
+          "title": "Rolul moonpacket",
+          "description": "moonpacket este un instrument de Red Packet în Telegram, pentru sarcini și marketing. Indiferent dacă ești un operator de comunitate, organizator de evenimente sau un proiect care dorește să atragă utilizatori noi, poți folosi moonpacket pentru:",
+          "features": [
+            "Trimite Red Packets de criptomonedă (susținând multiple tokenuri precum USDT, TON, SOL, ETH etc.)",
+            "Creează evenimente de sarcini (invită prieteni, urmărește comunități, împărtășește conținut etc.)",
+            "Urmăriți datele efectului (ratele de răscumpărare, ratele de partajare, conversiile utilizatorilor noi etc.)",
+            "Trimite Red Packet-uri între grupuri, extinzând aria de acoperire"
+          ]
+        },
+        "moonini": {
+          "title": "Rolul lui $moonini",
+          "description": "$moonini este un token de puncte de recompensă care recunoaște comportamentul utilizatorilor și al comunității. Fiecare acțiune activă pe care o întreprinzi pe moonpacket îți aduce respectivele $moonini:",
+          "rewards": [
+            "Trimite Red Packet: Câștigă $moonini corespunzător în funcție de suma Red Packet-ului și de faza actuală",
+            "Finalizați sarcinile: Îndeplinirea realizărilor, sarcinilor sociale etc. aduce extra $moonini",
+            "Invită prieteni: Invitați cu succes utilizatori noi și finalizați sarcinile de partajare, ambele părți pot câștiga $moonini",
+            "Participare activă: Finalizarea unor acțiuni specifice în jocuri sau aplicații colaborative poate de asemenea să câștige $moonini"
+          ]
+        },
+        "logic": {
+          "title": "Cu cât îl folosești mai mult, cu atât câștigi mai mult",
+          "description": "Logica este simplă: cu cât ești mai activ pe moonpacket, cu atât câștigi mai mult $moonini. Participanții timpurii pot beneficia de un raport de recompensă mai mare (Faza 1, câștigă 1 $moonini pentru fiecare 1 USDT Red Packet trimis). Cu cât participi mai devreme, cu atât este mai mare avantajul tău."
+        }
+      },
+      "tokenomics": {
+        "title": "Prezentare generală a Tokenomics",
+        "total": {
+          "title": "Furnizare Totală de Token-uri",
+          "description": "Emisiunea totală de $moonini este **10.000.000.000 tokeni (10B)**, cu o ofertă totală fixă și fără emisii suplimentare."
+        },
+        "allocation": {
+          "title": "Plan de Alocare",
+          "table": {
+            "headers": [
+              "Categorie",
+              "Cantitate",
+              "Proporție",
+              "Descriere"
+            ],
+            "rows": [
+              [
+                "Lansare Publică",
+                "9,000,000,000 bucăți",
+                "90%",
+                "Lansare treptată prin activitățile utilizatorilor (halvuzare în 6 etape)"
+              ],
+              [
+                "Alocare echipă",
+                "1,000,000,000 bucăți",
+                "10%",
+                "Blocat timp de 3 luni, lansare liniară pe parcursul a 33-45 luni"
+              ],
+              [
+                "├─ Operațiuni",
+                "200,000,000 bucăți",
+                "2%",
+                "Blocat timp de 3 luni, lansat pe parcursul a 45 luni"
+              ],
+              [
+                "├─ Echipă Tehnică",
+                "200,000,000 bucăți",
+                "2%",
+                "Blocat timp de 3 luni, lansat pe parcursul a 45 luni"
+              ],
+              [
+                "├─ PR/Marketing",
+                "200,000,000 bucăți",
+                "2%",
+                "Blocat timp de 3 luni, lansat pe parcursul a 45 luni"
+              ],
+              [
+                "└─ Investitori Tineri",
+                "400,000,000 bucăți",
+                "4%",
+                "Blocat timp de 3 luni, lansat pe parcursul a 33 luni"
+              ]
+            ]
+          }
+        },
+        "philosophy": {
+          "title": "De ce este acest design?",
+          "items": [
+            "**Prioritizarea Utilizatorilor**: 90% din tokenuri sunt alocate utilizatorilor pentru a asigura că comunitatea beneficiază cu adevărat, în loc să fie monopolizată de câțiva indivizi.",
+            "**Incentive pentru echipă**: 10% pentru echipă și investitorii timpurii pentru a asigura că proiectul are resurse suficiente pentru dezvoltarea continuă, cu o proporție moderată pentru a evita concentrarea excesivă.",
+            "**Fără Presale/VC Pre-Rezervate**: Nu rezervăm cote pentru investitori instituționali, iar toate token-urile sunt distribuite utilizatorilor printr-un mecanism echitabil.",
+            "**Atenuarea Riscurilor**: Alocarea echipei este supusă unor mecanisme de blocare și de eliberare liniară, reducând eficient riscul de vânzare pe termen scurt și protejând interesele investitorilor."
+          ]
+        }
+      },
+      "emission": {
+        "title": "Mecanismul de Împărțire și Lansare",
+        "halving": {
+          "title": "Mecanismul de Reducere în 6 Faze",
+          "description": "Pentru a încuraja participanții timpurii, distribuția de token-uri utilizează un mecanism de 'împărțire progresivă'. Cu cât te alături mai devreme, cu atât mai multe token-uri poți câștiga:",
+          "table": {
+            "headers": [
+              "Fază",
+              "Intervalul Sumei Emise",
+              "Câștig pe 1 USDT",
+              "Descriere"
+            ],
+            "rows": [
+              [
+                "Faza 1",
+                "0 ~ 4.5B",
+                "1.0 bucată",
+                "Participanți timpurii, schimb 1:1"
+              ],
+              [
+                "Faza 2",
+                "4.5B ~ 6.75B",
+                "0.5 bucată",
+                "Reducere la jumătate"
+              ],
+              [
+                "Faza 3",
+                "6.75B ~ 7.875B",
+                "0.25 bucată",
+                "Încă o reducere la jumătate"
+              ],
+              [
+                "Faza 4",
+                "7.875B ~ 8.4375B",
+                "0.125 bucăți",
+                "Continuare cu reducerile la jumătate"
+              ],
+              [
+                "Faza 5",
+                "8.4375B ~ 8.71875B",
+                "0.0625 bucăți",
+                "Aproape de final"
+              ],
+              [
+                "Faza 6",
+                "8.71875B ~ 9B",
+                "0.03125 bucăți",
+                "Faza finală"
+              ]
+            ]
+          },
+          "example": "De exemplu: În Faza 1, dacă trimiteți un Red Packet de 100 USDT, puteți câștiga 100 $moonini; în Faza 2, trimiterea aceluiași Red Packet de 100 USDT v-ar aduce doar 50 $moonini. Cu cât participați mai devreme, cu atât mai mare va fi avantajul dumneavoastră!"
+        },
+        "vesting": {
+          "title": "Blocarea și Eliberarea Cotei Echipei",
+          "description": "Într-o piață plină de 'magazine de șoareci' și 'cipuri ascunse', am ales cea mai dificilă, dar onestă cale. Înțelegem profund că doar prin eliminarea completă a fricii utilizatorilor față de 'vânzarea de echipă' putem stabili o adevărată încredere.",
+          "items": [
+            "**Transparență totală, fără ascunzișuri**: Nu avem portofele ascunse sau o ofertă de circulație timpurie nepublicată. Toate distribuțiile de tokenuri sunt disponibile public pe blockchain, supuse supravegherii comunității.",
+            "**Auto-restrângere a echipei, angajament pe termen lung**: Perioada de eliberare pentru echipa de bază durează **48 de luni (4 ani)**. În domeniul crypto, patru ani reprezintă un ciclu lung. Acest lucru dovedește că nu suntem aici pentru a face bani rapid, ci suntem dedicați să experimentăm piețele în creștere și în scădere alături de comunitate pentru a construi valoare pe termen lung.",
+            "**Consensul Investitorilor**: Investitorii noștri timpurii rezonează profund cu cultura 'împărtășirii și cadourilor' a Red Packet-urilor și au semnat voluntar un acord de eliberare liniară pe **36 de luni**. Aceasta înseamnă că în etapele inițiale ale proiectului, nicio parte (inclusiv investitorii) nu dispune de suficiente token-uri pentru a influența piața."
+          ],
+          "benefit": "Aceasta nu este doar o regulă de blocare, ci **'Declarația Noastră Anti-Recoltat'**. Prin această auto-restricție aproape riguroasă, ne asigurăm că nimeni—fie că sunt fondatori sau deținători mari—nu poate trăda comunitatea în etapele timpurii. Suntem alături de toți expeditorii de Red Packet pentru a menține împreună puritatea acestui valor social."
+        },
+        "why": {
+          "title": "De ce să faci asta?",
+          "items": [
+            "**Reducează vânzările pe termen scurt**: Mecanismele de blocare și eliberare liniară împiedică echipa și investitorii să vândă cantități mari la începutul proiectului.",
+            "**Extinde durata de viață a proiectului**: Lansarea treptată asigură că proiectul are suficient timp pentru a se dezvolta și a-și stabili valoarea.",
+            "**Protejați investitorii**: Mecanismele de reducere și designul de blocare oferă mai multă protecție pentru deținătorii timpurii."
+          ]
+        }
+      },
+      "utility": {
+        "title": "Atragerea utilizatorilor și scenarii de utilizare",
+        "how_to_earn": {
+          "title": "Cum să câștigi $moonini?",
+          "methods": [
+            "**Trimite Red Packet**: Pentru fiecare **echivalent de 1 USDT** trimis ca Red Packet (împreună cu multiple valute), participanții primesc $moonini corespunzător în funcție de stadiul actual.",
+            "**Finalizați Sarcinile**: Include sarcini unice de realizare și sarcini sociale. Pentru a asigura corectitudinea, fiecare cont are permisiunea de a finaliza fiecare sarcină doar o dată sau este setat cu o limită totală pentru a evita farmingul malițios de monede.",
+            "**Invită prieteni**: Invitați prieteni noi și finalizați sarcinile de partajare, ambele părți primesc recompense. **Fiecare cont are o limită pentru recompensele de invitație**, iar regulile specifice sunt supuse anunțurilor din comunitate.",
+            "**Aplicații Colaborative**: Finalizarea unor acțiuni specifice în jocuri sau aplicații integrate cu API-ul moonpacket poate câștiga, de asemenea, $moonini."
+          ]
+        },
+        "how_to_use": {
+          "title": "Utilizări ale $moonini",
+          "items": [
+            "**Reduceri de taxe**: În viitor, $moonini poate fi utilizat pentru a compensa o parte din taxele de tranzacție ale Red Packet.",
+            "**Dezvoltarea Funcțiilor**: Anumite funcții premium pot necesita deținerea unei sume de $moonini pentru a fi utilizate.",
+            "**Drepturile de Vot în Guvernare**: Deținerea $moonini permite participarea la viitoarele voturi de guvernare ale comunității, influențând direcția de dezvoltare a proiectului.",
+            "**Rastelul Ecosistemului**: Poate fi răscumpărat pentru beneficii sau recompense speciale în aplicațiile sau jocurile partenere."
+          ]
+        }
+      },
+      "developer": {
+        "title": "Ecosistemul Dezvoltatorilor",
+        "description": [
+          "moonpacket este mai mult decât un instrument Red Packet; este un **Strat de Lichiditate Socială** deschis.",
+          "Prin intermediul API-urilor și SDK-urilor standardizate, orice bot Telegram, aplicație GameFi sau Web3 poate accesa stratul de stimulente $moonini. Tu te concentrezi pe dezvoltarea produsului, iar noi te ajutăm cu creșterea și retenția."
+        ],
+        "architecture": {
+          "title": "Incenitve Programabile",
+          "description": "Un sistem de distribuție a recompenselor bazat pe evenimente care suportă apeluri Webhook și verificare pe blockchain."
+        },
+        "cta": {
+          "text": "Aflați mai multe despre soluțiile de integrare",
+          "link_text": "Citiți documentația API pentru dezvoltatori"
+        }
+      },
+      "contracts": {
+        "title": "Adresa Contractului",
+        "description": "Pentru a asigura transparența, toate adresele smart contracturilor de bază vor fi dezvăluite și verificate public.",
+        "items": {
+          "token": "$moonini Token (Contract de Token)",
+          "emission": "Seiful de Emisie (Seiful de Emitere Publică de 90%)",
+          "reserve": "Rezerva Vault (10% Cota Vault echipă)",
+          "phase": "Manager de Fază (Controler de Reducere)",
+          "vesting": "Seiful de Vesting (Controler de Eliberare liniară)",
+          "pol": "Manager POL (Răscumpărare și Apărarea Prețului Minim)",
+          "protection": "Lansare Protecție (Faza Deschisă Anti-Sniping)",
+          "timelock": "Controler Timelock (Delay Lock de 48h)"
+        },
+        "status": "(Se va actualiza după implementarea mainnet)"
+      },
+      "governance": {
+        "title": "Guvernare și securitate",
+        "principles": {
+          "title": "Principiile de guvernare",
+          "description": "Principiul nostru de bază este: **nu există o singură autoritate supremă**, toate operațiunile importante necesită multiple confirmări și o publicare întârziată pentru a asigura transparența și securitatea."
+        },
+        "market_making": {
+          "title": "Declarație reală de piață",
+          "description": [
+            "**Respingeți tranzacțiile false**: Ne angajăm să nu utilizăm tranzacționarea prin spălare sau să creăm adâncime falsă. Fiecare tranzacție de pe linia K provine de la utilizatori reali.",
+            "**Piața de încredere descentralizată**: lichiditatea este determinată în întregime de cererea și oferta de pe piață, precum și de mecanismul automat de răscumpărare al protocolului, mai degrabă decât de manipularea umană."
+          ]
+        },
+        "floor_defense": {
+          "title": "Apărarea prețului minim inteligent",
+          "mechanism": "**Mecanism**: Când prețul monedei atinge zona de suport, comisioanele acumulate ale protocolului vor cumpăra automat și vor distruge/injecta lichiditate.",
+          "anti_gaming": "**Strategia anti-sniping**: Pentru a evita ca roboții să prezică arbitrajul, 'timpul de intrare' specific și 'suma tranzacției unice' conțin variabile aleatorii și nu vor fi complet publice. Cu toate acestea, logica de bază rămâne: **taxele de tranzacție se vor întoarce în cele din urmă în fond pentru a susține prețul**.",
+          "variance": "Notă: Datorită volatilității pieței, prețul minim nu este un ancoră absolută, ci o gamă de suport dinamic."
+        },
+        "process": {
+          "title": "Procesul de guvernanță",
+          "steps": [
+            "**Propuneri**: Deciziile importante necesită confirmare multi-semnătură.",
+            "**Confirmare întârziată**: Toate operațiunile cu risc ridicat trebuie să treacă printr-o perioadă de confirmare întârziată de 48 de ore, timp în care sunt vizibile pe lanț.",
+            "**Executare**: După perioada de întârzere, personalul autorizat va executa sau va fi executat automat.",
+            "**Anulare**: În perioada de întârziere, propunătorul poate anula propunerea."
+          ]
+        },
+        "security": {
+          "title": "Măsuri de securitate",
+          "items": [
+            "**Confirmare multi-semnătură**: Toate operațiunile importante necesită semnături de la cel puțin 2 persoane pentru a evita riscul de punct unic.",
+            "**Mecanism de execuție întârziat**: Operațiunile cu risc ridicat trebuie să suporte o întârziere de 48 de ore, oferind comunității suficient timp pentru a revizui și a răspunde.",
+            "**Biblioteca standard de contracte**: Utilizați biblioteci de contracte standard auditate pentru a reduce riscurile de vulnerabilitate.",
+            "**Auditorii terți**: Contractele inteligente vor fi supuse unor audite de securitate de către terți pentru a asigura siguranța.",
+            "**Transparență open-source**: Codul contractului este open-source, oricine îl poate verifica și audita."
+          ]
+        },
+        "risk_mitigation": {
+          "title": "Cum să reduci riscul de punct unic?",
+          "description": "Ne asigurăm că nicio persoană sau organizație nu poate controla complet proiectul prin semnătura multiplă, confirmarea întârziată, audituri și mecanisme de protecție multi-strat open-source. Toate deciziile importante trec printr-un proces transparent și urmărit, oferind siguranță comunității și investitorilor."
+        }
+      },
+      "roadmap": {
+        "title": "Plan de acțiune pe două piste",
+        "status_notice": "⚠️ Stare curentă: Etapa de divulgare a planificării. Tokenii nu sunt încă generați (TGE în așteptare), iar regulile finale vor fi bazate pe versiunea foii de parcurs publicată la TGE.",
+        "tracks": {
+          "product": "📱 Urmărirea Produsului",
+          "token": "💎 Urmărirea Token-ului"
+        },
+        "phases": [
+          {
+            "title": "Faza 1: Geneza",
+            "product": [
+              "**Lansare Bot Telegram**: Un plugin de dimensiuni reduse pentru a începe gestionarea Red Packets în comunitate",
+              "**Sistem de Sarcini de Bază**: Funcții de invitație și check-in",
+              "**Accumulare Utilizatori**: Construirea unui grup inițial de utilizatori seminceri"
+            ],
+            "token": [
+              "**Testare Puncte**: Comportamentul utilizatorului generează puncte off-chain",
+              "**Design Model Token**: Confirmarea distribuției 90/10 și a mecanismului de înjumătățire",
+              "**Anunț Litepaper**: Publicarea schiței modelului economic către comunitate"
+            ]
+          },
+          {
+            "title": "Faza 2: Aprinderea",
+            "product": [
+              "**Integrare Ecosistem**: Conectarea cu magazinele partenere și scenariile de marketing",
+              "**API Open Beta**: Permițând boturilor terțe să se integreze cu sistemul Red Packet",
+              "**Tabloul de Date**: Utilizatorii pot vizualiza date detaliate despre Red Packets și puncte"
+            ],
+            "token": [
+              "**Audit Terț**: Codul contractului trece audituri de securitate",
+              "**TGE (Generarea Token-urilor)**: Implementarea pe mainnet, puncte deschise pentru răscumpărare/mecanisme de mining",
+              "**Lichiditate Inițială**: Stabilirea unui fond de bază pentru a asigura valoarea fundamentală"
+            ]
+          },
+          {
+            "title": "Faza 3: Expansiune",
+            "product": [
+              "**Aplicație Independentă**: Lansarea unei aplicații autonome cu funcții de portofel și IM",
+              "**Suport Multi-Platformă**: Extinderea pe Discord sau alte platforme comunitare",
+              "**Instrument de Guvernare DAO**: Funcția de votare comunitară devine activă"
+            ],
+            "token": [
+              "**Activarea Ciclu Economic**: Mecanismele de răscumpărare și ardere funcționează automat",
+              "**Implementare Multi-Chain**: Extinderea către alte lanțuri publice de înaltă performanță",
+              "**Complet Decentralizat**: Drepturile de management sunt transferate treptat către DAO"
+            ]
+          }
+        ]
+      },
+      "risks": {
+        "title": "Riscuri și Disclaimer-uri",
+        "description": [
+          "**Declarație importantă**: Acest document nu constituie o formă de sfat investițional. Investiția în criptomonede implică un risc ridicat, inclusiv, dar fără a se limita la, volatilitatea prețului, riscul de lichiditate, riscul tehnic, riscul reglementar și altele.",
+          "",
+          "**Atenționări majore de risc**:",
+          "- **Riscul de volatilitate a prețurilor**: Prețurile token-urilor pot fluctua dramatic și pot scădea chiar la zero. Vă rugăm să vă asigurați că participați în cadrul limitei dvs. tolerabile de pierdere.",
+          "- **Riscul de lichiditate**: Lichiditatea inițială poate fi insuficientă, ceea ce ar putea conduce la o slippage ridicată sau dificultăți în executarea imediată a tranzacțiilor.",
+          "- **Risc Tehnic**: Deși contractele inteligente vor fi auditate, pot exista în continuare vulnerabilități tehnice necunoscute sau riscuri de atacuri cibernetice.",
+          "- **Riscul Regulator**: Politicile de reglementare referitoare la criptomonede din diferite țări pot să se schimbe în orice moment, ceea ce ar putea afecta operațiunile proiectului sau valoarea token-urilor.",
+          "",
+          "**Faceți-vă propria cercetare (DYOR)**: Investitorii ar trebui să înțeleagă pe deplin riscurile relevante și să investească cu precauție, pe baza propriei situații financiare și a toleranței la risc. Echipa proiectului nu este responsabilă pentru pierderile de investiții."
+        ],
+        "disclaimer": {
+          "title": "Notificare importantă",
+          "text": "Acest document nu constituie niciun fel de sfat de investiție. Investițiile în criptomonede implică un nivel ridicat de risc, inclusiv, dar fără a se limita la, volatilitatea prețurilor, riscul de lichiditate, riscul tehnic, riscul de reglementare și altele. Investitorii ar trebui să înțeleagă pe deplin riscurile relevante și să investească cu precauție în funcție de toleranța lor la risc. Echipa proiectului nu este responsabilă pentru nicio pierdere de investiție."
+        },
+        "risks": {
+          "title": "Riscuri majore",
+          "items": [
+            "**Riscul Volatilității Prețului**: Prețurile token-urilor pot fluctua semnificativ și pot ajunge chiar la zero.",
+            "**Riscul de lichiditate**: Lichiditatea inițială poate fi insuficientă, afectând experiența de tranzacționare.",
+            "**Riscuri Tehnice**: Contractele inteligente pot conține vulnerabilități necunoscute, deși vom efectua audite.",
+            "**Riscul de Reglementare**: Politicile de reglementare din diferite țări pot să se schimbe, afectând operațiunile proiectului.",
+            "**Riscul de piață**: Volatilitatea generală a pieței criptomonedelor poate afecta prețurile token-urilor."
+          ]
+        }
+      },
+      "faq": {
+        "title": "Întrebări frecvente",
+        "items": [
+          {
+            "question": "Cum pot câștiga token-uri?",
+            "answer": "Puteți obține $moonini trimițând Red Packets, completând sarcini, invitând prieteni și multe altele. Cu cât trimiteți mai multe Red Packets și finalizați mai multe sarcini, cu atât veți câștiga mai multe token-uri. Participanții timpurii vor beneficia, de asemenea, de un raport mai mare al recompenselor."
+          },
+          {
+            "question": "Când pot retrage?",
+            "answer": "După ce rețeaua principală devine activă, utilizatorii pot retrage $moonini în portofelele lor. Retragerile necesită o mică taxă de gaz (taxa rețelei BSC). Vă rugăm să fiți atenți la anunțurile oficiale pentru ora specifică a lansării."
+          },
+          {
+            "question": "Există o perioadă de blocare pentru alocările echipei?",
+            "answer": "Da. Alocarea echipei (10%) va fi blocată timp de 3 luni și apoi va fi eliberată în mod liniar pe parcursul a 33-45 luni. Alocările pentru operațiuni, echipa tehnică, relații publice/marketing vor avea o durată totală de 48 de luni, în timp ce alocarea pentru investitorii timpurii va dura 36 de luni."
+          },
+          {
+            "question": "De ce să folosim mecanismul de reducere la jumătate?",
+            "answer": "Mecanismul de reducere la jumătate este conceput pentru a încuraja participanții timpurii, în timp ce controlează rata de distribuție a token-urilor. Cu cât participați mai devreme, cu atât câștigați mai multe token-uri, ceea ce ajută la atragerea utilizatorilor și investitorilor timpurii, evitând totodată distribuția excesivă care ar putea duce la inflație mai târziu."
+          },
+          {
+            "question": "Ce să fac dacă există o problemă cu contractul sau sistemul?",
+            "answer": "Vom reduce riscurile prin audituri de securitate de terță parte, confirmații multi-semnătură, execuții întârziate și alte mecanisme de protecție în mai multe straturi. Dacă apare o problemă, vom iniția imediat un răspuns de urgență, vom determina un plan de gestionare prin mecanismul de guvernare și vom notifica prompt comunitatea."
+          },
+          {
+            "question": "Care este aprovizionarea totală de $moonini? Va crește?",
+            "answer": "Aprovizionarea totală de $moonini este de 10.000.000.000 bucăți (10B), cu un total fix care nu va crește niciodată. 90% vor fi eliberate treptat prin activități ale utilizatorilor, iar 10% vor merge către echipă și investitorii timpurii."
+          },
+          {
+            "question": "Cum pot participa la guvernare?",
+            "answer": "Deținătorii de $moonini pot participa la voturi viitoare pentru guvernarea comunității, influențând direcția de dezvoltare a proiectului. Mecanismele specifice de guvernare și metodele de vot vor fi implementate treptat după activarea rețelei principale."
+          },
+          {
+            "question": "Poate fi tranzacționat $moonini?",
+            "answer": "După ce rețeaua principală devine activă și se stabilește un pool de lichiditate, $moonini poate fi tranzacționat pe burse descentralizate (cum ar fi PancakeSwap). Tranzacționarea va fi influențată de oferta și cererea de pe piață, iar prețurile pot fluctua, așa că vă rugăm să investiți cu prudență."
+          }
+        ]
+      }
+    },
+    "charts": {
+      "allocation": {
+        "title": "Distribuția Token-urilor",
+        "public": "Oferte Publice",
+        "team": "Cota echipei",
+        "operations": "Operațiuni",
+        "tech": "Echipa Tehnică",
+        "marketing": "Relații Publice/Marketing",
+        "investors": "Investitori Timpurii"
+      },
+      "phase": {
+        "title": "mecanism de reducere în 6 faze",
+        "phase": "Fază",
+        "ratio": "Pentru fiecare 1 USDT poți primi"
+      },
+      "vesting": {
+        "title": "Timeline de Eliberare a Cotelor Echipei",
+        "cliff": "Perioadă de Blocare",
+        "release": "Perioadă de Eliberare"
+      },
+      "governance": {
+        "title": "Proces de guvernare",
+        "multisig": "Portofel Multisignatură",
+        "proposal": "Propunere",
+        "timelock": "Confirmare întârziată",
+        "execute": "Executați",
+        "update": "Actualizare"
+      },
+      "flow": {
+        "title": "Procesul de Circulație a Tokenurilor",
+        "userSend": "Utilizator trimite Red Packet",
+        "fee": "Taxe de tranzacție",
+        "operations": "Cheltuieli de Operare",
+        "pol": "Fond de răscumpărare",
+        "accumulate": "Acumulare",
+        "trigger": "Declanșator de Răscumpărare",
+        "swap": "Schimb",
+        "addLiquidity": "Adaugă lichiditate",
+        "pool": "Pool de lichiditate",
+        "smart_floor": "Apărarea prețului de bază inteligent"
+      }
+    }
+  },
+  "litepaper_api": {
+    "meta": {
+      "title": "API de Autentificare moonpacket",
+      "subtitle": "Interfața standard pentru interogarea regulilor de recompensare și a stării utilizatorului (v2.3)",
+      "description": "Pur și simplu oferți un Endpoint GET pentru ca moonpacket să interogheze regulile și starea utilizatorului, integrând cu ușurință sistemele de Red Packet și de sarcini."
+    },
+    "sidebar": {
+      "overview": "Prezentare Generală a Integrării",
+      "logic": "Logica Interacțiunii",
+      "spec": "Specificația API",
+      "ts_def": "Definiția TypeScript",
+      "examples": "Exemplu de Comunicare",
+      "security": "Autentificare de Securitate"
+    },
+    "hero": {
+      "badge": "Specificație API v2.3",
+      "title": "API de Autentificare",
+      "subtitle": "Interfață de Interogare a Atributelor (GET)",
+      "desc": "Printr-o interfață standardizată de interogare GET, moonpacket preia activ 'regulile de recompensă' și 'atributele utilizatorului' de la serverul dumneavoastră. Toate judecățile logice sunt gestionate de moonpacket.",
+      "cta_docs": "Vizualizați specificația",
+      "cta_key": "Întoarce Litepaper"
+    },
+    "content": {
+      "overview": {
+        "title": "Acces Configurare",
+        "desc": [
+          "Când selectați 'API personalizat' în setările 'Condiții de revendicare' ale moonpacket, vă rugăm să furnizați URL-ul dvs. Endpoint.",
+          "**Metodă**: Vă rugăm să folosiți `GET`",
+          "**Tip-Content**: `application/json`",
+          "**Autentificare**: Informațiile de autentificare vor fi transmise complet prin Header (`X-API-KEY` și `Signature`), iar URL-ul nu va conține informații sensibile."
+        ]
+      },
+      "logic": {
+        "title": "Logica interacțiunii",
+        "desc": "Întregul proces este împărțit în două faze: 'Faza de Configurare' și 'Faza de Execuție'. moonpacket va trimite cereri către API-ul tău folosind metoda GET:",
+        "modes": [
+          {
+            "title": "Faza 1: Definirea Regulilor (Configurație)",
+            "trigger": "Eveniment declanșator: când URL-ul este completat în 'Configurarea condițiilor de revendicare' și trimis",
+            "request": "GET",
+            "response": "Returnează obiectul definit de regulă cu operatori (gt, eq, lt...)"
+          },
+          {
+            "title": "Faza 2: Validarea Utilizatorului (Runtime)",
+            "trigger": "Declanșarea evenimentului: când utilizatorul încearcă să revendice Red Packet",
+            "request": "GET ?user_id=...",
+            "response": "Returnează valoarea atributului efectiv a acelui utilizator specific (valoare simplă sau șir)"
+          }
+        ],
+        "note": "Operatori suportati: `eq` (egal, suportă șiruri/numerice), `gt` (mai mare decât), `gte` (mai mare decât sau egal cu), `lt` (mai mic decât), `lte` (mai mic decât sau egal cu). Valorile pentru operatorii non-`eq` trebuie să fie numere.",
+        "steps": {
+          "step1_label": "Pasul Unu",
+          "step2_label": "Pasul Doi"
+        }
+      },
+      "diagram": {
+        "user": "Utilizator",
+        "moonpacket": "moonpacket",
+        "dev_api": "API-ul tău",
+        "step1": "1. În timpul configurării: Regulile de recuperare (GET)",
+        "step2": "2. În timpul revendicării: Verificare statut (GET)",
+        "click": "Apasă pentru a revendica",
+        "check": "Potrivire logică (local)",
+        "grant": "Distribuie Recompense",
+        "reject": "Notificare de Calificare",
+        "client_app": "Client / Server",
+        "json_data": "JSON data",
+        "saved_rule": "Reguli stocate:",
+        "user_state": "Starea utilizatorului:"
+      },
+      "spec": {
+        "title": "Specificația Interfeței (Specificație)",
+        "request": {
+          "title": "Parametrii de solicitare (Parametrii de interogare)",
+          "headers": [],
+          "query": [
+            "**api_key** (necesar): Cheia API pe care ați configurat-o pentru identificare",
+            "**user_id** (opțional): Returnează atributele utilizatorului când sunt prezente; returnează definițiile regulilor când sunt absente"
+          ]
+        },
+        "ts_def": {
+          "title": "Definiția structurii de date (TypeScript)",
+          "desc": "Interfața următoare definește structura JSON care trebuie returnată pentru ca instrumentele asistate de AI să poată citi:"
+        }
+      },
+      "scenarios": {
+        "title": "Scenarii de Aplicație",
+        "items": [
+          {
+            "title": "Integrarea GameFi",
+            "desc": "Definiți regula `level >= 10`. Când utilizatorul revendică, moonpacket verifică atributele utilizatorului, dacă `level: 12` atunci este aprobat."
+          },
+          {
+            "title": "Recompensă pentru legarea identității",
+            "desc": "Define regula `kyc == true`. moonpacket verifică starea utilizatorului, iar dacă aceasta returnează `kyc: true`, atunci recompensele sunt distribuite."
+          },
+          {
+            "title": "Filtrarea listei negre",
+            "desc": "Definiți regula `is_blacklist == false`. Dacă API-ul returnează `is_blacklist: true`, revendicarea este respinsă."
+          }
+        ]
+      },
+      "examples": {
+        "title": "Exemplu de comunicare (cerere GET)",
+        "mode_a": {
+          "title": "1. Definiți Regulile (Configurare)",
+          "desc": "Când trimiteți setările, returnați JSON care conține operatori."
+        },
+        "mode_b": {
+          "title": "2. Stare Cerere (Runtime)",
+          "desc": "Când utilizatorul revendică, returnați valori sau șiruri pure."
+        }
+      },
+      "signature": {
+        "title": "Validare de Securitate",
+        "desc": "Pentru a asigura autenticitatea cererilor, moonpacket va include o semnătură în antet. Puteți consulta codul din dreapta pentru validare:",
+        "required_headers": "Antete necesare",
+        "algo_title": "Algoritm de semnare",
+        "headers": {
+          "key": "X-API-KEY",
+          "ts": "X-API-TIMESTAMP",
+          "nonce": "X-API-NONCE",
+          "sig": "X-API-SIGNATURE"
+        },
+        "algo": "HMAC-SHA256",
+        "formula": "Semnătură = HMAC_SHA256(secret, corp + timestamp + nonce)",
+        "steps": [
+          "1. Extrage Timestamp, Nonce, Semnătura din Antete",
+          "2. Verificați dacă Timestamp-ul se încadrează într-un interval de timp rezonabil (de exemplu, ±5 minute)",
+          "3. Concatenează șirul: RequestBody + Timestamp + Nonce",
+          "4. Calculați HMAC-SHA256 folosind Secretul dumneavoastră",
+          "5. Compară rezultatul calculat cu Semnătura din Antet"
+        ]
+      },
+      "reliability": {
+        "title": "Notă",
+        "items": [
+          "**Timeout**: Asigurați-vă că API-ul poate returna rezultate în **3 secunde**.",
+          "**Format**: Vă rugăm să respectați cu strictețe structura JSON, altfel va duce la eșecul analizei."
+        ]
+      },
+      "error_codes": {
+        "title": "Coduri de Status",
+        "items": [
+          {
+            "code": "200",
+            "status": "OK",
+            "desc": "Cerere reușită"
+          },
+          {
+            "code": "400",
+            "status": "Bad Request",
+            "desc": "Eroare parametrului cererii (de exemplu, format incorect)."
+          },
+          {
+            "code": "401",
+            "status": "Unauthorized",
+            "desc": "Header-ul de autorizare lipsă sau cheia este invalidă."
+          },
+          {
+            "code": "403",
+            "status": "Forbidden",
+            "desc": "Restricție IP sau acces neautorizat la resursă."
+          },
+          {
+            "code": "404",
+            "status": "Not Found",
+            "desc": "ID Utilizator nu există (pentru scenariile de interogare a stării utilizatorului)."
+          },
+          {
+            "code": "500",
+            "status": "Server Error",
+            "desc": "Eroare internă a serverului."
+          }
+        ]
+      },
+      "disclaimer": {
+        "title": "Declarație de declinare a responsabilității API de terță parte",
+        "text": "Metodele de integrare pentru platformele terțe menționate în acest document sunt doar pentru referință. Dezvoltatorii ar trebui să consulte și să respecte cea mai recentă documentație oficială pentru dezvoltatori a platformei."
+      }
+    },
+    "labels": {
+      "request": "Solicitați conținutul",
+      "response": "Întoarce rezultatul",
+      "code": "Cod de status",
+      "status": "Stare",
+      "desc": "Descriere"
+    }
+  },
+  "whitepaper": {
+    "title": "$moonini Whitepaper",
+    "description": "Înțelegerea filozofiei de design, modelului economic și arhitecturii tehnice a tokenului $moonini",
+    "seo": {
+      "title": "$moonini Whitepaper — moonpacket",
+      "description": "Descriere completă a Tokenomics-ului $moonini, Arhitectura Tehnică și Mecanismul de Guvernanță"
+    },
+    "hero": {
+      "subtitle": "$moonini este tokenul de stimulare a comunității bazat pe platforma moonpacket. Cu cât mai mulți utilizatori se implică și interacționează pe moonpacket, cu atât mai mult $moonini pot câștiga. Pentru investitori, 90% este distribuit utilizatorilor, iar 10% echipei, reducând efectiv riscul prăbușirii pieței în combinație cu mecanismul de reducere și eliberarea liniară.",
+      "cards": {
+        "user": {
+          "title": "Pentru Utilizatori Generali",
+          "description": "Câștigați ușor $moonini prin trimiterea de Red Packets, finalizarea de sarcini și invitarea prietenilor. Cu cât folosiți mai mult, cu atât câștigați mai mult, complet gratuit."
+        },
+        "investor": {
+          "title": "Pentru Investitori",
+          "description": "Cantitate totală 10B, distribuție 90/10, reducere în 6 faze, alocarea echipei eliberare liniară, proiectat pentru stabilitate pe termen lung, reducând riscul prăbușirii pieței."
+        },
+        "developer": {
+          "title": "Pentru Dezvoltatori/Parteneri",
+          "description": "Contracte standardizate, API deschis, pot fi integrate în alte aplicații sau jocuri. Vă rugăm să consultați documentația tehnică pentru specificații tehnice detaliate."
+        }
+      }
+    },
+    "toc": {
+      "title": "Cuprins"
+    },
+    "sections": {
+      "overview": "1. Prezentare Generală a Proiectului",
+      "tokenomics": "2. Tokenomics",
+      "architecture": "Trei, Arhitectură Tehnică",
+      "emission": "Patru, Mecanism de Eliberare",
+      "governance": "Cinci, Guvernanță și Securitate",
+      "incentives": "Șase, Sistem de Stimulare pentru Utilizatori",
+      "developer": "Șapte, Ghid pentru Dezvoltatori",
+      "roadmap": "8. Plan de Acțiune",
+      "risks": "9. Avertisment de Risk",
+      "faq": "Zece, Probleme de Confirmat"
+    },
+    "content": {
+      "overview": {
+        "what_is": [
+          "**$moonini** este tokenul ecosistemului platformei moonpacket, utilizat pentru a recompensa utilizatorii pentru comportamentele active pe platformă, inclusiv:",
+          "- Trimiterea de Red Packet",
+          "- Invitând prieteni",
+          "- Finalizarea sarcinilor",
+          "- Participarea la activitățile comunității",
+          "",
+          "**În termeni simpli**: Cu cât folosești mai mult moonpacket, cu atât vei câștiga mai mult $moonini."
+        ],
+        "core_values": {
+          "title": "Valori fundamentale",
+          "values": [
+            "- ✅ **Decentralizare**: Bazat pe Binance Smart Chain (BSC), toate tranzacțiile sunt transparente și verificabile, fără a fi necesară încrederea în terțe părți.",
+            "- ✅ **Distribuție Echitabilă**: 90% din tokenuri sunt distribuite prin activități ale utilizatorilor, 10% rezervate pentru echipă și investitori, asigurând prioritatea comunității.",
+            "- ✅ **Eliberare Graduală**: Adoptă un mecanism de reducere în 6 etape, încurajând participanții timpurii să câștige mai mult pe măsură ce se alătură mai devreme.",
+            "- ✅ **Sigur și Fiabil**: Folosește biblioteci de contracte standard auditoriate, toate operațiunile majore necesită confirmări cu semnătură multiplă, planificând pentru auditurile de securitate ale terților."
+          ]
+        }
+      },
+      "tokenomics": {
+        "info": {
+          "title": "2.1 Informații de Bază despre Token",
+          "description": [
+            "| Element | Valoare | Descriere |",
+            "|------|------|------|",
+            "| **Nume Token** | moonini | Nume complet |",
+            "| **Simbol Token** | MOONINI | Simbol de tranzacționare |",
+            "| **Ofertă Totală** | 10.000.000.000 tokeni (10B) | Ofertă totală fixă, niciodată inflaționară |",
+            "| **Locuri Zecimale** | 18 | Standard BSC |",
+            "| **Blockchain** | Binance Smart Chain (BSC) | Standard BEP-20 |"
+          ]
+        },
+        "allocation": {
+          "title": "2.2 Planul de Alocare",
+          "description": [
+            "**Suma Totală: 10.000.000.000 tokeni (10 miliarde)**",
+            "",
+            "**Principiile de Alocare**:",
+            "- **90% către Comunitate & Lichiditate**:",
+            "- Include partea de \"minare\" generată prin Red Packets și sarcini, precum și partea de \"lichiditate\" folosită pentru a stabili perechi de tranzacționare inițiale (echipa de proiect introduce inițial 10.000 USDT ca pool pentru a asigura valoarea la lansare).",
+            "- Această parte este complet returnată participanților din ecosistem, fără rezerve pentru instituții sau plasamente private.",
+            "",
+            "- **10% către Echipa & Susținătorii Timpurii**:",
+            "- **4% Investitori Timpurii**: Recompense pentru suportul financiar timpuriu.",
+            "- **2% Echipa Tehnică**: Asigură dezvoltarea și întreținerea continuă a protocolului.",
+            "- **Echipa de Operațiuni de 2%**: Responsabilă de gestionarea comunității și planificarea evenimentelor.",
+            "- **2% Marketing și Stabilitate a Ecosistemului**: Promovarea creșterii pieței și menținerea stabilității ecosistemului în condiții extreme ca fond de rezervă.",
+            "",
+            "**Angajamentul de Guvernanță**:",
+            "Implementăm cele mai stricte controale interne ale fondurilor. Toate alocările echipei și cheltuielile operaționale sunt supuse restricțiilor de **Multisig** și **Timelock**. Nici o persoană singulară nu poate accesa liber fondurile, asigurându-se că fiecare cheltuială este realizată printr-o decizie colectivă și este public transparentă."
+          ]
+        },
+        "phase": {
+          "title": "2.3 Mecanismul de Împărțire în 6 Faze",
+          "description": [
+            "Pentru a încuraja participanții timpurii, distribuția tokenului adoptă un mecanism de 'împărțire progresivă':",
+            "",
+            "| Faza | Intervalul Cantității Emise | Rata de Răscumpărare (per 1 USDT) | Descriere |",
+            "|------|------------|---------------------|------|",
+            "| **Faza 1** | 0 ~ 4.5B | **1.0 token** | Participanți timpurii, schimb 1:1 |",
+            "| **Faza 2** | 4.5B ~ 6.75B | **0.5 token** | Împărțit |",
+            "| **Faza 3** | 6.75B ~ 7.875B | **0.25 token** | Împărțit din nou |",
+            "| **Faza 4** | 7.875B ~ 8.4375B | **0.125 token** | Continuându-se împărțirea |",
+            "| **Faza 5** | 8.4375B ~ 8.71875B | **0.0625 token** | Aproape de final |",
+            "| **Faza 6** | 8.71875B ~ 9B | **0.03125 token** | Faza finală |",
+            "",
+            "**Exemplu**:",
+            "- În Faza 1, dacă trimiteți un Red Packet de 100 USDT, puteți primi 100 $moonini",
+            "- În Faza 2, dacă trimiteți un Red Packet de 100 USDT, puteți primi doar 50 $moonini",
+            "- Cu cât participați mai devreme, cu atât mai multe tokenuri primiți!"
+          ],
+          "value_logic": [
+            "💡 Filosofia și Ciclu de Valoare al Red Packet",
+            "",
+            "**Spiritul Red Packet este 'Dăruire' și 'Conexiune'**:",
+            "Originând din cultura estică, Red Packet reprezintă nu doar transferul de fonduri, ci și dragostea de la bătrâni către tineri, felicitări și împărtășire între prieteni. La moonpacket, fiecare dată când trimiteți un Red Packet este o interacțiune socială caldă.",
+            "",
+            "**De la Comportamentul Social la Valoarea Economică**:",
+            "Credem că aceste acte de bunăvoință ar trebui să fie înregistrate și valorizate. $moonini nu este doar un token de recompensă; este purtătorul de valoare al acestei rețele sociale, generând efecte economice pe termen lung din fiecare 'dăruire'.",
+            "",
+            "**Sprijinul Valorii Reale**:",
+            "Pentru a menține stabilitatea acestei valori sociale, protocolul specifică: **50% din venitul din comisionul de tranzacție va fi injectat automat în Pool-ul de Lichiditate**.",
+            "",
+            "Aceasta înseamnă: cu cât comunitatea este mai activă ➔ cu atât mai multe interacțiuni Red Packet ➔ cu atât mai multe fonduri injectate în pool-ul de lichiditate ➔ cu atât mai solidă baza de valoare a $moonini. Acesta este un ciclu pozitiv bazat pe nevoile sociale reale și veniturile comerciale, mai degrabă decât o simplă speculație de jocuri de noroc."
+          ]
+        }
+      },
+      "architecture": {
+        "blockchain": {
+          "title": "3.1 Selectarea Blockchain-ului: Binance Smart Chain (BSC)",
+          "why": [
+            "**De ce să alegi BSC?**",
+            "",
+            "| Avantaj | Descriere |",
+            "|------|------|",
+            "| ✅ **Taxe mici** | Costul mediu al tranzacției $0.1-$0.5, mult mai mic decât Ethereum |",
+            "| ✅ **Confirmare rapidă** | Timp mediu de confirmare de 3 secunde pentru o experiență fluidă |",
+            "| ✅ **Ecosistem Matur** | Instrumente DeFi bogate cu un număr mare de utilizatori |",
+            "| ✅ **Compatibil EVM** | Poate reutiliza resursele ecosistemului Ethereum |",
+            "| ✅ **Adoptarea portofelului** | Portofelele de masă, cum ar fi MetaMask, Trust Wallet, sunt suportate |"
+          ]
+        },
+        "contracts": {
+          "title": "3.2 Arhitectura Contractului Inteligent",
+          "description": [
+            "Folosim standarde de contracte inteligente verificate de industrie pentru a asigura securitatea și fiabilitatea token-urilor.",
+            "",
+            "**Principiile de bază ale designului**:",
+            "- **Decentralizat**: Toate mecanismele de emitere și eliberare a token-urilor sunt executate automat prin contracte inteligente, fără a necesita intervenția umană.",
+            "- **Transparent și Ușor de Urmărit**: Toate înregistrările operaționale sunt stocate pe blockchain, accesibile de către oricine.",
+            "- **Securizat și Fiabil**: Utilizând o bibliotecă de contracte standard auditate de terță parte pentru a asigura calitatea și securitatea codului.",
+            "",
+            "**Funcții principale**:",
+            "- **Emisiunea de Tokenuri**: Emiterea și transferul de tokenuri în conformitate cu standardele BSC.",
+            "- **Eliberare Automată**: Gestionează eliberarea treptată (6 etape de reducere) a 90% din tokenurile emise public.",
+            "- **Blocarea Echipei**: Managementul alocării de 10% din echipă pentru blocare și eliberare liniară",
+            "- **Mecanism de guvernare**: Toate operațiunile importante necesită confirmarea prin semnătura multiplă, cu o perioadă de așteptare de 48 de ore pentru a permite comunității să revizuiască.",
+            "- **Răscumpărare Automată**: Taxele platformei sunt utilizate automat pentru a răscumpăra tokenuri, sporind lichiditatea",
+            "",
+            "**Măsuri de Securitate**:",
+            "- Utilizează o bibliotecă de contracte standard auditată de terți pentru a asigura calitatea și securitatea codului",
+            "- Toate operațiunile importante necesită confirmarea prin multi-semnătură, cu o perioadă de răcire de 48 de ore pentru a permite comunității să revizuiască",
+            "- Tehnologie avansată de autentificare utilizată în timpul retragerilor utilizatorului pentru a se asigura că doar utilizatorul poate opera.",
+            "- Folosește un mecanism de prevenire a atacurilor de tip replay pentru a proteja fondurile utilizatorilor",
+            "- Planificați să supuneți auditurilor de securitate efectuate de terți (CertiK / PeckShield / SlowMist)",
+            "",
+            "*Pentru specificații tehnice detaliate, interfețe de contract și definiții de funcții, vă rugăm să consultați: [Documentul de Specificații Tehnice](/ro-RO/docs/technical)*"
+          ]
+        }
+      },
+      "emission": {
+        "public": {
+          "title": "4.1 Ofertă Publică (90%)",
+          "initial_liquidity": [
+            "**Lichiditate Inițială**:",
+            "- Avansați o parte din token-urile din trezoreria ofertei publice de 90% pentru a stabili pool-ul inițial de lichiditate cu USDT",
+            "- Asigurați-vă că jetoanele pot fi tranzacționate în mod normal după ce sunt online, oferind asigurări de lichiditate investitorilor",
+            "- Sumele specifice vor fi anunțate înainte de lansarea mainnet-ului"
+          ],
+          "launch_protection": [
+            "**Deschiderea Mecanismului Anti-Snipe**:",
+            "- **Limita de Achiziție Unică**: Cu 30 de minute înainte de deschidere, un singur portofel poate cumpăra doar 0,5% sau 1% din suma totală",
+            "- **Protejați micii investitori de retail**: Preveniți faptul că marii deținători să ia toată lichiditatea când se deschide piața",
+            "- **Fereastra de Timp**: Se va ridica automat după 30 de minute, fără a afecta tranzacționarea normală",
+            "- **Menține Stabilitatea Prețului**: Evită fluctuațiile bruște de preț la deschidere"
+          ],
+          "release_methods": [
+            "**Metoda de Lansare**: Lansare treptată prin activitățile utilizatorilor",
+            "",
+            "**Surse de Lansare**:",
+            "1. **Trimite Red Packet**: De fiecare dată când se trimite 1 USDT Red Packet, primești $moonini corespunzător în funcție de faza actuală",
+            "2. **Invită prieteni**: Invită cu succes utilizatori noi și finalizează sarcinile de partajare pentru a primi $moonini",
+            "3. **Finalizați Sarcinile**: Finalizați sarcinile de realizare, sarcinile sociale etc., pentru a câștiga $moonini suplimentar",
+            "4. **Împărțirea profitului pentru proprietarii grupurilor**: Proprietarii grupurilor pot primi un procent de 3% din profit (USDT) pentru trimiterea de Red Packets între grupuri"
+          ],
+          "cost_vs_price": [
+            "💡 **Costul de producție vs Prețul de piață**:",
+            "",
+            "În Faza 1, costul implicit de obținere a 1 $moonini prin mineritul Red Packet este de aproximativ **0,02 USDT** (bazat pe o taxă de tranzacție de 2%).",
+            "",
+            "Prețul nostru inițial de listare este **0.01 USDT**.",
+            "",
+            "Aceasta înseamnă că **costul achiziției pe piața secundară este cu 50% mai mic decât costul de producție**, oferindu-le deținătorilor timpurii o marjă de siguranță naturală."
+          ],
+          "withdraw_mechanism": [
+            "**Mecanism de Retragere**:",
+            "- După ce utilizatorii câștigă $moonini pe platformă, pot să-l retragă în portofelul lor printr-un mecanism de verificare a identității sigur.",
+            "- Sistemul va verifica pe baza istoricului de activitate al utilizatorului pentru a se asigura că doar utilizatorul poate opera",
+            "- Odată verificat, utilizatorii pot retrage token-urile lor în portofelul lor",
+            "- **Pragul Minim de Retragere**: 10 $moonini",
+            "- **Taxa de tranzacție**: Utilizatorii trebuie să plătească doar taxa de tranzacție a rețelei (în conformitate cu practicile blockchain)",
+            "",
+            "*Pentru implementarea tehnică detaliată, vă rugăm să consultați: [Documentul de specificații tehnice](/ro-RO/docs/technical)*"
+          ],
+          "phase_switch": [
+            "**Comutarea fazelor**:",
+            "- Comută automat la următoarea fază când suma emisă atinge pragul fazei",
+            "- Procesul de comutare este transparent și ușor de urmărit, înregistrat pe lanț"
+          ]
+        },
+        "team": {
+          "title": "4.2 Cota Echipei (10%)",
+          "vesting_rules": [
+            "**Regulile de Blocare și Eliberare**:",
+            "",
+            "| Categoria | Proporție | Perioada de blocare (Cliff) | Perioada de eliberare liniară | Durata totală |",
+            "|------|------|---------------|-----------|--------|",
+            "| **Operațiuni** | 2% (200M) | 3 luni | 45 luni | 48 luni |",
+            "| **Echipa Tehnică** | 2% (200M) | 3 luni | 45 luni | 48 luni |",
+            "| **Relații Publice/Marketing** | 2% (200M) | 3 luni | 45 luni | 48 luni |",
+            "| **Investitori Timpurii** | 4% (400M) | 3 luni | 33 luni | 36 luni |",
+            "",
+            "**Metodă de Lansare**:",
+            "- **Accumulare liniară**: Token-urile se acumulează liniar în timp, iar suma disponibilă pentru retragere poate fi verificată oricând.",
+            "- **Lansări Regulate**: Triggers automate regulate pentru lansare fără a necesita operare manuală.",
+            "- **Mecanism de Notificare**: Notificări automate trimise beneficiarilor după finalizarea fiecărei eliberări.",
+            "",
+            "**Exemplu**:",
+            "- Investitorul A primește 1.000.000 $moonini",
+            "- Primele 3 luni: Perioada de blocare, retragerile nu sunt permise",
+            "- Începând cu luna a 4-a: tokenurile se acumulează liniar în timp, cu retrageri regulate ale porțiunii acumulate",
+            "- După 33 de luni: Toate lansările finalizate."
+          ]
+        },
+        "kyc": {
+          "title": "4.3 KYC-ul investitorului și managementul",
+          "methods": [
+            "**Metoda KYC** (pentru un număr limitat de investitori inițiali):",
+            "",
+            "1. **Echipa Fondatoare KYC cu Nume Real** (Recomandat, potrivit pentru scară mică)",
+            "- Potrivit pentru un număr inițial mai mic de investitori (< 10 persoane)",
+            "- Membrii echipei fondatoare (Operațiuni + Tehnic) desfășoară interviuri video cu investitorii",
+            "- Verificați documentele de identitate, dovada adresei și alte materiale",
+            "- Confirmați prin semnătura electronică PDF (DocuSign/SignNow)",
+            "- **Avantaje**: Cost redus, proces flexibil, construiește încredere",
+            "",
+            "2. **Shufti Pro** (Potrivit pentru scară medie)",
+            "- Potrivit pentru un număr moderat de investitori (10-50 de persoane)",
+            "- 10 sloturi de verificare gratuite pe lună (potrivite pentru utilizare inițială)",
+            "- Proces automatizat, suportă verificarea documentelor în mai multe țări.",
+            "- **Avantaje**: Automatizare, conformitate ridicată, suportă documentația multițară.",
+            "",
+            "3. **Alte KYC ale Părților Terțe** (Extindere viitoare)",
+            "- Persona / Sumsub / Onfido ca alternative",
+            "- Potrivit pentru un număr mai mare de investitori (> 50 de persoane)"
+          ],
+          "flexibility": [
+            "**Design flexibil pentru investitori**:",
+            "",
+            "**Suport pentru mai multe portofele și diferite proporții**:",
+            "- Un investitor poate avea multiple portofele pentru a primi token-uri.",
+            "- Fiecare portofel poate stabili diverse proporții de alocare (de exemplu, 60% / 40%).",
+            "- Investitorii diferiți pot avea diferite momente de intrare.",
+            "",
+            "**Mecanism de Înlocuire a Portofelului (Strategie de Anulare și Reemitere)**:",
+            "- Investitorii pot schimba portofelul de primire (necesită verificare re-KYC).",
+            "- **Logica de bază**: În loc să modifici direct vechiul portofel, revocă vechiul plan de lansare și creează un nou plan de lansare pentru noul portofel.",
+            "- **Proces**:",
+            "1. Investitorii raportează pierderea/furtul portofelelor lor vechi și finalizează verificarea KYC off-chain.",
+            "2. Printr-o propunere de portofel multi-semnătură, revocați vechiul plan de lansare și returnați tokenurile neemise.",
+            "3. Creați un nou plan de versiune pentru noul portofel, cu suma reprezentând porțiunea rămasă și timpul fiind durata rămasă.",
+            "4. Toate operațiunile au o confirmare de întârziere de 48 de ore pentru a asigura transparența și securitatea.",
+            "- **Avantaje**: Logica contractului este mai simplă (doar creare și revocare), reducând semnificativ riscul de hacking.",
+            "- Afectează doar porțiunea 'nerelansată'; token-urile lansate nu pot fi răsturnate."
+          ]
+        }
+      },
+      "governance": {
+        "mechanism": {
+          "title": "5.1 Mecanism de guvernanță",
+          "core_principle": [
+            "**Principiul de bază**: **Nici o autoritate supremă**, toate operațiunile importante trebuie să treacă printr-o revizuire publică întârziată",
+            "",
+            "**Proces de Guvernanță**:",
+            "1. **Propunere**: Propunere de guvernare stabilită după aprobarea portofelului multi-semnătură",
+            "2. **Perioadă de Revizuire**: Intrați în coada de întârziere de 48 de ore, toate acțiunile sunt vizibile public pe blockchain",
+            "3. **Execuție**: Propunerile pot fi executate după ce expiră întârzierea",
+            "4. **Anulare**: În perioada de revizuire, propunătorul poate anula propunerea",
+            "",
+            "**Elemente guvernabile**:",
+            "- Ajustări de parametru (taxe de tranzacție, limite de răscumpărare etc.)",
+            "- Alocări de fonduri (cotele pentru faza următoare, bugetele pentru evenimente etc.)",
+            "- Upgrade-uri de contract (trebuie să treacă auditul)"
+          ]
+        },
+        "security": {
+          "title": "5.2 Măsuri de Securitate",
+          "description": [
+            "**Protecție Multi-strat**:",
+            "1. **Portofel Multi-semnătură**: Toate operațiunile importante necesită cel puțin 2 semnături pentru confirmare",
+            "2. **Execuție întârziată**: Toate operațiunile cu risc ridicat necesită o întârziere de 48 de ore",
+            "3. **Audit**: Prin intermediul auditurilor de securitate efectuate de terți",
+            "4. **Cod sursă deschisă**: Codul contractului este sursă deschisă și poate fi verificat public.",
+            "",
+            "**Managementul Permisiunilor**:",
+            "- **Autoritatea de Emitere a Token-urilor**: Revocată sau transferată către trezoreria de guvernanță, nu poate emite token-uri la voință.",
+            "- **Autoritatea de Înghețare**: Închisă, nu poate îngheța tokenurile utilizatorului.",
+            "- **Actualizare autoritate**: Doar adresa de guvernare poate modifica informațiile despre token."
+          ]
+        },
+        "pol": {
+          "title": "5.3 Răscumpărare și Formare a Pieței (POL - Răscumpărare nelimitată + Apărare a Prețului Minim)",
+          "mechanism": [
+            "**Mecanism**:",
+            "- **1%** din comisioanele de tranzacție ale platformei sunt folosite pentru a răscumpăra $moonini și a adânci piscina de lichiditate",
+            "- **Răscumpărare nelimitată**: Nici o limită zilnică pentru răscumpărări; la fel de multe taxe de tranzacție câte sunt, răscumpărările continuă să ofere suport de lichiditate pentru token.",
+            "- **Strategia Automatizată**: Utilizarea strategiilor de răscumpărare inteligentă pentru a reduce predictibilitatea și a evita manipularea pieței",
+            "- **Cumpără Protecție**: Crește automat eforturile de răscumpărare atunci când există o scădere semnificativă a pieței, protejând interesele investitorilor"
+          ],
+          "floor_defense": [
+            "**Apărarea Prețului de Podea**:",
+            "- **Nivelul Psihologic al Prețului**: 0.01 USDT",
+            "- **Apărare Automată**: Când prețul scade sub pragul de apărare, modul de apărare se activează automat, sporind eforturile de răscumpărare",
+            "- **Crearea Automată a Pieței**: Crearea automată a pieței pe baza contractelor inteligente, fără a necesita intervenție manuală, asigurând stabilitatea pieței",
+            "- **Economisiți la comisioanele Market Maker**: Utilizați bugetul pentru emiterea de Red Packets, marketing sau creșterea lichidității inițiale"
+          ],
+          "philosophy": [
+            "**Filosofia Designului**:",
+            "- Bariere de intrare reduse, randamente mari din teoria jocurilor",
+            "- Proiectul de partide nu interferează cu piața (oferă doar răscumpărări de taxe de tranzacție)",
+            "- Modelul Pure SocialFi",
+            "- Menține în mod automat nivelul psihologic al prețului pentru a susține încrederea pe piață",
+            "",
+            "*Pentru parametrii tehnici detaliați și strategiile de implementare, vă rugăm să consultați: [Documentul de Specificații Tehnice](/ro-RO/docs/technical)*"
+          ]
+        },
+        "kyc": {
+          "title": "4.3 KYC pentru investitori și gestionare",
+          "methods": [
+            "**Metode KYC** (pentru un număr mic de investitori inițiali):",
+            "",
+            "1. **KYC pentru Persoane Reale din Echipa Fondatoare** (recomandat, potrivit pentru o scară mică)",
+            "- Potrivit pentru investitori inițiali mai puțini (< 10 persoane)",
+            "- Interviuri video între membrii echipei fondatoare (operațiuni + tehnologie) și investitori",
+            "- Verificarea documentelor de identificare, a dovezilor de adresă și a altor documente",
+            "- Confirmare prin semnătură electronică PDF (DocuSign/SignNow)",
+            "- **Avantaje**: Cost redus, procese flexibile, poate construi relații de încredere",
+            "",
+            "2. **Shufti Pro** (potrivit pentru scară medie)",
+            "- Potrivit pentru un număr moderat de investitori (10-50 de persoane).",
+            "- 10 credite de verificare gratuite pe lună (potrivit pentru utilizare inițială).",
+            "- Procese automatizate, care sprijină verificarea documentelor în mai multe țări",
+            "- **Avantaje**: Automatizare, conformitate ridicată, suport pentru documente în mai multe țări",
+            "",
+            "3. **Alte KYC-uri de la Terți** (expansiune viitoare)",
+            "- Persona / Sumsub / Onfido ca alternative",
+            "- Potrivit pentru un număr mai mare de investitori (> 50 de persoane)"
+          ],
+          "flexibility": [
+            "**Design flexibil pentru investitori**:",
+            "",
+            "**Suport pentru mai multe portofele și diferite proporții**:",
+            "- Un investitor poate avea multiple portofele pentru a primi token-uri.",
+            "- Fiecare portofel poate fi configurat cu diferite proporții de alocare (de exemplu, 60% / 40%).",
+            "- Diferite investitori pot avea momente de intrare diferite.",
+            "",
+            "**Mecanism de Schimbare a Portofelului (Strategia de Revocare și Reemitere)**:",
+            "- Investitorii pot schimba portofelul de primire (acest lucru necesită verificare re-KYC).",
+            "- **Logica de bază**: În loc să modifici direct vechiul portofel, revocă vechiul plan de lansare și creează un nou plan de lansare pentru noul portofel.",
+            "- **Proces**:",
+            "1. Investitorul raportează pierderea/furtul unui portofel vechi și finalizează verificarea KYC off-chain.",
+            "2. Printr-o propunere de portofel multi-semnătură, revocați vechiul plan de lansare și returnați tokenurile neeliberate.",
+            "3. Creați un nou plan de lansare pentru noua wallet, cu suma fiind porțiunea rămasă și timpul fiind durata rămasă.",
+            "4. Toate operațiunile sunt supuse unei confirmări cu întârziere de 48 de ore pentru a asigura transparența și securitatea.",
+            "- **Avantaje**: Logica contractului este mai simplă (doar creare și revocare), reducând semnificativ riscurile de hacking.",
+            "- Afectează doar porțiunea \"nerelease\"; tokenurile deja lansate nu sunt recuperabile."
+          ]
+        }
+      },
+      "incentives": {
+        "how_to_earn": {
+          "title": "6.1 Cum să obțineți $moonini?",
+          "send_gift": [
+            "#### A. Trimiterea Red Packet-urilor",
+            "",
+            "- **Reguli de bază**: Pentru fiecare **echivalent de 1 USDT** red packet trimis (susține mai multe tokenuri), sistemul va calcula și va distribui $moonini pe baza ratei de schimb actuale a phase-ului.",
+            "- **Transmiterea binecuvântărilor**: Red Packet nu sunt doar bani; ele sunt un mijloc de transmitere a binecuvântărilor. Fiecare act de dăruire va fi înregistrat pe blockchain și recompensat."
+          ],
+          "invite": [
+            "#### B. Invită prieteni (Partajează Pachete Roșii)",
+            "",
+            "- **Reguli**: Invită noi prieteni și finalizează sarcini de partajare, ambele părți primesc recompense.",
+            "- **Mecanism Anti-Spam**: Pentru a asigura corectitudinea, **fiecare cont are un limita de recompensă pentru invitație**, care va fi ajustată dinamic conform celei mai recente anunțuri de design al jocului din comunitate.",
+            "- **Controlul Riscurilor**: Avem mecanisme stricte de control al riscurilor; orice comportament anormal de spam va fi considerat invalid."
+          ],
+          "quests": [
+            "#### C. Finalizarea Sarcinilor",
+            "",
+            "**Tipuri de Sarcini**:",
+            "- Include sarcini unice de realizare (cum ar fi trimiterea primului red packet) și sarcini sociale (cum ar fi urmărirea comunității oficiale).",
+            "- Aceste sarcini sunt concepute pentru a familiariza noii veniți cu caracteristicile platformei, **fiecare cont poate finaliza o dată sau are o limită totală de cantitate**.",
+            "",
+            "**Scopul designului**:",
+            "- Pentru a preveni automatizarea scriptului de a spama monede, lăsând recompense pentru utilizatorii activi și autentici."
+          ]
+        },
+        "fee_structure": {
+          "title": "6.2 Structura Taxelor",
+          "description": [
+            "**Taxe de tranzacție pentru trimiterea de Red Packet**:",
+            "",
+            "| Scenariul | Taxe totale | Descriere |",
+            "|------|---------|------|",
+            "| **Trimiterea în Grupul Propriu** | 2% | 1% Operațiuni + 1% Răscumpărare |",
+            "| **Trimitere între grupuri** | 5% | 1% Operațiuni + 1% Răscumpărare + 3% Profit din Partajarea Proprietarului Grupului |",
+            "",
+            "**Utilizarea taxelor**:",
+            "- **1% Operațiuni**: Utilizat pentru costurile de server, dezvoltare și marketing.",
+            "- **1% Buyback**: Folosit pentru a răscumpăra $moonini și pentru a adânci LP (va fi realizat în viitor).",
+            "- **3% Profit Sharing pentru Proprietarul Grupului**: Plătit proprietarului grupului (doar perceput pentru trimiterea inter-grup)."
+          ]
+        }
+      },
+      "developer": {
+        "contracts": {
+          "title": "7.1 Adresa Contractului (În Așteptarea Implementării)",
+          "description": [
+            "Odată ce tokenul este lansat oficial, toate adresele smart contract-urilor vor fi anunțate aici, împreună cu linkurile corespunzătoare pentru specificațiile tehnice.",
+            "",
+            "**Mdulele principale ale contractului**:",
+            "- Contract de Token",
+            "- Guvernanță și Control al Întârzierilor",
+            "- Ofertă Publică de Tezaur",
+            "- Alocarea echipei pentru Trezorerie",
+            "- Managementul Buyback",
+            "- Pool de lichiditate",
+            "- Portofel Multi-Signă",
+            "",
+            "*Pentru informații detaliate despre adresele contractelor și specificațiile tehnice, vă rugăm să consultați: [Documentul de Specificații Tehnice](/ro-RO/docs/technical)*"
+          ]
+        },
+        "api": {
+          "title": "7.2 Moduri de Integrare și API (În Planificare)",
+          "intro": [
+            "moonpacket intentionează să ofere un ecosistem API complet, permițând dezvoltatorilor și partenerilor terți să integreze cu ușurință mecanismul de recompense $moonini în produsele lor. Fie că este vorba de un bot Telegram, un joc Web3 sau o platformă de campanie de marketing, API-ul nostru permite utilizatorilor să primească recompense $moonini, extinzând influența ecologică."
+          ],
+          "types": [
+            "**Tipuri de API**:",
+            "",
+            "Plănuim să oferim următoarele tipuri de API-uri pentru a satisface diversele nevoi de integrare:",
+            "",
+            "- **API de citire a datelor**: Interoghează înregistrările de distribuție a Red Packet, starea de finalizare a sarcinilor, soldul utilizatorului $moonini și multe altele, permițând partenerilor să înțeleagă starea activității utilizatorilor.",
+            "",
+            "- **API de Distribuție și Sarcini**: Permite partenerilor să declanșeze distribuții de Red Packet sau recompense pentru sarcini în propriile lor produse, de exemplu, distribuirea automată a recompenselor $moonini atunci când utilizatorii ating anumite repere într-un joc.",
+            "",
+            "- **Evenimente Webhook**: Sistemul notifică proactiv partenerii despre evenimente importante, cum ar fi atunci când utilizatorii finalizează sarcini, revendică Red Packets sau finalizează retrageri, permițând răspunsuri în timp real și sincronizarea datelor."
+          ],
+          "security": [
+            "**Securitate și Permisiuni**:",
+            "",
+            "Pentru a asigura securitatea și stabilitatea API-ului, implementăm următoarele mecanisme:",
+            "",
+            "- **Autentificare API Key**: Fiecare partener va primi o cheie API dedicată sau un ID de aplicație pentru identificare și autorizare.",
+            "",
+            "- **Limitarea Ratelor**: Toate cererile API sunt limitate pentru a preveni abuzul și suprasolicitarea, asigurând stabilitatea serviciului.",
+            "",
+            "- **Verificarea semnăturii**: Operațiunile critice (de exemplu, emiterea recompenselor) necesită verificarea semnăturii cererii pentru a preveni falsificarea și acțiunile neautorizate.",
+            "",
+            "- **Nivelurile de Permisiune**: Partenerii diferiți vor avea niveluri diferite de permisiune API, în funcție de relația de colaborare și nevoile acestora, asigurându-se astfel principiul minimului privilegiu."
+          ],
+          "release": [
+            "**Ritmul de Lansare**:",
+            "",
+            "API-ul va adopta o strategie de deschidere progresivă pentru a asigura stabilitate și siguranță:",
+            "",
+            "- **Beta închisă**: Inițial oferită partenerilor și dezvoltatorilor de jocuri timpurii într-un format de beta închis pentru a colecta feedback și a optimiza experiențele.",
+            "",
+            "- **Deschidere Graduală**: După verificarea stabilității în timpul fazei Beta, aplicațiile se vor deschide treptat pentru a permite mai multor dezvoltatori să integreze ecosistemul $moonini.",
+            "",
+            "- **Lansare Oficială**: Odată ce API-ul atinge stabilitatea la nivel de producție, va fi deschis oficial publicului, oferind documentație completă și suport."
+          ],
+          "scenarios": {
+            "title": "Scenarii tipice de integrare",
+            "items": [
+              "**Telegram Bot / Mini App**: Trimite Red Packets în grupurile sau aplicațiile tale pentru a permite utilizatorilor să primească recompense $moonini, crescând astfel implicarea utilizatorilor.",
+              "",
+              "**Jocuri Web3**: Raportați starea de finalizare a sarcinilor în jocuri către moonpacket, permițând jucătorilor să primească automat recompense suplimentare de $moonini la finalizarea sarcinilor din joc.",
+              "",
+              "**Platforme de Campanie de Marketing**: Trimite automat recompense $moonini pe baza comportamentului utilizatorilor pe rețelele sociale (de exemplu, distribuire, retweet, urmare etc.), realizând marketing precis.",
+              "",
+              "**Protocole DeFi**: Integrați $moonini ca un strat suplimentar de recompense, permițând utilizatorilor să câștige recompense în $moonini pe lângă profiturile originale pentru finalizarea unor acțiuni DeFi specifice.",
+              "",
+              "**Platforme de creare a conținutului**: Emite automat recompense $moonini atunci când creatorii finalizează sarcini specifice sau ating repere, încurajând crearea de conținut de calitate."
+            ]
+          }
+        },
+        "tools": {
+          "title": "7.3 Instrumente pentru dezvoltatori și documentație",
+          "description": [
+            "Pentru a ajuta dezvoltatorii să integreze mai ușor API-ul moonpacket, planificăm să oferim instrumente complete pentru dezvoltatori și documentație:",
+            "",
+            "- **Portal pentru dezvoltatori**: Oferă un punct de intrare unificat pentru dezvoltatori, inclusiv gestionarea cheilor API, statistici de utilizare, jurnale de erori și altele, permițând dezvoltatorilor să-și gestioneze cu ușurință integrațiile.",
+            "",
+            "- **Documentația API**: Oferă documentația completă pentru API REST și Webhook, incluzând exemple de cereri, formate de răspuns, explicații ale codurilor de eroare etc., permițând dezvoltatorilor să înceapă rapid.",
+            "",
+            "- **SDK și Exemple de Cod**: Oferă SDK-uri în mai multe limbi (cum ar fi JavaScript, Python) și exemple de cod pentru a reduce barierele de integrare, permițând dezvoltatorilor să implementeze rapid.",
+            "",
+            "În prezent, documentele tehnice sunt prezentate din centrul de documente (docs) pagina tehnică, incluzând specificațiile contractelor inteligente, mecanismele de distribuție, sistemele de sarcini și alte detalii tehnice. Documentația completă a API-ului va fi organizată pe pagina 《[Documentația API pentru dezvoltatori](/ro-RO/docs/api/)》, iar documentația oficială a API-ului și instrumentele pentru dezvoltatori vor fi lansate treptat în jurul lansării mainnet-ului, așa că vă rugăm să rămâneți atenți."
+          ]
+        }
+      },
+      "roadmap": {
+        "labels": {
+          "current": "În desfășurare",
+          "done": "Finalizat"
+        },
+        "phase1": {
+          "title": "Faza 1: Infrastructură (Finalizată ✅)",
+          "items": [
+            "- [x] Proiectarea contractului de token",
+            "- [x] Documentație tehnică",
+            "- [x] Proiectarea structurii de date"
+          ]
+        },
+        "phase2": {
+          "title": "Faza 2: Dezvoltarea Contractului (În desfășurare 🚧)",
+          "items": [
+            "- [ ] Implementarea contractului token (Testnet)",
+            "- [ ] Contract de management al fazelor",
+            "- [ ] Contract de vesting",
+            "- [ ] Integrarea Timelock",
+            "- [ ] Audit terță parte"
+          ]
+        },
+        "phase3": {
+          "title": "Faza 3: Pregătirea Lansării (Planificată 📅)",
+          "items": [
+            "- [ ] Lansare mainnet",
+            "- [ ] Crearea pool-ului de lichiditate inițial",
+            "- [ ] Lansarea sistemului de stimulente pentru utilizatori",
+            "- [ ] Lansarea tabloului de bord"
+          ]
+        },
+        "phase4": {
+          "title": "Faza 4: Extinderea Ecosistemului (Viitor 🔮)",
+          "items": [
+            "- [ ] Activarea mecanismului de răscumpărare POL",
+            "- [ ] Suport între lanțuri (Polygon / Arbitrum)",
+            "- [ ] Mai multe integrații DeFi"
+          ]
+        }
+      },
+      "risks": {
+        "technical": {
+          "title": "9.1 Riscul Tehnic",
+          "description": [
+            "| Riscuri | Descriere | Măsuri de mitigare |",
+            "|------|------|---------|",
+            "| Vulnerabilități ale contractelor inteligente | Contractul poate avea vulnerabilități necunoscute | Prin audite de către terți, Bug Bounty |",
+            "| Scurgerea cheii private | Cheile private ale administratorului pot fi furate | Utilizați portofele hardware, MPC, semnătură multiplă |",
+            "| Congestie de rețea | Vârfuri de utilizare BSC pot cauza întârzieri | Redundanță multi-node, Optimizare gaz |"
+          ]
+        },
+        "market": {
+          "title": "9.2 Riscul de Piață",
+          "description": [
+            "- **Volatilitatea Prețului**: Prețurile token-urilor pot varia semnificativ.",
+            "- **Riscul de lichiditate**: Lichiditatea inițială poate fi insuficientă",
+            "- **Riscul reglementar**: Politicile de reglementare din diverse țări pot suferi modificări"
+          ]
+        },
+        "notice": {
+          "title": "9.3 Notificare utilizator",
+          "description": [
+            "- ⚠️ **Riscul Investiției**: Prețurile token-urilor pot scădea la zero, vă rugăm să investiți cu precauție",
+            "- ⚠️ **Nu este un sfat de investiție**: Acest document informativ nu constituie un sfat de investiție",
+            "- ⚠️ **Faceți-vă propriile cercetări**: Vă rugăm să cercetați și să evaluați riscurile singuri"
+          ]
+        }
+      },
+      "faq": {
+        "title": "Zece, Probleme de Confirmat",
+        "description": [
+          "Acest document prezintă principiile de design de bază și modelul economic al $moonini. Următoarele aspecte sunt încă în coordonare cu consilierii și partenerii și vor fi finalizate înainte de lansarea mainnet-ului:",
+          "",
+          "- **Timpul de Emitere a Token-ului și Bursele de Listare**: Timpul specific de emitere și dacă va fi listat pe burse centralizate (CEX) sunt încă în coordonare cu consilierii și partenerii.",
+          "",
+          "- **Detalii Tehnice**: Unele detalii de implementare tehnică (cum ar fi suportul cross-chain și ajustările parametrilor strategiei de răscumpărare) vor fi finalizate înainte de lansarea mainnet-ului și actualizate în documentul tehnic.",
+          "",
+          "- **Conformitate și Fiscalitate**: Cerințele de conformitate și tratamentul fiscal sunt actualizate continuu pe baza opiniei profesionale din Taiwan și din zona locală pentru a asigura respectarea reglementărilor locale.",
+          "",
+          "- **Actualizări ale Documentului Tehnic**: Acest document tehnic poate avea ajustări minore, dar principiile de bază (alocarea 90/10, mecanismul de reducere în 6 etape, perioada de blocare și eliberarea liniară) rămân neschimbate.",
+          "",
+          "Toate detaliile tehnice, pașii de implementare și interfețele funcțiilor pot fi găsite în [Documentul de Specificații Tehnice](/ro-RO/docs/technical)."
+        ]
+      }
+    },
+    "charts": {
+      "phase": {
+        "title": "6 Mecanism de Împărțire în 6 Faze",
+        "description": "Cu cât participi mai devreme, cu atât vei primi mai multe tokenuri",
+        "xAxis": "Circulație",
+        "yAxis": "Raport de Răscumpărare (pe 1 USDT)",
+        "phase": "Fază",
+        "ratio": "Raport",
+        "range": "Interval",
+        "units": {
+          "ratio": "Piese",
+          "usdt": "USDT"
+        }
+      },
+      "vesting": {
+        "title": "Cronologia lansării",
+        "description": "Alocarea echipei va fi blocată timp de 3 luni, apoi va fi eliberată linear pe categorii.",
+        "cliff": "Perioada de blocare",
+        "linear": "Perioada de Lansare Lină",
+        "total": "Durata totală",
+        "months": "Luni",
+        "operations": "Operațiuni",
+        "tech": "Echipa tehnică",
+        "marketing": "Relații Publice/Marketing",
+        "investors": "Investitorii timpurii"
+      },
+      "flow": {
+        "title": "Fluxul de circulație al token-ului",
+        "userSend": "Utilizator trimite Red Packet",
+        "fee": "Taxe de tranzacție",
+        "operations": "Cheltuieli operaționale",
+        "pol": "Fondul de răscumpărare",
+        "accumulate": "Acumulare",
+        "trigger": "Declanșator de Răscumpărare",
+        "swap": "Schimb de Token-uri",
+        "addLiquidity": "Adăugați lichiditate",
+        "pool": "Piscina de lichiditate"
+      },
+      "governance": {
+        "title": "Proces de Guvernare",
+        "multisig": "Portofel Multi-semnătură",
+        "proposal": "Propunere",
+        "timelock": "Execuție Întârziată",
+        "execute": "Execută",
+        "update": "Actualizează"
+      },
+      "architecture": {
+        "title": "Arhitectura Contractelor Inteligente",
+        "token": "Contract de Token",
+        "vault": "Seif",
+        "manager": "Manager",
+        "protection": "Mecanism de Protecție"
+      },
+      "progress": {
+        "title": "Progresul fazei",
+        "current": "Faza curentă",
+        "issued": "Emis",
+        "remaining": "Rămase"
+      }
+    }
+  },
+  "api": {
+    "actions": {
+      "items": {
+        "0": "Citiți [whitepaper-ul](/ro-RO/docs/whitepaper/) pentru a afla despre tokenul $moonini și modelul său economic.",
+        "1": "Citiți documentul [Documentația privind specificațiile tehnice](/ro-RO/docs/technical/) pentru a înțelege contractele inteligente și mecanismul de lansare.",
+        "2": "Trimite cererea de colaborare API prin canalele oficiale (Telegram, Email) și ne vom prioritiza notificarea atunci când API-ul este gata."
+      },
+      "title": "Ce poți face acum?"
+    },
+    "content": {
+      "0": "Această pagină va oferi în curând o documentație completă pentru Moonpacket / $moonini API, inclusiv detalii tehnice despre REST API, evenimente Webhook, autentificare OAuth, gestionarea cheilor API și multe altele.",
+      "2": "API-ul este actualmente în etapa de design și validare internă și va fi disponibil mai întâi într-o versiune beta închisă pentru câțiva parteneri selectați pentru a testa, a colecta feedback și a optimiza experiența.",
+      "4": "Toate detaliile tehnice ar trebui să se refere la 'Documentul de Specificații Tehnice' și la white paper înainte ca documentația oficială API să fie publicată."
+    },
+    "description": "Învățați cum să integrați moonpacket și $moonini în produsele dvs. prin intermediul API-ului.",
+    "seo": {
+      "description": "Documentație API completă, API REST, Webhook și ghid de integrare",
+      "title": "Documentația API Moonpacket / $moonini — moonpacket"
+    },
+    "status": {
+      "planned": "(În planificare)"
+    },
+    "subtitle": "Documentație API completă și ghid de integrare (în planificare)",
+    "title": "Moonpacket / $moonini Documentația API"
+  },
+  "countdown": {
+    "days": "Cer",
+    "hours": "Oră",
+    "minutes": "minute",
+    "seconds": "secundă",
+    "title": "Distanța până la lansarea oficială a $moonini"
+  },
+  "disclaimer": {
+    "badge": "Notificare importantă",
+    "text": "Această opțiune este încă în dezvoltare și va urma cronologia prezentată pe foaia de parcurs de pe pagina principală. White paper-ul poate fi supus modificărilor înainte de distribuția oficială a token-ului și cerem înțelegerea utilizatorilor. După distribuția token-ului, modificările nu vor fi efectuate în general."
+  },
+  "distribution": {
+    "back_to_whitepaper": "Întoarcere la Whitepaper",
+    "description": "Înțelegeți regulile interne de distribuție și metodele de contabilitate ale $moonini",
+    "intro": {
+      "0": "**Acest document este destinat inginerilor și dezvoltatorilor de backend**, definind regulile specifice pentru 'cum să emiteți, cum pot utilizatorii să răscumpere și să vizualizeze' în cadrul produsului moonpacket.",
+      "2": "**Principii de design**:",
+      "3": "- **Modificări minime**: Prioritizați utilizarea structurii existente de date, fără a adăuga imediat tabele complexe în DB.",
+      "4": "- **Extensibil**: În viitor, dacă $moonini dorește să fie complet pe blockchain, va trebui doar să adăugăm logica de retragere/mapare.",
+      "5": "- **Transparent și Ușor de Urmărit**: Toate distribuțiile și consumul de $moonini sunt înregistrate în `user_activity_logs`",
+      "7": "**Conținut Principal**:",
+      "8": "- Model de date și metodă de contabilitate (registru intern)",
+      "9": "- Sursa și regulile de distribuție $moonini",
+      "10": "- Detaliile implementării contabilității",
+      "12": "*Acest document conține detalii tehnice, utilizatorii generali pot consulta [whitepaper](/ro-RO/docs/whitepaper/) pentru o prezentare generală a proiectului.*",
+      "14": "Pentru documentație detaliată, vă rugăm să consultați: `docs/technical/moonini-distribution.md`"
+    },
+    "seo": {
+      "description": "Completați instrucțiunile pentru regulile de distribuție și sistemul de contabilitate $moonini",
+      "title": "$moonini mecanism de distribuție — moonpacket"
+    },
+    "title": "Designul și Distribuția $moonini"
+  },
+  "index": {
+    "description": "Completare documentație de proiect, whitepaper și specificații tehnice",
+    "sections": {
+      "general": "Documente Generale",
+      "technical": "Documentație Tehnică"
+    },
+    "title": "centru de documente moonpacket"
+  },
+  "missions": {
+    "back_to_whitepaper": "Întoarceți-vă la White Paper",
+    "description": "Învățați cum să câștigați $moonini prin sarcini și realizări.",
+    "intro": {
+      "0": "**Acest document este destinat inginerilor și dezvoltatorilor de produse**, definind sistemul de misiune și mecanismul de realizare al $moonini, incorporând un sentiment de împlinire și sarcini sociale pe lângă cele două acțiuni esențiale \"Red Packet + Invitați prieteni.\"",
+      "2": "**Principii de Design**:",
+      "3": "- Toate sarcinile \"additional $moonini\" se concentrează în esență pe: **trimiterea Red Packet-urilor, invitarea prietenilor, urmarea comunităților oficiale**",
+      "4": "- 'Sarcina Unică' va dispărea permanent după finalizare.",
+      "5": "- Sistemul de sarcini oferă doar \"puncte bonus\" și nu schimbă regulile de distribuție de bază.",
+      "7": "**Categorie Sarcină**:",
+      "8": "- **Sarcini de realizare** (o singură dată): Etape pentru trimiterea Red Packet, etape pentru invitarea prietenilor, etc.",
+      "9": "- **Sarcini Sociale** (o singură dată): Urmăriți rețelele sociale oficiale, alăturați-vă comunităților oficiale etc.",
+      "10": "- **Sarcini Zilnice/Săptămânale** (Rezervate): Sarcini periodice scalabile pentru viitor",
+      "12": "*Acest document conține detalii tehnice; utilizatorii generali pot consulta [whitepaper](/ro-RO/docs/whitepaper/) pentru o prezentare generală a proiectului.*",
+      "14": "Pentru documentația detaliată, vă rugăm să consultați: `docs/technical/moonini-missions.md`"
+    },
+    "seo": {
+      "description": "Finalizați descrierea sistemului de misiune și mecanismului de realizări",
+      "title": "$moonini Sistem de Sarcini — moonpacket"
+    },
+    "title": "$moonini sarcini și designul realizărilor"
+  },
+  "nav": {
+    "api": "Documentația API",
+    "distribution": "Mecanism de Distribuție",
+    "docs": "Document",
+    "missions": "Sistem de Sarcini",
+    "technical": "Specificații Tehnice",
+    "whitepaper": "Document alb"
+  },
+  "technical": {
+    "back_to_whitepaper": "Întoarceți-vă la White Paper",
+    "description": "Inginerii dezvoltă specificații, inclusiv interfețe de contracte inteligente, logică de fază și mecanisme POL.",
+    "intro": {
+      "0": "**Acest document este destinat inginerilor, dezvoltatorilor de contracte inteligente și auditurilor**, conținând detalii complete de implementare tehnică.",
+      "2": "**Chaină Țintă**: Binance Smart Chain (BSC)",
+      "3": "**Versiune**: v1.0 (2024-11)",
+      "5": "**Conținut Principal**：",
+      "6": "- Arhitectura contractului inteligent și definiția interfeței",
+      "7": "- Logica de gestionare a fazelor (mecanism de reducere în 6 etape)",
+      "8": "- Implementarea mecanismului POL (Repurchase and Market Making)",
+      "9": "- Mecanism de Eliberare a Vestingului",
+      "10": "- Designul Guvernării și Securității",
+      "11": "- Exemple de cod și grafice tehnice",
+      "13": "*Acest document conține detalii tehnice. Utilizatorii generali pot consulta [documentul tehnic](/ro-RO/docs/whitepaper/) pentru o prezentare generală a proiectului.*",
+      "15": "Pentru documentația tehnică detaliată, vă rugăm să consultați: `docs/technical/moonini-bsc-technical-spec.md`"
+    },
+    "seo": {
+      "description": "Completați specificațiile tehnice ale contractului inteligent BSC și ghidul de dezvoltare",
+      "title": "$moonini Specificații Tehnice — moonpacket"
+    },
+    "title": "$moonini BSC Specificații Tehnice"
+  },
+  "title": "Document",
+  "toc": {
+    "back_to_index": "Întoarce la Centrul de Documente",
+    "title": "Catalog"
+  }
+}

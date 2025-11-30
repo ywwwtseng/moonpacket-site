@@ -1,0 +1,27 @@
+{
+  "sent_from": "گروپ کو بھیجیں:",
+  "claimed": "دعوی کریں",
+  "total": "مجموعی رقم",
+  "progress": "دعویٰ کیا گیا",
+  "groups_directory": {
+    "latest_tab": "سب سے جدید Red Packet گروپ",
+    "hot_tab": "مشہور Red Packet گروپ",
+    "search_placeholder": "شامل کردہ گروپ میں کلید الفاظ تلاش کریں"
+  },
+  "marquee": {
+    "templates": {
+      "send": "💰 {user} نے '{group}' میں {amount} {ccy} کا Red Packet جاری کیا!",
+      "claim": "🎯 {user} نے {amount} {ccy} وصول کیے، سب سے خوش قسمت کھلاڑی!",
+      "topup": "🔥 گروپ کے مالک {user} نے {amount} {ccy} جمع کیے",
+      "system": "📢 {message}",
+      "achievement": "🥇 آج کے سب سے خوش قسمت کھلاڑی: @{user} (جمع کیے {amount} {ccy})"
+    },
+    "fallback": [
+      "💰 جان نے 'گیم گِلڈ A' میں 100 USDT کا ریڈ پیکٹ جاری کیا!",
+      "🎯 لیزا نے 3.5 USDT حاصل کی، سب میں سب سے خوش قسمت!",
+      "🔥 گروپ کے مالک کین نے 2000 USDT جمع کروایا",
+      "📢 نظام کی اپ گریڈ مکمل ہوگئی ہے، SOL کی حمایت شامل کی گئی!",
+      "🥇 آج کے سب سے خوش قسمت: @Mina (28.3 USDT جمع کی)"
+    ]
+  }
+}

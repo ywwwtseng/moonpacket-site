@@ -1,0 +1,27 @@
+{
+  "sent_from": "ส่งไปยังกลุ่ม:",
+  "claimed": "รับอั่งเปา",
+  "total": "ยอดรวม",
+  "progress": "เรียบร้อยแล้ว",
+  "groups_directory": {
+    "latest_tab": "กลุ่มอั่งเปาล่าสุด",
+    "hot_tab": "กลุ่มอั่งเปาที่นิยม",
+    "search_placeholder": "ค้นหาคำสำคัญในกลุ่มที่เข้าร่วม"
+  },
+  "marquee": {
+    "templates": {
+      "send": "💰 {user} ออกอั่งเปา {amount} {ccy} ใน '{group}'!",
+      "claim": "🎯 {user} ได้รับ {amount} {ccy}, นักเล่นที่โชคดีที่สุด!",
+      "topup": "🔥 เจ้าของกลุ่ม {user} ฝาก {amount} {ccy}",
+      "system": "📢 {message}",
+      "achievement": "🥇 นักเล่นที่โชคดีที่สุดในวันนี้: @{user} (สะสม {amount} {ccy})"
+    },
+    "fallback": [
+      "💰 John แจกอั่งเปา 100 USDT ใน 'Game Guild A'!",
+      "🎯 Lisa ได้รับ 3.5 USDT, เธอคือผู้โชคดีที่สุดในบรรดาพวกเขา!",
+      "🔥 เจ้าของกลุ่ม Ken ฝากเงิน 2000 USDT",
+      "📢 การอัปเกรดระบบเสร็จสมบูรณ์ เพิ่มการสนับสนุน SOL!",
+      "🥇 ผู้โชคดีในวันนี้: @Mina (สะสม 28.3 USDT)"
+    ]
+  }
+}

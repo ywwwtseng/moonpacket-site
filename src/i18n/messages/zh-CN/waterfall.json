@@ -1,0 +1,27 @@
+{
+  "sent_from": "发送群：",
+  "claimed": "领取",
+  "total": "总额",
+  "progress": "已领取",
+  "groups_directory": {
+    "latest_tab": "最新红包群",
+    "hot_tab": "热门红包群",
+    "search_placeholder": "搜索已加入群组的关键字"
+  },
+  "marquee": {
+    "templates": {
+      "send": "💰 {user} 在《{group}》发出 {amount} {ccy} 红包！",
+      "claim": "🎯 {user} 领取了 {amount} {ccy},手气王！",
+      "topup": "🔥 Group owner {user} deposited {amount} {ccy}",
+      "system": "📢 {message}",
+      "achievement": "🥇 今日手气最佳：@{user}（累积 {amount} {ccy}）"
+    },
+    "fallback": [
+      "💰 John 在《Game Guild A》发出 100 USDT 红包！",
+      "🎯 Lisa 领取了 3.5 USDT,手气王！",
+      "🔥 Group owner Ken deposited 2000 USDT",
+      "📢 系统升级完成,新增 SOL 支持！",
+      "🥇 今日手气最佳：@Mina（累积 28.3 USDT）"
+    ]
+  }
+}

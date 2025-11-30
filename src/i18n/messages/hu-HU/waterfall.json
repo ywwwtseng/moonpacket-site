@@ -1,0 +1,27 @@
+{
+  "sent_from": "Küldés a csoportba:",
+  "claimed": "Követelés",
+  "total": "Összesen",
+  "progress": "Már igényelve",
+  "groups_directory": {
+    "latest_tab": "Legújabb Red Packet csoportok",
+    "hot_tab": "Népszerű Red Packet csoportok",
+    "search_placeholder": "Keress kulcsszavakat a csatlakozott csoportokban"
+  },
+  "marquee": {
+    "templates": {
+      "send": "💰 {user} kibocsátott egy {amount} {ccy} Red Packet-et a '{group}'-ban!",
+      "claim": "🎯 {user} {amount} {ccy} összeget kapott, Legszerencsésebb Játékos!",
+      "topup": "🔥 A csoport tulajdonosa {user} {amount} {ccy} összeget tett be",
+      "system": "📢 {message}",
+      "achievement": "🥇 A mai legszerencsésebb játékos: @{user} (összesen {amount} {ccy})"
+    },
+    "fallback": [
+      "💰 John 100 USDT értékű piros csomagot adott ki a 'Játék Guild A'-ban!",
+      "🎯 Lisa 3.5 USDT-t követelt, ő a legszerencsésebb mind közül!",
+      "🔥 A csoport tulajdonosa, Ken 2000 USDT-t befizetett",
+      "📢 A rendszer frissítése befejeződött, hozzáadtuk a SOL támogatást!",
+      "🥇 A mai legszerencsésebb: @Mina (összesen 28.3 USDT)"
+    ]
+  }
+}

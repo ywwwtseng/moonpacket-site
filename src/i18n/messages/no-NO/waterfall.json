@@ -1,0 +1,27 @@
+{
+  "sent_from": "Send til gruppe:",
+  "claimed": "Krev",
+  "total": "Totalbeløp",
+  "progress": "Allerede innløst",
+  "groups_directory": {
+    "latest_tab": "Nyeste Red Packet-grupper",
+    "hot_tab": "Populære Red Packet-grupper",
+    "search_placeholder": "Søk etter nøkkelord i delte grupper"
+  },
+  "marquee": {
+    "templates": {
+      "send": "💰 {user} utstedte en {amount} {ccy} Red Packet i '{group}'!",
+      "claim": "🎯 {user} mottok {amount} {ccy}, heldigste spiller!",
+      "topup": "🔥 Gruppeeier {user} satte inn {amount} {ccy}",
+      "system": "📢 {message}",
+      "achievement": "🥇 Dagens heldigste spiller: @{user} (akkumulert {amount} {ccy})"
+    },
+    "fallback": [
+      "💰 John utstedte en 100 USDT red packet i 'Game Guild A'!",
+      "🎯 Lisa krevde 3.5 USDT, den heldigste av dem alle!",
+      "🔥 Gruppeeier Ken satte inn 2000 USDT",
+      "📢 Systemoppgraderingen er fullført, SOL-støtte lagt til!",
+      "🥇 Dagens heldigste: @Mina (akkumulert 28.3 USDT)"
+    ]
+  }
+}

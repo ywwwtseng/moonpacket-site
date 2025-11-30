@@ -1,0 +1,57 @@
+{
+  "tabs": {
+    "latest": "Mới nhất",
+    "hot": "Phổ biến"
+  },
+  "search": {
+    "placeholder": "Tìm nhóm…",
+    "label": "Tìm nhóm"
+  },
+  "card": {
+    "ownerLabel": "Chủ sở hữu:",
+    "members": "Thành viên",
+    "totalSent": "Tổng số gửi",
+    "sent": "Gửi hiện tại",
+    "unnamed": "Nhóm không tên"
+  },
+  "pagination": {
+    "prev": "Trang trước",
+    "next": "Trang tiếp theo",
+    "pageInfo": "{{count}} nhóm (Trang {{page}} / {{pages}})"
+  },
+  "cta": {
+    "launch": "Kích hoạt moonpacket"
+  },
+  "empty": "Không có nhóm nào",
+  "group": {
+    "members": "Danh sách thành viên",
+    "owner": "Chủ nhóm: {owner}",
+    "sent": "Số tiền đã gửi",
+    "totalSent": "Tổng số tiền đã gửi",
+    "unnamed": "Nhóm không tên"
+  },
+  "marquee": {
+    "fallback": [
+      "💰 John đã gửi một lì xì trị giá 100 USDT trong 'Game Guild A'!",
+      "🎯 Lisa đã nhận 3.5 USDT, người chiến thắng may mắn!",
+      "🔥 Chủ nhóm Ken đã nạp 2000 USDT",
+      "📢 Nâng cấp hệ thống đã hoàn tất, đã thêm hỗ trợ cho SOL!",
+      "🥇 Người chiến thắng may mắn hôm nay: @Mina (tổng 28.3 USDT)"
+    ],
+    "templates": {
+      "daily_winner": "🥇 Người chiến thắng may mắn hôm nay: {user} (tổng {amount} {ccy})",
+      "red_packet_claimed": "{user} đã nhận {amount} {ccy}, người chiến thắng may mắn!",
+      "red_packet_sent": "{user} đã gửi một lì xì trị giá {amount} {ccy} trong '{group}'!",
+      "system_upgrade": "📢 Nâng cấp hệ thống đã hoàn tất, đã thêm hỗ trợ cho {ccy}!",
+      "top_up": "Chủ nhóm {user} đã nạp {amount} {ccy}"
+    }
+  },
+  "pager": {
+    "groups": "Số lượng nhóm",
+    "next": "Trang tiếp theo",
+    "pageOf": "(Trang {page} / {pages})",
+    "prev": "Trang trước"
+  },
+  "searchLabel": "Tìm nhóm",
+  "searchPlaceholder": "Vui lòng nhập từ khóa để tìm nhóm…"
+}

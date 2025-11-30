@@ -1,0 +1,57 @@
+{
+  "tabs": {
+    "latest": "Latest",
+    "hot": "热门"
+  },
+  "search": {
+    "placeholder": "搜寻群组…",
+    "label": "搜寻群组"
+  },
+  "card": {
+    "ownerLabel": "拥有者：",
+    "members": "成员",
+    "totalSent": "累计发送数量",
+    "sent": "本期发送",
+    "unnamed": "未命名群组"
+  },
+  "pagination": {
+    "prev": "上一页",
+    "next": "下一页",
+    "pageInfo": "{{count}} 个群组（第 {{page}} / {{pages}} 页）"
+  },
+  "cta": {
+    "launch": "启动 moonpacket"
+  },
+  "searchLabel": "搜寻群组",
+  "searchPlaceholder": "请输入关键字搜寻群组…",
+  "empty": "暂无群组",
+  "pager": {
+    "groups": "个群组数",
+    "pageOf": "（第 {page} / {pages} 页）",
+    "prev": "上一页",
+    "next": "下一页"
+  },
+  "marquee": {
+    "fallback": [
+      "💰 John 在《Game Guild A》发出 100 USDT 红包！",
+      "🎯 Lisa 领取了 3.5 USDT，手气王！",
+      "🔥 Group Owner Ken topped up 2000 USDT",
+      "📢 系统升级完成，新增对 SOL 的支持！",
+      "🥇 今日手气最佳：@Mina（累积 28.3 USDT）"
+    ],
+    "templates": {
+      "red_packet_sent": "{user} 在《{group}》发出 {amount} {ccy} 红包！",
+      "red_packet_claimed": "{user} 领取了 {amount} {ccy}，手气王！",
+      "top_up": "Group Owner {user} topped up {amount} {ccy}",
+      "system_upgrade": "📢 系统升级完成，新增 {ccy} 支持！",
+      "daily_winner": "🥇 今日手气最佳：{user}（累积 {amount} {ccy}）"
+    }
+  },
+  "group": {
+    "unnamed": "未命名群组",
+    "owner": "Group Owner: {owner}",
+    "members": "人员清单",
+    "totalSent": "发送总额",
+    "sent": "已送出数量"
+  }
+}

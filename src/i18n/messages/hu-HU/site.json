@@ -1,0 +1,177 @@
+{
+  "title": "moonpacket — könnyű, biztonságos és gyors kripto red packetek",
+  "description": "moonpacket titkosított red packet robot | Támogatja az USDT-t, TON-t, SOL-t, ETH-t. Könnyen küldj red packeteket, azonnal fogadj, biztonságosan nem letétkezelő, tökéletes a Telegram közösség fejlődéséhez és az elköteleződés növeléséhez.",
+  "nav": {
+    "home": "Főoldal",
+    "about": "Rólunk",
+    "pricing": "Árazás",
+    "team": "Csapat",
+    "blog": "Blog",
+    "faq": "Gyakran Ismételt Kérdések",
+    "contact": "Kapcsolat",
+    "careers": "Karrier",
+    "claim": "Igényeld a Red Packet-ot",
+    "send": "Küldj Red Packet-ot",
+    "api": "API Dokumentáció",
+    "docs": "Dokumentum"
+  },
+  "hero": {
+    "title": "Kriptovaluta red packetek, bárki számára elérhetők",
+    "subtitle": "Fokozd közösségi élményed egyszerű, globális szolgáltatásokkal.",
+    "desc": "A legjobb red packet bot mém token projektek és Telegram csoporttulajdonosok számára új felhasználók megszerzésére és elköteleződés növelésére.",
+    "ctaPrimaryLabel": "Indítsd el a moonpacketet",
+    "ctaPrimaryHref": "https://t.me/moonpacketdevbot https://t.me/MoonPackageDevBot",
+    "ctaSecondaryLabel": "Hogyan csatlakozz",
+    "ctaSecondaryHref": "/hu-HU/integration",
+    "lead": "Telegram TON, mém, USDT red packetek | A legjobb red packet bot mém token projektek és Telegram csoporttulajdonosok számára új felhasználók megszerzésére és elköteleződés növelésére.",
+    "cta_primary": "Aktiváld a moonpacketet most",
+    "cta_secondary": "Hogyan integrálj csoportokkal",
+    "headline_line1": "moonpacket",
+    "headline_line2": "Kezdj bele, cél a Hold.",
+    "tagline": "Telegram TON, mém és USDT red packetek közösségi marketinghez és megtartáshoz. Egy csoport red packet bot, amelyet az adminisztrátorok számára terveztek az elköteleződés növelésére, új tagok vonzására és interakció ösztönzésére."
+  },
+  "features": {
+    "f1": "Gyors regisztráció",
+    "f2": "Globális lokalizáció",
+    "f3": "Nem letétkezelő biztonság",
+    "title": "Fő funkciók",
+    "items": "__TODO_TRANSLATE_zh-CN__"
+  },
+  "sections": {
+    "features_heading": "Funkciókiemelések",
+    "features_subtitle": "Szerezd meg",
+    "tokens_heading": "Tokenek és statisztikák",
+    "testimonials_heading": "Felhasználói vélemények",
+    "pricing_heading": "Tervek és árak",
+    "waterfall_title": "red packet vízesés"
+  },
+  "footer": {
+    "rights": "",
+    "privacy": "Adatvédelmi irányelvek",
+    "terms": "Szolgáltatási feltételek",
+    "social": {
+      "telegram_group": "Telegram csoport",
+      "telegram_channel": "Telegram csatorna",
+      "x": "X",
+      "youtube": "YouTube"
+    },
+    "copyright": "Szerzői jog."
+  },
+  "a11y": {
+    "skip_to_main": "Ugrás a fő tartalomra",
+    "language_menu": "Nyelvi menü megnyitása",
+    "language": "Nyelv"
+  },
+  "metrics": {
+    "heading": "Valós idejű Jelzők",
+    "price_btc": "BTC Ár",
+    "total_sent": "Összesen Elküldött Összeg",
+    "total_claimed_amount": "Összesen Kapott Összeg (USDT)",
+    "title": "Tokenek és Statisztikák",
+    "groups": "Kapcsolódó Csoportok",
+    "groupsLinkLabel": "Kapcsolódó red packet Csoportok",
+    "sent": "Elküldött red packet-ek",
+    "claimed": "Összesített igényelt összeg",
+    "sort": {
+      "latest": "Legújabb",
+      "oldest": "Legidősebb",
+      "most": "Maximum Résztvevők",
+      "least": "Minimum Résztvevők"
+    }
+  },
+  "errors": {
+    "stale": "Az adatok elavultak lehetnek",
+    "not_found": "Az oldal nem található",
+    "not_found_desc": "Sajnáljuk, nem találjuk ezt az oldalt, vagy eltávolították."
+  },
+  "pricing": {
+    "starter": "Alapcsomag",
+    "pro": "Szakmai Szolgáltatások",
+    "enterprise": "Vállalati Csomag",
+    "price_free": "Ingyenes",
+    "price_19": "$19",
+    "price_contact": "Lépj Velünk Kapcsolatba",
+    "sla_support": "SLA és Támogatás",
+    "bullets": {
+      "starter": {
+        "0": "Alapfunkciók",
+        "1": "Közösségi Támogatás"
+      },
+      "pro": {
+        "0": "Tartalmazza az Alapcsomagot",
+        "1": "Fejlett Lokalizáció"
+      },
+      "enterprise": {
+        "0": "SLA és Támogatás",
+        "1": "Egyedi Integráció"
+      }
+    }
+  },
+  "story": {
+    "belief_title": "🌕 A hold energiája és a red packetekbe vetett hit",
+    "disclaimer_title": "⚠️ Jognyilatkozat",
+    "future_title": "💫 Jövőbeli alkalmazások",
+    "schedule_title": "Token kibocsátási szabályok",
+    "secrets_title": "🌸 Az ő titka",
+    "title": "🌕 A moonini története"
+  },
+  "waterfall": {
+    "claimed": "Értesítés",
+    "progress": "Értesítve",
+    "sent_from": "Küldési csoport:",
+    "total": "Összeg"
+  },
+  "seo": {
+    "og": {
+      "image": "/images/og-default.png",
+      "type": "weboldal"
+    },
+    "routes": {
+      "claim": {
+        "description": "moonpacket red packet funkciója támogatja a különböző tokeneket, beleértve a SOL-t és az USDT-t, és lehetővé teszi saját meme tokenjeid küldését. Erőteljes eszköz az új felhasználók vonzására és a Telegram csoportokban való aktivitás növelésére.",
+        "title": "Red Packet Telegram mini APP — moonpacket"
+      },
+      "privacy": {
+        "description": "A moonpacket Adatvédelmi Szabályzata elmagyarázza, hogyan gyűjtjük, használjuk és védjük a személyes adataidat.",
+        "title": "Adatvédelmi irányelv — moonpacket"
+      },
+      "send": {
+        "description": "Használja a moonpacket-et red packet küldésére, feladatfeltételek beállítására és API-integrációkra, hogy hatékonyan vonzza az új felhasználókat és növelje az értékes felhasználók közösségi részvételét.",
+        "title": "red packet küldése — moonpacket"
+      },
+      "terms": {
+        "description": "moonpacket Szolgáltatási feltételek, használati irányelvek és jogi nyilatkozatok.",
+        "title": "Szolgáltatási feltételek — moonpacket"
+      },
+      "docs": {
+        "description": "A projekt dokumentációjának, fehér könyvének és műszaki specifikációinak befejezése",
+        "distribution": {
+          "description": "A $moonini elosztási szabályainak és könyvelési rendszerének leírása",
+          "title": "$moonini elosztási mechanizmus — moonpacket"
+        },
+        "litepaper": {
+          "description": "A $moonini egy közösségi ösztönző token, amely a moonpacket platformra épül. Tudjon meg többet arról, hogyan lehet keresni, használni és befektetni az értékébe.",
+          "title": "$moonini Litepaper — moonpacket"
+        },
+        "missions": {
+          "description": "A feladat rendszer és a teljesítmény mechanizmusának leírása",
+          "title": "$moonini feladat rendszer — moonpacket"
+        },
+        "technical": {
+          "description": "A BSC intelligens szerződés műszaki specifikációinak és fejlesztési útmutatójának befejezése",
+          "title": "$moonini műszaki specifikációi — moonpacket"
+        },
+        "title": "Dokumentációs központ — moonpacket",
+        "whitepaper": {
+          "description": "A $moonini tokenomika, műszaki architektúra és irányítási mechanizmusának leírása",
+          "title": "$moonini fehér könyv — moonpacket"
+        }
+      }
+    },
+    "site": {
+      "description": "moonpacket Kriptovaluta red packet Telegram Bot | Támogatja az USDT, TON, SOL, ETH, DOGE. Saját meme token red packet-eket is küldhet, amelyek ideálisak az új felhasználók vonzására, élénk légkör kialakítására és a Telegram közösségekben való részvétel növelésére.",
+      "site_name": "moonpacket",
+      "title": "moonpacket — meme token kriptovaluta red packet-ek, dedikált red packet pénztárca"
+    }
+  }
+}

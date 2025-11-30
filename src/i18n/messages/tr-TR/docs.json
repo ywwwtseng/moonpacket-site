@@ -1,0 +1,1514 @@
+{
+  "litepaper": {
+    "title": "$moonini Litepaper",
+    "description": "$moonini tokeninin tasarım felsefesini, ekonomik modelini ve temel değerlerini anlayın.",
+    "seo": {
+      "title": "$moonini Litepaper — moonpacket",
+      "description": "$moonini, moonpacket platformına dayalı bir topluluk teşvik tokenıdır. Onun değerini nasıl elde edeceğinizi, kullanacağınızı ve yatırım yapacağınızı öğrenin."
+    },
+    "hero": {
+      "subtitle": "$moonini, moonpacket platformına dayalı bir topluluk teşvik tokenidir. Kullanıcılar moonpacket ile ne kadar çok etkileşime geçer, görevlere katılır ve etkileşimde bulunursa, o kadar çok $moonini kazanabilirler. Yatırımcılar için, %90 kullanıcılar arasında dağıtılırken, %10 ekip için ayrılmakta, yarıya indirme mekanizması ve doğrusal bir salım ile dump riskleri etkili bir şekilde azaltılmakta ve uzun vadeli istikrar için tasarlanmaktadır.",
+      "cards": {
+        "user": {
+          "title": "Genel Kullanıcılar İçin",
+          "description": "Kırmızı Paketler göndererek, görevleri tamamlayarak, arkadaşlarınızı davet ederek vb. kolayca $moonini kazanın. Ne kadar çok kullanırsanız, o kadar fazla kazanırsınız, tamamen ücretsiz."
+        },
+        "investor": {
+          "title": "Yatırımcılar İçin",
+          "description": "10 milyar toplam arz, %90/%10 tahsisat, 6 aşamalı yarılanma ve lineer salınımlı ekip tahsisi, uzun vadeli istikrarı desteklemek ve dumping riskini azaltmak için tasarlanmıştır."
+        },
+        "developer": {
+          "title": "Geliştiriciler/Ortaklar için",
+          "description": "Standartlaştırılmış sözleşmeler, açık API'ler, diğer uygulamalara veya oyunlara entegre edilebilir. API entegrasyonu ile ürünlerinizi moonpacket ekosistemine bağlayın."
+        }
+      },
+      "live_status": "Protokol V1 artık canlı",
+      "cta_start": "Okumaya Başla",
+      "cta_hub": "Geliştirici Merkezi"
+    },
+    "sections": {
+      "overview": "Genel Bakış",
+      "problem": "Problemler ve Çözümler",
+      "concept": "moonpacket ve $moonini'nin Temel Kavramları",
+      "tokenomics": "Tokenomik Genel Bakış",
+      "emission": "Yarıya İndirme ve Yayınlama",
+      "utility": {
+        "subtitle": "Nasıl Kazanılır ve Kullanılır"
+      },
+      "developer": "Geliştiriciler & API Entegrasyonu",
+      "governance": "Yönetim ve Güvenlik",
+      "roadmap": "Yol Haritası",
+      "risks": "Riskler ve Feragatnameler",
+      "faq": "SSS",
+      "cta": {
+        "title": "Bu Red Packet sosyal deneyimine katılmaya hazır mısınız?",
+        "earning": "Şimdi Red Packet Kazanmaya Başlayın",
+        "devs": "Geliştirici Belgelerini Oku"
+      },
+      "registry": {
+        "title": "Zincir Üstü Sözleşme Kayıt Defteri",
+        "network": "Ana Ağ: BSC (BNB Zinciri)",
+        "audit": "Denetim Durumu: **Planlandı**"
+      },
+      "defense": {
+        "floor": {
+          "title": "🛡️ Akıllı taban fiyatı savunması",
+          "mechanism": "Piyasa fiyatı dip fiyata yaklaştığında, protokol otomatik olarak savunma mekanizmalarını devreye sokacaktır, destek sağlamak için birikmiş POL (Protokol Sahipli Likidite) kullanarak. Bu katı bir ödeme değildir; kısa pozisyon maliyetlerini sonsuz derecede yüksek yapmak için oyun teorisini kullanır.",
+          "anti_gaming": "Not: Arbitraj saldırılarını önlemek için, belirli tetikleme eşikleri ve savunma güçleri dinamik olarak ayarlanmakta ve kesin değerler açıklanmayacaktır."
+        },
+        "anti_bot": {
+          "title": "🚫 Piyasa Oluşturma Yönetimini Reddet",
+          "items": [
+            "Tüm işlemler gerçek kullanıcı davranışlarıdır",
+            "Piyasa Yapıcı Bot Yok",
+            "Gerçek dışı hacim manipülasyonunu ve pompalama ile boşaltmayı reddedin"
+          ]
+        }
+      },
+      "lockup": {
+        "title": "Stratejik Kilitli",
+        "desc": "Fare depoları' ve 'gizli çipler' ile dolu bir pazarda, en zor ama en dürüst yolu seçtik. Kullanıcıların 'takım boşaltmaları' korkularını tamamen ortadan kaldırarak ancak gerçek güven inşa edebileceğimizi derinden anlıyoruz.",
+        "benefit": "Bu sadece kilitlenme kurallarıyla ilgili değil; bu bizim 'anti-harvest beyannamemiz'. Bu biraz katı öz disiplin aracılığıyla, kimsenin - ister kurucular ister büyük sahipler olsun - topluluğa erken aşamalarda ihanet edememesini sağlıyoruz.",
+        "items": [
+          "Tamamen şeffaf, gizli yok: Gizli cüzdanlarımız veya açıklanmayan erken dolaşım arzımız yok. Tüm çip dağıtımları, topluluk denetimine tabi olarak halka açık bir şekilde zincir üzerinde mevcuttur.",
+          "Takım taahhüdü, uzun vadeli destek: Temel ekibin yayın dönemi 48 aya (4 yıl) kadar sürmektedir. Kripto dünyasında 4 yıl uzun bir döngüdür. Bu, hızlı para kazanmak için burada olmadığımızı, ancak toplulukla birlikte boğa ve ay piyasalarını deneyimlemeye kararlı olduğumuzu ve uzun vadeli değer inşa etmeyi amaçladığımızı kanıtlıyor.",
+          "Yatırımcı Konsensüsü: Erken dönem yatırımcılarımız, Red Packet'ların 'paylaşım ve hediye verme' kültürüyle derinden özdeşleşiyor ve gönüllü olarak 36 aylık bir lineer dağıtım anlaşmasını imzalıyor. Bu, projenin erken aşamalarında hiçbir tarafın (yatırımcılar da dahil olmak üzere) piyasayı etkileyecek kadar chip'e sahip olmadığı anlamına geliyor."
+        ]
+      }
+    },
+    "back_to_top": "↥ Yukarı Dön",
+    "content": {
+      "overview": {
+        "paragraphs": [
+          "moonpacket, Telegram toplulukları için özel olarak tasarlanmış bir kripto Red Packet ve pazarlama aracıdır. Topluluk operasyonları, etkinlik promosyonları veya yeni kullanıcı davetleri için olsun, moonpacket sizin bunu kolaylıkla gerçekleştirmenize yardımcı olabilir.",
+          "Kullanıcıların platformu kullanmaya devam etmelerini teşvik etmek ve uzun vadeli ilişkiler kurmak için $moonini topluluk teşvik token'ını başlattık. Platformda aktif her davranış, kırmızı paket göndermek, görevleri tamamlamak ve arkadaşları davet etmek dahil, karşılık gelen $moonini ödüllerini kazanabilir.",
+          "Genel kullanıcılar için, $moonini Moonpacket kullanmanın ek bir ödülüdür; ne kadar çok kullanırsanız, o kadar çok kazanırsınız. Yatırımcılar için, $moonini'nin token ekonomisi tasarımı (kullanıcılar için %90, ekip için %10, 6 aşamalı yarılanma, kilit açma sürümleri) kısa vadeli dump risklerini etkili bir şekilde azaltır ve uzun vadeli değer istikrarına katkı sağlar."
+        ],
+        "highlights": {
+          "title": "Temel vurgular",
+          "items": [
+            "✅ **Adil dağıtım**: Tokenların %90'ı kullanıcı etkinlikleri aracılığıyla dağıtılırken, %10'u takım ve erken yatırımcılar için ayrılmıştır.",
+            "✅ **Erken avantaj**: 6 aşamalı yarıya indirme mekanizması, ne kadar erken katılırsanız, o kadar fazla alırsınız.",
+            "✅ **Riski azaltın**: Ekip tahsisi 3 ay boyunca kilitli kalır, ardından 33-45 ay boyunca lineer olarak serbest bırakılır.",
+            "✅ **Şeffaf ve doğrulanabilir**: Tüm token dağıtım ve çıkarım kuralları kamuya açıktır ve zincir üzerinde doğrulanabilir."
+          ]
+        }
+      },
+      "problem": {
+        "title": "Sorunlar ve Çözümler",
+        "problems": {
+          "title": "Mevcut Web3 / Telegram pazarlamasındaki zorluklar",
+          "items": [
+            "**Etkisini takip etmek zor**: Geleneksel red packet mekanizmalarının gerçek etkilerini izlemek zordur; kimin talep ettiği, kimin paylaştığı veya yeni kullanıcılar getirip getirmediği belirsizdir.",
+            "**Kısa vadeli kar elde etme**: Birçok proje yalnızca kısa vadeli trafiğe odaklanarak, red packet dağıtmakta ve uzun vadeli teşvik mekanizmaları olmadan ayrılmaktadır.",
+            "**Uzun vadeli teşvik eksikliği**: Kullanıcılar, Red Packet'ı talep ettikten sonra ayrılıyor, uzun vadeli ilişkiler kuramıyor ve sürekli katılım sağlayamıyorlar."
+          ]
+        },
+        "solutions": {
+          "title": "Moonpacket + $moonini çözümü",
+          "items": [
+            "**Davranış takibini tamamla**: moonpacket, her red packet'ın alınmasını, paylaşım davranışını ve yeni kullanıcı tanıtmalarını kaydeder, böylece pazarlama etkinliğini net bir şekilde anlamanızı sağlar.",
+            "**Uzun vadeli teşvik mekanizmaları**: $moonini token'ı aracılığıyla, kullanıcılar ne kadar fazla katılırlarsa, o kadar fazla kazanırlar ve uzun vadeli katılım motivasyonu oluştururlar.",
+            "**Adil değer dağılımı**: Token'ların %90'ı kullanıcılara gidiyor, topluluk önceliğini sağlıyor, halving ve kilitleme gibi mekanizmalar ise satış risklerini azaltıyor."
+          ]
+        }
+      },
+      "concept": {
+        "title": "moonpacket ve $moonini'nin Temel Kavramları",
+        "moonpacket": {
+          "title": "moonpacket'in Rolü",
+          "description": "moonpacket, bir Telegram Red Packet, görev ve pazarlama aracıdır. İster bir topluluk yöneticisi, ister bir etkinlik organizatörü, isterse yeni kullanıcılar çekmek isteyen bir proje olun, moonpacket'i kullanabilirsiniz:",
+          "features": [
+            "Kripto Red Paketleri gönderin (USDT, TON, SOL, ETH vb. gibi birden fazla token'ı destekleyen)",
+            "Görev etkinlikleri oluşturun (arkadaşları davet et, toplulukları takip et, içerik paylaş, vb.)",
+            "Etki verilerini takip et (kurtarma oranları, paylaşım oranları, yeni kullanıcı dönüşümleri vb.)",
+            "Diğer gruplara Red Packet gönderin, etki alanını genişletin"
+          ]
+        },
+        "moonini": {
+          "title": "$moonini'nin Rolü",
+          "description": "$moonini, kullanıcı ve topluluk davranışlarını tanıyan bir ödül puanı token'ıdır. moonpacket'te yaptığınız her aktif eylem, size karşılık gelen $moonini kazandırır:",
+          "rewards": [
+            "Red Packet Gönder: Red Packet tutarına ve mevcut aşamaya göre ilgili $moonini kazanın",
+            "Görevleri Tamamla: Başarılar, sosyal görevler vb. tamamlamak ekstra $moonini kazanmanı sağlar.",
+            "Arkadaşlarını Davet Et: Yeni kullanıcıları başarılı bir şekilde davet et ve paylaşım görevlerini tamamla, her iki taraf da $moonini kazanabilir.",
+            "Aktif Katılım: İşbirlikçi oyunlarda veya uygulamalarda belirli eylemleri tamamlamak da $moonini kazanmanızı sağlayabilir."
+          ]
+        },
+        "logic": {
+          "title": "Ne kadar çok kullanırsanız, o kadar çok kazanırsınız.",
+          "description": "Mantık basit: moonpacket'ta ne kadar aktif olursanız, o kadar çok $moonini kazanırsınız. Erken katılım gösterenler, daha yüksek bir ödül oranından yararlanabilir (Aşama 1, gönderilen her 1 USDT Red Packet için 1 $moonini kazanın). Ne kadar erken katılırsanız, avantajınız o kadar büyük olur."
+        }
+      },
+      "tokenomics": {
+        "title": "Tokenomiklerin Genel Görünümü",
+        "total": {
+          "title": "Toplam Token Arzı",
+          "description": "$moonini'nin toplam arzı **10.000.000.000 token (10B)** olup, sabit bir toplam arzı vardır ve ek bir arz gerçekleşmeyecektir."
+        },
+        "allocation": {
+          "title": "Tahsis Planı",
+          "table": {
+            "headers": [
+              "Kategori",
+              "Miktar",
+              "Oran",
+              "Açıklama"
+            ],
+            "rows": [
+              [
+                "Genel Yayın",
+                "9.000.000.000 adet",
+                "90%",
+                "Kullanıcı aktiviteleri üzerinden aşamalı yayılım (6 aşamalı yarıya indirme)"
+              ],
+              [
+                "Ekip tahsisi",
+                "1.000.000.000 adet",
+                "10%",
+                "3 ay boyunca kilitli, 33-45 ay boyunca doğrusal olarak salınım"
+              ],
+              [
+                "├─ Operasyonlar",
+                "200.000.000 adet",
+                "2%",
+                "3 ay boyunca kilitli, 45 ay boyunca salınım"
+              ],
+              [
+                "├─ Teknik Ekip",
+                "200.000.000 adet",
+                "2%",
+                "3 ay boyunca kilitli, 45 ay boyunca salınım"
+              ],
+              [
+                "├─ PR/Pazarlama",
+                "200.000.000 adet",
+                "2%",
+                "3 ay boyunca kilitli, 45 ay boyunca salınım"
+              ],
+              [
+                "└─ Erken Yatırımcılar",
+                "400.000.000 adet",
+                "4%",
+                "3 ay boyunca kilitli, 33 ay boyunca salınım"
+              ]
+            ]
+          }
+        },
+        "philosophy": {
+          "title": "Bu tasarım neden böyle?",
+          "items": [
+            "**Kullanıcı Önceliği**: Tokenların %90'ı, topluluğun gerçekten fayda sağlamasını temin etmek için kullanıcılara dağıtılmıştır; bu sayede birkaç bireyin tekelinde olmaktan kaçınılmıştır.",
+            "**Takım Teşvikleri**: Projenin sürekli gelişimi için yeterli kaynaklara sahip olmasını sağlamak amacıyla, takım ve erken yatırımcılar için %10, aşırı yoğunlaşmayı önlemek için de makul bir oran ayrılmıştır.",
+            "**Ön Rezervli Ön Satış/VC Yok**: Kurumsal yatırımcılar için kotalar ayırmıyoruz ve tüm tokenlar adil bir mekanizma ile kullanıcılara dağıtılmaktadır.",
+            "**Risk Mitigation**: Takım tahsisi kilitlenme ve lineer serbest bırakma mekanizmalarına tabidir, bu da kısa vadeli dumping riskini etkili bir şekilde azaltmakta ve yatırımcıların çıkarlarını korumaktadır."
+          ]
+        }
+      },
+      "emission": {
+        "title": "Yarılama ve Yayın Mekanizması",
+        "halving": {
+          "title": "6 Aşamalı Yarılanma Mekanizması",
+          "description": "Erken katılımcıları teşvik etmek için, token dağıtımı 'ilerleyen yarıya indirme' mekanizmasını kullanır. Ne kadar erken katılırsanız, o kadar fazla token kazanabilirsiniz:",
+          "table": {
+            "headers": [
+              "Aşama",
+              "Yayımlanan Miktar Aralığı",
+              "1 USDT başına kazanın",
+              "Açıklama"
+            ],
+            "rows": [
+              [
+                "Aşama 1",
+                "0 ~ 4.5B",
+                "1.0 parça",
+                "Erken katılımcılar, 1:1 değişim"
+              ],
+              [
+                "Aşama 2",
+                "4.5B ~ 6.75B",
+                "0.5 parça",
+                "Yarıya indirme"
+              ],
+              [
+                "Aşama 3",
+                "6.75B ~ 7.875B",
+                "0.25 parça",
+                "Tekrar yarıya indirme"
+              ],
+              [
+                "Aşama 4",
+                "7.875B ~ 8.4375B",
+                "0.125 parça",
+                "Yarıya indirmeye devam et"
+              ],
+              [
+                "Aşama 5",
+                "8.4375B ~ 8.71875B",
+                "0.0625 parça",
+                "Sonuna yaklaşma"
+              ],
+              [
+                "Aşama 6",
+                "8.71875B ~ 9B",
+                "0.03125 parça",
+                "Son aşama"
+              ]
+            ]
+          },
+          "example": "Örneğin: Aşama 1'de, eğer 100 USDT'lik bir Red Packet gönderirseniz, 100 $moonini kazanabilirsiniz; Aşama 2'de, aynı 100 USDT'lik Red Packet'ı göndermek sadece 50 $moonini kazandırır. Ne kadar erken katılırsanız, avantajınız o kadar büyük olur!"
+        },
+        "vesting": {
+          "title": "Takım Kotası Kilitlenmesi ve Serbest Bırakılması",
+          "description": "Fare depoları' ve 'gizli chipler' ile dolu bir pazarda, en zor ama en dürüst yolu seçtik. Kullanıcıların 'takım satışı' korkusunu tamamen ortadan kaldırarak gerçek bir güven inşa edebileceğimizi derinden anlıyoruz.",
+          "items": [
+            "**Toplam Şeffaflık, Gizleme Yok**: Gizli cüzdanlarımız veya açıklanmamış erken dolaşım arzımız yok. Tüm token dağıtımları topluluk gözetimine tabi olarak halka açık bir şekilde on-chain'de bulunmaktadır.",
+            "**Takım Öz Disiplini, Uzun Vadeli Taahhüt**: Temel takımın serbest bırakılma süresi **48 ay (4 yıl)** sürmektedir. Kripto alanında dört yıl uzun bir döngüdür. Bu, hızlı para kazanmak için burada olmadığımızı, toplulukla birlikte boğa ve ayı piyasalarını deneyimlemeye ve uzun vadeli değer oluşturmaya kararlı olduğumuzu kanıtlar.",
+            "**Yatırımcı Konsensüsü**: İlk yatırımcılarımız, Red Packet'ın 'paylaşım ve hediye verme' kültürü ile derinden uyum sağlıyor ve gönüllü olarak **36 aylık** bir lineer dağıtım sözleşmesi imzaladı. Bu, projenin erken aşamalarında, hiçbir tarafın (yatırımcılar dahil) pazarı etkileyecek kadar tokena sahip olmadığı anlamına geliyor."
+          ],
+          "benefit": "Bu sadece bir kilitlenme kuralı değil, aynı zamanda bizim **'Anti-Harvest Declaration'**'ımızdır. Bu neredeyse titiz öz disiplin aracılığıyla, kurucular veya büyük yatırımcılar olsun, kimsenin topluluğu başlangıç aşamalarında ihanet edemeyeceğinden emin oluyoruz. Bu sosyal değerin saflığını birlikte korumak için tüm Red Packet göndericileriyle yan yanayız."
+        },
+        "why": {
+          "title": "Bunu neden yapmalıyım?",
+          "items": [
+            "**Kısa vadeli satışları azaltın**: Kilitlenme ve lineer serbest bırakma mekanizmaları, ekibin ve yatırımcıların projenin erken döneminde büyük miktarlarda satış yapmalarını engeller.",
+            "**Proje ömrünü uzatmak**: Aşamalı dağıtım, projenin gelişmesi ve değer kazanması için yeterli zamana sahip olmasını garanti eder.",
+            "**Yatırımcıları koruyun**: Yarılanma mekanizmaları ve kilit tasarımları, erken sahipler için daha fazla koruma sağlar."
+          ]
+        }
+      },
+      "utility": {
+        "title": "Kullanıcı kazanımı ve kullanım senaryoları",
+        "how_to_earn": {
+          "title": "$moonini nasıl kazanılır?",
+          "methods": [
+            "**Kırmızı Paket Gönder**: Bir Kırmızı Paket olarak gönderilen **1 USDT eşdeğeri** için (birden fazla para birimini desteklerken), katılımcılar mevcut aşamaya göre karşılık gelen $moonini alır.",
+            "**Görevleri Tamamla**: Tek seferlik başarı görevlerini ve sosyal görevleri içerir. Adaleti sağlamak için, her hesap her görevi yalnızca bir kez tamamlamaya izin verilmiştir veya kötü niyetli madeni para çiftliğini önlemek için toplam bir limit ile ayarlanabilir.",
+            "**Arkadaşları Davet Et**: Yeni arkadaşlar davet et ve paylaşım görevlerini tamamla, her iki taraf da ödül kazanır. **Her hesabın davet ödülleri için bir limiti vardır**, ve özel kurallar topluluk duyurularına tabidir.",
+            "**İşbirliği Yapan Uygulamalar**: Moonpacket API ile entegre edilen oyunlarda veya uygulamalarda belirli eylemleri tamamlamak da $moonini kazanabilir."
+          ]
+        },
+        "how_to_use": {
+          "title": "$moonini Kullanımları",
+          "items": [
+            "**Ücret İndirimleri**: Gelecekte, $moonini Kırmızı Paket işlem ücretlerinin bir kısmını karşılamak için kullanılabilir.",
+            "**Özellikleri Aç**: Belirli premium özellikleri kullanmak için belirli bir miktar $moonini bulundurmak gerekebilir.",
+            "**Yönetim Oylama Hakları**: $moonini tutmak, gelecekteki topluluk yönetim oylamalarına katılma imkanı sunar, projenin gelişim yönünü etkileme fırsatı verir.",
+            "**Eko Sistem İadesi**: Partner uygulamalarında veya oyunlarda özel avantajlar veya ödüller için kullanılabilir."
+          ]
+        }
+      },
+      "developer": {
+        "title": "Geliştirici Ekosistemi",
+        "description": [
+          "moonpacket, sadece bir Red Packet aracı değildir; aynı zamanda açık bir **Sosyal Likidite Katmanı**dır.",
+          "Standart API'ler ve SDK'lar aracılığıyla, herhangi bir Telegram Botu, GameFi veya Web3 uygulaması $moonini teşvik katmanına erişebilir. Ürün geliştirmeye odaklanın, büyüme ve müşteri bağlılığı konusunda size yardımcı olalım."
+        ],
+        "architecture": {
+          "title": "Programlanabilir Teşvikler",
+          "description": "Webhook geri bildirimlerini ve zincir üzeri doğrulamayı destekleyen olay odaklı bir ödül dağıtım sistemi."
+        },
+        "cta": {
+          "text": "Entegrasyon çözümleri hakkında daha fazla bilgi edinin",
+          "link_text": "Geliştirici API Dokümantasyonunu Oku"
+        }
+      },
+      "contracts": {
+        "title": "Sözleşme Adresi",
+        "description": "Şeffaflığı sağlamak için, tüm temel akıllı sözleşme adresleri halka açıklanacak ve doğrulama işlemine tabi tutulacaktır.",
+        "items": {
+          "token": "$moonini Token (Token Sözleşmesi)",
+          "emission": "Emisyon Vault (90% Kamu İhracı Vault'u)",
+          "reserve": "Rezerv Kasa (10% Ekip Kota Kasası)",
+          "phase": "Aşama Yöneticisi (Yarılanma Kontrolörü)",
+          "vesting": "Vesting Vault (Lineer Serbest Bırakma Kontrolörü)",
+          "pol": "POL Yöneticisi (Geri Alım ve Fiyat Tabanı Savunması)",
+          "protection": "Başlatma Koruması (Açık Aşama Anti-Sniping)",
+          "timelock": "Zaman Kilidi Kontrol Cihazı (48 saat Gecikmeli Kilit)"
+        },
+        "status": "(Ana ağın devreye alımından sonra güncellenecek)"
+      },
+      "governance": {
+        "title": "Yönetim ve güvenlik",
+        "principles": {
+          "title": "Yönetim ilkeleri",
+          "description": "Temel ilkemiz şudur: **tek bir en yüksek otorite yoktur**, tüm önemli işlemler birden fazla onay gerektirir ve şeffaflık ile güvenliği sağlamak için gecikmeli yayınlanır."
+        },
+        "market_making": {
+          "title": "Gerçek piyasa beyanı",
+          "description": [
+            "**Yanlış işlemleri reddet**: Yıkama ticareti yapmamayı veya sahte derinlik oluşturmamayı taahhüt ediyoruz. K-hattındaki her işlem gerçek kullanıcılardan gelmektedir.",
+            "**Merkeziyetsiz piyasa yapıcılığı**: Likidite, tamamen piyasa arz ve talebi ile protokolün otomatik yeniden satın alma mekanizması tarafından belirlenir, insan manipülasyonu değil."
+          ]
+        },
+        "floor_defense": {
+          "title": "Akıllı zemin fiyatı savunması",
+          "mechanism": "**Mekanizma**: Coin fiyatı dip bölgeye ulaştığında, biriken protokol ücretleri otomatik olarak geri alınacak ve likidite yok edilecek/enjekte edilecektir.",
+          "anti_gaming": "**Anti-sniping stratejisi**: Botların arbitrajı tahmin etmesini önlemek için, belirli 'giriş zamanı' ve 'tek işlem miktarı' rastgele değişkenler içerir ve tamamen kamuya açık olmayacaktır. Ancak, temel mantık aynı kalır: **işlem ücretleri nihayetinde havuza geri dönecek ve fiyatı destekleyecektir.**",
+          "variance": "Not: Piyasa dalgalanması nedeniyle, taban fiyat kesin bir referans değil, dinamik bir destek aralığıdır."
+        },
+        "process": {
+          "title": "Yönetim süreci",
+          "steps": [
+            "**Teklifler**: Önemli kararlar çoklu imza onayı gerektirir.",
+            "**Gecikmeli onay**: Tüm yüksek riskli işlemler, zincir üzerinde görünür oldukları 48 saatlik bir gecikmeli onay sürecine tabi olmalıdır.",
+            "**İşlem**: Gecikme süresinin ardından, yetkili kişiler tarafından gerçekleştirilecektir veya otomatik olarak gerçekleştirilecektir.",
+            "**İptal**: Gecikme süresi boyunca, öneri veren kişi teklifi iptal edebilir."
+          ]
+        },
+        "security": {
+          "title": "Güvenlik önlemleri",
+          "items": [
+            "**Çoklu imza onayı**: Tüm önemli işlemler, tek bir risk noktasını önlemek için en az 2 kişiden imza gerektirir.",
+            "**Gecikmiş yürütme mekanizması**: Yüksek riskli işlemler 48 saatlik bir gecikmeye tabidir ve bu, topluluğun incelemesi ve yanıt vermesi için yeterli zamanı sağlar.",
+            "**Standart sözleşme kütüphanesi**: Güvenlik açıklarını azaltmak için denetimden geçmiş standart sözleşme kütüphanelerini kullanın.",
+            "**Üçüncü parti denetimler**: Akıllı sözleşmelerin güvenliğini sağlamak için üçüncü parti güvenlik denetimlerinden geçecektir.",
+            "**Açık kaynak şeffaflığı**: Sözleşme kodu açık kaynaktır, herkes bunu doğrulayabilir ve denetleyebilir."
+          ]
+        },
+        "risk_mitigation": {
+          "title": "Tek nokta riskini nasıl azaltabilirim?",
+          "description": "Projeyi tek bir kişi veya kuruluşun tam olarak kontrol etmesini sağlamak için çoklu imza, gecikmeli onay, denetimler ve açık kaynak çok katmanlı koruma mekanizmalarıyla güvence altına alıyoruz. Tüm önemli kararlar, topluluğa ve yatırımcılara güven veren şeffaf ve izlenebilir bir süreçten geçmektedir."
+        }
+      },
+      "roadmap": {
+        "title": "İkili İzleme Yol Haritası",
+        "status_notice": "⚠️ Mevcut Durum: Planlama Açıklama Aşaması. Token'lar henüz üretilmedi (TGE Beklemede), ve son kurallar TGE'de yayımlanan beyaz kağıdın versiyonuna dayalı olacaktır.",
+        "tracks": {
+          "product": "📱 Ürün Takibi",
+          "token": "💎 Token Takibi"
+        },
+        "phases": [
+          {
+            "title": "Aşama 1: Genesis",
+            "product": [
+              "**Telegram Botu Lansmanı**: Topluluk Red Packet'lerini başlatmak için hafif bir eklenti",
+              "**Temel Görev Sistemi**: Davet ve giriş özellikleri",
+              "**Kullanıcı Birikimi**: Erken bir kullanıcı grubunu oluşturma"
+            ],
+            "token": [
+              "**Puan Deneme Çalışması**: Kullanıcı davranışı, çevrimdışı puanlar oluşturur",
+              "**Token Modeli Tasarımı**: 90/10 dağılımı ve yarıya indirme mekanizmasının onaylanması",
+              "**Litepaper Duyurusu**: Ekonomik model taslağının topluluk ile paylaşılması"
+            ]
+          },
+          {
+            "title": "Aşama 2: Ateşleme",
+            "product": [
+              "**Ekosistem Entegrasyonu**: Partner mağazalar ve pazarlama senaryolarıyla bağlantı kurma",
+              "**API Açık Beta**: Üçüncü taraf botların Red Packet sistemi ile entegrasyonuna izin verme",
+              "**Veri Gösterge Paneli**: Kullanıcılar Red Packet ve puanlar hakkında ayrıntılı verileri görüntüleyebilir"
+            ],
+            "token": [
+              "**Üçüncü Taraf Denetimi**: Sözleşme kodu güvenlik denetimlerinden geçer",
+              "**TGE (Token Üretimi)**: Ana ağ dağıtımı, puanların geri ödeme/madencilik mekanizmaları için açılması",
+              "**İlk Likidite**: Temel değeri sağlamak için bir başlangıç havuzu oluşturma"
+            ]
+          },
+          {
+            "title": "Aşama 3: Genişleme",
+            "product": [
+              "**Bağımsız Uygulama**: Cüzdan ve IM işlevleri ile bağımsız bir uygulama başlatma",
+              "**Çapraz Platform Desteği**: Discord veya diğer topluluk platformlarına genişleme",
+              "**DAO Yönetim Aracı**: Topluluk oy verme özelliği canlıya geçiyor"
+            ],
+            "token": [
+              "**Ekonomik Döngü Aktifleştirme**: Geri alım ve yakma mekanizmaları otomatik olarak çalışır",
+              "**Çok Zincirli Dağıtım**: Diğer yüksek performanslı kamu zincirlerine genişleme",
+              "**Tamamen Merkeziyetsiz**: Yönetim hakları kademeli olarak DAO'ya devredilir"
+            ]
+          }
+        ]
+      },
+      "risks": {
+        "title": "Riskler ve Feragatler",
+        "description": [
+          "**Önemli açıklama**: Bu belge herhangi bir yatırım tavsiyesi niteliğinde değildir. Kripto para yatırımları, fiyat dalgalanması, likidite riski, teknik risk, düzenleyici risk gibi yüksek riskler taşımaktadır ve daha fazlasını içermektedir.",
+          "",
+          "**Büyük risk uyarıları**:",
+          "- **Fiyat dalgalanma riski**: Token fiyatları dramatik bir şekilde dalgalanabilir ve hatta sıfıra düşebilir. Lütfen tolerans seviyenizdeki kayıp aralığı içinde katıldığınızdan emin olun.",
+          "- **Likidite riski**: Başlangıç likiditesi yetersiz olabilir, bu da yüksek kayma veya işlemlerin anında gerçekleştirilmesinde zorluklara yol açabilir.",
+          "- **Teknik Risk**: Akıllı sözleşmeler denetlenecek olmasına rağmen, hala bilinmeyen teknik zafiyetler veya hacker saldırısı riskleri olabilir.",
+          "- **Regülasyon Riski**: Farklı ülkelerdeki kripto paralarla ilgili regülasyon politikaları her an değişebilir; bu da projenin operasyonlarını veya tokenlerin değerini etkileyebilir.",
+          "",
+          "**Kendi Araştırmanızı Yapın (DYOR)**: Yatırımcılar, ilgili riskleri tam olarak anlamalı ve kendi finansal durumlarına ve risk toleranslarına dayalı olarak temkinli bir şekilde yatırım yapmalıdır. Proje ekibi, herhangi bir yatırım kaybından sorumlu değildir."
+        ],
+        "disclaimer": {
+          "title": "Önemli Duyuru",
+          "text": "Bu belge, herhangi bir yatırım tavsiyesi olarak kabul edilmez. Kripto para yatırımları, fiyat volatilitesi, likidite riski, teknik risk, düzenleyici risk gibi yüksek düzeyde risk taşımaktadır ve bunlarla sınırlı değildir. Yatırımcılar, ilgili riskleri tam olarak anlamalı ve kendi risk toleranslarına dayalı olarak temkinli bir şekilde yatırım yapmalıdır. Proje ekibi, herhangi bir yatırım kaybından sorumlu değildir."
+        },
+        "risks": {
+          "title": "Büyük Riskler",
+          "items": [
+            "**Fiyat Dalgalanma Riski**: Token fiyatları önemli ölçüde dalgalanabilir ve hatta sıfıra inebilir.",
+            "**Likidite Riski**: Başlangıç likiditesi yetersiz olabilir, bu da ticaret deneyimini etkileyebilir.",
+            "**Teknik Risk**: Akıllı sözleşmeler bilinmeyen güvenlik açıkları içerebilir, ancak denetimler gerçekleştireceğiz.",
+            "**Regülasyon Riski**: Farklı ülkelerdeki regülasyon politikaları değişebilir, proje operasyonlarını etkileyebilir.",
+            "**Piyasa Riski**: Kripto para piyasasının genel dalgalanması token fiyatlarını etkileyebilir."
+          ]
+        }
+      },
+      "faq": {
+        "title": "Sıkça Sorulan Sorular",
+        "items": [
+          {
+            "question": "Tokenleri nasıl kazanabilirim?",
+            "answer": "Red Packet göndererek, görevleri tamamlayarak, arkadaşlarınızı davet ederek ve daha fazlasıyla $moonini elde edebilirsiniz. Gönderdiğiniz Red Packet sayısı ve tamamladığınız görev sayısı arttıkça daha fazla token kazanırsınız. Erken katılımcılar ayrıca daha yüksek bir ödül oranından yararlanacaktır."
+          },
+          {
+            "question": "Ne zaman çekim yapabilirim?",
+            "answer": "Ana ağ aktif hale geldikten sonra kullanıcılar $moonini cüzdanlarına çekebilir. Çekimler küçük bir Gas ücreti (BSC ağ ücreti) gerektirir. Lütfen belirli lansman zamanları için resmi duyurulara dikkat edin."
+          },
+          {
+            "question": "Ekip tahsisleri için bir kilitlenme süresi var mı?",
+            "answer": "Evet. Ekip tahsisi (%10) 3 ay boyunca kilitli tutulacak ve ardından 33-45 ay boyunca lineer olarak serbest bırakılacaktır. Operasyon, teknik ekip, halkla ilişkiler/pazarlama tahsisleri toplamda 48 ay süresince geçerlidir, erken yatırımcıların tahsisi ise 36 ay sürecektir."
+          },
+          {
+            "question": "Neden yarıya indirme mekanizması kullanılıyor?",
+            "answer": "Yarıya indirme mekanizması, erken katılımcıları teşvik etmek ve token dağıtım oranını kontrol etmek için tasarlanmıştır. Ne kadar erken katılırsanız, o kadar fazla token kazanırsınız; bu, erken kullanıcıları ve yatırımcıları çekmeye yardımcı olurken aşırı dağıtımın ileride enflasyona yol açmasını engeller."
+          },
+          {
+            "question": "Bir sözleşme veya sistem sorunu olursa ne yapmalıyım?",
+            "answer": "Üçüncü taraf güvenlik denetimleri, çoklu imza onayları, gecikmeli yürütme ve diğer çok katmanlı koruma mekanizmaları ile riskleri azaltacağız. Bir sorun meydana gelirse, hemen acil bir yanıt başlatacağız, yönetim mekanizması aracılığıyla bir çözüm planı belirleyecek ve topluluğu zamanında bilgilendireceğiz."
+          },
+          {
+            "question": "$moonini'nin toplam arzı nedir? Artacak mı?",
+            "answer": "$moonini'nin toplam arzı 10.000.000.000 parça (10B) olup, artırılamayacak sabit bir toplam arzı vardır. %90, kullanıcı etkinlikleri aracılığıyla kademeli olarak serbest bırakılacak, %10 ise ekibe ve erken yatırımcılara verilecektir."
+          },
+          {
+            "question": "Yönetimde nasıl katılabilirim?",
+            "answer": "$moonini sahipleri, gelecekteki topluluk yönetim oylamalarına katılabilir ve projenin gelişim yönünü etkileyebilir. Belirli yönetim mekanizmaları ve oylama yöntemleri, ana ağ faaliyete geçtiğinde kademeli olarak uygulanacaktır."
+          },
+          {
+            "question": "$moonini işlem yapılabilir mi?",
+            "answer": "Ana ağ faaliyete geçtiğinde ve bir likidite havuzu kurulduğunda, $moonini merkeziyetsiz borsalarda (örneğin PancakeSwap) işlem görebilir. İşlem, piyasadaki arz ve talebe bağlı olarak etkilenecek ve fiyatlar dalgalanabilir; bu nedenle lütfen dikkatli yatırım yapın."
+          }
+        ]
+      }
+    },
+    "charts": {
+      "allocation": {
+        "title": "Token Dağıtımı",
+        "public": "Halka Arz",
+        "team": "Takım Kotası",
+        "operations": "İşlemler",
+        "tech": "Teknik Ekip",
+        "marketing": "Halkla İlişkiler/Pazarlama",
+        "investors": "Erken Yatırımcılar"
+      },
+      "phase": {
+        "title": "6 aşamalı yarıya indirme mekanizması",
+        "phase": "Aşama",
+        "ratio": "Her 1 USDT için alabilirsiniz"
+      },
+      "vesting": {
+        "title": "Takım Kota Yayın Takvimi",
+        "cliff": "Kilitleme Süresi",
+        "release": "Çıkış Dönemi"
+      },
+      "governance": {
+        "title": "Yönetim Süreci",
+        "multisig": "Çoklu İmza Cüzdanı",
+        "proposal": "Teklif",
+        "timelock": "Gecikmiş Onay",
+        "execute": "Uygula",
+        "update": "Güncelle"
+      },
+      "flow": {
+        "title": "Token Dolaşım Süreci",
+        "userSend": "Kullanıcı Kırmızı Paket Gönderir",
+        "fee": "İşlem Ücretleri",
+        "operations": "İşletme Giderleri",
+        "pol": "Geri Alma Fonu",
+        "accumulate": "Biriktirme",
+        "trigger": "Geri Alım Tetikleyici",
+        "swap": "Döviz",
+        "addLiquidity": "Likidite Ekle",
+        "pool": "Likidite Havuzu",
+        "smart_floor": "Akıllı Tabandan Fiyat Savunması"
+      }
+    }
+  },
+  "litepaper_api": {
+    "meta": {
+      "title": "moonpacket Kimlik Doğrulama API'si",
+      "subtitle": "Ödül Kurallarını ve Kullanıcı Durumunu Sorgulamak için Standart Arayüz (v2.3)",
+      "description": "Moonpacket'in kurallarınızı ve kullanıcı durumunuzu sorgulaması için basit bir GET Endpoint sağlayın, Red Packet ve görev sistemlerini kolayca entegre edin."
+    },
+    "sidebar": {
+      "overview": "Entegrasyon Genel Bakışı",
+      "logic": "Etkileşim Mantığı",
+      "spec": "API Spesifikasyonu",
+      "ts_def": "TypeScript Tanımı",
+      "examples": "İletişim Örneği",
+      "security": "Güvenlik Kimlik Doğrulaması"
+    },
+    "hero": {
+      "badge": "API Teknik Şartnamesi v2.3",
+      "title": "Kimlik Doğrulama API'si",
+      "subtitle": "Özellik Sorgulama Arayüzü (GET)",
+      "desc": "Standart bir GET sorgu arayüzü üzerinden, moonpacket aktif bir şekilde 'ödül kuralları' ve 'kullanıcı özellikleri'ni sunucunuzdan alır. Tüm mantıksal değerlendirmeler moonpacket tarafından işlenir.",
+      "cta_docs": "Özellikleri Görüntüle",
+      "cta_key": "Litepaper'ı Geri Dön"
+    },
+    "content": {
+      "overview": {
+        "title": "Erişim Yapılandırması",
+        "desc": [
+          "moonpacket'in 'Talep Koşulları Ayarı' bölümünde 'Özel API' seçildiğinde, Lütfen Endpoint URL'nizi giriniz.",
+          "**Yöntem**: Lütfen `GET` kullanın",
+          "**İçerik Türü**: `application/json`",
+          "**Kimlik Doğrulama**: Kimlik doğrulama bilgileri Başlık (`X-API-KEY` ve `Signature`) aracılığıyla tamamen iletilecek ve URL hassas bilgiler içermeyecektir."
+        ]
+      },
+      "logic": {
+        "title": "Etkileşim Mantığı",
+        "desc": "Tüm süreç iki aşamaya ayrılmıştır: 'Kurulum Aşaması' ve 'Çalışma Aşaması'. moonpacket, API'nize GET yöntemini kullanarak istekler gönderecektir:",
+        "modes": [
+          {
+            "title": "Tetikleyici olay: 'Talep Koşulları Kurulumu'na URL doldurulduğunda ve gönderildiğinde",
+            "trigger": "GET ?user_id=...",
+            "request": "Operatörlerle (gt, eq, lt...) kural tanımayı döndürür",
+            "response": "Aşama 1: Kuralları Tanımla (Yapılandırma)"
+          },
+          {
+            "title": "Aşama 2: Kullanıcıyı Doğrula (Çalışma Zamanı)",
+            "trigger": "Olay tetikleme: kullanıcı Red Packet'i talep etmeye çalıştığında",
+            "request": "O belirli kullanıcının gerçek nitelik değerini döndürür (düz değer veya dize)",
+            "response": "Bu belirli kullanıcının gerçek özellik değerini döndürür (sade değer veya dize)"
+          }
+        ],
+        "note": "Desteklenen Operatörler: `eq` (eşit, metin/sayı destekler), `gt` (büyüktür), `gte` (büyüktür veya eşittir), `lt` (küçüktür), `lte` (küçüktür veya eşittir). `eq` operatörleri dışındaki değerler sayılar olmalıdır.",
+        "steps": {
+          "step1_label": "Adım Bir",
+          "step2_label": "Adım İki"
+        }
+      },
+      "diagram": {
+        "user": "Kullanıcı",
+        "moonpacket": "moonpacket",
+        "dev_api": "API'niz",
+        "step1": "1. Kurulum Sırasında: Alma Kuralları (GET)",
+        "step2": "2. Talep Sırasında: Durumu Sorgula (GET)",
+        "click": "Talep Etmek İçin Tıklayın",
+        "check": "Mantıksal Eşleşme (Yerel)",
+        "grant": "Ödülleri Dağıt",
+        "reject": "Nitelik Bildirimi",
+        "client_app": "İstemci / Sunucu",
+        "json_data": "JSON verisi",
+        "saved_rule": "Kurallar Kaydedildi:",
+        "user_state": "Kullanıcı Durumu:"
+      },
+      "spec": {
+        "title": "Arayüz Spesifikasyonu (Spesifikasyon)",
+        "request": {
+          "title": "İstek Parametreleri (Sorgu Parametreleri)",
+          "headers": [],
+          "query": [
+            "**api_key** (gerekli): Kimlik doğrulama için kurduğunuz API Anahtarı",
+            "**kullanıcı_id** (isteğe bağlı): Varsa kullanıcı özelliklerini, yoksa kural tanımlarını döndürür."
+          ]
+        },
+        "ts_def": {
+          "title": "Veri Yapısı Tanımı (TypeScript)",
+          "desc": "Aşağıdaki arayüz, AI destekli araçların okuyabilmesi için döndürülmesi gereken JSON yapısını tanımlar:"
+        }
+      },
+      "scenarios": {
+        "title": "Uygulama Senaryoları",
+        "items": [
+          {
+            "title": "GameFi Entegrasyonu",
+            "desc": "Kurala `level >= 10` tanımlayın. Kullanıcı talep ettiğinde, moonpacket kullanıcının özelliklerini kontrol eder, eğer `level: 12` ise onaylanır."
+          },
+          {
+            "title": "Kimlik Bağlama Ödülü",
+            "desc": "`kyc == true` kuralını tanımlayın. moonpacket, kullanıcı durumunu kontrol eder ve eğer `kyc: true` dönerse, ödüller dağıtılır."
+          },
+          {
+            "title": "Blacklist Filtrasyonu",
+            "desc": "`is_blacklist == false` kuralını tanımla. API `is_blacklist: true` dönerse, talep reddedilir."
+          }
+        ]
+      },
+      "examples": {
+        "title": "İletişim Örneği (GET İsteği)",
+        "mode_a": {
+          "title": "1. Kuralları Tanımla (Kurulum)",
+          "desc": "Ayarları gönderdiğinizde, operatörleri içeren JSON döndürün."
+        },
+        "mode_b": {
+          "title": "2. Sorgu Durumu (Çalışma Süresi)",
+          "desc": "Kullanıcı talep ettiğinde, saf değerler veya dizgeler döndürün."
+        }
+      },
+      "signature": {
+        "title": "Güvenlik Doğrulaması",
+        "desc": "İsteklerin doğruluğunu sağlamak için, moonpacket Başlıkta bir imza dahil edecektir. Doğrulama için sağdaki koda bakabilirsiniz:",
+        "required_headers": "Gerekli Başlıklar",
+        "algo_title": "İmza Algoritması",
+        "headers": {
+          "key": "X-API-ANAHTARI",
+          "ts": "X-API-ZAMAN DAMGASI",
+          "nonce": "X-API-NONCE",
+          "sig": "X-API-İMZA"
+        },
+        "algo": "HMAC-SHA256",
+        "formula": "İmza = HMAC_SHA256(gizli, gövde + zaman damgası + nonce)",
+        "steps": [
+          "1. Zaman Damgası, Rastgele Sayı, İmza'yı Başlıklar'dan Çıkarın",
+          "2. Zaman damgasının makul bir zaman aralığında olup olmadığını doğrulayın (örneğin, ±5 dakika)",
+          "3. Dize birleştir: RequestBody + Zaman Damgası + Nonce",
+          "4. Gizli anahtarınızı kullanarak HMAC-SHA256 hesaplayın.",
+          "5. Hesaplanan sonucu Başlıktaki İmza ile karşılaştırın"
+        ]
+      },
+      "reliability": {
+        "title": "Not",
+        "items": [
+          "**Zaman Aşımı**: API'nin sonuçları **3 saniye** içinde döndürebildiğinden emin olun.",
+          "**Format**: Lütfen JSON yapısına sıkı sıkıya bağlı kalın, aksi takdirde ayrıştırma hatası oluşacaktır."
+        ]
+      },
+      "error_codes": {
+        "title": "Durum Kodları",
+        "items": [
+          {
+            "code": "200",
+            "status": "OK",
+            "desc": "İstek parametre hatası (örneğin, format hatalı)."
+          },
+          {
+            "code": "400",
+            "status": "Bad Request",
+            "desc": "Yetkilendirme Başlığı eksik veya anahtar geçersiz."
+          },
+          {
+            "code": "401",
+            "status": "Unauthorized",
+            "desc": "IP kısıtlaması veya kaynağa yetkisiz erişim."
+          },
+          {
+            "code": "403",
+            "status": "Forbidden",
+            "desc": "Kullanıcı kimliği mevcut değil (kullanıcı durumu senaryoları için)."
+          },
+          {
+            "code": "404",
+            "status": "Not Found",
+            "desc": "Sunucu hatası."
+          },
+          {
+            "code": "500",
+            "status": "Server Error",
+            "desc": "GET"
+          }
+        ]
+      },
+      "disclaimer": {
+        "title": "Üçüncü Taraf API Açıklaması",
+        "text": "Bu belgede belirtilen üçüncü taraf platformlar için entegrasyon yöntemleri yalnızca referans içindir. Geliştiriciler, platformun en son resmi geliştirici belgelerine başvurmalı ve bunlara uymalıdır."
+      }
+    },
+    "labels": {
+      "request": "İçerik Talep Et",
+      "response": "Sonucu Geri Dön",
+      "code": "Durum Kodu",
+      "status": "Durum",
+      "desc": "Açıklama"
+    }
+  },
+  "whitepaper": {
+    "title": "$moonini Beyaz Kağıt",
+    "description": "$moonini token'ının tasarım felsefesini, ekonomik modelini ve teknik mimarisini anlama",
+    "seo": {
+      "title": "$moonini Beyaz Kağıt — moonpacket",
+      "description": "Tam $moonini Tokenomik, Teknik Mimari ve Yönetim Mekanizması Açıklaması"
+    },
+    "hero": {
+      "subtitle": "$moonini, moonpacket platformuna dayanan topluluk teşvik token'ıdır. Kullanıcılar moonpacket'te ne kadar çok etkileşimde bulunursa ve katılırsa, o kadar çok $moonini kazanabilirler. Yatırımcılar için, %90 kullanıcılar arasında dağıtılır ve %10 ekip için, yarılanma mekanizması ve lineer yayın ile birleşerek piyasa çöküşü riskini etkili bir şekilde azaltır.",
+      "cards": {
+        "user": {
+          "title": "Genel Kullanıcılar için",
+          "description": "Gönderim Red Packet'ları, görevleri tamamlama ve arkadaşları davet etme ile kolayca $moonini kazanın. Ne kadar çok kullanırsanız, o kadar çok kazanırsınız, tamamen ücretsiz."
+        },
+        "investor": {
+          "title": "Yatırımcılar için",
+          "description": "Toplam miktar 10B, 90/10 dağılım, 6 aşamalı yarılanma, ekip tahsisi lineer yayınlama, uzun vadeli istikrar için tasarlandı, piyasa çöküşü riskini azaltma."
+        },
+        "developer": {
+          "title": "Geliştiriciler/Ortaklar için",
+          "description": "Standartlaşmış sözleşmeler, açık API, diğer uygulamalar veya oyunlarla entegre edilebilir. Ayrıntılı teknik spesifikasyonlar için lütfen teknik belgelerine bakın."
+        }
+      }
+    },
+    "toc": {
+      "title": "İçindekiler"
+    },
+    "sections": {
+      "overview": "1. Proje Genel Görünümü",
+      "tokenomics": "2. Tokenomik",
+      "architecture": "Üç, Teknik Mimari",
+      "emission": "Dört, Yayın Mekanizması",
+      "governance": "Beş, Yönetim ve Güvenlik",
+      "incentives": "Altı, Kullanıcı Teşvik Sistemi",
+      "developer": "Yedi, Geliştirici Kılavuzu",
+      "roadmap": "8. Yol Haritası",
+      "risks": "9. Risk Uyarısı",
+      "faq": "On, Onaylanacak Sorular"
+    },
+    "content": {
+      "overview": {
+        "what_is": [
+          "**$moonini**, moonpacket platformının ekosistem token'ıdır ve kullanıcıları platform üzerindeki aktif davranışları için ödüllendirmek amacıyla kullanılır, bunlar arasında:",
+          "- Kırmızı paket gönderme",
+          "- Arkadaşları davet etme",
+          "- Görevleri tamamlama",
+          "- Topluluk etkinliklerine katılma",
+          "",
+          "**Basit Terimlerle**: moonpacket üzerinde ne kadar çok kullanırsanız, o kadar çok $moonini kazanırsınız."
+        ],
+        "core_values": {
+          "title": "Temel Değerler",
+          "values": [
+            "- ✅ **Merkeziyetsizlik**: Binance Smart Chain (BSC) üzerine kuruludur, tüm işlemler şeffaf ve doğrulanabilir, üçüncü taraflara güvenmeye gerek yoktur.",
+            "- ✅ **Adil Dağıtım**: Tokenlerin %90'ı kullanıcı etkinlikleri aracılığıyla dağıtılır, %10'u ekip ve yatırımcılar için ayrılmıştır, topluluğun önceliğini güvence altına alır.",
+            "- ✅ **Aşamalı Yayın**: 6 aşamalı yarı kesim mekanizmasını benimser, erken katılımcıların daha erken katıldıkça daha fazla kazanmalarını teşvik eder.",
+            "- ✅ **Güvenli ve Güvenilir**: Denetlenen standart sözleşme kütüphanelerini kullanır, tüm büyük işlemler çoklu imza onayları gerektirir, üçüncü taraf güvenlik denetimleri için planlama yapılmaktadır."
+          ]
+        }
+      },
+      "tokenomics": {
+        "info": {
+          "title": "2.1 Token Temel Bilgileri",
+          "description": [
+            "| Madde | Değer | Açıklama |",
+            "|------|------|------|",
+            "| **Token Adı** | moonini | Tam Adı |",
+            "| **Token Sembolü** | MOONINI | Ticaret Sembolü |",
+            "| **Toplam Arz** | 10,000,000,000 token (10B) | Sabit toplam arz, asla enflasyonist değil |",
+            "| **Ondalık Basamaklar** | 18 | BSC Standardı |",
+            "| **Blok Zinciri** | Binance Akıllı Zinciri (BSC) | BEP-20 Standardı |"
+          ]
+        },
+        "allocation": {
+          "title": "2.2 Tahsisat Planı",
+          "description": [
+            "**Toplam Arz: 10.000.000.000 token (10B)**",
+            "",
+            "**Ayrım Prensipleri**:",
+            "- **Topluluk ve Likidite için %90**:",
+            "- Kırmızı Paketler ve görevler aracılığıyla oluşturulan \"madencilik payını\" ve başlangıç ticaret çiftlerini oluşturmak için kullanılan \"likidite payını\" içerir (proje ekibi başlangıçta 10,000 USDT’yi havuz olarak yatırır).",
+            "- Bu pay tamamen ekosistem katılımcılarına geri döner, herhangi bir kurum veya özel yerleşim için ayrılmaz.",
+            "",
+            "- **Ekip ve Erken Destekçiler için %10**:",
+            "- **%4 Erken Yatırımcılar**: Erken finansal destek için ödüller.",
+            "- **%2 Teknik Ekip**: Protokolün devam eden geliştirilmesini ve bakımını sağlar.",
+            "- **%2 Operasyon Ekibi**: Topluluk yönetimi ve etkinlik planlamasından sorumludur.",
+            "- **%2 Pazarlama ve Ekosistem İstikrarı**: Aşırı koşullar sırasında piyasa büyümesini teşvik etmek ve ekosistem istikrarını sürdürmek amacıyla bir rezerv fonu olarak kullanın.",
+            "",
+            "**Yönetim Taahhüdü**:",
+            "En sıkı iç fon kontrolünü uyguluyoruz. Tüm ekip tahsisatları ve operasyonel giderler **Multisig** ve **Zaman Kısıtlaması** kısıtlamalarına tabidir. Tek bir kişi fonlara serbestçe erişemez, her harcamanın toplu kararlara dayalı olarak yapılmasını sağlar ve kamuya açık bir şekilde şeffaftır."
+          ]
+        },
+        "phase": {
+          "title": "2.3 6-Aşama Yarılama Mekanizması",
+          "description": [
+            "Erken katılımcıları teşvik etmek için, token dağıtımı 'ilerleyen yarıya indirme' mekanizmasını benimsemektedir:",
+            "",
+            "| Aşama | Dağıtılan Miktar Aralığı | İade Oranı (1 USDT başına) | Açıklama |",
+            "|------|------------|---------------------|------|",
+            "| **Aşama 1** | 0 ~ 4.5B | **1.0 token** | Erken katılımcılar, 1:1 değişim |",
+            "| **Aşama 2** | 4.5B ~ 6.75B | **0.5 token** | Yarıya indirilmiş |",
+            "| **Aşama 3** | 6.75B ~ 7.875B | **0.25 token** | Yine yarıya indirilmiş |",
+            "| **Aşama 4** | 7.875B ~ 8.4375B | **0.125 token** | Devam eden yarıya indirme |",
+            "| **Aşama 5** | 8.4375B ~ 8.71875B | **0.0625 token** | Sonuna yaklaşırken |",
+            "| **Aşama 6** | 8.71875B ~ 9B | **0.03125 token** | Son aşama |",
+            "",
+            "**Örnek**:",
+            "- Aşama 1’de, eğer 100 USDT Kırmızı Paket gönderirseniz, 100 $moonini alabilirsiniz",
+            "- Aşama 2’de, eğer 100 USDT Kırmızı Paket gönderirseniz, yalnızca 50 $moonini alabilirsiniz",
+            "- Ne kadar erken katılırsanız, o kadar çok token alırsınız!"
+          ],
+          "value_logic": [
+            "💡 Kırmızı Paket Felsefesi ve Değer Döngüsü",
+            "",
+            "**Kırmızı Paket ruhunun 'Verme' ve 'Bağlantı' olduğu**:",
+            "Doğu kültüründen doğan Kırmızı Paket, yalnızca fon transferini değil, aynı zamanda büyüklerden küçüklere verilen sevgiyi, tebrikleri ve arkadaşlar arasında paylaşımı temsil eder. moonpacket'te, her seferinde bir Kırmızı Paket gönderdiğinizde sıcak bir sosyal etkileşim gerçekleşir.",
+            "",
+            "**Sosyal Davranıştan Ekonomik Değere**:",
+            "Bu iyilik eylemlerinin kaydedilmesi ve değerlenmesi gerektiğine inanıyoruz. $moonini sadece bir ödül token'ı değil; bu sosyal ağın değer taşıyıcısıdır ve her 'verme' eyleminden uzun kuyruklu ekonomik etkiler üretir.",
+            "",
+            "**Gerçek Değer Desteği**:",
+            "Bu sosyal değerin istikrarını korumak için protokol şunları belirtir: **İşlem ücreti gelirinin %50'si otomatik olarak Likidite Havuzuna aktarılacaktır**.",
+            "",
+            "Bu şunu ifade eder: topluluk ne kadar aktif olursa ➔ o kadar çok Kırmızı Paket etkileşimi ➔ likidite havuzuna daha fazla fon enjekte edilir ➔ $moonini'nin değer temeli daha sağlam olur. Bu, tamamen spekülatif kumar değil, gerçek sosyal ihtiyaçlar ve iş gelirlerine dayanan olumlu bir döngüdür."
+          ]
+        }
+      },
+      "architecture": {
+        "blockchain": {
+          "title": "3.1 Blockchain Seçimi: Binance Smart Chain (BSC)",
+          "why": [
+            "**Neden BSC'yi Seçmelisiniz?**",
+            "",
+            "| Avantaj | Açıklama |",
+            "|------|------|",
+            "| ✅ **Düşük Ücretler** | Ortalama işlem maliyeti $0.1-$0.5, Ethereum'dan çok daha düşük |",
+            "| ✅ **Hızlı Onay** | Sorunsuz bir deneyim için ortalama onay süresi 3 saniye |",
+            "| ✅ **Olgun Ekosistem** | Büyük bir kullanıcı tabanına sahip zengin DeFi araçları |",
+            "| ✅ **EVM Uyumlu** | Ethereum ekosistem kaynaklarını yeniden kullanabilir |",
+            "| ✅ **Cüzdan Benimseme** | MetaMask, Trust Wallet gibi yaygın cüzdanlar destekliyor |"
+          ]
+        },
+        "contracts": {
+          "title": "3.2 Akıllı Sözleşme Mimarisi",
+          "description": [
+            "Tokenlerin güvenliği ve güvenilirliğini sağlamak için sektörde doğrulanmış akıllı sözleşme standartlarını kullanıyoruz.",
+            "",
+            "**Temel Tasarım İlkeleri**:",
+            "- **Merkeziyetsiz**: Tüm token dağıtım ve serbest bırakma mekanizmaları, insan müdahalesine ihtiyaç duymadan akıllı sözleşmeler aracılığıyla otomatik olarak gerçekleştirilir.",
+            "- **Şeffaf ve İzlenebilir**: Tüm işlem kayıtları blockchain üzerinde saklanmaktadır ve herkes tarafından erişilebilir.",
+            "- **Güvenli ve Güvenilir**: Kod kalitesi ve güvenliğini sağlamak için üçüncü taraf denetimli standart sözleşme kütüphanesi kullanmak.",
+            "",
+            "**Ana Fonksiyonlar**:",
+            "- **Token İhraç**: BSC standartlarına uygun olarak token ihraç etme ve transfer etme.",
+            "- **Otomatik Yayın**: Halka arz edilen token'ların %90'ının kademeli olarak yayınlanmasını (yarılamanın 6 aşaması) yönetin.",
+            "- **Takım Kilidi**: Kilitlenme ve lineer salım için %10 takım tahsisinin yönetimi",
+            "- **Yönetim Mekanizması**: Tüm önemli işlemler, topluluğun gözden geçirmesi için 48 saatlik bir bekleme süresi ile çoklu imza onayı gerektirir.",
+            "- **Otomatik Geri Alım**: Platform ücretleri otomatik olarak token'ları geri almak için kullanılır, likiditeyi artırır.",
+            "",
+            "**Güvenlik Önlemleri**:",
+            "- Kod kalitesi ve güvenliğini sağlamak için üçüncü taraf denetimli standart sözleşme kütüphanesi kullanır",
+            "- Tüm önemli işlemler, topluluğun incelemesi için 48 saatlik bir bekleme süresi ile çoklu imza onayı gerektirir.",
+            "- Kullanıcı çekimleri sırasında yalnızca kullanıcının işlem yapabilmesini sağlamak için kullanılan gelişmiş kimlik doğrulama teknolojisi",
+            "- Kullanıcı fonlarını korumak için bir yeniden oynatma saldırısı önleme mekanizması kullanır",
+            "- Üçüncü taraf güvenlik denetimlerinden geçmeyi planlayın (CertiK / PeckShield / SlowMist)",
+            "",
+            "*Detaylı teknik spesifikasyonlar, sözleşme arayüzleri ve fonksiyon tanımları için lütfen şuraya bakın: [Teknik Spesifikasyon Belgesi](/tr-TR/docs/technical)*"
+          ]
+        }
+      },
+      "emission": {
+        "public": {
+          "title": "4.1 Halka Arz (%90)",
+          "initial_liquidity": [
+            "**İlk Likidite**:",
+            "- Kamuya açık satış hazinesinden tokenların %90'lık kısmının bir kısmını, USDT ile başlangıç likidite havuzunu oluşturmak için kullanın.",
+            "- Çevrimiçi olduktan sonra token'ların normal bir şekilde işlem görebilmesini sağlamak, yatırımcılara likidite garantisi sunmak.",
+            "- Belirli miktarlar ana ağ lansmanından önce duyurulacaktır"
+          ],
+          "launch_protection": [
+            "**Anti-Snipe Mekanizmasını Açma**:",
+            "- **Tek Alım Limiti**: Açılıştan 30 dakika önce, tek bir cüzdan sadece toplam miktarın %0.5'ini veya %1'ini satın alabilir",
+            "- **Küçük Perakende Yatırımcıları Koruyun**: Büyük yatırımcıların piyasa açıldığında tüm likiditeyi almasını engelleyin",
+            "- **Zaman Penceresi**: 30 dakika sonra otomatik olarak kaldırılır, normal ticareti etkilemez",
+            "- **Fiyat İstikrarını Koruma**: Açılışta keskin fiyat dalgalanmalarından kaçının"
+          ],
+          "release_methods": [
+            "**Yayımlama Yöntemi**: Kullanıcı aktiviteleri aracılığıyla kademeli yayımlama",
+            "",
+            "**Yayın Kaynakları**:",
+            "1. **Kırmızı Paket Gönder**: Her seferinde 1 USDT Kırmızı Paket gönderildiğinde, mevcut aşamaya göre karşılık gelen $moonini al.",
+            "2. **Arkadaşları Davet Et**: Yeni kullanıcıları başarılı bir şekilde davet edin ve paylaşım görevlerini tamamlayarak $moonini kazanın.",
+            "3. **Görevleri Tamamla**: Ekstra $moonini kazanmak için başarı görevlerini, sosyal görevleri vb. tamamlayın.",
+            "4. **Grup Sahibi Kar Paylaşımı**: Grup sahipleri, gruplar arasında Red Packet göndererek %3 kar payı (USDT) alabilirler."
+          ],
+          "cost_vs_price": [
+            "💡 **Üretim Maliyeti vs Piyasa Fiyatı**:",
+            "",
+            "1. Aşamada, Red Packet madenciliği aracılığıyla 1 $moonini elde etmenin dolaylı maliyeti yaklaşık olarak **0.02 USDT**'dir (yüzde 2 işlem ücreti baz alınarak).",
+            "",
+            "Başlangıç liste fiyatımız **0.01 USDT**'dir.",
+            "",
+            "Bu, **ikincil piyasa alım maliyetinin üretim maliyetinin %50 daha düşük olduğu** anlamına gelir ve bu da erken yatırımcılara doğal bir güvenlik marjı sağlar."
+          ],
+          "withdraw_mechanism": [
+            "**Para Çekme Mekanizması**:",
+            "- Kullanıcılar platformda $moonini kazandıktan sonra, bunu güvenli bir kimlik doğrulama mekanizması aracılığıyla cüzdanlarına çekebilirler.",
+            "- Sistem, yalnızca kullanıcının işlem yapabileceğinden emin olmak için kullanıcı etkinlik kayıtlarına dayanarak doğrulama yapacaktır.",
+            "- Onaylandığında, kullanıcılar tokenlarını cüzdanlarına çekebilirler.",
+            "- **Minimum Withdrawal Threshold**: 10 $moonini",
+            "- **İşlem Ücreti**: Kullanıcıların yalnızca ağ işlem ücretini ödemeleri gerekmektedir (blok zinciri uygulamalarına uygun olarak)",
+            "",
+            "*Detaylı teknik uygulama için lütfen şuraya bakın: [Teknik Şartname Belgesi](/tr-TR/docs/technical)*"
+          ],
+          "phase_switch": [
+            "**Faz Değiştirme**:",
+            "- İlgili miktar aşama eşiğine ulaştığında otomatik olarak bir sonraki aşamaya geçiş yapın",
+            "- Geçiş süreci şeffaf ve izlenebilir, zincirde kaydedilmiştir."
+          ]
+        },
+        "team": {
+          "title": "4.2 Takım Kotası (10%)",
+          "vesting_rules": [
+            "**Kilitleme ve Serbest Bırakma Kuralları**:",
+            "",
+            "| Kategori | Oran | Kilitlenme Süresi (Cliff) | Lineer Dağıtım Süresi | Toplam Süre |",
+            "|------|------|---------------|-----------|--------|",
+            "| **İşlemler** | %2 (200M) | 3 ay | 45 ay | 48 ay |",
+            "| **Teknik Ekip** | %2 (200M) | 3 ay | 45 ay | 48 ay |",
+            "| **Halkla İlişkiler/Pazarlama** | %2 (200M) | 3 ay | 45 ay | 48 ay |",
+            "| **Erken Yatırımcılar** | %4 (400M) | 3 ay | 33 ay | 36 ay |",
+            "",
+            "**Yayın Metodu**:",
+            "- **Doğrusal Birikim**: Tokenler zamanla doğrusal olarak birikir ve çekim için mevcut olan miktar her zaman kontrol edilebilir.",
+            "- **Düzenli Yayınlar**: Manuel işlem gerektirmeden otomatik düzenli tetiklemelerle yayın yapma.",
+            "- **Bildirim Mekanizması**: Her serbest bırakma tamamlandıktan sonra yararlanıcılara otomatik bildirimler gönderilir.",
+            "",
+            "**Örnek**:",
+            "- Yatırımcı A 1.000.000 $moonini alıyor",
+            "- İlk 3 ay: Kilitlenme süresi, para çekme işlemlerine izin verilmez",
+            "- 4. aydan itibaren: Token'lar zamanla doğrusal bir şekilde birikir, birikmiş kısmın düzenli çekimleri ile.",
+            "- 33 ay sonra: Tüm sürümler tamamlandı."
+          ]
+        },
+        "kyc": {
+          "title": "4.3 Yatırımcı KYC ve Yönetimi",
+          "methods": [
+            "**KYC Yöntemi** (sınırlı sayıda başlangıç yatırımcıları için):",
+            "",
+            "1. **Kurucu Ekip Gerçek İsim KYC** (Tavsiye edilir, küçük ölçek için uygundur)",
+            "- Daha az sayıda yatırımcı için uygundur (< 10 kişi)",
+            "- Kurucu ekip üyeleri (Operasyon + Teknik) yatırımcılarla video mülakatlar yapar.",
+            "- Kimlik belgelerini, adres kanıtını ve diğer materyalleri doğrulayın",
+            "- PDF elektronik imza ile onayla (DocuSign/SignNow)",
+            "- **Avantajlar**: Düşük maliyet, esnek süreç, güven inşa eder",
+            "",
+            "2. **Shufti Pro** (Orta ölçek için uygundur)",
+            "- Orta düzeyde yatırımcı sayısı için uygundur (10-50 kişi)",
+            "- Aylık 10 ücretsiz doğrulama slotu (ilk kullanım için uygundur)",
+            "- Otomatik süreç, çoklu ülke belge doğrulamasını destekler.",
+            "- **Avantajlar**: Otomasyon, yüksek uyum, çok uluslu belgeleri destekler.",
+            "",
+            "3. **Diğer Üçüncü Taraf KYC** (Gelecek Genişleme)",
+            "- Persona / Sumsub / Onfido alternatifleri olarak",
+            "- Daha fazla sayıda yatırımcı için uygundur (> 50 kişi)"
+          ],
+          "flexibility": [
+            "**Yatırımcı Esnek Tasarım**:",
+            "",
+            "**Birden Fazla Cüzdan ve Farklı Oranlar için Destek**:",
+            "- Bir yatırımcı, jeton alacak birden fazla cüzdana sahip olabilir.",
+            "- Her cüzdan farklı tahsis oranları belirleyebilir (örneğin, %60 / %40).",
+            "- Farklı yatırımcılar farklı giriş zamanlarına sahip olabilir.",
+            "",
+            "**Cüzdan Değiştirme Mekanizması (İptal ve Yeniden İhracat Stratejisi)**:",
+            "- Yatırımcılar, alacakları cüzdanı değiştirebilir (yeniden KYC doğrulaması gerektirir).",
+            "- **Temel Mantık**: Eski cüzdanı doğrudan değiştirmek yerine, eski sürüm planını iptal edin ve yeni cüzdan için yeni bir sürüm planı oluşturun.",
+            "- **Süreç**:",
+            "1. Yatırımcılar eski cüzdanlarının kaybını/hırsızlığını bildirir ve çevrimdışı KYC doğrulamasını tamamlar.",
+            "2. Çoklu imza cüzdan teklifi aracılığıyla, eski yayın planını iptal edin ve çıkarılmamış tokenleri geri verin.",
+            "3. Yeni cüzdan için yeni bir yayın planı oluşturun. Miktar, kalan kısmı ve süre, kalan süreyi temsil etsin.",
+            "4. Tüm işlemlerin şeffaflık ve güvenliği sağlamak için 48 saatlik bir onay gecikmesi vardır.",
+            "- **Avantajlar**: Sözleşme mantığı daha basit (yalnızca oluşturma ve iptal etme), bu da hacking riskini önemli ölçüde azaltır.",
+            "- Sadece 'yayınlanmamış' kısımı etkiler; yayınlanan tokenler geri alınamaz."
+          ]
+        }
+      },
+      "governance": {
+        "mechanism": {
+          "title": "5.1 Yönetişim Mekanizması",
+          "core_principle": [
+            "**Temel İlke**: **Tek bir en yüksek otorite yoktur**, tüm önemli işlemler gecikmeli kamu incelemesine tabi olmalıdır.",
+            "",
+            "**Yönetim Süreci**:",
+            "1. **Teklif**: Çoklu imza cüzdan onayından sonra oluşturulan yönetim teklifi",
+            "2. **İnceleme Süresi**: 48 saatlik gecikme kuyruğuna girin, tüm işlemler blok zincirinde kamuya açık bir şekilde görünür.",
+            "3. **Uygulama**: Teklifler gecikme süresi sona erdikten sonra uygulanabilir",
+            "4. **İptal**: İnceleme süresi boyunca, teklifi yapan iptal edebilir.",
+            "",
+            "**Yönetilebilir Öğeler**:",
+            "- Parametre ayarlamaları (işlem ücretleri, geri alım limitleri vb.)",
+            "- Hazine tahsisatları (sonraki aşama kotası, etkinlik bütçeleri vb.)",
+            "- Sözleşme güncellemeleri (denetimi geçmelidir)"
+          ]
+        },
+        "security": {
+          "title": "5.2 Güvenlik Önlemleri",
+          "description": [
+            "**Çok Katmanlı Koruma**:",
+            "1. **Çoklu İmza Cüzdanı**: Tüm önemli işlemler onay için en az 2 imza gerektirir.",
+            "2. **Gecikmiş İcra**: Tüm yüksek riskli işlemler 48 saatlik bir gecikme gerektirir.",
+            "3. **Denetim**: Üçüncü taraf güvenlik denetimleri aracılığıyla",
+            "4. **Açık Kaynak**: Sözleşme kodu açıktır ve herkese açık olarak doğrulanabilir.",
+            "",
+            "**İzin Yönetimi**:",
+            "- **Token İhraç Yetkilisi**: İptal edildi veya yönetim hazinesine devredildi, istenildiği gibi jeton ihraç edemez.",
+            "- **Donma Yetkisi**: Kapalı, kullanıcı token'larını donduramaz.",
+            "- **Yetkilendirme Güncellemesi**: Sadece yönetim adresi token bilgilerini değiştirebilir."
+          ]
+        },
+        "pol": {
+          "title": "5.3 Geri Alım ve Piyasa Oluşturma (POL - Sınırsız Geri Alım + Taban Fiyat Savunması)",
+          "mechanism": [
+            "**Mekanizma**:",
+            "- **%1** platform işlem ücretleri $moonini geri almak ve likidite havuzunu derinleştirmek için kullanılacaktır",
+            "- **Sınırsız Geri Alım**: Geri alımlar için günlük bir limit yoktur; işlem ücretleri ne kadar olursa olsun, geri alımlar token için likidite desteği sağlamaya devam eder.",
+            "- **Otomatik Strateji**: Tahmin edilebilirliği azaltmak ve piyasa manipülasyonundan kaçınmak için akıllı geri alım stratejileri kullanma",
+            "- **Koruma Satın Al**: Önemli bir piyasa düşüşü olduğunda geri satın alma çabalarını otomatik olarak artırır, yatırımcı çıkarlarını korur."
+          ],
+          "floor_defense": [
+            "**Zemin Fiyat Savunması**:",
+            "- **Psikolojik Fiyat Düzeyi**: 0.01 USDT",
+            "- **Otomatik Savunma**: Fiyat savunma eşik seviyesinin altına düştüğünde, savunma modu otomatik olarak devreye girer ve geri alım çabalarını artırır",
+            "- **Otomatik Piyasa Yapıcı**: Manuel müdahale gerektirmeyen, akıllı sözleşmelere dayanan otomatik piyasa yapma, piyasa istikrarını sağlama",
+            "- **Piyasa Yapıcı Ücretlerden Tasarruf Edin**: Kırmızı Paketler, pazarlama veya başlangıç likiditesini artırma için bütçeyi kullanın"
+          ],
+          "philosophy": [
+            "**Tasarım Felsefesi**:",
+            "- Düşük giriş engelleri, yüksek oyun teorik getirileri",
+            "- Proje partisi piyasa ile etkileşime girmez (sadece işlem ücreti geri alımları sağlar)",
+            "- Saf sosyal finansman modeli",
+            "- Piyasa güvenini korumak için psikolojik fiyat seviyesini otomatik olarak korur",
+            "",
+            "*Detaylı teknik parametreler ve uygulama stratejileri için lütfen şuraya bakın: [Teknik Şartname Belgesi](/tr-TR/docs/technical)*"
+          ]
+        },
+        "kyc": {
+          "title": "4.3 Yatırımcı KYC ve yönetimi",
+          "methods": [
+            "**KYC Yöntemleri** (az sayıda başlangıç yatırımcıları için):",
+            "",
+            "1. **Kurucu Ekip Gerçek Kişi KYC** (tavsiye edilir, küçük ölçek için uygundur)",
+            "- Daha az sayıda başlangıç yatırımcısına uygun (< 10 kişi)",
+            "- Kurucu ekip üyeleri (operasyon + teknoloji) ve yatırımcılar arasında video röportajlar",
+            "- Kimlik belgeleri, adres kanıtı ve diğer belgelerin doğrulanması",
+            "- PDF e-imza ile onay (DocuSign/SignNow)",
+            "- **Avantajlar**: Düşük maliyet, esnek süreçler, güven ilişkileri kurabilir.",
+            "",
+            "2. **Shufti Pro** (orta ölçek için uygundur)",
+            "- Orta sayıda yatırımcı için uygundur (10-50 kişi).",
+            "- Aylık 10 ücretsiz doğrulama kredisi (ilk kullanım için uygundur).",
+            "- Otomatik süreçler, çok uluslu belge doğrulamasını destekler",
+            "- **Avantajlar**: Otomasyon, yüksek uyum, çok uluslu belgeler için destek",
+            "",
+            "3. **Diğer Üçüncü Taraf KYC** (gelecek genişleme)",
+            "- Persona / Sumsub / Onfido alternatifler olarak",
+            "- Daha fazla sayıda yatırımcı için uygundur (> 50 kişi)"
+          ],
+          "flexibility": [
+            "**Yatırımcılar için Esnek Tasarım**:",
+            "",
+            "**Birden Fazla Cüzdan ve Farklı Oranlar için Destek**:",
+            "- Bir yatırımcının token almak için birden fazla cüzdanı olabilir.",
+            "- Her cüzdan farklı tahsis oranlarına ayarlanabilir (örneğin, %60 / %40).",
+            "- Farklı yatırımcılar farklı giriş zamanlarına sahip olabilir.",
+            "",
+            "**Cüzdan Değişim Mekanizması (İptal ve Yeniden İhraç Stratejisi)**:",
+            "- Yatırımcılar alım cüzdanını değiştirebilir (yeniden KYC doğrulaması gerektirir).",
+            "- **Temel Mantık**: Eski cüzdanı doğrudan değiştirmek yerine, eski sürüm planını iptal edin ve yeni cüzdan için yeni bir sürüm planı oluşturun.",
+            "- **İşlem**:",
+            "1. Yatırımcı eski cüzdanını kaybetti/çalındı olarak bildirir ve off-chain KYC doğrulamasını tamamlar.",
+            "2. Bir çok imzalı cüzdan önerisiyle, eski yayın planını iptal edin ve yayımlanmamış jetonları geri gönderin.",
+            "3. Yeni cüzdan için yeni bir sürüm planı oluşturun, miktar kalan kısmı ve zaman kalan süreyi temsil etsin.",
+            "4. Tüm işlemler, şeffaflık ve güvenliği sağlamak için 48 saatlik bir onay gecikmesine tabidir.",
+            "- **Avantajlar**: Sözleşme mantığı daha basittir (sadece oluşturma ve iptal etme), bu da siber saldırı risklerini önemli ölçüde azaltır.",
+            "- Yalnızca \"yayınlanmamış\" kısmı etkiler; zaten yayınlanmış tokenler geri alınamaz."
+          ]
+        }
+      },
+      "incentives": {
+        "how_to_earn": {
+          "title": "6.1 $moonini Nasıl Elde Edilir?",
+          "send_gift": [
+            "#### A. Kırmızı Paket Gönderme",
+            "",
+            "- **Temel Kurallar**: Gönderilen her **1 USDT** eşdeğerindeki kırmızı paket (birden fazla token desteklenmektedir) için, sistem mevcut aşama döviz kuru üzerinden $moonini hesaplayacak ve dağıtacaktır.",
+            "- **Nimetleri İletmek**: Red packet'lar sadece para değil; aynı zamanda nimetlerin bir iletimi. Hediye verme işleminin her biri blok zincirine kaydedilecek ve ödüllendirilecektir."
+          ],
+          "invite": [
+            "#### B. Arkadaşları Davet Et (Kırmızı Paketi Paylaş)",
+            "",
+            "- **Kurallar**: Yeni arkadaşları davet edin ve paylaşım görevlerini tamamlayın, her iki taraf da ödül alır.",
+            "- **Anti-Spam Mekanizması**: Adalet sağlamak için, **her bir hesabın bir davet ödülü limiti vardır**, bu limit en son topluluk oyun tasarım duyurusuna göre dinamik olarak ayarlanacaktır.",
+            "- **Risk Control**: Sıkı risk kontrol mekanizmalarına sahibiz; herhangi bir anormal spam davranışı geçersiz sayılacaktır."
+          ],
+          "quests": [
+            "#### C. Görevleri Tamamlama",
+            "",
+            "**Görev Türleri**:",
+            "- Bir kez gerçekleşen başarı görevlerini (ilk red packet'i göndermek gibi) ve sosyal görevleri (resmi topluluğu takip etmek gibi) içerir.",
+            "- Bu görevler, yeni başlayanları platform özellikleriyle tanıştırmak için tasarlanmıştır, **her hesap yalnızca bir kez tamamlayabilir veya toplam bir miktar sınırı vardır**.",
+            "",
+            "**Tasarım Amacı**:",
+            "- Gerçek aktif kullanıcılar için ödüller bırakmak amacıyla, script otomasyonunun madeni paraları spam göndermesini önlemek."
+          ]
+        },
+        "fee_structure": {
+          "title": "6.2 Ücret Yapısı",
+          "description": [
+            "**Kırmızı Paket Gönderirken İşlem Ücretleri**:",
+            "",
+            "| Senaryo | Toplam Ücretler | Açıklama |",
+            "|------|---------|------|",
+            "| **Kendi Grubunda Gönderim** | %2 | %1 İşlemler + %1 Geri Alım |",
+            "| **Gruplararası Gönderim** | %5 | %1 İşlem + %1 Geri Alım + %3 Grup Sahibi Kar Paylaşımı |",
+            "",
+            "**Ücretlerin Kullanımı**:",
+            "- **1% Operasyonlar**: Sunucu, geliştirme ve pazarlama maliyetleri için kullanılır.",
+            "- **%1 Geri Alım**: $moonini geri almak ve LP'yi derinleştirmek için kullanılacak (gelecekte gerçekleştirilmesi planlanmaktadır).",
+            "- **%3 Grup Sahibi Kar Paylaşımı**: Grup sahibine (sadece grup dışı gönderimler için ücretlendirilir) ödenir."
+          ]
+        }
+      },
+      "developer": {
+        "contracts": {
+          "title": "7.1 Sözleşme Adresi (Yüklenme Bekleniyor)",
+          "description": [
+            "Token resmi olarak piyasaya sürüldüğünde, tüm akıllı sözleşme adresleri burada açıklanacak ve ilgili teknik spesifikasyon bağlantılarıyla birlikte verilecektir.",
+            "",
+            "**Ana Sözleşme Modülleri**:",
+            "- Token Sözleşmesi",
+            "- Yönetim ve Gecikme Kontrolü",
+            "- Kamu Arz Hazine",
+            "- Ekip Tahsisatı Hazine",
+            "- Geri Alım Yönetimi",
+            "- Likidite Havuzu",
+            "- Çoklu İmza Cüzdanı",
+            "",
+            "*Detaylı sözleşme adresleri ve teknik spesifikasyonlar için lütfen şu kaynağa başvurun: [Teknik Spesifikasyon Belgesi](/tr-TR/docs/technical)*"
+          ]
+        },
+        "api": {
+          "title": "7.2 Entegrasyon Modları ve API (Planlama Aşamasında)",
+          "intro": [
+            "moonpacket, üçüncü taraf geliştiricilerin ve ortakların $moonini ödül mekanizmasını ürünlerine kolayca entegre etmelerini sağlayacak komple bir API ekosistemi sunmayı planlıyor. İster bir Telegram botu, ister bir Web3 oyunu veya pazarlama kampanyası platformu olsun, API'miz kullanıcıların $moonini ödülleri almasına olanak tanır ve ekolojik etkiyi genişletir."
+          ],
+          "types": [
+            "**API Türleri**:",
+            "",
+            "Çeşitli entegrasyon ihtiyaçlarını karşılamak için aşağıdaki türde API'leri sağlamayı planlıyoruz:",
+            "",
+            "- **Veri Okuma API'si**: Red Packet dağıtım kayıtlarını, görev tamamlama durumunu, kullanıcı $moonini bakiyesini ve daha fazlasını sorgulama, ortakların kullanıcı aktivite durumunu anlamalarını sağlar.",
+            "",
+            "- **Dağıtım ve Görev API'si**: Ortakların, kendi ürünlerinde Red Packet dağıtımlarını veya görev ödüllerini tetiklemelerine olanak tanır. Örneğin, kullanıcılar bir oyunda belirli kilometre taşlarına ulaştıklarında otomatik olarak $moonini ödüllerini dağıtmak.",
+            "",
+            "- **Webhook Olayları**: Sistem, kullanıcılar görevleri tamamladığında, Red Packet talep ettiğinde veya para çekimlerini tamamladığında, ortakları önemli olaylar hakkında proaktif bir şekilde bilgilendirir, bu sayede gerçek zamanlı yanıtlar ve veri senkronizasyonu sağlar."
+          ],
+          "security": [
+            "**Güvenlik ve İzinler**:",
+            "",
+            "API'nin güvenliğini ve istikrarını sağlamak için aşağıdaki mekanizmaları uyguluyoruz:",
+            "",
+            "- **API Anahtar Doğrulama**: Her ortak, kimlik doğrulama ve yetkilendirme için özel bir API Anahtarı veya uygulama kimliği alacaktır.",
+            "",
+            "- **Hız Sınırlandırması**: Tüm API istekleri, kötüye kullanımı ve aşırı yüklenmeyi önlemek için hız sınırlandırmasına tabi tutulur, hizmetin kararlılığını sağlamaya yardımcı olur.",
+            "",
+            "- **İmza Doğrulama**: Kritik işlemler (örneğin, ödül dağıtımı) sahtekarlığı ve yetkisiz eylemleri önlemek için talep imzası doğrulaması gerektirir.",
+            "",
+            "- **İzin Seviyeleri**: Farklı ortaklar, işbirliği ilişkilerine ve ihtiyaçlarına dayalı olarak farklı API izin seviyelerine sahip olacak, bu da en az ayrıcalık ilkesini sağlamaktadır."
+          ],
+          "release": [
+            "**Yayın Ritim**:",
+            "",
+            "API, istikrar ve güvenliği sağlamak için ilerleyici bir açılma stratejisi benimseyecektir:",
+            "",
+            "- **Kapalı Beta**: Geri bildirim toplamak ve deneyimleri optimize etmek amacıyla başlangıçta ortaklara ve erken dönem oyun geliştiricilerine kapalı beta formatında sunulmuştur.",
+            "",
+            "- **Aşamalı Açılış**: Beta aşamasında istikrar doğrulandıktan sonra, uygulamalar yavaş yavaş açılacak ve daha fazla geliştiricinin $moonini ekosistemine entegrasyonuna olanak tanınacaktır.",
+            "",
+            "- **Resmi Yayın**: API üretim seviyesinde stabiliteye ulaştığında, halka resmi olarak açılacak ve tam dökümantasyon ile destek sağlayacaktır."
+          ],
+          "scenarios": {
+            "title": "Tipik Entegrasyon Senaryoları",
+            "items": [
+              "**Telegram Bot / Mini Uygulama**: Kullanıcıların $moonini ödülleri alabilmesi için gruplarınızda veya uygulamalarınızda Red Packet gönderin, kullanıcı etkileşimini artırın.",
+              "",
+              "**Web3 Oyunları**: Oyunlarda görev tamamlama durumunu moonpacket'e bildirerek, oyuncuların oyun görevlerini tamamladıklarında otomatik olarak ek $moonini ödülleri almalarını sağlar.",
+              "",
+              "**Pazarlama Kampanya Platformları**: Kullanıcı davranışlarına göre (örneğin; paylaşım, retweet, takip etme vb.) otomatik olarak $moonini ödülleri gönderin ve hassas pazarlama sağlayın.",
+              "",
+              "**DeFi Protokolleri**: $moonini'yi ek bir ödül katmanı olarak entegre edin, kullanıcıların belirli DeFi işlemlerini tamamlayarak orijinal kazançlarının üzerinde $moonini ödülleri kazanmalarını sağlayın.",
+              "",
+              "**İçerik Üretim Platformları**: Yaratıcılar belirli görevleri tamamladığında veya kilometre taşlarına ulaştıklarında $moonini ödüllerini otomatik olarak dağıtın, kaliteli içerik oluşturmayı teşvik edin."
+            ]
+          }
+        },
+        "tools": {
+          "title": "7.3 Geliştirici Araçları ve Dokümantasyon",
+          "description": [
+            "Geliştiricilerin moonpacket API'sini daha kolay entegre etmelerine yardımcı olmak için, kapsamlı geliştirici araçları ve belgeleri sağlamayı planlıyoruz:",
+            "",
+            "- **Geliştirici Portalı**: Geliştiricilere API anahtarı yönetimi, kullanım istatistikleri, hata günlükleri ve daha fazlasını içeren birleşik bir giriş noktası sunar; geliştiricilerin entegrasyonlarını kolayca yönetmelerine olanak tanır.",
+            "",
+            "- **API Dokümantasyonu**: Geliştiricilerin hızlıca başlamasını sağlayan, istek örnekleri, yanıt formatları, hata kodu açıklamaları vb. dahil olmak üzere eksiksiz REST API ve Webhook dokümantasyonu sağlar.",
+            "",
+            "- **SDK ve Kod Örnekleri**: Entegrasyon engellerini azaltmak için birden fazla dilde (JavaScript, Python gibi) SDK'lar ve kod örnekleri sağlar, böylece geliştiricilerin hızlıca uygulama yapmalarına olanak tanır.",
+            "",
+            "Şu anda, teknik belgeler akıllı sözleşme spesifikasyonları, dağıtım mekanizmaları, görev sistemleri ve diğer teknik detaylar dahil olmak üzere belge merkezi (docs) teknik sayfasından sunulmaktadır. Tam API belgeleri 《[Geliştirici API Belgeleri](/tr-TR/docs/api/)》 sayfasında düzenlenecek ve resmi API belgeleri ile geliştirici araçları ana ağ lansmanı etrafında kademeli olarak yayınlanacaktır, lütfen takipte kalın."
+          ]
+        }
+      },
+      "roadmap": {
+        "labels": {
+          "current": "Devam Ediyor",
+          "done": "Tamamlandı"
+        },
+        "phase1": {
+          "title": "Aşama 1: Altyapı (Tamamlandı ✅)",
+          "items": [
+            "- [x] Token sözleşmesi tasarımı",
+            "- [x] Teknik spesifikasyon belgesi",
+            "- [x] Veri yapısı tasarımı"
+          ]
+        },
+        "phase2": {
+          "title": "Aşama 2: Sözleşme Geliştirme (Devam Ediyor 🚧)",
+          "items": [
+            "- [ ] Token sözleşmesi dağıtımı (Testnet)",
+            "- [ ] Aşama yönetimi sözleşmesi",
+            "- [ ] Vesting sözleşmesi",
+            "- [ ] Zaman kısıtlaması entegrasyonu",
+            "- [ ] Üçüncü taraf denetimi"
+          ]
+        },
+        "phase3": {
+          "title": "Aşama 3: Lansman Hazırlığı (Planlandı 📅)",
+          "items": [
+            "- [ ] Ana ağ dağıtımı",
+            "- [ ] İlk likidite havuzu oluşturulması",
+            "- [ ] Kullanıcı teşvik sistemi lansmanı",
+            "- [ ] Gösterge panosu lansmanı"
+          ]
+        },
+        "phase4": {
+          "title": "Aşama 4: Ekosistem Genişlemesi (Gelecek 🔮)",
+          "items": [
+            "- [ ] POL geri alım mekanizmasının etkinleştirilmesi",
+            "- [ ] Çok zincirli destek (Polygon / Arbitrum)",
+            "- [ ] Daha Fazla DeFi entegrasyonu"
+          ]
+        }
+      },
+      "risks": {
+        "technical": {
+          "title": "9.1 Teknik Risk",
+          "description": [
+            "| Risk | Açıklama | Önleme Tedbirleri |",
+            "|------|------|---------|",
+            "| Akıllı Sözleşme Açıkları | Sözleşmede bilinmeyen açıklar olabilir | Üçüncü taraf denetimleri, Hata Ödül Programı |",
+            "| Özel Anahtar Sızıntısı | Yönetici özel anahtarları çalınabilir | Donanım cüzdanları, MPC, çoklu imza kullanın |",
+            "| Ağ Trafiği | BSC yoğun saatleri gecikmelere neden olabilir | Çoklu düğüm yedekliliği, Gaz optimizasyonu |"
+          ]
+        },
+        "market": {
+          "title": "9.2 Piyasa Riski",
+          "description": [
+            "- **Fiyat Oynaklığı**: Token fiyatları önemli ölçüde dalgalanabilir.",
+            "- **Likidite Riski**: Başlangıç likiditesi yetersiz olabilir",
+            "- **Regülatif Risk**: Farklı ülkelerdeki düzenleyici politikalar değişebilir."
+          ]
+        },
+        "notice": {
+          "title": "9.3 Kullanıcı Bildirimi",
+          "description": [
+            "- ⚠️ **Yatırım Riski**: Token fiyatları sıfıra düşebilir, lütfen dikkatli yatırım yapın.",
+            "- ⚠️ **Yatırım Tavsiyesi Değildir**: Bu beyaz kitap herhangi bir yatırım tavsiyesi niteliği taşımamaktadır",
+            "- ⚠️ **Kendi Araştırmanızı Yapın**: Lütfen kendi araştırmanızı yapın ve riskleri değerlendirin"
+          ]
+        }
+      },
+      "faq": {
+        "title": "On, Onaylanacak Konular",
+        "description": [
+          "Bu beyaz kağıt, $moonini'nin temel tasarım ilkelerini ve ekonomik modelini açıklamaktadır. Aşağıdaki konular hala danışmanlar ve ortaklarla koordinasyon halindedir ve ana ağ lansmanından önce kesinleştirilecektir:",
+          "",
+          "- **Token İhracı Zamanlaması ve Listeleneceği Borsalar**: Belirli ihracat zamanı ve merkezi borsalarda (CEX) listelenip listelenmeyeceği, hala danışmanlar ve ortaklarla koordine edilmektedir.",
+          "",
+          "- **Teknik Detaylar**: Bazı teknik uygulama detayları (örneğin, çok zincirli destek ve geri alım stratejisi parametrelerine yapılan ayarlamalar) ana ağ lansmanından önce tamamen belirlenecek ve teknik belgede güncellenecektir.",
+          "",
+          "- **Uyum ve Vergilendirme**: Uyum gereklilikleri ve vergi muamelesi, yerel düzenlemelere uyumu sağlamak için Tayvan ve yerel alandan gelen profesyonel görüşler doğrultusunda sürekli olarak güncellenmektedir.",
+          "",
+          "- **Beyaz Kağıt Güncellemeleri**: Bu beyaz kağıtta küçük ayarlamalar olabilir, ancak temel prensipler (90/10 dağılımı, 6 aşamalı yarılanma mekanizması, kilitlenme ve doğrusal serbest bırakma) değişmeden kalmaktadır.",
+          "",
+          "Tüm teknik detaylar, dağıtım adımları ve fonksiyon arayüzleri [Teknik Tasarım Belgesi](/tr-TR/docs/technical)'nde bulunabilir."
+        ]
+      }
+    },
+    "charts": {
+      "phase": {
+        "title": "6 Aşamalı Yarılanma Mekanizması",
+        "description": "Ne kadar erken katılırsanız, o kadar fazla token alırsınız.",
+        "xAxis": "Dolaşım",
+        "yAxis": "İade Oranı (1 USDT başına)",
+        "phase": "Aşama",
+        "ratio": "Oran",
+        "range": "Aralık",
+        "units": {
+          "ratio": "Parçalar",
+          "usdt": "USDT"
+        }
+      },
+      "vesting": {
+        "title": "Çıkış Zaman Çizelgesi",
+        "description": "Takım tahsisi 3 ay boyunca kilitlenecek, ardından kategorilere göre lineer olarak serbest bırakılacak.",
+        "cliff": "Kilitleme Süresi",
+        "linear": "Doğrusal Yayılma Dönemi",
+        "total": "Toplam Süre",
+        "months": "Aylar",
+        "operations": "Operasyonlar",
+        "tech": "Teknik Ekip",
+        "marketing": "Halkla İlişkiler/Pazarlama",
+        "investors": "Erken Yatırımcılar"
+      },
+      "flow": {
+        "title": "Token Dolaşım Akışı",
+        "userSend": "Kullanıcı Red Packet Gönderir",
+        "fee": "İşlem Ücretleri",
+        "operations": "İşletme Giderleri",
+        "pol": "Geri Alım Fonu",
+        "accumulate": "Biriktirme",
+        "trigger": "Geri Alım Tetikleyici",
+        "swap": "Token Değişimi",
+        "addLiquidity": "Likidite Ekle",
+        "pool": "Likidite Havuzu"
+      },
+      "governance": {
+        "title": "Yönetim Süreci",
+        "multisig": "Çok İmzalı Cüzdan",
+        "proposal": "Teklif",
+        "timelock": "Gecikmiş İşlem",
+        "execute": "Uygula",
+        "update": "Güncelle"
+      },
+      "architecture": {
+        "title": "Akıllı Sözleşme Mimarisi",
+        "token": "Token Sözleşmesi",
+        "vault": "Kasa",
+        "manager": "Yönetici",
+        "protection": "Koruma Mekanizması"
+      },
+      "progress": {
+        "title": "Aşama İlerlemesi",
+        "current": "Mevcut Aşama",
+        "issued": "Verildi",
+        "remaining": "Kalan"
+      }
+    }
+  },
+  "api": {
+    "actions": {
+      "items": {
+        "0": "$moonini token ve ekonomik modeli hakkında bilgi almak için [whitepaper](/tr-TR/docs/whitepaper/)i okuyun.",
+        "1": "Akıllı sözleşmeleri ve dağıtım mekanizmasını anlamak için [Teknik Şartlar Belgesini](/tr-TR/docs/technical/) okuyun.",
+        "2": "API iş birliği talebinizi resmi kanallar (Telegram, E-posta) aracılığıyla gönderin ve API hazır olduğunda sizi bilgilendirmeye öncelik vereceğiz."
+      },
+      "title": "Şimdi ne yapabilirsiniz?"
+    },
+    "content": {
+      "0": "Bu sayfa yakında Moonpacket / $moonini API'si için REST API, Webhook olayları, OAuth kimlik doğrulama, API Anahtarı yönetimi ve daha fazlası hakkında teknik detayları içeren kapsamlı bir belgeler sunacaktır.",
+      "2": "API şu anda tasarım ve iç doğrulama aşamasında olup, öncelikle sınırlı sayıda ortak için kapalı beta sürümünde test edilmeye, geri bildirim toplanmaya ve deneyimi optimize etmeye sunulacaktır.",
+      "4": "Tüm teknik detaylar, resmi API dokümantasyonu yayımlanmadan önce 'Teknik Şartname Belgesi' ve beyaz kağıda atıfta bulunmalıdır."
+    },
+    "description": "Moonpacket ve $moonini'yi ürünlerinize API aracılığıyla nasıl entegre edeceğinizi öğrenin.",
+    "seo": {
+      "description": "API belgeleri, REST API, Webhook ve entegrasyon kılavuzu tamamlandı",
+      "title": "Moonpacket / $moonini API Dokümantasyonu — moonpacket"
+    },
+    "status": {
+      "planned": "(Planlama Aşamasında)"
+    },
+    "subtitle": "Tam API dokümantasyonu ve entegrasyon kılavuzu (planlama aşamasında)",
+    "title": "Moonpacket / $moonini API Dokümantasyonu"
+  },
+  "countdown": {
+    "days": "Gökyüzü",
+    "hours": "Saat",
+    "minutes": "dakikalar",
+    "seconds": "ikinci",
+    "title": "$moonini'nin resmi sürümüne olan mesafe"
+  },
+  "disclaimer": {
+    "badge": "Önemli Bildirim",
+    "text": "Bu öğe hala geliştirme aşamasındadır ve ana sayfa yol haritasında belirtilen zaman çizelgesine göre ilerleyecektir. Beyaz kağıt, resmi token dağıtımından önce değişikliklere tabi olabilir ve kullanıcıların anlayışını rica ediyoruz. Token dağıtımından sonra, genellikle değişiklik yapılmayacaktır."
+  },
+  "distribution": {
+    "back_to_whitepaper": "Beyaz Kitaba Dön",
+    "description": "$moonini'nin iç dağıtım kurallarını ve muhasebe yöntemlerini anlayın",
+    "intro": {
+      "0": "**Bu belge mühendisler ve arka uç geliştiricileri için tasarlanmıştır**, moonpacket ürününde 'nasıl ihraç edileceği, kullanıcıların nasıl nakit alacağı ve görüntüleyebileceği' ile ilgili özel kuralları tanımlar.",
+      "2": "**Tasarım İlkeleri**:",
+      "3": "- **Minimal Değişiklikler**: Mevcut veri yapısını kullanmaya öncelik verin, karmaşık DB tablolarını hemen eklemekten kaçının.",
+      "4": "- **Genişletilebilir**: Gelecekte, eğer $moonini tamamen on-chain olmak istiyorsa, sadece çekim/haritalama mantığını eklememiz gerekiyor.",
+      "5": "- **Şeffaf ve İzlenebilir**: Tüm $moonini dağıtımları ve tüketimleri `user_activity_logs` içinde kaydedilmektedir.",
+      "7": "**Ana İçerik**:",
+      "8": "- Veri modeli ve muhasebe yöntemi (iç muhasebe)",
+      "9": "- $moonini dağıtım kaynağı ve kuralları",
+      "10": "- Muhasebe uygulama detayları",
+      "12": "*Bu belge teknik detayları içermektedir, genel kullanıcılar projenin genel görünümü için [beyaz sayfa](/tr-TR/docs/whitepaper/) referans alabilir.*",
+      "14": "Detaylı belgeler için lütfen şuraya bakın: `docs/technical/moonini-distribution.md`"
+    },
+    "seo": {
+      "description": "$moonini dağıtım kuralları ve muhasebe sistemi talimatlarını tamamlayın",
+      "title": "$moonini dağıtım mekanizması — moonpacket"
+    },
+    "title": "$moonini Dağıtım ve Toplama Tasarımı"
+  },
+  "index": {
+    "description": "Proje belgelerini, beyaz bülteni ve teknik spesifikasyonları tamamlayın",
+    "sections": {
+      "general": "Genel Belgeler",
+      "technical": "Teknik Dokümantasyon"
+    },
+    "title": "moonpacket Doküman Merkezi"
+  },
+  "missions": {
+    "back_to_whitepaper": "Beyaz Kitaba Dön",
+    "description": "Görevler ve başarılar aracılığıyla $moonini nasıl kazanacağınızı öğrenin.",
+    "intro": {
+      "0": "**Bu belge mühendisler ve ürün geliştiricilerine yöneliktir**, $moonini'nin görev sistemini ve başarı mekanizmasını tanımlamakta, \"Red Packet + Arkadaşları Davet Et\" iki temel eyleminin üzerine bir başarı hissi ve sosyal görevler eklemektedir.",
+      "2": "**Tasarım İlkeleri**:",
+      "3": "- Tüm \"ek $moonini\" görevleri esasen şunlarla ilgilidir: **Kırmızı Paketler göndermek, arkadaş davet etmek, resmi toplulukları takip etmek**",
+      "4": "- 'Tek Seferlik Görev', tamamlandıktan sonra kalıcı olarak kaybolacaktır.",
+      "5": "- Görev sistemi yalnızca \"bonus puanlar\" sağlar ve temel dağıtım kurallarını değiştirmez.",
+      "7": "**Görev Kategorisi**:",
+      "8": "- **Başarı Görevleri** (bir kerelik): Red Packet göndermek için kilometre taşları, arkadaş davet etmek için kilometre taşları vb.",
+      "9": "- **Sosyal Görevler** (tek seferlik): Resmi sosyal medya hesaplarını takip et, resmi topluluklara katıl, vb.",
+      "10": "- **Günlük/Haftalık Görevler** (Ayrılmış): Gelecekte ölçeklenebilir periyodik görevler",
+      "12": "*Bu belge teknik detaylar içermektedir; genel kullanıcılar projenin genel bir görünümü için [beyaz kitap](/tr-TR/docs/whitepaper/) başvurabilir.*",
+      "14": "Detaylı belgeler için lütfen şu adrese başvurun: `docs/technical/moonini-missions.md`"
+    },
+    "seo": {
+      "description": "Görev sistemi ve başarı mekanizması açıklamasını tamamlayın",
+      "title": "$moonini Görev Sistemi — moonpacket"
+    },
+    "title": "$moonini görev ve başarı tasarımı"
+  },
+  "nav": {
+    "api": "API Belgelendirmesi",
+    "distribution": "Dağıtım Mekanizması",
+    "docs": "Belge",
+    "missions": "Görev Sistemi",
+    "technical": "Teknik Özellikler",
+    "whitepaper": "Beyaz Kağıt"
+  },
+  "technical": {
+    "back_to_whitepaper": "Beyaz Kağıda Dön",
+    "description": "Mühendisler, akıllı sözleşme arayüzleri, Aşama mantığı ve POL mekanizmalarını içeren spesifikasyonlar geliştirir.",
+    "intro": {
+      "0": "**Bu belge mühendisler, akıllı sözleşme geliştiricileri ve denetçiler için hazırlanmıştır**, kapsamlı teknik uygulama detaylarını içermektedir.",
+      "2": "**Hedef Zincir**: Binance Akıllı Zinciri (BSC)",
+      "3": "**Sürüm**: v1.0 (2024-11)",
+      "5": "**Ana İçerik**：",
+      "6": "- Akıllı sözleşme mimarisi ve arayüz tanımı",
+      "7": "- Aşama yönetim mantığı (6 aşamalı yarıya indirme mekanizması)",
+      "8": "- POL (Yenileme ve Pazar Oluşturma) mekanizmasının uygulanması",
+      "9": "- Vesting Yayın Mekanizması",
+      "10": "- Yönetişim ve Güvenlik Tasarımı",
+      "11": "- Kod örnekleri ve teknik grafikler",
+      "13": "*Bu belge teknik detaylar içermektedir. Genel kullanıcılar projenin genel bir görünümü için [beyaz kitap](/tr-TR/docs/whitepaper/) referans alabilir.*",
+      "15": "Detaylı teknik dokümantasyon için lütfen şu adrese bakın: `docs/technical/moonini-bsc-technical-spec.md`"
+    },
+    "seo": {
+      "description": "BSC akıllı sözleşme teknik spesifikasyonları ve geliştirme kılavuzunu tamamlayın",
+      "title": "$moonini Teknik Özellikleri — moonpacket"
+    },
+    "title": "$moonini BSC Teknik Özellikleri"
+  },
+  "title": "Belge",
+  "toc": {
+    "back_to_index": "Belge Merkezine Dön",
+    "title": "Katalog"
+  }
+}

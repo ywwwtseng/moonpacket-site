@@ -1,0 +1,13 @@
+---
+import { getLocalesForBuild } from '@/i18n/locales.config';
+
+export async function getStaticPaths() {
+  const locales = getLocalesForBuild();
+  return locales.map((l) => ({ params: { lang: l.code } }));
+}
+
+const { lang } = Astro.params as { lang: string };
+
+// Redirect /docs/ -> /docs/litepaper/
+return Astro.redirect(`/${lang}/docs/litepaper/`, 301);
+---

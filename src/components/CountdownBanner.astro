@@ -1,0 +1,107 @@
+---
+import CountdownTimer from '@/islands/CountdownTimer';
+import { TOKEN_LAUNCH_CONFIG } from '@/config/token-launch';
+
+interface Props {
+  messages: any;
+}
+
+const { messages } = Astro.props as Props;
+const countdownLabels = messages.docs?.countdown || {};
+
+// 只在需要显示时才渲染
+const shouldShow = TOKEN_LAUNCH_CONFIG.launchDate && !TOKEN_LAUNCH_CONFIG.isLaunched;
+---
+
+{shouldShow && (
+  <div class="countdown-banner mb-4 max-w-screen-lg w-full rounded-lg border border-[#16A34A]/30 bg-[#16A34A]/5 dark:bg-[#16A34A]/10 px-4 py-3">
+    <astro-island>
+      <CountdownTimer
+        client:load
+        launchDate={TOKEN_LAUNCH_CONFIG.launchDate}
+        labels={countdownLabels}
+      />
+    </astro-island>
+  </div>
+)}
+
+<style>
+  .countdown-banner {
+    /* 使用 CSS 变量以支持日夜间模式 */
+    background-color: rgba(22, 163, 74, 0.05);
+    border-color: rgba(22, 163, 74, 0.3);
+  }
+
+  :global([data-theme="dark"]) .countdown-banner {
+    background-color: rgba(22, 163, 74, 0.1);
+    border-color: rgba(22, 163, 74, 0.4);
+  }
+
+  :global(.countdown-content) {
+    text-align: center;
+  }
+
+  :global(.countdown-title) {
+    font-family: 'Sora', system-ui, sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+    color: var(--text);
+  }
+
+  :global(.countdown-timer) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  :global(.countdown-item) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 60px;
+  }
+
+  :global(.countdown-value) {
+    font-family: 'IBM Plex Sans', 'Inter', system-ui, sans-serif;
+    font-variant-numeric: tabular-nums lining-nums;
+    font-feature-settings: 'tnum' 1, 'lnum' 1, 'zero' 1;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #16A34A; /* 上升绿 */
+    line-height: 1.2;
+  }
+
+  :global([data-theme="dark"]) .countdown-value {
+    color: #22c55e; /* 夜间模式使用更亮的绿色 */
+  }
+
+  :global(.countdown-label) {
+    font-family: 'Inter', system-ui, sans-serif;
+    font-size: 0.75rem;
+    color: var(--text-subtle);
+    margin-top: 0.25rem;
+  }
+
+  /* 移动端优化 */
+  @media (max-width: 768px) {
+    :global(.countdown-timer) {
+      gap: 0.5rem;
+    }
+
+    :global(.countdown-item) {
+      min-width: 50px;
+    }
+
+    :global(.countdown-value) {
+      font-size: 1.25rem;
+    }
+
+    :global(.countdown-label) {
+      font-size: 0.625rem;
+    }
+  }
+</style>
+

@@ -1,0 +1,101 @@
+{
+  "illustration_alt": "moonini öleli az illusztrációt",
+  "title": "🌕 A moonini története",
+  "origin": [
+    "Egy napon egy piros meteorit zuhant le a hold távoli oldalán,",
+    "A holdfény a becsapódáskor felrobbanva ezüst-fehér fényszórásra változott.",
+    "A villogó piros 'red packet meteoritból'",
+    "Egy ragyogó kis holdnyúl született — moonini.",
+    "",
+    "moonini egy aranysárga holdjelvényt visel a mellkasán.",
+    "Érzi a Földről küldött szívből jövő red packeteket.",
+    "Bármilyen mennyiségben, ez a legegyszerűbb meleg energia.",
+    "Igen, moonini a mindenki által küldött red packet energia révén növekszik.",
+    "",
+    "Ezek az energiák átalakulnak red packet hitelesítőkké, amelyek a Solana láncon születtek —",
+    "Ez a $moonini Token eredete."
+  ],
+  "secrets_title": "🌸 Az Ő titka",
+  "secrets_intro": "Minden alkalommal, amikor red packetet küldesz, moonini egy energia bejegyzést rögzít a holdon:",
+  "secrets_flow": "Küldj red packetet → Termelj megfelelő energiaértéket (USDT értékre átváltva) → Halmozz 10-re → Érd el a minimum váltható $moonini értéket.",
+  "secrets_halving": [
+    "A kezdeti fázisban (1. fázis) moonini általában 1:1 arányban tér vissza a red packet küldőjének. A méltányosság fenntartása és a wash/ping-pong kockázatának csökkentése érdekében bevezetjük a hatékony energia fogalmát.",
+    "Amikor a közösségből küldött és kivett összegek elérik a rendszer által beállított felezési küszöböt, az első felezés bekövetkezik; ezt követően a korábbi szakasz összegének felének elérése újabb felezést indít."
+  ],
+  "schedule_title": "Token kibocsátási szabályok",
+  "schedule_headers": [
+    "Színpad",
+    "Kibocsátási korlát",
+    "Kibocsátási arány (energiatermelés 1 USDT felhalmozva)",
+    "Leírás"
+  ],
+  "schedule_rows": [
+    [
+      "1. fázis",
+      "0 ~ 4.5 billion",
+      "1.0 $moonpacket / USDT",
+      "Initial period, energy overflow."
+    ],
+    [
+      "2. fázis",
+      "4.5B ~ 6.75B",
+      "0.5 $moonpacket / USDT",
+      "First halving."
+    ],
+    [
+      "3. fázis",
+      "6.75B ~ 7.875B",
+      "0.25 $moonpacket / USDT",
+      "Stabilization period."
+    ],
+    [
+      "4. fázis",
+      "7.875B ~ 8.4375B",
+      "0.125 $moonpacket / USDT",
+      "Scarcity period."
+    ],
+    [
+      "5. fázis",
+      "8.4375B ~ 8.71875B",
+      "0.0625 $moonpacket / USDT",
+      "Late mining phase."
+    ],
+    [
+      "6. fázis",
+      "8.71875B ~ 9B",
+      "0.03125 $moonpacket / USDT",
+      "Crystallization period (final phase)."
+    ]
+  ],
+  "cap_note": [
+    "Amikor az összes kibocsátás eléri a 9 milliárdot, a moonini leáll a további kibocsátással.",
+    "A hátralévő 1 milliárd (a teljes kínálat 10%)",
+    "Az hivatal által fenntartva a jövőbeli közösségi jutalmak és együttműködési energiaforrások használatára."
+  ],
+  "belief_title": "🌕 A hold energiája és a red packetbe vetett hit",
+  "belief_paragraphs": [
+    "moonini mindenkit szeret, aki hajlandó 'megosztani'.",
+    "Azt hiszi, hogy a red packetek nem csupán pénz, hanem áldások és energia cseréje.",
+    "Minden alkalommal, amikor red packetet küldesz, feladatot teljesítesz vagy csatlakozol a moonpacket közösséghez,",
+    "lehetőséged lesz, hogy visszatérítést kapj a holdtól — véletlenszerűen eldobott $moonini.",
+    "",
+    "Ez az a fény, amit a világmindenség visszaad neked, miután örömet osztottál."
+  ],
+  "future_title": "💫 Jövőbeli alkalmazások",
+  "future_intro": "Jelenleg a $moonini nem nyitott hivatalos alkalmazási forgatókönyvek számára, de egy jövőbeli red packet világ jutalmazó és energiaigazolási eszközeként lett megtervezve, amit esetleg az alábbiakra használhatnak:",
+  "future_list": [
+    "✅ red packet tranzakciós díj kedvezmények",
+    "🎁 Kereskedői kuponok/váltási kedvezmények",
+    "🌐 Esemény légiesítései és közösségi feladatjutalmak"
+  ],
+  "disclaimer_title": "⚠️ Nyilatkozat",
+  "disclaimer_paragraphs": [
+    "A hivatal nem garantál semmilyen valutaváltási értéket a $moonini esetében.",
+    "Úgy gondolhatsz rá, mint egy nagylelkű ember bónuszpontjaira.",
+    "Jelképezi mindazokat, akik hajlandóak megosztani a boldogságot és terjeszteni az energiát."
+  ],
+  "closing": [
+    "moonini — a red packet energia által született holdi nyúl.",
+    "Minden áldás egy fénysugár a növekedéséhez."
+  ]
+}

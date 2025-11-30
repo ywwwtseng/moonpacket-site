@@ -1,0 +1,177 @@
+{
+  "title": "moonpacket — อั่งเปา crypto ที่ง่าย ปลอดภัย และรวดเร็ว",
+  "description": "moonpacket หุ่นยนต์ส่งอั่งเปาที่เข้ารหัส | รองรับ USDT, TON, SOL, ETH. ส่งอั่งเปาได้อย่างง่ายดาย รับทันที ปลอดภัยแบบไม่ดูแล ถือเป็นวิธีที่เหมาะสำหรับการเติบโตของชุมชน Telegram และเพิ่มการมีส่วนร่วม",
+  "nav": {
+    "home": "หน้าแรก",
+    "about": "เกี่ยวกับ",
+    "pricing": "ราคา",
+    "team": "ทีม",
+    "blog": "บล็อก",
+    "faq": "คำถามที่พบบ่อย",
+    "contact": "ติดต่อเรา",
+    "careers": "อาชีพ",
+    "claim": "เรียกร้องอั่งเปา",
+    "send": "ส่งอั่งเปา",
+    "api": "เอกสาร API",
+    "docs": "เอกสาร"
+  },
+  "hero": {
+    "title": "อั่งเปา Cryptocurrency ใช้งานได้สำหรับทุกคน",
+    "subtitle": "ยกระดับประสบการณ์ชุมชนของคุณด้วยบริการที่ง่ายและทั่วโลก",
+    "desc": "บอทอั่งเปาที่ดีที่สุดสำหรับโปรเจกต์โทเคน meme และเจ้าของกลุ่ม Telegram เพื่อดึงดูดผู้ใช้ใหม่และเพิ่มการมีส่วนร่วม",
+    "ctaPrimaryLabel": "เริ่มใช้งาน moonpacket",
+    "ctaPrimaryHref": "https://t.me/moonpackagedevbot https://t.me/MoonPackageDevBot",
+    "ctaSecondaryLabel": "วิธีการเชื่อมต่อ",
+    "ctaSecondaryHref": "/th-TH/integration",
+    "lead": "กลุ่ม Telegram TON, meme, อั่งเปา USDT | บอทอั่งเปาที่ดีที่สุดสำหรับโปรเจกต์โทเคน meme และเจ้าของกลุ่ม Telegram เพื่อดึงดูดผู้ใช้ใหม่และเพิ่มการมีส่วนร่วม",
+    "cta_primary": "เปิดใช้งาน moonpacket ตอนนี้",
+    "cta_secondary": "วิธีการรวมกับกลุ่ม",
+    "headline_line1": "moonpacket",
+    "headline_line2": "เริ่มต้นใช้งาน มุ่งสู่ดวงจันทร์",
+    "tagline": "กลุ่ม Telegram TON, meme, และอั่งเปา USDT สำหรับการตลาดและการรักษาสมาชิกในชุมชน บอทอั่งเปาสำหรับผู้ดูแลกลุ่มเพื่อเพิ่มการมีส่วนร่วม ดึงดูดสมาชิกใหม่ และกระตุ้นการมีปฏิสัมพันธ์"
+  },
+  "features": {
+    "f1": "การลงทะเบียนด่วน",
+    "f2": "การทำให้เป็นสากล",
+    "f3": "ความปลอดภัยแบบไม่ดูแล",
+    "title": "ฟีเจอร์หลัก",
+    "items": "__TODO_TRANSLATE_zh-CN__"
+  },
+  "sections": {
+    "features_heading": "ไฮไลท์ฟีเจอร์",
+    "features_subtitle": "คุณสามารถรับได้",
+    "tokens_heading": "โทเค็นและสถิติ",
+    "testimonials_heading": "รีวิวจากผู้ใช้",
+    "pricing_heading": "แผนและราคา",
+    "waterfall_title": "น้ำตกอั่งเปา"
+  },
+  "footer": {
+    "rights": "",
+    "privacy": "นโยบายความเป็นส่วนตัว",
+    "terms": "เงื่อนไขการให้บริการ",
+    "social": {
+      "telegram_group": "กลุ่ม Telegram",
+      "telegram_channel": "ช่อง Telegram",
+      "x": "X",
+      "youtube": "ยูทูบ"
+    },
+    "copyright": "ลิขสิทธิ์"
+  },
+  "a11y": {
+    "skip_to_main": "ข้ามไปยังเนื้อหาหลัก",
+    "language_menu": "เปิดเมนูภาษา",
+    "language": "ภาษา"
+  },
+  "metrics": {
+    "heading": "ตัวชี้วัดแบบเรียลไทม์",
+    "price_btc": "ราคาบิตคอยน์",
+    "total_sent": "ยอดรวมที่ส่ง",
+    "total_claimed_amount": "ยอดรวมที่ได้รับ (USDT)",
+    "title": "โทเค็นและสถิติ",
+    "groups": "กลุ่มที่เชื่อมต่อ",
+    "groupsLinkLabel": "กลุ่มอั่งเปาที่เชื่อมต่อ",
+    "sent": "อั่งเปาที่ส่งแล้ว",
+    "claimed": "ยอดรวมที่เคลมแล้ว",
+    "sort": {
+      "latest": "ล่าสุด",
+      "oldest": "เก่าที่สุด",
+      "most": "จำนวนผู้เข้าร่วมสูงสุด",
+      "least": "จำนวนผู้เข้าร่วมขั้นต่ำ"
+    }
+  },
+  "errors": {
+    "stale": "ข้อมูลอาจล้าสมัย",
+    "not_found": "ไม่พบหน้า",
+    "not_found_desc": "ขออภัย เราไม่สามารถค้นหาหน้านี้ได้ หรือมันถูกลบ"
+  },
+  "pricing": {
+    "starter": "แผนพื้นฐาน",
+    "pro": "บริการระดับมืออาชีพ",
+    "enterprise": "แผนองค์กร",
+    "price_free": "ฟรี",
+    "price_19": "$19",
+    "price_contact": "ติดต่อเรา",
+    "sla_support": "SLA และการสนับสนุน",
+    "bullets": {
+      "starter": {
+        "0": "ฟีเจอร์พื้นฐาน",
+        "1": "การสนับสนุนจากชุมชน"
+      },
+      "pro": {
+        "0": "รวมแผนพื้นฐาน",
+        "1": "การปรับแต่งระดับสูง"
+      },
+      "enterprise": {
+        "0": "SLA และการสนับสนุน",
+        "1": "การรวมระบบที่กำหนดเอง"
+      }
+    }
+  },
+  "story": {
+    "belief_title": "🌕 พลังของดวงจันทร์และความเชื่อในอั่งเปา",
+    "disclaimer_title": "⚠️ ข้อจำกัดความรับผิด",
+    "future_title": "💫 การประยุกต์ในอนาคต",
+    "schedule_title": "กฎการเปิดตัวโทเค็น",
+    "secrets_title": "🌸 ความลับของเขา",
+    "title": "🌕 เรื่องราวของ moonini"
+  },
+  "waterfall": {
+    "claimed": "เคลม",
+    "progress": "เคลมเรียบร้อย",
+    "sent_from": "กำลังส่งกลุ่ม:",
+    "total": "จำนวนรวม"
+  },
+  "seo": {
+    "og": {
+      "image": "/images/og-default.png",
+      "type": "เว็บไซต์"
+    },
+    "routes": {
+      "claim": {
+        "description": "ฟีเจอร์อั่งเปาของ moonpacket รองรับโทเค็นต่าง ๆ รวมถึง SOL และ USDT และอนุญาตให้ส่งโทเค็น meme ของคุณเอง เครื่องมือที่ทรงพลังในการดึงดูดผู้ใช้ใหม่และเพิ่มการมีส่วนร่วมในกลุ่ม Telegram.",
+        "title": "อั่งเปา Telegram Mini APP — moonpacket"
+      },
+      "privacy": {
+        "description": "นโยบายความเป็นส่วนตัวของ moonpacket อธิบายว่าเรารวบรวม ใช้ และปกป้องข้อมูลส่วนบุคคลของคุณอย่างไร.",
+        "title": "นโยบายความเป็นส่วนตัว — moonpacket"
+      },
+      "send": {
+        "description": "ใช้ moonpacket เพื่อส่งอั่งเปา ตั้งเงื่อนไขงาน และการรวม API เพื่อดึงดูดผู้ใช้ใหม่อย่างมีประสิทธิภาพและเสริมสร้างการมีส่วนร่วมของผู้ใช้ที่มีคุณค่า.",
+        "title": "ส่งอั่งเปา — moonpacket"
+      },
+      "terms": {
+        "description": "ข้อกำหนดในการให้บริการของ moonpacket, แนวทางการใช้งานและคำแถลงทางกฎหมาย.",
+        "title": "ข้อกำหนดในการให้บริการ — moonpacket"
+      },
+      "docs": {
+        "description": "จัดทำเอกสารโครงการให้ครบถ้วน, เอกสารไวท์เปเปอร์, และรายละเอียดทางเทคนิค",
+        "distribution": {
+          "description": "จัดทำกฎการแจกจ่าย $moonini และคำบรรยายระบบการบัญชีให้ครบถ้วน",
+          "title": "กลไกการแจกจ่าย $moonini — moonpacket"
+        },
+        "litepaper": {
+          "description": "$moonini เป็นโทเค็นแรงจูงใจของชุมชนที่อิงจากแพลตฟอร์ม moonpacket เรียนรู้วิธีการทำกำไร การใช้งาน และการลงทุนในมูลค่าของมัน",
+          "title": "เอกสารเบื้องต้น $moonini — moonpacket"
+        },
+        "missions": {
+          "description": "จัดทำคำบรรยายระบบงานและกลไกการบรรลุผลให้ครบถ้วน",
+          "title": "ระบบงาน $moonini — moonpacket"
+        },
+        "technical": {
+          "description": "จัดทำรายละเอียดทางเทคนิคของสัญญาอัจฉริยะ BSC และคู่มือการพัฒนาให้ครบถ้วน",
+          "title": "รายละเอียดทางเทคนิคของ $moonini — moonpacket"
+        },
+        "title": "ศูนย์เอกสาร — moonpacket",
+        "whitepaper": {
+          "description": "จัดทำเอกสารเศรษฐศาสตร์โทเค็น $moonini สถาปัตยกรรมทางเทคนิค และคำบรรยายกลไกการบริหารให้ครบถ้วน",
+          "title": "เอกสารไวท์เปเปอร์ $moonini — moonpacket"
+        }
+      }
+    },
+    "site": {
+      "description": "บอท Telegram อั่งเปา cryptocurrency moonpacket | รองรับ USDT, TON, SOL, ETH, DOGE. คุณยังสามารถส่งอั่งเปาโทเค็น meme ของคุณเองได้ ซึ่งเหมาะสำหรับดึงดูดผู้ใช้ใหม่ สร้างบรรยากาศที่มีชีวิตชีวา และเพิ่มการมีส่วนร่วมในชุมชน Telegram.",
+      "site_name": "moonpacket",
+      "title": "moonpacket — อั่งเปาโทเค็น meme cryptocurrency, กระเป๋าเงินอั่งเปาที่จัดตั้งขึ้น"
+    }
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "title": "moonpacket — باقات ريد كريبتو سهلة وآمنة وسريعة",
+  "description": "روبوت ريد باكيت المشفر من moonpacket | يدعم USDT و TON و SOL و ETH. أرسل ريد باكيت بسهولة، استلم على الفور، بأمان بدون وصاية، مثالي لنمو مجتمع Telegram وزيادة التفاعل.",
+  "nav": {
+    "home": "الرئيسية",
+    "about": "حول",
+    "pricing": "التسعير",
+    "team": "الفريق",
+    "blog": "مدونة",
+    "faq": "الأسئلة المتكررة",
+    "contact": "تواصل معنا",
+    "careers": "وظائف",
+    "claim": "استرداد ريد باكيت",
+    "send": "أرسل ريد باكيت",
+    "api": "وثائق API",
+    "docs": "وثيقة"
+  },
+  "hero": {
+    "title": "حزم ريد باكيت للعملات الرقمية، متاحة للجميع",
+    "subtitle": "عزز تجربة مجتمعك مع خدمات بسيطة، عالمية.",
+    "desc": "أفضل بوت ريد باكيت لمشاريع الميم توكن ومالكي مجموعات تيليجرام للحصول على مستخدمين جدد وزيادة التفاعل.",
+    "ctaPrimaryLabel": "إطلاق moonpacket",
+    "ctaPrimaryHref": "https://t.me/moonpackage devbot https://t.me/MoonPackageDevBot",
+    "ctaSecondaryLabel": "كيفية الاتصال",
+    "ctaSecondaryHref": "/ar-SA/integration",
+    "lead": "تيليجرام TON، ميم، ريد باكيت USDT | أفضل بوت ريد باكيت لمشاريع الميم توكن ومالكي مجموعات تيليجرام للحصول على مستخدمين جدد وزيادة التفاعل.",
+    "cta_primary": "قم بتنشيط moonpacket الآن",
+    "cta_secondary": "كيفية الدمج مع المجموعات",
+    "headline_line1": "moonpacket",
+    "headline_line2": "ابدأ الآن، ووجه نحو القمر.",
+    "tagline": "حزم ريد باكيت في تيليجرام للاستخدام مع TON وmeme وUSDT للتسويق المجتمعي والاحتفاظ بالعملاء. بوت حزم ريد باكيت مصمم للمسؤولين لزيادة التفاعل، جذب أعضاء جدد، وتشجيع التفاعل."
+  },
+  "features": {
+    "f1": "تسجيل سريع",
+    "f2": "التعريب العالمي",
+    "f3": "أمان غير وصائي",
+    "title": "الميزات الأساسية",
+    "items": "__TODO_TRANSLATE_zh-CN__"
+  },
+  "sections": {
+    "features_heading": "أبرز الميزات",
+    "features_subtitle": "يمكنك الحصول على",
+    "tokens_heading": "الرموز والإحصائيات",
+    "testimonials_heading": "مراجعات المستخدمين",
+    "pricing_heading": "الخطط والأسعار",
+    "waterfall_title": "ريد باكيت شلال"
+  },
+  "footer": {
+    "rights": "",
+    "privacy": "سياسة الخصوصية",
+    "terms": "شروط الخدمة",
+    "social": {
+      "telegram_group": "مجموعة تيليجرام",
+      "telegram_channel": "قناة تيليجرام",
+      "x": "X",
+      "youtube": "يوتيوب"
+    },
+    "copyright": "حقوق الطبع والنشر."
+  },
+  "a11y": {
+    "skip_to_main": "تخطي إلى المحتوى الرئيسي",
+    "language_menu": "فتح قائمة اللغات",
+    "language": "اللغة"
+  },
+  "metrics": {
+    "heading": "مؤشرات الوقت الحقيقي",
+    "price_btc": "سعر BTC",
+    "total_sent": "إجمالي المبلغ المرسل",
+    "total_claimed_amount": "إجمالي المبلغ المستلم (USDT)",
+    "title": "الرموز والإحصاءات",
+    "groups": "المجموعات المتصلة",
+    "groupsLinkLabel": "مجموعات ريد باكيت المتصلة",
+    "sent": "حزم ريد باكيت المرسلة",
+    "claimed": "الإجمالي المclaimed",
+    "sort": {
+      "latest": "الأحدث",
+      "oldest": "الأقدم",
+      "most": "الحد الأقصى من المشاركين",
+      "least": "الحد الأدنى من المشاركين"
+    }
+  },
+  "errors": {
+    "stale": "قد تكون البيانات قديمة",
+    "not_found": "الصفحة غير موجودة",
+    "not_found_desc": "عذرًا، لم نتمكن من العثور على هذه الصفحة، أو لقد تم إزالتها."
+  },
+  "pricing": {
+    "starter": "الخطة الأساسية",
+    "pro": "خدمات احترافية",
+    "enterprise": "خطة المؤسسات",
+    "price_free": "مجاني",
+    "price_19": "19$",
+    "price_contact": "تواصل معنا",
+    "sla_support": "اتفاقية مستوى الخدمة والدعم",
+    "bullets": {
+      "starter": {
+        "0": "الميزات الأساسية",
+        "1": "دعم المجتمع"
+      },
+      "pro": {
+        "0": "يتضمن الخطة الأساسية",
+        "1": "التعريب المتقدم"
+      },
+      "enterprise": {
+        "0": "SLA والدعم",
+        "1": "الدمج المخصص"
+      }
+    }
+  },
+  "story": {
+    "belief_title": "🌕 طاقة القمر والإيمان بالريد باكيتس",
+    "disclaimer_title": "⚠️ إخلاء المسؤولية",
+    "future_title": "💫 التطبيقات المستقبلية",
+    "schedule_title": "قواعد إصدار الرموز",
+    "secrets_title": "🌸 سرّه",
+    "title": "🌕 قصة moonini"
+  },
+  "waterfall": {
+    "claimed": "مطالبة",
+    "progress": "تمت المطالبة",
+    "sent_from": "إرسال المجموعة:",
+    "total": "المبلغ الإجمالي"
+  },
+  "seo": {
+    "og": {
+      "image": "/images/og-default.png",
+      "type": "الموقع الإلكتروني"
+    },
+    "routes": {
+      "claim": {
+        "description": "تدعم ميزة ريد باكيت في moonpacket مجموعة متنوعة من الرموز بما في ذلك SOL و USDT، وتتيح لك إرسال رموز الميم الخاصة بك. إنها أداة قوية لجذب مستخدمين جدد وزيادة التفاعل في مجموعات Telegram.",
+        "title": "ريد باكيت تطبيق Telegram المصغر — moonpacket"
+      },
+      "privacy": {
+        "description": "توضح سياسة الخصوصية في moonpacket كيفية جمعنا واستخدامنا وحماية بياناتك الشخصية.",
+        "title": "سياسة الخصوصية — moonpacket"
+      },
+      "send": {
+        "description": "استخدم moonpacket لإرسال ريد باكيت، وتحديد شروط المهام، ودمج واجهات برمجة التطبيقات لجذب مستخدمين جدد وتعزيز تفاعل المجتمع من المستخدمين القيمين.",
+        "title": "إرسال ريد باكيت — moonpacket"
+      },
+      "terms": {
+        "description": "شروط خدمة moonpacket، وإرشادات الاستخدام والبيانات القانونية.",
+        "title": "شروط الخدمة — moonpacket"
+      },
+      "docs": {
+        "description": "أكمل وثائق المشروع، الورقة البيضاء، والمواصفات الفنية",
+        "distribution": {
+          "description": "أكمل قواعد توزيع $moonini ووصف نظام المحاسبة",
+          "title": "آلية توزيع $moonini — moonpacket"
+        },
+        "litepaper": {
+          "description": "$moonini هو رمز حوافز مجتمعية مبني على منصة moonpacket. تعلم كيفية كسب، استخدام، واستثمار قيمته.",
+          "title": "ورقة $moonini الخفيفة — moonpacket"
+        },
+        "missions": {
+          "description": "أكمل وصف نظام المهام وآلية الإنجاز",
+          "title": "نظام مهام $moonini — moonpacket"
+        },
+        "technical": {
+          "description": "أكمل المواSpecifications الفنية لعقد BSC الذكي ودليل التطوير",
+          "title": "المواصفات الفنية لـ $moonini — moonpacket"
+        },
+        "title": "مركز الوثائق — moonpacket",
+        "whitepaper": {
+          "description": "أكمل الوصف الفني للاقتصاد الرمزي ل $moonini، والهندسة الفنية، وآلية الحوكمة",
+          "title": "الورقة البيضاء ل $moonini — moonpacket"
+        }
+      }
+    },
+    "site": {
+      "description": "روبوت Telegram لريد باكيت العملات الرقمية من moonpacket | يدعم USDT و TON و SOL و ETH و DOGE. يمكنك أيضًا إرسال ريد باكيت رموز الميم الخاصة بك، مثالي لجذب مستخدمين جدد، وخلق أجواء حيوية، وزيادة التفاعل في مجتمعات Telegram.",
+      "site_name": "moonpacket",
+      "title": "moonpacket — ريد باكيت العملات الرقمية لرموز الميم، محفظة مخصصة لريد باكيت"
+    }
+  }
+}

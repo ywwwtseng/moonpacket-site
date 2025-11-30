@@ -1,0 +1,177 @@
+{
+  "title": "moonpacket — red packets cripto ușoare, sigure și rapide",
+  "description": "robotul de red packet criptat moonpacket | Suportă USDT, TON, SOL, ETH. Trimiteți ușor red packet, primiți instantaneu, sigur non-custodial, perfect pentru creșterea comunității Telegram și creșterea implicării.",
+  "nav": {
+    "home": "Acasă",
+    "about": "Despre",
+    "pricing": "Prețuri",
+    "team": "Echipă",
+    "blog": "Blog",
+    "faq": "Întrebări Frecvente",
+    "contact": "Contactează-ne",
+    "careers": "Carieră",
+    "claim": "Cere Red Packet",
+    "send": "Trimite red packet",
+    "api": "Documentație API",
+    "docs": "Document"
+  },
+  "hero": {
+    "title": "red packet de criptomonedă, disponibil pentru toți",
+    "subtitle": "Îmbunătățește experiența comunității tale cu servicii simple și globale.",
+    "desc": "Cel mai bun bot de red packet pentru proiectele de token meme și proprietarii de grupuri Telegram pentru a atrage utilizatori noi și a crește angajamentul.",
+    "ctaPrimaryLabel": "Lansează moonpacket",
+    "ctaPrimaryHref": "https://t.me/moonpacketDevBot https://t.me/MoonPackageDevBot",
+    "ctaSecondaryLabel": "Cum să te conectezi",
+    "ctaSecondaryHref": "/ro-RO/integration",
+    "lead": "Telegram TON, meme, red packet USDT | Cel mai bun bot de red packet pentru proiectele de token meme și proprietarii de grupuri Telegram pentru a atrage utilizatori noi și a crește angajamentul.",
+    "cta_primary": "Activează moonpacket acum",
+    "cta_secondary": "Cum să te integrezi cu grupurile",
+    "headline_line1": "moonpacket",
+    "headline_line2": "Începe, țintește spre lună.",
+    "tagline": "Telegram TON, meme și red packet USDT pentru marketingul comunității și retenție. Un bot de red packet pentru grupuri, conceput pentru administratori pentru a crește angajamentul, a atrage membri noi și a încuraja interacțiunea."
+  },
+  "features": {
+    "f1": "Înregistrare rapidă",
+    "f2": "Localizare globală",
+    "f3": "Securitate non-custodială",
+    "title": "Funcții de bază",
+    "items": "__TODO_TRANSLATE_zh-CN__"
+  },
+  "sections": {
+    "features_heading": "Caracteristici principale",
+    "features_subtitle": "Puteți obține",
+    "tokens_heading": "Token-uri și Statistici",
+    "testimonials_heading": "Recenzii ale utilizatorilor",
+    "pricing_heading": "Planuri și Prețuri",
+    "waterfall_title": "cascadă de pachete roșii"
+  },
+  "footer": {
+    "rights": "",
+    "privacy": "Politica de confidențialitate",
+    "terms": "Termeni și condiții",
+    "social": {
+      "telegram_group": "Grup Telegram",
+      "telegram_channel": "Canal Telegram",
+      "x": "X",
+      "youtube": "YouTube"
+    },
+    "copyright": "Drepturi de autor."
+  },
+  "a11y": {
+    "skip_to_main": "Sari la conținutul principal",
+    "language_menu": "Deschideți meniul de limbă",
+    "language": "Limba"
+  },
+  "metrics": {
+    "heading": "Indicatori în timp real",
+    "price_btc": "Preț BTC",
+    "total_sent": "Suma Totală Trimisa",
+    "total_claimed_amount": "Suma Totală Primită (USDT)",
+    "title": "Tokenuri și Statistici",
+    "groups": "Grupuri conectate",
+    "groupsLinkLabel": "Grupuri de red packet conectate",
+    "sent": "Red packets trimise",
+    "claimed": "Suma totală revendicată",
+    "sort": {
+      "latest": "Ultimele",
+      "oldest": "Cele mai vechi",
+      "most": "Participanți Maxim",
+      "least": "Participanți Minimi"
+    }
+  },
+  "errors": {
+    "stale": "Datele pot fi învechite",
+    "not_found": "Pagina nu a fost găsită",
+    "not_found_desc": "Ne pare rău, nu am putut găsi această pagină sau aceasta a fost eliminată."
+  },
+  "pricing": {
+    "starter": "Plan de bază",
+    "pro": "Servicii profesionale",
+    "enterprise": "Plan Enterprise",
+    "price_free": "Gratuit",
+    "price_19": "19$",
+    "price_contact": "Contactați-ne",
+    "sla_support": "SLA și Suport",
+    "bullets": {
+      "starter": {
+        "0": "Funcții de bază",
+        "1": "Suport comunitar"
+      },
+      "pro": {
+        "0": "Include Planul de bază",
+        "1": "Localizare avansată"
+      },
+      "enterprise": {
+        "0": "SLA și Suport",
+        "1": "Integrare personalizată"
+      }
+    }
+  },
+  "story": {
+    "belief_title": "🌕 Energia lunii și credința în red packets",
+    "disclaimer_title": "⚠️ Declinare de responsabilitate",
+    "future_title": "💫 Aplicații viitoare",
+    "schedule_title": "Reguli de lansare a token-urilor",
+    "secrets_title": "🌸 Secretul său",
+    "title": "🌕 Povestea lui moonini"
+  },
+  "waterfall": {
+    "claimed": "Revendică",
+    "progress": "Revendicat",
+    "sent_from": "Între grupuri:",
+    "total": "Suma totală"
+  },
+  "seo": {
+    "og": {
+      "image": "/images/og-default.png",
+      "type": "website"
+    },
+    "routes": {
+      "claim": {
+        "description": "Funcția de red packet a moonpacket suportă diverse tokenuri inclusiv SOL și USDT și permite trimiterea propriilor tokenuri meme. Un instrument puternic pentru atragerea de noi utilizatori și sporirea angajamentului în grupurile de Telegram.",
+        "title": "Aplicație mini Telegram Red Packet — moonpacket"
+      },
+      "privacy": {
+        "description": "Politica de confidențialitate a moonpacket explică modul în care colectăm, folosim și protejăm datele dumneavoastră personale.",
+        "title": "Politica de confidențialitate — moonpacket"
+      },
+      "send": {
+        "description": "Folosirea moonpacket pentru a trimite red packets, a stabili condiții pentru sarcini și integrarea API pentru a atrage efectiv noi utilizatori și a îmbunătăți angajamentul comunității utilizatorilor valoroși.",
+        "title": "Trimite red packet — moonpacket"
+      },
+      "terms": {
+        "description": "Termenii serviciului moonpacket, ghiduri de utilizare și declarații legale.",
+        "title": "Termeni de serviciu — moonpacket"
+      },
+      "docs": {
+        "description": "Completați documentația întregului proiect, documentul alb și specificațiile tehnice",
+        "distribution": {
+          "description": "Completați regulile de distribuție $moonini și descrierea sistemului de contabilitate",
+          "title": "Mecanismul de distribuție $moonini — moonpacket"
+        },
+        "litepaper": {
+          "description": "$moonini este un token de stimulare pentru comunitate bazat pe platforma Moonpacket. Aflati cum să câștigați, să folosiți și să investiți în valoarea sa.",
+          "title": "$moonini Litepaper — moonpacket"
+        },
+        "missions": {
+          "description": "Descriere completă a sistemului de sarcini și mecanismului de realizare",
+          "title": "Sistemul de sarcini $moonini — moonpacket"
+        },
+        "technical": {
+          "description": "Completați specificațiile tehnice ale contractului inteligent BSC și ghidul de dezvoltare",
+          "title": "Specificațiile tehnice $moonini — moonpacket"
+        },
+        "title": "Centrul de documentație — moonpacket",
+        "whitepaper": {
+          "description": "Completați descrierea tokenomicelor $moonini, arhitectura tehnică și mecanismul de guvernanță",
+          "title": "Documentul alb $moonini — moonpacket"
+        }
+      }
+    },
+    "site": {
+      "description": "moonpacket Bot Telegram red packet Cryptocurrency | Suportă USDT, TON, SOL, ETH, DOGE. Poți de asemenea să trimiti red packets cu propriile tale token-uri meme, ideale pentru a atrage utilizatori noi, a crea o atmosferă vibrantă și a crește angajamentul în comunitățile Telegram.",
+      "site_name": "moonpacket",
+      "title": "moonpacket — red packets pentru criptomonedele token-uri meme, portofel dedicat red packet"
+    }
+  }
+}

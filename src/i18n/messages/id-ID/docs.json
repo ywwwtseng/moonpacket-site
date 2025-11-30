@@ -1,0 +1,1514 @@
+{
+  "litepaper": {
+    "title": "$moonini Litepaper",
+    "description": "Pahami filosofi desain, model ekonomi, dan nilai-nilai inti dari token $moonini.",
+    "seo": {
+      "title": "$moonini Litepaper — moonpacket",
+      "description": "$moonini adalah token insentif komunitas yang berbasis pada platform moonpacket. Pelajari cara memperoleh, menggunakan, dan berinvestasi dalam nilainya."
+    },
+    "hero": {
+      "subtitle": "$moonini adalah token insentif komunitas yang berbasis pada platform moonpacket. Semakin banyak pengguna yang terlibat dengan moonpacket, berpartisipasi dalam tugas, dan berinteraksi, semakin banyak $moonini yang bisa mereka peroleh. Untuk investor, 90% didistribusikan kepada pengguna, dan 10% goes kepada tim, dengan mekanisme halving dan rilis linier yang secara efektif mengurangi risiko penjualan mendadak, dirancang untuk stabilitas jangka panjang.",
+      "cards": {
+        "user": {
+          "title": "Untuk Pengguna Umum",
+          "description": "Dapatkan $moonini dengan mudah melalui pengiriman angpao, menyelesaikan tugas, mengundang teman, dll. Semakin sering Anda menggunakannya, semakin banyak yang Anda dapatkan, sepenuhnya gratis."
+        },
+        "investor": {
+          "title": "Untuk Investor",
+          "description": "Total pasokan 10B, alokasi 90/10, 6 fase pengurangan, dan alokasi tim dengan rilis linier, dirancang untuk bermanfaat bagi stabilitas jangka panjang dan mengurangi risiko pembuangan."
+        },
+        "developer": {
+          "title": "Untuk Pengembang/Mitra",
+          "description": "Kontrak yang distandarisasi, API terbuka, dapat diintegrasikan ke dalam aplikasi atau permainan lain. Melalui integrasi API, hubungkan produk Anda dengan ekosistem moonpacket."
+        }
+      },
+      "live_status": "Protokol V1 sekarang sudah aktif",
+      "cta_start": "Mulai Membaca",
+      "cta_hub": "Pusat Pengembang"
+    },
+    "sections": {
+      "overview": "Ikhtisar",
+      "problem": "Masalah dan Solusi",
+      "concept": "Konsep inti dari moonpacket & $moonini",
+      "tokenomics": "Tinjauan Tokenomics",
+      "emission": "Pembagian dan Rilis",
+      "utility": {
+        "subtitle": "Cara Menghasilkan dan Menggunakan"
+      },
+      "developer": "Pengembang & Integrasi API",
+      "governance": "Tata Kelola dan Keamanan",
+      "roadmap": "Peta Jalan",
+      "risks": "Risiko dan Penafian",
+      "faq": "FAQ",
+      "cta": {
+        "title": "Apakah Anda siap untuk bergabung dalam pengalaman sosial angpao ini?",
+        "earning": "Mulai Menghasilkan angpao Sekarang",
+        "devs": "Baca Dokumentasi Pengembang"
+      },
+      "registry": {
+        "title": "Registri Kontrak On-chain",
+        "network": "Jaringan Utama: BSC (Rantai BNB)",
+        "audit": "Status Audit: **Jadwal**"
+      },
+      "defense": {
+        "floor": {
+          "title": "🛡️ Pertahanan harga lantai yang cerdas",
+          "mechanism": "Ketika harga pasar mendekati harga bawah, protokol akan secara otomatis mengaktifkan mekanisme pertahanan, menggunakan POL (Protocol Owned Liquidity) yang terakumulasi untuk dukungan. Ini bukan pembayaran yang kaku; ini menggunakan teori permainan untuk membuat biaya shorting menjadi sangat tinggi.",
+          "anti_gaming": "Catatan: Untuk mencegah serangan arbitrase, ambang pemicu tertentu dan kekuatan pertahanan disesuaikan secara dinamis dan nilai pastinya tidak akan diungkapkan."
+        },
+        "anti_bot": {
+          "title": "🚫 Tolak Manajemen Pembuatan Pasar",
+          "items": [
+            "Semua transaksi adalah perilaku pengguna yang nyata",
+            "Tidak Ada Bot Pembuat Pasar",
+            "Tolak manipulasi volume palsu dan strategi pompa dan buang"
+          ]
+        }
+      },
+      "lockup": {
+        "title": "Penguncian Strategis",
+        "desc": "Dalam pasar yang dipenuhi dengan 'gudang mouse' dan 'chip tersembunyi', kami telah memilih jalan yang paling sulit tetapi paling jujur. Kami sangat memahami bahwa hanya dengan sepenuhnya menghilangkan ketakutan pengguna terhadap 'team dumps' kami dapat membangun kepercayaan yang sebenarnya.",
+        "benefit": "Ini bukan hanya tentang aturan lock-up; ini adalah 'pernyataan anti-panen' kami. Melalui pembatasan diri yang cukup ketat ini, kami memastikan bahwa tidak ada yang—baik pendiri maupun pemegang besar—dapat mengkhianati komunitas di tahap awal.",
+        "items": [
+          "Sepenuhnya transparan, tanpa sembunyi: Kami tidak memiliki dompet tersembunyi atau pasokan sirkulasi awal yang tidak terdaftar. Semua distribusi chip tersedia secara publik di rantai, dan di bawah pengawasan komunitas.",
+          "Komitmen tim, dukungan jangka panjang: Periode rilis tim inti berlangsung hingga 48 bulan (4 tahun). Di dunia crypto, 4 tahun adalah siklus yang panjang. Ini membuktikan bahwa kami tidak di sini untuk menghasilkan uang dengan cepat, tetapi bertekad untuk merasakan pasar bull dan bear bersama komunitas dan membangun nilai jangka panjang.",
+          "Konsensus Investor: Investor awal kami sangat mengidentifikasi dengan budaya 'berbagi dan memberi' angpao dan secara sukarela menandatangani perjanjian pelepasan linier selama 36 bulan. Ini berarti bahwa pada tahap awal proyek, tidak ada pihak (termasuk investor) yang memiliki cukup chip untuk mempengaruhi pasar."
+        ]
+      }
+    },
+    "back_to_top": "↥ Kembali ke Atas",
+    "content": {
+      "overview": {
+        "paragraphs": [
+          "moonpacket adalah alat angpao crypto dan pemasaran yang dirancang khusus untuk komunitas Telegram. Baik untuk operasi komunitas, promosi acara, atau mengundang pengguna baru, moonpacket dapat membantu Anda mencapainya dengan mudah.",
+          "Untuk mendorong pengguna agar terus menggunakan platform dan membangun hubungan jangka panjang, kami meluncurkan token insentif komunitas $moonini. Setiap perilaku aktif di platform, termasuk mengirim angpao, menyelesaikan tugas, dan mengundang teman, dapat memperoleh imbalan $moonini yang sesuai.",
+          "Untuk pengguna umum, $moonini adalah imbalan tambahan untuk menggunakan Moonpacket; semakin banyak Anda menggunakan, semakin banyak Anda mendapatkan. Untuk para investor, desain ekonomi token $moonini (90% untuk pengguna, 10% untuk tim, pengurangan dalam 6 tahap, pembebasan terkunci) secara efektif mengurangi risiko penjualan jangka pendek dan mendukung stabilitas nilai jangka panjang."
+        ],
+        "highlights": {
+          "title": "Sorotan Utama",
+          "items": [
+            "✅ **Distribusi yang Adil**: 90% token didistribusikan melalui aktivitas pengguna, dengan 10% untuk tim dan investor awal.",
+            "✅ **Keuntungan awal**: mekanisme pengurangan 6 tahap, semakin awal Anda berpartisipasi, semakin banyak yang Anda terima.",
+            "✅ **Kurangi risiko**: Alokasi tim terkunci selama 3 bulan, kemudian secara bertahap dirilis selama 33-45 bulan.",
+            "✅ **Transparan dan dapat diverifikasi**: Semua distribusi token dan aturan rilis sepenuhnya transparan dan dapat diverifikasi di blockchain."
+          ]
+        }
+      },
+      "problem": {
+        "title": "Masalah dan Solusi",
+        "problems": {
+          "title": "Titik kesakitan dalam pemasaran Web3 / Telegram yang ada",
+          "items": [
+            "**Sulit untuk melacak efektivitas**: Mekanisme angpao tradisional sulit untuk dilacak efeknya; tidak jelas siapa yang mengklaim, siapa yang membagikan, atau apakah ini menarik pengguna baru.",
+            "**Pengambilan untung jangka pendek**: Banyak proyek hanya fokus pada lalu lintas jangka pendek, membagikan angpao dan pergi tanpa mekanisme insentif jangka panjang.",
+            "**Kurangnya insentif jangka panjang**: Pengguna meninggalkan setelah mengklaim angpao, tidak dapat membangun hubungan jangka panjang dan partisipasi yang berkelanjutan."
+          ]
+        },
+        "solutions": {
+          "title": "Solusi dari moonpacket + $moonini",
+          "items": [
+            "**Lacak perilaku secara lengkap**: moonpacket mencatat penerimaan setiap angpao, perilaku berbagi, dan pengenalan pengguna baru, memungkinkan Anda untuk memahami efektivitas pemasaran dengan jelas.",
+            "**Mekanisme insentif jangka panjang**: Melalui token $moonini, semakin banyak pengguna yang berpartisipasi, semakin banyak yang mereka dapatkan, menetapkan motivasi partisipasi jangka panjang.",
+            "**Distribusi nilai yang adil**: 90% token diberikan kepada pengguna, memastikan prioritas komunitas, sementara mekanisme seperti pemotongan dan penguncian mengurangi risiko penjualan mendadak."
+          ]
+        }
+      },
+      "concept": {
+        "title": "Konsep Dasar dari moonpacket & $moonini",
+        "moonpacket": {
+          "title": "Peran moonpacket",
+          "description": "moonpacket adalah alat angpao Telegram, tugas, dan pemasaran. Baik Anda seorang operator komunitas, penyelenggara acara, atau proyek yang ingin menarik pengguna baru, Anda dapat menggunakan moonpacket untuk:",
+          "features": [
+            "Kirim angpao crypto (mendukung beberapa token seperti USDT, TON, SOL, ETH, dll.)",
+            "Buat acara tugas (mengundang teman, mengikuti komunitas, berbagi konten, dll.)",
+            "Lacak data efek (tingkat penukaran, tingkat berbagi, konversi pengguna baru, dll.)",
+            "Kirim angpao antar grup, memperluas jangkauan"
+          ]
+        },
+        "moonini": {
+          "title": "Peran dari $moonini",
+          "description": "$moonini adalah token poin hadiah yang mengakui perilaku pengguna dan komunitas. Setiap tindakan aktif yang Anda lakukan di moonpacket akan menghasilkan $moonini yang sesuai:",
+          "rewards": [
+            "Kirim angpao: Dapatkan $moonini sesuai dengan jumlah angpao dan fase saat ini",
+            "Selesaikan Tugas: Mencapai pencapaian, tugas sosial, dll., menghasilkan tambahan $moonini",
+            "Undang Teman: Dengan sukses mengundang pengguna baru dan menyelesaikan tugas berbagi, kedua belah pihak dapat memperoleh $moonini",
+            "Partisipasi Aktif: Menyelesaikan tindakan tertentu dalam permainan atau aplikasi kolaboratif juga dapat menghasilkan $moonini"
+          ]
+        },
+        "logic": {
+          "title": "Semakin sering Anda menggunakannya, semakin banyak Anda memperoleh",
+          "description": "Logiknya sederhana: semakin aktif Anda di moonpacket, semakin banyak $moonini yang Anda dapatkan. Peserta awal dapat menikmati rasio hadiah yang lebih tinggi (Tahap 1, dapatkan 1 $moonini untuk setiap 1 USDT angpao yang dikirim). Semakin awal Anda berpartisipasi, semakin besar keuntungan Anda."
+        }
+      },
+      "tokenomics": {
+        "title": "Ikhtisar Tokenomics",
+        "total": {
+          "title": "Total Pasokan Token",
+          "description": "Total penerbitan $moonini adalah **10.000.000.000 token (10B)**, dengan pasokan tetap dan tanpa penerbitan tambahan."
+        },
+        "allocation": {
+          "title": "Rencana Alokasi",
+          "table": {
+            "headers": [
+              "Kategori",
+              "Jumlah",
+              "Proporsi",
+              "Deskripsi"
+            ],
+            "rows": [
+              [
+                "Rilis Publik",
+                "9.000.000.000 keping",
+                "90%",
+                "Pelepasan bertahap melalui kegiatan pengguna (halving 6 fase)"
+              ],
+              [
+                "Alokasi Tim",
+                "1.000.000.000 keping",
+                "10%",
+                "Dikunci selama 3 bulan, pelepasan linear selama 33-45 bulan"
+              ],
+              [
+                "├─ Operasional",
+                "200.000.000 keping",
+                "2%",
+                "Dikunci selama 3 bulan, dirilis selama 45 bulan"
+              ],
+              [
+                "├─ Tim Teknis",
+                "200.000.000 keping",
+                "2%",
+                "Dikunci selama 3 bulan, dirilis selama 45 bulan"
+              ],
+              [
+                "├─ PR/Pemasaran",
+                "200.000.000 keping",
+                "2%",
+                "Dikunci selama 3 bulan, dirilis selama 45 bulan"
+              ],
+              [
+                "└─ Investor Awal",
+                "400.000.000 keping",
+                "4%",
+                "Dikunci selama 3 bulan, dirilis selama 33 bulan"
+              ]
+            ]
+          }
+        },
+        "philosophy": {
+          "title": "Mengapa desain ini?",
+          "items": [
+            "**Prioritas Pengguna**: 90% token dialokasikan untuk pengguna untuk memastikan bahwa komunitas benar-benar mendapatkan manfaat, alih-alih dimonopoli oleh segelintir individu.",
+            "**Insentif Tim**: 10% untuk tim dan investor awal untuk memastikan proyek memiliki sumber daya yang cukup untuk pengembangan berkelanjutan, dengan proporsi yang moderat untuk menghindari konsentrasi yang berlebihan.",
+            "**Tidak Ada Pra-Pesanan Presale/VC**: Kami tidak menyimpan kuota untuk investor institusi, dan semua token didistribusikan kepada pengguna melalui mekanisme yang adil.",
+            "**Mitigasi Risiko**: Alokasi tim tunduk pada mekanisme penguncian dan pelepasan linier, yang secara efektif mengurangi risiko penjualan jangka pendek dan melindungi kepentingan investor."
+          ]
+        }
+      },
+      "emission": {
+        "title": "Mekanisme Halving dan Rilis",
+        "halving": {
+          "title": "6 Mekanisme Pembagian Halving",
+          "description": "Untuk mendorong partisipasi awal, distribusi token menggunakan mekanisme 'pengurangan progresif'. Semakin awal Anda bergabung, semakin banyak token yang dapat Anda peroleh:",
+          "table": {
+            "headers": [
+              "Fase",
+              "Rentang Jumlah Terbitan",
+              "Dapatkan per 1 USDT",
+              "Deskripsi"
+            ],
+            "rows": [
+              [
+                "Fase 1",
+                "0 ~ 4,5B",
+                "1,0 potongan",
+                "Peserta awal, 1:1 tukar"
+              ],
+              [
+                "Fase 2",
+                "4,5B ~ 6,75B",
+                "0,5 potongan",
+                "Pengurangan"
+              ],
+              [
+                "Fase 3",
+                "6,75B ~ 7,875B",
+                "0,25 potongan",
+                "Dikurangi lagi"
+              ],
+              [
+                "Fase 4",
+                "7,875B ~ 8,4375B",
+                "0,125 potongan",
+                "Terus mengurangi"
+              ],
+              [
+                "Fase 5",
+                "8,4375B ~ 8,71875B",
+                "0,0625 potongan",
+                "Mendekati akhir"
+              ],
+              [
+                "Fase 6",
+                "8,71875B ~ 9B",
+                "0,03125 potongan",
+                "Tahap akhir"
+              ]
+            ]
+          },
+          "example": "Misalnya: Di Fase 1, jika Anda mengirim angpao 100 USDT, Anda dapat memperoleh 100 $moonini; di Fase 2, mengirim angpao 100 USDT yang sama hanya akan menghasilkan 50 $moonini. Semakin awal Anda berpartisipasi, semakin besar keuntungan Anda!"
+        },
+        "vesting": {
+          "title": "Kunci dan Lepaskan Kuota Tim",
+          "description": "Dalam pasar yang dipenuhi dengan 'gudang mouse' dan 'keripik tersembunyi', kami memilih jalur yang paling sulit namun jujur. Kami memahami dengan mendalam bahwa hanya dengan sepenuhnya menghilangkan rasa takut pengguna terhadap 'penjualan tim' kami dapat membangun kepercayaan yang nyata.",
+          "items": [
+            "**Transparansi Total, Tanpa Rahasia**: Kami tidak memiliki dompet tersembunyi atau pasokan awal yang tidak diumumkan. Semua distribusi token tersedia secara publik di on-chain, yang tunduk pada pengawasan komunitas.",
+            "**Tim Pengendalian Diri, Komitmen Jangka Panjang**: Periode rilis untuk tim inti berlangsung selama **48 bulan (4 tahun)**. Dalam dunia crypto, empat tahun adalah siklus yang panjang. Ini membuktikan bahwa kami tidak di sini untuk mencari uang dengan cepat, tetapi berkomitmen untuk mengalami pasar bullish dan bearish bersama komunitas untuk membangun nilai jangka panjang.",
+            "**Konsensus Investor**: Para investor awal kami sangat terhubung dengan budaya 'berbagi dan memberi' dari angpao dan secara sukarela menandatangani perjanjian pelepasan linier **36 bulan**. Ini berarti pada tahap awal proyek, tidak ada pihak (termasuk investor) yang memiliki cukup token untuk mempengaruhi pasar."
+          ],
+          "benefit": "Ini bukan hanya aturan kunci tetapi **'Deklarasi Anti-Panen'** kami. Melalui disiplin diri yang hampir ketat ini, kami memastikan bahwa tidak ada orang—baik pendiri maupun pemegang besar—yang dapat mengkhianati komunitas pada tahap awal. Kami berdiri bersama semua pengirim angpao untuk secara bersama-sama menjaga kemurnian nilai sosial ini."
+        },
+        "why": {
+          "title": "Mengapa melakukan ini?",
+          "items": [
+            "**Kurangi penjualan jangka pendek**: Mekanisme penguncian dan rilis linier mencegah tim dan investor menjual sejumlah besar secara dini dalam proyek.",
+            "**Perpanjang masa proyek**: Rilis bertahap memastikan proyek memiliki waktu yang cukup untuk berkembang dan menetapkan nilai.",
+            "**Lindungi investor**: Mekanisme halving dan desain lockup memberikan lebih banyak perlindungan bagi pemegang awal."
+          ]
+        }
+      },
+      "utility": {
+        "title": "Akuisisi pengguna dan skenario penggunaan",
+        "how_to_earn": {
+          "title": "Cara menghasilkan $moonini?",
+          "methods": [
+            "**Kirim angpao**: Untuk setiap **setara dengan 1 USDT** yang dikirim sebagai angpao (mendukung berbagai mata uang), peserta menerima $moonini yang sesuai berdasarkan tahap saat ini.",
+            "**Selesaikan Tugas**: Termasuk tugas pencapaian satu kali dan tugas sosial. Untuk memastikan keadilan, setiap akun diizinkan untuk menyelesaikan setiap tugas hanya sekali atau ditetapkan dengan batas total untuk menghindari pertanian koin yang merugikan.",
+            "**Undang Teman**: Undang teman baru dan selesaikan tugas berbagi, kedua pihak menerima hadiah. **Setiap akun memiliki batasan pada hadiah undangan**, dan aturan spesifik dapat mengacu pada pengumuman komunitas.",
+            "**Aplikasi Kolaboratif**: Menyelesaikan tindakan tertentu dalam permainan atau aplikasi yang terintegrasi dengan API moonpacket juga dapat menghasilkan $moonini."
+          ]
+        },
+        "how_to_use": {
+          "title": "Kegunaan $moonini",
+          "items": [
+            "**Diskon Biaya**: Di masa depan, $moonini dapat digunakan untuk mengurangi sebagian biaya transaksi angpao.",
+            "**Buka Fitur**: Beberapa fitur premium mungkin memerlukan kepemilikan sejumlah $moonini untuk digunakan.",
+            "**Hak Suara dalam Tata Kelola**: Memegang $moonini memungkinkan partisipasi dalam pemungutan suara tata kelola komunitas di masa depan, mempengaruhi arah pengembangan proyek.",
+            "**Penukaran Ekosistem**: Dapat ditukarkan untuk manfaat atau hadiah khusus di aplikasi atau game mitra."
+          ]
+        }
+      },
+      "developer": {
+        "title": "Ekosistem Pengembang",
+        "description": [
+          "moonpacket lebih dari sekadar alat angpao; ini adalah **Lapisan Likuiditas Sosial** yang terbuka.",
+          "Melalui API dan SDK yang standar, Bot Telegram, GameFi, atau aplikasi Web3 mana pun dapat mengakses lapisan insentif $moonini. Anda fokus pada pengembangan produk, dan kami membantu Anda dengan pertumbuhan dan retensi."
+        ],
+        "architecture": {
+          "title": "Insentif yang Dapat Diprogram",
+          "description": "Sistem distribusi penghargaan yang didorong oleh acara yang mendukung callback Webhook dan verifikasi on-chain."
+        },
+        "cta": {
+          "text": "Pelajari lebih lanjut tentang solusi integrasi",
+          "link_text": "Baca Dokumentasi API Pengembang"
+        }
+      },
+      "contracts": {
+        "title": "Alamat Kontrak",
+        "description": "Untuk memastikan transparansi, semua alamat kontrak pintar inti akan diungkapkan dan diverifikasi secara publik.",
+        "items": {
+          "token": "$moonini Token (Kontrak Token)",
+          "emission": "Bendungan Emisi (90% Bendungan Penerbitan Publik)",
+          "reserve": "Brankas Cadangan (10% Kuota Tim Brankas)",
+          "phase": "Manajer Fase (Pengontrol Halving)",
+          "vesting": "Ruang Vesting (Pengontrol Pelepasan Linear)",
+          "pol": "Manajer POL (Pembaruan dan Pertahanan Harga Dasar)",
+          "protection": "Perlindungan Peluncuran (Fase Terbuka Anti-Sniping)",
+          "timelock": "Pengontrol Timelock (Kunci Tunda 48 jam)"
+        },
+        "status": "(Akan diperbarui setelah penerapan mainnet)"
+      },
+      "governance": {
+        "title": "Tata Kelola dan Keamanan",
+        "principles": {
+          "title": "Prinsip tata kelola",
+          "description": "Prinsip utama kami adalah: **tidak ada satu otoritas tertinggi**, semua operasi penting memerlukan konfirmasi ganda dan publikasi tertunda untuk memastikan transparansi dan keamanan."
+        },
+        "market_making": {
+          "title": "Pernyataan pasar yang nyata",
+          "description": [
+            "**Tolak transaksi palsu**: Kami berkomitmen untuk tidak menggunakan perdagangan cuci atau menciptakan kedalaman palsu. Setiap transaksi di K-line berasal dari pengguna yang nyata.",
+            "**Pembuatan pasar terdesentralisasi**: Likuiditas sepenuhnya ditentukan oleh penawaran dan permintaan pasar serta mekanisme pembelian kembali otomatis dari protokol, bukan manipulasi manusia."
+          ]
+        },
+        "floor_defense": {
+          "title": "Pertahanan harga lantai cerdas",
+          "mechanism": "**Mekanisme**: Ketika harga koin mencapai area dasar, biaya protokol yang terakumulasi akan otomatis membeli kembali dan menghancurkan/memasukkan likuiditas.",
+          "anti_gaming": "**Strategi anti-sniping**: Untuk menghindari bot yang memprediksi arbitrase, 'waktu masuk' dan 'jumlah transaksi tunggal' tertentu mengandung variabel acak dan tidak akan sepenuhnya publik. Namun, logika dasarnya tetap: **biaya transaksi pada akhirnya akan kembali ke pool untuk mendukung harga**.",
+          "variance": "Catatan: Karena volatilitas pasar, harga dasar bukanlah jangkar mutlak tetapi rentang dukungan yang dinamis."
+        },
+        "process": {
+          "title": "Proses tata kelola",
+          "steps": [
+            "**Proposal**: Keputusan penting memerlukan konfirmasi multi-tanda tangan.",
+            "**Konfirmasi tertunda**: Semua operasi berisiko tinggi harus menjalani periode konfirmasi tertunda selama 48 jam, selama waktu tersebut mereka terlihat di rantai.",
+            "**Eksekusi**: Setelah periode penundaan, personel yang berwenang akan mengeksekusi atau akan dieksekusi secara otomatis.",
+            "**Pembatalan**: Selama periode penundaan, pengusul dapat membatalkan proposal."
+          ]
+        },
+        "security": {
+          "title": "Langkah-langkah keamanan",
+          "items": [
+            "**Konfirmasi multi-tanda tangan**: Semua operasi penting memerlukan tanda tangan dari setidaknya 2 orang untuk menghindari risiko titik tunggal.",
+            "**Mekanisme eksekusi tertunda**: Operasi berisiko tinggi harus mengalami penundaan selama 48 jam, memberikan waktu yang cukup bagi komunitas untuk meninjau dan merespons.",
+            "**Perpustakaan kontrak standar**: Gunakan perpustakaan kontrak standar yang diaudit untuk mengurangi risiko kerentanannya.",
+            "**Audit pihak ketiga**: Kontrak pintar akan menjalani audit keamanan oleh pihak ketiga untuk memastikan keamanan.",
+            "**Transparansi sumber terbuka**: Kode kontrak bersifat sumber terbuka, siapa pun dapat memverifikasi dan mengauditnya."
+          ]
+        },
+        "risk_mitigation": {
+          "title": "Bagaimana cara mengurangi risiko titik tunggal?",
+          "description": "Kami memastikan bahwa tidak ada satu orang atau organisasi pun yang dapat mengendalikan proyek ini sepenuhnya melalui mekanisme multi-tanda tangan, konfirmasi yang tertunda, audit, dan perlindungan multi-lapisan sumber terbuka. Semua keputusan penting melalui proses yang transparan dan dapat dilacak, memberikan jaminan kepada komunitas dan investor."
+        }
+      },
+      "roadmap": {
+        "title": "Peta Jalan Dual-Track",
+        "status_notice": "⚠️ Status Saat Ini: Tahap Pengungkapan Perencanaan. Token belum dihasilkan (TGE Tertunda), dan aturan final akan berdasarkan versi dokumen putih yang dirilis pada TGE.",
+        "tracks": {
+          "product": "📱 Lacak Produk",
+          "token": "💎 Jejak Token"
+        },
+        "phases": [
+          {
+            "title": "Fase 1: Genesis",
+            "product": [
+              "**Peluncuran Bot Telegram**: Sebuah plugin ringan untuk memulai angpao komunitas",
+              "**Sistem Tugas Dasar**: Fitur undangan dan check-in",
+              "**Akomulasi Pengguna**: Membangun kelompok pengguna awal"
+            ],
+            "token": [
+              "**Uji Coba Poin**: Perilaku pengguna menghasilkan poin off-chain",
+              "**Desain Model Token**: Mengonfirmasi distribusi 90/10 dan mekanisme halving",
+              "**Pengumuman Litepaper**: Mempublikasikan draf model ekonomi kepada komunitas"
+            ]
+          },
+          {
+            "title": "Fase 2: Ignition",
+            "product": [
+              "**Integrasi Ekosistem**: Menghubungkan dengan toko mitra dan skenario pemasaran",
+              "**Beta Terbuka API**: Memungkinkan bot pihak ketiga untuk terintegrasi dengan sistem angpao",
+              "**Dasbor Data**: Pengguna dapat melihat data rinci tentang angpao dan poin"
+            ],
+            "token": [
+              "**Audit Pihak Ketiga**: Kode kontrak lulus audit keamanan",
+              "**TGE (Token Generation)**: Penyebaran mainnet, poin terbuka untuk penukaran/mekanisme mining",
+              "**Likuiditas Awal**: Mendirikan kolam dasar untuk memastikan nilai dasar"
+            ]
+          },
+          {
+            "title": "Fase 3: Ekspansi",
+            "product": [
+              "**Aplikasi Mandiri**: Meluncurkan aplikasi mandiri dengan fungsi wallet dan IM",
+              "**Dukungan Lintas Platform**: Memperluas ke Discord atau platform komunitas lainnya",
+              "**Alat Tata Kelola DAO**: Fitur pemungutan suara komunitas diluncurkan"
+            ],
+            "token": [
+              "**Aktivasi Siklus Ekonomi**: Mekanisme buyback dan burn beroperasi secara otomatis",
+              "**Penyebaran Multi-Chain**: Memperluas ke rantai publik berkinerja tinggi lainnya",
+              "**Sepenuhnya Terdesentralisasi**: Hak manajerial secara bertahap diserahkan kepada DAO"
+            ]
+          }
+        ]
+      },
+      "risks": {
+        "title": "Risiko dan Penafian",
+        "description": [
+          "**Pernyataan Penting**: Dokumen ini tidak merupakan bentuk saran investasi. Investasi cryptocurrency memiliki risiko tinggi, termasuk namun tidak terbatas pada volatilitas harga, risiko likuiditas, risiko teknis, risiko regulasi, dan lainnya.",
+          "",
+          "**Peringatan risiko utama**:",
+          "- **Risiko volatilitas harga**: Harga token dapat berfluktuasi secara dramatis dan bahkan turun menjadi nol. Harap pastikan Anda berpartisipasi dalam batas kerugian yang dapat Anda toleransi.",
+          "- **Risiko likuiditas**: Likuiditas awal mungkin tidak mencukupi, yang berpotensi menyebabkan slippage tinggi atau kesulitan dalam mengeksekusi perdagangan secara langsung.",
+          "- **Risiko Teknikal**: Meskipun kontrak pintar akan diaudit, mungkin masih ada kerentanan teknis atau risiko serangan peretas yang tidak diketahui.",
+          "- **Risiko Regulasi**: Kebijakan regulasi mengenai cryptocurrency di berbagai negara dapat berubah kapan saja, yang dapat memengaruhi operasi proyek atau nilai token.",
+          "",
+          "**Lakukan Riset Anda Sendiri (DYOR)**: Investor harus memahami sepenuhnya risiko yang relevan dan berinvestasi dengan hati-hati berdasarkan situasi keuangan dan toleransi risiko mereka sendiri. Tim proyek tidak bertanggung jawab atas kerugian investasi apa pun."
+        ],
+        "disclaimer": {
+          "title": "Pemberitahuan Penting",
+          "text": "Dokumen ini tidak merupakan bentuk saran investasi. Investasi cryptocurrency membawa tingkat risiko yang tinggi, termasuk tetapi tidak terbatas pada volatilitas harga, risiko likuiditas, risiko teknis, risiko regulasi, dan lainnya. Investor harus sepenuhnya memahami risiko yang relevan dan berinvestasi dengan hati-hati berdasarkan toleransi risiko mereka sendiri. Tim proyek tidak bertanggung jawab atas kerugian investasi apa pun."
+        },
+        "risks": {
+          "title": "Risiko Utama",
+          "items": [
+            "**Risiko Volatilitas Harga**: Harga token dapat berfluktuasi secara signifikan dan bahkan bisa turun menjadi nol.",
+            "**Risiko Likuiditas**: Likuiditas awal mungkin tidak cukup, mempengaruhi pengalaman perdagangan.",
+            "**Risiko Teknis**: Kontrak pintar mungkin mengandung kerentanan yang tidak diketahui, meskipun kami akan melakukan audit.",
+            "**Risiko Regulasi**: Kebijakan regulasi di berbagai negara dapat berubah, memengaruhi operasi proyek.",
+            "**Risiko Pasar**: Volatilitas keseluruhan pasar cryptocurrency dapat mempengaruhi harga token."
+          ]
+        }
+      },
+      "faq": {
+        "title": "Pertanyaan yang Sering Diajukan",
+        "items": [
+          {
+            "question": "Bagaimana saya bisa mendapatkan token?",
+            "answer": "Anda bisa mendapatkan $moonini dengan mengirim angpao, menyelesaikan tugas, mengundang teman, dan lainnya. Semakin banyak angpao yang Anda kirim dan tugas yang Anda selesaikan, semakin banyak token yang akan Anda peroleh. Peserta awal juga akan menikmati rasio reward yang lebih tinggi."
+          },
+          {
+            "question": "Kapan saya bisa menarik?",
+            "answer": "Setelah mainnet diluncurkan, pengguna dapat menarik $moonini ke dompet mereka. Penarikan memerlukan biaya Gas kecil (biaya jaringan BSC). Harap perhatikan pengumuman resmi untuk waktu peluncuran spesifik."
+          },
+          {
+            "question": "Apakah ada periode penguncian untuk alokasi tim?",
+            "answer": "Ya. Alokasi tim (10%) akan terkunci selama 3 bulan dan kemudian dirilis secara linier selama 33-45 bulan. Alokasi untuk operasi, tim teknis, serta humas/pemasaran akan memiliki total durasi 48 bulan, sementara alokasi untuk investor awal akan berlangsung selama 36 bulan."
+          },
+          {
+            "question": "Mengapa menggunakan mekanisme pengurangan?",
+            "answer": "Mekanisme pengurangan dirancang untuk mendorong peserta awal sembari mengendalikan laju distribusi token. Semakin awal Anda berpartisipasi, semakin banyak token yang Anda peroleh, yang membantu menarik pengguna dan investor awal sekaligus menghindari distribusi berlebihan yang dapat menyebabkan inflasi di kemudian hari."
+          },
+          {
+            "question": "Apa yang harus dilakukan jika terdapat masalah di kontrak atau sistem?",
+            "answer": "Kami akan mengurangi risiko melalui audit keamanan pihak ketiga, konfirmasi multi-tanda tangan, eksekusi tertunda, dan mekanisme perlindungan multi-lapis lainnya. Jika terjadi masalah, kami akan segera memulai respons darurat, menentukan rencana penanganan melalui mekanisme tata kelola, dan segera memberitahu komunitas."
+          },
+          {
+            "question": "Apa total pasokan $moonini? Akankah meningkat?",
+            "answer": "Total pasokan $moonini adalah 10.000.000.000 potongan (10B), dengan total tetap yang tidak akan pernah meningkat. 90% akan dirilis secara bertahap melalui aktivitas pengguna, dan 10% akan diberikan kepada tim dan investor awal."
+          },
+          {
+            "question": "Bagaimana saya bisa berpartisipasi dalam tata kelola?",
+            "answer": "Pemegang $moonini dapat berpartisipasi dalam pemungutan suara tata kelola komunitas di masa depan, mempengaruhi arah pengembangan proyek. Mekanisme tata kelola dan metode pemungutan suara yang spesifik akan diluncurkan secara bertahap setelah mainnet diluncurkan."
+          },
+          {
+            "question": "Bisakah $moonini diperdagangkan?",
+            "answer": "Setelah mainnet diluncurkan dan kolam likuiditas dibentuk, $moonini dapat diperdagangkan di bursa terdesentralisasi (seperti PancakeSwap). Perdagangan akan dipengaruhi oleh penawaran dan permintaan di pasar, dan harga mungkin berfluktuasi, jadi harap berinvestasi dengan hati-hati."
+          }
+        ]
+      }
+    },
+    "charts": {
+      "allocation": {
+        "title": "Distribusi Token",
+        "public": "Penawaran Umum",
+        "team": "Kuota Tim",
+        "operations": "Operasi",
+        "tech": "Tim Teknis",
+        "marketing": "Hubungan Masyarakat/Pemasaran",
+        "investors": "Investor Awal"
+      },
+      "phase": {
+        "title": "mekanisme pengurangan 6 fase",
+        "phase": "Fase",
+        "ratio": "Untuk setiap 1 USDT, Anda dapat menerima"
+      },
+      "vesting": {
+        "title": "Jadwal Rilis Kuota Tim",
+        "cliff": "Periode Kunci",
+        "release": "Periode Rilis"
+      },
+      "governance": {
+        "title": "Proses Tata Kelola",
+        "multisig": "Dompet Multisignatur",
+        "proposal": "Usulan",
+        "timelock": "Konfirmasi Tertunda",
+        "execute": "Eksekusi",
+        "update": "Perbarui"
+      },
+      "flow": {
+        "title": "Proses Sirkulasi Token",
+        "userSend": "Pengguna Mengirim Angpao",
+        "fee": "Biaya Transaksi",
+        "operations": "Biaya Operasional",
+        "pol": "Dana Pembelian Kembali",
+        "accumulate": "Akumulasi",
+        "trigger": "Pemicu Pembelian Kembali",
+        "swap": "Pertukaran",
+        "addLiquidity": "Tambahkan Likuiditas",
+        "pool": "Kumpulan Likuiditas",
+        "smart_floor": "Pertahanan Harga Lantai Cerdas"
+      }
+    }
+  },
+  "litepaper_api": {
+    "meta": {
+      "title": "API Autentikasi moonpacket",
+      "subtitle": "Antarmuka Standar untuk Menanyakan Aturan Hadiah dan Status Pengguna (v2.3)",
+      "description": "Cukup sediakan Endpoint GET untuk moonpacket agar dapat memeriksa aturan dan status pengguna Anda, dengan mudah mengintegrasikan angpao dan sistem tugas."
+    },
+    "sidebar": {
+      "overview": "Ikhtisar Integrasi",
+      "logic": "Logika Interaksi",
+      "spec": "Spesifikasi API",
+      "ts_def": "Definisi TypeScript",
+      "examples": "Contoh Komunikasi",
+      "security": "Otentikasi Keamanan"
+    },
+    "hero": {
+      "badge": "Spesifikasi API v2.3",
+      "title": "API Autentikasi",
+      "subtitle": "Antarmuka Kuery Atribut (GET)",
+      "desc": "Melalui antarmuka kueri GET yang terstandarisasi, moonpacket secara aktif mengambil 'aturan hadiah' dan 'atribut pengguna' dari server Anda. Semua penilaian logis ditangani oleh moonpacket.",
+      "cta_docs": "Lihat Spesifikasi",
+      "cta_key": "Kembali ke Litepaper"
+    },
+    "content": {
+      "overview": {
+        "title": "Akses Konfigurasi",
+        "desc": [
+          "Saat memilih 'API Kustom' dalam 'Pengaturan Kondisi Klaim' moonpacket, silakan berikan URL Endpoint Anda.",
+          "**Metode**: Harap gunakan `GET`",
+          "**Jenis Konten**: `application/json`",
+          "**Otentikasi**: Informasi otentikasi akan sepenuhnya dikirim melalui Header (`X-API-KEY` dan `Signature`), dan URL tidak akan mengandung informasi sensitif."
+        ]
+      },
+      "logic": {
+        "title": "Logika Interaksi",
+        "desc": "Seluruh proses dibagi menjadi dua fase: 'Fase Persiapan' dan 'Fase Waktu Jalan'. moonpacket akan mengirim permintaan ke API Anda menggunakan metode GET:",
+        "modes": [
+          {
+            "title": "Tahap 1: Definisikan Aturan (Konfigurasi)",
+            "trigger": "Peristiwa pemicu: saat URL diisi dalam 'Pengaturan Kondisi Klaim' dan diserahkan",
+            "request": "GET",
+            "response": "Mengembalikan objek definisi aturan dengan operator (gt, eq, lt...)"
+          },
+          {
+            "title": "Tahap 2: Validasi Pengguna (Waktu Nyata)",
+            "trigger": "Memicu acara: ketika pengguna mencoba mengklaim angpao",
+            "request": "GET ?user_id=...",
+            "response": "Mengembalikan nilai atribut aktual pengguna tertentu itu (nilai biasa atau string)"
+          }
+        ],
+        "note": "Operator yang Didukung: `eq` (sama dengan, mendukung string/angka), `gt` (lebih besar dari), `gte` (lebih besar dari atau sama dengan), `lt` (kurang dari), `lte` (kurang dari atau sama dengan). Nilai untuk operator non-`eq` harus berupa angka.",
+        "steps": {
+          "step1_label": "Langkah Satu",
+          "step2_label": "Langkah Dua"
+        }
+      },
+      "diagram": {
+        "user": "Pengguna",
+        "moonpacket": "moonpacket",
+        "dev_api": "API Anda",
+        "step1": "1. Selama Pengaturan: Aturan Pengambilan (GET)",
+        "step2": "2. Selama Klaim: Status Kuery (Dapatkan)",
+        "click": "Klik untuk Mengklaim",
+        "check": "Kecocokan Logis (Lokal)",
+        "grant": "Sebarkan Hadiah",
+        "reject": "Pemberitahuan Kualifikasi",
+        "client_app": "Klien / Server",
+        "json_data": "JSON data",
+        "saved_rule": "Aturan Tersimpan:",
+        "user_state": "Status Pengguna:"
+      },
+      "spec": {
+        "title": "Spesifikasi Antarmuka (Spesifikasi)",
+        "request": {
+          "title": "Parameter Permintaan (Parameter Kuery)",
+          "headers": [],
+          "query": [
+            "**api_key** (wajib): Kunci API yang Anda siapkan untuk identifikasi",
+            "**user_id** (opsional): Mengembalikan atribut pengguna jika tersedia; mengembalikan definisi aturan jika tidak ada"
+          ]
+        },
+        "ts_def": {
+          "title": "Definisi Struktur Data (TypeScript)",
+          "desc": "Antarmuka berikut mendefinisikan struktur JSON yang harus dikembalikan agar alat yang dibantu AI dapat membacanya:"
+        }
+      },
+      "scenarios": {
+        "title": "Skenario Aplikasi",
+        "items": [
+          {
+            "title": "Integrasi GameFi",
+            "desc": "Tentukan aturan `level >= 10`. Ketika pengguna mengklaim, moonpacket memeriksa atribut pengguna, jika `level: 12` maka disetujui."
+          },
+          {
+            "title": "Reward Ikatan Identitas",
+            "desc": "Tentukan aturan `kyc == true`. moonpacket memeriksa status pengguna, dan jika itu mengembalikan `kyc: true`, maka angpao akan didistribusikan."
+          },
+          {
+            "title": "Penyaringan Daftar Hitam",
+            "desc": "Tentukan aturan `is_blacklist == false`. Jika API mengembalikan `is_blacklist: true`, klaim ditolak."
+          }
+        ]
+      },
+      "examples": {
+        "title": "Contoh Komunikasi (Permintaan GET)",
+        "mode_a": {
+          "title": "1. Tentukan Aturan (Pengaturan)",
+          "desc": "Ketika mengirimkan pengaturan, kembalikan JSON yang berisi operator."
+        },
+        "mode_b": {
+          "title": "2. Status Kuery (Runtime)",
+          "desc": "Saat pengguna mengklaim, kembalikan nilai atau string murni."
+        }
+      },
+      "signature": {
+        "title": "Validasi Keamanan",
+        "desc": "Untuk memastikan keaslian permintaan, moonpacket akan menyertakan tanda tangan di Header. Anda dapat merujuk ke kode di sebelah kanan untuk validasi:",
+        "required_headers": "Header yang Diperlukan",
+        "algo_title": "Algoritma Tanda Tangan",
+        "headers": {
+          "key": "X-API-KEY",
+          "ts": "X-API-TIMESTAMP",
+          "nonce": "X-API-NONCE",
+          "sig": "X-API-TANDA TANGAN"
+        },
+        "algo": "HMAC-SHA256",
+        "formula": "Tanda tangan = HMAC_SHA256(rahasia, body + timestamp + nonce)",
+        "steps": [
+          "1. Ekstrak Timestamp, Nonce, Tanda Tangan dari Header",
+          "2. Verifikasi apakah Timestamp berada dalam rentang waktu yang wajar (contoh, ±5 menit)",
+          "3. Gabungkan string: RequestBody + Timestamp + Nonce",
+          "4. Hitung HMAC-SHA256 menggunakan Secret Anda",
+          "5. Bandingkan hasil yang dihitung dengan Tanda Tangan di Header"
+        ]
+      },
+      "reliability": {
+        "title": "Catatan",
+        "items": [
+          "**Timeout**: Pastikan API dapat mengembalikan hasil dalam waktu **3 detik**.",
+          "**Format**: Harap ikuti struktur JSON secara ketat, jika tidak, itu akan menyebabkan kegagalan parsing."
+        ]
+      },
+      "error_codes": {
+        "title": "Kode Status",
+        "items": [
+          {
+            "code": "200",
+            "status": "OK",
+            "desc": "Permintaan berhasil"
+          },
+          {
+            "code": "400",
+            "status": "Bad Request",
+            "desc": "Kesalahan parameter permintaan (mis. format tidak benar)."
+          },
+          {
+            "code": "401",
+            "status": "Unauthorized",
+            "desc": "Header Otorisasi hilang atau kunci tidak valid."
+          },
+          {
+            "code": "403",
+            "status": "Forbidden",
+            "desc": "Pembatasan IP atau akses tidak sah ke sumber daya."
+          },
+          {
+            "code": "404",
+            "status": "Not Found",
+            "desc": "ID pengguna tidak ada (untuk skenario pengqueryan status pengguna)."
+          },
+          {
+            "code": "500",
+            "status": "Server Error",
+            "desc": "Kesalahan server internal."
+          }
+        ]
+      },
+      "disclaimer": {
+        "title": "Pernyataan Penolakan Tanggung Jawab API Pihak Ketiga",
+        "text": "Metode integrasi untuk platform pihak ketiga yang disebutkan dalam dokumen ini hanya untuk referensi. Pengembang harus berkonsultasi dan mematuhi dokumentasi pengembang resmi terbaru dari platform."
+      }
+    },
+    "labels": {
+      "request": "Permintaan Konten",
+      "response": "Kembali Hasil",
+      "code": "Kode Status",
+      "status": "Status",
+      "desc": "Deskripsi"
+    }
+  },
+  "whitepaper": {
+    "title": "$moonini Whitepaper",
+    "description": "Memahami filosofi desain, model ekonomi, dan arsitektur teknis dari token $moonini",
+    "seo": {
+      "title": "$moonini Whitepaper — moonpacket",
+      "description": "Deskripsi Lengkap Tokenomics $moonini, Arsitektur Teknis, dan Mekanisme Tata Kelola"
+    },
+    "hero": {
+      "subtitle": "$moonini adalah token insentif komunitas yang berbasis pada platform moonpacket. Semakin banyak pengguna terlibat dan berinteraksi di moonpacket, semakin banyak $moonini yang dapat mereka peroleh. Untuk investor, 90% didistribusikan kepada pengguna, dan 10% untuk tim, secara efektif mengurangi risiko jatuhnya pasar yang dikombinasikan dengan mekanisme pengurangan dan rilis linier.",
+      "cards": {
+        "user": {
+          "title": "Untuk Pengguna Umum",
+          "description": "Mudah menghasilkan $moonini melalui mengirim angpao, menyelesaikan tugas, dan mengundang teman. Semakin banyak Anda menggunakan, semakin banyak yang Anda peroleh, sepenuhnya gratis."
+        },
+        "investor": {
+          "title": "Untuk Investor",
+          "description": "Jumlah total 10B, distribusi 90/10, pengurangan bertahap 6 fase, alokasi tim rilis linier, dirancang untuk stabilitas jangka panjang, mengurangi risiko jatuhnya pasar."
+        },
+        "developer": {
+          "title": "Untuk Pengembang/Mitra",
+          "description": "Kontrak terstandarisasi, API terbuka, dapat diintegrasikan ke aplikasi atau permainan lain. Silakan merujuk ke dokumentasi teknis untuk spesifikasi teknis yang lebih rinci."
+        }
+      }
+    },
+    "toc": {
+      "title": "Daftar Isi"
+    },
+    "sections": {
+      "overview": "1. Gambaran Proyek",
+      "tokenomics": "2. Tokenomics",
+      "architecture": "Tiga, Arsitektur Teknis",
+      "emission": "Empat, Mekanisme Rilis",
+      "governance": "Lima, Tata Kelola dan Keamanan",
+      "incentives": "Enam, Sistem Insentif Pengguna",
+      "developer": "Tujuh, Panduan Pengembang",
+      "roadmap": "8. Peta Jalan",
+      "risks": "9. Peringatan Risiko",
+      "faq": "Sepuluh, Masalah yang Perlu Dikonfirmasi"
+    },
+    "content": {
+      "overview": {
+        "what_is": [
+          "**$moonini** adalah token ekosistem dari platform moonpacket, yang digunakan untuk memberikan penghargaan kepada pengguna atas perilaku aktif di platform, termasuk:",
+          "- Mengirim angpao",
+          "- Mengundang teman",
+          "- Menyelesaikan tugas",
+          "- Berpartisipasi dalam kegiatan komunitas",
+          "",
+          "**Dalam Istilah Sederhana**: Semakin sering Anda menggunakan moonpacket, semakin banyak $moonini yang akan Anda dapatkan."
+        ],
+        "core_values": {
+          "title": "Nilai Inti",
+          "values": [
+            "- ✅ **Desentralisasi**: Berdasarkan Binance Smart Chain (BSC), semua transaksi transparan dan dapat diverifikasi, tidak perlu mempercayai pihak ketiga.",
+            "- ✅ **Distribusi yang Adil**: 90% token didistribusikan melalui aktivitas pengguna, 10% dicadangkan untuk tim dan investor, memastikan prioritas komunitas.",
+            "- ✅ **Rilis Bertahap**: Mengadopsi mekanisme pengurangan 6 tahap, mendorong peserta awal untuk mendapatkan lebih banyak keuntungan semakin cepat mereka bergabung.",
+            "- ✅ **Aman dan Terpercaya**: Menggunakan perpustakaan kontrak standar yang diaudit, semua operasi utama memerlukan konfirmasi multi-tanda tangan, merencanakan audit keamanan pihak ketiga."
+          ]
+        }
+      },
+      "tokenomics": {
+        "info": {
+          "title": "2.1 Informasi Dasar Token",
+          "description": [
+            "| Item | Nilai | Deskripsi |",
+            "|------|------|------|",
+            "| **Nama Token** | moonini | Nama Lengkap |",
+            "| **Simbol Token** | MOONINI | Simbol Perdagangan |",
+            "| **Total Pasokan** | 10,000,000,000 token (10B) | Pasokan total tetap, tidak pernah inflasi |",
+            "| **Tempat Desimal** | 18 | Standar BSC |",
+            "| **Blockchain** | Binance Smart Chain (BSC) | Standar BEP-20 |"
+          ]
+        },
+        "allocation": {
+          "title": "2.2 Rencana Alokasi",
+          "description": [
+            "**Total Pasokan: 10.000.000.000 token (10B)**",
+            "",
+            "**Prinsip Alokasi**:",
+            "- **90% untuk Komunitas & Likuiditas**:",
+            "- Termasuk bagian \"penambangan\" yang dihasilkan melalui angpao dan tugas, serta bagian \"likuiditas\" yang digunakan untuk membentuk pasangan perdagangan awal (tim proyek awalnya menginput 10,000 USDT sebagai kolam untuk memastikan nilai saat peluncuran).",
+            "- Bagian ini sepenuhnya dikembalikan kepada peserta ekosistem, tanpa ada yang dicadangkan untuk institusi atau penempatan pribadi.",
+            "",
+            "- **10% untuk Tim & Pendukung Awal**:",
+            "- **4% Investor Awal**: Penghargaan untuk dukungan finansial awal.",
+            "- **2% Tim Teknis**: Memastikan pengembangan dan pemeliharaan protokol yang berkelanjutan.",
+            "- **Tim Operasi 2%**: Bertanggung jawab atas manajemen komunitas dan perencanaan acara.",
+            "- **2% Pemasaran dan Stabilitas Ekosistem**: Mempromosikan pertumbuhan pasar dan menjaga stabilitas ekosistem selama kondisi ekstrim sebagai dana cadangan.",
+            "",
+            "**Janji Tata Kelola**:",
+            "Kami menerapkan kontrol internal dana yang ketat. Semua alokasi tim dan biaya operasional tunduk pada pembatasan **Multisig** dan **Timelock**. Tidak ada satu orang yang dapat mengakses dana secara bebas, memastikan bahwa setiap pengeluaran dibuat melalui pengambilan keputusan kolektif dan transparan secara publik."
+          ]
+        },
+        "phase": {
+          "title": "2.3 Mekanisme Pengurangan 6 Tahap",
+          "description": [
+            "Untuk mendorong partisipasi awal, distribusi token mengadopsi mekanisme 'pengurangan progresif':",
+            "",
+            "| Tahap | Rentang Jumlah Diterbitkan | Rasio Penebusan (per 1 USDT) | Deskripsi |",
+            "|------|------------|---------------------|------|",
+            "| **Tahap 1** | 0 ~ 4.5B | **1.0 token** | Peserta awal, 1:1 pertukaran |",
+            "| **Tahap 2** | 4.5B ~ 6.75B | **0.5 token** | Terpotong setengah |",
+            "| **Tahap 3** | 6.75B ~ 7.875B | **0.25 token** | Terpotong setengah lagi |",
+            "| **Tahap 4** | 7.875B ~ 8.4375B | **0.125 token** | Terus terpotong setengah |",
+            "| **Tahap 5** | 8.4375B ~ 8.71875B | **0.0625 token** | Mendekati akhir |",
+            "| **Tahap 6** | 8.71875B ~ 9B | **0.03125 token** | Tahap terakhir |",
+            "",
+            "**Contoh**:",
+            "- Di Tahap 1, jika Anda mengirim 100 USDT angpao, Anda bisa menerima 100 $moonini",
+            "- Di Tahap 2, jika Anda mengirim 100 USDT angpao, Anda hanya bisa menerima 50 $moonini",
+            "- Semakin awal Anda berpartisipasi, semakin banyak token yang Anda terima!"
+          ],
+          "value_logic": [
+            "💡 Filosofi dan Siklus Nilai Angpao",
+            "",
+            "**Semangat Angpao adalah 'Memberi' dan 'Koneksi'**:",
+            "Berasal dari budaya Timur, Angpao tidak hanya mewakili transfer dana tetapi juga cinta dari orang tua untuk anak muda, ucapan selamat, dan berbagi di antara teman. Di moonpacket, setiap kali Anda mengirim Angpao adalah interaksi sosial yang hangat.",
+            "",
+            "**Dari Perilaku Sosial ke Nilai Ekonomi**:",
+            "Kami percaya bahwa tindakan baik ini harus dicatat dan dihargai. $moonini bukan hanya token penghargaan; ia adalah pembawa nilai dari jaringan sosial ini, menghasilkan efek ekonomi jangka panjang dari setiap 'memberi'.",
+            "",
+            "**Dukungan Nilai Nyata**:",
+            "Untuk mempertahankan stabilitas nilai sosial ini, protokol menetapkan: **50% dari pendapatan biaya transaksi akan secara otomatis disuntikkan ke dalam Pool Likuiditas**.",
+            "",
+            "Ini berarti: semakin aktif komunitas ➔ semakin banyak interaksi angpao ➔ semakin banyak dana yang disuntikkan ke kolam likuiditas ➔ semakin solid fondasi nilai $moonini. Ini adalah siklus positif yang berdasarkan pada kebutuhan sosial yang nyata dan pendapatan bisnis, bukan semata perjudian spekulatif."
+          ]
+        }
+      },
+      "architecture": {
+        "blockchain": {
+          "title": "3.1 Pemilihan Blockchain: Binance Smart Chain (BSC)",
+          "why": [
+            "**Mengapa Memilih BSC?**",
+            "",
+            "| Keuntungan | Deskripsi |",
+            "|------|------|",
+            "| ✅ **Biaya Rendah** | Rata-rata biaya transaksi $0.1-$0.5, jauh lebih rendah daripada Ethereum |",
+            "| ✅ **Konfirmasi Cepat** | Rata-rata waktu konfirmasi 3 detik untuk pengalaman yang lancar |",
+            "| ✅ **Ekosistem Matang** | Alat DeFi yang kaya dengan basis pengguna yang besar |",
+            "| ✅ **Kompatibel EVM** | Dapat menggunakan kembali sumber daya ekosistem Ethereum |",
+            "| ✅ **Adopsi Dompet** | Dompet mainstream seperti MetaMask, Trust Wallet mendukung |"
+          ]
+        },
+        "contracts": {
+          "title": "3.2 Arsitektur Kontrak Pintar",
+          "description": [
+            "Kami menggunakan standar kontrak pintar yang diverifikasi industri untuk memastikan keamanan dan keandalan token.",
+            "",
+            "**Prinsip Desain Inti**:",
+            "- **Terdesentralisasi**: Semua penerbitan dan mekanisme pelepasan token dieksekusi secara otomatis melalui kontrak pintar, tanpa memerlukan intervensi manusia.",
+            "- **Transparan dan Dapat Dilacak**: Semua catatan operasional disimpan di blockchain, dapat diakses oleh siapa saja.",
+            "- **Aman dan Terpercaya**: Menggunakan perpustakaan kontrak standar yang diaudit oleh pihak ketiga untuk memastikan kualitas dan keamanan kode.",
+            "",
+            "**Fungsi Utama**:",
+            "- **Penerbitan Token**: Penerbitan dan transfer token sesuai dengan standar BSC.",
+            "- **Rilis Otomatis**: Kelola rilis bertahap (6 fase pengurangan) dari 90% token yang diterbitkan secara publik.",
+            "- **Kunci Tim**: Pengelolaan alokasi tim 10% untuk kunci dan rilis linier",
+            "- **Mekanisme Tata Kelola**: Semua operasi penting memerlukan konfirmasi multi-tanda tangan, dengan periode pendinginan selama 48 jam untuk memberikan waktu kepada komunitas untuk meninjau",
+            "- **Pembelian Kembali Otomatis**: Biaya platform secara otomatis digunakan untuk membeli kembali token, meningkatkan likuiditas",
+            "",
+            "**Langkah Keamanan**:",
+            "- Menggunakan perpustakaan kontrak standar yang diaudit oleh pihak ketiga untuk memastikan kualitas dan keamanan kode",
+            "- Semua operasi penting memerlukan konfirmasi multi-tanda tangan, dengan periode pendinginan selama 48 jam untuk memberikan waktu kepada komunitas untuk meninjau",
+            "- Teknologi autentikasi canggih yang digunakan selama penarikan pengguna untuk memastikan hanya pengguna yang dapat beroperasi",
+            "- Menggunakan mekanisme pencegahan serangan replay untuk melindungi dana pengguna",
+            "- Rencanakan untuk menjalani audit keamanan pihak ketiga (CertiK / PeckShield / SlowMist)",
+            "",
+            "*Untuk spesifikasi teknis yang lebih rinci, antarmuka kontrak, dan definisi fungsi, silakan merujuk ke: [Dokumen Spesifikasi Teknis](/id-ID/docs/technical)*"
+          ]
+        }
+      },
+      "emission": {
+        "public": {
+          "title": "4.1 Penawaran Umum (90%)",
+          "initial_liquidity": [
+            "**Likuiditas Awal**:",
+            "- Mengalihkan sebagian token dari 90% dana penawaran umum untuk membangun kolam likuiditas awal dengan USDT",
+            "- Pastikan bahwa token dapat diperdagangkan dengan normal setelah online, memberikan jaminan likuiditas kepada investor",
+            "- Jumlah spesifik akan diumumkan sebelum peluncuran mainnet"
+          ],
+          "launch_protection": [
+            "**Membuka Mekanisme Anti-Snipe**:",
+            "- **Batas Pembelian Tunggal**: 30 menit sebelum pembukaan, satu dompet hanya dapat membeli 0.5% atau 1% dari total jumlah",
+            "- **Lindungi Investor Ritel Kecil**: Mencegah pemegang besar menghapus seluruh likuiditas saat pasar dibuka",
+            "- **Jendela Waktu**: Otomatis diangkat setelah 30 menit, tidak mempengaruhi perdagangan normal",
+            "- **Pertahankan Stabilitas Harga**: Hindari fluktuasi harga yang tajam saat pembukaan"
+          ],
+          "release_methods": [
+            "**Metode Rilis**: Rilis bertahap melalui aktivitas pengguna",
+            "",
+            "**Sumber Rilis**:",
+            "1. **Kirim angpao**: Setiap kali 1 USDT angpao dikirim, terima $moonini yang sesuai berdasarkan fase saat ini",
+            "2. **Undang Teman**: Berhasil mengundang pengguna baru dan menyelesaikan tugas berbagi untuk menerima $moonini",
+            "3. **Selesaikan Tugas**: Selesaikan tugas pencapaian, tugas sosial, dll., untuk mendapatkan tambahan $moonini",
+            "4. **Pembagian Keuntungan Pemilik Grup**: Pemilik grup dapat menerima 3% bagi hasil (USDT) untuk mengirim angpao ke seluruh grup"
+          ],
+          "cost_vs_price": [
+            "💡 **Biaya Produksi vs Harga Pasar**:",
+            "",
+            "Pada Tahap 1, biaya implisit untuk mendapatkan 1 $moonini melalui penambangan angpao adalah sekitar **0,02 USDT** (berdasarkan biaya transaksi 2%).",
+            "",
+            "Sementara harga listing awal kami adalah **0,01 USDT**.",
+            "",
+            "Ini berarti bahwa **biaya pembelian pasar sekunder adalah 50% lebih rendah daripada biaya produksi**, memberikan pemegang awal margine keamanan yang alami."
+          ],
+          "withdraw_mechanism": [
+            "**Mekanisme Penarikan**:",
+            "- Setelah pengguna memperoleh $moonini di platform, mereka dapat menariknya ke dompet mereka melalui mekanisme verifikasi identitas yang aman.",
+            "- Sistem akan memverifikasi berdasarkan catatan aktivitas pengguna untuk memastikan bahwa hanya pengguna yang dapat melakukan operasi",
+            "- Setelah terverifikasi, pengguna dapat menarik token mereka ke dompet mereka",
+            "- **Ambang Penarikan Minimum**: 10 $moonini",
+            "- **Biaya Transaksi**: Pengguna hanya perlu membayar biaya transaksi jaringan (sesuai dengan praktik blockchain)",
+            "",
+            "*Untuk implementasi teknis secara rinci, silakan merujuk ke: [Dokumen Spesifikasi Teknis](/id-ID/docs/technical)*"
+          ],
+          "phase_switch": [
+            "**Pengalihan Fase**:",
+            "- Secara otomatis beralih ke fase berikutnya ketika jumlah yang diterbitkan mencapai ambang fase",
+            "- Proses perpindahan adalah transparan dan dapat dilacak, tercatat di blockchain"
+          ]
+        },
+        "team": {
+          "title": "Kuota Tim 4.2 (10%)",
+          "vesting_rules": [
+            "**Aturan Penguncian dan Pelepasan**:",
+            "",
+            "| Kategori | Proporsi | Periode Kunci (Cliff) | Periode Pelepasan Linier | Total Durasi |",
+            "|------|------|---------------|-----------|--------|",
+            "| **Operasi** | 2% (200M) | 3 bulan | 45 bulan | 48 bulan |",
+            "| **Tim Teknik** | 2% (200M) | 3 bulan | 45 bulan | 48 bulan |",
+            "| **Hubungan Masyarakat/Pemasaran** | 2% (200M) | 3 bulan | 45 bulan | 48 bulan |",
+            "| **Investor Awal** | 4% (400M) | 3 bulan | 33 bulan | 36 bulan |",
+            "",
+            "**Metode Rilis**:",
+            "- **Akkumulasi Linear**: Token terakumulasi secara linier seiring waktu, dan jumlah yang tersedia untuk penarikan dapat diperiksa kapan saja.",
+            "- **Rilis Reguler**: Pemicu reguler otomatis untuk rilis tanpa perlu operasi manual.",
+            "- **Mekanisme Notifikasi**: Notifikasi otomatis yang dikirim kepada penerima setelah setiap pelepasan selesai.",
+            "",
+            "**Contoh**:",
+            "- Investor A menerima 1.000.000 $moonini",
+            "- 3 bulan pertama: Periode penguncian, penarikan tidak diizinkan",
+            "- Mulai dari bulan ke-4: Token terakumulasi secara linier seiring berjalannya waktu, dengan penarikan rutin dari bagian yang terakumulasi.",
+            "- Setelah 33 bulan: Semua rilis selesai."
+          ]
+        },
+        "kyc": {
+          "title": "4.3 KYC dan Manajemen Investor",
+          "methods": [
+            "**Metode KYC** (untuk sejumlah terbatas dari investor awal):",
+            "",
+            "1. **Tim Pendiri KYC Nama Asli** (Disarankan, sesuai untuk skala kecil)",
+            "- Cocok untuk jumlah investor awal yang lebih kecil (< 10 orang)",
+            "- Anggota tim pendiri (Operasional + Teknis) melakukan wawancara video dengan investor",
+            "- Verifikasi dokumen identitas, bukti alamat, dan materi lainnya",
+            "- Konfirmasi melalui tanda tangan elektronik PDF (DocuSign/SignNow)",
+            "- **Keuntungan**: Biaya rendah, proses fleksibel, membangun kepercayaan",
+            "",
+            "2. **Shufti Pro** (Cocok untuk skala menengah)",
+            "- Cocok untuk jumlah investor yang moderat (10-50 orang)",
+            "- 10 slot verifikasi gratis per bulan (cocok untuk penggunaan awal)",
+            "- Proses otomatis, mendukung verifikasi dokumen multi-negara.",
+            "- **Keunggulan**: Otomatisasi, kepatuhan tinggi, mendukung dokumentasi multi-negara.",
+            "",
+            "3. **KYC Pihak Ketiga Lainnya** (Ekspansi Masa Depan)",
+            "- Persona / Sumsub / Onfido sebagai alternatif",
+            "- Sesuai untuk jumlah investor yang lebih besar (> 50 orang)"
+          ],
+          "flexibility": [
+            "**Desain Fleksibel Investor**:",
+            "",
+            "**Dukungan untuk Beberapa Dompet dan Rasio yang Berbeda**:",
+            "- Seorang investor dapat memiliki beberapa dompet untuk menerima token.",
+            "- Setiap dompet dapat menetapkan rasio alokasi yang berbeda (misalnya, 60% / 40%).",
+            "- Investor yang berbeda dapat memiliki waktu masuk yang berbeda.",
+            "",
+            "**Mekanisme Penggantian Dompet (Strategi Pembatalan dan Penerbitan Kembali)**:",
+            "- Investor dapat mengubah dompet penerimaan mereka (memerlukan verifikasi KYC ulang).",
+            "- **Logika Inti**: Alih-alih langsung memodifikasi dompet lama, batalkan rencana rilis lama dan buat rencana rilis baru untuk dompet baru.",
+            "- **Proses**:",
+            "1. Investor melaporkan kehilangan/pencurian dompet lama mereka dan menyelesaikan verifikasi KYC off-chain.",
+            "2. Melalui proposal dompet multi-tanda tangan, batalkan rencana rilis lama dan kembalikan token yang belum diterbitkan.",
+            "3. Buat rencana rilis baru untuk dompet baru, dengan jumlah yang menjadi sisa dan waktu yang menjadi durasi yang tersisa.",
+            "4. Semua operasi memiliki konfirmasi penundaan selama 48 jam untuk memastikan transparansi dan keamanan.",
+            "- **Keuntungan**: Logika kontrak lebih sederhana (hanya membuat dan membatalkan), secara signifikan mengurangi risiko peretasan.",
+            "- Hanya mempengaruhi bagian 'yang belum dirilis'; token yang sudah dirilis tidak dapat dibatalkan."
+          ]
+        }
+      },
+      "governance": {
+        "mechanism": {
+          "title": "5.1 Mekanisme Tata Kelola",
+          "core_principle": [
+            "**Prinsip Utama**: **Tidak ada otoritas tertinggi tunggal**, semua operasi penting harus melalui tinjauan publik yang tertunda",
+            "",
+            "**Proses Tata Kelola**:",
+            "1. **Proposal**: Proposal tata kelola yang ditetapkan setelah persetujuan dompet multi-tanda tangan",
+            "2. **Periode Tinjauan**: Masukkan antrean penundaan 48 jam, semua tindakan terlihat publik di blockchain",
+            "3. **Eksekusi**: Proposal dapat dieksekusi setelah periode penundaan berakhir",
+            "4. **Pembatalan**: Selama periode peninjauan, pengusul dapat membatalkan proposal",
+            "",
+            "**Item yang Dapat Dikelola**:",
+            "- Penyesuaian parameter (biaya transaksi, batas pembelian kembali, dll.)",
+            "- Alokasi treasury (kuota fase berikutnya, anggaran acara, dll.)",
+            "- Peningkatan kontrak (harus lulus audit)"
+          ]
+        },
+        "security": {
+          "title": "5.2 Tindakan Keamanan",
+          "description": [
+            "**Perlindungan Multi-Lapis**:",
+            "1. **Dompet Multi-tanda Tangan**: Semua operasi penting memerlukan setidaknya 2 tanda tangan untuk konfirmasi",
+            "2. **Eksekusi Tertunda**: Semua operasi berisiko tinggi memerlukan penundaan 48 jam",
+            "3. **Audit**: Melalui audit keamanan pihak ketiga",
+            "4. **Sumber Terbuka**: Kode kontrak bersifat sumber terbuka dan dapat diverifikasi secara publik.",
+            "",
+            "**Manajemen Izin**:",
+            "- **Otoritas Penerbitan Token**: Dicabut atau dipindahkan ke perbendaharaan tata kelola, tidak dapat menerbitkan token sembarangan.",
+            "- **Otoritas Pembekuan**: Ditutup, tidak dapat membekukan token pengguna.",
+            "- **Memperbarui Otoritas**: Hanya alamat pemerintahan yang dapat memodifikasi informasi token."
+          ]
+        },
+        "pol": {
+          "title": "5.3 Pembelian Kembali dan Pembuatan Pasar (POL - Pembelian Kembali Tak Terbatas + Pertahanan Harga Lantai)",
+          "mechanism": [
+            "**Mekanisme**:",
+            "- **1%** dari biaya transaksi platform digunakan untuk membeli kembali $moonini dan meningkatkan kolam likuiditas",
+            "- **Beli Kembali Tanpa Batas**: Tidak ada batas harian untuk beli kembali; sebanyak biaya transaksi yang ada, beli kembali terus memberikan dukungan likuiditas untuk token tersebut.",
+            "- **Strategi Terautomasi**: Menggunakan strategi pembelian kembali yang cerdas untuk mengurangi prediktabilitas dan menghindari manipulasi pasar",
+            "- **Beli Perlindungan**: Secara otomatis meningkatkan upaya beli kembali ketika terjadi penurunan pasar yang signifikan, melindungi kepentingan investor"
+          ],
+          "floor_defense": [
+            "**Pertahanan Harga Lantai**:",
+            "- **Tingkat Harga Psikologis**: 0.01 USDT",
+            "- **Pertahanan Otomatis**: Ketika harga turun di bawah ambang pertahanan, mode pertahanan diaktifkan secara otomatis, meningkatkan upaya pembelian kembali",
+            "- **Pembentukan Pasar Otomatis**: Pembentukan pasar otomatis berdasarkan kontrak pintar, tidak memerlukan intervensi manual, memastikan stabilitas pasar",
+            "- **Hemat Biaya Maker Pasar**: Gunakan anggaran untuk menerbitkan angpao, pemasaran, atau meningkatkan likuiditas awal"
+          ],
+          "philosophy": [
+            "**Filosofi Desain**:",
+            "- Hambatan masuk yang rendah, imbal hasil teori permainan yang tinggi",
+            "- Proyek party tidak mengganggu pasar (hanya menyediakan pembelian kembali biaya transaksi)",
+            "- Model SocialFi yang Murni",
+            "- Secara otomatis mempertahankan tingkat harga psikologis untuk menjaga kepercayaan pasar",
+            "",
+            "*Untuk parameter teknis yang mendetail dan strategi implementasi, silakan merujuk ke: [Dokumen Spesifikasi Teknik](/id-ID/docs/technical)*"
+          ]
+        },
+        "kyc": {
+          "title": "4.3 KYC Investor dan manajemen",
+          "methods": [
+            "**Metode KYC** (untuk sejumlah kecil investor awal):",
+            "",
+            "1. **Tim Pendiri KYC Orang Asli** (disarankan, cocok untuk skala kecil)",
+            "- Sesuai untuk investor awal yang lebih sedikit (< 10 orang)",
+            "- Wawancara video antara anggota tim pendiri (operasi + teknologi) dan investor",
+            "- Verifikasi dokumen identifikasi, bukti alamat, dan dokumen lainnya",
+            "- Konfirmasi melalui tanda tangan elektronik PDF (DocuSign/SignNow)",
+            "- **Keuntungan**: Biaya rendah, proses fleksibel, dapat membangun hubungan kepercayaan",
+            "",
+            "2. **Shufti Pro** (cocok untuk skala menengah)",
+            "- Sesuai untuk jumlah investor yang moderat (10-50 orang).",
+            "- 10 kredit verifikasi gratis per bulan (cocok untuk penggunaan awal).",
+            "- Proses otomatis, mendukung verifikasi dokumen multi-negara",
+            "- **Keuntungan**: Automasi, kepatuhan tinggi, dukungan untuk dokumen multi-negara",
+            "",
+            "3. **KYC Pihak Ketiga Lainnya** (ekspansi di masa depan)",
+            "- Persona / Sumsub / Onfido sebagai alternatif",
+            "- Cocok untuk jumlah investor yang lebih besar (> 50 orang)"
+          ],
+          "flexibility": [
+            "**Desain Fleksibel untuk Investor**:",
+            "",
+            "**Dukungan untuk Beberapa Dompet dan Rasio yang Berbeda**:",
+            "- Seorang investor dapat memiliki beberapa dompet untuk menerima token.",
+            "- Setiap dompet dapat diatur dengan rasio alokasi yang berbeda (misalnya, 60% / 40%).",
+            "- Berbagai investor dapat memiliki waktu masuk yang berbeda.",
+            "",
+            "**Mekanisme Perubahan Dompet (Strategi Pencabutan dan Penerbitan Kembali)**:",
+            "- Investor dapat mengubah dompet penerima (memerlukan verifikasi KYC ulang).",
+            "- **Logika Inti**: Alih-alih langsung memodifikasi dompet lama, batalkan rencana rilis lama dan buat rencana rilis baru untuk dompet baru.",
+            "- **Proses**:",
+            "1. Investor melaporkan dompet lama yang hilang/tercuri dan menyelesaikan verifikasi KYC off-chain.",
+            "2. Melalui proposal dompet multi-tanda tangan, batalkan rencana rilis lama dan kembalikan token yang belum dirilis.",
+            "3. Buat rencana rilis baru untuk dompet baru, dengan jumlah menjadi sisa bagian dan waktu menjadi durasi yang tersisa.",
+            "4. Semua operasi mengalami konfirmasi penundaan selama 48 jam untuk memastikan transparansi dan keamanan.",
+            "- **Keuntungan**: Logika kontrak lebih sederhana (hanya membuat dan mencabut), secara signifikan mengurangi risiko peretasan.",
+            "- Hanya mempengaruhi bagian \"belum dirilis\"; token yang sudah dirilis tidak dapat diambil kembali."
+          ]
+        }
+      },
+      "incentives": {
+        "how_to_earn": {
+          "title": "6.1 Bagaimana cara mendapatkan $moonini?",
+          "send_gift": [
+            "#### A. Mengirim Angpao",
+            "",
+            "- **Aturan Dasar**: Untuk setiap **setara dengan 1 USDT** angpao yang dikirim (mendukung beberapa token), sistem akan menghitung dan mendistribusikan $moonini berdasarkan tarif pertukaran fase saat ini.",
+            "- **Menyampaikan Berkah**: angpao bukan sekadar uang; mereka adalah sarana untuk menyampaikan berkah. Setiap tindakan memberi akan dicatat di blockchain dan diberi imbalan."
+          ],
+          "invite": [
+            "#### B. Undang Teman (Bagikan angpao)",
+            "",
+            "- **Aturan**: Undang teman baru dan selesaikan tugas berbagi, kedua pihak menerima hadiah.",
+            "- **Mekanisme Anti-Spam**: Untuk memastikan keadilan, **setiap akun memiliki batas imbalan undangan**, yang akan disesuaikan secara dinamis sesuai dengan pengumuman desain permainan komunitas terbaru.",
+            "- **Kontrol Risiko**: Kami memiliki mekanisme kontrol risiko yang ketat; setiap perilaku spam yang tidak normal akan dianggap tidak valid."
+          ],
+          "quests": [
+            "#### C. Menyelesaikan Tugas",
+            "",
+            "**Tipe Tugas**:",
+            "- Termasuk tugas pencapaian satu kali (seperti mengirim angpao pertama) dan tugas sosial (seperti mengikuti komunitas resmi).",
+            "- Tugas ini dirancang untuk membiasakan pendatang baru dengan fitur platform, **setiap akun hanya dapat menyelesaikannya sekali atau memiliki batasan jumlah total**.",
+            "",
+            "**Tujuan Desain**:",
+            "- Untuk mencegah otomatisasi skrip yang mengirimkan koin secara berlebihan, dan meninggalkan hadiah bagi pengguna aktif yang sebenarnya."
+          ]
+        },
+        "fee_structure": {
+          "title": "6.2 Struktur Biaya",
+          "description": [
+            "**Biaya Transaksi Saat Mengirim angpao**:",
+            "",
+            "| Skenario | Total Biaya | Deskripsi |",
+            "|------|---------|------|",
+            "| **Mengirim di Grup Sendiri** | 2% | 1% Operasi + 1% Pembelian Kembali |",
+            "| **Pengiriman Lintas Grup** | 5% | 1% Operasi + 1% Pembelian Kembali + 3% Pembagian Keuntungan Pemilik Grup |",
+            "",
+            "**Penggunaan Biaya**:",
+            "- **1% Operasional**: Digunakan untuk biaya server, pengembangan, dan pemasaran.",
+            "- **1% Pembelian Kembali**: Digunakan untuk membeli kembali $moonini dan memperdalam LP (akan direalisasikan di masa depan).",
+            "- **3% Pembagian Keuntungan Pemilik Grup**: Dibayar kepada pemilik grup (hanya dikenakan biaya untuk pengiriman lintas grup)."
+          ]
+        }
+      },
+      "developer": {
+        "contracts": {
+          "title": "7.1 Alamat Kontrak (Menunggu Penempatan)",
+          "description": [
+            "Setelah token diluncurkan secara resmi, semua alamat kontrak pintar akan diumumkan di sini, bersamaan dengan tautan spesifikasi teknis yang sesuai.",
+            "",
+            "**Modul Kontrak Utama**:",
+            "- Kontrak Token",
+            "- Tata Kelola dan Kontrol Penundaan",
+            "- Penawaran Umum Perbendaharaan",
+            "- Alokasi Tim Kas",
+            "- Manajemen Buyback",
+            "- Pool Likuiditas",
+            "- Dompet Multi-Tanda Tangan",
+            "",
+            "*Untuk alamat kontrak dan spesifikasi teknis yang lebih rinci, silakan merujuk ke: [Dokumen Spesifikasi Teknis](/id-ID/docs/technical)*"
+          ]
+        },
+        "api": {
+          "title": "7.2 Mode Integrasi dan API (Dalam Perencanaan)",
+          "intro": [
+            "moonpacket berencana untuk menyediakan ekosistem API yang lengkap, memungkinkan pengembang dan mitra pihak ketiga untuk dengan mudah mengintegrasikan mekanisme hadiah $moonini ke dalam produk mereka. Baik itu bot Telegram, permainan Web3, atau platform kampanye pemasaran, API kami memungkinkan pengguna untuk menerima hadiah $moonini, memperluas pengaruh ekologi."
+          ],
+          "types": [
+            "**Jenis API**:",
+            "",
+            "Kami berencana untuk menyediakan jenis API berikut untuk memenuhi berbagai kebutuhan integrasi:",
+            "",
+            "- **API Pembacaan Data**: Kuery catatan distribusi angpao, status penyelesaian tugas, saldo $moonini pengguna, dan lainnya, memungkinkan mitra untuk memahami status aktifitas pengguna.",
+            "",
+            "- **Distribusi dan API Tugas**: Memungkinkan mitra untuk memicu distribusi angpao atau penghargaan tugas dalam produk mereka sendiri, misalnya, secara otomatis mendistribusikan reward $moonini saat pengguna mencapai tonggak tertentu dalam sebuah permainan.",
+            "",
+            "- **Acara Webhook**: Sistem secara proaktif memberitahukan mitra tentang acara penting seperti saat pengguna menyelesaikan tugas, mengklaim angpao, atau menyelesaikan penarikan, memungkinkan respons waktu nyata dan sinkronisasi data."
+          ],
+          "security": [
+            "**Keamanan dan Izin**:",
+            "",
+            "Untuk memastikan keamanan dan stabilitas API, kami menerapkan mekanisme berikut:",
+            "",
+            "- **Autentikasi Kunci API**: Setiap mitra akan menerima Kunci API atau ID aplikasi yang ditujukan untuk identifikasi dan otorisasi.",
+            "",
+            "- **Pembatasan Laju**: Semua permintaan API dibatasi untuk mencegah penyalahgunaan dan kelebihan beban, memastikan stabilitas layanan.",
+            "",
+            "- **Verifikasi Tanda Tangan**: Operasi penting (misalnya, penerbitan hadiah) memerlukan verifikasi tanda tangan permintaan untuk mencegah pemalsuan dan tindakan yang tidak sah.",
+            "",
+            "- **Tingkat Izin**: Mitra yang berbeda akan memiliki tingkat izin API yang berbeda berdasarkan hubungan kolaborasi dan kebutuhan mereka, memastikan prinsip izin terkecil."
+          ],
+          "release": [
+            "**Ritme Rilis**:",
+            "",
+            "API akan mengadopsi strategi pembukaan progresif untuk memastikan stabilitas dan keamanan:",
+            "",
+            "- **Beta Tertutup**: Awalnya disediakan untuk mitra dan pengembang permainan awal dalam format beta tertutup untuk mengumpulkan umpan balik dan mengoptimalkan pengalaman.",
+            "",
+            "- **Pembukaan Bertahap**: Setelah memverifikasi stabilitas selama fase Beta, aplikasi akan dibuka secara bertahap untuk memungkinkan lebih banyak pengembang mengintegrasikan ekosistem $moonini.",
+            "",
+            "- **Rilis Resmi**: Setelah API mencapai stabilitas tingkat produksi, ini akan secara resmi dibuka untuk umum, menyediakan dokumentasi dan dukungan yang lengkap."
+          ],
+          "scenarios": {
+            "title": "Skenario Integrasi Tipikal",
+            "items": [
+              "**Bot Telegram / Aplikasi Mini**: Kirim angpao di grup atau aplikasi Anda untuk memungkinkan pengguna menerima hadiah $moonini, meningkatkan keterlibatan pengguna.",
+              "",
+              "**Game Web3**: Laporkan status penyelesaian tugas dalam permainan ke moonpacket, memungkinkan pemain untuk secara otomatis menerima tambahan hadiah $moonini setelah menyelesaikan tugas permainan.",
+              "",
+              "**Platform Kampanye Pemasaran**: Kirim secara otomatis hadiah $moonini berdasarkan perilaku pengguna di media sosial (misalnya, berbagi, me-retweet, mengikuti, dll.), mencapai pemasaran yang tepat.",
+              "",
+              "**Protokol DeFi**: Integrasikan $moonini sebagai lapisan hadiah tambahan, yang memungkinkan pengguna untuk mendapatkan hadiah $moonini di atas keuntungan asli untuk menyelesaikan tindakan DeFi tertentu.",
+              "",
+              "**Platform Pembuatan Konten**: Secara otomatis mengeluarkan hadiah $moonini ketika kreator menyelesaikan tugas tertentu atau mencapai tonggak, mendorong pembuatan konten berkualitas."
+            ]
+          }
+        },
+        "tools": {
+          "title": "7.3 Alat Pengembang dan Dokumentasi",
+          "description": [
+            "Untuk membantu pengembang mengintegrasikan API moonpacket dengan lebih mudah, kami berencana untuk menyediakan alat pengembang dan dokumentasi yang lengkap:",
+            "",
+            "- **Portal Pengembang**: Menyediakan titik masuk terpadu untuk pengembang, termasuk pengelolaan kunci API, statistik penggunaan, log kesalahan, dan lainnya, memungkinkan pengembang untuk dengan mudah mengelola integrasi mereka.",
+            "",
+            "- **Dokumentasi API**: Menyediakan dokumentasi REST API dan Webhook yang lengkap, termasuk contoh permintaan, format respons, penjelasan kode kesalahan, dll., memungkinkan pengembang untuk segera memulai.",
+            "",
+            "- **SDK dan Contoh Kode**: Menyediakan SDK dalam berbagai bahasa (seperti JavaScript, Python) dan contoh kode untuk mengurangi hambatan integrasi, memungkinkan pengembang untuk mengimplementasikan dengan cepat.",
+            "",
+            "Saat ini, dokumen teknis disajikan dari pusat dokumen (docs) di halaman teknis, termasuk spesifikasi kontrak pintar, mekanisme distribusi, sistem tugas, dan detail teknis lainnya. Dokumentasi API lengkap akan diorganisir di halaman 《[Dokumentasi API Pengembang](/id-ID/docs/api/)》, dan dokumentasi API resmi serta alat pengembang akan dirilis secara bertahap menjelang peluncuran mainnet, jadi harap tetap perhatikan."
+          ]
+        }
+      },
+      "roadmap": {
+        "labels": {
+          "current": "Dalam Proses",
+          "done": "Selesai"
+        },
+        "phase1": {
+          "title": "Fase 1: Infrastruktur (Selesai ✅)",
+          "items": [
+            "- [x] Desain kontrak token",
+            "- [x] Dokumen spesifikasi teknis",
+            "- [x] Desain struktur data"
+          ]
+        },
+        "phase2": {
+          "title": "Tahap 2: Pengembangan Kontrak (Sedang Dalam Progres 🚧)",
+          "items": [
+            "- [ ] Penyebaran kontrak token (Testnet)",
+            "- [ ] Kontrak manajemen fase",
+            "- [ ] Kontrak vesting",
+            "- [ ] Integrasi Timelock",
+            "- [ ] Audit pihak ketiga"
+          ]
+        },
+        "phase3": {
+          "title": "Tahap 3: Persiapan Peluncuran (Direncanakan 📅)",
+          "items": [
+            "- [ ] Peluncuran mainnet",
+            "- [ ] Pembentukan kolam likuiditas awal",
+            "- [ ] Peluncuran sistem insentif pengguna",
+            "- [ ] Peluncuran dashboard"
+          ]
+        },
+        "phase4": {
+          "title": "Tahap 4: Ekspansi Ekosistem (Mendatang 🔮)",
+          "items": [
+            "- [ ] Aktivasi mekanisme pembelian POL",
+            "- [ ] Dukungan lintas rantai (Polygon / Arbitrum)",
+            "- [ ] Lebih banyak integrasi DeFi"
+          ]
+        }
+      },
+      "risks": {
+        "technical": {
+          "title": "9.1 Risiko Teknis",
+          "description": [
+            "| Risiko | Deskripsi | Tindakan Mitigasi |",
+            "|------|------|---------|",
+            "| Kerentanan Kontrak Cerdas | Kontrak mungkin memiliki kerentanan yang tidak diketahui | Melalui audit pihak ketiga, Bug Bounty |",
+            "| Kebocoran Kunci Pribadi | Kunci pribadi admin mungkin dicuri | Gunakan dompet perangkat keras, MPC, tanda tangan multi |",
+            "| Kongesti Jaringan | Waktu puncak BSC dapat menyebabkan keterlambatan | Redundansi multi-node, Optimisasi Gas |"
+          ]
+        },
+        "market": {
+          "title": "Risiko Pasar 9.2",
+          "description": [
+            "- **Volatilitas Harga**: Harga token mungkin berfluktuasi secara signifikan.",
+            "- **Risiko Likuiditas**: Likuiditas awal mungkin tidak mencukupi",
+            "- **Risiko Regulasi**: Kebijakan regulasi di berbagai negara mungkin berubah"
+          ]
+        },
+        "notice": {
+          "title": "9.3 Pemberitahuan Pengguna",
+          "description": [
+            "- ⚠️ **Risiko Investasi**: Harga token dapat jatuh menjadi nol, harap berinvestasi dengan hati-hati",
+            "- ⚠️ **Bukan Nasihat Investasi**: Dokumen ini tidak merupakan nasihat investasi",
+            "- ⚠️ **Lakukan Penelitian Anda Sendiri**: Silakan lakukan penelitian dan menilai risiko sendiri"
+          ]
+        }
+      },
+      "faq": {
+        "title": "Sepuluh, Masalah yang Perlu Dikonfirmasi",
+        "description": [
+          "Dokumen ini menjelaskan prinsip desain inti dan model ekonomi dari $moonini. Hal-hal berikut masih dalam koordinasi dengan penasihat dan mitra dan akan diselesaikan sebelum peluncuran mainnet:",
+          "",
+          "- **Waktu Penerbitan Token dan Bursa Pencatatan**: Waktu penerbitan spesifik dan apakah token ini akan terdaftar di bursa terpusat (CEX) masih dalam koordinasi dengan penasihat dan mitra.",
+          "",
+          "- **Detail Teknis**: Beberapa rincian implementasi teknis (seperti dukungan lintas rantai dan penyesuaian parameter strategi pembelian kembali) akan diselesaikan sebelum peluncuran mainnet dan diperbarui dalam dokumen teknis.",
+          "",
+          "- **Kepatuhan dan Perpajakan**: Persyaratan kepatuhan dan perlakuan pajak diperbarui secara terus-menerus berdasarkan pendapat profesional dari Taiwan dan daerah setempat untuk memastikan kepatuhan terhadap peraturan lokal.",
+          "",
+          "- **Pembaruan White Paper**: White paper ini mungkin memiliki penyesuaian kecil, tetapi prinsip inti (alokasi 90/10, mekanisme pemotongan 6 fase, penguncian dan pelepasan linier) tetap tidak berubah.",
+          "",
+          "Semua rincian teknis, langkah-langkah penerapan, dan antarmuka fungsi dapat ditemukan di [Dokumen Spesifikasi Teknis](/id-ID/docs/technical)."
+        ]
+      }
+    },
+    "charts": {
+      "phase": {
+        "title": "6 Mekanisme Pembagian Halving",
+        "description": "Semakin awal Anda berpartisipasi, semakin banyak token yang akan Anda terima",
+        "xAxis": "Sirkulasi",
+        "yAxis": "Rasio Penukaran (per 1 USDT)",
+        "phase": "Fase",
+        "ratio": "Rasio",
+        "range": "Interval",
+        "units": {
+          "ratio": "Potongan",
+          "usdt": "USDT"
+        }
+      },
+      "vesting": {
+        "title": "Garis Waktu Rilis",
+        "description": "Penempatan tim akan dikunci selama 3 bulan, kemudian akan dirilis secara linier berdasarkan kategori",
+        "cliff": "Periode Kunci",
+        "linear": "Periode Rilis Linier",
+        "total": "Total Durasi",
+        "months": "Bulan",
+        "operations": "Operasi",
+        "tech": "Tim Teknis",
+        "marketing": "Humas/Pemasaran",
+        "investors": "Investor Awal"
+      },
+      "flow": {
+        "title": "Aliran Sirkulasi Token",
+        "userSend": "Pengguna Mengirim Angpao",
+        "fee": "Biaya Transaksi",
+        "operations": "Biaya Operasional",
+        "pol": "Dana Pembelian Kembali",
+        "accumulate": "Akumulasi",
+        "trigger": "Pemicu Buyback",
+        "swap": "Tukar Token",
+        "addLiquidity": "Tambahkan Likuiditas",
+        "pool": "Kolam Likuiditas"
+      },
+      "governance": {
+        "title": "Proses Tata Kelola",
+        "multisig": "Dompet Multi-tanda Tangan",
+        "proposal": "Proposal",
+        "timelock": "Eksekusi Tertunda",
+        "execute": "Eksekusi",
+        "update": "Perbarui"
+      },
+      "architecture": {
+        "title": "Arsitektur Kontrak Pintar",
+        "token": "Kontrak Token",
+        "vault": "Brankas",
+        "manager": "Manajer",
+        "protection": "Mekanisme Perlindungan"
+      },
+      "progress": {
+        "title": "Kemajuan Fase",
+        "current": "Fase Saat Ini",
+        "issued": "Diterbitkan",
+        "remaining": "Sisa"
+      }
+    }
+  },
+  "api": {
+    "actions": {
+      "items": {
+        "0": "Baca [whitepaper](/id-ID/docs/whitepaper/) untuk mempelajari tentang token $moonini dan model ekonominya.",
+        "1": "Baca [Dokumen Spesifikasi Teknis](/id-ID/docs/technical/) untuk memahami kontrak pintar dan mekanisme rilis.",
+        "2": "Kirim permintaan kolaborasi API Anda melalui saluran resmi (Telegram, Email), dan kami akan memprioritaskan memberi tahu Anda saat API sudah siap."
+      },
+      "title": "Apa yang bisa Anda lakukan sekarang?"
+    },
+    "content": {
+      "0": "Halaman ini akan segera menyediakan dokumentasi lengkap untuk API Moonpacket / $moonini, termasuk rincian teknis tentang REST API, event Webhook, autentikasi OAuth, manajemen API Key, dan banyak lagi.",
+      "2": "API saat ini berada dalam tahap desain dan validasi internal dan akan terlebih dahulu tersedia dalam beta tertutup untuk beberapa mitra terpilih untuk diuji, mengumpulkan umpan balik, dan mengoptimalkan pengalaman.",
+      "4": "Semua rincian teknis harus merujuk pada 'Dokumen Spesifikasi Teknis' dan kertas putih sebelum dokumentasi API resmi diterbitkan."
+    },
+    "description": "Pelajari cara mengintegrasikan moonpacket dan $moonini ke dalam produk Anda melalui API.",
+    "seo": {
+      "description": "Dokumentasi API lengkap, REST API, Webhook, dan panduan integrasi",
+      "title": "Dokumentasi API Moonpacket / $moonini — moonpacket"
+    },
+    "status": {
+      "planned": "(Dalam Perencanaan)"
+    },
+    "subtitle": "Dokumentasi API lengkap dan panduan integrasi (dalam perencanaan)",
+    "title": "Dokumentasi API Moonpacket / $moonini"
+  },
+  "countdown": {
+    "days": "Langit",
+    "hours": "Jam",
+    "minutes": "menit",
+    "seconds": "kedua",
+    "title": "Jarak ke rilis resmi $moonini"
+  },
+  "disclaimer": {
+    "badge": "Pemberitahuan Penting",
+    "text": "Item ini masih dalam pengembangan dan akan mengikuti jadwal yang dijelaskan di peta jalan di halaman utama. Dokumen putih mungkin masih dapat mengalami perubahan sebelum distribusi token resmi, dan kami meminta pengertian dari para pengguna. Setelah distribusi token, perubahan umumnya tidak akan dilakukan."
+  },
+  "distribution": {
+    "back_to_whitepaper": "Kembali ke Buku Putih",
+    "description": "Pahami aturan distribusi internal dan metode akuntansi dari $moonini",
+    "intro": {
+      "0": "**Dokumen ini ditujukan untuk insinyur dan pengembang backend**, yang menjelaskan aturan spesifik tentang 'cara menerbitkan, bagaimana pengguna dapat menebus dan melihat' dalam produk moonpacket.",
+      "2": "**Prinsip Desain**:",
+      "3": "- **Perubahan Minimal**: Prioritaskan untuk menggunakan struktur data yang ada, tanpa segera menambahkan tabel DB yang kompleks.",
+      "4": "- **Dapat Diperluas**: Di masa depan, jika $moonini ingin sepenuhnya on-chain, kita hanya perlu menambahkan logika penarikan/pemetaan.",
+      "5": "- **Transparan dan Terlacak**: Semua distribusi dan konsumsi $moonini dicatat dalam `user_activity_logs`",
+      "7": "**Konten Utama**:",
+      "8": "- Model data dan metode akuntansi (buku besar internal)",
+      "9": "- sumber dan aturan distribusi $moonini",
+      "10": "- Rincian pelaksanaan pembukuan",
+      "12": "*Dokumen ini berisi rincian teknis, pengguna umum dapat merujuk ke [whitepaper](/id-ID/docs/whitepaper/) untuk mendapatkan gambaran proyek.*",
+      "14": "Untuk dokumentasi lengkap, silakan merujuk ke: `docs/technical/moonini-distribution.md`"
+    },
+    "seo": {
+      "description": "Lengkapi petunjuk distribusi dan sistem akuntansi $moonini",
+      "title": "$moonini mekanisme distribusi — moonpacket"
+    },
+    "title": "Desain Distribusi dan Koleksi $moonini"
+  },
+  "index": {
+    "description": "Lengkapi dokumentasi proyek, whitepaper, dan spesifikasi teknis",
+    "sections": {
+      "general": "Dokumen Umum",
+      "technical": "Dokumentasi Teknis"
+    },
+    "title": "Pusat Dokumen moonpacket"
+  },
+  "missions": {
+    "back_to_whitepaper": "Kembali ke White Paper",
+    "description": "Pelajari cara mendapatkan $moonini melalui tugas dan pencapaian.",
+    "intro": {
+      "0": "**Dokumen ini ditujukan untuk para insinyur dan pengembang produk**, mendefinisikan sistem misi dan mekanisme pencapaian dari $moonini, menggabungkan rasa pencapaian dan tugas sosial di atas dua tindakan inti \"angpao + Undang Teman.\"",
+      "2": "**Prinsip Desain**:",
+      "3": "- Semua tugas \"tambahan $moonini\" pada dasarnya berputar di sekitar: **mengirim angpao, mengundang teman, mengikuti komunitas resmi**",
+      "4": "- 'One-time Task' akan hilang secara permanen setelah selesai.",
+      "5": "- Sistem tugas hanya menyediakan \"poin bonus\" dan tidak mengubah aturan distribusi dasar.",
+      "7": "**Kategori Tugas**:",
+      "8": "- **Tugas Pencapaian** (sekali): Tonggak untuk mengirim angpao, tonggak untuk mengundang teman, dll.",
+      "9": "- **Tugas Sosial** (sekali waktu): Ikuti media sosial resmi, bergabung dengan komunitas resmi, dll.",
+      "10": "- **Tugas Harian/Mingguan** (Dipesan): Tugas berkala yang dapat diskalakan di masa depan",
+      "12": "*Dokumen ini berisi rincian teknis; pengguna umum dapat merujuk pada [whitepaper](/id-ID/docs/whitepaper/) untuk gambaran umum proyek.*",
+      "14": "Untuk dokumentasi yang lebih rinci, silakan merujuk ke: `docs/technical/moonini-missions.md`"
+    },
+    "seo": {
+      "description": "Lengkapi deskripsi sistem misi dan mekanisme pencapaian",
+      "title": "Sistem Tugas $moonini — moonpacket"
+    },
+    "title": "$moonini tugas dan desain pencapaian"
+  },
+  "nav": {
+    "api": "Dokumentasi API",
+    "distribution": "Mekanisme Distribusi",
+    "docs": "Dokumen",
+    "missions": "Sistem Tugas",
+    "technical": "Spesifikasi Teknis",
+    "whitepaper": "Kertas Putih"
+  },
+  "technical": {
+    "back_to_whitepaper": "Kembali ke Dokumen Putih",
+    "description": "Insinyur mengembangkan spesifikasi, termasuk antarmuka kontrak pintar, logika Phase, dan mekanisme POL.",
+    "intro": {
+      "0": "**Dokumen ini ditujukan untuk insinyur, pengembang kontrak pintar, dan auditor**, yang berisi rincian implementasi teknis yang lengkap.",
+      "2": "**Rantai Target**: Binance Smart Chain (BSC)",
+      "3": "**Versi**: v1.0 (2024-11)",
+      "5": "**Konten Utama**：",
+      "6": "- Arsitektur kontrak pintar dan definisi antarmuka",
+      "7": "- Logika manajemen fase (mekanisme pengurangan 6 tahap)",
+      "8": "- Implementasi mekanisme POL (Repurchase dan Pembuatan Pasar)",
+      "9": "- Mekanisme Pelepasan Vesting",
+      "10": "- Desain Tata Kelola dan Keamanan",
+      "11": "- Contoh kode dan grafik teknis",
+      "13": "*Dokumen ini berisi detail teknis. Pengguna umum dapat merujuk ke [white paper](/id-ID/docs/whitepaper/) untuk gambaran umum proyek ini.*",
+      "15": "Untuk dokumentasi teknis yang lebih rinci, silakan merujuk ke: `docs/technical/moonini-bsc-technical-spec.md`"
+    },
+    "seo": {
+      "description": "Selesaikan spesifikasi teknis kontrak pintar BSC dan panduan pengembangan",
+      "title": "Spesifikasi Teknik $moonini — moonpacket"
+    },
+    "title": "$moonini Spesifikasi Teknis BSC"
+  },
+  "title": "Dokumen",
+  "toc": {
+    "back_to_index": "Kembali ke Pusat Dokumen",
+    "title": "Katalog"
+  }
+}

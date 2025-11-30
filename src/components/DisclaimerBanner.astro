@@ -1,0 +1,46 @@
+---
+import { brandify } from '@/lib/brandify';
+import { htmlWithLineBreaks } from '@/utils/text';
+
+interface Props {
+  messages: any;
+}
+
+const { messages } = Astro.props as Props;
+const disclaimer = messages.docs?.disclaimer || {};
+
+// 品牌化处理
+const toHTML = (s?: string) => htmlWithLineBreaks(brandify(s ?? ""));
+const disclaimerText = toHTML(disclaimer.text);
+---
+
+<div class="disclaimer-banner mb-4 max-w-screen-lg w-full rounded-lg border border-yellow-300/50 bg-yellow-50 dark:bg-yellow-900/20 px-4 py-3 text-[13px] leading-relaxed text-textSubtle flex flex-row flex-wrap items-start">
+  <span class="inline-flex items-center justify-center rounded-full bg-yellow-500 px-2 py-0.5 text-[10px] font-semibold leading-none text-black mr-2">
+    {disclaimer.badge || '重要提示'}
+  </span>
+  <p class="flex-1" set:html={disclaimerText}></p>
+</div>
+
+<style>
+  .disclaimer-banner {
+    /* 使用 CSS 变量以支持日夜间模式 */
+    background-color: #FEF9C3; /* yellow-50 */
+    border-color: rgba(252, 211, 77, 0.5); /* yellow-300/50 */
+  }
+
+  :global([data-theme="dark"]) .disclaimer-banner {
+    background-color: rgba(113, 63, 18, 0.2); /* yellow-900/20 */
+    border-color: rgba(252, 211, 77, 0.3);
+  }
+
+  /* RTL 支持 */
+  [dir="rtl"] .disclaimer-banner {
+    flex-direction: row-reverse;
+  }
+
+  [dir="rtl"] .disclaimer-banner .badge {
+    margin-right: 0;
+    margin-left: 0.5rem;
+  }
+</style>
+

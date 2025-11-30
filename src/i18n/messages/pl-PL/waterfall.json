@@ -1,0 +1,27 @@
+{
+  "sent_from": "Wyślij do grupy:",
+  "claimed": "Zgłoś",
+  "total": "Łączna kwota",
+  "progress": "Już odebrane",
+  "groups_directory": {
+    "latest_tab": "Najnowsze grupy Red Packet",
+    "hot_tab": "Popularne grupy Red Packet",
+    "search_placeholder": "Szukaj słów kluczowych w dołączonych grupach"
+  },
+  "marquee": {
+    "templates": {
+      "send": "💰 {user} wydał {amount} {ccy} Red Packet w '{group}'!",
+      "claim": "🎯 {user} otrzymał {amount} {ccy}, Najszczęśliwszy Gracz!",
+      "topup": "🔥 Właściciel grupy {user} wpłacił {amount} {ccy}",
+      "system": "📢 {message}",
+      "achievement": "🥇 Najszczęśliwszy gracz dzisiaj: @{user} (zgromadził {amount} {ccy})"
+    },
+    "fallback": [
+      "💰 John wydał 100 USDT w red packecie w 'Game Guild A'!",
+      "🎯 Lisa odebrała 3.5 USDT, najwięcej szczęściarzy!",
+      "🔥 Właściciel grupy Ken wpłacił 2000 USDT",
+      "📢 Aktualizacja systemu zakończona, dodano wsparcie dla SOL!",
+      "🥇 Dzisiejszy najszczęśliwszy: @Mina (skumulowane 28.3 USDT)"
+    ]
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "illustration_alt": "moonini obejmuje ilustrację",
+  "title": "🌕 Historia moonini",
+  "origin": [
+    "Pewnego dnia, czerwony meteoryt spadł na dalńej stronie księżyca,",
+    "Księżycowe światło wybuchło przy uderzeniu, przekształcając się w srebrno-białą kąpiel światła.",
+    "Z tego migoczącego czerwonego 'meteorytu red packet',",
+    "Narodził się świecący mały królik księżycowy — moonini.",
+    "",
+    "moonini nosi złoto-żółtą odznakę księżyca na swojej piersi.",
+    "Czuje każdą szczerą energię z przesłanego red packet z Ziemi.",
+    "Bez względu na kwotę, to najczystsza ciepła energia.",
+    "Tak, moonini rośnie dzięki energii z red packet od każdego.",
+    "",
+    "Te energie przekształciły się w poświadczenia red packet narodzone na łańcuchu Solana —",
+    "To jest początek tokena $moonini."
+  ],
+  "secrets_title": "🌸 Jego sekret",
+  "secrets_intro": "Za każdym razem, gdy wyślesz red packet, moonini zarejestruje wpis energii na księżycu:",
+  "secrets_flow": "Wyślij red packet → Wytwórz odpowiadającą wartość energii (przeliczoną na wartość USDT) → Zgromadź do 10 → Osiągnij minimalną wartość do odkupu $moonini.",
+  "secrets_halving": [
+    "W fazie początkowej (Faza 1), moonini w ogólnym zakresie zwróci w najlepszym stosunku 1:1 do nadawcy red packet. Aby zachować sprawiedliwość i zredukować ryzyko prania/ping-ponga, wprowadzimy pojęcie skutecznej energii.",
+    "Gdy całkowita wysłana i wycofana kwota z społeczności osiągnie ustalony przez system próg halvingu, nastąpi pierwszy halving; potem osiągnięcie połowy kwoty z poprzedniego etapu wywoła kolejny halving."
+  ],
+  "schedule_title": "Zasady wydania tokenów",
+  "schedule_headers": [
+    "Etap",
+    "Limit wydania",
+    "Współczynnik wydania (energia produkowana na 1 USDT zgromadzonego)",
+    "Opis"
+  ],
+  "schedule_rows": [
+    [
+      "Faza 1",
+      "0 ~ 4.5 billion",
+      "1.0 $moonpacket / USDT",
+      "Initial period, energy overflow."
+    ],
+    [
+      "Faza 2",
+      "4.5B ~ 6.75B",
+      "0.5 $moonpacket / USDT",
+      "First halving."
+    ],
+    [
+      "Faza 3",
+      "6.75B ~ 7.875B",
+      "0.25 $moonpacket / USDT",
+      "Stabilization period."
+    ],
+    [
+      "Faza 4",
+      "7.875B ~ 8.4375B",
+      "0.125 $moonpacket / USDT",
+      "Scarcity period."
+    ],
+    [
+      "Faza 5",
+      "8.4375B ~ 8.71875B",
+      "0.0625 $moonpacket / USDT",
+      "Late mining phase."
+    ],
+    [
+      "Faza 6",
+      "8.71875B ~ 9B",
+      "0.03125 $moonpacket / USDT",
+      "Crystallization period (final phase)."
+    ]
+  ],
+  "cap_note": [
+    "Gdy całkowita cyrkulacja osiągnie 9 miliardów, moonini przestanie wydawać więcej.",
+    "Pozostały 1 miliard (10% całkowitej podaży),",
+    "Zarezerwowane przez oficjalnego na przyszłe nagrody dla społeczności i użycie energii współpracy."
+  ],
+  "belief_title": "🌕 Energia księżyca i wiara w red packet",
+  "belief_paragraphs": [
+    "moonini kocha każdego, kto chce 'dzielić się'.",
+    "Wierzy, że red packets to nie tylko pieniądze, ale wymiana błogosławieństw i energii.",
+    "Za każdym razem, gdy wysyłasz red packet, wykonujesz zadanie lub dołączasz do społeczności moonpacket,",
+    "masz szansę otrzymać zwrot z księżyca — losowo przydzielony $moonini.",
+    "",
+    "To jest światło, które wszechświat oddaje Ci po szerzeniu radości."
+  ],
+  "future_title": "💫 Przyszłe aplikacje",
+  "future_intro": "Obecnie $moonini nie jest otwarte na żadne oficjalne scenariusze aplikacji, ale jest zaprojektowane jako nagroda i poświadczenie energii dla przyszłego świata red packet, możliwe do użycia na:",
+  "future_list": [
+    "✅ Zniżki na opłaty transakcyjne red packet",
+    "🎁 Vouchery/zniżki na odkup u sprzedawców",
+    "🌐 Airdropy wydarzeń i nagrody za zadania społecznościowe"
+  ],
+  "disclaimer_title": "⚠️ Deklaracja",
+  "disclaimer_paragraphs": [
+    "Oficjalny nie gwarantuje żadnej wartości wymiany fiat dla $moonini.",
+    "Możesz to traktować jako punkty bonusowe hojne osoby.",
+    "Symbolizując każdego, kto chce dzielić się radością i szerzyć energię."
+  ],
+  "closing": [
+    "moonini — królik księżycowy narodzony z energii red packet.",
+    "Każde błogosławieństwo to promień światła dla jego wzrostu."
+  ]
+}

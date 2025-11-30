@@ -1,0 +1,27 @@
+{
+  "sent_from": "إرسال إلى المجموعة:",
+  "claimed": "استلام",
+  "total": "الإجمالي",
+  "progress": "تم المطالبة به بالفعل",
+  "groups_directory": {
+    "latest_tab": "أحدث مجموعات Red Packet",
+    "hot_tab": "أشهر مجموعات Red Packet",
+    "search_placeholder": "ابحث عن كلمات مفتاحية في المجموعات المنضمة"
+  },
+  "marquee": {
+    "templates": {
+      "send": "💰 {user} أطلق {amount} {ccy} Red Packet في '{group}'!",
+      "claim": "🎯 {user} استلم {amount} {ccy}، اللاعب الأكثر حظًا!",
+      "topup": "🔥 مالك المجموعة {user} أودع {amount} {ccy}",
+      "system": "📢 {message}",
+      "achievement": "🥇 اللاعب الأكثر حظًا اليوم: @{user} (مجموع {amount} {ccy})"
+    },
+    "fallback": [
+      "💰 أطلق جون 100 USDT Red Packet في 'غيم غيلد A'!",
+      "🎯 ليزا استلمت 3.5 USDT، اللاعب الأكثر حظًا!",
+      "🔥 مالك المجموعة كين أودع 2000 USDT",
+      "📢 تم اكتمال ترقية النظام، تمت إضافة دعم SOL!",
+      "🥇 اللاعب الأكثر حظًا اليوم: @مينا (مجموع 28.3 USDT)"
+    ]
+  }
+}

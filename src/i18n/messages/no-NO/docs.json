@@ -1,0 +1,1514 @@
+{
+  "litepaper": {
+    "title": "$moonini Litepaper",
+    "description": "Forstå designfilosofien, den økonomiske modellen og de kjerneverdiene til $moonini-tokenet.",
+    "seo": {
+      "title": "$moonini Litepaper — moonpacket",
+      "description": "$moonini er et samfunnsinsentiv-token basert på moonpacket-plattformen. Lær hvordan du får tak i, bruker og investerer i verdien."
+    },
+    "hero": {
+      "subtitle": "$moonini er et insentiv-token for samfunnet basert på moonpacket-plattformen. Jo mer brukere engasjerer seg med moonpacket, deltar i oppgaver og interagerer, jo mer $moonini kan de tjene. For investorer distribueres 90 % til brukerne, og 10 % går til teamet, med en halveringsmekanisme og lineær utgivelse som effektivt reduserer dump-risikoer, designet for langsiktig stabilitet.",
+      "cards": {
+        "user": {
+          "title": "For Generelle Brukere",
+          "description": "Tjen $moonini enkelt ved å sende Red Packets, fullføre oppgaver, invitere venner, osv. Jo mer du bruker det, desto mer tjener du, helt gratis."
+        },
+        "investor": {
+          "title": "For investors",
+          "description": "Totalforsyning på 10 milliarder, 90/10 fordeling, 6 faser med reduksjon, og teamfordeling med lineær utgivelse, designet for å være gunstig for langsiktig stabilitet og redusere risikoen for dumping."
+        },
+        "developer": {
+          "title": "For utviklere/partnere",
+          "description": "Standardiserte kontrakter, åpne API-er, kan integreres i andre applikasjoner eller spill. Gjennom API-integrasjon kan du koble produktene dine til moonpacket-økosystemet."
+        }
+      },
+      "live_status": "Protokoll V1 er nå live",
+      "cta_start": "Start å lese",
+      "cta_hub": "Utvikler Senter"
+    },
+    "sections": {
+      "overview": "Oversikt",
+      "problem": "Problemer og løsninger",
+      "concept": "Kjernebegreper om moonpacket og $moonini",
+      "tokenomics": "Tokenomics Oversikt",
+      "emission": "Halvering og Utgivelse",
+      "utility": {
+        "subtitle": "Hvordan tjene og bruke"
+      },
+      "developer": "Utviklere og API-integrasjon",
+      "governance": "Styring og Sikkerhet",
+      "roadmap": "Veikart",
+      "risks": "Risiko og ansvarsfraskrivelser",
+      "faq": "FAQ",
+      "cta": {
+        "title": "Er du klar til å bli med på denne Red Packet sosiale opplevelsen?",
+        "earning": "Begynn å tjene Red Packets nå",
+        "devs": "Les utviklerdokumentasjon"
+      },
+      "registry": {
+        "title": "On-chain kontraktsregister",
+        "network": "Mainnet: BSC (BNB Kjede)",
+        "audit": "Revisjonsstatus: **Planlagt**"
+      },
+      "defense": {
+        "floor": {
+          "title": "🛡️ Intelligent floor price defense",
+          "mechanism": "Når markedsprisen nærmer seg gulvprisen, vil protokollen automatisk aktivere forsvarsmekanismer, ved å bruke akkumulert POL (Protokoll Eiet Likviditet) for støtte. Dette er ikke en rigid utbetaling; det bruker spillteori for å gjøre kostnadene ved å selge kort uendelig høye.",
+          "anti_gaming": "Merk: For å forhindre arbitrasjeangrep justeres spesifikke utløserterskler og forsvarsstyrker dynamisk, og de nøyaktige verdiene vil ikke bli offentliggjort."
+        },
+        "anti_bot": {
+          "title": "🚫 Avvis markedsføringsledelse",
+          "items": [
+            "Alle transaksjoner er ekte brukerhandlinger",
+            "Ingen market maker-boter",
+            "Avvis falsk volummanipulasjon og pump og dump"
+          ]
+        }
+      },
+      "lockup": {
+        "title": "Strategisk låsing",
+        "desc": "I et marked preget av 'muselager' og 'skjulte brikker' har vi valgt den vanskeligste, men mest ærlige veien. Vi forstår dypt at det kun er ved å fullstendig eliminere brukernes frykt for 'team dumps' at vi kan bygge ekte tillit.",
+        "benefit": "Dette handler ikke bare om låse-regler; det er vår 'anti-harvest erklæring'. Gjennom denne noe strenge selvbegrensningen sørger vi for at ingen - hverken grundere eller store innehavere - kan forråde fellesskapet i de tidlige fasene.",
+        "items": [
+          "Helt transparent, ingen skjulesteder: Vi har ingen skjulte lommebøker eller ukjent tidlig sirkulerende forsyning. Alle distribusjoner av chips er offentlig tilgjengelige på blokkjeden, underlagt fellesskapets tilsyn.",
+          "Teamforpliktelse, langsiktig støtte: Kjernegruppens utgivelsesperiode varer opptil 48 måneder (4 år). I kryptoverdenen er 4 år en lang syklus. Dette beviser at vi ikke er her for å tjene raske penger, men er fast bestemt på å oppleve tyreføtter og bjørnmarkeder sammen med samfunnet og bygge langsiktig verdi.",
+          "Investor Konsensus: Våre tidlige investorer identifiserer seg sterkt med kulturen for 'deling og gavegiving' som omfatter Red Packets, og signerer frivillig en 36-måneders lineær utgivelsesavtale. Dette betyr at i de tidlige stadiene av prosjektet har ingen part (inkludert investorer) nok chips til å påvirke markedet."
+        ]
+      }
+    },
+    "back_to_top": "↥ Tilbake til toppen",
+    "content": {
+      "overview": {
+        "paragraphs": [
+          "moonpacket er et kryptovaluta Red Packet og markedsføringsverktøy som er spesielt utviklet for Telegram-fellesskap. Enten det er for fellesskapsdrift, arrangementspromotering eller invitasjon av nye brukere, kan moonpacket hjelpe deg med å oppnå dette enkelt.",
+          "For å oppmuntre brukerne til å fortsette å bruke plattformen og etablere langvarige relasjoner, har vi lansert $moonini fellesskapsinsentiv-token. Hver aktiv handling på plattformen, inkludert å sende Red Packet, fullføre oppgaver og invitere venner, kan tjene tilhørende $moonini belønninger.",
+          "For vanlige brukere er $moonini en ekstra belønning for å bruke moonpacket; jo mer du bruker, jo mer tjener du. For investorer reduserer designet av tokenøkonomien til $moonini (90 % til brukerne, 10 % til teamet, 6-fas halvering, utløp av sperring) effektivt kortsiktige dump-risikoer og bidrar til langsiktig verdistabilitet."
+        ],
+        "highlights": {
+          "title": "Kjerne høydepunkter",
+          "items": [
+            "✅ **Rettferdig distribusjon**: 90 % av tokenene distribueres gjennom brukeraktiviteter, mens 10 % går til teamet og tidlige investorer.",
+            "✅ **Tidlig fordel**: 6-trinns halveringsmekanisme, jo tidligere du deltar, jo mer får du.",
+            "✅ **Redusere risiko**: Teamallokering er låst i 3 måneder, deretter slippes den lineært over 33-45 måneder.",
+            "✅ **Transparent og verifiserbar**: Alle regler for distribusjon og utgivelse av token er offentlig gjennomsiktige og kan verifiseres på kjeden."
+          ]
+        }
+      },
+      "problem": {
+        "title": "Utfordringer og Løsninger",
+        "problems": {
+          "title": "Smertepunkter i eksisterende Web3 / Telegram markedsføring",
+          "items": [
+            "**Vanskelig å spore effektivitet**: Tradisjonelle red packet-mekanismer er vanskelige å spore for faktiske effekter; det er uklart hvem som krevde, hvem som delte, eller om det brakte inn nye brukere.",
+            "**Kortsiktig profitt-taking**: Mange prosjekter fokuserer kun på kortsiktig trafikk, utdeler Red Packets og forlater uten langsiktige insentivsordninger.",
+            "**Manglende langsiktige insentiver**: Brukere forlater plattformen etter å ha hentet red packets, og klarer ikke å etablere langvarige relasjoner og kontinuerlig deltakelse."
+          ]
+        },
+        "solutions": {
+          "title": "Løsningen av moonpacket + $moonini",
+          "items": [
+            "**Fullfør atferdssporing**: moonpacket registrerer mottak av hver Red Packet, deling av atferd og introduksjon av nye brukere, noe som lar deg klart forstå markedsføringens effektivitet.",
+            "**Langsiktige insentivmekanismer**: Gjennom $moonini-tokenet, jo mer brukere deltar, jo mer tjener de, noe som etablerer langvarig deltakermotivasjon.",
+            "**Rettferdig verdifordeling**: 90% av tokens går til brukerne, som sikrer fellesskapets prioritet, mens mekanismer som halvering og låsing reduserer risikoen for dump."
+          ]
+        }
+      },
+      "concept": {
+        "title": "Kjernekonsepter for moonpacket og $moonini",
+        "moonpacket": {
+          "title": "Rollen til moonpacket",
+          "description": "moonpacket er en Telegram Red Packet, oppgave- og markedsføringsverktøy. Enten du er en samfunnsoperatør, arrangementsarrangør eller et prosjekt som ønsker å tiltrekke nye brukere, kan du bruke moonpacket til å:",
+          "features": [
+            "Send kryptovaluta Red Packets (støtter flere tokens som USDT, TON, SOL, ETH, osv.)",
+            "Opprett oppgavehendelser (inviter venner, følg samfunn, del innhold, osv.)",
+            "Spor effektd data (innløsningsrater, delingsrater, konverteringer av nye brukere, osv.)",
+            "Send Red Packets på tvers av grupper, og utvid rekkevidden"
+          ]
+        },
+        "moonini": {
+          "title": "Rollen til $moonini",
+          "description": "$moonini er et belønningspunkts-token som anerkjenner bruker- og samfunnsadferd. Hver aktiv handling du gjør på moonpacket gir deg tilsvarende $moonini:",
+          "rewards": [
+            "Send Red Packet: Tjen tilsvarende $moonini basert på beløpet av Red Packet og den nåværende fasen",
+            "Fullfør oppgaver: Å oppnå prestasjoner, sosiale oppgaver, osv., gir ekstra $moonini",
+            "Inviter venner: Velgitt inviter nye brukere og fullfør delingsoppgaver, begge parter kan tjene $moonini",
+            "Aktiv deltakelse: Å fullføre spesifikke handlinger i samarbeidsspill eller applikasjoner kan også tjene $moonini"
+          ]
+        },
+        "logic": {
+          "title": "Jo mer du bruker det, jo mer tjener du",
+          "description": "Logikken er enkel: jo mer aktiv du er på moonpacket, jo mer $moonini tjener du. Tidlige deltakere kan nyte en høyere belønningsratio (Fase 1, tjen 1 $moonini for hver 1 USDT Red Packet sendt). Jo tidligere du deltar, desto større fordel har du."
+        }
+      },
+      "tokenomics": {
+        "title": "Oversikt over Tokenomics",
+        "total": {
+          "title": "Total Token Supply",
+          "description": "Den totale utstedelsen av $moonini er **10 000 000 000 tokens (10B)**, med en fast totalforsyning og ingen ytterligere utstedelse."
+        },
+        "allocation": {
+          "title": "Allokeringsplan",
+          "table": {
+            "headers": [
+              "Kategori",
+              "Antall",
+              "Prosentandel",
+              "Beskrivelse"
+            ],
+            "rows": [
+              [
+                "Offentlig Utgivelse",
+                "9.000.000.000 stykker",
+                "90%",
+                "Gradvis utgivelse gjennom brukeraktiviteter (6-fase halvering)"
+              ],
+              [
+                "Teamfordeling",
+                "1.000.000.000 stykker",
+                "10%",
+                "Låst i 3 måneder, lineær utgivelse over 33-45 måneder"
+              ],
+              [
+                "├─ Drift",
+                "200.000.000 stykker",
+                "2%",
+                "Låst i 3 måneder, utgitt over 45 måneder"
+              ],
+              [
+                "├─ Teknisk Team",
+                "200.000.000 stykker",
+                "2%",
+                "Låst i 3 måneder, utgitt over 45 måneder"
+              ],
+              [
+                "├─ PR/Markedsføring",
+                "200.000.000 stykker",
+                "2%",
+                "Låst i 3 måneder, utgitt over 45 måneder"
+              ],
+              [
+                "└─ Tidlige Investorer",
+                "400.000.000 stykker",
+                "4%",
+                "Låst i 3 måneder, utgitt over 33 måneder"
+              ]
+            ]
+          }
+        },
+        "philosophy": {
+          "title": "Hvorfor er dette designet?",
+          "items": [
+            "**Brukerprioritering**: 90 % av tokens er tildelt brukere for å sikre at fellesskapet virkelig drar nytte av dem, i stedet for å bli monopolistert av noen få individer.",
+            "**Team Incentives**: 10 % for teamet og tidlige investorer for å sikre at prosjektet har tilstrekkelige ressurser for kontinuerlig utvikling, med en moderat andel for å unngå overdreven konsentrasjon.",
+            "**Ingen forhåndsreserverte forhåndssalg/VC**: Vi reserverer ikke kvoter for institusjonelle investorer, og alle tokener distribueres til brukere gjennom en rettferdig mekanisme.",
+            "**Risiko Reduksjon**: Teamallokering er underlagt låsing og lineære utgivelsesmekanismer, noe som effektivt reduserer risikoen for kortsiktig dumping og beskytter investorenes interesser."
+          ]
+        }
+      },
+      "emission": {
+        "title": "Halvering og utgivelsesmekanisme",
+        "halving": {
+          "title": "6-fase halveringsmekanisme",
+          "description": "For å oppmuntre tidlige deltakere, bruker tokenfordelingen en 'progressiv halvering' mekanisme. Jo tidligere du blir med, jo flere tokens kan du tjene:",
+          "table": {
+            "headers": [
+              "Fase",
+              "Utsendt beløpsområde",
+              "Tjen per 1 USDT",
+              "Beskrivelse"
+            ],
+            "rows": [
+              [
+                "Fase 1",
+                "0 ~ 4.5B",
+                "1.0 stykk",
+                "Tidlige deltakere, 1:1 utveksling"
+              ],
+              [
+                "Fase 2",
+                "4.5B ~ 6.75B",
+                "0.5 stykk",
+                "Halvering"
+              ],
+              [
+                "Fase 3",
+                "6.75B ~ 7.875B",
+                "0.25 stykk",
+                "Halvert igjen"
+              ],
+              [
+                "Fase 4",
+                "7.875B ~ 8.4375B",
+                "0.125 stykker",
+                "Fortsett halvering"
+              ],
+              [
+                "Fase 5",
+                "8.4375B ~ 8.71875B",
+                "0.0625 stykker",
+                "Nærmer seg slutten"
+              ],
+              [
+                "Fase 6",
+                "8.71875B ~ 9B",
+                "0.03125 stykker",
+                "Siste fase"
+              ]
+            ]
+          },
+          "example": "For eksempel: I fase 1, hvis du sender en 100 USDT Red Packet, kan du tjene 100 $moonini; i fase 2, sending av den samme 100 USDT Red Packet vil bare gi deg 50 $moonini. Jo tidligere du deltar, jo større blir din fordel!"
+        },
+        "vesting": {
+          "title": "Team Kvot Sperring og Utløsing",
+          "description": "I et marked fylt med 'muselager' og 'skjulte brikker', valgte vi den vanskeligste, men ærlige veien. Vi forstår dypt at vi kun ved å fullstendig eliminere brukernes frykt for 'team salg' kan etablere sann tillit.",
+          "items": [
+            "**Total Transparens, Ingen Skjuling**: Vi har ingen skjulte lommebøker eller uoppgitte tidlige sirkulerende forsyninger. Alle token-distribusjoner er offentlig tilgjengelige på blokkjeden, underlagt samfunnets tilsyn.",
+            "**Team Selvdisiplin, Langsiktig Forpliktelse**: Utgivelsestiden for kjerne-teamet varer i **48 måneder (4 år)**. I kryptovaluta-verdenen er fire år en lang syklus. Dette beviser at vi ikke er her for å tjene raske penger, men er forpliktet til å oppleve opp- og nedturer sammen med fellesskapet for å bygge langsiktig verdi.",
+            "**Investor Consensus**: Våre tidlige investorer identifiserer seg sterkt med 'deling og gave' kulturen til Red Packet og signerte frivillig en **36-måneders** lineær utgivelsesavtale. Dette betyr at ingen parter (inkludert investorer) i de tidlige fasene av prosjektet har nok tokens til å påvirke markedet."
+          ],
+          "benefit": "Dette er ikke bare en regel for innlåsing, men vår **'Anti-Harvest Declaration'**. Gjennom denne nesten strenge selvbegrensningen sikrer vi at ingen - verken grunnleggere eller store innehavere - kan svikte fellesskapet i de tidlige stadiene. Vi står sammen med alle Red Packet sendere for å opprettholde renheten av denne sosiale verdien."
+        },
+        "why": {
+          "title": "Hvorfor gjøre dette?",
+          "items": [
+            "**Redusere kortsiktige dumping**: Lockup- og lineære utgivelsesmekanismer forhindrer teamet og investorer fra å selge store mengder tidlig i prosjektet.",
+            "**Forleng prosjektets levetid**: Gradvis utgivelse sikrer at prosjektet har nok tid til å utvikle seg og etablere verdi.",
+            "**Beskytte investorer**: Halveringsmekanismer og låsedesign gir mer beskyttelse for tidlige inneholdere."
+          ]
+        }
+      },
+      "utility": {
+        "title": "Brukervervining og bruksområder",
+        "how_to_earn": {
+          "title": "Hvordan tjene $moonini?",
+          "methods": [
+            "**Send Red Packet**: For hver **tilsvarende 1 USDT** sendt som en Red Packet (støtter flere valutaer), mottar deltakerne tilsvarende $moonini basert på den nåværende fasen.",
+            "**Fullfør Oppgaver**: Inkluderer engangs prestasjonsoppgaver og sosiale oppgaver. For å sikre rettferdighet, kan hver konto fullføre hver oppgave kun én gang eller settes med et totalt tak for å unngå ondsinnet myntdyrking.",
+            "**Inviter Venner**: Inviter nye venner og fullfør delingsoppgaver, begge parter mottar belønninger. **Hver konto har en grense for invitasjonsbelønninger**, og spesifikke regler er underlagt kunngjøringer fra fellesskapet.",
+            "**Samarbeidende applikasjoner**: Fullføring av spesifikke handlinger i spill eller applikasjoner integrert med Moonpacket API kan også gi $moonini."
+          ]
+        },
+        "how_to_use": {
+          "title": "Bruk av $moonini",
+          "items": [
+            "**Gebyrrabatter**: I fremtiden kan $moonini brukes til å dekke deler av gebyrene for Red Packet-transaksjoner.",
+            "**Lås opp funksjoner**: Noen premiumfunksjoner kan kreve at du holder en viss mengde $moonini for å bruke.",
+            "**Styringsstemmerettigheter**: Å holde $moonini gir mulighet for deltakelse i fremtidige styringsstemmer, som påvirker prosjektets utviklingsretning.",
+            "**Økosysteminnløsning**: Kan innløses for spesielle fordeler eller belønninger i partnerapplikasjoner eller spill."
+          ]
+        }
+      },
+      "developer": {
+        "title": "Utviklerøkosystem",
+        "description": [
+          "moonpacket er mer enn bare et Red Packet-verktøy; det er et åpent **Social Liquidity Layer**.",
+          "Gjennom standardiserte API-er og SDK-er kan enhver Telegram Bot, GameFi, eller Web3-applikasjon få tilgang til $moonini insentivlaget. Du fokuserer på produktutvikling, og vi hjelper deg med vekst og beholdning."
+        ],
+        "architecture": {
+          "title": "Programmerbare insentiver",
+          "description": "Et hendelsesdrevet belønningsdistribusjonssystem som støtter Webhook-tilbakekall og on-chain verifisering."
+        },
+        "cta": {
+          "text": "Lær mer om integrasjonsløsninger",
+          "link_text": "Les utvikler-API-dokumentasjonen"
+        }
+      },
+      "contracts": {
+        "title": "Kontraktadresse",
+        "description": "For å sikre åpenhet vil alle kjerners smartkontraktadresser bli offentliggjort og verifisert.",
+        "items": {
+          "token": "$moonini Token (Token-kontrakt)",
+          "emission": "Utslippshvelv (90% Offentlig Utstedelses Hvelv)",
+          "reserve": "Reserver Valuta (10% Team Kvote Valuta)",
+          "phase": "Fasebehandler (Halveringskontroller)",
+          "vesting": "Vesting Vault (Lineær Utgivelseskontroller)",
+          "pol": "POL Manager (Tilbakekjøp og Prisgulvforsvar)",
+          "protection": "Lanseringsbeskyttelse (Åpen fase Anti-Sniping)",
+          "timelock": "Timelock Controller (48 timers forsinkelse)"
+        },
+        "status": "(Vil bli oppdatert etter hovednettlansering)"
+      },
+      "governance": {
+        "title": "Styring og sikkerhet",
+        "principles": {
+          "title": "Styringsprinsipper",
+          "description": "Vårt kjerneprinsipp er: **det finnes ingen enkelt høyeste autoritet**, alle viktige operasjoner krever flere bekreftelser og tidsforsinket publisering for å sikre åpenhet og sikkerhet."
+        },
+        "market_making": {
+          "title": "Reell markedsdeklarasjon",
+          "description": [
+            "**Avvis falske transaksjoner**: Vi forplikter oss til ikke å bruke wash trading eller opprette falsk dybde. Hver transaksjon på K-linjen kommer fra ekte brukere.",
+            "**Desentralisert markedsmaking**: Likviditet bestemmes helt av markedets tilbud og etterspørsel, samt protokollens automatiserte tilbakekjøpsmekanisme, snarere enn menneskelig manipulasjon."
+          ]
+        },
+        "floor_defense": {
+          "title": "Smart gulvprisforsvar",
+          "mechanism": "**Mekanisme**: Når myntprisen når bunnområdet, vil de akkumulerte protokollgebyrene automatisk kjøpe tilbake og ødelegge/injiserer likviditet.",
+          "anti_gaming": "**Anti-snipe-strategi**: For å unngå at roboter forutsier arbitrage, inneholder spesifikke 'inngangstidspunkter' og 'enkeltbeløp for transaksjoner' tilfeldige variabler og vil ikke bli helt offentlig. Kjerneideen er imidlertid den samme: **transaksjonsgebyrene vil til slutt returneres til puljen for å støtte prisen**.",
+          "variance": "Merk: På grunn av markedsvolatilitet er gulvprisen ikke et absolutt anker, men et dynamisk støttespenn."
+        },
+        "process": {
+          "title": "Styringsprosess",
+          "steps": [
+            "**Forslag**: Viktige beslutninger krever multisignaturbekreftelse.",
+            "**Forsinket bekreftelse**: Alle høyrisikooperasjoner må gjennomgå en bekreftelsesperiode på 48 timer, hvor de er synlige på kjeden.",
+            "**Utførelse**: Etter forsinkelsesperioden vil autorisert personell utføre eller det vil bli utført automatisk.",
+            "**Avbestilling**: I løpet av forsinkelsesperioden kan forslagsstilleren avbryte forslaget."
+          ]
+        },
+        "security": {
+          "title": "Sikkerhetstiltak",
+          "items": [
+            "**Multi-signaturbekreftelse**: Alle viktige operasjoner krever signaturer fra minst 2 personer for å unngå enkeltpunkt risiko.",
+            "**Forsinket utførelsesmekanisme**: Høyrisikooperasjoner må gjennomgå en 48-timers forsinkelse, slik at fellesskapet får nok tid til å vurdere og respondere.",
+            "**Standard kontraktbibliotek**: Bruk reviderte standard kontraktbiblioteker for å redusere sårbarhetsrisiko.",
+            "**Tredjepartsrevisjoner**: Smarte kontrakter vil gjennomgå tredjeparts sikkerhetsrevisjoner for å sikre sikkerhet.",
+            "**Åpen kildekode-transparens**: Kontraktkoden er åpen kildekode, og hvem som helst kan verifisere og revidere den."
+          ]
+        },
+        "risk_mitigation": {
+          "title": "Hvordan redusere risikoen for enkeltpunkter?",
+          "description": "Vi sikrer at ingen enkeltperson eller organisasjon kan kontrollere prosjektet fullt ut gjennom multisignatur, forsinket bekreftelse, revisjoner og åpne flerlagssikkerhetsmekanismer. Alle viktige beslutninger går gjennom en gjennomsiktig og sporbar prosess, noe som gir trygghet til samfunnet og investorene."
+        }
+      },
+      "roadmap": {
+        "title": "Dual-Track Roadmap",
+        "status_notice": "⚠️ Nåværende status: Planlegging av offentliggjøring. Tokens er ennå ikke generert (TGE på vent), og de endelige reglene vil være basert på versjonen av hvitboken som blir utgitt ved TGE.",
+        "tracks": {
+          "product": "📱 Produktsporing",
+          "token": "💎 Token Spor"
+        },
+        "phases": [
+          {
+            "title": "Fase 1: Genesis",
+            "product": [
+              "**Telegram Bot Lansering**: En lettvektsplugin for å få samfunns Red Packets i gang",
+              "**Grunnleggende Oppgavesystem**: Invitasjons- og innsjekkingsfunksjoner",
+              "**Brukerakkumulering**: Bygging av en tidlig frøbrukergruppe"
+            ],
+            "token": [
+              "**Poeng Prøvingskjøring**: Brukeradferd genererer off-chain poeng",
+              "**Tokenmodell Design**: Bekreftelse av 90/10 distribusjon og halveringsmekanisme",
+              "**Litepaper Kunngjøring**: Offentliggjøring av det økonomiske modellutkastet til fellesskapet"
+            ]
+          },
+          {
+            "title": "Fase 2: Tenningsfase",
+            "product": [
+              "**Økosystemintegrasjon**: Koble til partnerbutikker og markedsføringsscenarier",
+              "**API Åpen Beta**: Tillate tredjepartsroboter å integrere med Red Packet-systemet",
+              "**Datadashboard**: Brukere kan se detaljert data om Red Packets og poeng"
+            ],
+            "token": [
+              "**Tredjepartsrevisjon**: Kontraktskode bestått sikkerhetsrevisjoner",
+              "**TGE (Token Generering)**: Hovednettutplassering, poeng åpner for innløsning/miningsmekanismer",
+              "**Innledende Likviditet**: Etablering av en grunnleggende pool for å sikre grunnleggende verdi"
+            ]
+          },
+          {
+            "title": "Fase 3: Utvidelse",
+            "product": [
+              "**Uavhengig App**: Lansering av en selvstendig app med lommebok- og IM-funksjoner",
+              "**Tverr-Plattform Støtte**: Utvidelse til Discord eller andre fellesskapsplattformer",
+              "**DAO Styringsverktøy**: Fellesskapsstemmegivningsfunksjon går live"
+            ],
+            "token": [
+              "**Aktivering av Økonomisk Syklus**: Tilbakekjøp og brennmekanismer opererer automatisk",
+              "**Multi-Chain Utplassering**: Utvidelse til andre høyytelses offentlige kjeder",
+              "**Fullstendig Desentralisert**: Forvaltningsrettigheter overleveres gradvis til DAO"
+            ]
+          }
+        ]
+      },
+      "risks": {
+        "title": "Risiko og ansvarsfraskrivelser",
+        "description": [
+          "**Viktig erklæring**: Dette dokumentet utgjør ingen form for investeringsrådgivning. Investering i kryptovaluta innebærer høy risiko, inkludert, men ikke begrenset til, prisvolatilitet, likviditetsrisiko, teknisk risiko, regulatorisk risiko, og mer.",
+          "",
+          "**Viktige risikoadvarsler**:",
+          "- **Risiko for prisvolatilitet**: Tokenpriser kan svinge dramatisk og selv falle til null. Vennligst sørg for at du deltar innenfor ditt akseptable tapsnivå.",
+          "- **Likviditetsrisiko**: Innledende likviditet kan være utilstrekkelig, noe som potensielt kan føre til høy slippage eller vanskeligheter med å gjennomføre handler umiddelbart.",
+          "- **Teknisk Risiko**: Selv om smartkontrakter vil bli revidert, kan det fortsatt være ukjente tekniske sårbarheter eller risiko for hackerangrep.",
+          "- **Regulatorisk Risiko**: Reguleringspolicyer angående kryptovalutaer i forskjellige land kan endres når som helst, noe som kan påvirke prosjektets drift eller verdien av tokenene.",
+          "",
+          "**Gjør Din Egen Forskning (DYOR)**: Investorer bør fullt ut forstå de relevante risikoene og investere forsiktig basert på sin egen økonomiske situasjon og risikotoleranse. Prosjektteamet er ikke ansvarlig for eventuelle investeringstap."
+        ],
+        "disclaimer": {
+          "title": "Viktig informasjon",
+          "text": "Dette dokumentet utgjør ikke noen form for investeringsråd. Investeringer i kryptovaluta har en høy risikonivå, inkludert, men ikke begrenset til, prissvingninger, likviditetsrisiko, teknisk risiko, regulatorisk risiko og mer. Investorer bør fullt ut forstå de relevante risikoene og investere forsiktig basert på sin egen risikotoleranse. Prosjektteamet er ikke ansvarlig for eventuelle investeringstap."
+        },
+        "risks": {
+          "title": "Hovedrisikoer",
+          "items": [
+            "**Prisvolatilitetsrisiko**: Tokenpriser kan variere betydelig og til og med gå til null.",
+            "**Likviditetsrisiko**: Initial likviditet kan være utilstrekkelig, noe som påvirker handelsopplevelsen.",
+            "**Teknisk risiko**: Smarte kontrakter kan inneholde ukjente sårbarheter, selv om vi vil gjennomføre revisjoner.",
+            "**Regulatorisk risiko**: Reguleringer i ulike land kan endres, noe som kan påvirke prosjektoperasjoner.",
+            "**Markedsrisiko**: Den overordnede volatiliteten i kryptovaluta-markedet kan påvirke tokenpriser."
+          ]
+        }
+      },
+      "faq": {
+        "title": "Ofte stilte spørsmål",
+        "items": [
+          {
+            "question": "Hvordan kan jeg tjene tokens?",
+            "answer": "Du kan oppnå $moonini ved å sende Red Packets, fullføre oppgaver, invitere venner og mer. Jo flere Red Packets du sender og oppgaver du fullfører, desto flere tokens vil du tjene. Tidlige deltakere vil også nyte en høyere belønningsgrad."
+          },
+          {
+            "question": "Når kan jeg ta ut?",
+            "answer": "Etter at hovednettet går live, kan brukere ta ut $moonini til sine lommebøker. Uttak krever et lite gebyr for gas (BSC-nettverksgebyr). Vennligst følg med på offisielle kunngjøringer for spesifikk oppstartstid."
+          },
+          {
+            "question": "Er det en låseperiode for teamallokeringer?",
+            "answer": "Ja. Teamallokeringen (10%) vil bli låst i 3 måneder og deretter frigjort lineært over 33-45 måneder. Allokeringene for drift, teknisk team og PR/markedsføring vil ha en total varighet på 48 måneder, mens allokeringen for tidlige investorer varer i 36 måneder."
+          },
+          {
+            "question": "Hvorfor bruke halveringsmekanismen?",
+            "answer": "Halveringsmekanismen er utformet for å oppmuntre tidlige deltakere samtidig som den kontrollerer tokenfordelingsratene. Jo tidligere du deltar, desto flere tokens tjener du, noe som hjelper til med å tiltrekke tidlige brukere og investorer, samtidig som vi unngår overdreven distribusjon som fører til inflasjon senere."
+          },
+          {
+            "question": "Hva skal jeg gjøre hvis det er et kontrakts- eller systemproblem?",
+            "answer": "Vi vil redusere risikoene gjennom tredjeparts sikkerhetsrevisjoner, multisignaturbekreftelser, forsinket utførelse og andre flerlagede beskyttelsesmekanismer. Hvis det oppstår et problem, vil vi umiddelbart iverksette en nødsituasjon, bestemme en håndteringsplan gjennom styringsmekanismen, og raskt informere fellesskapet."
+          },
+          {
+            "question": "Hva er det totale tilbudet av $moonini? Vil det øke?",
+            "answer": "Det totale tilbudet av $moonini er 10,000,000,000 stykker (10B), med et fast totalt beløp som aldri vil øke. 90% vil gradvis bli sluppet gjennom brukeraktiviteter, og 10% vil gå til teamet og tidlige investorer."
+          },
+          {
+            "question": "Hvordan kan jeg delta i styring?",
+            "answer": "Innehaverne av $moonini kan delta i fremtidige samfunnsstyringsavstemninger, og påvirke prosjektets utviklingsretning. Spesifikke styringsmekanismer og avstemningsmetoder vil bli rullet ut gradvis etter at hovednettet går live."
+          },
+          {
+            "question": "Kan $moonini handles?",
+            "answer": "Etter at hovednettet går live og en likviditetspool er etablert, kan $moonini handles på desentraliserte børser (som PancakeSwap). Handel vil bli påvirket av tilbud og etterspørsel i markedet, og prisene kan variere, så vennligst invester forsiktig."
+          }
+        ]
+      }
+    },
+    "charts": {
+      "allocation": {
+        "title": "Tokenfordeling",
+        "public": "Offentlig tilbud",
+        "team": "Teamkvote",
+        "operations": "Operasjoner",
+        "tech": "Teknisk Team",
+        "marketing": "Offentlig Relasjoner/Markedsføring",
+        "investors": "Tidlige investorer"
+      },
+      "phase": {
+        "title": "6-fase halveringsmekanisme",
+        "phase": "Fase",
+        "ratio": "For hver 1 USDT kan du motta"
+      },
+      "vesting": {
+        "title": "Tidslinje for utgivelse av teamkvote",
+        "cliff": "Låsing av periode",
+        "release": "Utgivelsesperiode"
+      },
+      "governance": {
+        "title": "Styringsprosess",
+        "multisig": "Multisignatur-lommebok",
+        "proposal": "Forslag",
+        "timelock": "Forsinket bekreftelse",
+        "execute": "Utfør",
+        "update": "Oppdater"
+      },
+      "flow": {
+        "title": "Token Sirkulasjonsprosess",
+        "userSend": "Bruker Sender Red Packet",
+        "fee": "Transaksjonsgebyrer",
+        "operations": "Driftskostnader",
+        "pol": "Tilbakekjøpsfond",
+        "accumulate": "Akkumulasjon",
+        "trigger": "Tilbakekjøp Utløser",
+        "swap": "Bytte",
+        "addLiquidity": "Legg til likviditet",
+        "pool": "Likviditetspool",
+        "smart_floor": "Smart Gulvprisforsvar"
+      }
+    }
+  },
+  "litepaper_api": {
+    "meta": {
+      "title": "Moonpacket autentisering API",
+      "subtitle": "Standardgrensesnitt for å forespørre belønningsregler og brukerstatus (v2.3)",
+      "description": "Bare gi en GET Endpoint for moonpacket for å forespørre reglene og brukerens status, og integrere Red Packet og oppgavesystemer enkelt."
+    },
+    "sidebar": {
+      "overview": "Integrasjonsoversikt",
+      "logic": "Interaksjonslogikk",
+      "spec": "API-spesifikasjon",
+      "ts_def": "TypeScript-definisjon",
+      "examples": "Kommunikasjons eksempel",
+      "security": "Sikkerhetsautentisering"
+    },
+    "hero": {
+      "badge": "API Spesifikasjon v2.3",
+      "title": "Autentisering API",
+      "subtitle": "Attributt Spørringsgrensesnitt (GET)",
+      "desc": "Gjennom et standardisert GET-spørringsgrensesnitt henter moonpacket aktivt 'belønningsregler' og 'brukerattributter' fra serveren din. Alle logiske vurderinger håndteres av moonpacket.",
+      "cta_docs": "Se spesifikasjon",
+      "cta_key": "Tilbake til Litepaper"
+    },
+    "content": {
+      "overview": {
+        "title": "Tilgangskonfigurasjon",
+        "desc": [
+          "Når du velger 'Egendefinert API' i moonpacket sin 'Innhentningsbetingelser', vennligst oppgi din Endpoint-URL.",
+          "**Metode**: Vennligst bruk `GET`",
+          "**Innholdstype**: `application/json`",
+          "**Autentisering**: Autentiseringsinformasjonen vil bli fullstendig overført via header (`X-API-KEY` og `Signature`), og URL-en vil ikke inneholde sensitiv informasjon."
+        ]
+      },
+      "logic": {
+        "title": "Interaksjonslogikk",
+        "desc": "Hele prosessen er delt inn i to faser: 'Oppsettsfase' og 'Kjørefase'. moonpacket vil sende forespørsel til ditt API ved å bruke GET-metoden:",
+        "modes": [
+          {
+            "title": "Fase 1: Definere Regler (Konfigurasjon)",
+            "trigger": "Utløsende hendelse: når URL-en er fylt ut i 'Kravsbetingelser Oppsett' og sendt inn",
+            "request": "GET",
+            "response": "Returnerer regeldefinisjonsobjektet med operatører (gt, eq, lt...)"
+          },
+          {
+            "title": "Fase 2: Valider bruker (kjøring)",
+            "trigger": "Utløsende hendelse: når brukeren prøver å kreve Red Packet",
+            "request": "GET ?user_id=...",
+            "response": "Returnerer den faktiske attributtverdien til den spesifikke brukeren (ren verdi eller streng)"
+          }
+        ],
+        "note": "Støttede operatører: `eq` (lik, støtter streng/tall), `gt` (større enn), `gte` (større enn eller lik), `lt` (mindre enn), `lte` (mindre enn eller lik). Verdier for ikke-`eq` operatører må være tall.",
+        "steps": {
+          "step1_label": "Trinn Én",
+          "step2_label": "Trinn To"
+        }
+      },
+      "diagram": {
+        "user": "Bruker",
+        "moonpacket": "moonpacket",
+        "dev_api": "Din API",
+        "step1": "1. Under oppsett: Hentereglene (GET)",
+        "step2": "2. Under krav: Spør Status (GET)",
+        "click": "Klikk for å kreve",
+        "check": "Logisk Match (Lokal)",
+        "grant": "Distribuer Belønninger",
+        "reject": "Kvalifikasjonsvarsel",
+        "client_app": "Klient / Server",
+        "json_data": "JSON data",
+        "saved_rule": "Regler lagret:",
+        "user_state": "Brukerstatus:"
+      },
+      "spec": {
+        "title": "Grensesnitt spesifikasjon (Spesifikasjon)",
+        "request": {
+          "title": "Forespørsel Parametere (Spørringsparametere)",
+          "headers": [],
+          "query": [
+            "**api_key** (påkrevd): API-nøkkelen du har satt opp for identifikasjon",
+            "**user_id** (valgfritt): Returnerer bruker attributter når tilstede; returnerer regeldefinisjoner når fraværende"
+          ]
+        },
+        "ts_def": {
+          "title": "Datastrukturdefinisjon (TypeScript)",
+          "desc": "Det følgende grensesnittet definerer JSON-strukturen som må returneres for at AI-assisterte verktøy skal kunne lese:"
+        }
+      },
+      "scenarios": {
+        "title": "Applikasjonsscenarier",
+        "items": [
+          {
+            "title": "GameFi-integrasjon",
+            "desc": "Definer regelen `level >= 10`. Når brukeren krever, sjekker moonpacket brukerens attributter, hvis `level: 12` så er det godkjent."
+          },
+          {
+            "title": "Identitetsbinding belønning",
+            "desc": "Definer regelen `kyc == true`. moonpacket sjekker brukerens status, og hvis det returnerer `kyc: true`, blir belønningene fordelt."
+          },
+          {
+            "title": "Blacklist-filtrering",
+            "desc": "Definer regelen `is_blacklist == false`. Hvis API-en returnerer `is_blacklist: true`, blir kravet avvist."
+          }
+        ]
+      },
+      "examples": {
+        "title": "Kommunikasjons eksempel (GET forespørsel)",
+        "mode_a": {
+          "title": "1. Definer regler (Oppsett)",
+          "desc": "Når innstillingene sendes inn, returner JSON som inneholder operatører."
+        },
+        "mode_b": {
+          "title": "2. Spørsmål Status (Kjøre)",
+          "desc": "Når brukeren krever, returner rene verdier eller strenger."
+        }
+      },
+      "signature": {
+        "title": "Sikkerhetsvalidering",
+        "desc": "For å sikre ektheten av forespørslene, vil moonpacket inkludere en signatur i headeren. Du kan se på koden til høyre for validering:",
+        "required_headers": "Nødvendige overskrifter",
+        "algo_title": "Signaturalgoritme",
+        "headers": {
+          "key": "X-API-KEY",
+          "ts": "X-API-TIDSPUNKT",
+          "nonce": "X-API-NONCE",
+          "sig": "X-API-SIGNATUR"
+        },
+        "algo": "HMAC-SHA256",
+        "formula": "Signatur = HMAC_SHA256(secret, body + timestamp + nonce)",
+        "steps": [
+          "1. Ekstraher tidsstempel, nonce, signatur fra overskrifter",
+          "2. Bekreft at tidsstempelet er innenfor et rimelig tidsintervall (f.eks. ±5 minutter)",
+          "3. Konkaterer streng: RequestBody + Tidsstempel + Nonce",
+          "4. Beregn HMAC-SHA256 ved å bruke din hemmelighet",
+          "5. Sammenlign det beregnede resultatet med signaturen i headeren"
+        ]
+      },
+      "reliability": {
+        "title": "Merk",
+        "items": [
+          "**Timeout**: Sørg for at API-en kan returnere resultater innen **3 sekunder**.",
+          "**Format**: Vennligst følg strengt JSON-strukturen, ellers vil det føre til parsingfeil."
+        ]
+      },
+      "error_codes": {
+        "title": "Statuskoder",
+        "items": [
+          {
+            "code": "200",
+            "status": "OK",
+            "desc": "Forespørsel vellykket"
+          },
+          {
+            "code": "400",
+            "status": "Bad Request",
+            "desc": "Feil i forespørselparameter (f.eks. format feil)."
+          },
+          {
+            "code": "401",
+            "status": "Unauthorized",
+            "desc": "Autorisasjonsheader mangler eller nøkkel er ugyldig."
+          },
+          {
+            "code": "403",
+            "status": "Forbidden",
+            "desc": "IP-restriksjon eller uautorisert tilgang til ressursen."
+          },
+          {
+            "code": "404",
+            "status": "Not Found",
+            "desc": "Bruker-ID eksisterer ikke (for forespørsel om brukerstatus)."
+          },
+          {
+            "code": "500",
+            "status": "Server Error",
+            "desc": "Intern serverfeil."
+          }
+        ]
+      },
+      "disclaimer": {
+        "title": "Ansvarsfraskrivelse for tredjeparts-API",
+        "text": "Integrasjonsmetodene for tredjepartsplattformer nevnt i dette dokumentet er kun til referanse. Utviklere bør konsultere og følge den nyeste offisielle utviklerdokumentasjonen til plattformen."
+      }
+    },
+    "labels": {
+      "request": "Be om innhold",
+      "response": "Tilbakefør resultat",
+      "code": "Statuskode",
+      "status": "Status",
+      "desc": "Beskrivelse"
+    }
+  },
+  "whitepaper": {
+    "title": "$moonini Whitepaper",
+    "description": "Forståelse av designfilosofien, den økonomiske modellen og den tekniske arkitekturen til $moonini-tokenet",
+    "seo": {
+      "title": "$moonini Whitepaper — moonpacket",
+      "description": "Fullstendig $moonini Tokenomics, Teknisk Arkitektur og Beskrivelse av Styringsmekanisme"
+    },
+    "hero": {
+      "subtitle": "$moonini er incentiv-tokenet for fellesskapet basert på moonpacket-plattformen. Jo mer brukere engasjerer seg og interagerer på moonpacket, jo mer $moonini kan de tjene. For investorer distribueres 90% til brukere, og 10% til teamet, noe som effektivt reduserer risikoen for markedsnedgang i kombinasjon med halveringsmekanismen og lineær utgivelse.",
+      "cards": {
+        "user": {
+          "title": "For vanlige brukere",
+          "description": "Tjen enkelt $moonini ved å sende Red Packets, fullføre oppgaver og invitere venner. Jo mer du bruker, jo mer tjener du, helt gratis."
+        },
+        "investor": {
+          "title": "For investorer",
+          "description": "Totalt beløp 10B, 90/10 fordeling, 6-fase halvering, teamfordeling med lineær utgivelse, designet for langsiktig stabilitet, reduserer risikoen for markedsnedgang."
+        },
+        "developer": {
+          "title": "For utviklere/partnere",
+          "description": "Standardiserte kontrakter, åpen API, kan integreres i andre applikasjoner eller spill. Vennligst referer til den tekniske dokumentasjonen for detaljerte spesifikasjoner."
+        }
+      }
+    },
+    "toc": {
+      "title": "Innholdsforklaring"
+    },
+    "sections": {
+      "overview": "1. Prosjektoversikt",
+      "tokenomics": "2. Tokenomics",
+      "architecture": "Tre, Teknisk Arkitektur",
+      "emission": "Fire, Utgivelsesmekanisme",
+      "governance": "Fem, Styring og Sikkerhet",
+      "incentives": "Seks, Brukerincentivsystem",
+      "developer": "Syv, Utviklerguide",
+      "roadmap": "8. Veikart",
+      "risks": "9. Risikovarsel",
+      "faq": "Ti, Spørsmål å Bekrefte"
+    },
+    "content": {
+      "overview": {
+        "what_is": [
+          "**$moonini** er økosystemtokenet til moonpacket plattformen, brukt til å belønne brukere for aktive handlinger på plattformen, inkludert:",
+          "- Sendering Red Packet",
+          "- Inviter venner",
+          "- Fullføre oppgaver",
+          "- Deltar i fellesskapsaktiviteter",
+          "",
+          "**En enkle forklaring**: Jo mer du bruker på moonpacket, jo mer $moonini vil du tjene."
+        ],
+        "core_values": {
+          "title": "Kjerneverdier",
+          "values": [
+            "- ✅ **Desentralisering**: Basert på Binance Smart Chain (BSC), er alle transaksjoner gjennomsiktige og verifiserbare, det er ikke nødvendig å stole på tredjeparter.",
+            "- ✅ **Rettferdig Distribusjon**: 90% av tokenene distribueres gjennom brukeraktiviteter, 10% forbeholdt teamet og investorer, noe som sikrer prioritert fokus på fellesskapet.",
+            "- ✅ **Gradvis Frigivelse**: Tar i bruk en 6-trinns halveringsmekanisme, som oppfordrer tidlige deltakere til å tjene mer jo tidligere de blir med.",
+            "- ✅ **Sikker og Pålitelig**: Bruker reviderte standard kontraktsbiblioteker, alle hovedoperasjoner krever multi-signatur bekreftelser, planlegging for tredjeparts sikkerhetsrevisjoner."
+          ]
+        }
+      },
+      "tokenomics": {
+        "info": {
+          "title": "2.1 Token Grunnleggende Informasjon",
+          "description": [
+            "| Vare | Verdi | Beskrivelse |",
+            "|------|------|------|",
+            "| **Token Navn** | moonini | Fullt navn |",
+            "| **Token Symbol** | MOONINI | Handelsymbol |",
+            "| **Total Forsyning** | 10 000 000 000 tokens (10B) | Fast total forsyning, aldri inflatorisk |",
+            "| **Desimalplasser** | 18 | BSC Standard |",
+            "| **Blokkjede** | Binance Smart Chain (BSC) | BEP-20 Standard |"
+          ]
+        },
+        "allocation": {
+          "title": "2.2 Allokeringsplan",
+          "description": [
+            "**Total Supply: 10 000 000 000 tokens (10B)**",
+            "",
+            "**Allokeringsprinsipper**:",
+            "- **90% til Fellesskap & Likviditet**:",
+            "- Inkluderer \"gruveandelen\" som genereres gjennom Red Packets og oppgaver, samt \"likviditetsandelen\" som brukes til å etablere initiale handelspar (prosjektteamet setter først inn 10 000 USDT som pulje for å sikre verdi ved lansering).",
+            "- Denne delen returneres fullt ut til økosystem-deltakere, uten reservasjoner for institusjoner eller private plasseringer.",
+            "",
+            "- **10% til Team & Tidlige Støttespillere**:",
+            "- **4% Tidlige Investorer**: Belønninger for tidlig finansiell støtte.",
+            "- **2% Teknisk Team**: Sikrer kontinuerlig utvikling og vedlikehold av protokollen.",
+            "- **2% Operasjonsteam**: Ansvarlig for fellesskapsledelse og arrangementsplanlegging.",
+            "- **2% Markedsføring og Økosystem Stabilitet**: Fremme markedsvekst og opprettholde økosystemstabilitet under ekstreme forhold som en reservefond.",
+            "",
+            "**Styringsløfte**:",
+            "Vi implementerer de strengeste interne midlestyrestyringene. Alle teamallokeringer og driftsutgifter er underlagt **Multisig** og **Timelock** restriksjoner. Ingen enkeltperson kan fritt få tilgang til midler, noe som sikrer at alle utgifter gjøres gjennom kollektiv beslutningstaking og er offentlig gjennomsiktig."
+          ]
+        },
+        "phase": {
+          "title": "2.3 6-Fase Halveringsmekanisme",
+          "description": [
+            "For å oppmuntre tidlige deltakere, benytter token-distribusjonen en 'progressiv halverings'-mekanisme:",
+            "",
+            "| Fase | Utsendt Mengde Rekkevidde | Innløsningsforhold (per 1 USDT) | Beskrivelse |",
+            "|------|------------|---------------------|------|",
+            "| **Fase 1** | 0 ~ 4.5B | **1.0 token** | Tidlige deltakere, 1:1 bytte |",
+            "| **Fase 2** | 4.5B ~ 6.75B | **0.5 token** | Halvert |",
+            "| **Fase 3** | 6.75B ~ 7.875B | **0.25 token** | Halvert igjen |",
+            "| **Fase 4** | 7.875B ~ 8.4375B | **0.125 token** | Fortsetter halvering |",
+            "| **Fase 5** | 8.4375B ~ 8.71875B | **0.0625 token** | Nærmer seg slutten |",
+            "| **Fase 6** | 8.71875B ~ 9B | **0.03125 token** | Sluttfase |",
+            "",
+            "**Eksempel**:",
+            "- I Fase 1, hvis du sender en 100 USDT Red Packet, kan du motta 100 $moonini",
+            "- I Fase 2, hvis du sender en 100 USDT Red Packet, kan du bare motta 50 $moonini",
+            "- Jo tidligere du deltar, jo flere tokens mottar du!"
+          ],
+          "value_logic": [
+            "💡 Red Packet Filosofi og Verdi Syklus",
+            "",
+            "**Ånden i Red Packet er 'Givning' og 'Forbindelse'**:",
+            "Opprinnelig fra østlig kultur, representerer Red Packet ikke bare overføring av midler, men også kjærlighet fra eldre til yngre, gratulasjoner og deling blant venner. Hos moonpacket er hver gang du sender en Red Packet en varm sosial interaksjon.",
+            "",
+            "**Fra Sosial Atferd til Økonomisk Verdi**:",
+            "Vi tror at disse gode gjerningene bør registreres og verdsettes. $moonini er ikke bare en belønnings-token; det er verdi-bæreren av dette sosiale nettverket, som genererer langhalede økonomiske effekter fra hver 'givning'.",
+            "",
+            "**Ekte Verdi Støtte**:",
+            "For å opprettholde stabiliteten til denne sosiale verdien, spesifiserer protokollen: **50% av inntektene fra transaksjonsgebyr vil automatisk bli injisert i Likviditetspoolen**.",
+            "",
+            "Dette betyr: jo mer aktivt fellesskapet ➔ jo flere Red Packet interaksjoner ➔ jo mer midler injiseres i likviditetspoolen ➔ jo mer solid verdifundament for $moonini. Dette er en positiv syklus basert på reelle sosiale behov og forretningsinntekter, snarere enn ren spekulativ gambling."
+          ]
+        }
+      },
+      "architecture": {
+        "blockchain": {
+          "title": "3.1 Valg av blokkjedeteknologi: Binance Smart Chain (BSC)",
+          "why": [
+            "**Hvorfor Velge BSC?**",
+            "",
+            "| Fordel | Beskrivelse |",
+            "|------|------|",
+            "| ✅ **Lave gebyrer** | Gjennomsnittlig transaksjonskostnad $0.1-$0.5, langt lavere enn Ethereum |",
+            "| ✅ **Rask Bekreftelse** | Gjennomsnittlig bekreftelsestid på 3 sekunder for en jevn opplevelse |",
+            "| ✅ **Moden økosystem** | Rike DeFi-verktøy med et stort brukergrunnlag |",
+            "| ✅ **EVM-kompatibel** | Kan gjenbruke ressurser fra Ethereum-økosystemet |",
+            "| ✅ **Lommebokadopsjon** | Vanlige lommebøker som MetaMask, Trust Wallet støtter |"
+          ]
+        },
+        "contracts": {
+          "title": "3.2 Smart Contract Arkitektur",
+          "description": [
+            "Vi bruker bransjeverifiserte standarder for smarte kontrakter for å sikre sikkerheten og påliteligheten til tokenene.",
+            "",
+            "**Kjerne Design Prinsipper**:",
+            "- **Desentralisert**: All utstedelse og utgivelsesmekanismer for tokens utføres automatisk via smarte kontrakter, uten behov for menneskelig inngripen.",
+            "- **Transparent og Sporbar**: Alle operasjonelle registreringer lagres på blokkjeden, tilgjengelig for alle.",
+            "- **Sikker og Pålitelig**: Bruker et tredjeparts revidert standard kontraktbibliotek for å sikre kodekvalitet og sikkerhet.",
+            "",
+            "**Hovedfunksjoner**:",
+            "- **Tokenutstedelse**: Utsendelse og overføring av tokens i samsvar med BSC-standarder.",
+            "- **Automatisk Utgivelse**: Administrer den gradvise utgivelsen (6 faser av halvering) av 90% av offentlig utstedte tokens.",
+            "- **Team Lock-up**: Håndtering av 10% teamallokering for lock-up og lineær utgivelse",
+            "- **Styringsmekanisme**: Alle viktige operasjoner krever multi-signatur bekreftelse, med en 48-timers nedkjølingsperiode for å gi samfunnet tid til å gjennomgå",
+            "- **Automatisk tilbakekjøp**: Plattformsavgifter brukes automatisk til å kjøpe tilbake tokens, noe som forbedrer likviditeten",
+            "",
+            "**Sikkerhetstiltak**:",
+            "- Utnytter et tredjepartsrevidert standard kontraktsbibliotek for å sikre kodekvalitet og sikkerhet",
+            "- Alle viktige operasjoner krever multi-signatur bekreftelse, med en 48-timers nedkjølingsperiode for å gi samfunnet tid til å gjennomgå.",
+            "- Avansert autentiseringsteknologi som brukes under brukeruttak for å sikre at kun brukeren kan operere",
+            "- Benytter en mekanisme for å forhindre replay-angrep for å beskytte brukerens midler",
+            "- Planlegge å gjennomføre tredjeparts sikkerhetsrevisjoner (CertiK / PeckShield / SlowMist)",
+            "",
+            "*For detailed technical specifications, contract interfaces, and function definitions, please refer to: [Technical Specification Document](/no-NO/docs/technical)*"
+          ]
+        }
+      },
+      "emission": {
+        "public": {
+          "title": "4.1 Offentlig tilbud (90%)",
+          "initial_liquidity": [
+            "**Initial Liquidity**:",
+            "- Forhåndsbetal en del av tokenene fra 90% av det offentlige tilbudet til å etablere det innledende likviditetspoolen med USDT",
+            "- Sørg for at tokens kan handles normalt etter at de er tilgjengelige på nettet, og gi likviditetssikring til investorer.",
+            "- Spesifikke beløp vil bli kunngjort før hovednettlanseringen"
+          ],
+          "launch_protection": [
+            "**Åpne Anti-Snipe Mekanisme**:",
+            "- **Enkeltkjøpsgrense**: 30 minutter før åpning kan en enkelt lommebok kjøpe kun 0,5 % eller 1 % av det totale beløpet",
+            "- **Beskytt små detaljinvestorer**: Forhindre store innehavere fra å ta bort all likviditet når markedet åpner",
+            "- **Tidsvindu**: Automatisk hevet etter 30 minutter, uten å påvirke normal handel",
+            "- **Opprettholde prisstabilitet**: Unngå brå prisfluktuasjoner ved åpning"
+          ],
+          "release_methods": [
+            "**Utdelingsmetode**: Gradvis utdeling gjennom brukeraktiviteter",
+            "",
+            "**Utgivelseskilder**:",
+            "1. **Send Red Packets**: Hver gang en Red Packet på 1 USDT sendes, mottar du tilsvarende $moonini basert på den nåværende fasen.",
+            "2. **Inviter venner**: Inviter nye brukere vellykket og fullfør delingsoppgaver for å motta $moonini",
+            "3. **Fullfør Oppgaver**: Fullfør prestasjonsoppgaver, sosiale oppgaver, osv. for å tjene ekstra $moonini",
+            "4. **Gruppeeier Profitfordeling**: Gruppeeiere kan motta 3% profittdeling (USDT) for å sende Red Packet over grupper"
+          ],
+          "cost_vs_price": [
+            "💡 **Produksjonskostnad vs Markedspris**:",
+            "",
+            "I fase 1 er den implisitte kostnaden for å skaffe 1 $moonini gjennom Red Packet-graving omtrent **0,02 USDT** (basert på 2% transaksjonsavgift).",
+            "",
+            "Vår første noteringspris er **0,01 USDT**.",
+            "",
+            "Dette betyr at **kostnaden for kjøp på sekundærmarkedet er 50 % lavere enn produksjonskostnaden**, noe som gir tidlige innehavere en naturlig sikkerhetsmargin."
+          ],
+          "withdraw_mechanism": [
+            "**Utbetalingsmekanisme**:",
+            "- Etter at brukerne har tjent $moonini på plattformen, kan de ta det ut til lommeboken sin gjennom en sikker identitetsverifiseringsmekanisme",
+            "- Systemet vil verifisere basert på brukeraktivitet for å sikre at kun brukeren kan operere.",
+            "- Når brukerne er verifisert, kan de ta ut tokenene sine til lommeboken sin",
+            "- **Minimum uttaksgrense**: 10 $moonini",
+            "- **Transaksjonsgebyr**: Brukere må kun betale nettverks transaksjonsgebyret (i samsvar med blockchain-praksis)",
+            "",
+            "*For detailed technical implementation, please refer to: [Technical Specification Document](/no-NO/docs/technical)*"
+          ],
+          "phase_switch": [
+            "**Fasebytte**:",
+            "- Bytter automatisk til neste fase når det utstedte beløpet når fasegrensen",
+            "- Bytteprosessen er transparent og sporbar, registrert på kjeden"
+          ]
+        },
+        "team": {
+          "title": "4.2 Teamkvote (10%)",
+          "vesting_rules": [
+            "**Låse- og Frigjøringsregler**:",
+            "",
+            "| Kategori | Prosentandel | Låseperiode (Klipp) | Linjær utgivelsesperiode | Total varighet |",
+            "|------|------|---------------|-----------|--------|",
+            "| **Operasjoner** | 2% (200M) | 3 måneder | 45 måneder | 48 måneder |",
+            "| **Teknisk Team** | 2% (200M) | 3 måneder | 45 måneder | 48 måneder |",
+            "| **Offentlig relasjoner/Markedsføring** | 2% (200M) | 3 måneder | 45 måneder | 48 måneder |",
+            "| **Tidlige Investorer** | 4% (400M) | 3 måneder | 33 måneder | 36 måneder |",
+            "",
+            "**Utgivelsesmetode**:",
+            "- **Lineær akkumulering**: Tokens akkumuleres lineært over tid, og beløpet tilgjengelig for uttak kan sjekkes når som helst.",
+            "- **Regelmessige utgivelser**: Automatiske regelmessige triggere for utgivelse uten behov for manuell betjening.",
+            "- **Varslingsmekanisme**: Automatiske varsler sendt til begunstigede etter at hver utbetaling er fullført.",
+            "",
+            "**Eksempel**:",
+            "- Investor A mottar 1 000 000 $moonini",
+            "- Første 3 måneder: Låste periode, ingen uttak tillatt",
+            "- Fra og med den 4. måneden: Tokens akkumuleres lineært over tid, med regelmessige uttak av den akkumulerte delen",
+            "- Etter 33 måneder: Alle utgivelser fullført."
+          ]
+        },
+        "kyc": {
+          "title": "4.3 Investor KYC og Administrasjon",
+          "methods": [
+            "**KYC-metode** (for et begrenset antall innledende investorer):",
+            "",
+            "1. **Grunnleggerteam Ekte Navn KYC** (Anbefalt, egnet for småskala)",
+            "- Passer for et mindre antall investorer i starten (< 10 personer)",
+            "- Grunnleggende teammedlemmer (Operasjoner + Teknisk) gjennomfører videointervjuer med investorer",
+            "- Bekreft identitetsdokumenter, adressebevis og annet materiell",
+            "- Bekreft via PDF elektronisk signatur (DocuSign/SignNow)",
+            "- **Fordeler**: Lav kostnad, fleksibel prosess, bygger tillit",
+            "",
+            "2. **Shufti Pro** (Egnet for middels store skala)",
+            "- Passer for et moderat antall investorer (10-50 personer)",
+            "- 10 gratis verifiseringsplasser per måned (passer for første gangs bruk)",
+            "- Automatisk prosess, støtter dokumentverifisering på flere land.",
+            "- **Fordeler**: Automatisering, høy samsvar, støtter flerlandsdokumentasjon.",
+            "",
+            "3. **Andre tredjeparts KYC** (Fremtidig utvidelse)",
+            "- Persona / Sumsub / Onfido som alternativer",
+            "- Egnet for et større antall investorer (> 50 personer)"
+          ],
+          "flexibility": [
+            "**Investor Fleksibel Design**:",
+            "",
+            "**Støtte for flere lommebøker og forskjellige forhold**:",
+            "- En investor kan ha flere lommebøker for å motta tokens.",
+            "- Hver lommebok kan sette forskjellige tildelingsforhold (f.eks. 60% / 40%).",
+            "- Ulike investorer kan ha forskjellige inngangstider.",
+            "",
+            "**Lommebok Erstatningsmekanisme (Kansellerings- og Utstedelsesstrategi)**:",
+            "- Investorer kan endre sin mottaks lommebok (krever re-KYC verifisering).",
+            "- **Kjerne Logikk**: I stedet for å direkte modifisere den gamle lommeboken, tilbakekall den gamle utgivelsesplanen og opprett en ny utgivelsesplan for den nye lommeboken.",
+            "- **Behandling**:",
+            "1. Investorer rapporterer tap/tyveri av sine gamle lommebøker og fullfører KYC-verifisering utenfor kjeden.",
+            "2. Gjennom et multi-signatur lommebokforslag, tilbakekall den gamle utgivelsesplanen og returner uutgitte tokens.",
+            "3. Opprett en ny utgivelsesplan for den nye lommeboken, med beløpet som den gjenværende delen og tiden som den gjenværende varigheten.",
+            "4. Alle operasjoner har en bekreftelsesforsinkelse på 48 timer for å sikre transparens og sikkerhet.",
+            "- **Fordeler**: Kontraktslogikken er enklere (bare opprett og tilbakekall), noe som betydelig reduserer risikoen for hacking.",
+            "- Påvirker kun den 'uannonserte' delen; slupne tokens kan ikke reverseres."
+          ]
+        }
+      },
+      "governance": {
+        "mechanism": {
+          "title": "5.1 Styringsmekanisme",
+          "core_principle": [
+            "**Kjerneprinsipp**: **Ingen enkelt høyeste myndighet**, alle viktige operasjoner må gjennomgå forsinket offentlig vurdering",
+            "",
+            "**Styringsprosess**:",
+            "1. **Forslag**: Styreforslag opprettet etter godkjenning av multi-signatur lommebok",
+            "2. **Gjennomgangsperiode**: Gå inn i 48-timers forsinkelseskø, alle handlinger offentlig synlige på blokkjeden",
+            "3. **Utførelse**: Forslag kan utføres etter at forsinkelsen utløper",
+            "4. **Avbestilling**: I løpet av vurderingsperioden kan forslagsstilleren avbryte forslaget.",
+            "",
+            "**Styrbare elementer**:",
+            "- Parameterjusteringer (transaksjonsgebyrer, tilbakekjøpsgrenser, osv.)",
+            "- Tildelinger til statskassen (neste fase kvoter, arrangementsbudsjetter osv.)",
+            "- Kontraktoppgraderinger (må bestå revisjon)"
+          ]
+        },
+        "security": {
+          "title": "5.2 Sikkerhetstiltak",
+          "description": [
+            "**Flere lag beskyttelse**:",
+            "1. **Multi-signaturte lommebok**: Alle viktige operasjoner krever minst 2 signaturer for bekreftelse",
+            "2. **Forsinket utførelse**: Alle høyrisiko operasjoner krever en forsinkelse på 48 timer",
+            "3. **Revisjon**: Gjennom tredjeparts sikkerhetsrevisjoner",
+            "4. **Åpen kildekode**: Kontraktskoden er åpen kildekode og kan verifiseres offentlig.",
+            "",
+            "**Tillatelsesadministrasjon**:",
+            "- **Token Utstedelsesmyndighet**: Tilbaketrukket eller overført til styringens kasse, kan ikke utstede tokens etter eget forgodtbefinnende.",
+            "- **Frysemyndighet**: Stengt, kan ikke fryse brukertokens.",
+            "- **Oppdatering av myndighet**: Kun styringsadressen kan endre tokeninformasjon."
+          ]
+        },
+        "pol": {
+          "title": "5.3 Tilbakekjøp og Markedsgjøring (POL - Ubegrenset Tilbakekjøp + Gulvprisbeskyttelse)",
+          "mechanism": [
+            "**Mekanisme**:",
+            "- **1%** av plattformens transaksjonsgebyrer brukes til å kjøpe tilbake $moonini og dyppe likviditetspoolen",
+            "- **Ubegrenset tilbakekjøp**: Ingen daglig grense for tilbakekjøp; så mange transaksjonsgebyrer det er, fortsetter tilbakekjøp å gi likviditetsstøtte for tokenet",
+            "- **Automatisert strategi**: Bruker smarte tilbakekjøpsstrategier for å redusere forutsigbarhet og unngå markedmanipulasjon",
+            "- **Kjøp Beskyttelse**: Øker automatisk tilbakemeldingsinnsatsen når det er et betydelig markedsfall, og beskytter investorinteressene."
+          ],
+          "floor_defense": [
+            "**Gulvprisforsvar**:",
+            "- **Psykologisk prisnivå**: 0,01 USDT",
+            "- **Automatisk Forsvar**: Når prisen faller under forsvarsgrensen, aktiveres forsvarsmodus automatisk, noe som øker tilbakekjøpsinnsatsen",
+            "- **Automatisert markedsmaking**: Automatisk markedsmaking basert på smarte kontrakter, som ikke krever manuell innblanding, og sikrer markedsstabilitet",
+            "- **Spar på Market Maker-gebyrer**: Bruk budsjettet til å utstede Red Packets, markedsføring eller øke initial likviditet"
+          ],
+          "philosophy": [
+            "**Designfilosofi**:",
+            "- Lave inngangsbarrierer, høye spillteoretiske avkastninger",
+            "- prosjektpartiet påvirker ikke markedet (tilbyr kun transaksjonsgebyr tilbakekjøp)",
+            "- Ren sosialfinansmodell",
+            "- Opprettholder automatisk det psykologiske prisnivået for å opprettholde markedets tillit",
+            "",
+            "*For detailed technical parameters and implementation strategies, please refer to: [Technical Specification Document](/no-NO/docs/technical)*"
+          ]
+        },
+        "kyc": {
+          "title": "4.3 Investor KYC og forvaltning",
+          "methods": [
+            "**KYC-metoder** (for et lite antall initiale investorer):",
+            "",
+            "1. **Grunnleggende Team Ekte Person KYC** (anbefalt, egnet for liten skala)",
+            "- Passer for færre initiale investorer (< 10 personer)",
+            "- Videointervjuer mellom grunnleggerteammedlemmer (drift + teknologi) og investorer",
+            "- Verifisering av identifikasjonsdokumenter, adressenbevis og andre dokumenter",
+            "- Bekreftelse gjennom PDF e-signatur (DocuSign/SignNow)",
+            "- **Fordeler**: Lave kostnader, fleksible prosesser, kan bygge tillitsrelasjoner",
+            "",
+            "2. **Shufti Pro** (passer for mellomstore skalaer)",
+            "- Egnet for et moderat antall investorer (10-50 personer).",
+            "- 10 gratis verifikasjonskreditter per måned (passer for første bruk).",
+            "- Automatiserte prosesser, som støtter dokumentverifisering på tvers av flere land",
+            "- **Fordeler**: Automatisering, høy samsvar, støtte for dokumenter fra flere land",
+            "",
+            "3. **Andre tredjeparts KYC** (fremtidig utvidelse)",
+            "- Persona / Sumsub / Onfido som alternativer",
+            "- Egnet for et større antall investorer (> 50 personer)"
+          ],
+          "flexibility": [
+            "**Fleksibel design for investorer**:",
+            "",
+            "**Støtte for flere lommebøker og forskjellige ratioer**:",
+            "- En investor kan ha flere lommebøker for å motta tokens.",
+            "- Hver lommebok kan settes til forskjellige tildelingsforhold (f.eks. 60% / 40%).",
+            "- Ulike investorer kan ha forskjellige inngangstider.",
+            "",
+            "**Lommebokbytte Mekanisme (Oppheving og Gjenutstedelsesstrategi)**:",
+            "- Investorer kan endre mottakerlommeboken (krever ny KYC-verifisering).",
+            "- **Kjerne Logikk**: I stedet for å direkte endre den gamle lommeboken, tilbakekall den gamle utgivelsesplanen og opprett en ny utgivelsesplan for den nye lommeboken.",
+            "- **Prosess**:",
+            "1. Investor rapporterer tapt/stjålet gammel lommebok og fullfører off-chain KYC verifisering.",
+            "2. Gjennom et flerparts-signatur lommebokforslag, tilbakekall den gamle utgivelsesplanen og returner de ikke utgitte tokenene.",
+            "3. Opprett en ny utgivelsesplan for den nye lommeboken, med beløpet som den gjenværende delen og tiden som den gjenværende varigheten.",
+            "4. Alle transaksjoner har en bekreftelse med 48 timers forsinkelse for å sikre transparens og sikkerhet.",
+            "- **Fordeler**: Kontraktlogikken er enklere (bare opprett og tilbakekall), noe som reduserer hackingrisikoene betydelig.",
+            "- Påvirker kun den \"ureleased\" delen; allerede utgitte tokens kan ikke hentes."
+          ]
+        }
+      },
+      "incentives": {
+        "how_to_earn": {
+          "title": "6.1 Hvordan skaffe $moonini?",
+          "send_gift": [
+            "#### A. Sending Red Packet",
+            "",
+            "- **Grunnleggende regler**: For hver sendt **tilsvarende 1 USDT** red packet (støtter flere tokens), vil systemet beregne og distribuere $moonini basert på den nåværende fasevekstraten.",
+            "- **Formidling av velsignelser**: Red Packet er ikke bare penger; de er en formidling av velsignelser. Hver gavehandling vil bli registrert på blockchain og belønnet."
+          ],
+          "invite": [
+            "#### B. Inviter venner (Del Red Packet)",
+            "",
+            "- **Regler**: Inviter nye venner og fullfør delingsoppgaver, begge parter mottar belønninger.",
+            "- **Anti-Spam Mekanisme**: For å sikre rettferdighet, **har hver konto en invitasjonsbelønningsgrense**, som vil bli justert dynamisk i henhold til den nyeste kunngjøringen om samfunnsspilldesign.",
+            "- **Risiko Kontroll**: Vi har strenge risikokontrollmekanismer; enhver unormal spamaktighet vil bli ansett som ugyldig."
+          ],
+          "quests": [
+            "#### C. Fullføre Oppgaver",
+            "",
+            "**Oppgavetyper**:",
+            "- Inkluderer engangs oppnåelsesoppgaver (som å sende den første red packet) og sosiale oppgaver (som å følge det offisielle fellesskapet).",
+            "- Disse oppgavene er utformet for å gjøre nykommere kjent med plattformens funksjoner, **hver konto kan bare fullføre én gang eller har en total mengdegrense**.",
+            "",
+            "**Designformål**:",
+            "- For å forhindre skripautomatisering fra å spamme mynter, og etterlate belønninger til ekte aktive brukere."
+          ]
+        },
+        "fee_structure": {
+          "title": "6.2 Gebyrstruktur",
+          "description": [
+            "**Transaksjonsgebyrer ved sending av Red Packet**:",
+            "",
+            "| Scenario | Totale Avgifter | Beskrivelse |",
+            "|------|---------|------|",
+            "| **Sender i egen gruppe** | 2% | 1% Operasjoner + 1% Tilbakekjøp |",
+            "| **Tverrgruppe Sending** | 5% | 1% Operasjoner + 1% Tilbakekjøp + 3% Gruppeeier Profittdeling |",
+            "",
+            "**Bruk av avgifter**:",
+            "- **1% Operasjoner**: Brukt til server-, utviklings- og markedsføringskostnader.",
+            "- **1% Kjøpsrefusjon**: Brukt til å tilbakekjøpe $moonini og styrke LP (som skal realiseres i fremtiden).",
+            "- **3% Grupp Eier Profitdeling**: Betalt til gruppeeieren (kun belastet for sending mellom grupper)."
+          ]
+        }
+      },
+      "developer": {
+        "contracts": {
+          "title": "7.1 Kontraktadresse (Venter på distribusjon)",
+          "description": [
+            "Når tokenet offisielt lanseres, vil alle smartkontraktsadresser bli kunngjort her, sammen med tilsvarende tekniske spesifikasjonslenker.",
+            "",
+            "**Hovedkontraktsmoduler**:",
+            "- Tokenkontrakt",
+            "- Styring og Forsinkelseskontroll",
+            "- Offentlig Tilbud Kasse",
+            "- Team Allokering Statskasse",
+            "- Tilbakekjøpshåndtering",
+            "- Likviditetspool",
+            "- Multi-Signature Wallet",
+            "",
+            "*For detailed contract addresses and technical specifications, please refer to the: [Technical Specification Document](/no-NO/docs/technical)*"
+          ]
+        },
+        "api": {
+          "title": "7.2 Integrasjonsmoduser og API (I planlegging)",
+          "intro": [
+            "moonpacket planlegger å tilby et komplett API-økosystem, som gjør det mulig for tredjepartsutviklere og partnere å enkelt integrere $moonini-belønningsmekanismen i produktene sine. Enten det er en Telegram-bot, Web3-spill eller markedsføringskampanjeplattform, lar API-en vår brukere motta $moonini-belønninger, noe som utvider økologisk innflytelse."
+          ],
+          "types": [
+            "**API-typer**:",
+            "",
+            "Vi planlegger å tilby følgende typer API-er for å møte ulike integrasjonsbehov:",
+            "",
+            "- **Data Reading API**: Forespørsel om Red Packet distribusjonsregistre, oppgavefullføringsstatus, bruker $moonini saldo, og mer, slik at partnere kan forstå brukerens aktivitetsstatus.",
+            "",
+            "- **Distribusjons- og Oppgave-API**: Tillater partnere å utløse Red Packet-distribusjoner eller oppgavebelønninger i sine egne produkter, for eksempel automatisk distribusjon av $moonini-belønninger når brukere oppnår spesifikke milepæler i et spill.",
+            "",
+            "- **Webhook-hendelser**: Systemet varsler proaktivt partnere om viktige hendelser som når brukere fullfører oppgaver, krever Red Packets, eller fullfører uttak, noe som muliggjør sanntidsrespons og datasykronisering."
+          ],
+          "security": [
+            "**Sikkerhet og Tillatelser**:",
+            "",
+            "For å sikre sikkerheten og stabiliteten til API-en, implementerer vi følgende mekanismer:",
+            "",
+            "- **API-nøkkelautentisering**: Hver partner vil motta en dedikert API-nøkkel eller applikasjons-ID for identifikasjon og autorisasjon.",
+            "",
+            "- **Begrensning av forespørsel**: Alle API-forespørselen er begrenset for å forhindre misbruk og overbelastning, og sikrer stabilitet i tjenesten.",
+            "",
+            "- **Signaturverifisering**: Kritiske operasjoner (f.eks. utstedelse av belønninger) krever verifisering av forespørselssignatur for å forhindre forfalskning og uautoriserte handlinger.",
+            "",
+            "- **Tilgangsnivåer**: Ulike partnere vil ha forskjellige API-tilgangsnivåer basert på deres samarbeid og behov, noe som sikrer prinsippet om minst privilegium."
+          ],
+          "release": [
+            "**Utgivelsesrytme**:",
+            "",
+            "API-en vil adoptere en progressiv åpningsstrategi for å sikre stabilitet og sikkerhet:",
+            "",
+            "- **Lukket Beta**: Opprinnelig gitt til partnere og tidlige spillutviklere i et lukket beta-format for å samle tilbakemeldinger og optimalisere opplevelser.",
+            "",
+            "- **Gradvis Åpning**: Etter å ha verifisert stabiliteten i Beta-fasen, vil applikasjoner gradvis åpne for å la flere utviklere integrere $moonini-økosystemet.",
+            "",
+            "- **Formell utgivelse**: Når API-et når produksjonsnivå stabilitet, vil det bli offisielt åpnet for publikum, og gi komplett dokumentasjon og støtte."
+          ],
+          "scenarios": {
+            "title": "Typiske integrasjons scenarier",
+            "items": [
+              "**Telegram Bot / Mini App**: Send Red Packets i dine grupper eller applikasjoner for å la brukere motta $moonini belønninger, noe som øker brukerengasjementet.",
+              "",
+              "**Web3-spill**: Rapportér oppgavefullføringsstatus i spill til moonpacket, slik at spillere automatisk kan motta ekstra $moonini-belønninger ved å fullføre spilloppgaver.",
+              "",
+              "**Markedsføringskampanjeplattformer**: Send automatisk $moonini belønninger basert på brukeradferd på sosiale medier (f.eks. deling, retweeting, følging, osv.), og oppnå presis markedsføring.",
+              "",
+              "**DeFi Protokoller**: Integrer $moonini som et tillegg til belønningsnivået, slik at brukere kan tjene $moonini-belønninger i tillegg til originale gevinster for å fullføre spesifikke DeFi-handlinger.",
+              "",
+              "**Innholdsproduksjonsplattformer**: Automatisk utdeling av $moonini belønninger når skapere fullfører spesifikke oppgaver eller når milepæler, som oppmuntrer til kvalitet i innholdsproduksjon."
+            ]
+          }
+        },
+        "tools": {
+          "title": "7.3 Utviklerverktøy og dokumentasjon",
+          "description": [
+            "For å hjelpe utviklere med å integrere moonpacket API enklere, planlegger vi å tilby komplette utviklerverktøy og dokumentasjon:",
+            "",
+            "- **Utviklerportal**: Gir et samlet inngangspunkt for utviklere, inkludert API-nøkkeladministrasjon, bruksstatistikk, feillogg og mer, som gjør det enkelt for utviklere å administrere sine integrasjoner.",
+            "",
+            "- **API Dokumentasjon**: Tilbyr omfattende REST API- og Webhook-dokumentasjon, inkludert forespørselseksempler, svarformater, feilkodeforklaringer osv., slik at utviklere raskt kan komme i gang.",
+            "",
+            "- **SDK og kodeeksempler**: Tilbyr SDK-er på flere språk (som JavaScript, Python) og kodeeksempler for å senke integrasjonsbarrierer, noe som gjør det mulig for utviklere å implementere raskt.",
+            "",
+            "For øyeblikket blir tekniske dokumenter presentert fra dokumententralen (docs) teknisk side, inkludert spesifikasjoner for smarte kontrakter, distribusjonsmekanismer, oppgavesystemer og andre tekniske detaljer. Fullstendig API-dokumentasjon vil bli organisert på siden 《[Utvikler API-dokumentasjon](/no-NO/docs/api/)》, og offisiell API-dokumentasjon og utviklerverktøy vil bli gradvis lansert rundt hovednettlanseringen, så vær vennlig å følge med."
+          ]
+        }
+      },
+      "roadmap": {
+        "labels": {
+          "current": "Under behandling",
+          "done": "Fullført"
+        },
+        "phase1": {
+          "title": "Fase 1: Infrastruktur (Fullført ✅)",
+          "items": [
+            "- [x] Design av tokenkontrakt",
+            "- [x] Teknisk spesifikasjonsdokument",
+            "- [x] Datadesign"
+          ]
+        },
+        "phase2": {
+          "title": "Fase 2: Kontraktsutvikling (Pågår 🚧)",
+          "items": [
+            "- [ ] Utrulling av tokenkontrakt (Testnet)",
+            "- [ ] Fasehåndteringskontrakt",
+            "- [ ] Vestingskontrakt",
+            "- [ ] Timelock-integrering",
+            "- [ ] Tredjepartsrevisjon"
+          ]
+        },
+        "phase3": {
+          "title": "Fase 3: Lanseringsforberedelse (Planlagt 📅)",
+          "items": [
+            "- [ ] Mainnet-deployering",
+            "- [ ] Opprettelse av initial likviditetspool",
+            "- [ ] Lansering av brukerincentivsystem",
+            "- [ ] Dashbordlansering"
+          ]
+        },
+        "phase4": {
+          "title": "Fase 4: Økosystemutvidelse (Fremtid 🔮)",
+          "items": [
+            "- [ ] Aktivisering av POL buyback-mekanisme",
+            "- [ ] Tverrkjede-støtte (Polygon / Arbitrum)",
+            "- [ ] Flere DeFi-integrasjoner"
+          ]
+        }
+      },
+      "risks": {
+        "technical": {
+          "title": "9.1 Teknisk Risiko",
+          "description": [
+            "| Risiko | Beskrivelse | Tiltak for risikoredusering |",
+            "|------|------|---------|",
+            "| Smarte kontrakt sårbarheter | Kontrakten kan ha ukjente sårbarheter | Gjennom tredjepartsrevisjoner, Bug Bounty |",
+            "| Privat nøkkel lekkasje | Admin private nøkler kan bli stjålet | Bruk maskinvarelommebøker, MPC, multisignatur |",
+            "| Nettverksbelastning | BSC topptider kan forårsake forsinkelser | Multi-node redundans, Gassoptimalisering |"
+          ]
+        },
+        "market": {
+          "title": "9.2 Markedsrisiko",
+          "description": [
+            "- **Prisvolatilitet**: Tokenpriser kan variere betydelig.",
+            "- **Likviditetsrisiko**: Initiell likviditet kan være utilstrekkelig",
+            "- **Regulatorisk risiko**: Reguleringer i ulike land kan endres"
+          ]
+        },
+        "notice": {
+          "title": "9.3 Brukermerknad",
+          "description": [
+            "- ⚠️ **Investeringsrisiko**: Tokenpriser kan falle til null, vennligst invester med forsiktighet",
+            "- ⚠️ **Ikke investeringsråd**: Dette hvite papiret utgjør ikke noe investeringsråd",
+            "- ⚠️ **Gjør Din Egen Forskning**: Vennligst undersøk og vurder risikoene selv"
+          ]
+        }
+      },
+      "faq": {
+        "title": "Ti, problemer å bekrefte",
+        "description": [
+          "Dette hvite papiret beskriver de grunnleggende designprinsippene og den økonomiske modellen for $moonini. Følgende forhold er fortsatt under koordinering med rådgivere og partnere, og vil bli fullført før lanseringen av mainnet:",
+          "",
+          "- **Tidspunkt for tokenutstedelse og notering av børser**: Det spesifikke tidspunktet for utstedelsen og om det vil bli notert på sentraliserte børser (CEX) er fortsatt under koordinering med rådgivere og partnere.",
+          "",
+          "- **Tekniske Detaljer**: Noen tekniske implementeringsdetaljer (slik som støtte for krysskjeder og justeringer av parametrene for tilbakekjøpsstrategi) vil bli ferdigstilt før hovednettlanseringen og oppdatert i det tekniske dokumentet.",
+          "",
+          "- **Samsvar og Beskatning**: Krav til samsvar og beskatning oppdateres kontinuerlig basert på faglige vurderinger fra Taiwan og det lokale området for å sikre overholdelse av lokale forskrifter.",
+          "",
+          "- **Oppdateringer av White Paper**: Dette white paperet kan ha mindre justeringer, men de grunnleggende prinsippene (90/10 fordeling, 6-fase halveringsmekanisme, innlåsing og lineær utgivelse) forblir uendret.",
+          "",
+          "Alle tekniske detaljer, distribusjonstrinn og funksjonsgrensesnitt kan finnes i [Teknisk spesifikasjonsdokument](/no-NO/docs/technical)."
+        ]
+      }
+    },
+    "charts": {
+      "phase": {
+        "title": "6-fase halveringsmekanisme",
+        "description": "Jo tidligere du deltar, jo flere tokens vil du motta",
+        "xAxis": "Sirkulasjon",
+        "yAxis": "Innløsningsforhold (per 1 USDT)",
+        "phase": "Fase",
+        "ratio": "Forhold",
+        "range": "Intervall",
+        "units": {
+          "ratio": "Biter",
+          "usdt": "USDT"
+        }
+      },
+      "vesting": {
+        "title": "Utgivelsesplan",
+        "description": "Teamallokering vil være låst i 3 måneder, deretter frigitt lineært etter kategori",
+        "cliff": "Låseperiode",
+        "linear": "Lineær utgivelsesperiode",
+        "total": "Total Varighet",
+        "months": "Måneder",
+        "operations": "Operasjoner",
+        "tech": "Teknisk Team",
+        "marketing": "Offentlighet/Markedføring",
+        "investors": "Tidlige investorer"
+      },
+      "flow": {
+        "title": "Token Sirkulasjonsflyt",
+        "userSend": "Bruker Sender Red Packet",
+        "fee": "Transaksjonsgebyrer",
+        "operations": "Driftskostnader",
+        "pol": "Tilbakekjøpsfond",
+        "accumulate": "Akkumulering",
+        "trigger": "Tilbakekjøp Utløser",
+        "swap": "Token Swap",
+        "addLiquidity": "Legg til likviditet",
+        "pool": "Likviditetspool"
+      },
+      "governance": {
+        "title": "Styringsprosess",
+        "multisig": "Multisignatur-lommebok",
+        "proposal": "Forslag",
+        "timelock": "Forsinket utføring",
+        "execute": "Utfør",
+        "update": "Oppdater"
+      },
+      "architecture": {
+        "title": "Smart Contract Arkitektur",
+        "token": "Tokenkontrakt",
+        "vault": "Valut",
+        "manager": "Leder",
+        "protection": "Beskyttelsesmekanisme"
+      },
+      "progress": {
+        "title": "Fase Fremskritt",
+        "current": "Nåværende fase",
+        "issued": "Utstedt",
+        "remaining": "Gjenstående"
+      }
+    }
+  },
+  "api": {
+    "actions": {
+      "items": {
+        "0": "Les [whitepaper](/no-NO/docs/whitepaper/) for å lære om $moonini-tokenet og dets økonomiske modell.",
+        "1": "Les [Tekniske Spesifikasjoner Dokumentet](/no-NO/docs/technical/) for å forstå smarte kontrakter og utgivelsesmekanikken.",
+        "2": "Send inn din forespørsel om API-samarbeid gjennom offisielle kanaler (Telegram, E-post), så vil vi prioritere å varsle deg når APIet er klart."
+      },
+      "title": "Hva kan du gjøre nå?"
+    },
+    "content": {
+      "0": "Denne siden vil snart tilby fullstendig dokumentasjon for Moonpacket / $moonini API, inkludert tekniske detaljer om REST API, Webhook-hendelser, OAuth-autentisering, API-nøkkeladministrasjon og mer.",
+      "2": "API-en er for øyeblikket i design- og intern valideringsfase og vil først bli gjort tilgjengelig i en lukket beta for et utvalg av partnere for å teste, samle tilbakemeldinger og optimalisere opplevelsen.",
+      "4": "Alle tekniske detaljer bør referere til 'Tekniske spesifikasjoner' og hvitboken før den offisielle API-dokumentasjonen publiseres."
+    },
+    "description": "Lær hvordan du integrerer moonpacket og $moonini i produktene dine gjennom API-en.",
+    "seo": {
+      "description": "Fullfør API-dokumentasjon, REST API, Webhook og integrasjonsveiledning",
+      "title": "Moonpacket / $moonini API Dokumentasjon — moonpacket"
+    },
+    "status": {
+      "planned": "(I planlegging)"
+    },
+    "subtitle": "Fullstendig API-dokumentasjon og integrasjonsguide (i planlegging)",
+    "title": "Moonpacket / $moonini API-dokumentasjon"
+  },
+  "countdown": {
+    "days": "Himmel",
+    "hours": "Time",
+    "minutes": "minutter",
+    "seconds": "andre",
+    "title": "Avstand til den offisielle utgivelsen av $moonini"
+  },
+  "disclaimer": {
+    "badge": "Viktig melding",
+    "text": "Dette elementet er fortsatt under utvikling og vil følge tidslinjen som er skissert på hjemmesiden. Det hvite papiret kan fortsatt være gjenstand for endringer før den offisielle tokenfordelingen, og vi ber om brukernes forståelse. Etter tokenfordelingen vil det generelt ikke bli gjort endringer."
+  },
+  "distribution": {
+    "back_to_whitepaper": "Gå tilbake til Whitepaper",
+    "description": "Forstå reglene for intern fordeling og regnskapsmetoder for $moonini",
+    "intro": {
+      "0": "**Dette dokumentet er ment for ingeniører og backend-utviklere**, og definerer de spesifikke reglene for 'hvordan utstede, hvordan brukere kan løse inn og se' innen moonpacket-produktet.",
+      "2": "**Designprinsipper**:",
+      "3": "- **Minimal endringer**: Prioriter å bruke den eksisterende datamodellen, uten å umiddelbart legge til komplekse DB-tabeller.",
+      "4": "- **Utvidbar**: I fremtiden, hvis $moonini ønsker å være helt on-chain, må vi bare legge til uttaks-/kartleggingslogikk.",
+      "5": "- **Transparent og Sporbar**: Alle $moonini distribusjoner og forbruk er registrert i `user_activity_logs`",
+      "7": "**Hovedinnhold**:",
+      "8": "- Datamodell og regnskapsmetode (intern hovedbok)",
+      "9": "- $moonini distribusjonskilde og regler",
+      "10": "- Detaljer om implementering av regnskap",
+      "12": "*Dette dokumentet inneholder tekniske detaljer, generelle brukere kan referere til [whitepaper](/no-NO/docs/whitepaper/) for en oversikt over prosjektet.*",
+      "14": "For detailed documentation, please refer to: `docs/technical/moonini-distribution.md`"
+    },
+    "seo": {
+      "description": "Fullfør $moonini distribusjonsregler og instruksjoner for regnskapssystemet",
+      "title": "$moonini distribusjonsmekanisme — moonpacket"
+    },
+    "title": "$moonini distribusjon og innsamling design"
+  },
+  "index": {
+    "description": "Fullfør prosjektets dokumentasjon, hvitbok og tekniske spesifikasjoner",
+    "sections": {
+      "general": "Generelle dokumenter",
+      "technical": "Teknisk dokumentasjon"
+    },
+    "title": "moonpacket Dokument Senter"
+  },
+  "missions": {
+    "back_to_whitepaper": "Tilbake til White Paper",
+    "description": "Lær hvordan du kan tjene $moonini gjennom oppgaver og prestasjoner.",
+    "intro": {
+      "0": "**Dette dokumentet er rettet mot ingeniører og produktutviklere**, og definerer oppdragssystemet og belønningsmekanismen til $moonini, og inkluderer en følelse av prestasjon og sosiale oppgaver i tillegg til de to kjernehandlingene \"Red Packet + Inviter venner.\"",
+      "2": "**Designprinsipper**:",
+      "3": "- Alle oppgaver \"ekstra $moonini\" handler i hovedsak om: **å sende Red Packet, invitere venner, følge offisielle fellesskap**",
+      "4": "- 'Engangsoppgave' vil forsvinne permanent etter fullføring.",
+      "5": "- Oppgave systemet gir kun \"bonuspoeng\" og endrer ikke de grunnleggende fordelingsreglene.",
+      "7": "**Oppgavekategori**:",
+      "8": "- **Oppgave for prestasjoner** (én gang): Milepæler for å sende Red Packet, milepæler for å invitere venner, osv.",
+      "9": "- **Sosiale oppgaver** (engangs): Følg offisielle sosiale medier, bli med i offisielle samfunn, osv.",
+      "10": "- **Daglige/Ukesoppgaver** (Reservert): Fremtidige skalerbare periodiske oppgaver",
+      "12": "*Dette dokumentet inneholder tekniske detaljer; vanlige brukere kan se til [whitepaper](/no-NO/docs/whitepaper/) for en oversikt over prosjektet.*",
+      "14": "For detailed documentation, please refer to: `docs/technical/moonini-missions.md`"
+    },
+    "seo": {
+      "description": "Fullfør beskrivelse av oppdragssystem og prestasjonsmekanisme",
+      "title": "$moonini Oppgave System — moonpacket"
+    },
+    "title": "$moonini oppgaver og prestasjonsdesign"
+  },
+  "nav": {
+    "api": "API-dokumentasjon",
+    "distribution": "Distribusjonsmekanisme",
+    "docs": "Dokument",
+    "missions": "Oppgave System",
+    "technical": "Tekniske spesifikasjoner",
+    "whitepaper": "White Paper"
+  },
+  "technical": {
+    "back_to_whitepaper": "Tilbake til White Paper",
+    "description": "Ingeniører utvikler spesifikasjoner, inkludert grensesnitt for smarte kontrakter, fase logikk og POL mekanismer.",
+    "intro": {
+      "0": "**Dette dokumentet er ment for ingeniører, smarte kontraktsutviklere og revisorer**, og inneholder fullstendige tekniske implementeringsdetaljer.",
+      "2": "**Målkjede**: Binance Smart Chain (BSC)",
+      "3": "**Versjon**: v1.0 (2024-11)",
+      "5": "**Hovedinnhold**：",
+      "6": "- Smart kontraktsarkitektur og grensesnittdefinisjon",
+      "7": "- Faseledelse logikk (6-trinns halveringsmekanisme)",
+      "8": "- POL (Repurchase- og Markedskap-implementering) mekanisme",
+      "9": "- Utbetalingsfrigivelsesmekanisme",
+      "10": "- Styring og Sikkerhetsdesign",
+      "11": "- Kodeeksempler og tekniske diagrammer",
+      "13": "*Dette dokumentet inneholder tekniske detaljer. Generelle brukere kan referere til [white paper](/no-NO/docs/whitepaper/) for en oversikt over prosjektet.*",
+      "15": "For detailed technical documentation, please refer to: `docs/technical/moonini-bsc-technical-spec.md`"
+    },
+    "seo": {
+      "description": "Fullfør BSC smart kontrakt tekniske spesifikasjoner og utviklingsveiledning",
+      "title": "$moonini Tekniske Spesifikasjoner — moonpacket"
+    },
+    "title": "$moonini BSC tekniske spesifikasjoner"
+  },
+  "title": "Dokument",
+  "toc": {
+    "back_to_index": "Tilbake til Dokument Senter",
+    "title": "Katalog"
+  }
+}

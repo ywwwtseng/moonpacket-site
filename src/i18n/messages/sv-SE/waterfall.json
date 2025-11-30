@@ -1,0 +1,27 @@
+{
+  "sent_from": "Skicka till grupp:",
+  "claimed": "Kräva",
+  "total": "Totalt",
+  "progress": "Redan hämtad",
+  "groups_directory": {
+    "latest_tab": "Senaste Red Packet-grupper",
+    "hot_tab": "Populära Red Packet-grupper",
+    "search_placeholder": "Sök efter nyckelord i anslutna grupper"
+  },
+  "marquee": {
+    "templates": {
+      "send": "💰 {user} utfärdade ett {amount} {ccy} Red Packet i '{group}'!",
+      "claim": "🎯 {user} mottog {amount} {ccy}, Luckiest Player!",
+      "topup": "🔥 Gruppens ägare {user} satte in {amount} {ccy}",
+      "system": "📢 {message}",
+      "achievement": "🥇 Dagens luckiest player: @{user} (ackumulerade {amount} {ccy})"
+    },
+    "fallback": [
+      "💰 John utfärdade ett 100 USDT red packet i 'Spelgille A'!",
+      "🎯 Lisa hämtade 3.5 USDT, den lyckligaste av dem alla!",
+      "🔥 Gruppen ägare Ken satte in 2000 USDT",
+      "📢 Systemuppgradering slutförd, tillade SOL-stöd!",
+      "🥇 Dagens lyckligaste: @Mina (ackumulerade 28.3 USDT)"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "sent_from": "Gruba gönder:",
+  "claimed": "Talep Et",
+  "total": "Toplam",
+  "progress": "Zaten talep edildi",
+  "groups_directory": {
+    "latest_tab": "Son Red Packet Grupları",
+    "hot_tab": "Popüler Red Packet Grupları",
+    "search_placeholder": "Katıldığınız gruplarda anahtar kelimeleri arayın"
+  },
+  "marquee": {
+    "templates": {
+      "send": "💰 {user} '{group}' içinde {amount} {ccy} Red Packet gönderdi!",
+      "claim": "🎯 {user} {amount} {ccy} aldı, En Şanslı Oyuncu!",
+      "topup": "🔥 Grup sahibi {user} {amount} {ccy} yatırdı",
+      "system": "📢 {message}",
+      "achievement": "🥇 Bugünün en şanslı oyuncusu: @{user} ({amount} {ccy} biriktirdi)"
+    },
+    "fallback": [
+      "💰 John, 'Oyun Guild A'da 100 USDT'lik bir kırmızı paket çıkardı!",
+      "🎯 Lisa 3.5 USDT'yi talep etti, en şanslısı!",
+      "🔥 Grup sahibi Ken, 2000 USDT yatırdı",
+      "📢 Sistem güncellemesi tamamlandı, SOL desteği eklendi!",
+      "🥇 Bugünün en şanslısı: @Mina (toplam 28.3 USDT)"
+    ]
+  }
+}

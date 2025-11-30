@@ -1,0 +1,27 @@
+{
+  "sent_from": "Stuur naar groep:",
+  "claimed": "Claim",
+  "total": "Totaalbedrag",
+  "progress": "Al geclaimd",
+  "groups_directory": {
+    "latest_tab": "Laatste Red Packet Groepen",
+    "hot_tab": "Populaire Red Packet Groepen",
+    "search_placeholder": "Zoek naar trefwoorden in aangesloten groepen"
+  },
+  "marquee": {
+    "templates": {
+      "send": "💰 {user} heeft een {amount} {ccy} Red Packet uitgegeven in '{group}'!",
+      "claim": "🎯 {user} heeft {amount} {ccy} ontvangen, Gelukkige Speler!",
+      "topup": "🔥 Groeps eigenaar {user} heeft {amount} {ccy} gestort",
+      "system": "📢 {message}",
+      "achievement": "🥇 De gelukkigste speler van vandaag: @{user} (in totaal {amount} {ccy})"
+    },
+    "fallback": [
+      "💰 John heeft een rode envelop van 100 USDT uitgegeven in 'Game Guild A'!",
+      "🎯 Lisa heeft 3.5 USDT geclaimd, de gelukkigste van allemaal!",
+      "🔥 Groepsbeheerder Ken heeft 2000 USDT gestort",
+      "📢 Systeemupgrade voltooid, SOL-ondersteuning toegevoegd!",
+      "🥇 Vandaag de gelukkigste: @Mina (in totaal 28.3 USDT)"
+    ]
+  }
+}

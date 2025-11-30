@@ -1,0 +1,445 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import { getLocalesForBuild, defaultLocale } from '@/i18n/locales.config';
+import { LOCALE_ORDER } from '@/config/locales';
+import { isRTL } from '@/i18n/rtl';
+import ApiFlow from '@/components/api/ApiFlow.astro';
+
+export async function getStaticPaths() {
+  const locales = getLocalesForBuild();
+  return locales.map((l) => ({ params: { lang: l.code } }));
+}
+
+const { lang } = Astro.params as { lang: string };
+const rtl = isRTL(lang);
+
+// Load messages
+const messages = await import('@/i18n/loadMessages')
+  .then((m) => m.loadAllMessages(lang as any))
+  .catch(async () => {
+    const fallback = await import('@/i18n/loadMessages').then((m) =>
+      m.loadAllMessages(defaultLocale),
+    );
+    return fallback;
+  });
+
+const apiDocs = messages.docs?.litepaper_api || {};
+const seoTitle = apiDocs.meta?.title || "Moonpacket API Hub";
+const seoDescription = apiDocs.meta?.description || "Developer Integration Guide";
+const canonical = new URL(Astro.url.pathname, Astro.site || Astro.url.origin).toString();
+
+// Helper for bold text and brand styling
+const md = (text: string) => {
+  if (!text) return '';
+  let processed = text.replace(/\*\*(.*?)\*\*/g, '<strong class="text-[var(--gold)]">$1</strong>');
+  // Replace Moonpacket (case insensitive) with styled brand word
+  processed = processed.replace(/Moonpacket/gi, '<span class="brand-word text-[var(--text)]" style="font-weight: 700;">moonpacket</span>');
+  return processed;
+};
+
+console.log('[API Page] Rendering for lang:', lang);
+
+const reqModeA = `GET /check HTTP/1.1
+Host: api.your-game.com
+Content-Type: application/json
+X-API-KEY: 1234567890
+X-API-TIMESTAMP: 1698765432
+X-API-NONCE: 987654
+X-API-SIGNATURE: 5d41402abc4b2a76b9719d911017c592...
+
+# No user_id = Get Rules`;
+
+const resModeA = `{
+  "data": {
+    "level": {
+      "gt": 99
+    },
+    "status": {
+      "eq": "active"
+    },
+    "is_blacklist": {
+      "eq": false
+    }
+  }
+}`;
+
+const reqModeB = `GET /check?user_id=666666666 HTTP/1.1
+Host: api.your-game.com
+Content-Type: application/json
+X-API-KEY: 1234567890
+X-API-TIMESTAMP: 1698765432
+X-API-NONCE: 123456
+X-API-SIGNATURE: a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6...
+
+# With user_id = Get User Status`;
+
+const codeExample = `import crypto from "crypto";
+
+// 1. Generate Signature
+function generateSignature(
+  apiSecret: string,
+  body: object,
+  timestamp: number,
+  nonce?: string
+) {
+  const payload = JSON.stringify(body) + timestamp + (nonce || "");
+  return crypto.createHmac("sha256", apiSecret).update(payload).digest("hex");
+}
+
+// Client Usage Example
+const apiKey = "client123";
+const apiSecret = "mysecretkey";
+const body = { /* Query Params or Body */ }; 
+const timestamp = Date.now();
+const nonce = crypto.randomBytes(8).toString("hex");
+
+const signature = generateSignature(apiSecret, body, timestamp, nonce);
+
+console.log({ apiKey, timestamp, nonce, signature });
+
+// 2. Verify Signature
+function verifySignature(
+  apiSecret: string,
+  body: object,
+  timestamp: number,
+  nonce: string,
+  signature: string
+) {
+  const expected = generateSignature(apiSecret, body, timestamp, nonce);
+  return expected === signature;
+}
+
+// Verification Result
+const isValid = verifySignature(apiSecret, body, timestamp, nonce, signature);
+console.log("Is Valid:", isValid);`;
+
+const resModeB = `{
+  "data": {
+    "level": 100,
+    "status": "active",
+    "is_blacklist": false
+  }
+}`;
+
+const tsDefs = `// Step 1: Rules Definition
+interface RulesResponse {
+  data: {
+    [key: string]: {
+      eq?: string | number | boolean;
+      gt?: number;
+      gte?: number;
+      lt?: number;
+      lte?: number;
+    };
+  };
+}
+
+// Step 2: User Status
+interface UserStatusResponse {
+  data: {
+    [key: string]: string | number | boolean;
+  };
+}`;
+---
+
+<BaseLayout
+  lang={lang}
+  title={seoTitle}
+  description={seoDescription}
+  canonicalUrl={canonical}
+  allLocales={LOCALE_ORDER}
+>
+  <!-- Background Ambient Glows -->
+  <div class="fixed inset-0 pointer-events-none overflow-hidden -z-10">
+    <div class="absolute top-0 left-1/4 w-[800px] h-[800px] bg-[var(--primary)] opacity-[0.03] rounded-full blur-[120px]"></div>
+    <div class="absolute bottom-0 right-1/4 w-[600px] h-[600px] bg-[var(--gold)] opacity-[0.03] rounded-full blur-[100px]"></div>
+  </div>
+
+  <main class="mx-auto max-w-5xl px-4 py-16 space-y-24">
+    
+    <!-- 1. Hero -->
+    <section class="text-center relative">
+      <div class="inline-flex items-center gap-2 rounded-full border border-[var(--gold)]/20 bg-[var(--gold)]/5 px-4 py-1.5 text-xs font-medium text-[var(--gold)] mb-8 backdrop-blur-sm">
+        <span class="relative flex h-2 w-2">
+          <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-[var(--gold)] opacity-75"></span>
+          <span class="relative inline-flex h-2 w-2 rounded-full bg-[var(--gold)]"></span>
+        </span>
+        {apiDocs.hero?.badge}
+      </div>
+
+      <h1 class="text-4xl md:text-6xl font-bold tracking-tight mb-6 text-[var(--text)]">
+        {apiDocs.hero?.title}
+      </h1>
+      
+      <p class="mx-auto max-w-2xl text-lg md:text-xl text-[var(--text-subtle)] leading-relaxed mb-10" set:html={md(apiDocs.hero?.desc)}>
+      </p>
+
+      <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+        <a href="#spec" class="w-full sm:w-auto rounded-xl bg-[var(--primary)] px-8 py-4 text-sm font-bold text-white shadow-lg shadow-[var(--primary)]/20 transition-all hover:scale-105 hover:bg-opacity-90">
+          {apiDocs.hero?.cta_docs}
+        </a>
+        <a href={`/${lang}/docs/litepaper/`} class="w-full sm:w-auto rounded-xl border border-[var(--card-ring)] bg-[var(--card-bg)]/50 backdrop-blur-sm px-8 py-4 text-sm font-bold text-[var(--text)] transition-all hover:bg-[var(--card-bg)] hover:border-[var(--primary)]/30">
+          {apiDocs.hero?.cta_key}
+        </a>
+      </div>
+    </section>
+
+    <!-- 2. Logic Flow -->
+    <section id="overview" class="space-y-12">
+      <div class="max-w-3xl mx-auto text-center space-y-6">
+        <h2 class="text-3xl md:text-4xl font-bold text-[var(--text)]">{apiDocs.content?.logic?.title || "Interaction Logic"}</h2>
+        <p class="text-[var(--text-subtle)] text-lg leading-relaxed px-4" set:html={md(apiDocs.content?.logic?.desc)}>
+        </p>
+      </div>
+
+      <!-- Api Flow Diagram (SVG) -->
+      <ApiFlow 
+        texts={{
+          user: apiDocs.content?.diagram?.user || "User",
+          moonpacket: "moonpacket",
+          dev_api: apiDocs.content?.diagram?.dev_api || "Developer API",
+          step1: apiDocs.content?.diagram?.step1 || "Query Rules", // Fallback for safety
+          step2: apiDocs.content?.diagram?.step2 || "Query Status",
+          click: apiDocs.content?.diagram?.click || "Click",
+          check: apiDocs.content?.diagram?.check || "Logic Check",
+          grant: apiDocs.content?.diagram?.grant || "Grant Reward",
+          client_app: apiDocs.content?.diagram?.client_app || "Client App / Server",
+          json_data: apiDocs.content?.diagram?.json_data || "JSON Data",
+          saved_rule: apiDocs.content?.diagram?.saved_rule || "Saved Rule:",
+          user_state: apiDocs.content?.diagram?.user_state || "User State:"
+        }}
+      />
+
+      <!-- Logic Modes Grid -->
+      <div class="grid md:grid-cols-2 gap-8">
+        {apiDocs.content?.logic?.modes?.map((mode: any, i: number) => (
+           <div class="group relative p-8 rounded-3xl bg-[var(--card-bg)]/90 dark:bg-[var(--card-bg)]/40 backdrop-blur-md border border-[var(--card-ring)] hover:border-[var(--gold)]/30 transition-all hover:-translate-y-1 hover:shadow-xl hover:shadow-[var(--gold)]/5 shadow-sm dark:shadow-none">
+             <div class="absolute inset-0 bg-gradient-to-b from-[var(--gold)]/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity rounded-3xl pointer-events-none"></div>
+             <div class="text-xs font-bold text-[var(--gold)] mb-3 uppercase tracking-wider flex items-center gap-2">
+                <span class="w-2 h-2 rounded-full bg-[var(--gold)] animate-pulse"></span>
+                {i === 0 ? (apiDocs.content?.logic?.steps?.step1_label || 'Step 1') : (apiDocs.content?.logic?.steps?.step2_label || 'Step 2')}
+             </div>
+             <h3 class="text-xl md:text-2xl font-bold mb-4 text-[var(--text)] group-hover:text-[var(--gold)] transition-colors">{mode.title}</h3>
+             <p class="text-sm md:text-base text-[var(--text-subtle)] mb-4 flex items-center gap-2">
+                <span class="text-lg">⚡</span> {mode.trigger}
+             </p>
+             <div class="space-y-2">
+                <div class="flex items-center gap-2 text-xs md:text-sm font-mono bg-[var(--bg-dark)]/50 p-2 rounded-lg border border-[var(--card-ring)]">
+                    <span class="text-[#10B981] font-bold">GET</span>
+                    <span class="text-[var(--text-subtle)] truncate">{mode.request.replace(/^GET\s+/, '')}</span>
+                </div>
+                <div class="flex items-center gap-2 text-xs md:text-sm font-mono bg-[var(--bg-dark)]/50 p-2 rounded-lg border border-[var(--card-ring)]">
+                    <span class="text-blue-400 font-bold">RET</span>
+                    <span class="text-[var(--text-subtle)] truncate">{mode.response}</span>
+                </div>
+             </div>
+           </div>
+        ))}
+      </div>
+      
+      <div class="bg-[var(--card-bg)]/80 border border-blue-500/20 p-6 rounded-2xl text-center backdrop-blur-sm">
+         <p class="text-[var(--text-subtle)] text-sm md:text-base">💡 <span set:html={md(apiDocs.content?.logic?.note)} /></p>
+      </div>
+    </section>
+
+    <!-- 3. Scenarios -->
+    <section id="scenarios">
+      <h2 class="text-3xl md:text-4xl font-bold text-[var(--text)] mb-12 text-center">{apiDocs.content?.scenarios?.title}</h2>
+      <div class="grid md:grid-cols-3 gap-6">
+        {apiDocs.content?.scenarios?.items?.map((item: any, i: number) => (
+          <div class="group relative p-8 rounded-3xl bg-[var(--card-bg)]/90 dark:bg-[var(--card-bg)]/40 backdrop-blur-md border border-[var(--card-ring)] hover:border-[var(--gold)]/30 transition-all hover:-translate-y-1 hover:shadow-xl hover:shadow-[var(--gold)]/5 shadow-sm dark:shadow-none">
+            <div class="text-4xl mb-6 transform group-hover:scale-110 transition-transform duration-300">{['🎮', '🆔', '🚀'][i]}</div>
+            <h3 class="text-xl font-bold mb-3 text-[var(--text)] group-hover:text-[var(--gold)] transition-colors">{item.title}</h3>
+            <p class="text-[var(--text-subtle)] leading-relaxed text-sm md:text-base" set:html={md(item.desc)}></p>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <!-- 4. Spec (Request/Response) -->
+    <section id="spec" class="space-y-16">
+      <div class="text-center">
+        <h2 class="text-3xl md:text-4xl font-bold text-[var(--text)]">{apiDocs.content?.examples?.title}</h2>
+      </div>
+
+      <!-- Mode A & Mode B Comparison -->
+      <div class="grid lg:grid-cols-2 gap-8">
+        <!-- Mode A -->
+        <div class="space-y-6">
+          <div class="group relative p-6 rounded-3xl bg-[var(--card-bg)]/90 dark:bg-[var(--card-bg)]/40 backdrop-blur-md border border-[var(--card-ring)] transition-all shadow-sm dark:shadow-none">
+             <div class="absolute inset-0 bg-gradient-to-b from-[var(--primary)]/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity rounded-3xl pointer-events-none"></div>
+             <h3 class="text-xl font-bold text-[var(--text)] mb-3 flex items-center gap-2">
+               <span class="px-2 py-1 rounded bg-[var(--primary)]/20 text-[var(--primary)] text-xs font-mono">Mode A</span>
+               {apiDocs.content?.examples?.mode_a?.title}
+          </h3>
+             <p class="text-[var(--text-subtle)] text-sm mb-4" set:html={md(apiDocs.content?.examples?.mode_a?.desc)}></p>
+             
+             <!-- Request -->
+             <div class="relative bg-[#1e1e1e] rounded-xl border border-[var(--card-ring)] overflow-hidden shadow-lg mb-4">
+                <div class="flex items-center px-4 py-2 bg-[#2d2d2d] border-b border-[var(--card-ring)]">
+                    <div class="text-xs text-gray-400 font-mono">{apiDocs.labels?.request || 'request'}</div>
+                </div>
+                <pre class="p-4 text-xs font-mono text-gray-300 leading-relaxed overflow-x-auto"><code>{reqModeA}</code></pre>
+             </div>
+
+             <!-- Response -->
+             <div class="relative bg-[#1e1e1e] rounded-xl border border-[var(--card-ring)] overflow-hidden shadow-lg">
+                <div class="flex items-center px-4 py-2 bg-[#2d2d2d] border-b border-[var(--card-ring)]">
+                    <div class="text-xs text-green-400 font-mono">{apiDocs.labels?.response || 'response'} (200 OK)</div>
+                </div>
+                <pre class="p-4 text-xs font-mono text-gray-300 leading-relaxed overflow-x-auto"><code>{resModeA}</code></pre>
+             </div>
+          </div>
+        </div>
+
+        <!-- Mode B -->
+        <div class="space-y-6">
+          <div class="group relative p-6 rounded-3xl bg-[var(--card-bg)]/90 dark:bg-[var(--card-bg)]/40 backdrop-blur-md border border-[var(--card-ring)] transition-all shadow-sm dark:shadow-none">
+             <div class="absolute inset-0 bg-gradient-to-b from-[var(--gold)]/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity rounded-3xl pointer-events-none"></div>
+             <h3 class="text-xl font-bold text-[var(--text)] mb-3 flex items-center gap-2">
+               <span class="px-2 py-1 rounded bg-[var(--gold)]/20 text-[var(--gold)] text-xs font-mono">Mode B</span>
+               {apiDocs.content?.examples?.mode_b?.title}
+             </h3>
+             <p class="text-[var(--text-subtle)] text-sm mb-4" set:html={md(apiDocs.content?.examples?.mode_b?.desc)}></p>
+             
+             <!-- Request -->
+             <div class="relative bg-[#1e1e1e] rounded-xl border border-[var(--card-ring)] overflow-hidden shadow-lg mb-4">
+                <div class="flex items-center px-4 py-2 bg-[#2d2d2d] border-b border-[var(--card-ring)]">
+                    <div class="text-xs text-gray-400 font-mono">{apiDocs.labels?.request || 'request'}</div>
+                </div>
+                <pre class="p-4 text-xs font-mono text-gray-300 leading-relaxed overflow-x-auto"><code>{reqModeB}</code></pre>
+             </div>
+
+             <!-- Response -->
+             <div class="relative bg-[#1e1e1e] rounded-xl border border-[var(--card-ring)] overflow-hidden shadow-lg">
+                <div class="flex items-center px-4 py-2 bg-[#2d2d2d] border-b border-[var(--card-ring)]">
+                    <div class="text-xs text-green-400 font-mono">{apiDocs.labels?.response || 'response'} (200 OK)</div>
+                </div>
+                <pre class="p-4 text-xs font-mono text-gray-300 leading-relaxed overflow-x-auto"><code>{resModeB}</code></pre>
+             </div>
+          </div>
+        </div>
+      </div>
+
+       <!-- TS Definitions -->
+       <div class="max-w-4xl mx-auto w-full">
+         <h3 class="text-xl font-bold text-[var(--text)] mb-6 text-center">{apiDocs.content?.spec?.ts_def?.title}</h3>
+         <div class="relative bg-[#1e1e1e] rounded-2xl border border-[var(--card-ring)] shadow-2xl overflow-hidden">
+            <div class="flex items-center justify-between px-6 py-3 bg-[#2d2d2d] border-b border-[var(--card-ring)]">
+                <div class="flex gap-2">
+                    <div class="w-3 h-3 rounded-full bg-red-500/50"></div>
+                    <div class="w-3 h-3 rounded-full bg-yellow-500/50"></div>
+                    <div class="w-3 h-3 rounded-full bg-green-500/50"></div>
+                </div>
+                <div class="text-xs font-bold text-blue-400 font-mono">types.d.ts</div>
+            </div>
+            <pre class="p-8 text-sm font-mono text-blue-100 leading-relaxed overflow-x-auto"><code>{tsDefs}</code></pre>
+         </div>
+       </div>
+
+    </section>
+
+    <!-- 5. Reliability & Security (With Code Example) -->
+    <section id="security" class="space-y-8">
+      <div class="text-center">
+        <h2 class="text-3xl md:text-4xl font-bold text-[var(--text)]">🔐 {apiDocs.content?.signature?.title}</h2>
+        <p class="mx-auto max-w-2xl text-[var(--text-subtle)] mt-4" set:html={md(apiDocs.content?.signature?.desc)}></p>
+      </div>
+
+      <div class="grid lg:grid-cols-2 gap-8">
+        <!-- Left: Standards & Steps -->
+        <div class="space-y-6">
+            <div class="group relative p-8 h-full rounded-3xl bg-[var(--card-bg)]/90 dark:bg-[var(--card-bg)]/40 backdrop-blur-md border border-[var(--card-ring)] hover:border-[var(--gold)]/30 transition-all shadow-sm dark:shadow-none flex flex-col justify-center">
+                <div class="space-y-6">
+                    <div>
+                        <h4 class="text-lg font-bold text-[var(--text)] mb-3">{apiDocs.content?.signature?.required_headers || "REQUIRED HEADERS"}</h4>
+                        <div class="flex flex-col gap-2">
+                            {['X-API-KEY', 'X-API-TIMESTAMP', 'X-API-NONCE', 'X-API-SIGNATURE'].map(h => (
+                                <div class="flex items-center gap-2 text-xs font-mono bg-[var(--bg-dark)]/50 p-2 rounded border border-[var(--card-ring)]">
+                                    <span class="text-[var(--gold)]">➜</span>
+                                    <span class="text-[var(--text-subtle)]">{h}</span>
+                                </div>
+                            ))}
+                        </div>
+                    </div>
+
+                    <div>
+                        <h4 class="text-lg font-bold text-[var(--text)] mb-3">{apiDocs.content?.signature?.algo_title || "SIGNATURE ALGORITHM"}</h4>
+                        <div class="text-xs md:text-sm font-mono bg-[#1e1e1e] text-blue-300 p-4 rounded-xl border border-[var(--card-ring)] shadow-inner break-all">
+                            {apiDocs.content?.signature?.formula}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Right: Code Example -->
+        <div class="relative bg-[#1e1e1e] rounded-3xl border border-[var(--card-ring)] overflow-hidden shadow-2xl">
+            <div class="flex items-center justify-between px-6 py-3 bg-[#2d2d2d] border-b border-[var(--card-ring)]">
+                <div class="flex gap-2">
+                    <div class="w-3 h-3 rounded-full bg-red-500/50"></div>
+                    <div class="w-3 h-3 rounded-full bg-yellow-500/50"></div>
+                    <div class="w-3 h-3 rounded-full bg-green-500/50"></div>
+                </div>
+                <div class="text-xs font-bold text-yellow-400 font-mono">verify.ts</div>
+            </div>
+            <pre class="p-6 text-xs font-mono text-gray-300 leading-relaxed overflow-x-auto h-full max-h-[500px]"><code>{codeExample}</code></pre>
+        </div>
+          </div>
+
+      <!-- Reliability Items -->
+      <div class="max-w-4xl mx-auto mt-12">
+        <div class="group relative p-8 rounded-3xl bg-[var(--card-bg)]/90 dark:bg-[var(--card-bg)]/40 backdrop-blur-md border border-[var(--card-ring)] hover:border-[var(--gold)]/30 transition-all">
+            <h3 class="text-xl font-bold mb-4 text-[var(--text)] flex items-center gap-2">
+                <span>⚠️</span> {apiDocs.content?.reliability?.title}
+            </h3>
+            <ul class="grid md:grid-cols-2 gap-4">
+               {apiDocs.content?.reliability?.items?.map((item: string) => (
+                 <li class="flex items-start gap-3 text-sm text-[var(--text-subtle)] bg-[var(--bg-dark)]/30 p-3 rounded-lg">
+                    <span class="text-red-400 mt-0.5">●</span>
+                    <span set:html={md(item)} />
+                 </li>
+               ))}
+            </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Error Codes -->
+    <section id="error-codes" class="max-w-4xl mx-auto w-full">
+      <h3 class="text-2xl font-bold text-[var(--text)] mb-8 text-center">{apiDocs.content?.error_codes?.title}</h3>
+      <div class="overflow-hidden rounded-2xl border border-[var(--card-ring)] bg-[var(--card-bg)]/90 dark:bg-[var(--card-bg)]/40 backdrop-blur-md shadow-lg">
+        <div class="overflow-x-auto">
+          <table class="w-full text-start text-sm md:text-base">
+            <thead class="bg-[var(--bg-dark)]/50 border-b border-[var(--card-ring)]">
+              <tr>
+                <th class="px-6 py-4 font-bold text-[var(--text)]">{apiDocs.labels?.code || 'Code'}</th>
+                <th class="px-6 py-4 font-bold text-[var(--text)]">{apiDocs.labels?.status || 'Status'}</th>
+                <th class="px-6 py-4 font-bold text-[var(--text)]">{apiDocs.labels?.desc || 'Description'}</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-[var(--card-ring)]">
+              {apiDocs.content?.error_codes?.items?.map((item: any) => (
+                <tr class="hover:bg-[var(--primary)]/5 transition-colors">
+                  <td class={`px-6 py-4 font-mono font-bold ${item.code === "200" ? "text-[#10B981]" : "text-red-400"}`}>{item.code}</td>
+                  <td class={`px-6 py-4 font-mono ${item.code === "200" ? "text-[#10B981]" : "text-[var(--gold)]"}`}>{item.status}</td>
+                  <td class="px-6 py-4 text-[var(--text-subtle)]">{item.desc}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. Disclaimer -->
+    <section class="max-w-4xl mx-auto text-center">
+        <div class="inline-block p-6 rounded-2xl bg-[var(--bg-dark)]/30 border border-[var(--card-ring)] backdrop-blur-sm">
+            <h4 class="text-lg font-bold text-[var(--text)] mb-2">⚠️ {apiDocs.content?.disclaimer?.title}</h4>
+            <p class="text-sm text-[var(--text-subtle)] opacity-80">{apiDocs.content?.disclaimer?.text}</p>
+      </div>
+    </section>
+
+  </main>
+</BaseLayout>
+

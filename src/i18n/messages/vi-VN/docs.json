@@ -1,0 +1,1514 @@
+{
+  "litepaper": {
+    "title": "$moonini Litepaper",
+    "description": "Hiểu triết lý thiết kế, mô hình kinh tế và giá trị cốt lõi của token $moonini.",
+    "seo": {
+      "title": "$moonini Litepaper — moonpacket",
+      "description": "$moonini là một token khuyến khích cộng đồng dựa trên nền tảng moonpacket. Tìm hiểu cách để có được, sử dụng và đầu tư vào giá trị của nó."
+    },
+    "hero": {
+      "subtitle": "$moonini là một token khuyến khích cộng đồng dựa trên nền tảng moonpacket. Càng nhiều người dùng tham gia với moonpacket, thực hiện nhiệm vụ và tương tác, họ càng có thể kiếm được nhiều $moonini hơn. Đối với các nhà đầu tư, 90% được phân phối cho người dùng, và 10% còn lại dành cho đội ngũ, với cơ chế giảm một nửa và phát hành theo tuyến tính nhằm giảm thiểu rủi ro bán phá giá, thiết kế cho sự ổn định lâu dài.",
+      "cards": {
+        "user": {
+          "title": "Dành cho Người Dùng Chung",
+          "description": "Kiếm $moonini dễ dàng thông qua việc gửi lì xì, hoàn thành nhiệm vụ, mời bạn bè, v.v. Càng sử dụng nhiều, bạn càng kiếm được nhiều, hoàn toàn miễn phí."
+        },
+        "investor": {
+          "title": "Dành cho Nhà đầu tư",
+          "description": "Tổng cung là 10 tỷ, phân bổ 90/10, 6 giai đoạn giảm một nửa, và phân bổ cho đội ngũ với việc phát hành tuyến tính, được thiết kế để có lợi cho sự ổn định lâu dài và giảm rủi ro bán tháo."
+        },
+        "developer": {
+          "title": "Dành cho Nhà phát triển/Đối tác",
+          "description": "Hợp đồng tiêu chuẩn hóa, API mở, có thể tích hợp vào các ứng dụng hoặc trò chơi khác. Thông qua việc tích hợp API, kết nối sản phẩm của bạn với hệ sinh thái moonpacket."
+        }
+      },
+      "live_status": "Giao thức V1 hiện đã hoạt động",
+      "cta_start": "Bắt đầu đọc",
+      "cta_hub": "Trung tâm Nhà phát triển"
+    },
+    "sections": {
+      "overview": "Tổng quan",
+      "problem": "Vấn đề và Giải pháp",
+      "concept": "Các khái niệm cốt lõi của moonpacket & $moonini",
+      "tokenomics": "Tổng quan về Tokenomics",
+      "emission": "Giảm một nửa và Phát hành",
+      "utility": {
+        "subtitle": "Cách Kiếm và Sử Dụng"
+      },
+      "developer": "Nhà phát triển & Tích hợp API",
+      "governance": "Quản trị và Bảo mật",
+      "roadmap": "Lộ trình",
+      "risks": "Rủi ro và Th disclaimers",
+      "faq": "Câu hỏi thường gặp",
+      "cta": {
+        "title": "Bạn đã sẵn sàng tham gia trải nghiệm xã hội lì xì này chưa?",
+        "earning": "Bắt đầu kiếm lì xì ngay bây giờ",
+        "devs": "Đọc Tài Liệu Phát Triển"
+      },
+      "registry": {
+        "title": "Đăng ký Hợp đồng On-chain",
+        "network": "Chuỗi chính: BSC (Chuỗi BNB)",
+        "audit": "Trạng thái kiểm toán: **Đã lên lịch**"
+      },
+      "defense": {
+        "floor": {
+          "title": "🛡️ Phòng thủ giá sàn thông minh",
+          "mechanism": "Khi giá thị trường tiếp cận mức giá sàn, giao thức sẽ tự động kích hoạt các cơ chế phòng thủ, sử dụng POL (Thanh khoản sở hữu giao thức) đã tích lũy để hỗ trợ. Đây không phải là một khoản thanh toán cứng nhắc; nó sử dụng lý thuyết trò chơi để làm cho chi phí bán khống trở nên vô hạn.",
+          "anti_gaming": "Lưu ý: Để ngăn chặn các cuộc tấn công chênh lệch giá, các ngưỡng kích hoạt và sức mạnh phòng thủ cụ thể được điều chỉnh linh hoạt và các giá trị chính xác sẽ không được công bố."
+        },
+        "anti_bot": {
+          "title": "🚫 Từ chối Quản lý Giao dịch Thị trường",
+          "items": [
+            "Tất cả các giao dịch đều là hành vi của người dùng thực tế",
+            "Không có Bot Tạo Thị Trường",
+            "Từ chối thao túng khối lượng giả và bơm xả"
+          ]
+        }
+      },
+      "lockup": {
+        "title": "Khóa chiến lược",
+        "desc": "Trong một thị trường đầy rẫy 'nhà kho chuột' và 'chip ẩn', chúng tôi đã chọn con đường khó khăn nhưng trung thực nhất. Chúng tôi hiểu sâu sắc rằng chỉ bằng cách hoàn toàn loại bỏ nỗi sợ hãi của người dùng về 'team dumps' thì chúng tôi mới có thể xây dựng được niềm tin thực sự.",
+        "benefit": "Đây không chỉ là về quy tắc khóa; đó là 'tuyên bố chống thu hoạch' của chúng tôi. Thông qua sự tự kiềm chế nghiêm ngặt này, chúng tôi đảm bảo rằng không ai—dù là các nhà sáng lập hay những người nắm giữ lớn—có thể phản bội cộng đồng trong giai đoạn đầu.",
+        "items": [
+          "Hoàn toàn minh bạch, không giấu diếm: Chúng tôi không có ví ẩn hoặc nguồn cung lưu hành sớm không được tiết lộ. Tất cả việc phân phối chip đều có sẵn công khai trên chuỗi, dưới sự giám sát của cộng đồng.",
+          "Cam kết từ đội ngũ, hỗ trợ lâu dài: Thời gian phát hành của đội ngũ cốt lõi kéo dài lên đến 48 tháng (4 năm). Trong thế giới crypto, 4 năm là một chu kỳ dài. Điều này chứng tỏ rằng chúng tôi không ở đây để kiếm tiền nhanh chóng, mà đã quyết tâm trải nghiệm thị trường bò và gấu cùng với cộng đồng và xây dựng giá trị lâu dài.",
+          "Sự Đồng Thuận Của Nhà Đầu Tư: Các nhà đầu tư sớm của chúng tôi gắn bó sâu sắc với văn hóa 'chia sẻ và tặng quà' của lì xì và tự nguyện ký hợp đồng phát hành tuyến tính trong 36 tháng. Điều này có nghĩa là trong giai đoạn đầu của dự án, không bên nào (bao gồm cả nhà đầu tư) có đủ cổ phiếu để ảnh hưởng đến thị trường."
+        ]
+      }
+    },
+    "back_to_top": "↥ Quay lại đầu trang",
+    "content": {
+      "overview": {
+        "paragraphs": [
+          "moonpacket là một công cụ lì xì crypto và marketing được thiết kế đặc biệt cho các cộng đồng Telegram. Dù là cho các hoạt động cộng đồng, quảng bá sự kiện, hay mời những người dùng mới, moonpacket có thể giúp bạn hoàn thành điều đó một cách dễ dàng.",
+          "Để khuyến khích người dùng tiếp tục sử dụng nền tảng và thiết lập mối quan hệ lâu dài, chúng tôi đã ra mắt token khuyến khích cộng đồng $moonini. Mọi hành vi tích cực trên nền tảng, bao gồm gửi lì xì, hoàn thành nhiệm vụ và mời bạn bè, đều có thể kiếm được phần thưởng $moonini tương ứng.",
+          "Đối với người dùng chung, $moonini là một phần thưởng bổ sung khi sử dụng Moonpacket; càng sử dụng nhiều, bạn càng kiếm được nhiều hơn. Đối với các nhà đầu tư, thiết kế kinh tế token của $moonini (90% cho người dùng, 10% cho đội ngũ, phân halving 6 giai đoạn, các đợt mở khóa) giúp giảm thiểu hiệu quả rủi ro bán tháo ngắn hạn và tạo điều kiện cho sự ổn định giá trị lâu dài."
+        ],
+        "highlights": {
+          "title": "Điểm nổi bật chính",
+          "items": [
+            "✅ **Phân phối công bằng**: 90% token được phân phối thông qua hoạt động của người dùng, với 10% dành cho đội ngũ và các nhà đầu tư sớm.",
+            "✅ **Lợi thế sớm**: cơ chế giảm nửa 6 giai đoạn, bạn tham gia càng sớm, bạn nhận được càng nhiều.",
+            "✅ **Giảm rủi ro**: Phân bổ đội ngũ được khóa trong 3 tháng, sau đó sẽ được giải phóng một cách tuyến tính trong 33-45 tháng.",
+            "✅ **Minh bạch và có thể xác minh**: Tất cả phân phối token và quy tắc phát hành đều minh bạch và có thể xác minh trên chuỗi."
+          ]
+        }
+      },
+      "problem": {
+        "title": "Vấn đề và Giải pháp",
+        "problems": {
+          "title": "Các vấn đề trong tiếp thị Web3 / Telegram hiện có",
+          "items": [
+            "**Khó khăn trong việc theo dõi hiệu quả**: Các cơ chế lì xì truyền thống rất khó để theo dõi hiệu quả thực sự; không rõ ai đã nhận, ai đã chia sẻ, hoặc liệu nó có thu hút được người dùng mới hay không.",
+            "**Lợi nhuận ngắn hạn**: Nhiều dự án chỉ tập trung vào lưu lượng ngắn hạn, phát lì xì và rời đi mà không có cơ chế khuyến khích lâu dài.",
+            "**Thiếu động lực dài hạn**: Người dùng rời đi sau khi nhận lì xì, không thể thiết lập mối quan hệ lâu dài và tham gia liên tục."
+          ]
+        },
+        "solutions": {
+          "title": "Giải pháp của moonpacket + $moonini",
+          "items": [
+            "**Theo dõi hành vi hoàn chỉnh**: moonpacket ghi lại việc nhận từng lì xì, chia sẻ hành vi và giới thiệu người dùng mới, giúp bạn hiểu rõ hiệu quả marketing.",
+            "**Cơ chế khuyến khích dài hạn**: Thông qua token $moonini, càng nhiều người dùng tham gia, họ càng kiếm được nhiều hơn, tạo động lực tham gia lâu dài.",
+            "**Phân phối giá trị công bằng**: 90% token được phân phối cho người dùng, đảm bảo ưu tiên cho cộng đồng, trong khi các cơ chế như giảm một nửa và khóa sẽ giảm rủi ro bán tháo."
+          ]
+        }
+      },
+      "concept": {
+        "title": "Khái niệm Cơ bản về moonpacket & $moonini",
+        "moonpacket": {
+          "title": "Vai trò của moonpacket",
+          "description": "moonpacket là một công cụ lì xì trên Telegram, nhiệm vụ và tiếp thị. Cho dù bạn là người điều hành cộng đồng, tổ chức sự kiện, hay một dự án đang tìm cách thu hút người dùng mới, bạn có thể sử dụng moonpacket để:",
+          "features": [
+            "Gửi lì xì crypto (hỗ trợ nhiều token như USDT, TON, SOL, ETH, v.v.)",
+            "Tạo sự kiện nhiệm vụ (mời bạn bè, theo dõi cộng đồng, chia sẻ nội dung, v.v.)",
+            "Theo dõi dữ liệu hiệu ứng (tỷ lệ đổi thưởng, tỷ lệ chia sẻ, tỷ lệ chuyển đổi người dùng mới, v.v.)",
+            "Gửi lì xì liên nhóm, mở rộng phạm vi tiếp cận"
+          ]
+        },
+        "moonini": {
+          "title": "Vai trò của $moonini",
+          "description": "$moonini là một token điểm thưởng ghi nhận hành vi của người dùng và cộng đồng. Mỗi hành động tích cực bạn thực hiện trên moonpacket sẽ mang lại cho bạn số lượng $moonini tương ứng:",
+          "rewards": [
+            "Gửi lì xì: Kiếm được $moonini tương ứng dựa trên số tiền của lì xì và giai đoạn hiện tại",
+            "Hoàn thành Nhiệm vụ: Đạt được thành tựu, nhiệm vụ xã hội, v.v., sẽ kiếm thêm $moonini",
+            "Mời bạn bè: Mời người dùng mới thành công và hoàn thành các nhiệm vụ chia sẻ, cả hai bên đều có thể kiếm được $moonini",
+            "Tham gia chủ động: Hoàn thành các hành động cụ thể trong các trò chơi hoặc ứng dụng hợp tác cũng có thể kiếm được $moonini"
+          ]
+        },
+        "logic": {
+          "title": "Càng sử dụng nhiều, bạn càng kiếm được nhiều",
+          "description": "Logic rất đơn giản: bạn càng tích cực trên moonpacket, bạn càng kiếm được nhiều $moonini. Người tham gia sớm có thể tận hưởng tỷ lệ thưởng cao hơn (Giai đoạn 1, kiếm 1 $moonini cho mỗi 1 USDT lì xì được gửi đi). Bạn tham gia càng sớm, lợi thế của bạn càng lớn."
+        }
+      },
+      "tokenomics": {
+        "title": "Tổng quan về Tokenomics",
+        "total": {
+          "title": "Tổng cung token",
+          "description": "Tổng phát hành của $moonini là **10.000.000.000 mã thông báo (10B)**, với tổng cung cố định và không phát hành thêm."
+        },
+        "allocation": {
+          "title": "Kế hoạch phân bổ",
+          "table": {
+            "headers": [
+              "Danh mục",
+              "Số lượng",
+              "Tỷ lệ",
+              "Mô tả"
+            ],
+            "rows": [
+              [
+                "Phát hành công khai",
+                "9.000.000.000 mảnh",
+                "90%",
+                "Phát hành từ từ thông qua các hoạt động của người dùng (giảm một nửa 6 giai đoạn)"
+              ],
+              [
+                "Phân bổ đội ngũ",
+                "1.000.000.000 mảnh",
+                "10%",
+                "Khóa trong 3 tháng, phát hành theo đường thẳng trong 33-45 tháng"
+              ],
+              [
+                "├─ Hoạt động",
+                "200.000.000 mảnh",
+                "2%",
+                "Khóa trong 3 tháng, phát hành trong 45 tháng"
+              ],
+              [
+                "├─ Đội ngũ kỹ thuật",
+                "200.000.000 mảnh",
+                "2%",
+                "Khóa trong 3 tháng, phát hành trong 45 tháng"
+              ],
+              [
+                "├─ PR/Tiếp thị",
+                "200.000.000 mảnh",
+                "2%",
+                "Khóa trong 3 tháng, phát hành trong 45 tháng"
+              ],
+              [
+                "└─ Các nhà đầu tư sớm",
+                "400.000.000 mảnh",
+                "4%",
+                "Khóa trong 3 tháng, phát hành trong 33 tháng"
+              ]
+            ]
+          }
+        },
+        "philosophy": {
+          "title": "Tại sao lại có thiết kế này?",
+          "items": [
+            "**Ưu Tiên Người Dùng**: 90% token được phân bổ cho người dùng để đảm bảo rằng cộng đồng thực sự được hưởng lợi, thay vì bị chiếm đoạt bởi một vài cá nhân.",
+            "**Khuyến khích đội ngũ**: 10% dành cho đội ngũ và các nhà đầu tư sớm để đảm bảo dự án có đủ nguồn lực cho phát triển liên tục, với tỷ lệ vừa phải để tránh sự tập trung quá mức.",
+            "**Không dự trữ trước cho đợt bán trước/VC**: Chúng tôi không dự trữ hạn mức cho các nhà đầu tư tổ chức, và tất cả các token được phân phối cho người dùng thông qua một cơ chế công bằng.",
+            "**Giảm Thiểu Rủi Ro**: Việc phân bổ đội ngũ phải tuân theo cơ chế khóa và giải phóng tuyến tính, giúp giảm thiểu rủi ro bán tháo trong ngắn hạn và bảo vệ quyền lợi của nhà đầu tư."
+          ]
+        }
+      },
+      "emission": {
+        "title": "Cơ chế Giảm phân và Phát hành",
+        "halving": {
+          "title": "Cơ chế Giảm một nửa Giai đoạn 6",
+          "description": "Để khuyến khích những người tham gia sớm, việc phân phối token sử dụng cơ chế 'giảm một nửa dần dần'. Càng tham gia sớm, bạn càng kiếm được nhiều token hơn:",
+          "table": {
+            "headers": [
+              "Giai đoạn",
+              "Khoảng Tiền Phát Hành",
+              "Kiếm được mỗi 1 USDT",
+              "Mô tả"
+            ],
+            "rows": [
+              [
+                "Giai đoạn 1",
+                "0 ~ 4.5B",
+                "1.0 phần",
+                "Người tham gia sớm, trao đổi 1:1"
+              ],
+              [
+                "Giai đoạn 2",
+                "4.5B ~ 6.75B",
+                "0.5 phần",
+                "Giảm một nửa"
+              ],
+              [
+                "Giai đoạn 3",
+                "6.75B ~ 7.875B",
+                "0.25 phần",
+                "Giảm lần nữa"
+              ],
+              [
+                "Giai đoạn 4",
+                "7.875B ~ 8.4375B",
+                "0.125 phần",
+                "Tiếp tục giảm một nửa"
+              ],
+              [
+                "Giai đoạn 5",
+                "8.4375B ~ 8.71875B",
+                "0.0625 phần",
+                "Tiến gần đến cuối"
+              ],
+              [
+                "Giai đoạn 6",
+                "8.71875B ~ 9B",
+                "0.03125 phần",
+                "Giai đoạn cuối"
+              ]
+            ]
+          },
+          "example": "Ví dụ: Trong Giai đoạn 1, nếu bạn gửi một lì xì 100 USDT, bạn có thể kiếm được 100 $moonini; trong Giai đoạn 2, gửi cùng một lì xì 100 USDT chỉ kiếm được 50 $moonini. Bạn tham gia sớm hơn, lợi thế của bạn càng lớn!"
+        },
+        "vesting": {
+          "title": "Khóa và Giải phóng Tỉ lệ Nhóm",
+          "description": "Trong một thị trường đầy rẫy 'kho chuột' và 'chip ẩn', chúng tôi chọn con đường khó khăn nhưng trung thực nhất. Chúng tôi hiểu sâu sắc rằng chỉ khi hoàn toàn loại bỏ nỗi sợ hãi của người dùng về 'bán hàng theo nhóm' thì chúng tôi mới có thể xây dựng được sự tin tưởng thực sự.",
+          "items": [
+            "**Minh bạch tuyệt đối, không giấu diếm**: Chúng tôi không có ví ẩn danh hoặc nguồn cung lưu hành sớm không được công bố. Tất cả các phân phối token đều có sẵn công khai trên chuỗi, chịu sự giám sát của cộng đồng.",
+            "**Đội Ngũ Tự Kiềm Chế, Cam Kết Dài Hạn**: Thời gian phát hành của đội ngũ cốt lõi kéo dài **48 tháng (4 năm)**. Trong không gian tiền điện tử, bốn năm là một chu kỳ dài. Điều này chứng minh rằng chúng tôi không đến đây để kiếm tiền nhanh chóng mà cam kết trải nghiệm thị trường tăng và giảm cùng với cộng đồng để xây dựng giá trị lâu dài.",
+            "**Sự đồng thuận của nhà đầu tư**: Các nhà đầu tư sớm của chúng tôi rất đồng cảm với văn hóa 'chia sẻ và tặng quà' của lì xì và tự nguyện ký thỏa thuận phát hành tuyến tính **36 tháng**. Điều này có nghĩa là trong giai đoạn đầu của dự án, không bên nào (bao gồm cả các nhà đầu tư) có đủ token để tác động đến thị trường."
+          ],
+          "benefit": "Đây không chỉ là một quy tắc khóa mà còn là **'Tuyên Bố Chống Thu Hoạch'** của chúng tôi. Thông qua sự tự kiềm chế gần như nghiêm ngặt này, chúng tôi đảm bảo rằng không ai - bất kể là nhà sáng lập hay người nắm giữ lớn - có thể phản bội cộng đồng trong những giai đoạn đầu. Chúng tôi đứng cùng tất cả những người gửi lì xì để cùng nhau duy trì sự thuần khiết của giá trị xã hội này."
+        },
+        "why": {
+          "title": "Tại sao phải làm điều này?",
+          "items": [
+            "**Giảm thiểu bán tháo ngắn hạn**: Cơ chế khóa và phát hành theo dòng làm cho đội ngũ và nhà đầu tư không thể bán ra số lượng lớn ngay từ đầu dự án.",
+            "**Kéo dài tuổi thọ dự án**: Việc phát hành dần dần đảm bảo dự án có đủ thời gian để phát triển và thiết lập giá trị.",
+            "**Bảo vệ nhà đầu tư**: Các cơ chế halving và thiết kế khóa cung cấp nhiều sự bảo vệ hơn cho những người nắm giữ sớm."
+          ]
+        }
+      },
+      "utility": {
+        "title": "Khách hàng và các tình huống sử dụng",
+        "how_to_earn": {
+          "title": "Làm thế nào để kiếm $moonini?",
+          "methods": [
+            "**Gửi lì xì**: Đối với mỗi **tương đương 1 USDT** được gửi dưới dạng lì xì (hỗ trợ nhiều loại tiền tệ), người tham gia sẽ nhận được $moonini tương ứng dựa trên giai đoạn hiện tại.",
+            "**Hoàn thành nhiệm vụ**: Bao gồm các nhiệm vụ thành tựu một lần và nhiệm vụ xã hội. Để đảm bảo công bằng, mỗi tài khoản chỉ được phép hoàn thành mỗi nhiệm vụ một lần hoặc được thiết lập với giới hạn tổng để tránh việc can thiệp và khai thác đồng tiền một cách độc hại.",
+            "**Mời bạn bè**: Mời bạn bè mới và hoàn thành các nhiệm vụ chia sẻ, cả hai bên đều nhận phần thưởng. **Mỗi tài khoản có giới hạn về phần thưởng mời** và các quy tắc cụ thể sẽ theo thông báo từ cộng đồng.",
+            "**Ứng dụng hợp tác**: Thực hiện các hành động cụ thể trong trò chơi hoặc ứng dụng tích hợp với API của moonpacket cũng có thể kiếm được $moonini."
+          ]
+        },
+        "how_to_use": {
+          "title": "Cách sử dụng $moonini",
+          "items": [
+            "**Giảm Phí**: Trong tương lai, $moonini có thể được sử dụng để bù đắp một phần phí giao dịch lì xì.",
+            "**Mở Khóa Tính Năng**: Một số tính năng cao cấp có thể yêu cầu bạn nắm giữ một số lượng $moonini nhất định để sử dụng.",
+            "**Quyền Bỏ Phiếu Quản Trị**: Nắm giữ $moonini cho phép tham gia vào các cuộc bỏ phiếu quản trị cộng đồng trong tương lai, ảnh hưởng đến hướng phát triển của dự án.",
+            "**Đổi thưởng Hệ sinh thái**: Có thể được đổi để nhận các quyền lợi hoặc phần thưởng đặc biệt trong các ứng dụng hoặc trò chơi đối tác."
+          ]
+        }
+      },
+      "developer": {
+        "title": "Hệ sinh thái phát triển",
+        "description": [
+          "moonpacket không chỉ là một công cụ lì xì; nó là một **Tầng Thanh Khoản Xã Hội** mở.",
+          "Thông qua các API và SDK chuẩn hóa, bất kỳ Bot Telegram, GameFi hoặc ứng dụng Web3 nào cũng có thể truy cập vào lớp thưởng $moonini. Bạn tập trung vào sự phát triển sản phẩm, và chúng tôi sẽ hỗ trợ bạn trong việc tăng trưởng và giữ chân người dùng."
+        ],
+        "architecture": {
+          "title": "Khuyến khích có thể lập trình",
+          "description": "Hệ thống phân phối phần thưởng dựa trên sự kiện, hỗ trợ callback Webhook và xác minh trên chuỗi."
+        },
+        "cta": {
+          "text": "Tìm hiểu thêm về các giải pháp tích hợp",
+          "link_text": "Đọc Tài liệu API cho Nhà phát triển"
+        }
+      },
+      "contracts": {
+        "title": "Địa chỉ hợp đồng",
+        "description": "Để đảm bảo tính minh bạch, tất cả các địa chỉ hợp đồng thông minh cốt lõi sẽ được công khai và xác thực.",
+        "items": {
+          "token": "$moonini Token (Hợp đồng Token)",
+          "emission": "Kho Lưu Hành (Kho Phát Hành Công Khai 90%)",
+          "reserve": "Kho Dự Trữ (Kho Quota Nhóm 10%)",
+          "phase": "Trình Quản Lý Giai Đoạn (Điều Khiển Halving)",
+          "vesting": "Kho Vesting (Bộ điều khiển phát hành tuyến tính)",
+          "pol": "Quản lý POL (Mua lại và Bảo vệ Giá sàn)",
+          "protection": "Bảo vệ khởi động (Giai đoạn mở chống sniping)",
+          "timelock": "Bộ điều khiển Timelock (Khóa trì hoãn 48h)"
+        },
+        "status": "(Sẽ được cập nhật sau khi triển khai mainnet)"
+      },
+      "governance": {
+        "title": "Quản trị và bảo mật",
+        "principles": {
+          "title": "Nguyên tắc quản trị",
+          "description": "Nguyên tắc cốt lõi của chúng tôi là: **không có quyền lực cao nhất nào**, tất cả các hoạt động quan trọng đều yêu cầu xác nhận từ nhiều bên và công bố muộn để đảm bảo tính minh bạch và an ninh."
+        },
+        "market_making": {
+          "title": "Tuyên bố thị trường thực",
+          "description": [
+            "**Từ chối giao dịch giả mạo**: Chúng tôi cam kết không sử dụng giao dịch rửa hoặc tạo độ sâu giả. Mọi giao dịch trên K-line đều đến từ người dùng thực.",
+            "**Thị trường tạo lập phi tập trung**: Tính thanh khoản hoàn toàn được xác định bởi cung và cầu của thị trường cũng như cơ chế mua lại tự động của giao thức, thay vì bị thao túng bởi con người."
+          ]
+        },
+        "floor_defense": {
+          "title": "Phòng thủ giá sàn thông minh",
+          "mechanism": "**Cơ chế**: Khi giá coin chạm vùng đáy, các phí giao thức tích lũy sẽ tự động mua lại và tiêu hủy/tiêm thêm thanh khoản.",
+          "anti_gaming": "**Chiến lược chống sniping**: Để tránh việc bot dự đoán chênh lệch giá, 'thời gian vào lệnh' và 'số lượng giao dịch đơn' cụ thể sẽ chứa các biến ngẫu nhiên và sẽ không hoàn toàn công khai. Tuy nhiên, logic cốt lõi vẫn giữ nguyên: **phí giao dịch cuối cùng sẽ quay về quỹ để hỗ trợ giá**.",
+          "variance": "Lưu ý: Do độ biến động của thị trường, giá sàn không phải là một mức cố định mà là một khoảng hỗ trợ động."
+        },
+        "process": {
+          "title": "Quy trình quản trị",
+          "steps": [
+            "**Đề xuất**: Những quyết định quan trọng cần xác nhận đa chữ ký.",
+            "**Xác nhận bị trì hoãn**: Tất cả các giao dịch có rủi ro cao phải trải qua một khoảng thời gian xác nhận bị trì hoãn 48 giờ, trong đó chúng sẽ được hiển thị trên chuỗi.",
+            "**Thực hiện**: Sau thời gian trì hoãn, nhân viên được ủy quyền sẽ thực hiện hoặc nó sẽ tự động được thực hiện.",
+            "**Hủy bỏ**: Trong thời gian trì hoãn, người đề xuất có thể hủy bỏ đề xuất."
+          ]
+        },
+        "security": {
+          "title": "Biện pháp bảo mật",
+          "items": [
+            "**Xác nhận nhiều chữ ký**: Tất cả các hoạt động quan trọng yêu cầu chữ ký từ ít nhất 2 người để tránh rủi ro điểm đơn.",
+            "**Cơ chế thực thi chậm**: Các hoạt động có rủi ro cao phải trải qua việc trì hoãn 48 giờ, cung cấp đủ thời gian cho cộng đồng để xem xét và phản hồi.",
+            "**Thư viện hợp đồng chuẩn**: Sử dụng các thư viện hợp đồng chuẩn đã được kiểm toán để giảm thiểu rủi ro về lỗ hổng.",
+            "**Kiểm toán bên thứ ba**: Hợp đồng thông minh sẽ trải qua các kiểm toán an ninh của bên thứ ba để đảm bảo an toàn.",
+            "**Minh bạch mã nguồn mở**: Mã hợp đồng là mã nguồn mở, bất kỳ ai cũng có thể xác minh và kiểm toán nó."
+          ]
+        },
+        "risk_mitigation": {
+          "title": "Làm thế nào để giảm thiểu rủi ro điểm duy nhất?",
+          "description": "Chúng tôi đảm bảo rằng không một cá nhân hay tổ chức nào có thể kiểm soát hoàn toàn dự án thông qua chữ ký đa yếu, xác nhận chậm, kiểm toán, và các cơ chế bảo vệ đa lớp mã nguồn mở. Tất cả các quyết định quan trọng đều trải qua một quy trình minh bạch và có thể truy xuất, cung cấp sự an tâm cho cộng đồng và nhà đầu tư."
+        }
+      },
+      "roadmap": {
+        "title": "Lộ trình Hai Dòng",
+        "status_notice": "⚠️ Trạng thái hiện tại: Giai đoạn tiết lộ kế hoạch. Các token vẫn chưa được tạo ra (TGE Đang chờ), và các quy tắc cuối cùng sẽ dựa trên phiên bản của tài liệu trắng được phát hành tại TGE.",
+        "tracks": {
+          "product": "📱 Theo dõi sản phẩm",
+          "token": "💎 Theo dõi Token"
+        },
+        "phases": [
+          {
+            "title": "Giai đoạn 1: Genesis",
+            "product": [
+              "**Khởi chạy Bot Telegram**: Một plugin nhẹ để bắt đầu cộng đồng lì xì",
+              "**Hệ thống nhiệm vụ cơ bản**: Tính năng mời và điểm danh",
+              "**Tích lũy người dùng**: Xây dựng nhóm người dùng hạt giống sớm"
+            ],
+            "token": [
+              "**Chạy thử điểm**: Hành vi người dùng tạo ra điểm ngoài chuỗi",
+              "**Thiết kế mô hình Token**: Xác nhận phân phối 90/10 và cơ chế giảm một nửa",
+              "**Thông báo Litepaper**: Công bố dự thảo mô hình kinh tế cho cộng đồng"
+            ]
+          },
+          {
+            "title": "Giai đoạn 2: Khởi động",
+            "product": [
+              "**Tích hợp hệ sinh thái**: Kết nối với các cửa hàng đối tác và các tình huống marketing",
+              "**Beta mở API**: Cho phép các bot bên thứ ba tích hợp với hệ thống lì xì",
+              "**Bảng điều khiển dữ liệu**: Người dùng có thể xem dữ liệu chi tiết về lì xì và điểm"
+            ],
+            "token": [
+              "**Kiểm toán bên thứ ba**: Mã hợp đồng vượt qua các cuộc kiểm tra an ninh",
+              "**TGE (Tạo Token)**: Triển khai mainnet, điểm mở cho việc đổi thưởng/cơ chế khai thác",
+              "**Thanh khoản ban đầu**: Thành lập một bể cơ bản để đảm bảo giá trị nền tảng"
+            ]
+          },
+          {
+            "title": "Giai đoạn 3: Mở rộng",
+            "product": [
+              "**Ứng dụng độc lập**: Ra mắt ứng dụng riêng với chức năng ví và IM",
+              "**Hỗ trợ đa nền tảng**: Mở rộng đến Discord hoặc các nền tảng cộng đồng khác",
+              "**Công cụ quản trị DAO**: Tính năng bỏ phiếu cộng đồng được triển khai"
+            ],
+            "token": [
+              "**Kích hoạt chu kỳ kinh tế**: Cơ chế mua lại và đốt hoạt động tự động",
+              "**Triển khai đa chuỗi**: Mở rộng đến các chuỗi công cộng hiệu suất cao khác",
+              "**Hoàn toàn phi tập trung**: Quyền quản lý dần được chuyển giao cho DAO"
+            ]
+          }
+        ]
+      },
+      "risks": {
+        "title": "Nguy cơ và Thông báo miễn trừ",
+        "description": [
+          "**Thông báo quan trọng**: Tài liệu này không có giá trị là lời khuyên đầu tư dưới bất kỳ hình thức nào. Đầu tư vào tiền điện tử mang tính rủi ro cao, bao gồm nhưng không giới hạn ở sự biến động giá, rủi ro thanh khoản, rủi ro kỹ thuật, rủi ro quy định và nhiều hơn nữa.",
+          "",
+          "**Cảnh báo rủi ro lớn**:",
+          "- **Rủi ro biến động giá**: Giá token có thể dao động mạnh và thậm chí giảm xuống bằng không. Vui lòng đảm bảo rằng bạn tham gia trong phạm vi tổn thất mà bạn có thể chấp nhận.",
+          "- **Rủi ro thanh khoản**: Thanh khoản ban đầu có thể không đủ, có khả năng dẫn đến việc trượt giá cao hoặc khó khăn trong việc thực hiện giao dịch ngay lập tức.",
+          "- **Rủi ro Kỹ thuật**: Mặc dù các hợp đồng thông minh sẽ được kiểm tra kỹ lưỡng, vẫn có thể có những lỗ hổng hoặc rủi ro kỹ thuật chưa được phát hiện, hoặc rủi ro từ các cuộc tấn công của hacker.",
+          "- **Rủi ro quy định**: Các chính sách quy định liên quan đến tiền điện tử ở các quốc gia khác nhau có thể thay đổi bất kỳ lúc nào, điều này có thể ảnh hưởng đến hoạt động của dự án hoặc giá trị của các token.",
+          "",
+          "**Tự Nghiên Cứu (DYOR)**: Nhà đầu tư nên hiểu rõ các rủi ro liên quan và đầu tư cẩn thận dựa trên tình hình tài chính và khả năng chịu đựng rủi ro của bản thân. Nhóm dự án không chịu trách nhiệm về bất kỳ khoản lỗ đầu tư nào."
+        ],
+        "disclaimer": {
+          "title": "Thông báo quan trọng",
+          "text": "Tài liệu này không tạo ra bất kỳ hình thức tư vấn đầu tư nào. Đầu tư vào tiền điện tử có mức độ rủi ro cao, bao gồm nhưng không giới hạn ở sự biến động giá, rủi ro thanh khoản, rủi ro kỹ thuật, rủi ro pháp lý và nhiều hơn nữa. Các nhà đầu tư nên hiểu rõ các rủi ro liên quan và đầu tư một cách cẩn thận dựa trên khả năng chịu rủi ro của chính họ. Nhóm dự án không chịu trách nhiệm cho bất kỳ khoản lỗ đầu tư nào."
+        },
+        "risks": {
+          "title": "Rủi ro lớn",
+          "items": [
+            "**Rủi ro Biến động Giá**: Giá token có thể dao động đáng kể và thậm chí có thể giảm về 0.",
+            "**Rủi ro thanh khoản**: Tính thanh khoản ban đầu có thể không đủ, ảnh hưởng đến trải nghiệm giao dịch.",
+            "**Rủi ro kỹ thuật**: Hợp đồng thông minh có thể chứa các lỗ hổng không xác định, mặc dù chúng tôi sẽ tiến hành kiểm toán.",
+            "**Rủi ro Quy định**: Các chính sách quy định ở nhiều quốc gia có thể thay đổi, ảnh hưởng đến hoạt động của dự án.",
+            "**Rủi Ro Thị Trường**: Biến động tổng thể của thị trường tiền điện tử có thể ảnh hưởng đến giá của các token."
+          ]
+        }
+      },
+      "faq": {
+        "title": "Câu hỏi thường gặp",
+        "items": [
+          {
+            "question": "Làm thế nào để tôi kiếm được token?",
+            "answer": "Bạn có thể nhận được $moonini bằng cách gửi lì xì, hoàn thành nhiệm vụ, mời bạn bè, và nhiều hơn nữa. Càng nhiều lì xì bạn gửi và nhiệm vụ bạn hoàn thành, bạn sẽ kiếm được càng nhiều token. Người tham gia sớm cũng sẽ được hưởng tỷ lệ phần thưởng cao hơn."
+          },
+          {
+            "question": "Khi nào tôi có thể rút?",
+            "answer": "Sau khi mainnet đi vào hoạt động, người dùng có thể rút $moonini về ví của họ. Việc rút tiền yêu cầu một khoản phí Gas nhỏ (phí mạng BSC). Vui lòng chú ý đến thông báo chính thức để biết thời gian ra mắt cụ thể."
+          },
+          {
+            "question": "Có thời gian khóa cho phân bổ đội ngũ không?",
+            "answer": "Có. Phân bổ đội ngũ (10%) sẽ bị khóa trong 3 tháng và sau đó được phát hành tuyến tính trong 33-45 tháng. Phân bổ cho đội ngũ hoạt động, kỹ thuật, quan hệ công chúng/tiếp thị sẽ có tổng thời gian là 48 tháng, trong khi phân bổ cho các nhà đầu tư sớm sẽ kéo dài 36 tháng."
+          },
+          {
+            "question": "Tại sao lại sử dụng cơ chế giảm một nửa?",
+            "answer": "Cơ chế giảm một nửa được thiết kế để khuyến khích những người tham gia sớm trong khi kiểm soát tỷ lệ phân phối token. Càng tham gia sớm, bạn sẽ kiếm được càng nhiều token, điều này giúp thu hút người dùng và nhà đầu tư sớm trong khi tránh phân phối quá mức dẫn đến lạm phát về sau."
+          },
+          {
+            "question": "Cần làm gì nếu có vấn đề về hợp đồng hoặc hệ thống?",
+            "answer": "Chúng tôi sẽ giảm thiểu rủi ro thông qua việc kiểm toán an ninh của bên thứ ba, xác nhận nhiều chữ ký, thực hiện trễ, và các cơ chế bảo vệ nhiều lớp khác. Nếu có vấn đề xảy ra, chúng tôi sẽ ngay lập tức khởi động một phản ứng khẩn cấp, xác định kế hoạch xử lý thông qua cơ chế quản trị và thông báo kịp thời cho cộng đồng."
+          },
+          {
+            "question": "Tổng cung của $moonini là bao nhiêu? Liệu nó có tăng lên không?",
+            "answer": "Tổng cung của $moonini là 10.000.000.000 phần (10B), với tổng số cố định sẽ không bao giờ tăng. 90% sẽ được phát hành dần thông qua các hoạt động của người dùng, và 10% sẽ thuộc về đội ngũ và các nhà đầu tư sớm."
+          },
+          {
+            "question": "Làm thế nào tôi có thể tham gia vào quản trị?",
+            "answer": "Những người nắm giữ $moonini có thể tham gia vào các cuộc bỏ phiếu quản trị cộng đồng trong tương lai, ảnh hưởng đến hướng phát triển của dự án. Cơ chế quản trị cụ thể và phương pháp bỏ phiếu sẽ được triển khai dần sau khi mainnet ra mắt."
+          },
+          {
+            "question": "$moonini có thể được giao dịch không?",
+            "answer": "Sau khi mainnet chính thức hoạt động và một bể thanh khoản được thành lập, $moonini có thể được giao dịch trên các sàn giao dịch phi tập trung (như PancakeSwap). Giao dịch sẽ bị ảnh hưởng bởi cung và cầu trên thị trường, và giá cả có thể biến động, vì vậy hãy đầu tư một cách thận trọng."
+          }
+        ]
+      }
+    },
+    "charts": {
+      "allocation": {
+        "title": "Phân phối Token",
+        "public": "Chào bán công khai",
+        "team": "Chỉ tiêu nhóm",
+        "operations": "Hoạt động",
+        "tech": "Đội ngũ Kỹ thuật",
+        "marketing": "Quan hệ công chúng/Marketing",
+        "investors": "Nhà đầu tư sớm"
+      },
+      "phase": {
+        "title": "cơ chế halving 6 giai đoạn",
+        "phase": "Giai đoạn",
+        "ratio": "Đối với mỗi 1 USDT, bạn có thể nhận được"
+      },
+      "vesting": {
+        "title": "Lịch trình phát hành hạn chế của đội",
+        "cliff": "Thời gian khóa",
+        "release": "Thời gian phát hành"
+      },
+      "governance": {
+        "title": "Quá trình quản trị",
+        "multisig": "Ví đa chữ ký",
+        "proposal": "Đề xuất",
+        "timelock": "Xác nhận bị trì hoãn",
+        "execute": "Thực hiện",
+        "update": "Cập nhật"
+      },
+      "flow": {
+        "title": "Quá trình lưu thông token",
+        "userSend": "Người dùng gửi lì xì",
+        "fee": "Phí giao dịch",
+        "operations": "Chi phí hoạt động",
+        "pol": "Quỹ Mua lại",
+        "accumulate": "Tích lũy",
+        "trigger": "Kích hoạt Mua lại",
+        "swap": "Sàn giao dịch",
+        "addLiquidity": "Thêm thanh khoản",
+        "pool": "Bể thanh khoản",
+        "smart_floor": "Bảo vệ giá sàn thông minh"
+      }
+    }
+  },
+  "litepaper_api": {
+    "meta": {
+      "title": "API xác thực moonpacket",
+      "subtitle": "Giao diện tiêu chuẩn để truy vấn quy tắc thưởng và trạng thái người dùng (v2.3)",
+      "description": "Chỉ cần cung cấp một điểm cuối GET để moonpacket truy vấn các quy tắc và trạng thái người dùng của bạn, dễ dàng tích hợp hệ thống lì xì và nhiệm vụ."
+    },
+    "sidebar": {
+      "overview": "Tổng quan về tích hợp",
+      "logic": "Logic Tương Tác",
+      "spec": "Thông số API",
+      "ts_def": "Định nghĩa TypeScript",
+      "examples": "Ví dụ về giao tiếp",
+      "security": "Xác thực bảo mật"
+    },
+    "hero": {
+      "badge": "Thông số kỹ thuật API v2.3",
+      "title": "API xác thực",
+      "subtitle": "Giao diện truy vấn thuộc tính (GET)",
+      "desc": "Thông qua giao diện truy vấn GET chuẩn hóa, moonpacket chủ động lấy 'quy tắc thưởng' và 'thuộc tính người dùng' từ máy chủ của bạn. Tất cả các phán đoán hợp lý đều được xử lý bởi moonpacket.",
+      "cta_docs": "Xem Thông số kỹ thuật",
+      "cta_key": "Trở về Litepaper"
+    },
+    "content": {
+      "overview": {
+        "title": "Cấu Hình Truy Cập",
+        "desc": [
+          "Khi chọn 'API Tùy Chỉnh' trong cài đặt 'Điều Kiện Đòi Thưởng' của moonpacket, vui lòng cung cấp URL Điểm Kết Nối của bạn.",
+          "**Phương thức**: Vui lòng sử dụng `GET`",
+          "**Loại Nội Dung**: `application/json`",
+          "**Xác thực**: Thông tin xác thực sẽ được truyền hoàn toàn qua Header (`X-API-KEY` và `Signature`), và URL sẽ không chứa thông tin nhạy cảm."
+        ]
+      },
+      "logic": {
+        "title": "Logic Tương Tác",
+        "desc": "Toàn bộ quy trình được chia thành hai giai đoạn: 'Giai đoạn thiết lập' và 'Giai đoạn chạy'. moonpacket sẽ gửi yêu cầu đến API của bạn sử dụng phương thức GET:",
+        "modes": [
+          {
+            "title": "Giai đoạn 1: Định nghĩa Quy tắc (Cấu hình)",
+            "trigger": "Sự kiện kích hoạt: khi URL được điền vào 'Cài đặt Điều Kiện Yêu Cầu' và được gửi đi",
+            "request": "GET",
+            "response": "Trả về đối tượng định nghĩa quy tắc với các toán tử (gt, eq, lt...)"
+          },
+          {
+            "title": "Giai đoạn 2: Xác thực người dùng (Thời gian chạy)",
+            "trigger": "Sự kiện kích hoạt: khi người dùng cố gắng nhận lì xì",
+            "request": "GET ?user_id=...",
+            "response": "Trả về giá trị thuộc tính thực tế của người dùng cụ thể đó (giá trị nguyên hoặc chuỗi)"
+          }
+        ],
+        "note": "Nhà cung cấp được hỗ trợ: `eq` (bằng, hỗ trợ chuỗi/số), `gt` (lớn hơn), `gte` (lớn hơn hoặc bằng), `lt` (nhỏ hơn), `lte` (nhỏ hơn hoặc bằng). Giá trị cho các nhà cung cấp không phải `eq` phải là số.",
+        "steps": {
+          "step1_label": "Bước Một",
+          "step2_label": "Bước Hai"
+        }
+      },
+      "diagram": {
+        "user": "Người dùng",
+        "moonpacket": "moonpacket",
+        "dev_api": "API của bạn",
+        "step1": "1. Trong quá trình thiết lập: Quy tắc truy xuất (GET)",
+        "step2": "2. Trong quá trình yêu cầu: Truy vấn trạng thái (LẤY)",
+        "click": "Nhấn để Nhận",
+        "check": "Khớp Logic (Địa phương)",
+        "grant": "Phân bổ phần thưởng",
+        "reject": "Thông báo đủ điều kiện",
+        "client_app": "Khách hàng / Máy chủ",
+        "json_data": "dữ liệu JSON",
+        "saved_rule": "Quy tắc đã lưu:",
+        "user_state": "Trạng thái người dùng:"
+      },
+      "spec": {
+        "title": "Đặc tả Giao diện (Đặc tả)",
+        "request": {
+          "title": "Tham số Yêu cầu (Tham số Truy vấn)",
+          "headers": [],
+          "query": [
+            "**api_key** (bắt buộc): Khóa API mà bạn đã thiết lập để nhận diện",
+            "**user_id** (tùy chọn): Trả về thông tin người dùng khi có; trả về định nghĩa quy tắc khi không có"
+          ]
+        },
+        "ts_def": {
+          "title": "Định nghĩa cấu trúc dữ liệu (TypeScript)",
+          "desc": "Giao diện sau đây xác định cấu trúc JSON mà phải được trả về để các công cụ hỗ trợ AI có thể đọc:"
+        }
+      },
+      "scenarios": {
+        "title": "Các Tình Huống Ứng Dụng",
+        "items": [
+          {
+            "title": "Tích hợp GameFi",
+            "desc": "Xác định quy tắc `level >= 10`. Khi người dùng yêu cầu, moonpacket kiểm tra thuộc tính của người dùng, nếu `level: 12` thì được phê duyệt."
+          },
+          {
+            "title": "Phần thưởng Gắn bó Danh tính",
+            "desc": "Định nghĩa quy tắc `kyc == true`. moonpacket kiểm tra trạng thái người dùng, và nếu nó trả về `kyc: true`, thì phần thưởng sẽ được phân phát."
+          },
+          {
+            "title": "Lọc Danh sách Đen",
+            "desc": "Định nghĩa quy tắc `is_blacklist == false`. Nếu API trả về `is_blacklist: true`, yêu cầu sẽ bị từ chối."
+          }
+        ]
+      },
+      "examples": {
+        "title": "Ví dụ Giao tiếp (Yêu cầu GET)",
+        "mode_a": {
+          "title": "1. Định nghĩa quy tắc (Cài đặt)",
+          "desc": "Khi gửi cài đặt, hãy trả về JSON chứa các toán tử."
+        },
+        "mode_b": {
+          "title": "2. Trạng thái truy vấn (Thời gian chạy)",
+          "desc": "Khi người dùng yêu cầu, trả về giá trị hoặc chuỗi nguyên bản."
+        }
+      },
+      "signature": {
+        "title": "Xác thực bảo mật",
+        "desc": "Để đảm bảo tính xác thực của các yêu cầu, moonpacket sẽ bao gồm một chữ ký trong tiêu đề. Bạn có thể tham khảo mã ở bên phải để xác thực:",
+        "required_headers": "Các tiêu đề cần thiết",
+        "algo_title": "Thuật toán Chữ ký",
+        "headers": {
+          "key": "X-API-KEY",
+          "ts": "X-API-TIMESTAMP",
+          "nonce": "X-API-NONCE",
+          "sig": "X-API-SIGNATURE"
+        },
+        "algo": "HMAC-SHA256",
+        "formula": "Chữ ký = HMAC_SHA256(bí mật, nội dung + dấu thời gian + số ngẫu nhiên)",
+        "steps": [
+          "1. Trích xuất Thời gian, Nonce, Chữ ký từ Tiêu đề",
+          "2. Xác minh xem Dấu thời gian có nằm trong khoảng thời gian hợp lý hay không (ví dụ, ±5 phút)",
+          "3. Nối chuỗi: RequestBody + Timestamp + Nonce",
+          "4. Tính HMAC-SHA256 sử dụng Bí mật của bạn",
+          "5. So sánh kết quả đã tính toán với Chữ ký trong Tiêu đề"
+        ]
+      },
+      "reliability": {
+        "title": "Ghi chú",
+        "items": [
+          "**Thời gian chờ**: Đảm bảo rằng API có thể trả về kết quả trong vòng **3 giây**.",
+          "**Định dạng**: Vui lòng tuân thủ nghiêm ngặt cấu trúc JSON, nếu không sẽ dẫn đến lỗi phân tích."
+        ]
+      },
+      "error_codes": {
+        "title": "Mã Trạng Thái",
+        "items": [
+          {
+            "code": "200",
+            "status": "OK",
+            "desc": "Yêu cầu thành công"
+          },
+          {
+            "code": "400",
+            "status": "Bad Request",
+            "desc": "Lỗi tham số yêu cầu (ví dụ: định dạng không chính xác)."
+          },
+          {
+            "code": "401",
+            "status": "Unauthorized",
+            "desc": "Thiếu Header ủy quyền hoặc khóa không hợp lệ."
+          },
+          {
+            "code": "403",
+            "status": "Forbidden",
+            "desc": "Giới hạn IP hoặc truy cập không được phép vào tài nguyên."
+          },
+          {
+            "code": "404",
+            "status": "Not Found",
+            "desc": "ID người dùng không tồn tại (đối với các kịch bản truy vấn trạng thái người dùng)."
+          },
+          {
+            "code": "500",
+            "status": "Server Error",
+            "desc": "Lỗi máy chủ nội bộ."
+          }
+        ]
+      },
+      "disclaimer": {
+        "title": "Thông báo miễn trừ trách nhiệm API của bên thứ ba",
+        "text": "Các phương pháp tích hợp cho các nền tảng bên thứ ba được đề cập trong tài liệu này chỉ mang tính chất tham khảo. Các nhà phát triển nên tham khảo và tuân thủ tài liệu chính thức mới nhất của nền tảng."
+      }
+    },
+    "labels": {
+      "request": "Nội dung yêu cầu",
+      "response": "Trả Kết Quả",
+      "code": "Mã Trạng Thái",
+      "status": "Trạng thái",
+      "desc": "Mô tả"
+    }
+  },
+  "whitepaper": {
+    "title": "Tài liệu trắng $moonini",
+    "description": "Hiểu rõ triết lý thiết kế, mô hình kinh tế và kiến trúc kỹ thuật của token $moonini",
+    "seo": {
+      "title": "Tài liệu trắng $moonini — moonpacket",
+      "description": "Hoàn chỉnh mô hình kinh tế, kiến trúc kỹ thuật và mô tả cơ chế quản trị của $moonini"
+    },
+    "hero": {
+      "subtitle": "$moonini là token khuyến khích cộng đồng dựa trên nền tảng moonpacket. Càng nhiều người dùng tham gia và tương tác trên moonpacket, họ càng có thể kiếm được nhiều $moonini hơn. Đối với các nhà đầu tư, 90% được phân phối cho người dùng, và 10% cho đội ngũ, hiệu quả giảm thiểu rủi ro sụp đổ thị trường kết hợp với cơ chế giảm một nửa và phát hành tuyến tính.",
+      "cards": {
+        "user": {
+          "title": "Dành cho Người Dùng Chung",
+          "description": "Dễ dàng kiếm $moonini thông qua việc gửi lì xì, hoàn thành nhiệm vụ và mời bạn bè. Càng sử dụng nhiều, bạn càng kiếm được nhiều, hoàn toàn miễn phí."
+        },
+        "investor": {
+          "title": "Dành cho Nhà Đầu Tư",
+          "description": "Tổng số lượng 10B, phân phối 90/10, giảm một nửa qua 6 giai đoạn, phân bổ cho đội ngũ phát hành tuyến tính, được thiết kế cho sự ổn định lâu dài, giảm thiểu rủi ro sụp đổ thị trường."
+        },
+        "developer": {
+          "title": "Dành cho Nhà Phát Triển/Đối Tác",
+          "description": "Hợp đồng chuẩn hóa, API mở, có thể tích hợp vào các ứng dụng hoặc trò chơi khác. Vui lòng tham khảo tài liệu kỹ thuật để biết thông số kỹ thuật chi tiết."
+        }
+      }
+    },
+    "toc": {
+      "title": "Mục Lục"
+    },
+    "sections": {
+      "overview": "1. Tổng Quan Dự Án",
+      "tokenomics": "2. Tokenomics",
+      "architecture": "Ba, Kiến Trúc Kỹ Thuật",
+      "emission": "Bốn, Cơ Chế Phát Hành",
+      "governance": "Năm, Quản Trị và An Ninh",
+      "incentives": "Sáu, Hệ Thống Khuyến Khích Người Dùng",
+      "developer": "Bảy, Hướng Dẫn Phát Triển",
+      "roadmap": "8. Lộ Trình",
+      "risks": "9. Cảnh Báo Rủi Ro",
+      "faq": "Mười, Vấn Đề Cần Xác Nhận"
+    },
+    "content": {
+      "overview": {
+        "what_is": [
+          "**$moonini** là token hệ sinh thái của nền tảng moonpacket, được sử dụng để thưởng cho người dùng vì những hành động tích cực trên nền tảng, bao gồm:",
+          "- Gửi lì xì",
+          "- Mời bạn bè",
+          "- Hoàn thành các nhiệm vụ",
+          "- Tham gia các hoạt động cộng đồng",
+          "",
+          "**Nói một cách đơn giản**: Bạn càng sử dụng nhiều trên moonpacket, bạn sẽ kiếm được nhiều $moonini hơn."
+        ],
+        "core_values": {
+          "title": "Giá trị cốt lõi",
+          "values": [
+            "- ✅ **Phi tập trung**: Dựa trên Binance Smart Chain (BSC), tất cả các giao dịch đều minh bạch và có thể xác minh, không cần phải tin tưởng vào các bên thứ ba.",
+            "- ✅ **Phân Phối Công Bằng**: 90% token được phân phối qua các hoạt động của người dùng, 10% được dành cho đội ngũ và nhà đầu tư, đảm bảo ưu tiên cho cộng đồng.",
+            "- ✅ **Phát Hành Dần Dần**: Áp dụng cơ chế giảm một nửa qua 6 giai đoạn, khuyến khích những người tham gia sớm kiếm được nhiều hơn khi họ tham gia sớm.",
+            "- ✅ **An toàn và Đáng tin cậy**: Sử dụng các thư viện hợp đồng tiêu chuẩn đã được kiểm toán, tất cả các thao tác chính đều yêu cầu xác nhận đa chữ ký, chuẩn bị cho các cuộc kiểm tra an ninh từ bên thứ ba."
+          ]
+        }
+      },
+      "tokenomics": {
+        "info": {
+          "title": "2.1 Thông tin cơ bản về Token",
+          "description": [
+            "| Mục | Giá trị | Mô tả |",
+            "|------|------|------|",
+            "| **Tên Token** | moonini | Tên đầy đủ |",
+            "| **Ký hiệu Token** | MOONINI | Ký hiệu giao dịch |",
+            "| **Tổng cung** | 10,000,000,000 token (10B) | Tổng cung cố định, không bao giờ có lạm phát |",
+            "| **Số Thập Phân** | 18 | Tiêu chuẩn BSC |",
+            "| **Blockchain** | Binance Smart Chain (BSC) | Tiêu chuẩn BEP-20 |"
+          ]
+        },
+        "allocation": {
+          "title": "2.2 Kế hoạch phân bổ",
+          "description": [
+            "**Tổng cung: 10.000.000.000 token (10B)**",
+            "",
+            "**Nguyên tắc phân bổ**:",
+            "- **90% cho Cộng đồng & Thanh khoản**:",
+            "- Bao gồm \"phần khai thác\" được tạo ra thông qua lì xì và các nhiệm vụ, cũng như \"phần thanh khoản\" được sử dụng để thiết lập các cặp giao dịch ban đầu (nhóm dự án sẽ ban đầu cung cấp 10,000 USDT làm quỹ để đảm bảo giá trị tại thời điểm ra mắt).",
+            "- Phần này hoàn toàn được trả lại cho những người tham gia hệ sinh thái, không dành riêng cho các tổ chức hay phát hành riêng lẻ.",
+            "",
+            "- **10% cho Nhóm & Người ủng hộ sớm**:",
+            "- **4% Nhà đầu tư sớm**: Phần thưởng cho sự hỗ trợ tài chính sớm.",
+            "- **2% Nhóm kỹ thuật**: Đảm bảo phát triển và bảo trì liên tục cho giao thức.",
+            "- **2% Đội Ngũ Vận Hành**: Chịu trách nhiệm quản lý cộng đồng và lên kế hoạch sự kiện.",
+            "- **2% Tiếp thị và Ổn định Hệ sinh thái**: Thúc đẩy sự tăng trưởng của thị trường và duy trì sự ổn định của hệ sinh thái trong các điều kiện khắc nghiệt như một quỹ dự trữ.",
+            "",
+            "**Cam kết Quản trị**:",
+            "Chúng tôi thực hiện việc kiểm soát quỹ nội bộ chặt chẽ nhất. Tất cả phân phối nhóm và chi phí hoạt động đều phải tuân theo các quy định của **Multisig** và **Timelock**. Không ai có thể tự do truy cập quỹ, đảm bảo rằng mọi chi tiêu đều được thực hiện thông qua quyết định tập thể và hoàn toàn công khai."
+          ]
+        },
+        "phase": {
+          "title": "2.3 Cơ chế giảm dần 6 giai đoạn",
+          "description": [
+            "Để khuyến khích những người tham gia sớm, việc phân phối token áp dụng cơ chế 'giảm dần theo giai đoạn':",
+            "",
+            "| Giai đoạn | Phạm vi số lượng phát hành | Tỷ lệ đổi (cho 1 USDT) | Mô tả |",
+            "|------|------------|---------------------|------|",
+            "| **Giai đoạn 1** | 0 ~ 4.5B | **1.0 token** | Người tham gia sớm, trao đổi 1:1 |",
+            "| **Giai đoạn 2** | 4.5B ~ 6.75B | **0.5 token** | Giảm một nửa |",
+            "| **Giai đoạn 3** | 6.75B ~ 7.875B | **0.25 token** | Giảm một nửa lần nữa |",
+            "| **Giai đoạn 4** | 7.875B ~ 8.4375B | **0.125 token** | Tiếp tục giảm dần |",
+            "| **Giai đoạn 5** | 8.4375B ~ 8.71875B | **0.0625 token** | Đến gần kết thúc |",
+            "| **Giai đoạn 6** | 8.71875B ~ 9B | **0.03125 token** | Giai đoạn cuối |",
+            "",
+            "**Ví dụ**:",
+            "- Ở Giai đoạn 1, nếu bạn gửi một lì xì 100 USDT, bạn có thể nhận 100 $moonini",
+            "- Ở Giai đoạn 2, nếu bạn gửi một lì xì 100 USDT, bạn chỉ có thể nhận 50 $moonini",
+            "- Càng tham gia sớm, bạn càng nhận được nhiều token!"
+          ],
+          "value_logic": [
+            "💡 Triết lý và chu kỳ giá trị của lì xì",
+            "",
+            "**Tinh thần của lì xì là 'Cho đi' và 'Kết nối'**:",
+            "Xuất phát từ văn hóa phương Đông, lì xì không chỉ biểu thị việc chuyển giao quỹ mà còn là tình yêu từ người lớn đến người trẻ, chúc mừng và chia sẻ giữa bạn bè. Tại moonpacket, mỗi lần bạn gửi một lì xì là một tương tác xã hội ấm áp.",
+            "",
+            "**Từ Hành Vi Xã Hội đến Giá Trị Kinh Tế**:",
+            "Chúng tôi tin rằng những hành động thiện chí này nên được ghi nhận và định giá. $moonini không chỉ là một token thưởng; nó là đại diện cho giá trị của mạng xã hội này, tạo ra các hiệu ứng kinh tế dài hạn từ mỗi 'cho đi'.",
+            "",
+            "**Hỗ trợ giá trị thực**:",
+            "Để duy trì sự ổn định của giá trị xã hội này, giao thức quy định: **50% doanh thu phí giao dịch sẽ được tự động đưa vào Bể Thanh Khoản**.",
+            "",
+            "Điều này có nghĩa: cộng đồng càng hoạt động tích cực ➔ càng nhiều tương tác lì xì ➔ càng nhiều quỹ được bơm vào quỹ thanh khoản ➔ nền tảng giá trị của $moonini càng vững chắc. Đây là một chu kỳ tích cực dựa trên nhu cầu xã hội thực và doanh thu kinh doanh, chứ không phải chỉ là đánh bạc đầu cơ thuần túy."
+          ]
+        }
+      },
+      "architecture": {
+        "blockchain": {
+          "title": "3.1 Lựa chọn Blockchain: Binance Smart Chain (BSC)",
+          "why": [
+            "**Tại sao chọn BSC?**",
+            "",
+            "| Lợi thế | Mô tả |",
+            "|------|------|",
+            "| ✅ **Phí Thấp** | Chi phí giao dịch trung bình $0.1-$0.5, thấp hơn nhiều so với Ethereum |",
+            "| ✅ **Xác Nhận Nhanh** | Thời gian xác nhận trung bình là 3 giây để có trải nghiệm mượt mà |",
+            "| ✅ **Hệ sinh thái trưởng thành** | Công cụ DeFi phong phú với một lượng người dùng lớn |",
+            "| ✅ **Tương thích EVM** | Có thể tái sử dụng tài nguyên của hệ sinh thái Ethereum |",
+            "| ✅ **Chấp Nhận Ví** | Các ví chính thống như MetaMask, Trust Wallet hỗ trợ |"
+          ]
+        },
+        "contracts": {
+          "title": "Kiến trúc Hợp đồng Thông minh 3.2",
+          "description": [
+            "Chúng tôi sử dụng các tiêu chuẩn hợp đồng thông minh được xác minh trong ngành để đảm bảo an ninh và độ tin cậy của các token.",
+            "",
+            "**Nguyên Tắc Thiết Kế Cốt Lõi**:",
+            "- **Phi tập trung**: Tất cả các cơ chế phát hành và phát token được thực hiện tự động thông qua hợp đồng thông minh, không cần can thiệp của con người.",
+            "- **Minh bạch và Có thể theo dõi**: Tất cả các hồ sơ hoạt động được lưu trữ trên blockchain, có thể truy cập bởi bất kỳ ai.",
+            "- **An toàn và Đáng tin cậy**: Sử dụng thư viện hợp đồng chuẩn đã được kiểm toán bởi bên thứ ba để đảm bảo chất lượng mã và an ninh.",
+            "",
+            "**Chức Năng Chính**:",
+            "- **Phát Hành Token**: Phát hành và chuyển nhượng token theo tiêu chuẩn BSC.",
+            "- **Phát hành Tự động**: Quản lý việc phát hành dần dần (6 giai đoạn cắt giảm) của 90% token được phát hành công khai.",
+            "- **Khóa Nhóm**: Quản lý 10% phân bổ nhóm cho việc khóa và phát hành theo tuyến tính",
+            "- **Cơ chế Quản trị**: Tất cả các hoạt động quan trọng đều yêu cầu xác nhận đa chữ ký, kèm theo thời gian chờ 48 giờ để cộng đồng có thời gian xem xét",
+            "- **Mua lại Tự động**: Phí nền tảng sẽ được sử dụng tự động để mua lại token, tăng cường thanh khoản",
+            "",
+            "**Biện pháp bảo mật**:",
+            "- Sử dụng một thư viện hợp đồng tiêu chuẩn được kiểm toán bởi bên thứ ba để đảm bảo chất lượng mã và an ninh",
+            "- Tất cả các thao tác quan trọng yêu cầu xác nhận đa chữ ký, với thời gian chờ 48 giờ để cho cộng đồng có thời gian xem xét.",
+            "- Công nghệ xác thực tiên tiến được sử dụng trong quá trình rút tiền của người dùng để đảm bảo chỉ người dùng mới có thể thực hiện thao tác",
+            "- Sử dụng cơ chế ngăn chặn tấn công phát lại để bảo vệ quỹ của người dùng",
+            "- Lên kế hoạch để thực hiện kiểm toán bảo mật của bên thứ ba (CertiK / PeckShield / SlowMist)",
+            "",
+            "*Để biết thêm thông tin chi tiết về thông số kỹ thuật, giao diện hợp đồng và định nghĩa chức năng, vui lòng tham khảo: [Tài liệu Thông số Kỹ thuật](/vi-VN/docs/technical)*"
+          ]
+        }
+      },
+      "emission": {
+        "public": {
+          "title": "4.1 Chào bán Công khai (90%)",
+          "initial_liquidity": [
+            "**Tính thanh khoản ban đầu**:",
+            "- Tạm ứng một phần token từ quỹ phát hành công khai 90% để thiết lập quỹ thanh khoản ban đầu với USDT",
+            "- Đảm bảo rằng các token có thể được giao dịch bình thường sau khi lên mạng, cung cấp sự đảm bảo thanh khoản cho các nhà đầu tư",
+            "- Số lượng cụ thể sẽ được công bố trước khi ra mắt mainnet"
+          ],
+          "launch_protection": [
+            "**Mở Cơ Chế Chống Snipe**:",
+            "- **Giới Hạn Mua Đơn**: 30 phút trước khi mở bán, một ví đơn lẻ chỉ có thể mua tối đa 0.5% hoặc 1% tổng số lượng",
+            "- **Bảo vệ nhà đầu tư bán lẻ nhỏ**: Ngăn chặn những người nắm giữ lớn lấy đi toàn bộ thanh khoản khi thị trường mở",
+            "- **Khung Thời Gian**: Tự động hết hiệu lực sau 30 phút, không ảnh hưởng đến giao dịch bình thường",
+            "- **Duy trì ổn định giá cả**: Tránh những biến động giá mạnh khi mở cửa"
+          ],
+          "release_methods": [
+            "**Phương pháp phát hành**: Phát hành dần qua các hoạt động của người dùng",
+            "",
+            "**Nguồn Phát Hành**:",
+            "1. **Gửi lì xì**: Mỗi khi gửi 1 lì xì USDT, nhận được $moonini tương ứng dựa trên giai đoạn hiện tại.",
+            "2. **Mời bạn bè**: Mời người dùng mới thành công và hoàn thành các nhiệm vụ chia sẻ để nhận $moonini",
+            "3. **Hoàn thành nhiệm vụ**: Hoàn thành các nhiệm vụ thành tựu, nhiệm vụ xã hội, v.v., để kiếm thêm $moonini",
+            "4. **Chia Sẻ Lợi Nhuận của Chủ Nhóm**: Chủ nhóm có thể nhận được 3% lợi nhuận (USDT) từ việc gửi lì xì qua các nhóm"
+          ],
+          "cost_vs_price": [
+            "💡 **Chi Phí Sản Xuất So Với Giá Thị Trường**:",
+            "",
+            "Trong Giai đoạn 1, chi phí ngầm để có được 1 $moonini thông qua việc khai thác lì xì khoảng **0.02 USDT** (dựa trên phí giao dịch 2%).",
+            "",
+            "Trong khi giá niêm yết ban đầu của chúng tôi là **0.01 USDT**.",
+            "",
+            "Điều này có nghĩa là **giá mua trên thị trường thứ cấp thấp hơn 50% so với giá sản xuất**, cung cấp cho những người nắm giữ sớm một khoảng cách an toàn tự nhiên."
+          ],
+          "withdraw_mechanism": [
+            "**Cơ Chế Rút Tiền**:",
+            "- Sau khi người dùng kiếm được $moonini trên nền tảng, họ có thể rút tiền về ví của mình thông qua cơ chế xác minh danh tính an toàn.",
+            "- Hệ thống sẽ xác minh dựa trên hồ sơ hoạt động của người dùng để đảm bảo rằng chỉ người dùng mới có thể thực hiện thao tác.",
+            "- Một khi được xác minh, người dùng có thể rút token của họ vào ví.",
+            "- **Ngưỡng Rút Tiền Tối Thiểu**: 10 $moonini",
+            "- **Phí giao dịch**: Người dùng chỉ cần thanh toán phí giao dịch mạng (theo quy định của blockchain)",
+            "",
+            "*Để biết thông tin chi tiết về triển khai kỹ thuật, vui lòng tham khảo: [Tài liệu Thông số Kỹ thuật](/vi-VN/docs/technical)*"
+          ],
+          "phase_switch": [
+            "**Chuyển Giai Đoạn**:",
+            "- Tự động chuyển sang giai đoạn tiếp theo khi số tiền phát hành đạt ngưỡng giai đoạn",
+            "- Quy trình chuyển đổi là minh bạch và có thể truy vết, được ghi lại trên chuỗi khối"
+          ]
+        },
+        "team": {
+          "title": "4.2 Phân bổ Nhóm (10%)",
+          "vesting_rules": [
+            "**Quy định về Khóa và Giải phóng**:",
+            "",
+            "| Danh mục | Tỷ lệ | Thời gian khóa (Cliff) | Thời gian phát hành tuyến tính | Tổng thời gian |",
+            "|------|------|---------------|-----------|--------|",
+            "| **Hoạt động** | 2% (200M) | 3 tháng | 45 tháng | 48 tháng |",
+            "| **Nhóm Kỹ Thuật** | 2% (200M) | 3 tháng | 45 tháng | 48 tháng |",
+            "| **Quan hệ công chúng/Tiếp thị** | 2% (200 triệu) | 3 tháng | 45 tháng | 48 tháng |",
+            "| **Nhà đầu tư sớm** | 4% (400 triệu) | 3 tháng | 33 tháng | 36 tháng |",
+            "",
+            "**Phương pháp phát hành**:",
+            "- **Tích Lũy Tuyến Tính**: Tokens tích lũy tuyến tính theo thời gian, và số tiền có thể rút có thể được kiểm tra bất cứ lúc nào.",
+            "- **Phát hành Thông Thường**: Kích hoạt tự động thường xuyên để phát hành mà không cần thao tác thủ công.",
+            "- **Cơ chế Thông báo**: Thông báo tự động gửi đến người nhận sau khi mỗi lần phát hành hoàn tất.",
+            "",
+            "**Ví dụ**:",
+            "- Nhà đầu tư A nhận 1.000.000 $moonini",
+            "- 3 tháng đầu: Thời gian khóa, không cho rút tiền",
+            "- Bắt đầu từ tháng thứ 4: Các token sẽ tích lũy một cách tuyến tính theo thời gian, với việc rút tiền thường xuyên từ phần đã tích lũy.",
+            "- Sau 33 tháng: Tất cả các phiên bản đã hoàn thành."
+          ]
+        },
+        "kyc": {
+          "title": "4.3 Quản lý và KYC cho nhà đầu tư",
+          "methods": [
+            "**Phương thức KYC** (dành cho một số lượng hạn chế các nhà đầu tư ban đầu):",
+            "",
+            "1. **Đội ngũ sáng lập xác thực danh tính thực** (Khuyến nghị, phù hợp cho quy mô nhỏ)",
+            "- Phù hợp cho một số lượng nhà đầu tư ban đầu nhỏ hơn (< 10 người)",
+            "- Các thành viên trong đội sáng lập (Vận hành + Kỹ thuật) thực hiện phỏng vấn video với các nhà đầu tư",
+            "- Xác minh tài liệu danh tính, giấy tờ chứng minh địa chỉ và các tài liệu khác",
+            "- Xác nhận qua chữ ký điện tử PDF (DocuSign/SignNow)",
+            "- **Lợi ích**: Chi phí thấp, quy trình linh hoạt, xây dựng lòng tin",
+            "",
+            "2. **Shufti Pro** (Phù hợp cho quy mô trung bình)",
+            "- Phù hợp cho một số lượng nhà đầu tư vừa phải (10-50 người)",
+            "- 10 slot xác thực miễn phí mỗi tháng (phù hợp cho việc sử dụng ban đầu)",
+            "- Quy trình tự động, hỗ trợ xác minh tài liệu đa quốc gia.",
+            "- **Ưu điểm**: Tự động hóa, tuân thủ cao, hỗ trợ tài liệu đa quốc gia.",
+            "",
+            "3. **KYC Bên Thứ Ba Khác** (Mở Rộng Tương Lai)",
+            "- Persona / Sumsub / Onfido như là các lựa chọn thay thế",
+            "- Phù hợp cho số lượng nhà đầu tư lớn hơn (> 50 người)"
+          ],
+          "flexibility": [
+            "**Thiết Kế Linh Hoạt cho Nhà Đầu Tư**:",
+            "",
+            "**Hỗ trợ nhiều ví và các tỷ lệ khác nhau**:",
+            "- Một nhà đầu tư có thể có nhiều ví để nhận token.",
+            "- Mỗi ví có thể thiết lập tỷ lệ phân bổ khác nhau (ví dụ: 60% / 40%).",
+            "- Các nhà đầu tư khác nhau có thể có thời gian tham gia khác nhau.",
+            "",
+            "**Cơ chế Thay thế Ví (Chiến lược Hủy bỏ và Cấp lại)**:",
+            "- Nhà đầu tư có thể thay đổi ví nhận của họ (cần xác minh lại KYC).",
+            "- **Logic Cốt Lõi**: Thay vì trực tiếp sửa đổi ví cũ, hãy hủy kế hoạch phát hành cũ và tạo một kế hoạch phát hành mới cho ví mới.",
+            "- **Quá trình**:",
+            "1. Các nhà đầu tư báo cáo mất mát/ăn cắp ví cũ của họ và hoàn tất xác minh KYC ngoài chuỗi.",
+            "2. Thông qua một đề xuất ví đa chữ ký, thu hồi kế hoạch phát hành cũ và trả lại các token chưa phát hành.",
+            "3. Tạo một kế hoạch phát hành mới cho ví mới, với số tiền là phần còn lại và thời gian là khoảng thời gian còn lại.",
+            "4. Tất cả các giao dịch đều có thời gian xác nhận 48 giờ để đảm bảo tính minh bạch và an ninh.",
+            "- **Lợi ích**: Logic hợp đồng đơn giản hơn (chỉ tạo và hủy), giảm thiểu đáng kể rủi ro bị hack.",
+            "- Chỉ ảnh hưởng đến phần 'chưa phát hành'; các token đã phát hành không thể bị đảo ngược."
+          ]
+        }
+      },
+      "governance": {
+        "mechanism": {
+          "title": "5.1 Cơ chế quản trị",
+          "core_principle": [
+            "**Nguyên tắc cốt lõi**: **Không có quyền lực tối cao nào**, tất cả các hoạt động quan trọng phải trải qua việc xem xét công khai có độ trễ.",
+            "",
+            "**Quy trình Quản trị**:",
+            "1. **Đề xuất**: Đề xuất quản trị được thiết lập sau khi phê duyệt ví đa chữ ký",
+            "2. **Thời gian xem xét**: Nhập hàng đợi trì hoãn 48 giờ, tất cả các hành động sẽ được công khai trên blockchain",
+            "3. **Thực hiện**: Các đề xuất có thể được thực hiện sau khi thời gian trì hoãn hết hạn.",
+            "4. **Hủy bỏ**: Trong thời gian xem xét, người đề xuất có thể hủy bỏ đề xuất.",
+            "",
+            "**Các Mục Có Thể Quản Lý**:",
+            "- Điều chỉnh tham số (phí giao dịch, giới hạn mua lại, v.v.)",
+            "- Phân bổ ngân quỹ (ngân sách giai đoạn tiếp theo, ngân sách sự kiện, v.v.)",
+            "- Nâng cấp hợp đồng (phải qua kiểm toán)"
+          ]
+        },
+        "security": {
+          "title": "5.2 Biện pháp bảo mật",
+          "description": [
+            "**Bảo vệ đa lớp**:",
+            "1. **Ví đa chữ ký**: Tất cả các thao tác quan trọng đều yêu cầu ít nhất 2 chữ ký để xác nhận",
+            "2. **Thực Thi Bị Trì Hoãn**: Tất cả các hoạt động rủi ro cao yêu cầu thời gian trì hoãn 48 giờ",
+            "3. **Kiểm toán**: Thông qua các cuộc kiểm toán an ninh từ bên thứ ba",
+            "4. **Mã nguồn mở**: Mã hợp đồng là mã nguồn mở và có thể được xác minh công khai.",
+            "",
+            "**Quản lý quyền**:",
+            "- **Cơ quan phát hành Token**: Bị thu hồi hoặc chuyển nhượng cho quỹ quản lý, không thể phát hành token tùy ý.",
+            "- **Cơ Quan Đóng Băng**: Đã đóng cửa, không thể đóng băng token của người dùng.",
+            "- **Cập nhật quyền**: Chỉ địa chỉ quản trị mới có thể chỉnh sửa thông tin token."
+          ]
+        },
+        "pol": {
+          "title": "5.3 Mua lại và Tạo Thị Trường (POL - Mua lại Không Giới Hạn + Bảo Vệ Giá Sàn)",
+          "mechanism": [
+            "**Cơ chế**:",
+            "- **1%** phí giao dịch trên nền tảng được sử dụng để mua lại $moonini và làm sâu thêm bể thanh khoản",
+            "- **Mua lại không giới hạn**: Không có giới hạn hàng ngày cho việc mua lại; với số phí giao dịch có nhiều bao nhiêu, việc mua lại vẫn tiếp tục cung cấp hỗ trợ thanh khoản cho token",
+            "- **Chiến lược Tự động**: Sử dụng các chiến lược mua lại thông minh để giảm khả năng dự đoán và tránh thao túng thị trường",
+            "- **Mua Bảo Vệ**: Tự động tăng cường nỗ lực mua lại khi có sự sụt giảm đáng kể trên thị trường, bảo vệ lợi ích của nhà đầu tư"
+          ],
+          "floor_defense": [
+            "**Bảo vệ giá sàn**:",
+            "- **Mức Giá Tâm Lý**: 0.01 USDT",
+            "- **Phòng Thủ Tự Động**: Khi giá giảm xuống dưới ngưỡng phòng thủ, chế độ phòng thủ tự động được kích hoạt, tăng cường nỗ lực mua lại",
+            "- **Tạo Thị Trường Tự Động**: Tạo thị trường tự động dựa trên hợp đồng thông minh, không cần can thiệp thủ công, đảm bảo sự ổn định của thị trường",
+            "- **Tiết kiệm chi phí Maker Thị Trường**: Sử dụng ngân sách để phát hành lì xì, marketing, hoặc tăng tính thanh khoản ban đầu"
+          ],
+          "philosophy": [
+            "**Triết lý Thiết kế**:",
+            "- Rào cản nhập thấp, lợi nhuận lý thuyết trò chơi cao",
+            "- Dự án tiệc không can thiệp vào thị trường (chỉ cung cấp phí giao dịch mua lại)",
+            "- Mô hình SocialFi thuần túy",
+            "- Tự động duy trì mức giá tâm lý để giữ vững niềm tin của thị trường",
+            "",
+            "*Để biết thêm thông tin chi tiết về các tham số kỹ thuật và chiến lược thực hiện, vui lòng tham khảo: [Tài liệu Thông số Kỹ thuật](/vi-VN/docs/technical)*"
+          ]
+        },
+        "kyc": {
+          "title": "4.3 Quản lý và xác minh danh tính nhà đầu tư (KYC)",
+          "methods": [
+            "**Phương thức KYC** (dành cho một số ít nhà đầu tư ban đầu):",
+            "",
+            "1. **KYC Người Thật Đội Ngũ Sáng Lập** (được khuyên dùng, phù hợp cho quy mô nhỏ)",
+            "- Phù hợp cho số lượng nhà đầu tư ban đầu ít hơn (< 10 người)",
+            "- Các cuộc phỏng vấn video giữa các thành viên sáng lập (vận hành + công nghệ) và các nhà đầu tư",
+            "- Xác minh tài liệu nhận dạng, chứng minh địa chỉ và các tài liệu khác",
+            "- Xác nhận thông qua chữ ký điện tử PDF (DocuSign/SignNow)",
+            "- **Lợi ích**: Chi phí thấp, quy trình linh hoạt, có thể xây dựng mối quan hệ tin cậy",
+            "",
+            "2. **Shufti Pro** (phù hợp cho quy mô trung bình)",
+            "- Phù hợp cho một số lượng nhà đầu tư vừa phải (10-50 người).",
+            "- 10 tín dụng xác minh miễn phí mỗi tháng (phù hợp cho việc sử dụng ban đầu).",
+            "- Quy trình tự động, hỗ trợ xác minh tài liệu đa quốc gia",
+            "- **Lợi thế**: Tự động hóa, tuân thủ cao, hỗ trợ tài liệu đa quốc gia",
+            "",
+            "3. **KYC của bên thứ ba khác** (mở rộng trong tương lai)",
+            "- Persona / Sumsub / Onfido như là các lựa chọn thay thế",
+            "- Phù hợp cho số lượng lớn nhà đầu tư (> 50 người)"
+          ],
+          "flexibility": [
+            "**Thiết kế linh hoạt cho các nhà đầu tư**:",
+            "",
+            "**Hỗ trợ nhiều ví và tỷ lệ khác nhau**:",
+            "- Một nhà đầu tư có thể có nhiều ví để nhận token.",
+            "- Mỗi ví có thể được thiết lập với các tỷ lệ phân bổ khác nhau (ví dụ: 60% / 40%).",
+            "- Các nhà đầu tư khác nhau có thể có thời gian tham gia khác nhau.",
+            "",
+            "**Cơ Chế Thay Đổi Ví (Chiến Lược Thu Hồi và Phát Hành Lại)**:",
+            "- Các nhà đầu tư có thể thay đổi ví nhận (yêu cầu xác minh lại KYC).",
+            "- **Logic Cơ Bản**: Thay vì trực tiếp sửa đổi ví cũ, hãy thu hồi kế hoạch phát hành cũ và tạo một kế hoạch phát hành mới cho ví mới.",
+            "- **Quy trình**:",
+            "1. Nhà đầu tư báo cáo ví cũ bị mất hoặc bị đánh cắp và hoàn tất xác minh KYC ngoài chuỗi.",
+            "2. Thông qua một đề xuất ví đa chữ ký, thu hồi kế hoạch phát hành cũ và trả lại các token chưa phát hành.",
+            "3. Tạo một kế hoạch phát hành mới cho ví mới, với số tiền là phần còn lại và thời gian là khoảng thời gian còn lại.",
+            "4. Tất cả các giao dịch đều trải qua một khoảng thời gian xác nhận 48 giờ để đảm bảo tính minh bạch và an toàn.",
+            "- **Lợi ích**: Logic hợp đồng đơn giản hơn (chỉ tạo và thu hồi), giảm đáng kể rủi ro bị tấn công.",
+            "- Chỉ ảnh hưởng đến phần \"chưa phát hành\"; các token đã phát hành không thể lấy lại."
+          ]
+        }
+      },
+      "incentives": {
+        "how_to_earn": {
+          "title": "6.1 Làm thế nào để nhận được $moonini?",
+          "send_gift": [
+            "#### A. Gửi lì xì",
+            "",
+            "- **Quy tắc cơ bản**: Đối với mỗi **tương đương 1 USDT** lì xì được gửi (hỗ trợ nhiều token), hệ thống sẽ tính toán và phân phối $moonini dựa trên tỷ giá hối đoái của giai đoạn hiện tại.",
+            "- **Truyền Tải Lời Chúc**: Lì xì không chỉ là tiền; chúng là một phương tiện truyền tải lời chúc phúc. Mỗi hành động tặng quà sẽ được ghi lại trên blockchain và được thưởng."
+          ],
+          "invite": [
+            "#### B. Mời bạn bè (Chia sẻ lì xì)",
+            "",
+            "- **Quy tắc**: Mời bạn bè mới và hoàn thành các nhiệm vụ chia sẻ, cả hai bên sẽ nhận được phần thưởng.",
+            "- **Cơ Chế Chống Spam**: Để đảm bảo sự công bằng, **mỗi tài khoản có một giới hạn thưởng mời**, sẽ được điều chỉnh một cách động theo thông báo thiết kế trò chơi cộng đồng mới nhất.",
+            "- **Kiểm Soát Rủi Ro**: Chúng tôi có các cơ chế kiểm soát rủi ro nghiêm ngặt; bất kỳ hành vi spam bất thường nào sẽ được coi là không hợp lệ."
+          ],
+          "quests": [
+            "#### C. Hoàn thành nhiệm vụ",
+            "",
+            "**Loại Nhiệm Vụ**:",
+            "- Bao gồm các nhiệm vụ thành tựu một lần (chẳng hạn như gửi lì xì đầu tiên) và các nhiệm vụ xã hội (chẳng hạn như theo dõi cộng đồng chính thức).",
+            "- Những nhiệm vụ này được thiết kế để giúp những người mới làm quen với các tính năng của nền tảng, **mỗi tài khoản chỉ có thể hoàn thành một lần hoặc có giới hạn tổng số lượng**.",
+            "",
+            "**Mục đích Thiết kế**:",
+            "- Để ngăn chặn việc tự động hóa kịch bản gửi coin, dành phần thưởng cho người dùng thực sự hoạt động."
+          ]
+        },
+        "fee_structure": {
+          "title": "Cấu trúc phí 6.2",
+          "description": [
+            "**Phí giao dịch khi gửi lì xì**:",
+            "",
+            "| Kịch bản | Tổng phí | Mô tả |",
+            "|------|---------|------|",
+            "| **Gửi trong Nhóm của Riêng** | 2% | 1% Hoạt động + 1% Mua lại |",
+            "| **Gửi qua Nhóm** | 5% | 1% Hoạt động + 1% Mua lại + 3% Chia sẻ Lợi nhuận Chủ Nhóm |",
+            "",
+            "**Sử dụng phí**:",
+            "- **1% Hoạt động**: Dùng cho chi phí máy chủ, phát triển và tiếp thị.",
+            "- **1% Mua lại**: Được sử dụng để mua lại $moonini và làm sâu thêm LP (sẽ được thực hiện trong tương lai).",
+            "- **3% Chia Sẻ Lợi Nhuận Chủ Nhóm**: Trả cho chủ nhóm (chỉ tính phí đối với việc gửi qua nhóm khác)."
+          ]
+        }
+      },
+      "developer": {
+        "contracts": {
+          "title": "7.1 Địa chỉ hợp đồng (Đang chờ triển khai)",
+          "description": [
+            "Khi token chính thức ra mắt, tất cả địa chỉ hợp đồng thông minh sẽ được công bố tại đây, cùng với các liên kết thông số kỹ thuật tương ứng.",
+            "",
+            "**Các Mô-đun Hợp Đồng Chính**:",
+            "- Hợp đồng Token",
+            "- Quản trị và Kiểm soát Trễ",
+            "- Quỹ chào bán công khai",
+            "- Quỹ Phân bổ Đội",
+            "- Quản lý Mua lại",
+            "- Pool Thanh Khoản",
+            "- Ví đa chữ ký",
+            "",
+            "*Để biết địa chỉ hợp đồng và thông số kỹ thuật chi tiết, vui lòng tham khảo: [Tài liệu thông số kỹ thuật](/vi-VN/docs/technical)*"
+          ]
+        },
+        "api": {
+          "title": "7.2 Các chế độ tích hợp và API (Đang lên kế hoạch)",
+          "intro": [
+            "moonpacket dự kiến cung cấp một hệ sinh thái API hoàn chỉnh, cho phép các nhà phát triển và đối tác bên thứ ba dễ dàng tích hợp cơ chế thưởng $moonini vào sản phẩm của họ. Dù là bot Telegram, trò chơi Web3 hay nền tảng chiến dịch tiếp thị, API của chúng tôi cho phép người dùng nhận thưởng $moonini, mở rộng ảnh hưởng sinh thái."
+          ],
+          "types": [
+            "**Loại API**:",
+            "",
+            "Chúng tôi dự định cung cấp các loại API sau để đáp ứng các nhu cầu tích hợp khác nhau:",
+            "",
+            "- **API Đọc Dữ Liệu**: Truy vấn hồ sơ phân phối lì xì, trạng thái hoàn thành nhiệm vụ, số dư người dùng $moonini và nhiều thông tin khác, cho phép các đối tác hiểu tình trạng hoạt động của người dùng.",
+            "",
+            "- **API Phân phối và Nhiệm vụ**: Cho phép các đối tác kích hoạt phân phối lì xì hoặc thưởng nhiệm vụ trong sản phẩm của họ, ví dụ, tự động phân phối phần thưởng $moonini khi người dùng đạt được những cột mốc cụ thể trong một trò chơi.",
+            "",
+            "- **Sự kiện Webhook**: Hệ thống chủ động thông báo cho các đối tác về các sự kiện quan trọng như khi người dùng hoàn thành nhiệm vụ, nhận lì xì, hoặc hoàn tất rút tiền, cho phép phản hồi theo thời gian thực và đồng bộ hóa dữ liệu."
+          ],
+          "security": [
+            "**Bảo mật và Quyền truy cập**:",
+            "",
+            "Để đảm bảo an ninh và sự ổn định của API, chúng tôi thực hiện các cơ chế sau:",
+            "",
+            "- **Xác thực API Key**: Mỗi đối tác sẽ nhận được một API Key hoặc ID ứng dụng dành riêng để nhận dạng và ủy quyền.",
+            "",
+            "- **Giới Hạn Tốc Độ**: Tất cả các yêu cầu API đều bị giới hạn tốc độ để ngăn chặn lạm dụng và quá tải, đảm bảo tính ổn định của dịch vụ.",
+            "",
+            "- **Xác minh Chữ ký**: Các hoạt động quan trọng (ví dụ: phát hành phần thưởng) yêu cầu xác minh chữ ký yêu cầu để ngăn ngừa giả mạo và hành động trái phép.",
+            "",
+            "- **Cấp độ quyền hạn**: Các đối tác khác nhau sẽ có các cấp độ quyền API khác nhau dựa trên mối quan hệ hợp tác và nhu cầu của họ, đảm bảo nguyên tắc quyền hạn tối thiểu."
+          ],
+          "release": [
+            "**Nhịp Phát Hành**:",
+            "",
+            "API sẽ áp dụng chiến lược mở cửa tiến bộ để đảm bảo sự ổn định và an toàn:",
+            "",
+            "- **Beta Đóng**: Ban đầu được cung cấp cho các đối tác và các nhà phát triển trò chơi sớm trong định dạng beta đóng để thu thập phản hồi và tối ưu hóa trải nghiệm.",
+            "",
+            "- **Mở rộng dần dần**: Sau khi xác minh sự ổn định trong giai đoạn Beta, các ứng dụng sẽ được mở rộng dần dần để cho phép nhiều nhà phát triển tích hợp hệ sinh thái $moonini.",
+            "",
+            "- **Phát Hành Chính Thức**: Khi API đạt được mức độ ổn định sản xuất, nó sẽ chính thức mở cho công chúng, cung cấp tài liệu và hỗ trợ đầy đủ."
+          ],
+          "scenarios": {
+            "title": "Các Kịch Bản Tích Hợp Điển Hình",
+            "items": [
+              "**Bot Telegram / Ứng Dụng Mini**: Gửi lì xì trong các nhóm hoặc ứng dụng của bạn để cho phép người dùng nhận phần thưởng $moonini, tăng cường sự gắn bó của người dùng.",
+              "",
+              "**Trò chơi Web3**: Báo cáo trạng thái hoàn thành nhiệm vụ trong trò chơi cho moonpacket, cho phép người chơi tự động nhận thêm phần thưởng $moonini khi hoàn thành nhiệm vụ trong trò chơi.",
+              "",
+              "**Nền tảng Chiến dịch Tiếp thị**: Tự động gửi phần thưởng $moonini dựa trên hành vi của người dùng trên mạng xã hội (ví dụ: chia sẻ, retweet, theo dõi, v.v.), đạt được tiếp thị chính xác.",
+              "",
+              "**Giao thức DeFi**: Tích hợp $moonini như một lớp thưởng bổ sung, cho phép người dùng kiếm được phần thưởng $moonini bên cạnh lợi nhuận ban đầu khi hoàn thành các hành động DeFi cụ thể.",
+              "",
+              "**Nền tảng Tạo Nội Dung**: Tự động phát hành $moonini phần thưởng khi các nhà sáng tạo hoàn thành nhiệm vụ cụ thể hoặc đạt được cột mốc, khuyến khích việc tạo ra nội dung chất lượng."
+            ]
+          }
+        },
+        "tools": {
+          "title": "7.3 Công Cụ Phát Triển và Tài Liệu",
+          "description": [
+            "Để giúp các nhà phát triển tích hợp API moonpacket dễ dàng hơn, chúng tôi dự định cung cấp đầy đủ công cụ và tài liệu cho nhà phát triển:",
+            "",
+            "- **Cổng thông tin cho nhà phát triển**: Cung cấp một điểm truy cập thống nhất cho các nhà phát triển, bao gồm quản lý chìa khóa API, thống kê sử dụng, nhật ký lỗi và nhiều hơn nữa, cho phép các nhà phát triển dễ dàng quản lý các tích hợp của họ.",
+            "",
+            "- **Tài liệu API**: Cung cấp tài liệu REST API và Webhook đầy đủ, bao gồm mẫu yêu cầu, định dạng phản hồi, giải thích mã lỗi, v.v., giúp các nhà phát triển nhanh chóng bắt đầu.",
+            "",
+            "- **SDK và Mẫu Mã**: Cung cấp SDK bằng nhiều ngôn ngữ (như JavaScript, Python) và mẫu mã để giảm bớt rào cản tích hợp, cho phép các nhà phát triển triển khai nhanh chóng.",
+            "",
+            "Hiện tại, các tài liệu kỹ thuật được trình bày từ trang kỹ thuật của trung tâm tài liệu (docs), bao gồm thông số hợp đồng thông minh, cơ chế phân phối, hệ thống nhiệm vụ, và các chi tiết kỹ thuật khác. Tài liệu API đầy đủ sẽ được tổ chức trên trang 《[Tài liệu API cho nhà phát triển](/vi-VN/docs/api/)》, và tài liệu API chính thức cùng các công cụ cho nhà phát triển sẽ được phát hành dần dần quanh thời điểm ra mắt mainnet, vì vậy xin hãy chú ý theo dõi."
+          ]
+        }
+      },
+      "roadmap": {
+        "labels": {
+          "current": "Đang tiến hành",
+          "done": "Đã hoàn thành"
+        },
+        "phase1": {
+          "title": "Giai đoạn 1: Hạ tầng (Đã hoàn thành ✅)",
+          "items": [
+            "- [x] Thiết kế hợp đồng token",
+            "- [x] Tài liệu thông số kỹ thuật",
+            "- [x] Thiết kế cấu trúc dữ liệu"
+          ]
+        },
+        "phase2": {
+          "title": "Giai đoạn 2: Phát triển hợp đồng (Đang tiến hành 🚧)",
+          "items": [
+            "- [ ] Triển khai hợp đồng token (Testnet)",
+            "- [ ] Hợp đồng quản lý giai đoạn",
+            "- [ ] Hợp đồng phát hành",
+            "- [ ] Tích hợp timelock",
+            "- [ ] Kiểm toán bên thứ ba"
+          ]
+        },
+        "phase3": {
+          "title": "Giai đoạn 3: Chuẩn bị ra mắt (Đã lên kế hoạch 📅)",
+          "items": [
+            "- [ ] Triển khai mainnet",
+            "- [ ] Tạo lập quỹ thanh khoản ban đầu",
+            "- [ ] Ra mắt hệ thống khuyến khích người dùng",
+            "- [ ] Ra mắt bảng điều khiển"
+          ]
+        },
+        "phase4": {
+          "title": "Giai đoạn 4: Mở rộng hệ sinh thái (Tương lai 🔮)",
+          "items": [
+            "- [ ] Kích hoạt cơ chế mua lại POL",
+            "- [ ] Hỗ trợ đa chuỗi (Polygon / Arbitrum)",
+            "- [ ] Thêm các tích hợp DeFi"
+          ]
+        }
+      },
+      "risks": {
+        "technical": {
+          "title": "9.1 Rủi ro Kỹ thuật",
+          "description": [
+            "| Rủi ro | Mô tả | Biện pháp giảm thiểu |",
+            "|------|------|---------|",
+            "| Lỗ hổng hợp đồng thông minh | Hợp đồng có thể có lỗ hổng chưa biết | Thông qua kiểm toán của bên thứ ba, Chương trình thưởng lỗi |",
+            "| Rò rỉ Khóa Riêng | Khóa riêng của quản trị viên có thể bị đánh cắp | Sử dụng ví phần cứng, MPC, chữ ký đa |",
+            "| Tắc nghẽn mạng | Thời gian cao điểm của BSC có thể gây ra sự chậm trễ | Độ dư thừa nhiều nút, Tối ưu hóa Gas |"
+          ]
+        },
+        "market": {
+          "title": "Rủi ro thị trường 9.2",
+          "description": [
+            "- **Biến Động Giá**: Giá token có thể thay đổi đáng kể.",
+            "- **Rủi ro thanh khoản**: Thanh khoản ban đầu có thể không đủ",
+            "- **Rủi ro Quy định**: Các chính sách quy định ở các quốc gia khác nhau có thể thay đổi"
+          ]
+        },
+        "notice": {
+          "title": "9.3 Thông báo người dùng",
+          "description": [
+            "- ⚠️ **Rủi ro đầu tư**: Giá token có thể giảm xuống bằng không, vui lòng đầu tư một cách cẩn trọng",
+            "- ⚠️ **Không phải là tư vấn đầu tư**: Tài liệu này không cấu thành bất kỳ lời khuyên nào về đầu tư",
+            "- ⚠️ **Tự Nghiên Cứu**: Vui lòng nghiên cứu và tự đánh giá rủi ro"
+          ]
+        }
+      },
+      "faq": {
+        "title": "Mười, Vấn đề cần xác nhận",
+        "description": [
+          "Tài liệu này mô tả các nguyên tắc thiết kế cốt lõi và mô hình kinh tế của $moonini. Các vấn đề sau đây vẫn đang được phối hợp với các tư vấn viên và đối tác và sẽ được hoàn thiện trước khi ra mắt mạng chính:",
+          "",
+          "- **Thời gian phát hành Token và sàn giao dịch niêm yết**: Thời gian phát hành cụ thể và việc nó có được niêm yết trên các sàn giao dịch tập trung (CEX) vẫn đang được phối hợp với các cố vấn và đối tác.",
+          "",
+          "- **Chi tiết Kỹ thuật**: Một số chi tiết triển khai kỹ thuật (như hỗ trợ chuỗi chéo và điều chỉnh các tham số chiến lược mua lại) sẽ được hoàn thiện trước khi ra mắt mạng chính và được cập nhật trong tài liệu kỹ thuật.",
+          "",
+          "- **Tuân thủ và Thuế**: Các yêu cầu tuân thủ và cách xử lý thuế được cập nhật liên tục dựa trên ý kiến chuyên môn từ Đài Loan và khu vực địa phương nhằm đảm bảo tuân thủ các quy định tại địa phương.",
+          "",
+          "- **Cập nhật Bản trắng**: Bản trắng này có thể có những điều chỉnh nhỏ, nhưng các nguyên tắc cốt lõi (phân bổ 90/10, cơ chế giảm một nửa 6 giai đoạn, khóa và phát hành theo tuyến tính) vẫn không thay đổi.",
+          "",
+          "Tất cả các chi tiết kỹ thuật, bước triển khai và giao diện chức năng có thể được tìm thấy trong [Tài liệu Thông số Kỹ thuật](/vi-VN/docs/technical)."
+        ]
+      }
+    },
+    "charts": {
+      "phase": {
+        "title": "Cơ chế giảm một nửa 6 giai đoạn",
+        "description": "Càng tham gia sớm, bạn sẽ nhận được nhiều token hơn",
+        "xAxis": "Lưu thông",
+        "yAxis": "Tỷ lệ đổi thưởng (cho 1 USDT)",
+        "phase": "Giai đoạn",
+        "ratio": "Tỷ lệ",
+        "range": "Khoảng thời gian",
+        "units": {
+          "ratio": "Mảnh",
+          "usdt": "USDT"
+        }
+      },
+      "vesting": {
+        "title": "Thời gian phát hành",
+        "description": "Phân bổ đội sẽ được khóa trong 3 tháng, sau đó sẽ được phát hành theo kiểu tuyến tính theo danh mục",
+        "cliff": "Thời gian khóa",
+        "linear": "Thời gian phát hành tuyến tính",
+        "total": "Tổng Thời Gian",
+        "months": "Tháng",
+        "operations": "Hoạt động",
+        "tech": "Nhóm Kỹ Thuật",
+        "marketing": "Quan hệ công chúng/Marketing",
+        "investors": "Nhà đầu tư sớm"
+      },
+      "flow": {
+        "title": "Luồng Lưu Thông Token",
+        "userSend": "Người dùng gửi lì xì",
+        "fee": "Phí giao dịch",
+        "operations": "Chi phí hoạt động",
+        "pol": "Quỹ Phục Hồi",
+        "accumulate": "Tích lũy",
+        "trigger": "Kích hoạt mua lại",
+        "swap": "Hoán đổi Token",
+        "addLiquidity": "Thêm Thanh Khoản",
+        "pool": "Hồ bơi thanh khoản"
+      },
+      "governance": {
+        "title": "Quy trình Quản trị",
+        "multisig": "Ví Đa Chữ Ký",
+        "proposal": "Đề xuất",
+        "timelock": "Thực hiện bị trì hoãn",
+        "execute": "Thi hành",
+        "update": "Cập nhật"
+      },
+      "architecture": {
+        "title": "Kiến trúc Hợp đồng Thông minh",
+        "token": "Hợp đồng Token",
+        "vault": "Kho",
+        "manager": "Quản lý",
+        "protection": "Cơ chế bảo vệ"
+      },
+      "progress": {
+        "title": "Tiến trình Giai đoạn",
+        "current": "Giai đoạn hiện tại",
+        "issued": "Đã phát hành",
+        "remaining": "Còn lại"
+      }
+    }
+  },
+  "api": {
+    "actions": {
+      "items": {
+        "0": "Đọc [whitepaper](/vi-VN/docs/whitepaper/) để tìm hiểu về token $moonini và mô hình kinh tế của nó.",
+        "1": "Đọc [Tài liệu Thông số Kỹ thuật](/vi-VN/docs/technical/) để hiểu về hợp đồng thông minh và cơ chế phát hành.",
+        "2": "Gửi yêu cầu hợp tác API của bạn qua các kênh chính thức (Telegram, Email), và chúng tôi sẽ ưu tiên thông báo cho bạn khi API sẵn sàng."
+      },
+      "title": "Bạn có thể làm gì bây giờ?"
+    },
+    "content": {
+      "0": "Trang này sẽ sớm cung cấp tài liệu hoàn chỉnh cho API của moonpacket / $moonini, bao gồm các chi tiết kỹ thuật về REST API, sự kiện Webhook, xác thực OAuth, quản lý API Key và nhiều hơn nữa.",
+      "2": "API hiện đang trong giai đoạn thiết kế và xác thực nội bộ và sẽ được cung cấp trước tiên dưới dạng beta kín cho một số đối tác được chọn để thử nghiệm, thu thập phản hồi và tối ưu hóa trải nghiệm.",
+      "4": "Tất cả các chi tiết kỹ thuật cần tham khảo vào 'Tài liệu Đặc tả Kỹ thuật' và tài liệu trắng trước khi tài liệu API chính thức được công bố."
+    },
+    "description": "Tìm hiểu cách tích hợp moonpacket và $moonini vào sản phẩm của bạn qua API.",
+    "seo": {
+      "description": "Hoàn thành tài liệu API, REST API, Webhook và hướng dẫn tích hợp",
+      "title": "Tài liệu API Moonpacket / $moonini — moonpacket"
+    },
+    "status": {
+      "planned": "(Đang lên kế hoạch)"
+    },
+    "subtitle": "Hoàn tất tài liệu API và hướng dẫn tích hợp (đang lên kế hoạch)",
+    "title": "Tài liệu API Moonpacket / $moonini"
+  },
+  "countdown": {
+    "days": "Trời",
+    "hours": "Giờ",
+    "minutes": "phút",
+    "seconds": "giây",
+    "title": "Khoảng cách đến ngày phát hành chính thức của $moonini"
+  },
+  "disclaimer": {
+    "badge": "Thông báo quan trọng",
+    "text": "Mục này vẫn đang trong quá trình phát triển và sẽ tuân theo thời gian biểu được nêu trong lộ trình trên trang chủ. Tài liệu trắng có thể vẫn sẽ thay đổi trước khi phân phối token chính thức, và chúng tôi mong người dùng thông cảm. Sau khi phân phối token, các thay đổi sẽ thường không được thực hiện."
+  },
+  "distribution": {
+    "back_to_whitepaper": "Quay lại Tài liệu trắng",
+    "description": "Hiểu rõ quy tắc phân phối nội bộ và phương pháp kế toán của $moonini",
+    "intro": {
+      "0": "**Tài liệu này dành cho kỹ sư và nhà phát triển backend**, định nghĩa các quy tắc cụ thể về 'cách phát hành, cách người dùng có thể đổi và xem' trong sản phẩm moonpacket.",
+      "2": "**Nguyên tắc thiết kế**:",
+      "3": "- **Thay đổi tối thiểu**: Ưu tiên sử dụng cấu trúc dữ liệu hiện có, mà không ngay lập tức thêm các bảng DB phức tạp.",
+      "4": "- **Có thể mở rộng**: Trong tương lai, nếu $moonini muốn hoàn toàn trên chuỗi, chúng tôi chỉ cần thêm logic rút tiền/định dạng.",
+      "5": "- **Minh bạch và Có thể Theo dõi**: Tất cả các phân phối và tiêu thụ $moonini đều được ghi lại trong `user_activity_logs`",
+      "7": "**Nội dung chính**:",
+      "8": "- Mô hình dữ liệu và phương pháp kế toán (sổ cái nội bộ)",
+      "9": "- Nguồn phân phối và quy tắc $moonini",
+      "10": "- Chi tiết thực hiện kế toán",
+      "12": "*Tài liệu này chứa các thông tin kỹ thuật, người dùng thông thường có thể tham khảo [bản whitepaper](/vi-VN/docs/whitepaper/) để có cái nhìn tổng quan về dự án.*",
+      "14": "Để biết thêm tài liệu chi tiết, vui lòng tham khảo: `docs/technical/moonini-distribution.md`"
+    },
+    "seo": {
+      "description": "Hoàn thành hướng dẫn quy tắc phân phối $moonini và hệ thống kế toán",
+      "title": "Cơ chế phân phối $moonini — moonpacket"
+    },
+    "title": "Thiết kế phân phối và thu thập $moonini"
+  },
+  "index": {
+    "description": "Hoàn thành tài liệu dự án, whitepaper và thông số kỹ thuật",
+    "sections": {
+      "general": "Tài liệu chung",
+      "technical": "Tài liệu Kỹ thuật"
+    },
+    "title": "Trung tâm Tài liệu moonpacket"
+  },
+  "missions": {
+    "back_to_whitepaper": "Quay lại Giấy Trắng",
+    "description": "Tìm hiểu cách kiếm $moonini thông qua các nhiệm vụ và thành tựu.",
+    "intro": {
+      "0": "**Tài liệu này nhằm vào các kỹ sư và nhà phát triển sản phẩm**, định nghĩa hệ thống nhiệm vụ và cơ chế thành tựu của $moonini, kết hợp cảm giác thành công và các nhiệm vụ xã hội dựa trên hai hành động cốt lõi: \"Lì xì + Mời bạn bè.\"",
+      "2": "**Nguyên Tắc Thiết Kế**:",
+      "3": "- Tất cả các nhiệm vụ \"thêm $moonini\" chủ yếu xoay quanh: **gửi lì xì, mời bạn bè, theo dõi các cộng đồng chính thức**",
+      "4": "- Nhiệm vụ 'Một lần' sẽ biến mất vĩnh viễn sau khi hoàn thành.",
+      "5": "- Hệ thống nhiệm vụ chỉ cung cấp \"điểm thưởng\" và không thay đổi các quy tắc phân phối cơ bản.",
+      "7": "**Danh mục nhiệm vụ**:",
+      "8": "- **Nhiệm vụ Thành tựu** (một lần): Các cột mốc để gửi lì xì, các cột mốc để mời bạn bè, v.v.",
+      "9": "- **Nhiệm vụ xã hội** (một lần): Theo dõi các phương tiện truyền thông xã hội chính thức, tham gia các cộng đồng chính thức, v.v.",
+      "10": "- **Nhiệm vụ Hằng ngày/Hằng tuần** (Đã được đặt trước): Các nhiệm vụ định kỳ có thể mở rộng trong tương lai",
+      "12": "*Tài liệu này chứa các chi tiết kỹ thuật; người dùng chung có thể tham khảo [tài liệu](https://moonpacket.com/docs/whitepaper/) để có cái nhìn tổng quan về dự án.*",
+      "14": "Để biết thêm tài liệu chi tiết, vui lòng tham khảo: `docs/technical/moonini-missions.md`"
+    },
+    "seo": {
+      "description": "Hoàn thành mô tả hệ thống nhiệm vụ và cơ chế thành tích",
+      "title": "Hệ thống nhiệm vụ $moonini — moonpacket"
+    },
+    "title": "$moonini thiết kế nhiệm vụ và thành tựu"
+  },
+  "nav": {
+    "api": "Tài liệu API",
+    "distribution": "Cơ chế phân phối",
+    "docs": "Tài liệu",
+    "missions": "Hệ thống nhiệm vụ",
+    "technical": "Thông số kỹ thuật",
+    "whitepaper": "Tài liệu trắng"
+  },
+  "technical": {
+    "back_to_whitepaper": "Quay lại Tài liệu Trắng",
+    "description": "Các kỹ sư phát triển các thông số kỹ thuật, bao gồm giao diện hợp đồng thông minh, logic giai đoạn và cơ chế POL.",
+    "intro": {
+      "0": "**Tài liệu này dành cho các kỹ sư, nhà phát triển hợp đồng thông minh và kiểm toán viên**, chứa đầy đủ chi tiết triển khai kỹ thuật.",
+      "2": "**Chuỗi Mục tiêu**: Chuỗi thông minh Binance (BSC)",
+      "3": "**Phiên bản**: v1.0 (2024-11)",
+      "5": "**Nội dung chính**：",
+      "6": "- Kiến trúc hợp đồng thông minh và định nghĩa giao diện",
+      "7": "- Logic quản lý giai đoạn (cơ chế giảm một nửa 6 giai đoạn)",
+      "8": "- Triển khai cơ chế POL (Mua lại và Tạo thị trường)",
+      "9": "- Cơ chế phát hành tài sản",
+      "10": "- Thiết kế Quản trị và Bảo mật",
+      "11": "- Ví dụ mã và biểu đồ kỹ thuật",
+      "13": "*Tài liệu này chứa thông tin kỹ thuật. Người dùng chung có thể tham khảo [bản trắng](/vi-VN/docs/whitepaper/) để có cái nhìn tổng quan về dự án.*",
+      "15": "Để biết tài liệu kỹ thuật chi tiết, vui lòng tham khảo: `docs/technical/moonini-bsc-technical-spec.md`"
+    },
+    "seo": {
+      "description": "Hoàn thiện các thông số kỹ thuật và hướng dẫn phát triển hợp đồng thông minh BSC",
+      "title": "Thông số kỹ thuật $moonini — moonpacket"
+    },
+    "title": "$moonini BSC Thông số Kỹ thuật"
+  },
+  "title": "Tài liệu",
+  "toc": {
+    "back_to_index": "Trở lại Trung tâm Tài liệu",
+    "title": "Danh mục"
+  }
+}

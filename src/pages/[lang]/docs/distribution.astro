@@ -1,0 +1,104 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import { computeCanonical } from '@/utils/head';
+import { getLocalesForBuild, defaultLocale } from '@/i18n/locales.config';
+import { LOCALE_ORDER } from '@/config/locales';
+import { isRTL } from '@/i18n/rtl';
+import { brandify } from '@/lib/brandify';
+import { htmlWithLineBreaks } from '@/utils/text';
+import Section from '@/components/Section.astro';
+
+// Helper: 保留換行為 <br/> 並品牌化
+const toHTML = (s?: string) => htmlWithLineBreaks(brandify(s ?? ""));
+// 物件/字串/陣列 皆轉為字串陣列
+function toLines(value: any): string[] {
+  try {
+    if (!value) return [];
+    if (Array.isArray(value)) return value.filter(Boolean).map(String);
+    if (typeof value === 'string') {
+      return value.replace(/\\n/g, '\n').split(/\r?\n/).map(s => s.trim()).filter(Boolean);
+    }
+    if (typeof value === 'object') {
+      return Object.keys(value).sort((a,b)=>Number(a)-Number(b)).map(k=>String(value[k])).filter(Boolean);
+    }
+    return [];
+  } catch { return []; }
+}
+
+export async function getStaticPaths() {
+  const locales = getLocalesForBuild();
+  return locales.map((l) => ({ params: { lang: l.code } }));
+}
+
+const { lang } = Astro.params as { lang: string };
+const messages = await import('@/i18n/loadMessages')
+  .then((m) => m.loadAllMessages(lang as any))
+  .catch(async () => {
+    const fallback = await import('@/i18n/loadMessages').then((m) =>
+      m.loadAllMessages(defaultLocale),
+    );
+    return fallback;
+  });
+
+const docsMessages = messages.docs || {};
+const distributionMessages = docsMessages.distribution || {};
+const rtl = isRTL(lang);
+
+// SEO metadata（必須從 i18n 讀取）
+const seoTitle = messages.site?.seo?.routes?.docs?.distribution?.title 
+  || distributionMessages?.seo?.title 
+  || distributionMessages?.title 
+  || '';
+const seoDescription = messages.site?.seo?.routes?.docs?.distribution?.description 
+  || distributionMessages?.seo?.description 
+  || distributionMessages?.description 
+  || '';
+
+const canonical = computeCanonical(
+  Astro.url, 
+  (Astro.site && Astro.site.toString()) || undefined
+);
+
+const distributionTitle = brandify(distributionMessages?.title || '');
+---
+
+<BaseLayout 
+  lang={lang} 
+  title={seoTitle}
+  description={seoDescription}
+  canonicalUrl={canonical}
+  allLocales={LOCALE_ORDER}
+  rtl={rtl}
+>
+  <main id="main-content">
+    <section id="hero" class="relative mx-auto max-w-6xl px-4 py-6 overflow-visible">
+      <div class="mb-4">
+        <a href={`/${lang}/docs/whitepaper/`} class="text-sm text-textSubtle hover:text-text underline inline-flex items-center gap-1">
+          ← {distributionMessages?.back_to_whitepaper || '返回白皮書'}
+        </a>
+      </div>
+      <h1 class="text-3xl font-bold mb-4" set:html={distributionTitle}></h1>
+      <p class="text-lg text-textSubtle">{distributionMessages?.description || ''}</p>
+    </section>
+
+    <Section class="py-10">
+      <div class="rounded-xl bg-white dark:bg-card-bg shadow-sm ring-1 ring-black/5 dark:ring-card-ring p-5">
+        <div class="text-base text-textSubtle leading-relaxed space-y-5 prose dark:prose-invert max-w-none">
+          {toLines(distributionMessages?.intro || []).map((item: string) => {
+            if (item.trim() === '') {
+              return <br />;
+            }
+            if (item.startsWith('- ')) {
+              return <li class="ml-4 mb-1" set:html={toHTML(item)} />;
+            }
+            if (item.startsWith('**') && item.endsWith('**')) {
+              return <p class="mb-2 font-semibold" set:html={toHTML(item)} />;
+            }
+            return <p class="mb-2" set:html={toHTML(item)} />;
+          })}
+        </div>
+      </div>
+    </Section>
+  </main>
+</BaseLayout>
+

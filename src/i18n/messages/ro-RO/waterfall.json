@@ -1,0 +1,27 @@
+{
+  "sent_from": "Trimite în grup:",
+  "claimed": "Solicită",
+  "total": "Suma totală",
+  "progress": "Deja revendicat",
+  "groups_directory": {
+    "latest_tab": "Cele mai recente Grupuri Red Packet",
+    "hot_tab": "Grupuri Populare de Red Packet",
+    "search_placeholder": "Caută cuvinte cheie în grupurile la care ai aderat"
+  },
+  "marquee": {
+    "templates": {
+      "send": "💰 {user} a emis un Red Packet de {amount} {ccy} în '{group}'!",
+      "claim": "🎯 {user} a primit {amount} {ccy}, Cel mai Norocos Jucător!",
+      "topup": "🔥 Proprietarul grupului {user} a depus {amount} {ccy}",
+      "system": "📢 {message}",
+      "achievement": "🥇 Cel mai norocos jucător de astăzi: @{user} (a acumulat {amount} {ccy})"
+    },
+    "fallback": [
+      "💰 John a emis un pachet roșu de 100 USDT în 'Game Guild A'!",
+      "🎯 Lisa a revendicat 3.5 USDT, cea mai norocoasă dintre toți!",
+      "🔥 Proprietarul grupului Ken a depus 2000 USDT",
+      "📢 Upgrade-ul sistemului a fost finalizat, suport pentru SOL adăugat!",
+      "🥇 Cei mai norocoși de astăzi: @Mina (a acumulat 28.3 USDT)"
+    ]
+  }
+}

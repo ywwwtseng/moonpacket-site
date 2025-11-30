@@ -1,0 +1,101 @@
+{
+  "illustration_alt": "moonini abraza la ilustración",
+  "title": "🌕 La historia de moonini",
+  "origin": [
+    "Un día, un meteoro rojo cayó en el lado lejano de la luna,",
+    "La luz de la luna estalló al impactar, transformándose en una lluvia de luz blanco plateada.",
+    "De ese parpadeante 'meteorito de Sobre rojo',",
+    "Nació un pequeño conejo lunar resplandeciente — moonini.",
+    "",
+    "moonini lleva una insignia de luna amarillo dorado en su pecho.",
+    "Puede sentir cada Sobre rojo lleno de corazón enviado desde la Tierra.",
+    "No importa la cantidad, es la energía cálida más pura.",
+    "Sí, moonini crece gracias a la energía del Sobre rojo de todos.",
+    "",
+    "Estas energías se transformaron en credenciales de Sobre rojo nacidas en la cadena de Solana —",
+    "Ese es el origen del Token $moonini."
+  ],
+  "secrets_title": "🌸 Su Secreto",
+  "secrets_intro": "Cada vez que envíes un Sobre rojo, moonini registrará una entrada de energía en la luna:",
+  "secrets_flow": "Enviar Sobre rojo → Producir valor energético correspondiente (convertido a valor USDT) → Acumular hasta 10 → Alcanzar el valor mínimo canjeable de $moonini.",
+  "secrets_halving": [
+    "En la fase inicial (Fase 1), moonini generalmente devolverá en la mejor proporción 1:1 al remitente del Sobre rojo. Para mantener la equidad y reducir el riesgo de lavados/juegos de ping-pong, introduciremos el concepto de energía efectiva.",
+    "Cuando los montos totales enviados y retirados de la comunidad alcancen el umbral de halving establecido por el sistema, ocurrirá el primer halving; después, alcanzar la mitad de la cantidad de la etapa anterior desencadenará otro halving."
+  ],
+  "schedule_title": "Reglas de Liberación de Tokens",
+  "schedule_headers": [
+    "Etapa",
+    "Límite de Emisión",
+    "Tasa de Producción (energía producida por cada 1 USDT acumulado)",
+    "Descripción"
+  ],
+  "schedule_rows": [
+    [
+      "Fase 1",
+      "0 ~ 4.5 billion",
+      "1.0 $moonpacket / USDT",
+      "Initial period, energy overflow."
+    ],
+    [
+      "Fase 2",
+      "4.5B ~ 6.75B",
+      "0.5 $moonpacket / USDT",
+      "First halving."
+    ],
+    [
+      "Fase 3",
+      "6.75B ~ 7.875B",
+      "0.25 $moonpacket / USDT",
+      "Stabilization period."
+    ],
+    [
+      "Fase 4",
+      "7.875B ~ 8.4375B",
+      "0.125 $moonpacket / USDT",
+      "Scarcity period."
+    ],
+    [
+      "Fase 5",
+      "8.4375B ~ 8.71875B",
+      "0.0625 $moonpacket / USDT",
+      "Late mining phase."
+    ],
+    [
+      "Fase 6",
+      "8.71875B ~ 9B",
+      "0.03125 $moonpacket / USDT",
+      "Crystallization period (final phase)."
+    ]
+  ],
+  "cap_note": [
+    "Cuando la circulación total alcance los 9 mil millones, moonini dejará de emitir más.",
+    "Los 1 mil millones restantes (10% del suministro total),",
+    "Reservado por el oficial para futuras recompensas a la comunidad y uso del fondo de energía de colaboración."
+  ],
+  "belief_title": "🌕 La energía de la luna y la creencia en los Sobre rojo",
+  "belief_paragraphs": [
+    "moonini ama a todos los que están dispuestos a 'compartir'.",
+    "Cree que los sobres rojos no son solo dinero, sino un intercambio de bendiciones y energía.",
+    "Cada vez que envíes un sobre rojo, completes una tarea o te unas a la comunidad de moonpacket,",
+    "tendrás la oportunidad de recibir un retorno de la luna — $moonini cae de forma aleatoria.",
+    "",
+    "Esa es la luz que el universo te devuelve después de esparcir alegría."
+  ],
+  "future_title": "💫 Aplicaciones futuras",
+  "future_intro": "Actualmente, $moonini no está abierto a ningún escenario de aplicación oficial, pero está diseñado como un crédito de recompensa y energía para el futuro mundo del Sobre rojo, posiblemente para ser usado para:",
+  "future_list": [
+    "✅ Descuentos en tarifas de transacción de Sobre rojo",
+    "🎁 Vouchers/descuentos de comercio",
+    "🌐 Airdrops de eventos y recompensas por tareas comunitarias"
+  ],
+  "disclaimer_title": "⚠️ Declaración",
+  "disclaimer_paragraphs": [
+    "El oficial no garantiza ningún valor de cambio en fiat para $moonini.",
+    "Puedes pensarlo como puntos de bonificación de una persona generosa.",
+    "Simbolizando a todos los que están dispuestos a compartir felicidad y esparcir energía."
+  ],
+  "closing": [
+    "moonini — el conejo de la luna nacido de la energía del Sobre rojo.",
+    "Cada bendición es un rayo de luz para su crecimiento."
+  ]
+}

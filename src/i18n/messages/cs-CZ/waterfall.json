@@ -1,0 +1,27 @@
+{
+  "sent_from": "Odeslat do skupiny:",
+  "claimed": "Nárokovat",
+  "total": "Celkem",
+  "progress": "Již nárokováno",
+  "groups_directory": {
+    "latest_tab": "Nejnovější skupiny Red Packet",
+    "hot_tab": "Populární skupiny Red Packet",
+    "search_placeholder": "Hledat klíčová slova ve připojených skupinách"
+  },
+  "marquee": {
+    "templates": {
+      "send": "💰 {user} vydal {amount} {ccy} Red Packet v '{group}'!",
+      "claim": "🎯 {user} obdržel {amount} {ccy}, Nejšťastnější hráč!",
+      "topup": "🔥 Vlastník skupiny {user} vložil {amount} {ccy}",
+      "system": "📢 {message}",
+      "achievement": "🥇 Dnešní nejšťastnější hráč: @{user} (nahromadil {amount} {ccy})"
+    },
+    "fallback": [
+      "💰 John vydal červený balíček v hodnotě 100 USDT v 'Herní gildě A'!",
+      "🎯 Lisa si nárokovala 3.5 USDT, nejvíce ze všech!",
+      "🔥 Vlastník skupiny Ken vložil 2000 USDT",
+      "📢 Upgrade systému dokončen, přidána podpora SOL!",
+      "🥇 Dnešní nejšťastnější: @Mina (nahromaděno 28.3 USDT)"
+    ]
+  }
+}

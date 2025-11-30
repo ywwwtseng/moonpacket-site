@@ -1,0 +1,201 @@
+---
+interface Props {
+  labels: {
+    title: string;
+    userSend: string;
+    fee: string;
+    operations: string;
+    pol: string;
+    accumulate: string;
+    trigger: string;
+    swap: string;
+    addLiquidity: string;
+    pool: string;
+  };
+}
+
+const { labels } = Astro.props as Props;
+const diagramId = `token-flow-${Math.random().toString(36).substr(2, 9)}`;
+---
+
+<div class="mermaid-chart-container">
+  <h3 class="chart-title">{labels.title}</h3>
+  <div 
+    class="mermaid token-flow-diagram" 
+    id={diagramId}
+    data-mermaid-content={`
+graph TD
+  A["${labels.userSend || '用戶發紅包'}"]:::primaryNode -->|2% ${labels.fee || '手續費'}| B[分配]:::goldNode
+  B -->|1%| C["${labels.operations || '運營費用'}"]:::secondaryNode
+  B -->|1%| D["${labels.pol || '回購基金'}"]:::secondaryNode
+  D -->|${labels.accumulate || '累積'}| E[POL Vault]:::primaryNode
+  E -->|${labels.trigger || '回購觸發'}| F[回購觸發]:::goldNode
+  F -->|50%| G["${labels.swap || '換幣'}"]:::greenNode
+  F -->|50%| H[保留 USDT]:::secondaryNode
+  G -->|${labels.addLiquidity || '添加流動性'}| I["${labels.pool || '流動性池'}"]:::greenNode
+  
+  classDef primaryNode fill:#E32521,stroke:#B51C1A,stroke-width:2.5px,color:#fff,rx:10px,ry:10px
+  classDef secondaryNode fill:#FFBA00,stroke:#CC9500,stroke-width:2.5px,color:#0c1e3a,rx:10px,ry:10px
+  classDef goldNode fill:#FFBA00,stroke:#CC9500,stroke-width:2.5px,color:#0c1e3a,rx:10px,ry:10px
+  classDef greenNode fill:#16a34a,stroke:#15803d,stroke-width:2.5px,color:#fff,rx:10px,ry:10px
+`}></div>
+</div>
+
+<!-- 注意：此组件依赖全局 MermaidInit 组件进行渲染，无需内部脚本 -->
+
+<style>
+  .mermaid-chart-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background-color: var(--card-bg);
+    border: 1px solid var(--card-ring);
+    border-radius: 1rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* 夜間模式陰影 */
+  [data-theme="dark"] .mermaid-chart-container {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+    border-color: rgba(255, 255, 255, 0.12);
+  }
+
+  .chart-title {
+    font-family: 'Sora', system-ui, sans-serif;
+    font-size: clamp(1.25rem, 2.5vw, 1.5rem);
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    color: var(--text);
+    width: 100%;
+  }
+
+  /* Mermaid 圖表容器 */
+  :global(.mermaid) {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 200px;
+    overflow: hidden;
+  }
+
+  /* Mermaid SVG 居中並限制尺寸 */
+  :global(.mermaid svg) {
+    max-width: 100% !important;
+    max-height: 800px !important;
+    width: auto !important;
+    height: auto !important;
+    margin: 0 auto;
+    display: block;
+  }
+
+  /* Mermaid 节点圆角优化 - 使用网站主题色和圆角 */
+  :global(.token-flow-diagram .node rect),
+  :global(.token-flow-diagram .node circle),
+  :global(.token-flow-diagram .node ellipse),
+  :global(.token-flow-diagram .node polygon) {
+    rx: 10px !important;
+    ry: 10px !important;
+    transition: all 0.3s ease;
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1));
+  }
+
+  [data-theme="dark"] :global(.token-flow-diagram .node rect),
+  [data-theme="dark"] :global(.token-flow-diagram .node circle),
+  [data-theme="dark"] :global(.token-flow-diagram .node ellipse),
+  [data-theme="dark"] :global(.token-flow-diagram .node polygon) {
+    filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.3));
+  }
+
+  /* 节点悬停效果 */
+  :global(.token-flow-diagram .node:hover rect),
+  :global(.token-flow-diagram .node:hover circle),
+  :global(.token-flow-diagram .node:hover ellipse),
+  :global(.token-flow-diagram .node:hover polygon) {
+    filter: brightness(1.15) drop-shadow(0 4px 8px rgba(0, 0, 0, 0.15));
+    transform: scale(1.03);
+    transition: all 0.3s ease;
+  }
+
+  [data-theme="dark"] :global(.token-flow-diagram .node:hover rect),
+  [data-theme="dark"] :global(.token-flow-diagram .node:hover circle),
+  [data-theme="dark"] :global(.token-flow-diagram .node:hover ellipse),
+  [data-theme="dark"] :global(.token-flow-diagram .node:hover polygon) {
+    filter: brightness(1.15) drop-shadow(0 4px 12px rgba(0, 0, 0, 0.4));
+  }
+
+  /* 连接线样式优化 - 使用网站主题色 */
+  :global(.token-flow-diagram .edgePath .path) {
+    stroke-width: 2.5px;
+    stroke: var(--primary);
+    transition: all 0.3s ease;
+  }
+
+  :global(.token-flow-diagram .edgeLabel) {
+    background-color: var(--card-bg) !important;
+    padding: 5px 10px !important;
+    border-radius: 8px !important;
+    border: 1.5px solid var(--card-ring) !important;
+    color: var(--text) !important;
+    font-weight: 500;
+    font-size: 13px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+
+  [data-theme="dark"] :global(.token-flow-diagram .edgeLabel) {
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  }
+
+  /* 箭头样式优化 */
+  :global(.token-flow-diagram .edgePath marker) {
+    fill: var(--primary) !important;
+  }
+
+  /* 響應式設計 */
+  @media (max-width: 768px) {
+    .mermaid-chart-container {
+      padding: 0.75rem;
+      border-radius: 0.75rem;
+      margin: 1rem auto;
+      max-width: 100%;
+    }
+
+    :global(.mermaid) {
+      font-size: 12px;
+      min-height: 200px;
+    }
+
+    :global(.mermaid svg) {
+      max-height: 350px !important;
+    }
+
+    .chart-title {
+      font-size: 1.125rem;
+      margin-bottom: 1rem;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .mermaid-chart-container {
+      padding: 2rem;
+      border-radius: 1.25rem;
+    }
+
+    :global(.mermaid) {
+      min-height: 400px;
+    }
+  }
+
+  /* RTL 支持 */
+  [dir="rtl"] .mermaid-chart-container {
+    direction: rtl;
+  }
+</style>
+

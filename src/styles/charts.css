@@ -1,0 +1,101 @@
+/* 圖表容器樣式（完整實現，包含日/夜模式、響應式、RTL） */
+.chart-container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1.5rem; /* p-6 (24px) - 統一 padding */
+  /* 使用 CSS 變量（日/夜模式自動適配） */
+  background-color: var(--card-bg) !important;
+  border: 1px solid var(--card-ring) !important;
+  border-radius: 1rem; /* rounded-2xl (16px) - 統一圓角 */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* 日間模式樣式 */
+[data-theme="light"] .chart-container {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* 夜間模式樣式 */
+[data-theme="dark"] .chart-container {
+  background-color: #121a2a !important;
+  border-color: rgba(255,255,255,.08) !important;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.3);
+}
+
+/* 響應式設計 */
+@media (max-width: 768px) {
+  .chart-container {
+    padding: 1rem; /* p-4 (16px) - 移動端適度縮小 */
+    border-radius: 0.75rem; /* 12px - 移動端適度縮小 */
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .chart-container {
+    padding: 2rem; /* p-8 (32px) - 桌面端更大 padding */
+    border-radius: 1.5rem; /* 24px - 桌面端更大圓角 */
+  }
+}
+
+/* 圖表標題（使用品牌字體） */
+.chart-title {
+  font-family: 'Sora', system-ui, sans-serif;
+  font-size: clamp(1.125rem, 2vw, 1.25rem);
+  font-weight: 600;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: var(--text);
+}
+
+/* 圖表說明（使用正文字體） */
+.chart-description {
+  font-family: 'Inter', system-ui, sans-serif;
+  font-size: 0.875rem;
+  color: var(--text-subtle);
+  margin-top: 1rem;
+  text-align: center;
+  line-height: 1.5;
+}
+
+/* 圖表數字（使用 .num 類別規範） */
+.chart-number {
+  font-family: 'IBM Plex Sans', 'Inter', system-ui, sans-serif;
+  font-variant-numeric: tabular-nums lining-nums;
+  font-feature-settings: 'tnum' 1, 'lnum' 1, 'zero' 1;
+  font-weight: 700;
+  color: #16A34A; /* 上升綠 */
+}
+
+[data-theme="dark"] .chart-number {
+  color: #22c55e; /* 夜間模式使用更亮的綠色 */
+}
+
+/* 圖表內部容器高度（響應式） */
+.chart-container :global(.chart-wrapper) {
+  height: 300px; /* 移動端 */
+}
+
+@media (min-width: 768px) {
+  .chart-container :global(.chart-wrapper) {
+    height: 400px; /* 平板 */
+  }
+}
+
+@media (min-width: 1024px) {
+  .chart-container :global(.chart-wrapper) {
+    height: 500px; /* 桌面 */
+  }
+}
+
+/* RTL 支持（邏輯屬性） */
+[dir="rtl"] .chart-container {
+  direction: rtl;
+}
+
+[dir="rtl"] .chart-title,
+[dir="rtl"] .chart-description {
+  text-align: center; /* 居中不受 RTL 影響 */
+}
+

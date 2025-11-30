@@ -1,0 +1,27 @@
+{
+  "sent_from": "Lähetä ryhmälle:",
+  "claimed": "Kerää",
+  "total": "Yhteensä",
+  "progress": "Ollut jo vaadittu",
+  "groups_directory": {
+    "latest_tab": "Uusimmat Red Packet -ryhmät",
+    "hot_tab": "Suositut Red Packet -ryhmät",
+    "search_placeholder": "Etsi avainsanoja liittyneistä ryhmistä"
+  },
+  "marquee": {
+    "templates": {
+      "send": "💰 {user} myönsi {amount} {ccy} Red Packetin ryhmässä '{group}'!",
+      "claim": "🎯 {user} sai {amount} {ccy}, Onnekkain Pelaaja!",
+      "topup": "🔥 Ryhmän omistaja {user} tallettui {amount} {ccy}",
+      "system": "📢 {message}",
+      "achievement": "🥇 Tänään onnekkain pelaaja: @{user} (kokoanut {amount} {ccy})"
+    },
+    "fallback": [
+      "💰 John lähetti 100 USDT red packet 'Peli Guild A:ssa'!",
+      "🎯 Lisa lunasti 3.5 USDT, onni suosi häntä eniten!",
+      "🔥 Ryhmän omistaja Ken talletti 2000 USDT",
+      "📢 Järjestelmäpäivitys valmis, SOL-tuki lisätty!",
+      "🥇 Tänään onnekkain: @Mina (yhteensä 28.3 USDT)"
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "tabs": {
+    "latest": "Cele mai recente",
+    "hot": "Popular"
+  },
+  "search": {
+    "placeholder": "Caută grupuri…",
+    "label": "Caută grupuri"
+  },
+  "card": {
+    "ownerLabel": "Proprietar:",
+    "members": "Membri",
+    "totalSent": "Total trimis",
+    "sent": "Trimitere curentă",
+    "unnamed": "Grup fără nume"
+  },
+  "pagination": {
+    "prev": "Pagina anterioară",
+    "next": "Pagina următoare",
+    "pageInfo": "{{count}} grupuri (Pagina {{page}} / {{pages}})"
+  },
+  "cta": {
+    "launch": "Activează moonpacket"
+  },
+  "empty": "Nu există grupuri disponibile",
+  "group": {
+    "members": "Lista membrilor",
+    "owner": "Proprietar grup: {owner}",
+    "sent": "Sumă trimisă",
+    "totalSent": "Total sumă trimisă",
+    "unnamed": "Grup fără nume"
+  },
+  "marquee": {
+    "fallback": [
+      "💰 John a trimis un red packet de 100 USDT în 'Game Guild A'!",
+      "🎯 Lisa a revendicat 3.5 USDT, câștigătoare norocoasă!",
+      "🔥 Proprietarul grupului Ken a alimentat cu 2000 USDT",
+      "📢 Actualizarea sistemului finalizată, suport adăugat pentru SOL!",
+      "🥇 Câștigătorul norocos de astăzi: @Mina (total 28.3 USDT)"
+    ],
+    "templates": {
+      "daily_winner": "🥇 Câștigătorul norocos de astăzi: {user} (total {amount} {ccy})",
+      "red_packet_claimed": "{user} a revendicat {amount} {ccy}, câștigătoare norocoasă!",
+      "red_packet_sent": "{user} a trimis un red packet de {amount} {ccy} în '{group}'!",
+      "system_upgrade": "📢 Actualizarea sistemului finalizată, suport adăugat pentru {ccy}!",
+      "top_up": "Proprietarul grupului {user} a alimentat cu {amount} {ccy}"
+    }
+  },
+  "pager": {
+    "groups": "Numărul grupurilor",
+    "next": "Pagina următoare",
+    "pageOf": "(Pagina {page} / {pages})",
+    "prev": "Pagina anterioară"
+  },
+  "searchLabel": "Caută grupuri",
+  "searchPlaceholder": "Vă rugăm să introduceți cuvintele cheie pentru a căuta grupuri…"
+}

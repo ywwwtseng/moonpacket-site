@@ -1,0 +1,1043 @@
+---
+/**
+ * 白皮書主頁面
+ * 集成所有組件：倒計時、免責聲明、側邊欄、圖表
+ */
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import { computeCanonical } from '@/utils/head';
+import { getLocalesForBuild, defaultLocale } from '@/i18n/locales.config';
+import { LOCALE_ORDER } from '@/config/locales';
+import { isRTL } from '@/i18n/rtl';
+import { brandify } from '@/lib/brandify';
+import { htmlWithLineBreaks } from '@/utils/text';
+import { ensureArray } from '@/utils/normalize';
+import Section from '@/components/Section.astro';
+import CountdownBanner from '@/components/CountdownBanner.astro';
+import DisclaimerBanner from '@/components/DisclaimerBanner.astro';
+import DocsSidebar from '@/components/DocsSidebar.astro';
+import MobileTOC from '@/components/MobileTOC.astro';
+import { shouldShowCountdown, TOKEN_LAUNCH_CONFIG } from '@/config/token-launch';
+
+// 圖表組件
+import AllocationPieChart from '@/islands/charts/AllocationPieChart';
+import PhaseReductionChart from '@/islands/charts/PhaseReductionChart';
+import VestingTimelineChart from '@/islands/charts/VestingTimelineChart';
+import GovernanceFlowchart from '@/components/charts/GovernanceFlowchart.astro';
+import ContractArchitectureDiagram from '@/components/charts/ContractArchitectureDiagram.astro';
+import TokenFlowDiagram from '@/components/charts/TokenFlowDiagram.astro';
+
+// Helper: 保留換行為 <br/> 並品牌化
+const toHTML = (s?: string) => htmlWithLineBreaks(brandify(s ?? ""));
+// 物件/字串/陣列 皆轉為字串陣列
+function toLines(value: any): string[] {
+  try {
+    if (!value) return [];
+    if (Array.isArray(value)) return value.map(String);
+    if (typeof value === 'string') {
+      return value.replace(/\\n/g, '\n').split(/\r?\n/).map(s => s.trim());
+    }
+    if (typeof value === 'object') {
+      return Object.keys(value).sort((a,b)=>Number(a)-Number(b)).map(k=>String(value[k]));
+    }
+    return [];
+  } catch { return []; }
+}
+
+// Helper: 檢測並渲染 Markdown 表格
+function parseTableLines(lines: string[]): { isTable: boolean; tableRows: string[][]; restLines: string[] } {
+  const tableRows: string[][] = [];
+  let tableStart = -1;
+  let tableEnd = -1;
+  
+  // 找到表格的開始和結束
+  for (let i = 0; i < lines.length; i++) {
+    if (lines[i].startsWith('|') && lines[i].endsWith('|')) {
+      if (tableStart === -1) tableStart = i;
+      tableEnd = i;
+    } else if (tableStart !== -1) {
+      // 遇到非表格行，表格結束
+      break;
+    }
+  }
+  
+  if (tableStart === -1) {
+    return { isTable: false, tableRows: [], restLines: lines };
+  }
+  
+  // 提取表格行
+  for (let i = tableStart; i <= tableEnd; i++) {
+    const cells = lines[i].split('|').filter(c => c.trim());
+    if (cells.length > 0) {
+      tableRows.push(cells.map(c => c.trim()));
+    }
+  }
+  
+  // 剩餘的行
+  const restLines = [
+    ...lines.slice(0, tableStart),
+    ...lines.slice(tableEnd + 1)
+  ];
+  
+  return { isTable: tableRows.length > 0, tableRows, restLines };
+}
+
+export async function getStaticPaths() {
+  const locales = getLocalesForBuild();
+  return locales.map((l) => ({ params: { lang: l.code } }));
+}
+
+const { lang } = Astro.params as { lang: string };
+const messages = await import('@/i18n/loadMessages')
+  .then((m) => m.loadAllMessages(lang as any))
+  .catch(async () => {
+    const fallback = await import('@/i18n/loadMessages').then((m) =>
+      m.loadAllMessages(defaultLocale),
+    );
+    return fallback;
+  });
+
+const docsMessages = messages.docs || {};
+const whitepaperMessages = docsMessages.whitepaper || {};
+const rtl = isRTL(lang);
+
+// SEO metadata（必須從 i18n 讀取）
+const seoTitle = messages.site?.seo?.routes?.docs?.whitepaper?.title 
+  || whitepaperMessages?.seo?.title 
+  || whitepaperMessages?.title 
+  || '';
+const seoDescription = messages.site?.seo?.routes?.docs?.whitepaper?.description 
+  || whitepaperMessages?.seo?.description 
+  || whitepaperMessages?.description 
+  || '';
+
+const canonical = computeCanonical(
+  Astro.url, 
+  (Astro.site && Astro.site.toString()) || undefined
+);
+
+// 章節列表（用於側邊欄和 TOC）
+const sections = [
+  { id: 'overview', title: whitepaperMessages?.sections?.overview || '' },
+  { id: 'tokenomics', title: whitepaperMessages?.sections?.tokenomics || '' },
+  { id: 'architecture', title: whitepaperMessages?.sections?.architecture || '' },
+  { id: 'emission', title: whitepaperMessages?.sections?.emission || '' },
+  { id: 'governance', title: whitepaperMessages?.sections?.governance || '' },
+  { id: 'incentives', title: whitepaperMessages?.sections?.incentives || '' },
+  { id: 'developer', title: whitepaperMessages?.sections?.developer || '' },
+  { id: 'roadmap', title: whitepaperMessages?.sections?.roadmap || '' },
+  { id: 'risks', title: whitepaperMessages?.sections?.risks || '' },
+  { id: 'faq', title: whitepaperMessages?.sections?.faq || '' },
+].filter(s => s.title); // 過濾空標題
+
+// 圖表標籤（從 i18n 讀取）
+const chartLabels = {
+  allocation: whitepaperMessages?.charts?.allocation || {},
+  phase: whitepaperMessages?.charts?.phase || {},
+  vesting: whitepaperMessages?.charts?.vesting || {},
+  flow: whitepaperMessages?.charts?.flow || {},
+  governance: whitepaperMessages?.charts?.governance || {},
+  architecture: whitepaperMessages?.charts?.architecture || {},
+};
+
+// 品牌化標題
+const whitepaperTitle = brandify(whitepaperMessages?.title || '');
+const showCountdown = shouldShowCountdown();
+---
+
+<BaseLayout 
+  lang={lang} 
+  title={seoTitle}
+  description={seoDescription}
+  canonicalUrl={canonical}
+  allLocales={LOCALE_ORDER}
+  rtl={rtl}
+>
+  <main id="main-content">
+    <!-- Hero 區域 -->
+    <section id="hero" class="relative mx-auto max-w-6xl px-4 py-6 overflow-visible">
+      <h1 class="text-3xl font-bold mb-4" set:html={whitepaperTitle}></h1>
+      <p class="text-lg text-textSubtle mb-8" set:html={toHTML(whitepaperMessages?.hero?.subtitle || whitepaperMessages?.description || '')}></p>
+      
+      <!-- 三張卡片 -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
+        <div class="p-6 rounded-xl bg-white shadow-sm ring-1 ring-black/5 dark:ring-card-ring border border-card-ring transition-shadow hover:shadow-md">
+          <h3 class="text-lg font-semibold mb-2 text-text">{whitepaperMessages?.hero?.cards?.user?.title || ''}</h3>
+          <p class="text-sm text-textSubtle leading-relaxed">{whitepaperMessages?.hero?.cards?.user?.description || ''}</p>
+        </div>
+        <div class="p-6 rounded-xl bg-white shadow-sm ring-1 ring-black/5 dark:ring-card-ring border border-card-ring transition-shadow hover:shadow-md">
+          <h3 class="text-lg font-semibold mb-2 text-text">{whitepaperMessages?.hero?.cards?.investor?.title || ''}</h3>
+          <p class="text-sm text-textSubtle leading-relaxed">{whitepaperMessages?.hero?.cards?.investor?.description || ''}</p>
+        </div>
+        <div class="p-6 rounded-xl bg-white shadow-sm ring-1 ring-black/5 dark:ring-card-ring border border-card-ring transition-shadow hover:shadow-md">
+          <h3 class="text-lg font-semibold mb-2 text-text">{whitepaperMessages?.hero?.cards?.developer?.title || ''}</h3>
+          <p class="text-sm text-textSubtle leading-relaxed">{whitepaperMessages?.hero?.cards?.developer?.description || ''}</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 倒計時區塊（條件顯示） -->
+    {showCountdown && (
+      <div class="mx-auto max-w-6xl px-4">
+        <CountdownBanner messages={messages} />
+      </div>
+    )}
+
+    <!-- 免責聲明區塊 -->
+    <div class="mx-auto max-w-6xl px-4">
+      <DisclaimerBanner messages={messages} />
+    </div>
+
+    <!-- 主內容區 -->
+    <Section class="py-10">
+      <!-- 移動端 TOC（可折疊） -->
+      <div class="mb-6 lg:hidden">
+        <MobileTOC lang={lang} sections={sections} messages={messages} />
+      </div>
+
+      <!-- 使用 Flexbox 布局，確保側邊欄收縮後主內容自動調整 -->
+      <div class="flex flex-col lg:flex-row gap-6">
+        <!-- 桌面端側邊欄 -->
+        <aside class="hidden lg:block flex-shrink-0">
+          <DocsSidebar lang={lang} sections={sections} messages={messages} />
+        </aside>
+
+        <!-- 主內容（自動填充剩餘空間） -->
+        <article class="flex-1 min-w-0">
+          <div class="rounded-xl bg-white shadow-sm ring-1 ring-black/5 dark:ring-card-ring p-5">
+            <div class="text-base text-textSubtle leading-relaxed space-y-8 legal-prose">
+              
+              <!-- 一、項目概述 -->
+              <section id="overview" class="prose dark:prose-invert max-w-none">
+                <h2 class="text-xl font-semibold mb-4" set:html={brandify(whitepaperMessages?.sections?.overview || '')}></h2>
+                
+                <h3 class="text-lg font-semibold mb-3">1.1 什麼是 $moonini？</h3>
+                <div class="mb-4">
+                  {toLines(whitepaperMessages?.content?.overview?.what_is || []).map((item: string) => {
+                    if (item.trim() === '') {
+                      return <br />;
+                    }
+                    if (item.startsWith('- ')) {
+                      return <li class="ml-4" set:html={toHTML(item)} />;
+                    }
+                    return <p class="mb-2" set:html={toHTML(item)} />;
+                  })}
+                </div>
+
+                <h3 class="text-lg font-semibold mb-3">{whitepaperMessages?.content?.overview?.core_values?.title || '1.2 核心價值'}</h3>
+                <ul class="list-disc pl-6 mb-4">
+                  {toLines(whitepaperMessages?.content?.overview?.core_values?.values || []).map((item: string) => (
+                    <li class="mb-1" set:html={toHTML(item)} />
+                  ))}
+                </ul>
+              </section>
+
+              <!-- 二、代幣經濟學 -->
+              <section id="tokenomics" class="prose dark:prose-invert max-w-none">
+                <h2 class="text-xl font-semibold mb-4" set:html={brandify(whitepaperMessages?.sections?.tokenomics || '')}></h2>
+                
+                <h3 class="text-lg font-semibold mb-3">{whitepaperMessages?.content?.tokenomics?.info?.title || '2.1 代幣基本信息'}</h3>
+                <div class="mb-4">
+                  {(() => {
+                    const lines = toLines(whitepaperMessages?.content?.tokenomics?.info?.description || []);
+                    const { isTable, tableRows, restLines } = parseTableLines(lines);
+                    
+                    if (isTable && tableRows.length > 0) {
+                      const headerRow = tableRows[0];
+                      const dataRows = tableRows.slice(1).filter(row => !row.every(cell => /^:?-+:?$/.test(cell))); // 過濾分隔符行
+                      
+                      return (
+                        <>
+                          {restLines.map((line: string) => {
+                            if (line.trim() === '') return <br />;
+                            return <p class="mb-2" set:html={toHTML(line)} />;
+                          })}
+                          <div class="overflow-x-auto my-4">
+                            <table class="w-full min-w-[400px] text-sm border-collapse">
+                              <thead class="bg-black/5 dark:bg-black/10 text-left">
+                                <tr>
+                                  {headerRow.map((cell: string) => (
+                                    <th class="px-3 py-2 border border-card-ring font-semibold" set:html={toHTML(cell)}></th>
+                                  ))}
+                                </tr>
+                              </thead>
+                              <tbody>
+                                {dataRows.map((row: string[]) => (
+                                  <tr class="border-b border-card-ring even:bg-black/5 dark:even:bg-black/10">
+                                    {row.map((cell: string) => (
+                                      <td class="px-3 py-2 border border-card-ring" set:html={toHTML(cell)}></td>
+                                    ))}
+                                  </tr>
+                                ))}
+                              </tbody>
+                            </table>
+                          </div>
+                        </>
+                      );
+                    }
+                    
+                    return lines.map((item: string) => {
+                      if (item.trim() === '') return <br />;
+                      return <p class="mb-2" set:html={toHTML(item)} />;
+                    });
+                  })()}
+                </div>
+
+                <h3 class="text-lg font-semibold mb-3">{whitepaperMessages?.content?.tokenomics?.allocation?.title || '2.2 分配方案'}</h3>
+                <div class="mb-4">
+                  {toLines(whitepaperMessages?.content?.tokenomics?.allocation?.description || []).map((item: string) => {
+                    if (item.trim() === '') {
+                      return <br />;
+                    }
+                    if (item.startsWith('- ')) {
+                      return <li class="ml-4 mb-1" set:html={toHTML(item)} />;
+                    }
+                    return <p class="mb-2" set:html={toHTML(item)} />;
+                  })}
+                </div>
+                
+                <!-- 圖表：代幣分配餅圖（位置：第二章 2.2「分配方案」→ 表格之前） -->
+                <div class="chart-container my-6">
+                  <AllocationPieChart
+                    client:only="react"
+                    labels={chartLabels.allocation}
+                    data={{
+                      public: 90,
+                      team: {
+                        operations: 2,
+                        tech: 2,
+                        marketing: 2,
+                        investors: 4,
+                      },
+                    }}
+                  />
+                </div>
+
+                <h3 class="text-lg font-semibold mb-3">{whitepaperMessages?.content?.tokenomics?.phase?.title || '2.3 6 階段減半機制'}</h3>
+                <div class="mb-4">
+                  {(() => {
+                    const lines = toLines(whitepaperMessages?.content?.tokenomics?.phase?.description || []);
+                    const { isTable, tableRows, restLines } = parseTableLines(lines);
+                    
+                    if (isTable && tableRows.length > 0) {
+                      const headerRow = tableRows[0];
+                      const dataRows = tableRows.slice(1).filter(row => !row.every(cell => /^:?-+:?$/.test(cell))); // 過濾分隔符行
+                      
+                      return (
+                        <>
+                          {restLines.map((line: string) => {
+                            if (line.trim() === '') return <br />;
+                            if (line.startsWith('- ')) return <li class="ml-4 mb-1" set:html={toHTML(line)} />;
+                            return <p class="mb-2" set:html={toHTML(line)} />;
+                          })}
+                          <div class="overflow-x-auto my-4">
+                            <table class="w-full min-w-[400px] text-sm border-collapse">
+                              <thead class="bg-black/5 dark:bg-black/10 text-left">
+                                <tr>
+                                  {headerRow.map((cell: string) => (
+                                    <th class="px-3 py-2 border border-card-ring font-semibold" set:html={toHTML(cell)}></th>
+                                  ))}
+                                </tr>
+                              </thead>
+                              <tbody>
+                                {dataRows.map((row: string[]) => (
+                                  <tr class="border-b border-card-ring even:bg-black/5 dark:even:bg-black/10">
+                                    {row.map((cell: string) => (
+                                      <td class="px-3 py-2 border border-card-ring" set:html={toHTML(cell)}></td>
+                                    ))}
+                                  </tr>
+                                ))}
+                              </tbody>
+                            </table>
+                          </div>
+                        </>
+                      );
+                    }
+                    
+                    return lines.map((item: string) => {
+                      if (item.trim() === '') return <br />;
+                      if (item.startsWith('- ')) return <li class="ml-4 mb-1" set:html={toHTML(item)} />;
+                      return <p class="mb-2" set:html={toHTML(item)} />;
+                    });
+                  })()}
+                </div>
+                
+                <div class="my-6 p-4 bg-green-50 dark:bg-green-950/20 border border-green-200 dark:border-green-900 rounded-lg">
+                  {toLines(whitepaperMessages?.content?.tokenomics?.phase?.value_logic || []).map((item: string) => {
+                    if (item.trim() === '') {
+                      return <br />;
+                    }
+                    return <p class="mb-2" set:html={toHTML(item)} />;
+                  })}
+                </div>
+
+                <!-- 圖表：6 階段減半機制圖（位置：第二章 2.3「6 階段減半機制」→ 表格之後） -->
+                <div class="chart-container my-6">
+                  <PhaseReductionChart
+                    client:only="react"
+                    labels={chartLabels.phase}
+                    data={[
+                      { phase: 1, range: '0 ~ 4.5B', ratio: 1.0 },
+                      { phase: 2, range: '4.5B ~ 6.75B', ratio: 0.5 },
+                      { phase: 3, range: '6.75B ~ 7.875B', ratio: 0.25 },
+                      { phase: 4, range: '7.875B ~ 8.4375B', ratio: 0.125 },
+                      { phase: 5, range: '8.4375B ~ 8.71875B', ratio: 0.0625 },
+                      { phase: 6, range: '8.71875B ~ 9B', ratio: 0.03125 },
+                    ]}
+                  />
+                </div>
+              </section>
+
+              <!-- 三、技術架構 -->
+              <section id="architecture" class="prose dark:prose-invert max-w-none">
+                <h2 class="text-xl font-semibold mb-4" set:html={brandify(whitepaperMessages?.sections?.architecture || '')}></h2>
+                
+                <h3 class="text-lg font-semibold mb-3">{whitepaperMessages?.content?.architecture?.blockchain?.title || '3.1 區塊鏈選擇：Binance Smart Chain (BSC)'}</h3>
+                <div class="mb-4">
+                  {(() => {
+                    const lines = toLines(whitepaperMessages?.content?.architecture?.blockchain?.why || []);
+                    const { isTable, tableRows, restLines } = parseTableLines(lines);
+                    
+                    if (isTable && tableRows.length > 0) {
+                      const headerRow = tableRows[0];
+                      const dataRows = tableRows.slice(1).filter(row => !row.every(cell => /^:?-+:?$/.test(cell))); // 過濾分隔符行
+                      
+                      return (
+                        <>
+                          {restLines.map((line: string) => {
+                            if (line.trim() === '') return <br />;
+                            return <p class="mb-2" set:html={toHTML(line)} />;
+                          })}
+                          <div class="overflow-x-auto my-4">
+                            <table class="w-full min-w-[400px] text-sm border-collapse">
+                              <thead class="bg-black/5 dark:bg-black/10 text-left">
+                                <tr>
+                                  {headerRow.map((cell: string) => (
+                                    <th class="px-3 py-2 border border-card-ring font-semibold" set:html={toHTML(cell)}></th>
+                                  ))}
+                                </tr>
+                              </thead>
+                              <tbody>
+                                {dataRows.map((row: string[]) => (
+                                  <tr class="border-b border-card-ring even:bg-black/5 dark:even:bg-black/10">
+                                    {row.map((cell: string) => (
+                                      <td class="px-3 py-2 border border-card-ring" set:html={toHTML(cell)}></td>
+                                    ))}
+                                  </tr>
+                                ))}
+                              </tbody>
+                            </table>
+                          </div>
+                        </>
+                      );
+                    }
+                    
+                    return lines.map((item: string) => {
+                      if (item.trim() === '') return <br />;
+                      return <p class="mb-2" set:html={toHTML(item)} />;
+                    });
+                  })()}
+                </div>
+
+                <h3 class="text-lg font-semibold mb-3">{whitepaperMessages?.content?.architecture?.contracts?.title || '3.2 智能合約架構'}</h3>
+                <div class="mb-4">
+                  {toLines(whitepaperMessages?.content?.architecture?.contracts?.description || []).map((item: string) => {
+                    if (item.trim() === '') {
+                      return <br />;
+                    }
+                    if (item.startsWith('- ')) {
+                      return <li class="ml-4 mb-1" set:html={toHTML(item)} />;
+                    }
+                    return <p class="mb-2" set:html={toHTML(item)} />;
+                  })}
+                </div>
+
+                <!-- 圖表：智能合約架構圖（位置：第三章 3.2「智能合約架構」→ 合約清單之後） -->
+                <div class="my-6">
+                  <ContractArchitectureDiagram labels={chartLabels.architecture} />
+                </div>
+              </section>
+
+              <!-- 四、釋放機制 -->
+              <section id="emission" class="prose dark:prose-invert max-w-none">
+                <h2 class="text-xl font-semibold mb-4" set:html={brandify(whitepaperMessages?.sections?.emission || '')}></h2>
+                
+                <h3 class="text-lg font-semibold mb-3">{whitepaperMessages?.content?.emission?.public?.title || '4.1 公開發行（90%）'}</h3>
+                
+                <h4 class="text-base font-semibold mb-2">初始流動性</h4>
+                <ul class="list-disc pl-6 mb-4">
+                  {toLines(whitepaperMessages?.content?.emission?.public?.initial_liquidity || []).map((item: string) => (
+                    <li class="mb-1" set:html={toHTML(item)} />
+                  ))}
+                </ul>
+
+                <h4 class="text-base font-semibold mb-2">開盤防狙擊機制</h4>
+                <ul class="list-disc pl-6 mb-4">
+                  {toLines(whitepaperMessages?.content?.emission?.public?.launch_protection || []).map((item: string) => (
+                    <li class="mb-1" set:html={toHTML(item)} />
+                  ))}
+                </ul>
+
+                <h4 class="text-base font-semibold mb-2">釋放方式</h4>
+                <div class="mb-4">
+                  {toLines(whitepaperMessages?.content?.emission?.public?.release_methods || []).map((item: string) => {
+                    if (item.trim() === '') {
+                      return <br />;
+                    }
+                    if (item.match(/^\d+\.\s+\*\*/)) {
+                      return <p class="mb-1" set:html={toHTML(item)} />;
+                    }
+                    return <p class="mb-2" set:html={toHTML(item)} />;
+                  })}
+                </div>
+
+                <div class="my-6 p-4 bg-blue-50 dark:bg-blue-950/20 border border-blue-200 dark:border-blue-900 rounded-lg">
+                  {toLines(whitepaperMessages?.content?.emission?.public?.cost_vs_price || []).map((item: string) => {
+                    if (item.trim() === '') {
+                      return <br />;
+                    }
+                    return <p class="mb-2" set:html={toHTML(item)} />;
+                  })}
+                </div>
+
+                <h4 class="text-base font-semibold mb-2">提領機制</h4>
+                <ul class="list-disc pl-6 mb-4">
+                  {toLines(whitepaperMessages?.content?.emission?.public?.withdraw_mechanism || []).map((item: string) => (
+                    <li class="mb-1" set:html={toHTML(item)} />
+                  ))}
+                </ul>
+
+                <h4 class="text-base font-semibold mb-2">階段切換</h4>
+                <ul class="list-disc pl-6 mb-6">
+                  {toLines(whitepaperMessages?.content?.emission?.public?.phase_switch || []).map((item: string) => (
+                    <li class="mb-1" set:html={toHTML(item)} />
+                  ))}
+                </ul>
+
+                <h3 class="text-lg font-semibold mb-3">{whitepaperMessages?.content?.emission?.team?.title || '4.2 團隊配額（10%）'}</h3>
+                <div class="mb-4">
+                  {(() => {
+                    const lines = toLines(whitepaperMessages?.content?.emission?.team?.vesting_rules || []);
+                    const { isTable, tableRows, restLines } = parseTableLines(lines);
+                    
+                    if (isTable && tableRows.length > 0) {
+                      const headerRow = tableRows[0];
+                      const dataRows = tableRows.slice(1).filter(row => !row.every(cell => /^:?-+:?$/.test(cell))); // 過濾分隔符行
+                      
+                      return (
+                        <>
+                          {restLines.map((line: string) => {
+                            if (line.trim() === '') return <br />;
+                            if (line.startsWith('- ')) return <li class="ml-4 mb-1" set:html={toHTML(line)} />;
+                            return <p class="mb-2" set:html={toHTML(line)} />;
+                          })}
+                          <div class="overflow-x-auto my-4">
+                            <table class="w-full min-w-[400px] text-sm border-collapse">
+                              <thead class="bg-black/5 dark:bg-black/10 text-left">
+                                <tr>
+                                  {headerRow.map((cell: string) => (
+                                    <th class="px-3 py-2 border border-card-ring font-semibold" set:html={toHTML(cell)}></th>
+                                  ))}
+                                </tr>
+                              </thead>
+                              <tbody>
+                                {dataRows.map((row: string[]) => (
+                                  <tr class="border-b border-card-ring even:bg-black/5 dark:even:bg-black/10">
+                                    {row.map((cell: string) => (
+                                      <td class="px-3 py-2 border border-card-ring" set:html={toHTML(cell)}></td>
+                                    ))}
+                                  </tr>
+                                ))}
+                              </tbody>
+                            </table>
+                          </div>
+                        </>
+                      );
+                    }
+                    
+                    return lines.map((item: string) => {
+                      if (item.trim() === '') return <br />;
+                      if (item.startsWith('- ')) return <li class="ml-4 mb-1" set:html={toHTML(item)} />;
+                      return <p class="mb-2" set:html={toHTML(item)} />;
+                    });
+                  })()}
+                </div>
+
+                <!-- 圖表：釋放時間線圖（位置：第四章 4.2「團隊配額」→ 表格之後） -->
+                <div class="chart-container my-6">
+                  <VestingTimelineChart
+                    client:only="react"
+                    labels={chartLabels.vesting}
+                    data={[
+                      { category: chartLabels.vesting.operations || '運營', cliff: 3, linear: 45, total: 48 },
+                      { category: chartLabels.vesting.tech || '技術團隊', cliff: 3, linear: 45, total: 48 },
+                      { category: chartLabels.vesting.marketing || '公關/行銷', cliff: 3, linear: 45, total: 48 },
+                      { category: chartLabels.vesting.investors || '早期投資人', cliff: 3, linear: 33, total: 36 },
+                    ]}
+                  />
+                </div>
+              </section>
+
+              <!-- 五、治理與安全 -->
+              <section id="governance" class="prose dark:prose-invert max-w-none">
+                <h2 class="text-xl font-semibold mb-4" set:html={brandify(whitepaperMessages?.sections?.governance || '')}></h2>
+                
+                <h3 class="text-lg font-semibold mb-3">{whitepaperMessages?.content?.governance?.mechanism?.title || '5.1 治理機制'}</h3>
+                <div class="mb-4">
+                  {toLines(whitepaperMessages?.content?.governance?.mechanism?.core_principle || []).map((item: string) => {
+                    if (item.trim() === '') {
+                      return <br />;
+                    }
+                    if (item.match(/^\d+\.\s+\*\*/)) {
+                      return <p class="mb-1" set:html={toHTML(item)} />;
+                    }
+                    if (item.startsWith('- ')) {
+                      return <li class="ml-4 mb-1" set:html={toHTML(item)} />;
+                    }
+                    return <p class="mb-2" set:html={toHTML(item)} />;
+                  })}
+                </div>
+
+                <!-- 圖表：治理流程圖（位置：第五章 5.1「治理機制」→ 核心原則之後） -->
+                <div class="my-6">
+                  <GovernanceFlowchart labels={chartLabels.governance} />
+                </div>
+
+                <h3 class="text-lg font-semibold mb-3">{whitepaperMessages?.content?.governance?.security?.title || '5.2 安全措施'}</h3>
+                <div class="mb-4">
+                  {toLines(whitepaperMessages?.content?.governance?.security?.description || []).map((item: string) => {
+                    if (item.trim() === '') {
+                      return <br />;
+                    }
+                    if (item.match(/^\d+\.\s+\*\*/)) {
+                      return <p class="mb-1" set:html={toHTML(item)} />;
+                    }
+                    if (item.startsWith('- ')) {
+                      return <li class="ml-4 mb-1" set:html={toHTML(item)} />;
+                    }
+                    return <p class="mb-2" set:html={toHTML(item)} />;
+                  })}
+                </div>
+
+                <h3 class="text-lg font-semibold mb-3">{whitepaperMessages?.content?.governance?.pol?.title || '5.3 回購與做市（POL - 無限回購 + 地板價防禦）'}</h3>
+                
+                <h4 class="text-base font-semibold mb-2">機制</h4>
+                <ul class="list-disc pl-6 mb-4">
+                  {toLines(whitepaperMessages?.content?.governance?.pol?.mechanism || []).map((item: string) => (
+                    <li class="mb-1" set:html={toHTML(item)} />
+                  ))}
+                </ul>
+
+                <h4 class="text-base font-semibold mb-2">地板價防禦（The Floor Defense）</h4>
+                <ul class="list-disc pl-6 mb-4">
+                  {toLines(whitepaperMessages?.content?.governance?.pol?.floor_defense || []).map((item: string) => (
+                    <li class="mb-1" set:html={toHTML(item)} />
+                  ))}
+                </ul>
+
+                <h4 class="text-base font-semibold mb-2">參數</h4>
+                <ul class="list-disc pl-6 mb-4">
+                  {toLines(whitepaperMessages?.content?.governance?.pol?.parameters || []).map((item: string) => (
+                    <li class="mb-1" set:html={toHTML(item)} />
+                  ))}
+                </ul>
+
+                <h4 class="text-base font-semibold mb-2">設計理念</h4>
+                <ul class="list-disc pl-6 mb-6">
+                  {toLines(whitepaperMessages?.content?.governance?.pol?.philosophy || []).map((item: string) => (
+                    <li class="mb-1" set:html={toHTML(item)} />
+                  ))}
+                </ul>
+
+                <!-- 圖表：代幣循環流程圖（位置：第五章 5.3「回購與做市（POL）」→ 機制說明之後） -->
+                <div class="my-6">
+                  <TokenFlowDiagram labels={chartLabels.flow} />
+                </div>
+              </section>
+
+              <!-- 六、用戶激勵系統 -->
+              <section id="incentives" class="prose dark:prose-invert max-w-none">
+                <h2 class="text-xl font-semibold mb-4" set:html={brandify(whitepaperMessages?.sections?.incentives || '')}></h2>
+                
+                <h3 class="text-lg font-semibold mb-3">{whitepaperMessages?.content?.incentives?.how_to_earn?.title || '6.1 如何獲得 $moonini？'}</h3>
+                
+                <div class="mb-4">
+                  {toLines(whitepaperMessages?.content?.incentives?.how_to_earn?.send_gift || []).map((item: string) => {
+                    if (item.startsWith('####')) {
+                      return <h4 class="text-base font-semibold mb-2" set:html={toHTML(item.replace(/^####\s+/, ''))} />;
+                    }
+                    if (item.startsWith('- ')) {
+                      return <li class="ml-4 mb-1" set:html={toHTML(item)} />;
+                    }
+                    if (item.trim() === '') {
+                      return <br />;
+                    }
+                    return <p class="mb-2" set:html={toHTML(item)} />;
+                  })}
+                </div>
+
+                <div class="mb-4">
+                  {toLines(whitepaperMessages?.content?.incentives?.how_to_earn?.invite || []).map((item: string) => {
+                    if (item.startsWith('####')) {
+                      return <h4 class="text-base font-semibold mb-2" set:html={toHTML(item.replace(/^####\s+/, ''))} />;
+                    }
+                    if (item.startsWith('- ')) {
+                      return <li class="ml-4 mb-1" set:html={toHTML(item)} />;
+                    }
+                    if (item.trim() === '') {
+                      return <br />;
+                    }
+                    return <p class="mb-2" set:html={toHTML(item)} />;
+                  })}
+                </div>
+
+                <div class="mb-6">
+                  {toLines(whitepaperMessages?.content?.incentives?.how_to_earn?.quests || []).map((item: string) => {
+                    if (item.startsWith('####')) {
+                      return <h4 class="text-base font-semibold mb-2" set:html={toHTML(item.replace(/^####\s+/, ''))} />;
+                    }
+                    if (item.startsWith('- ')) {
+                      return <li class="ml-4 mb-1" set:html={toHTML(item)} />;
+                    }
+                    if (item.trim() === '') {
+                      return <br />;
+                    }
+                    return <p class="mb-2" set:html={toHTML(item)} />;
+                  })}
+                </div>
+
+                <h3 class="text-lg font-semibold mb-3">{whitepaperMessages?.content?.incentives?.fee_structure?.title || '6.2 手續費結構'}</h3>
+                <div class="mb-4">
+                  {(() => {
+                    const lines = toLines(whitepaperMessages?.content?.incentives?.fee_structure?.description || []);
+                    const { isTable, tableRows, restLines } = parseTableLines(lines);
+                    
+                    if (isTable && tableRows.length > 0) {
+                      const headerRow = tableRows[0];
+                      const dataRows = tableRows.slice(1).filter(row => !row.every(cell => /^:?-+:?$/.test(cell))); // 過濾分隔符行
+                      
+                      return (
+                        <>
+                          {restLines.map((line: string) => {
+                            if (line.trim() === '') return <br />;
+                            if (line.startsWith('- ')) return <li class="ml-4 mb-1" set:html={toHTML(line)} />;
+                            return <p class="mb-2" set:html={toHTML(line)} />;
+                          })}
+                          <div class="overflow-x-auto my-4">
+                            <table class="w-full min-w-[400px] text-sm border-collapse">
+                              <thead class="bg-black/5 dark:bg-black/10 text-left">
+                                <tr>
+                                  {headerRow.map((cell: string) => (
+                                    <th class="px-3 py-2 border border-card-ring font-semibold" set:html={toHTML(cell)}></th>
+                                  ))}
+                                </tr>
+                              </thead>
+                              <tbody>
+                                {dataRows.map((row: string[]) => (
+                                  <tr class="border-b border-card-ring even:bg-black/5 dark:even:bg-black/10">
+                                    {row.map((cell: string) => (
+                                      <td class="px-3 py-2 border border-card-ring" set:html={toHTML(cell)}></td>
+                                    ))}
+                                  </tr>
+                                ))}
+                              </tbody>
+                            </table>
+                          </div>
+                        </>
+                      );
+                    }
+                    
+                    return lines.map((item: string) => {
+                      if (item.trim() === '') return <br />;
+                      if (item.startsWith('- ')) return <li class="ml-4 mb-1" set:html={toHTML(item)} />;
+                      return <p class="mb-2" set:html={toHTML(item)} />;
+                    });
+                  })()}
+                </div>
+              </section>
+
+              <!-- 七、開發者指南 -->
+              <section id="developer" class="prose dark:prose-invert max-w-none">
+                <h2 class="text-xl font-semibold mb-4" set:html={brandify(whitepaperMessages?.sections?.developer || '')}></h2>
+                
+                <h3 class="text-lg font-semibold mb-3">{whitepaperMessages?.content?.developer?.contracts?.title || '7.1 合約地址（待部署）'}</h3>
+                <div class="mb-4">
+                  {toLines(whitepaperMessages?.content?.developer?.contracts?.description || []).map((item: string) => {
+                    if (item.trim() === '') {
+                      return <br />;
+                    }
+                    if (item.startsWith('- **')) {
+                      return <li class="ml-4 mb-1" set:html={toHTML(item)} />;
+                    }
+                    return <p class="mb-2" set:html={toHTML(item)} />;
+                  })}
+                </div>
+
+                <h3 class="text-lg font-semibold mb-3">{whitepaperMessages?.content?.developer?.api?.title || '7.2 整合模式與 API（規劃中）'}</h3>
+                
+                <div class="mb-4">
+                  {toLines(whitepaperMessages?.content?.developer?.api?.intro || []).map((item: string) => {
+                    if (item.trim() === '') {
+                      return <br />;
+                    }
+                    return <p class="mb-2" set:html={toHTML(item)} />;
+                  })}
+                </div>
+
+                <div class="mb-4">
+                  {toLines(whitepaperMessages?.content?.developer?.api?.types || []).map((item: string) => {
+                    if (item.trim() === '') {
+                      return <br />;
+                    }
+                    if (item.startsWith('- **')) {
+                      return <li class="ml-4 mb-1" set:html={toHTML(item)} />;
+                    }
+                    return <p class="mb-2" set:html={toHTML(item)} />;
+                  })}
+                </div>
+
+                <div class="mb-4">
+                  {toLines(whitepaperMessages?.content?.developer?.api?.security || []).map((item: string) => {
+                    if (item.trim() === '') {
+                      return <br />;
+                    }
+                    if (item.startsWith('- **')) {
+                      return <li class="ml-4 mb-1" set:html={toHTML(item)} />;
+                    }
+                    return <p class="mb-2" set:html={toHTML(item)} />;
+                  })}
+                </div>
+
+                <div class="mb-4">
+                  {toLines(whitepaperMessages?.content?.developer?.api?.release || []).map((item: string) => {
+                    if (item.trim() === '') {
+                      return <br />;
+                    }
+                    if (item.startsWith('- **')) {
+                      return <li class="ml-4 mb-1" set:html={toHTML(item)} />;
+                    }
+                    return <p class="mb-2" set:html={toHTML(item)} />;
+                  })}
+                </div>
+                
+                <h4 class="text-base font-semibold mb-2">{whitepaperMessages?.content?.developer?.api?.scenarios?.title || '典型整合場景'}</h4>
+                <ul class="list-disc pl-6 mb-6">
+                  {toLines(whitepaperMessages?.content?.developer?.api?.scenarios?.items || []).map((item: string) => {
+                    if (item.trim() === '') {
+                      return null;
+                    }
+                    return <li class="mb-1" set:html={toHTML(item)} />;
+                  })}
+                </ul>
+
+                <h3 class="text-lg font-semibold mb-3">{whitepaperMessages?.content?.developer?.tools?.title || '7.3 開發者工具與文件'}</h3>
+                <div class="mb-6">
+                  {toLines(whitepaperMessages?.content?.developer?.tools?.description || []).map((item: string) => {
+                    if (item.trim() === '') {
+                      return <br />;
+                    }
+                    if (item.startsWith('- **')) {
+                      return <li class="ml-4 mb-1" set:html={toHTML(item)} />;
+                    }
+                    return <p class="mb-2" set:html={toHTML(item)} />;
+                  })}
+                </div>
+              </section>
+
+              <!-- 八、路線圖 -->
+              <section id="roadmap" class="prose dark:prose-invert max-w-none">
+                <h2 class="text-xl font-semibold mb-4" set:html={brandify(whitepaperMessages?.sections?.roadmap || '')}></h2>
+                
+                <h3 class="text-lg font-semibold mb-3">{whitepaperMessages?.content?.roadmap?.phase1?.title || 'Phase 1：基礎設施（已完成 ✅）'}</h3>
+                <ul class="list-none pl-0 mb-4">
+                  {toLines(whitepaperMessages?.content?.roadmap?.phase1?.items || []).map((item: string) => (
+                    <li class="mb-1" set:html={toHTML(item)} />
+                  ))}
+                </ul>
+
+                <h3 class="text-lg font-semibold mb-3">{whitepaperMessages?.content?.roadmap?.phase2?.title || 'Phase 2：合約開發（進行中 🚧）'}</h3>
+                <ul class="list-none pl-0 mb-4">
+                  {toLines(whitepaperMessages?.content?.roadmap?.phase2?.items || []).map((item: string) => (
+                    <li class="mb-1" set:html={toHTML(item)} />
+                  ))}
+                </ul>
+
+                <h3 class="text-lg font-semibold mb-3">{whitepaperMessages?.content?.roadmap?.phase3?.title || 'Phase 3：上線準備（計劃中 📅）'}</h3>
+                <ul class="list-none pl-0 mb-4">
+                  {toLines(whitepaperMessages?.content?.roadmap?.phase3?.items || []).map((item: string) => (
+                    <li class="mb-1" set:html={toHTML(item)} />
+                  ))}
+                </ul>
+
+                <h3 class="text-lg font-semibold mb-3">{whitepaperMessages?.content?.roadmap?.phase4?.title || 'Phase 4：生態擴展（未來 🔮）'}</h3>
+                <ul class="list-none pl-0 mb-6">
+                  {toLines(whitepaperMessages?.content?.roadmap?.phase4?.items || []).map((item: string) => (
+                    <li class="mb-1" set:html={toHTML(item)} />
+                  ))}
+                </ul>
+              </section>
+
+              <!-- 九、風險提示 -->
+              <section id="risks" class="prose dark:prose-invert max-w-none">
+                <h2 class="text-xl font-semibold mb-4" set:html={brandify(whitepaperMessages?.sections?.risks || '')}></h2>
+                
+                <h3 class="text-lg font-semibold mb-3">{whitepaperMessages?.content?.risks?.technical?.title || '9.1 技術風險'}</h3>
+                <div class="mb-4">
+                  {(() => {
+                    const lines = toLines(whitepaperMessages?.content?.risks?.technical?.description || []);
+                    const { isTable, tableRows, restLines } = parseTableLines(lines);
+                    
+                    if (isTable && tableRows.length > 0) {
+                      const headerRow = tableRows[0];
+                      const dataRows = tableRows.slice(1).filter(row => !row.every(cell => /^:?-+:?$/.test(cell))); // 過濾分隔符行
+                      
+                      return (
+                        <>
+                          {restLines.map((line: string) => {
+                            if (line.trim() === '') return <br />;
+                            return <p class="mb-2" set:html={toHTML(line)} />;
+                          })}
+                          <div class="overflow-x-auto my-4">
+                            <table class="w-full min-w-[400px] text-sm border-collapse">
+                              <thead class="bg-black/5 dark:bg-black/10 text-left">
+                                <tr>
+                                  {headerRow.map((cell: string) => (
+                                    <th class="px-3 py-2 border border-card-ring font-semibold" set:html={toHTML(cell)}></th>
+                                  ))}
+                                </tr>
+                              </thead>
+                              <tbody>
+                                {dataRows.map((row: string[]) => (
+                                  <tr class="border-b border-card-ring even:bg-black/5 dark:even:bg-black/10">
+                                    {row.map((cell: string) => (
+                                      <td class="px-3 py-2 border border-card-ring" set:html={toHTML(cell)}></td>
+                                    ))}
+                                  </tr>
+                                ))}
+                              </tbody>
+                            </table>
+                          </div>
+                        </>
+                      );
+                    }
+                    
+                    return lines.map((item: string) => {
+                      if (item.trim() === '') return <br />;
+                      return <p class="mb-2" set:html={toHTML(item)} />;
+                    });
+                  })()}
+                </div>
+
+                <h3 class="text-lg font-semibold mb-3">{whitepaperMessages?.content?.risks?.market?.title || '9.2 市場風險'}</h3>
+                <ul class="list-disc pl-6 mb-4">
+                  {toLines(whitepaperMessages?.content?.risks?.market?.description || []).map((item: string) => (
+                    <li class="mb-1" set:html={toHTML(item)} />
+                  ))}
+                </ul>
+
+                <h3 class="text-lg font-semibold mb-3">{whitepaperMessages?.content?.risks?.notice?.title || '9.3 用戶須知'}</h3>
+                <ul class="list-disc pl-6 mb-6">
+                  {toLines(whitepaperMessages?.content?.risks?.notice?.description || []).map((item: string) => (
+                    <li class="mb-1" set:html={toHTML(item)} />
+                  ))}
+                </ul>
+              </section>
+
+              <!-- 十、需要確認的問題 -->
+              <section id="faq" class="prose dark:prose-invert max-w-none">
+                <h2 class="text-xl font-semibold mb-4" set:html={brandify(whitepaperMessages?.sections?.faq || '')}></h2>
+                
+                <div class="mb-6">
+                  {toLines(whitepaperMessages?.content?.faq?.description || []).map((item: string) => {
+                    if (item.trim() === '') {
+                      return <br />;
+                    }
+                    if (item.startsWith('- **')) {
+                      return <p class="mb-2 ml-4" set:html={toHTML(item)} />;
+                    }
+                    return <p class="mb-2" set:html={toHTML(item)} />;
+                  })}
+                </div>
+              </section>
+
+            </div>
+          </div>
+        </article>
+      </div>
+    </Section>
+  </main>
+</BaseLayout>
+
+<style>
+  /* 導入圖表樣式 */
+  @import '@/styles/charts.css';
+
+  /* 響應式容器（符合 UI 規範） */
+  .chart-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+    /* 使用 CSS 變量（日/夜模式自動適配） */
+    background-color: var(--card-bg);
+    border: 1px solid var(--card-ring);
+    border-radius: 0.75rem;
+  }
+
+  /* 移動端優化 */
+  @media (max-width: 768px) {
+    .chart-container {
+      padding: 0.5rem;
+      border-radius: 0.5rem;
+    }
+  }
+
+  /* 圖表內部容器高度（響應式） */
+  .chart-container :global(.chart-wrapper) {
+    height: 300px; /* 移動端 */
+  }
+
+  @media (min-width: 768px) {
+    .chart-container :global(.chart-wrapper) {
+      height: 400px; /* 平板 */
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .chart-container :global(.chart-wrapper) {
+      height: 500px; /* 桌面 */
+    }
+  }
+
+  /* RTL 支持（邏輯屬性） */
+  [dir="rtl"] .chart-container {
+    direction: rtl;
+  }
+
+  /* 確保側邊欄和主內容的 Flexbox 布局正常工作 */
+  @media (min-width: 1024px) {
+    .flex {
+      display: flex;
+    }
+    
+    .flex-col {
+      flex-direction: column;
+    }
+    
+    .lg\:flex-row {
+      flex-direction: row;
+    }
+    
+    .flex-1 {
+      flex: 1 1 0%;
+    }
+    
+    .min-w-0 {
+      min-width: 0;
+    }
+    
+    .flex-shrink-0 {
+      flex-shrink: 0;
+    }
+  }
+</style>
+

@@ -1,0 +1,27 @@
+{
+  "sent_from": "Enviar al grupo:",
+  "claimed": "Reclamar",
+  "total": "Monto total",
+  "progress": "Ya reclamado",
+  "groups_directory": {
+    "latest_tab": "Últimos grupos de Red Packet",
+    "hot_tab": "Grupos de Red Packet populares",
+    "search_placeholder": "Buscar palabras clave en grupos unidos"
+  },
+  "marquee": {
+    "templates": {
+      "send": "💰 {user} emitió un Red Packet de {amount} {ccy} en '{group}'!",
+      "claim": "🎯 {user} recibió {amount} {ccy}, ¡Jugador más afortunado!",
+      "topup": "🔥 El propietario del grupo {user} depositó {amount} {ccy}",
+      "system": "📢 {mensaje} {message}",
+      "achievement": "🥇 El jugador más afortunado de hoy: @{user} (acumuló {amount} {ccy})"
+    },
+    "fallback": [
+      "💰 John emitió un red packet de 100 USDT en 'Game Guild A'!",
+      "🎯 Lisa reclamó 3.5 USDT, ¡la más afortunada de todas!",
+      "🔥 El propietario del grupo Ken depositó 2000 USDT",
+      "📢 ¡Actualización del sistema completada, se añadió soporte para SOL!",
+      "🥇 La más afortunada de hoy: @Mina (acumuló 28.3 USDT)"
+    ]
+  }
+}

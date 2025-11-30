@@ -1,0 +1,27 @@
+{
+  "sent_from": "Gửi đến nhóm:",
+  "claimed": "Nhận",
+  "total": "Tổng số tiền",
+  "progress": "Đã được yêu cầu",
+  "groups_directory": {
+    "latest_tab": "Nhóm lì xì mới nhất",
+    "hot_tab": "Nhóm lì xì phổ biến",
+    "search_placeholder": "Tìm kiếm từ khóa trong các nhóm đã tham gia"
+  },
+  "marquee": {
+    "templates": {
+      "send": "💰 {user} đã phát lì xì {amount} {ccy} trong '{group}'!",
+      "claim": "🎯 {user} đã nhận {amount} {ccy}, Người chơi May mắn nhất!",
+      "topup": "🔥 Chủ nhóm {user} đã nạp {amount} {ccy}",
+      "system": "📢 {message}",
+      "achievement": "🥇 Người chơi may mắn nhất hôm nay: @{user} (tích lũy {amount} {ccy})"
+    },
+    "fallback": [
+      "💰 John đã phát 100 USDT lì xì trong 'Game Guild A'!",
+      "🎯 Lisa đã nhận 3.5 USDT, là người may mắn nhất trong số họ!",
+      "🔥 Chủ nhóm Ken đã gửi 2000 USDT",
+      "📢 Nâng cấp hệ thống đã hoàn thành, thêm hỗ trợ SOL!",
+      "🥇 Người may mắn nhất hôm nay: @Mina (đã tích lũy 28.3 USDT)"
+    ]
+  }
+}

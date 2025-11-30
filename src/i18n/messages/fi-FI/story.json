@@ -1,0 +1,101 @@
+{
+  "illustration_alt": "moonini omaksuu kuvaston",
+  "title": "🌕 moonini tarina",
+  "origin": [
+    "Eräänä päivänä punainen meteori putosi kuun kaukaiselle puolelle,",
+    "Kuunvalo räjähti iskun yhteydessä, muuttuessaan hopeavalkoiseksi valosateeksi.",
+    "Tuosta lepattavasta punaisesta 'red packet meteoriitista',",
+    "Syntyi säihkeä pieni kuuherra — moonini.",
+    "",
+    "moonini kantaa kultakeltaista kuu-merkkkiä rinnassaan.",
+    "Hän voi tuntea jokaisen sydämellisen red packetin, joka lähetetään Maasta.",
+    "Riippumatta määrästä, se on puhtain lämmin energia.",
+    "Kyllä, moonini kasvaa kiitos jokaisen red packet -energian.",
+    "",
+    "Nämä energiat muuttuivat Solana-ketjulle syntyneiksi red packet -tunnuksiksi —",
+    "Se on $moonini-tokenin alku."
+  ],
+  "secrets_title": "🌸 Hänen salaisuutensa",
+  "secrets_intro": "Joka kerta, kun lähetät red packetin, moonini kirjaa energian merkinnän kuuhun:",
+  "secrets_flow": "Lähetä red packet → Tuota vastaava energiaraha-arvo (muutettuna USDT-arvoksi) → Keri 10 → Saavuta minimivaihdettavan $moonini-arvo.",
+  "secrets_halving": [
+    "Alkuvaiheessa (Vaihe 1) moonini palauttaa yleensä parhaan 1:1-suhteen red packetin lähettäjälle. Oikeudenmukaisuuden ylläpitämiseksi ja pesu/ping-pong-riskin vähentämiseksi otamme käyttöön tehokkaan energian käsitteen.",
+    "Kun yhteisön lähettämä ja nostettu kokonaismäärä saavuttaa järjestelmän asettaman puolitusrajan, ensimmäinen puolitus tapahtuu; sen jälkeen puolitus laukeaa, kun edellisen vaiheen määrä puolittuu."
+  ],
+  "schedule_title": "Tokenin julkaisut sääntö",
+  "schedule_headers": [
+    "Vaihe",
+    "Julkaisuraja",
+    "Tuottosuhde (energiaa tuotetaan 1 USDT:ta kohti)",
+    "Kuvaus"
+  ],
+  "schedule_rows": [
+    [
+      "Vaihe 1",
+      "0 ~ 4.5 billion",
+      "1.0 $moonpacket / USDT",
+      "Initial period, energy overflow."
+    ],
+    [
+      "Vaihe 2",
+      "4.5B ~ 6.75B",
+      "0.5 $moonpacket / USDT",
+      "First halving."
+    ],
+    [
+      "Vaihe 3",
+      "6.75B ~ 7.875B",
+      "0.25 $moonpacket / USDT",
+      "Stabilization period."
+    ],
+    [
+      "Vaihe 4",
+      "7.875B ~ 8.4375B",
+      "0.125 $moonpacket / USDT",
+      "Scarcity period."
+    ],
+    [
+      "Vaihe 5",
+      "8.4375B ~ 8.71875B",
+      "0.0625 $moonpacket / USDT",
+      "Late mining phase."
+    ],
+    [
+      "Vaihe 6",
+      "8.71875B ~ 9B",
+      "0.03125 $moonpacket / USDT",
+      "Crystallization period (final phase)."
+    ]
+  ],
+  "cap_note": [
+    "Kun kokonaiskierto saavuttaa 9 miljardia, moonini lopettaa uusien liikkeellelaskujen.",
+    "Jäljellä oleva 1 miljardi (10 % kokonaismäärästä),",
+    "Varattu virallisen toimesta tulevia yhteisöpalkintoja ja yhteistyöenergian käyttöä varten."
+  ],
+  "belief_title": "🌕 Kuun energia ja usko punaisiin paketteihin",
+  "belief_paragraphs": [
+    "moonini rakastaa kaikkia, jotka ovat valmiita 'jakamaan'.",
+    "Hän uskoo, että punaiset paketit eivät ole vain rahaa, vaan siunausten ja energian vaihtoa.",
+    "Aina kun lähetät punaisen paketin, suoritat tehtävän tai liityt moonpacket-yhteisöön,",
+    "sinulla on mahdollisuus saada paluu kuulta — satunnaisesti pudotettu $moonini.",
+    "",
+    "Se on valo, jonka universumi antaa takaisin sinulle ilon levittämisen jälkeen."
+  ],
+  "future_title": "💫 Tulevaisuuden sovellukset",
+  "future_intro": "Tällä hetkellä $moonini ei ole avoinna millekään viralliselle sovellusskenaariolle, mutta se on suunniteltu palkkioksi ja energia-asiakirjaksi tulevaisuuden punaisen paketin maailmassa, mahdollisesti käytettäväksi:",
+  "future_list": [
+    "✅ Punaisen paketinkin maksualennukset",
+    "🎁 Kauppiaan alennukset/ostoskuponkit",
+    "🌐 Tapahtuma-aidropit ja yhteisötehtävien palkinnot"
+  ],
+  "disclaimer_title": "⚠️ Ilmoitus",
+  "disclaimer_paragraphs": [
+    "Virallinen taho ei takaa mitään fiat-vaihtokurssiarvoa $moonini:lle.",
+    "Voit ajatella sitä olevan antelias henkilön bonuspisteet.",
+    "Symboloi kaikkia, jotka ovat valmiita jakamaan onnea ja levittämään energiaa."
+  ],
+  "closing": [
+    "moonini — kuu jänis, joka syntyi punaisen paketista saatuun energiaan.",
+    "Jokainen siunaus on säde valoa hänen kasvulleen."
+  ]
+}

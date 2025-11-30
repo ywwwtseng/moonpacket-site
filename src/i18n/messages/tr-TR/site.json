@@ -1,0 +1,177 @@
+{
+  "title": "moonpacket — kolay, güvenli ve hızlı kripto kırmızı paketler",
+  "description": "moonpacket şifreli kırmızı paket robotu | USDT, TON, SOL, ETH destekler. Kırmızı paketleri kolayca gönderin, anında güvenli bir şekilde alırken, Telegram topluluğu için mükemmeldir, katılımı artırır.",
+  "nav": {
+    "home": "Ana Sayfa",
+    "about": "Hakkında",
+    "pricing": "Fiyatlandırma",
+    "team": "Ekip",
+    "blog": "Blog",
+    "faq": "Sıkça Sorulan Sorular",
+    "contact": "Bizimle İletişime Geçin",
+    "careers": "Kariyerler",
+    "claim": "Kırmızı Paket Talep Et",
+    "send": "Kırmızı Paket Gönder",
+    "api": "API Dokümantasyonu",
+    "docs": "Belge"
+  },
+  "hero": {
+    "title": "Herkese açık kripto para Red Packet'leri",
+    "subtitle": "Basit, küresel hizmetlerle topluluk deneyiminizi geliştirin.",
+    "desc": "Meme token projeleri ve Telegram grup sahipleri için yeni kullanıcılar edinmek ve etkileşimi artırmak için en iyi Red Packet botu.",
+    "ctaPrimaryLabel": "moonpacket'ı Başlat",
+    "ctaPrimaryHref": "https://t.me/moonpackageDevBot https://t.me/MoonPackageDevBot",
+    "ctaSecondaryLabel": "Bağlantı Nasıl Kurulur",
+    "ctaSecondaryHref": "/tr-TR/integration",
+    "lead": "Telegram TON, meme, USDT Red Packet'leri | Meme token projeleri ve Telegram grup sahipleri için yeni kullanıcılar edinmek ve etkileşimi artırmak için en iyi Red Packet botu.",
+    "cta_primary": "moonpacket'i Şimdi Aktifleştir",
+    "cta_secondary": "Gruplarla Entegre Etme Nasıl Yapılır",
+    "headline_line1": "moonpacket",
+    "headline_line2": "Başlayın, aya ulaşmayı hedefleyin.",
+    "tagline": "Telegram TON, meme ve USDT Red Packet'leri, topluluk pazarlaması ve tutma için. Yönetici olarak etkileşimi artırmak, yeni üyeler çekmek ve etkileşimi teşvik etmek için tasarlanmış bir grup Red Packet botu."
+  },
+  "features": {
+    "f1": "Hızlı kayıt",
+    "f2": "Küresel yerelleştirme",
+    "f3": "Kendi kendine güvenlik",
+    "title": "Temel özellikler",
+    "items": "__TODO_TRANSLATE_zh-CN__"
+  },
+  "sections": {
+    "features_heading": "Özellik Vurguları",
+    "features_subtitle": "Alabilirsiniz",
+    "tokens_heading": "Jetonlar ve İstatistikler",
+    "testimonials_heading": "Kullanıcı Yorumları",
+    "pricing_heading": "Planlar ve Fiyatlandırma",
+    "waterfall_title": "Kırmızı Paket Şelalesi"
+  },
+  "footer": {
+    "rights": "",
+    "privacy": "Gizlilik politikası",
+    "terms": "Hizmet Şartları",
+    "social": {
+      "telegram_group": "Telegram grubu",
+      "telegram_channel": "Telegram kanalı",
+      "x": "X",
+      "youtube": "YouTube"
+    },
+    "copyright": "Telif hakkı."
+  },
+  "a11y": {
+    "skip_to_main": "Ana içeriğe atla",
+    "language_menu": "Dil menüsünü aç",
+    "language": "Dil"
+  },
+  "metrics": {
+    "heading": "Gerçek Zamanlı Göstergeler",
+    "price_btc": "BTC Fiyatı",
+    "total_sent": "Toplam Gönderilen Tutar",
+    "total_claimed_amount": "Toplam Alınan Tutar (USDT)",
+    "title": "Tokenlar ve İstatistikler",
+    "groups": "Bağlı Gruplar",
+    "groupsLinkLabel": "Bağlı Red Packet Grupları",
+    "sent": "Gönderilen Kırmızı Paketler",
+    "claimed": "Toplam Tutar Talep Edildi",
+    "sort": {
+      "latest": "Son",
+      "oldest": "En Eski",
+      "most": "Maksimum Katılımcılar",
+      "least": "Minimum Katılımcı Sayısı"
+    }
+  },
+  "errors": {
+    "stale": "Veriler güncel olmayabilir",
+    "not_found": "Sayfa bulunamadı",
+    "not_found_desc": "Üzgünüm, bu sayfayı bulamadık veya kaldırılmıştır."
+  },
+  "pricing": {
+    "starter": "Temel Plan",
+    "pro": "Profesyonel Hizmetler",
+    "enterprise": "Kurumsal Plan",
+    "price_free": "Ücretsiz",
+    "price_19": "$19",
+    "price_contact": "Bize Ulaşın",
+    "sla_support": "SLA ve Destek",
+    "bullets": {
+      "starter": {
+        "0": "Temel Özellikler",
+        "1": "Topluluk Desteği"
+      },
+      "pro": {
+        "0": "Temel Planı İçerir",
+        "1": "Gelişmiş Yerelleştirme"
+      },
+      "enterprise": {
+        "0": "SLA ve Destek",
+        "1": "Özel Entegrasyon"
+      }
+    }
+  },
+  "story": {
+    "belief_title": "🌕 Ayın enerjisi ve kırmızı paketlere duyulan inanç",
+    "disclaimer_title": "⚠️ Feragatname",
+    "future_title": "💫 Gelecek uygulamalar",
+    "schedule_title": "Jeton serbest bırakma kuralları",
+    "secrets_title": "🌸 Onun sırrı",
+    "title": "🌕 moonini'nin hikayesi"
+  },
+  "waterfall": {
+    "claimed": "Talep Et",
+    "progress": "Talep Edildi",
+    "sent_from": "Gönderilen grup:",
+    "total": "Toplam tutar"
+  },
+  "seo": {
+    "og": {
+      "image": "/images/og-default.png",
+      "type": "web sitesi"
+    },
+    "routes": {
+      "claim": {
+        "description": "moonpacket'in kırmızı paket özelliği, SOL ve USDT dahil çeşitli token'ları destekler ve kendi meme token'larınızı göndermenizi sağlar. Yeni kullanıcılar çekmek ve Telegram gruplarında etkileşimi artırmak için güçlü bir araç.",
+        "title": "Kırmızı Paket Telegram Mini Uygulaması — moonpacket"
+      },
+      "privacy": {
+        "description": "moonpacket Gizlilik Politikası, kişisel verilerinizi nasıl topladığımızı, kullandığımızı ve koruduğumuzu açıklar.",
+        "title": "Gizlilik Politikası — moonpacket"
+      },
+      "send": {
+        "description": "Yeni kullanıcılar çekmek ve değerli kullanıcıların topluluk etkileşimini artırmak için kırmızı paketler göndermek, görev koşulları ayarlamak ve API entegrasyonları kullanarak moonpacket'i etkin bir şekilde kullanın.",
+        "title": "Kırmızı Paket Gönder — moonpacket"
+      },
+      "terms": {
+        "description": "moonpacket Hizmet Şartları, kullanım kılavuzları ve yasal beyannameler.",
+        "title": "Hizmet Şartları — moonpacket"
+      },
+      "docs": {
+        "description": "Proje belgelerini, beyaz kitabı ve teknik spesifikasyonları tamamlayın",
+        "distribution": {
+          "description": "$moonini dağıtım kuralları ve muhasebe sistemi tanımını tamamlayın",
+          "title": "$moonini dağıtım mekanizması — moonpacket"
+        },
+        "litepaper": {
+          "description": "$moonini, Moonpacket platformuna dayanan bir topluluk teşvik tokenıdır. Değerini nasıl kazanacağınızı, kullanacağınızı ve yatırım yapacağınızı öğrenin.",
+          "title": "$moonini Litepaper — moonpacket"
+        },
+        "missions": {
+          "description": "Görev sistemini ve başarı mekanizmasını tanımlayın",
+          "title": "$moonini görev sistemi — moonpacket"
+        },
+        "technical": {
+          "description": "BSC akıllı sözleşme teknik spesifikasyonlarını ve geliştirme kılavuzunu tamamlayın",
+          "title": "$moonini teknik spesifikasyonları — moonpacket"
+        },
+        "title": "Belgeler merkezi — moonpacket",
+        "whitepaper": {
+          "description": "$moonini tokenomics, teknik mimari ve yönetişim mekanizmasını tanımlayın",
+          "title": "$moonini beyaz kitabı — moonpacket"
+        }
+      }
+    },
+    "site": {
+      "description": "moonpacket Kripto Parası Kırmızı Paket Telegram Botu | USDT, TON, SOL, ETH, DOGE destekler. Ayrıca kendi meme token kırmızı paketlerinizi gönderebilirsiniz, bu yeni kullanıcıları çekmek, canlı bir atmosfer yaratmak ve Telegram topluluklarındaki etkileşimi artırmak için idealdir.",
+      "site_name": "moonpacket",
+      "title": "moonpacket — meme token kripto para kırmızı paketleri, özel kırmızı paket cüzdanı"
+    }
+  }
+}

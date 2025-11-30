@@ -1,0 +1,1514 @@
+{
+  "litepaper": {
+    "title": "$moonini Litepaper",
+    "description": "Begrijp de ontwerpfilosofie, het economische model en de kernwaarden van de $moonini token.",
+    "seo": {
+      "title": "$moonini Litepaper — moonpacket",
+      "description": "$moonini is een community-incentive token gebaseerd op het moonpacket platform. Leer hoe je het kunt verkrijgen, gebruiken en investeren in de waarde ervan."
+    },
+    "hero": {
+      "subtitle": "$moonini is een community-incentivetoken dat is gebaseerd op het moonpacket-platform. Hoe meer gebruikers betrokken zijn bij moonpacket, deelnemen aan taken en interageren, hoe meer $moonini ze kunnen verdienen. Voor investeerders wordt 90% verdeeld onder de gebruikers, en 10% gaat naar het team, met een halveringsmechanisme en lineaire release die effectief het dumprisico verminderen, ontworpen voor lange termijn stabiliteit.",
+      "cards": {
+        "user": {
+          "title": "Voor Algemeen Gebruik",
+          "description": "Verdien $moonini eenvoudig door het verzenden van Red Packets, het voltooien van taken, het uitnodigen van vrienden, enzovoort. Hoe meer je het gebruikt, hoe meer je verdient, volledig gratis."
+        },
+        "investor": {
+          "title": "Voor Investeerders",
+          "description": "Totaal aanbod van 10B, 90/10 allocatie, 6 fasen van halvering, en teamallocatie met lineaire vrijgave, ontworpen om voordelig te zijn voor de lange termijn stabiliteit en het dumpingrisico te verminderen."
+        },
+        "developer": {
+          "title": "Voor Ontwikkelaars/Partners",
+          "description": "Gestandaardiseerde contracten, open API's, kunnen worden geïntegreerd in andere applicaties of games. Via API-integratie kunt u uw producten verbinden met het moonpacket-ecosysteem."
+        }
+      },
+      "live_status": "Protocol V1 is nu live",
+      "cta_start": "Begin met Lezen",
+      "cta_hub": "Ontwikkelaarscentrum"
+    },
+    "sections": {
+      "overview": "Overzicht",
+      "problem": "Problemen en Oplossingen",
+      "concept": "Kernconcepten van moonpacket & $moonini",
+      "tokenomics": "Tokenomics Overzicht",
+      "emission": "Halvering en Vrijgave",
+      "utility": {
+        "subtitle": "Hoe te Verdienen en Gebruiken"
+      },
+      "developer": "Ontwikkelaars & API-integratie",
+      "governance": "Bestuur en Veiligheid",
+      "roadmap": "Roadmap",
+      "risks": "Risico's en Vrijwaringen",
+      "faq": "FAQ",
+      "cta": {
+        "title": "Ben je klaar om deel te nemen aan deze Red Packet sociale ervaring?",
+        "earning": "Begin nu met het verdienen van Red Packets",
+        "devs": "Lees ontwikkelaarsdocumentatie"
+      },
+      "registry": {
+        "title": "On-chain Contract Registratie",
+        "network": "Mainnet: BSC (BNB Chain)",
+        "audit": "Auditstatus: **Gepland**"
+      },
+      "defense": {
+        "floor": {
+          "title": "🛡️ Intelligente vloerprijs verdediging",
+          "mechanism": "Wanneer de marktprijs de bodemprijs benadert, zal het protocol automatisch verdedigingsmechanismen activeren, waarbij de opgezamelde POL (Protocol Owned Liquidity) ter ondersteuning wordt gebruikt. Dit is geen rigide uitbetaling; het maakt gebruik van speltheorie om de shortkosten oneindig hoog te maken.",
+          "anti_gaming": "Opmerking: Om arbitrage-aanvallen te voorkomen, worden specifieke triggerdrempels en verdedigingssterkten dynamisch aangepast en zullen de exacte waarden niet worden onthuld."
+        },
+        "anti_bot": {
+          "title": "🚫 Afwijzen Markt Making Beheer",
+          "items": [
+            "Alle transacties zijn echte gebruikersgedragingen",
+            "Geen Market Maker Bots",
+            "Verwerp valse volumemanipulatie en pump en dump"
+          ]
+        }
+      },
+      "lockup": {
+        "title": "Strategische Lock-up",
+        "desc": "In een markt vol 'muizenpakhuis' en 'verborgen chips' hebben we de moeilijkste maar meest eerlijke weg gekozen. We begrijpen heel goed dat we alleen door de angsten van gebruikers voor 'team dumps' volledig weg te nemen, echte vertrouwen kunnen opbouwen.",
+        "benefit": "Dit gaat niet alleen om lock-up regels; het is onze 'anti-harvest verklaring'. Door deze enigszins strikte zelfbeheersing zorgen we ervoor dat niemand - of het nu oprichters of grote houders zijn - de gemeenschap in de vroege stadia kan verraden.",
+        "items": [
+          "Volledig transparant, geen verborgen zaken: We hebben geen verborgen wallets of niet-gepubliceerde vroege circulerende voorraad. Alle chipdistributies zijn openbaar beschikbaar op de blockchain, onder toezicht van de gemeenschap.",
+          "Teamverbintenis, langdurige ondersteuning: De releaseduur van het kernteam duurt tot 48 maanden (4 jaar). In de crypto wereld is 4 jaar een lange cyclus. Dit bewijst dat we hier niet zijn om snel geld te verdienen, maar vastberaden zijn om samen met de gemeenschap de bull- en bearmarkten te ervaren en langdurige waarde op te bouwen.",
+          "Investeerdersconsensus: Onze vroege investeerders identificeren zich diep met de 'delen en geven' cultuur van Red Packets en ondertekenen vrijwillig een 36-maanden lineaire vrijgaveovereenkomst. Dit betekent dat in de vroege stadia van het project geen enkele partij (inclusief investeerders) genoeg chips heeft om de markt te beïnvloeden."
+        ]
+      }
+    },
+    "back_to_top": "↥ Terug naar Boven",
+    "content": {
+      "overview": {
+        "paragraphs": [
+          "moonpacket is een crypto Red Packet en marketingtool die specifiek is ontworpen voor Telegram-gemeenschappen. Of het nu gaat om gemeenschapsoperaties, evenementpromoties of het uitnodigen van nieuwe gebruikers, moonpacket kan je helpen dit gemakkelijk te bereiken.",
+          "Om gebruikers aan te moedigen om het platform te blijven gebruiken en langdurige relaties op te bouwen, hebben we de $moonini community incentive token gelanceerd. Elke actieve handeling op het platform, inclusief het verzenden van red packets, het voltooien van taken en het uitnodigen van vrienden, kan bijbehorende $moonini beloningen opleveren.",
+          "Voor algemene gebruikers is $moonini een extra beloning voor het gebruik van moonpacket; hoe meer je het gebruikt, hoe meer je verdient. Voor investeerders vermindert het token-economisch ontwerp van $moonini (90% voor gebruikers, 10% voor het team, 6-fase halvering, vrijgave van lockups) effectief de risico's van kortetermijnverkoop en bevordert het de stabiliteit van de waarde op lange termijn."
+        ],
+        "highlights": {
+          "title": "Kernpunten",
+          "items": [
+            "✅ **Eerlijke verdeling**: 90% van de tokens wordt verdeeld via gebruikersactiviteiten, met 10% voor het team en vroege investeerders.",
+            "✅ **Vroeg voordeel**: 6-fasen halveringsmechanisme, hoe eerder je meedoet, hoe meer je ontvangt.",
+            "✅ **Verminder risico**: De teamallocatie is 3 maanden vergrendeld en wordt vervolgens lineair vrijgegeven over 33-45 maanden.",
+            "✅ **Transparant en verifieerbaar**: Alle token distributie en vrijgave regels zijn openbaar transparant en on-chain verifieerbaar."
+          ]
+        }
+      },
+      "problem": {
+        "title": "Problemen en Oplossingen",
+        "problems": {
+          "title": "Pijnpunten in bestaande Web3 / Telegram-marketing",
+          "items": [
+            "**Lastig om effectiviteit te volgen**: Traditionele Red Packet-mechanismen zijn moeilijk te traceren voor daadwerkelijke effecten; het is onduidelijk wie heeft geclaimd, wie heeft gedeeld, of het nieuwe gebruikers heeft aangetrokken.",
+            "**Korte termijn winstneming**: Veel projecten richten zich alleen op kortetermijnverkeer, geven red packets weg en vertrekken zonder mechanismen voor lange termijn stimulansen.",
+            "**Gebrek aan langdurige incentives**: Gebruikers vertrekken na het ontvangen van Red Packets, waardoor ze geen langdurige relaties en continue deelname kunnen opbouwen."
+          ]
+        },
+        "solutions": {
+          "title": "De oplossing van moonpacket + $moonini",
+          "items": [
+            "**Volledige gedragsregistratie**: moonpacket registreert de ontvangst van elk red packet, het delen van gedrag en de introducties van nieuwe gebruikers, zodat je de marketingeffectiviteit duidelijk kunt begrijpen.",
+            "**Langdurige incentive mechanismen**: Door het $moonini token, hoe meer gebruikers deelnemen, hoe meer ze verdienen, wat langdurige deelname motivatie creëert.",
+            "**Eerlijke waardeverdeling**: 90% van de tokens gaat naar gebruikers, wat de prioriteit van de gemeenschap waarborgt, terwijl mechanismen zoals halvering en vergrendeling het risico op dumpen verminderen."
+          ]
+        }
+      },
+      "concept": {
+        "title": "Kernconcepten van moonpacket & $moonini",
+        "moonpacket": {
+          "title": "De Rol van moonpacket",
+          "description": "moonpacket is een Telegram Red Packet, taak- en marketingtool. Of je nu een community operator, evenementorganisator of een project bent dat nieuwe gebruikers wil aantrekken, je kunt moonpacket gebruiken om:",
+          "features": [
+            "Stuur crypto Red Packets (ondersteunt meerdere tokens zoals USDT, TON, SOL, ETH, enz.)",
+            "Creëer taak evenementen (nodig vrienden uit, volg gemeenschappen, deel content, enz.)",
+            "Volg effectgegevens (inwisselingspercentages, deelpercentages, conversies van nieuwe gebruikers, enz.)",
+            "Stuur Red Packets cross-group, breid het bereik uit"
+          ]
+        },
+        "moonini": {
+          "title": "De rol van $moonini",
+          "description": "$moonini is een beloningspunten token dat gebruikers- en gemeenschapsgedrag erkent. Elke actieve actie die je op moonpacket onderneemt, verdient je de bijbehorende $moonini:",
+          "rewards": [
+            "Stuur Red Packet: Verdien het overeenkomstige $moonini op basis van het bedrag van de Red Packet en de huidige fase",
+            "Taken Voltooien: Het behalen van prestaties, sociale taken, enz. levert extra $moonini op.",
+            "Nodig vrienden uit: Nodig nieuwe gebruikers succesvol uit en voltooi deelopdrachten, beide partijen kunnen $moonini verdienen",
+            "Actieve Participatie: Het uitvoeren van specifieke acties in collaboratieve spellen of applicaties kan ook $moonini opleveren"
+          ]
+        },
+        "logic": {
+          "title": "Hoe meer je het gebruikt, hoe meer je verdient",
+          "description": "De logica is eenvoudig: hoe actiever je bent op moonpacket, hoe meer $moonini je verdient. Vroegtijdige deelnemers kunnen genieten van een hogere beloningsratio (Fase 1, verdien 1 $moonini voor elke 1 USDT Red Packet die wordt verzonden). Hoe eerder je deelneemt, hoe groter je voordeel."
+        }
+      },
+      "tokenomics": {
+        "title": "Overzicht van Tokenomics",
+        "total": {
+          "title": "Totaal Token Aanbod",
+          "description": "De totale uitgifte van $moonini is **10.000.000.000 tokens (10B)**, met een vaste totale voorraad en geen aanvullende uitgifte."
+        },
+        "allocation": {
+          "title": "Toewijzingsplan",
+          "table": {
+            "headers": [
+              "Categorie",
+              "Aantal",
+              "Proportie",
+              "Omschrijving"
+            ],
+            "rows": [
+              [
+                "Publieke Release",
+                "9.000.000.000 stuks",
+                "90%",
+                "Geleidelijke release door gebruikersactiviteiten (6-fase halvering)"
+              ],
+              [
+                "Teamallocatie",
+                "1.000.000.000 stuks",
+                "10%",
+                "Vergrendeld voor 3 maanden, lineaire release over 33-45 maanden"
+              ],
+              [
+                "├─ Operaties",
+                "200.000.000 stuks",
+                "2%",
+                "Vergrendeld voor 3 maanden, vrijgegeven over 45 maanden"
+              ],
+              [
+                "├─ Technisch Team",
+                "200.000.000 stuks",
+                "2%",
+                "Vergrendeld voor 3 maanden, vrijgegeven over 45 maanden"
+              ],
+              [
+                "├─ PR/Marketing",
+                "200.000.000 stuks",
+                "2%",
+                "Vergrendeld voor 3 maanden, vrijgegeven over 45 maanden"
+              ],
+              [
+                "└─ Vroege Investeerders",
+                "400.000.000 stuks",
+                "4%",
+                "Vergrendeld voor 3 maanden, vrijgegeven over 33 maanden"
+              ]
+            ]
+          }
+        },
+        "philosophy": {
+          "title": "Waarom is dit ontwerp?",
+          "items": [
+            "**Gebruikersprioritering**: 90% van de tokens is toegewezen aan gebruikers om ervoor te zorgen dat de gemeenschap werkelijk profiteert, in plaats van te worden gemonopoliseerd door een paar individuen.",
+            "**Team Incentives**: 10% voor het team en vroege investeerders om ervoor te zorgen dat het project voldoende middelen heeft voor voortdurende ontwikkeling, met een gematigd aandeel om overmatige concentratie te vermijden.",
+            "**Geen Vooraf Gereserveerde Voorverkoop/VC**: We reserveren geen quota voor institutionele investeerders, en alle tokens worden aan gebruikers verdeeld via een eerlijke mechanismen.",
+            "**Risicobeperking**: De toewijzing van het team is onderworpen aan lock-up en lineaire vrijgave mechanismen, wat effectief het risico van short-term dumping vermindert en de belangen van investeerders beschermt."
+          ]
+        }
+      },
+      "emission": {
+        "title": "Halvering en Releasestructuur",
+        "halving": {
+          "title": "6-fasen halveringsmechanisme",
+          "description": "Om vroege deelnemers aan te moedigen, maakt de tokenverdeling gebruik van een 'progressieve halvering' mechanisme. Hoe eerder je je aanmeldt, hoe meer tokens je kunt verdienen:",
+          "table": {
+            "headers": [
+              "Fase",
+              "Uitgegeven Bedrag Bereik",
+              "Verdien per 1 USDT",
+              "Beschrijving"
+            ],
+            "rows": [
+              [
+                "Fase 1",
+                "0 ~ 4.5B",
+                "1.0 stuk",
+                "V vroege deelnemers, 1:1 ruil"
+              ],
+              [
+                "Fase 2",
+                "4.5B ~ 6.75B",
+                "0.5 stuk",
+                "Halvering"
+              ],
+              [
+                "Fase 3",
+                "6.75B ~ 7.875B",
+                "0.25 stuk",
+                "Weer gehalveerd"
+              ],
+              [
+                "Fase 4",
+                "7.875B ~ 8.4375B",
+                "0.125 stuks",
+                "Blijf halveren"
+              ],
+              [
+                "Fase 5",
+                "8.4375B ~ 8.71875B",
+                "0.0625 stuks",
+                "Naderen het einde"
+              ],
+              [
+                "Fase 6",
+                "8.71875B ~ 9B",
+                "0.03125 stuks",
+                "Laatste fase"
+              ]
+            ]
+          },
+          "example": "Bijvoorbeeld: In Fase 1, als je een Red Packet van 100 USDT verstuurt, kun je 100 $moonini verdienen; in Fase 2 zou het versturen van dezelfde Red Packet van 100 USDT je slechts 50 $moonini opleveren. Hoe eerder je deelneemt, hoe groter je voordeel!"
+        },
+        "vesting": {
+          "title": "Team Quota Lock-up en Release",
+          "description": "In een markt vol met 'muizenmagazijnen' en 'verborgen chips', hebben we gekozen voor het moeilijkste maar eerlijkste pad. We begrijpen diepgaand dat we alleen door de angst van gebruikers voor 'teamverkoop' volledig te wegnemen, ware vertrouwen kunnen opbouwen.",
+          "items": [
+            "**Totaal Transparantie, Geen Verhullingen**: We hebben geen verborgen wallets of niet openbaar gemaakte vroege circulerende voorraad. Alle token distributies zijn openbaar beschikbaar op de blockchain, onderworpen aan toezicht van de community.",
+            "**Team Zelfbeheersing, Langdurige Verbintenis**: De uitgiftetijd voor het kernteam duurt **48 maanden (4 jaar)**. In de cryptoruimte is vier jaar een lange cyclus. Dit bewijst dat we hier niet zijn om snel geld te verdienen, maar toegewijd zijn aan het meemaken van bull- en bear-markten samen met de gemeenschap om langdurige waarde op te bouwen.",
+            "**Investeerdersconsensus**: Onze vroege investeerders resoneren sterk met de 'delen en geven' cultuur van Red Packets en hebben vrijwillig een **36 maanden** lineair vrijgaveovereenkomst getekend. Dit betekent dat in de vroege stadia van het project geen enkele partij (inclusief investeerders) voldoende tokens heeft om de markt te beïnvloeden."
+          ],
+          "benefit": "Dit is niet alleen een lock-in regel, maar onze **'Anti-Harvest Verklaring'**. Door deze bijna rigide zelfbeheersing zorgen we ervoor dat niemand - of het nu oprichters of grote houders zijn - de gemeenschap in de vroege stadia kan bedriegen. We staan zij aan zij met alle Red Packet-verstuurders om gezamenlijk de zuiverheid van deze sociale waarde te behouden."
+        },
+        "why": {
+          "title": "Waarom dit doen?",
+          "items": [
+            "**Verminder kortetermijndump**: Lockup- en lineaire vrijgavedmechanismen voorkomen dat het team en investeerders grote bedragen vroeg in het project verkopen.",
+            "**Verleng de levensduur van het project**: Geleidelijke uitgifte zorgt ervoor dat het project voldoende tijd heeft om zich te ontwikkelen en waarde op te bouwen.",
+            "**Bescherm investeerders**: Halveringsmechanismen en lockup-ontwerpen bieden meer bescherming voor vroege houders."
+          ]
+        }
+      },
+      "utility": {
+        "title": "User acquisitie en gebruiksscenario's",
+        "how_to_earn": {
+          "title": "Hoe verdien je $moonini?",
+          "methods": [
+            "**Verstuur Red Packet**: Voor elke **equivalent van 1 USDT** die als een Red Packet wordt verstuurd (met ondersteuning voor meerdere valuta), ontvangen deelnemers overeenkomstige $moonini op basis van de huidige fase.",
+            "**Taken Voltooien**: Bevat eenmalige prestatie taken en sociale taken. Om eerlijkheid te waarborgen, mag elk account elke taak slechts één keer voltooien of is er een totaal limiet ingesteld om kwaadaardige coin farming te voorkomen.",
+            "**Vrienden Uitnodigen**: Nodig nieuwe vrienden uit en voltooi deelopdrachten, beide partijen ontvangen beloningen. **Elk account heeft een limiet op uitnodigingsbeloningen**, en specifieke regels zijn onderhevig aan aankondigingen vanuit de gemeenschap.",
+            "**Samenwerkende Applicaties**: Het voltooien van specifieke acties in games of applicaties die zijn geïntegreerd met de moonpacket API kan ook $moonini opleveren."
+          ]
+        },
+        "how_to_use": {
+          "title": "Gebruik van $moonini",
+          "items": [
+            "**Korting op vergoedingen**: In de toekomst kan $moonini worden gebruikt om een deel van de transactiekosten van de Red Packet te compenseren.",
+            "**Ontgrendel functies**: Bepaalde premium functies vereisen mogelijk dat je een bepaald bedrag aan $moonini vasthoudt om te gebruiken.",
+            "**Bestuursstemrecht**: Het bezitten van $moonini maakt deelname aan toekomstige stemmen over de governance van de gemeenschap mogelijk, waarmee de ontwikkelingsrichting van het project wordt beïnvloed.",
+            "**Ecosysteem Inlossing**: Kan worden ingewisseld voor speciale voordelen of beloningen in partnerapplicaties of spellen."
+          ]
+        }
+      },
+      "developer": {
+        "title": "Ontwikkelaars Ecosysteem",
+        "description": [
+          "moonpacket is meer dan alleen een Red Packet-tool; het is een open **Social Liquidity Layer**.",
+          "Via gestandaardiseerde API's en SDK's kan elke Telegram Bot, GameFi of Web3-applicatie de $moonini incentive-laag benaderen. Jij richt je op productontwikkeling, en wij helpen je met groei en behoud."
+        ],
+        "architecture": {
+          "title": "Programmeerde Prikkels",
+          "description": "Een evenementgestuurd beloningsdistributiesysteem dat Webhook-aanroepen en on-chain verificatie ondersteunt."
+        },
+        "cta": {
+          "text": "Meer leren over integratieoplossingen",
+          "link_text": "Lees de ontwikkelaar API-documentatie"
+        }
+      },
+      "contracts": {
+        "title": "Contractadres",
+        "description": "Om transparantie te waarborgen, zullen alle kern smart contract adressen openbaar worden gemaakt en geverifieerd.",
+        "items": {
+          "token": "$moonini Token (Token Contract)",
+          "emission": "Emissiekluis (90% Publieke Uitgiftekluis)",
+          "reserve": "Reserve Kluis (10% Team Quote Kluis)",
+          "phase": "Fasebeheerder (Halveringscontroller)",
+          "vesting": "Vesting Vault (Lineaire Vrijgave Controller)",
+          "pol": "POL Manager (Terugkoop en Prijsvloer Defensie)",
+          "protection": "Lancering Bescherming (Open Fase Anti-Sniping)",
+          "timelock": "Tijdslot Controller (48u Vertraging Lock)"
+        },
+        "status": "(Wordt bijgewerkt na de implementatie van het mainnet)"
+      },
+      "governance": {
+        "title": "Governance en beveiliging",
+        "principles": {
+          "title": "Bestuursprincipes",
+          "description": "Ons kernprincipe is: **er is geen enkele hoogste autoriteit**, alle belangrijke operaties vereisen meerdere bevestigingen en vertraagde publicatie om transparantie en veiligheid te waarborgen."
+        },
+        "market_making": {
+          "title": "Echte marktaankondiging",
+          "description": [
+            "**Valse transacties afwijzen**: We verplichten ons om geen wash trading te gebruiken of valse diepte te creëren. Elke transactie op de K-lijn komt van echte gebruikers.",
+            "**Gedecentraliseerde market making**: Liquiditeit wordt volledig bepaald door de marktaanbod en -vraag, evenals het geautomatiseerde terugkoopmechanisme van het protocol, in plaats van menselijke manipulatie."
+          ]
+        },
+        "floor_defense": {
+          "title": "Slimme vloerdefensie prijs",
+          "mechanism": "**Mechanisme**: Wanneer de prijs van de munt de bodemzone bereikt, zullen de geaccumuleerde protocolkosten automatisch worden gebruikt om terug te kopen en te vernietigen/injecteren in liquiditeit.",
+          "anti_gaming": "**Anti-sniping strategie**: Om te voorkomen dat bots arbitrage voorspellen, bevatten specifieke 'instaptiming' en 'eén transactiebedrag' willekeurige variabelen en zullen ze niet volledig openbaar zijn. De kernlogica blijft echter hetzelfde: **transactiekosten zullen uiteindelijk terugkeren naar de pool om de prijs te ondersteunen**.",
+          "variance": "Opmerking: Vanwege marktvolatiliteit is de bodemprijs geen absolute basis, maar een dynamisch steunniveau."
+        },
+        "process": {
+          "title": "Governance proces",
+          "steps": [
+            "**Voorstellen**: Belangrijke beslissingen vereisen multi-handtekening bevestiging.",
+            "**Vertraagde bevestiging**: Alle hoog risico operaties moeten een bevestigingsperiode van 48 uur ondergaan, waarin ze on-chain zichtbaar zijn.",
+            "**Uitvoering**: Na de vertragingperiode zal bevoegd personeel uitvoeren of het zal automatisch worden uitgevoerd.",
+            "**Annulering**: Gedurende de vertragingperiode kan de aanvrager het voorstel annuleren."
+          ]
+        },
+        "security": {
+          "title": "Beveiligingsmaatregelen",
+          "items": [
+            "**Multi-handtekening bevestiging**: Alle belangrijke operaties vereisen handtekeningen van ten minste 2 personen om het risico van een enkelpunt te vermijden.",
+            "**Vertraagde uitvoeringsmechanisme**: Hoog-risico operaties moeten een vertraging van 48 uur ondergaan, zodat de gemeenschap genoeg tijd heeft om te beoordelen en te reageren.",
+            "**Standaardcontractbibliotheek**: Gebruik geauditeerde standaardcontractbibliotheken om kwetsbaarheidsrisico's te verminderen.",
+            "**Derde partij audits**: Smart contracts zullen derde partij beveiligingsaudits ondergaan om de veiligheid te waarborgen.",
+            "**Open-source transparantie**: Contractcode is open-source, iedereen kan het verifiëren en auditeren."
+          ]
+        },
+        "risk_mitigation": {
+          "title": "Hoe het risico van een enkel punt te verminderen?",
+          "description": "We zorgen ervoor dat geen enkele persoon of organisatie het project volledig kan controleren door middel van multi-handtekeningen, vertraagde bevestiging, audits en open-source multi-laag beschermingsmechanismen. Alle belangrijke beslissingen gaan via een transparant en traceerbaar proces, wat geruststelling biedt aan de gemeenschap en investeerders."
+        }
+      },
+      "roadmap": {
+        "title": "Dual-Track Roadmap",
+        "status_notice": "⚠️ Huidige status: Planningsfase voor openbaarmaking. Tokens zijn nog niet gegenereerd (TGE in afwachting), en de definitieve regels zijn gebaseerd op de versie van het whitepaper die bij de TGE wordt uitgebracht.",
+        "tracks": {
+          "product": "📱 Product Volgen",
+          "token": "💎 Token Track"
+        },
+        "phases": [
+          {
+            "title": "Fase 1: Genesis",
+            "product": [
+              "**Telegram Bot Lancering**: Een lichte plugin om community Red Packets te starten",
+              "**Basis Taak Systeem**: Uitnodigings- en incheckfuncties",
+              "**Gebruikersaccumulatie**: Het opbouwen van een vroege seed gebruikersgroep"
+            ],
+            "token": [
+              "**Punten Proefdraai**: Gebruikersgedrag genereert off-chain punten",
+              "**Token Model Ontwerp**: Bevestiging van 90/10 distributie en halveringsmechanisme",
+              "**Litepaper Aankondiging**: Publiceren van het economisch modelontwerp voor de community"
+            ]
+          },
+          {
+            "title": "Fase 2: Ontsteking",
+            "product": [
+              "**Ecosysteem Integratie**: Verbinden met partnerwinkels en marketingscenario's",
+              "**API Open Bèta**: Toestaan dat derde-partij bots integreren met het Red Packet systeem",
+              "**Data Dashboard**: Gebruikers kunnen gedetailleerde gegevens over Red Packets en punten bekijken"
+            ],
+            "token": [
+              "**Derde-Partij Audit**: Contractcode doorstaat beveiligingsaudits",
+              "**TGE (Token Generatie)**: Mainnet implementatie, punten open voor inwisseling/mijnmechanismen",
+              "**Initiële Liquiditeit**: Opzetten van een basispool om fundamentele waarde te waarborgen"
+            ]
+          },
+          {
+            "title": "Fase 3: Uitbreiding",
+            "product": [
+              "**Onafhankelijke App**: Lancering van een standalone app met wallet en IM-functies",
+              "**Cross-Platform Ondersteuning**: Uitbreiden naar Discord of andere communityplatforms",
+              "**DAO Governance Tool**: Community stemfunctie gaat live"
+            ],
+            "token": [
+              "**Economische Cyclus Activering**: Terugkoop- en verbrandmechanismen functioneren automatisch",
+              "**Multi-Chain Implementatie**: Uitbreiden naar andere hoog-presterende openbare ketens",
+              "**Volledig Gedecentraliseerd**: Beheerrechten worden geleidelijk overgedragen aan de DAO"
+            ]
+          }
+        ]
+      },
+      "risks": {
+        "title": "Risico's en Vrijwaringen",
+        "description": [
+          "**Belangrijke mededeling**: Dit document vormt geen enkele vorm van beleggingsadvies. Investeren in cryptocurrency brengt een hoog risico met zich mee, waaronder maar niet beperkt tot prijsvolatiliteit, liquiditeitsrisico, technisch risico, regelgevingsrisico en meer.",
+          "",
+          "**Belangrijke risicwaarschuwingen**:",
+          "- **Risico van prijsvolatiliteit**: Tokenprijzen kunnen dramatisch fluctueren en zelfs tot zero dalen. Zorg ervoor dat u deelneemt binnen uw aanvaardbare verliesrange.",
+          "- **Liquiditeitsrisico**: Aanvankelijke liquiditeit kan onvoldoende zijn, wat mogelijk leidt tot hoge slippage of moeilijkheden bij het onmiddellijk uitvoeren van transacties.",
+          "- **Technisch Risico**: Hoewel slimme contracten worden gecontroleerd, kunnen er nog steeds onbekende technische kwetsbaarheden of risico's van hacker aanvallen zijn.",
+          "- **Reguleringsrisico**: Regelgevingsbeleid met betrekking tot cryptocurrencies in verschillende landen kan op elk moment veranderen, wat de werking van het project of de waarde van de tokens kan beïnvloeden.",
+          "",
+          "**Doe Je Eigen Onderzoek (DYOR)**: Investeerders moeten de relevante risico's volledig begrijpen en voorzichtig investeren op basis van hun eigen financiële situatie en risicotolerantie. Het projectteam is niet verantwoordelijk voor eventuele investeringsverliezen."
+        ],
+        "disclaimer": {
+          "title": "Belangrijke Mededeling",
+          "text": "Dit document vormt geen enkele vorm van beleggingsadvies. Investeringen in cryptocurrency brengen een hoog niveau van risico met zich mee, waaronder maar niet beperkt tot prijsvolatiliteit, liquiditeitsrisico, technisch risico, regelgevingsrisico en meer. Beleggers dienen de relevante risico's volledig te begrijpen en voorzichtig te investeren op basis van hun eigen risicotolerantie. Het projectteam is niet verantwoordelijk voor enige beleggingsverliezen."
+        },
+        "risks": {
+          "title": "Grote Risico's",
+          "items": [
+            "**Prijsvolatiliteitsrisico**: De prijzen van tokens kunnen aanzienlijk fluctueren en zelfs naar nul gaan.",
+            "**Liquiditeitsrisico**: De initiële liquiditeit kan onvoldoende zijn, wat de handelservaring beïnvloedt.",
+            "**Technisch Risico**: Slimme contracten kunnen onbekende kwetsbaarheden bevatten, hoewel we audits zullen uitvoeren.",
+            "**Reguleringsrisico**: Regelgevende beleidsmaatregelen in verschillende landen kunnen veranderen, wat invloed kan hebben op de projectoperaties.",
+            "**Marktrisico**: De algehele volatiliteit van de cryptocurrency-markt kan de tokenprijzen beïnvloeden."
+          ]
+        }
+      },
+      "faq": {
+        "title": "Veelgestelde Vragen",
+        "items": [
+          {
+            "question": "Hoe kan ik tokens verdienen?",
+            "answer": "Je kunt $moonini verkrijgen door Red Packets te verzenden, taken te voltooien, vrienden uit te nodigen en meer. Hoe meer Red Packets je verzendt en taken je voltooit, hoe meer tokens je zult verdienen. V vroege deelnemers zullen ook genieten van een hogere beloningsratio."
+          },
+          {
+            "question": "Wanneer kan ik opnemen?",
+            "answer": "Nadat het mainnet live gaat, kunnen gebruikers $moonini naar hun portefeuilles opnemen. Opnames vereisen een kleine Gas vergoeding (BSC netwerkvergoeding). Let op officiële aankondigingen voor de specifieke lanceertijd."
+          },
+          {
+            "question": "Is er een vergrendelingsperiode voor teamallocaties?",
+            "answer": "Ja. De teamallocatie (10%) wordt 3 maanden vergrendeld en daarna lineair vrijgegeven over een periode van 33-45 maanden. De allocaties voor operatie, technische team, public relations/marketing hebben een totale duur van 48 maanden, terwijl de allocatie voor vroege investeerders 36 maanden zal duren."
+          },
+          {
+            "question": "Waarom het halveringsmechanisme gebruiken?",
+            "answer": "De halveringsmechanisme is ontworpen om vroege deelnemers aan te moedigen terwijl de tokenverdelingsratio wordt gecontroleerd. Hoe eerder je deelneemt, hoe meer tokens je verdient, wat helpt om vroege gebruikers en investeerders aan te trekken en tegelijkertijd overmatige distributie te vermijden die later tot inflatie kan leiden."
+          },
+          {
+            "question": "Wat te doen als er een contract- of systeemprobleem is?",
+            "answer": "We zullen risico's verminderen door middel van externe beveiligingsaudits, multi-handtekening bevestigingen, vertraagde uitvoering en andere gelaagde beschermingsmechanismen. Als er een probleem optreedt, zullen we onmiddellijk een noodreactie starten, een afhandelingsplan bepalen via het governance mechanisme en de gemeenschap onmiddellijk op de hoogte brengen."
+          },
+          {
+            "question": "Wat is de totale voorraad van $moonini? Zal deze toenemen?",
+            "answer": "De totale voorraad van $moonini is 10.000.000.000 stuks (10B), met een vaste totaal die nooit zal toenemen. 90% zal geleidelijk worden vrijgegeven via gebruikersactiviteiten, en 10% gaat naar het team en vroege investeerders."
+          },
+          {
+            "question": "Hoe kan ik deelnemen aan governance?",
+            "answer": "Houders van $moonini kunnen deelnemen aan toekomstige stemmen over gemeenschapsgouvernance, waardoor ze de ontwikkelingsrichting van het project kunnen beïnvloeden. Specifieke governance-mechanismen en stemmethoden zullen geleidelijk worden uitgerold nadat het mainnet live gaat."
+          },
+          {
+            "question": "Kan $moonini worden verhandeld?",
+            "answer": "Nadat het mainnet live gaat en een liquiditeitspool is opgezet, kan $moonini worden verhandeld op gedecentraliseerde beurzen (zoals PancakeSwap). De handel zal worden beïnvloed door de vraag en aanbod in de markt, en prijzen kunnen fluctueren, dus investeer voorzichtig."
+          }
+        ]
+      }
+    },
+    "charts": {
+      "allocation": {
+        "title": "Tokendistributie",
+        "public": "Openbare Aanbieding",
+        "team": "Teamquotum",
+        "operations": "Operaties",
+        "tech": "Technisch Team",
+        "marketing": "Public Relations/Marketing",
+        "investors": "Vroege Investeerders"
+      },
+      "phase": {
+        "title": "6-fasen halveringsmechanisme",
+        "phase": "Fase",
+        "ratio": "Voor elke 1 USDT kun je ontvangen"
+      },
+      "vesting": {
+        "title": "Team Quota Release Tijdlijn",
+        "cliff": "Lock-up Periode",
+        "release": "Uitgiftetijdperk"
+      },
+      "governance": {
+        "title": "Bestuursproces",
+        "multisig": "Multisignature Wallet",
+        "proposal": "Voorstel",
+        "timelock": "Vertraagde Bevestiging",
+        "execute": "Uitvoeren",
+        "update": "Bijwerken"
+      },
+      "flow": {
+        "title": "Token Circulatieproces",
+        "userSend": "Gebruiker Stuurt Red Packet",
+        "fee": "Transactiekosten",
+        "operations": "Operationele Kosten",
+        "pol": "Terugkoopfonds",
+        "accumulate": "Accumulation",
+        "trigger": "Terugkoop Trigger",
+        "swap": "Uitwisseling",
+        "addLiquidity": "Voeg Liquiditeit Toe",
+        "pool": "Liquiditeitsfonds",
+        "smart_floor": "Slimme Vloerprijsbescherming"
+      }
+    }
+  },
+  "litepaper_api": {
+    "meta": {
+      "title": "moonpacket Authenticatie API",
+      "subtitle": "Standaardinterface voor het opvragen van beloningsregels en gebruikersstatus (v2.3)",
+      "description": "Geef eenvoudig een GET-endpoint op voor moonpacket om uw regels en gebruikersstatus op te vragen, waarmee u de Red Packet en taken systemen gemakkelijk kunt integreren."
+    },
+    "sidebar": {
+      "overview": "Integratieoverzicht",
+      "logic": "Interactielogica",
+      "spec": "API Specificatie",
+      "ts_def": "TypeScript Definitie",
+      "examples": "Communicatie Voorbeeld",
+      "security": "Beveiligingsauthenticatie"
+    },
+    "hero": {
+      "badge": "API Specificatie v2.3",
+      "title": "Authenticatie API",
+      "subtitle": "Attributenquery-interface (GET)",
+      "desc": "Via een gestandaardiseerde GET-query-interface haalt moonpacket actief 'beloningsregels' en 'gebruikersattributen' van jouw server op. Alle logische oordelen worden afgehandeld door moonpacket.",
+      "cta_docs": "Bekijk specificatie",
+      "cta_key": "Terug naar Litepaper"
+    },
+    "content": {
+      "overview": {
+        "title": "Toegang Configuratie",
+        "desc": [
+          "Wanneer u 'Aangepaste API' selecteert in de 'Instellingen voor Claimbepalingen' van moonpacket, geef dan uw Endpoint-URL op.",
+          "**Methode**: Gebruik alstublieft `GET`",
+          "**Inhoudstype**: `application/json`",
+          "**Authenticatie**: Authenticatie-informatie wordt volledig verzonden via de Header (`X-API-KEY` en `Signature`), en de URL zal geen gevoelige informatie bevatten."
+        ]
+      },
+      "logic": {
+        "title": "Interactie Logica",
+        "desc": "Het gehele proces is verdeeld in twee fasen: 'Instelling Fase' en 'Runtime Fase'. moonpacket zal verzoeken naar uw API sturen met behulp van de GET-methode:",
+        "modes": [
+          {
+            "title": "Fase 1: Definieer Regels (Configuratie)",
+            "trigger": "Triggerende gebeurtenis: wanneer de URL is ingevuld in de 'Instelling van Claimvoorwaarden' en ingediend",
+            "request": "GET",
+            "response": "Geeft het regeldefinitie-object met operatoren (gt, eq, lt...) terug"
+          },
+          {
+            "title": "Fase 2: Valideer Gebruiker (Runtime)",
+            "trigger": "Triggering event: wanneer de gebruiker probeert de Red Packet te claimen",
+            "request": "GET ?user_id=...",
+            "response": "Geeft de werkelijke attribuutwaarde van die specifieke gebruiker terug (heldere waarde of string)"
+          }
+        ],
+        "note": "Ondersteunde Operatoren: `eq` (gelijk aan, ondersteunt strings/getallen), `gt` (groter dan), `gte` (groter dan of gelijk aan), `lt` (kleiner dan), `lte` (kleiner dan of gelijk aan). Waarden voor niet-`eq` operatoren moeten getallen zijn.",
+        "steps": {
+          "step1_label": "Stap één",
+          "step2_label": "Stap Twee"
+        }
+      },
+      "diagram": {
+        "user": "Gebruiker",
+        "moonpacket": "moonpacket",
+        "dev_api": "Uw API",
+        "step1": "1. Tijdens de installatie: Ophaalregels (GET)",
+        "step2": "2. Tijdens Claim: Controleer Status (GET)",
+        "click": "Klik om op te eisen",
+        "check": "Logische Match (Lokaal)",
+        "grant": "Beloningen Verdelen",
+        "reject": "Kwalificatiebericht",
+        "client_app": "Klant / Server",
+        "json_data": "JSON-data",
+        "saved_rule": "Regels Opgeslagen:",
+        "user_state": "Gebruikersstatus:"
+      },
+      "spec": {
+        "title": "Interface Specificatie (Specificatie)",
+        "request": {
+          "title": "Verzoekparameters (Queryparameters)",
+          "headers": [],
+          "query": [
+            "**api_key** (vereist): De API-sleutel die je hebt ingesteld voor identificatie",
+            "**user_id** (optioneel): Retourneert gebruikersattributen wanneer aanwezig; retourneert regeldefinities wanneer afwezig"
+          ]
+        },
+        "ts_def": {
+          "title": "Gegevensstructuurdefinitie (TypeScript)",
+          "desc": "De volgende interface definieert de JSON-structuur die moet worden geretourneerd zodat AI-ondersteunde tools deze kunnen lezen:"
+        }
+      },
+      "scenarios": {
+        "title": "Toepassingsscenario's",
+        "items": [
+          {
+            "title": "GameFi Integratie",
+            "desc": "Definieer de regel `level >= 10`. Wanneer de gebruiker een claim indient, controleert moonpacket de attributen van de gebruiker; als `level: 12`, dan wordt het goedgekeurd."
+          },
+          {
+            "title": "Identiteitsbinding Beloning",
+            "desc": "Definieer de regel `kyc == true`. moonpacket controleert de gebruikersstatus, en als het `kyc: true` retourneert, worden de beloningen verdeeld."
+          },
+          {
+            "title": "Blacklist Filtering",
+            "desc": "Definieer regel `is_blacklist == false`. Als de API `is_blacklist: true` retourneert, wordt de claim afgewezen."
+          }
+        ]
+      },
+      "examples": {
+        "title": "Communicatie Voorbeeld (GET Verzoek)",
+        "mode_a": {
+          "title": "1. Definieer Regels (Instellen)",
+          "desc": "Bij het indienen van instellingen, retourneer JSON met daarin de operators."
+        },
+        "mode_b": {
+          "title": "2. Vraagstatus (Runtime)",
+          "desc": "Wanneer de gebruiker claimt, retourneer pure waarden of strings."
+        }
+      },
+      "signature": {
+        "title": "Beveiligingsvalidatie",
+        "desc": "Om de authenticiteit van verzoeken te waarborgen, zal moonpacket een handtekening in de Header opnemen. U kunt de code rechts raadplegen voor validatie:",
+        "required_headers": "Noodzakelijke headers",
+        "algo_title": "Ondertekeningsalgoritme",
+        "headers": {
+          "key": "X-API-KEY",
+          "ts": "X-API-TIMESTAMP",
+          "nonce": "X-API-NONCE",
+          "sig": "X-API-SIGNATURE"
+        },
+        "algo": "HMAC-SHA256",
+        "formula": "Handtekening = HMAC_SHA256(secret, body + timestamp + nonce)",
+        "steps": [
+          "1. Extraheer Tijdstempel, Nonce, Handtekening uit Headers",
+          "2. Controleer of de Tijdstempel binnen een redelijke tijdspanne valt (bijv. ±5 minuten)",
+          "3. Concateneer string: RequestBody + Timestamp + Nonce",
+          "4. Bereken HMAC-SHA256 met uw geheim",
+          "5. Vergelijk het berekende resultaat met de handtekening in de header"
+        ]
+      },
+      "reliability": {
+        "title": "Opmerking",
+        "items": [
+          "**Time-out**: Zorg ervoor dat de API resultaten kan teruggeven binnen **3 seconden**.",
+          "**Formaat**: Gelieve strikt de JSON-structuur te volgen, anders leidt dit tot een parsingfout."
+        ]
+      },
+      "error_codes": {
+        "title": "Statuscodes",
+        "items": [
+          {
+            "code": "200",
+            "status": "OK",
+            "desc": "Aanvraag succesvol"
+          },
+          {
+            "code": "400",
+            "status": "Bad Request",
+            "desc": "Fout in aanvraagparameter (bijvoorbeeld onjuist formaat)."
+          },
+          {
+            "code": "401",
+            "status": "Unauthorized",
+            "desc": "Autorisatieheader ontbreekt of sleutel is ongeldig."
+          },
+          {
+            "code": "403",
+            "status": "Forbidden",
+            "desc": "IP-beperking of ongeoorloofde toegang tot de bron."
+          },
+          {
+            "code": "404",
+            "status": "Not Found",
+            "desc": "Gebruikers-ID bestaat niet (voor het opvragen van gebruikersstatusscenario's)."
+          },
+          {
+            "code": "500",
+            "status": "Server Error",
+            "desc": "Interne serverfout."
+          }
+        ]
+      },
+      "disclaimer": {
+        "title": "Derdepartij API Vrijwaring",
+        "text": "De integratiemethoden voor derdenplatformen die in dit document worden genoemd, zijn alleen ter referentie. Ontwikkelaars dienen de nieuwste officiële documentatie voor ontwikkelaars van het platform te raadplegen en zich eraan te houden."
+      }
+    },
+    "labels": {
+      "request": "Inhoud aanvragen",
+      "response": "Resultaat teruggeven",
+      "code": "Statuscode",
+      "status": "Status",
+      "desc": "Beschrijving"
+    }
+  },
+  "whitepaper": {
+    "title": "$moonini Whitepaper",
+    "description": "Inzicht in de ontwerpfilosofie, het economische model en de technische architectuur van de $moonini token",
+    "seo": {
+      "title": "$moonini Whitepaper — moonpacket",
+      "description": "Complete $moonini Tokenomics, Technische Architectuur en Governance Mechanisme Beschrijving"
+    },
+    "hero": {
+      "subtitle": "$moonini is de communautaire incentiv token gebaseerd op het moonpacket platform. Hoe meer gebruikers zich bezighouden en interactie hebben op moonpacket, hoe meer $moonini ze kunnen verdienen. Voor investeerders wordt 90% verdeeld naar gebruikers en 10% naar het team, wat effectief het risico van marktcrashes reduceert in combinatie met het halveringsmechanisme en de lineaire vrijgave.",
+      "cards": {
+        "user": {
+          "title": "Voor Algemene Gebruikers",
+          "description": "Verdien eenvoudig $moonini door het verzenden van Red Packets, het voltooien van taken en het uitnodigen van vrienden. Hoe meer je gebruikt, hoe meer je verdient, volledig gratis."
+        },
+        "investor": {
+          "title": "Voor Investeerders",
+          "description": "Totaalbedrag 10B, 90/10 distributie, halvering in 6 fasen, lineaire vrijgave van teamallocatie, ontworpen voor lange termijn stabiliteit, vermindering van het risico op marktcrashes."
+        },
+        "developer": {
+          "title": "Voor Ontwikkelaars/Partners",
+          "description": "Gestandaardiseerde contracten, open API, kan worden geïntegreerd in andere applicaties of games. Raadpleeg de technische documentatie voor gedetailleerde technische specificaties."
+        }
+      }
+    },
+    "toc": {
+      "title": "Inhoudsopgave"
+    },
+    "sections": {
+      "overview": "1. Projectoverzicht",
+      "tokenomics": "2. Tokenomics",
+      "architecture": "Drie, Technische Architectuur",
+      "emission": "Vier, Vrijgave Mechanisme",
+      "governance": "Vijf, Governance en Veiligheid",
+      "incentives": "Zes, Gebruikersincentivesysteem",
+      "developer": "Zeven, Ontwikkelaarsgids",
+      "roadmap": "8. Routekaart",
+      "risks": "9. Risicowaarschuwing",
+      "faq": "Tien, Vragen om te Bevestigen"
+    },
+    "content": {
+      "overview": {
+        "what_is": [
+          "**$moonini** is de ecosysteemtoken van het moonpacket-platform, gebruikt om gebruikers te belonen voor actieve gedragingen op het platform, inclusief:",
+          "- Rood pakket verzenden",
+          "- Vrienden uitnodigen",
+          "- Taken voltooien",
+          "- Deelnemen aan communityactiviteiten",
+          "",
+          "**In Eenvoudige Termen**: Hoe meer je op moonpacket gebruikt, hoe meer $moonini je zult verdienen."
+        ],
+        "core_values": {
+          "title": "Kernwaarden",
+          "values": [
+            "- ✅ **Decentralisatie**: Gebaseerd op Binance Smart Chain (BSC), zijn alle transacties transparant en verifieerbaar, er is geen behoefte om derde partijen te vertrouwen.",
+            "- ✅ **Eerlijke Verdeling**: 90% van de tokens wordt verdeeld via gebruikersactiviteiten, 10% gereserveerd voor het team en investeerders, wat de prioriteit van de gemeenschap waarborgt.",
+            "- ✅ **Gecontroleerde Vrijgave**: Neemt een halveringsmechanisme in 6 fasen aan, waarbij vroege deelnemers worden aangemoedigd om meer te verdienen naarmate ze eerder deelnemen.",
+            "- ✅ **Veilig en Betrouwbaar**: Gebruikt gecontroleerde standaardcontractbibliotheken, alle belangrijke bewerkingen vereisen multi-handtekeningbevestigingen, planning voor beveiligingsaudits door derden."
+          ]
+        }
+      },
+      "tokenomics": {
+        "info": {
+          "title": "2.1 Basisinformatie van de Token",
+          "description": [
+            "| Item | Waarde | Beschrijving |",
+            "|------|------|------|",
+            "| **Token Naam** | moonini | Volledige Naam |",
+            "| **Token Symbool** | MOONINI | Handelsymbool |",
+            "| **Totale Aanvoer** | 10.000.000.000 tokens (10B) | Vaste totale aanvoer, nooit inflatoir |",
+            "| **Decimalen** | 18 | BSC Standaard |",
+            "| **Blockchain** | Binance Smart Chain (BSC) | BEP-20 Standaard |"
+          ]
+        },
+        "allocation": {
+          "title": "2.2 Allocatieplan",
+          "description": [
+            "**Totale Aanvoer: 10.000.000.000 tokens (10B)**",
+            "",
+            "**Allocatieprincipes**:",
+            "- **90% naar de Gemeenschap & Liquiditeit**:",
+            "- Inclusief het \"mijn gedeelte\" gegenereerd via Red Packets en taken, evenals het \"liquiditeitsgedeelte\" dat wordt gebruikt om initiële handelsparen op te zetten (het projectteam voert aanvankelijk 10.000 USDT in als de pool om waarde bij de lancering te waarborgen).",
+            "- Dit gedeelte wordt volledig teruggegeven aan de deelnemers van het ecosysteem, zonder reserveringen voor instellingen of particuliere plaatsingen.",
+            "",
+            "- **10% naar Team & Vroege Ondersteuners**:",
+            "- **4% Vroege Investeerders**: Beloningen voor vroege financiële ondersteuning.",
+            "- **2% Technisch Team**: Zorgt voor voortdurende ontwikkeling en onderhoud van het protocol.",
+            "- **2% Operation Team**: Verantwoordelijk voor communitybeheer en evenementplanning.",
+            "- **2% Marketing en Ecosysteem Stabiliteit**: Bevorder marktgroei en behoud ecosysteemstabiliteit tijdens extreme omstandigheden als een reservefonds.",
+            "",
+            "**Bestuursbelofte**:",
+            "We implementeren de strengste interne controle van de fondsen. Alle teamallocaties en operationele uitgaven zijn onderworpen aan **Multisig** en **Timelock**-restricties. Geen enkele persoon kan vrij toegang krijgen tot de fondsen, wat ervoor zorgt dat elke uitgave wordt gedaan via collectieve besluitvorming en openbaar transparant is."
+          ]
+        },
+        "phase": {
+          "title": "2.3 6-Fase Halveringsmechanisme",
+          "description": [
+            "Om vroege deelnemers aan te moedigen, past de tokenverdeling een 'progressieve halvering' mechanisme toe:",
+            "",
+            "| Fase | Uitgegeven Bedrag Bereik | Inwisselingsratio (per 1 USDT) | Beschrijving |",
+            "|------|------------|---------------------|------|",
+            "| **Fase 1** | 0 ~ 4.5B | **1.0 token** | Vroege deelnemers, 1:1 uitwisseling |",
+            "| **Fase 2** | 4.5B ~ 6.75B | **0.5 token** | Gehalveerd |",
+            "| **Fase 3** | 6.75B ~ 7.875B | **0.25 token** | Weer gehalveerd |",
+            "| **Fase 4** | 7.875B ~ 8.4375B | **0.125 token** | Voortgaande halvering |",
+            "| **Fase 5** | 8.4375B ~ 8.71875B | **0.0625 token** | Bijna aan het einde |",
+            "| **Fase 6** | 8.71875B ~ 9B | **0.03125 token** | Laatste fase |",
+            "",
+            "**Voorbeeld**:",
+            "- In Fase 1, als je een 100 USDT Red Packet verstuurt, ontvang je 100 $moonini",
+            "- In Fase 2, als je een 100 USDT Red Packet verstuurt, ontvang je slechts 50 $moonini",
+            "- Hoe eerder je deelneemt, hoe meer tokens je ontvangt!"
+          ],
+          "value_logic": [
+            "💡 Filosofie en Waardecyclus van de Red Packet",
+            "",
+            "**De geest van de Red Packet is 'Geven' en 'Verbinden'**:",
+            "Afkomstig uit de oosterse cultuur, staat de Red Packet niet alleen voor de overdracht van fondsen, maar ook voor de liefde van ouderen naar jongeren, gefeliciteerd, en delen onder vrienden. Bij moonpacket is elke keer dat je een Red Packet verstuurt een warme sociale interactie.",
+            "",
+            "**Van Sociale Gedragingen naar Economische Waarde**:",
+            "We geloven dat deze daden van goede wil moeten worden vastgelegd en gewaardeerd. $moonini is niet slechts een belonings-token; het is de waarde-drager van dit sociale netwerk, waarbij lange termijn economische effecten worden gegenereerd vanuit elke 'geefactie'.",
+            "",
+            "**Echte Waarde Ondersteuning**:",
+            "Om de stabiliteit van deze sociale waarde te waarborgen, specificeert het protocol: **50% van de transactiekosten zullen automatisch in de Liquiditeits Pool worden geïnjecteerd**.",
+            "",
+            "Dit betekent: hoe actiever de gemeenschap ➔ hoe meer interacties met Red Packet ➔ hoe meer fondsen in de liquiditeitspool worden geïnjecteerd ➔ hoe sterker de waardegrondslag van $moonini. Dit is een positieve cyclus gebaseerd op echte sociale behoeften en zakelijke inkomsten, in plaats van puur speculatief gokken."
+          ]
+        }
+      },
+      "architecture": {
+        "blockchain": {
+          "title": "3.1 Blockchain Selectie: Binance Smart Chain (BSC)",
+          "why": [
+            "**Waarom Kiezen Voor BSC?**",
+            "",
+            "| Voordeel | Beschrijving |",
+            "|------|------|",
+            "| ✅ **Lage Kosten** | Gemiddelde transactiekosten $0,1 - $0,5, veel lager dan Ethereum |",
+            "| ✅ **Snelle Bevestiging** | Gemiddelde bevestigingstijd van 3 seconden voor een soepele ervaring |",
+            "| ✅ **Volwassen Ecosysteem** | Rijke DeFi-tools met een grote gebruikersbasis |",
+            "| ✅ **EVM Compatibel** | Kan Ethereum ecosysteembronnen hergebruiken |",
+            "| ✅ **Portemonnee Adoptie** | Mainstream portemonnees zoals MetaMask, Trust Wallet ondersteunen |"
+          ]
+        },
+        "contracts": {
+          "title": "3.2 Slimme Contractarchitectuur",
+          "description": [
+            "We gebruiken door de industrie geverifieerde smart contractstandaarden om de veiligheid en betrouwbaarheid van de tokens te waarborgen.",
+            "",
+            "**Kernontwerpprincipes**:",
+            "- **Decentraal**: Alle tokenuitgifte en vrijgave mechanismen worden automatisch uitgevoerd via slimme contracten, zonder menselijke tussenkomst.",
+            "- **Transparant en Traceerbaar**: Alle operationele records worden opgeslagen op de blockchain, toegankelijk voor iedereen.",
+            "- **Veilig en Betrouwbaar**: Gebruikmakend van een door een derde partij geaudit standaard contractbibliotheek om codekwaliteit en -beveiliging te waarborgen.",
+            "",
+            "**Hoofdfuncties**:",
+            "- **Tokenuitgifte**: Tokenuitgifte en -overdracht in overeenstemming met BSC-standaarden.",
+            "- **Automatische Vrijgave**: Beheer de geleidelijke vrijgave (6 fasen van halvering) van 90% van de openbaar uitgegeven tokens.",
+            "- **Team Lock-up**: Beheer van 10% teamtoewijzing voor lock-up en lineaire vrijgave",
+            "- **Besturingsmechanisme**: Alle belangrijke operaties vereisen bevestiging met meerdere handtekeningen, met een dienovereenkomstige bedenkperiode van 48 uur om de gemeenschap de tijd te geven om te beoordelen",
+            "- **Automatische Terugkoop**: Platformkosten worden automatisch gebruikt om tokens terug te kopen, wat de liquiditeit verbetert",
+            "",
+            "**Beveiligingsmaatregelen**:",
+            "- Maakt gebruik van een door derden gecontroleerde standaard contractbibliotheek om codekwaliteit en beveiliging te waarborgen",
+            "- Alle belangrijke handelingen vereisen een multi-handtekeningbevestiging, met een bedenktijd van 48 uur om de gemeenschap de kans te geven om dit te beoordelen",
+            "- Geavanceerde authenticatietechnologie die wordt gebruikt tijdens gebruikersonttrekkingen om ervoor te zorgen dat alleen de gebruiker kan opereren",
+            "- Maakt gebruik van een replay-aanvalpreventiemechanisme om gebruikersfondsen te beschermen",
+            "- Plan om derde partij beveiligingsaudits uit te voeren (CertiK / PeckShield / SlowMist)",
+            "",
+            "*Voor gedetailleerde technische specificaties, contractinterfaces en functiedefinities, verwijzen wij u naar: [Document met technische specificaties](/nl-NL/docs/technical)*"
+          ]
+        }
+      },
+      "emission": {
+        "public": {
+          "title": "4.1 Publieke Aanbieding (90%)",
+          "initial_liquidity": [
+            "**Initiële Liquiditeit**:",
+            "- Vooruitbetaling van een deel van de tokens uit de 90% publieke aanbiedingstreasury om de initiële liquiditeitspool met USDT op te zetten",
+            "- Zorg ervoor dat tokens normaal verhandeld kunnen worden na het online komen, en bied liquiditeitsgarantie aan investeerders",
+            "- Specifieke bedragen worden aangekondigd voor de lancering van de mainnet"
+          ],
+          "launch_protection": [
+            "**Opening Anti-Snipe Mechanisme**:",
+            "- **Enkele Aankooplimiet**: 30 minuten voor opening kan een enkele portemonnee slechts 0,5% of 1% van het totale bedrag kopen.",
+            "- **Bescherm Kleine Retailbeleggers**: Voorkom dat grote houders alle liquiditeit verwijderen wanneer de markt opent",
+            "- **Tijdvenster**: Automatisch opgeheven na 30 minuten, zonder invloed op normale handel",
+            "- **Handhaaf prijsstabiliteit**: Vermijd scherpe prijsfluctuaties bij opening"
+          ],
+          "release_methods": [
+            "**Vrijgivemethode**: Geleidelijke vrijgave via gebruikersactiviteiten",
+            "",
+            "**Releasebronnen**:",
+            "1. **Stuur Red Packets**: Elke keer dat je 1 USDT Red Packet verstuurt, ontvang je de bijbehorende $moonini op basis van de huidige fase",
+            "2. **Vrienden Uitnodigen**: Nodig nieuwe gebruikers met succes uit en voltooi deelacties om $moonini te ontvangen",
+            "3. **Taken Voltooien**: Voltooi prestatie-taken, sociale taken, enz. om extra $moonini te verdienen.",
+            "4. **Winstdeling voor Groeigenaars**: Groeigenaars kunnen 3% winstdeelname (USDT) ontvangen voor het verzenden van Red Packets tussen groepen"
+          ],
+          "cost_vs_price": [
+            "💡 **Productiekosten versus Marktprijs**:",
+            "",
+            "In fase 1 is de impliciete kost van het verkrijgen van 1 $moonini via Red Packet mining ongeveer **0,02 USDT** (gebaseerd op 2% transactiekosten).",
+            "",
+            "Hoewel onze initiële vermeldingprijs **0,01 USDT** is.",
+            "",
+            "Dit betekent dat **de kosten voor aankoop op de secundaire markt 50% lager zijn dan de productiekosten**, wat vroege houders een natuurlijke veiligheidsmarge biedt."
+          ],
+          "withdraw_mechanism": [
+            "**Opname Mechanisme**:",
+            "- Nadat gebruikers $moonini op het platform hebben verdiend, kunnen ze het via een veilige identiteitsverificatiemechanisme naar hun portemonnee opnemen.",
+            "- Het systeem zal verifiëren op basis van gebruikersactiviteitsrecords om te zorgen dat alleen de gebruiker kan opereren.",
+            "- Eenmaal geverifieerd, kunnen gebruikers hun tokens naar hun wallet opnemen.",
+            "- **Minimale Opnamelimiet**: 10 $moonini",
+            "- **Transactiekosten**: Gebruikers hoeven alleen de netwerkkosten voor de transactie te betalen (in overeenstemming met blockchainpraktijken)",
+            "",
+            "*Voor gedetailleerde technische implementatie, verwijzen we naar: [Technisch Specificatiedocument](/nl-NL/docs/technical)*"
+          ],
+          "phase_switch": [
+            "**Fase Wisselen**:",
+            "- Automatisch overschakelen naar de volgende fase wanneer het uitstaande bedrag de drempel van de fase bereikt",
+            "- Het switchproces is transparant en traceerbaar, vastgelegd op de blockchain"
+          ]
+        },
+        "team": {
+          "title": "4.2 Team Quote (10%)",
+          "vesting_rules": [
+            "**Lockup en Vrijgave Regels**:",
+            "",
+            "| Categorie | Proportie | Lock-up periode (Cliff) | Lineaire vrijgaveperiode | Totale duur |",
+            "|------|------|---------------|-----------|--------|",
+            "| **Operaties** | 2% (200M) | 3 maanden | 45 maanden | 48 maanden |",
+            "| **Technisch Team** | 2% (200M) | 3 maanden | 45 maanden | 48 maanden |",
+            "| **Public Relations/Marketing** | 2% (200M) | 3 maanden | 45 maanden | 48 maanden |",
+            "| **Vroegere Investeerders** | 4% (400M) | 3 maanden | 33 maanden | 36 maanden |",
+            "",
+            "**Vrijgave Methode**:",
+            "- **Lineaire Accumulatie**: Tokens accumuleren lineair in de tijd en het beschikbare bedrag voor opname kan op elk moment worden gecontroleerd.",
+            "- **Reguliere Releases**: Automatische reguliere triggers voor vrijgave zonder de noodzaak voor handmatige bediening.",
+            "- **Notificatiemechanisme**: Automatische meldingen verzonden naar begunstigden nadat elke uitbetaling is voltooid.",
+            "",
+            "**Voorbeeld**:",
+            "- Investeerder A ontvangt 1.000.000 $moonini",
+            "- Eerste 3 maanden: Lock-up periode, geen opnames toegestaan",
+            "- Vanaf de 4e maand: Tokens accumuleren lineair in de tijd, met regelmatige opnames van het geaccumuleerde deel.",
+            "- Na 33 maanden: Alle releases voltooid."
+          ]
+        },
+        "kyc": {
+          "title": "4.3 Belegger KYC en Beheer",
+          "methods": [
+            "**KYC-methode** (voor een beperkt aantal initiële investeerders):",
+            "",
+            "1. **Oprichtende Team Real-Name KYC** (Aanbevolen, geschikt voor kleine schaal)",
+            "- Geschikt voor een kleiner aantal aanvankelijke investeerders (< 10 personen)",
+            "- Leden van het oprichters team (Operations + Technisch) voeren video-interviews met investeerders.",
+            "- Verifieer identiteitsdocumenten, bewijs van adres en andere materialen",
+            "- Bevestigen via PDF elektronische handtekening (DocuSign/SignNow)",
+            "- **Voordelen**: Lage kosten, flexibel proces, bouwt vertrouwen",
+            "",
+            "2. **Shufti Pro** (Geschikt voor de middelgrote schaal)",
+            "- Geschikt voor een gematigd aantal investeerders (10-50 personen)",
+            "- 10 gratis verificatieslots per maand (geschikt voor eerste gebruik)",
+            "- Geautomatiseerd proces, ondersteunt documentverificatie voor meerdere landen.",
+            "- **Voordelen**: Automatisering, hoge naleving, ondersteunt documentatie voor meerdere landen.",
+            "",
+            "3. **Andere Derde-Partij KYC** (Toekomstige Uitbreiding)",
+            "- Persona / Sumsub / Onfido als alternatieven",
+            "- Geschikt voor een groter aantal investeerders (> 50 mensen)"
+          ],
+          "flexibility": [
+            "**Investeerder Flexibele Ontwerp**:",
+            "",
+            "**Ondersteuning voor Meerdere Wallets en Verschillende Verhoudingen**:",
+            "- Een investeerder kan meerdere wallets hebben om tokens te ontvangen.",
+            "- Elke wallet kan verschillende allocatieratio's instellen (bijv. 60% / 40%).",
+            "- Verschillende investeerders kunnen verschillende instaptijden hebben.",
+            "",
+            "**Portemonnee Vervangingsmechanisme (Annulerings- en Heruitgiftestrategie)**:",
+            "- Investoren kunnen hun ontvangende portemonnee wijzigen (vereist een nieuwe KYC-verificatie).",
+            "- **Kernlogica**: In plaats van de oude portemonnee direct te wijzigen, intrek het oude uitgiftplan en maak een nieuw uitgiftplan voor de nieuwe portemonnee.",
+            "- **Proces**:",
+            "1. Investeerders melden het verlies/diefstal van hun oude portefeuilles en voltooien off-chain KYC-verificatie.",
+            "2. Via een multi-handtekening wallet voorstel, trek het oude uitgifteplan in en retourneer ongebruikte tokens.",
+            "3. Maak een nieuw releaseplan voor de nieuwe wallet, waarbij het bedrag het resterende deel is en de tijd de resterende duur.",
+            "4. Alle operaties hebben een bevestiging met een vertraging van 48 uur om transparantie en veiligheid te waarborgen.",
+            "- **Voordelen**: De contractlogica is eenvoudiger (alleen creëren en intrekken), wat het risico op hacking aanzienlijk vermindert.",
+            "- Beïnvloedt alleen het 'niet-uitgegeven' gedeelte; vrijgegeven tokens kunnen niet worden teruggedraaid."
+          ]
+        }
+      },
+      "governance": {
+        "mechanism": {
+          "title": "5.1 Governance Mechanisme",
+          "core_principle": [
+            "**Kernprincipe**: **Geen enkele hoogste autoriteit**, alle belangrijke werkzaamheden moeten een vertraagde publieke beoordeling ondergaan",
+            "",
+            "**Bestuursproces**:",
+            "1. **Voorstel**: Governancevoorstel vastgesteld na goedkeuring van de multi-handtekeningportefeuille",
+            "2. **Beoordelingsperiode**: Voer een vertraging van 48 uur in de wachtrij in, alle acties openbaar zichtbaar op de blockchain",
+            "3. **Uitvoering**: Voorstellen kunnen worden uitgevoerd nadat de vertraging is verstreken",
+            "4. **Annulering**: Tijdens de beoordelingsperiode kan de indiener het voorstel annuleren",
+            "",
+            "**Beheerbare Items**:",
+            "- Parameteraanpassingen (transactiekosten, terugkooplimieten, enz.)",
+            "- Treasury allocaties (volgende fase quota, evenementenbudgetten, enz.)",
+            "- Contractupgrade (moet audit doorstaan)"
+          ]
+        },
+        "security": {
+          "title": "5.2 Beveiligingsmaatregelen",
+          "description": [
+            "**Meerdere lagen bescherming**:",
+            "1. **Multi-handtekening Wallet**: Alle belangrijke bewerkingen vereisen minimaal 2 handtekeningen ter bevestiging",
+            "2. **Vertraagde Uitvoering**: Alle risicovolle operaties vereisen een vertraging van 48 uur",
+            "3. **Audit**: Via externe beveiligingsaudits",
+            "4. **Open Source**: De contractcode is open source en kan publiekelijk worden geverifieerd.",
+            "",
+            "**Toegangsbeheer**:",
+            "- **Token Uitgifte Autoriteit**: Herroepen of overgedragen aan de governance schatkist, kan niet naar willekeur tokens uitgeven.",
+            "- **Bevriezingsautoriteit**: Gesloten, kan gebruikerstokens niet bevriezen.",
+            "- **Autoriteit bijwerken**: Alleen het bestuursadres kan tokeninformatie wijzigen."
+          ]
+        },
+        "pol": {
+          "title": "5.3 Terugkoop en Marktmaking (POL - Onbeperkte Terugkoop + Vloerprijsverdediging)",
+          "mechanism": [
+            "**Mechanisme**:",
+            "- **1%** van de transactie kosten van het platform worden gebruikt om $moonini terug te kopen en de liquiditeitspool te verdiepen",
+            "- **Onbeperkte Terugkoop**: Geen dagelijkse limiet op terugkopen; zoveel transactiekosten als er zijn, blijven terugkopen liquiditeitssteun voor de token bieden.",
+            "- **Geautomatiseerde Strategie**: Het gebruik van slimme terugkoopsystemen om de voorspelbaarheid te verminderen en marktmanipulatie te voorkomen",
+            "- **Koop Bescherming**: Verhoogt automatisch de terugkoopinspanningen bij een significante marktneergang, ter bescherming van de belangen van investeerders"
+          ],
+          "floor_defense": [
+            "**Vloerprijsverdediging**:",
+            "- **Psychologische Prijsniveau**: 0,01 USDT",
+            "- **Automatische Verdediging**: Wanneer de prijs onder de verdedigingsdrempel daalt, wordt de verdedigingsmodus automatisch geactiveerd, waardoor de terugkoopinspanningen toenemen",
+            "- **Geautomatiseerde Marktcreatie**: Automatische marktcreatie op basis van slimme contracten, waarbij geen handmatige tussenkomst vereist is, wat zorgt voor markstabiliteit",
+            "- **Bespaar op Market Maker Kosten**: Gebruik het budget voor het uitgeven van Red Packets, marketing of het verhogen van de initiële liquiditeit"
+          ],
+          "philosophy": [
+            "**Ontwerpfilosofie**:",
+            "- Lage instapdrempels, hoge speltheoretische rendementen",
+            "- Projectfeest interfereert niet met de markt (biedt alleen terugkoop van transactiekosten aan)",
+            "- Pure SocialFi-model",
+            "- Ondersteunt automatisch het psychologische prijsniveau om het vertrouwen op de markt te behouden",
+            "",
+            "*Voor gedetailleerde technische parameters en implementatiestrategieën, gelieve te verwijzen naar: [Technisch specificatiedocument](/nl-NL/docs/technical)*"
+          ]
+        },
+        "kyc": {
+          "title": "4.3 Investeerder KYC en beheer",
+          "methods": [
+            "**KYC-methoden** (voor een klein aantal initiële investeerders):",
+            "",
+            "1. **Oprichtend Team Werkelijke Persoon KYC** (aanbevolen, geschikt voor kleinschalig)",
+            "- Geschikt voor minder initiële investeerders (< 10 personen)",
+            "- Video-interviews tussen de leden van het oprichters team (operaties + technologie) en investeerders",
+            "- Verificatie van identificatiedocumenten, adresbewijzen en andere documenten",
+            "- Bevestiging via PDF e-handtekening (DocuSign/SignNow)",
+            "- **Voordelen**: Lage kosten, flexibele processen, kan vertrouwensrelaties opbouwen",
+            "",
+            "2. **Shufti Pro** (geschikt voor middelgrote schaal)",
+            "- Geschikt voor een gematigd aantal investeerders (10-50 mensen).",
+            "- 10 gratis verificatiecredits per maand (geschikt voor initieel gebruik).",
+            "- Geautomatiseerde processen, die multi-land documentverificatie ondersteunen",
+            "- **Voordelen**: Automatisering, hoge naleving, ondersteuning voor documenten in meerdere landen",
+            "",
+            "3. **Overige Derde Partij KYC** (toekomstige uitbreiding)",
+            "- Persona / Sumsub / Onfido als alternatieven",
+            "- Geschikt voor een groter aantal investeerders (> 50 mensen)"
+          ],
+          "flexibility": [
+            "**Flexibel Ontwerp voor Beleggers**:",
+            "",
+            "**Ondersteuning voor Meerdere Wallets en Verschillende Verhoudingen**:",
+            "- Een investeerder kan meerdere portefeuilles hebben om tokens te ontvangen.",
+            "- Elke wallet kan worden ingesteld op verschillende toewijzingsverhoudingen (bijv., 60% / 40%).",
+            "- Verschillende investeerders kunnen verschillende instaptijden hebben.",
+            "",
+            "**Wallet Wijzigingsmechanisme (Intrekking en Heruitgiftestrategie)**:",
+            "- Investeerders kunnen de ontvangende portemonnee wijzigen (vereist opnieuw KYC-verificatie).",
+            "- **Kernlogica**: In plaats van de oude portemonnee direct te wijzigen, intrek het oude uitgaveplan en maak een nieuw uitgaveplan voor de nieuwe portemonnee.",
+            "- **Proces**:",
+            "1. Investeerder meldt verloren/gestolen oude portemonnee en voltooit off-chain KYC-verificatie.",
+            "2. Via een multi-handtekening portemonnee voorstel, trek het oude releaseplan in en retourneer de niet vrijgegeven tokens.",
+            "3. Maak een nieuw uitrolplan voor de nieuwe wallet, waarbij het bedrag het resterende deel en de tijd de resterende duur is.",
+            "4. Alle operaties ondergaan een bevestigingsvertraging van 48 uur om transparantie en veiligheid te waarborgen.",
+            "- **Voordelen**: De contractlogica is eenvoudiger (alleen creëren en intrekken), wat het risico op hacken aanzienlijk vermindert.",
+            "- Beïnvloedt alleen het \"niet-uitgebrachte\" gedeelte; reeds uitgebrachte tokens zijn niet terug te halen."
+          ]
+        }
+      },
+      "incentives": {
+        "how_to_earn": {
+          "title": "6.1 Hoe verkrijg je $moonini?",
+          "send_gift": [
+            "#### A. Rode Pakket Verzenden",
+            "",
+            "- **Basisregels**: Voor elke verzonden **equivalent van 1 USDT** red packet (ondersteunt meerdere tokens), zal het systeem $moonini berekenen en distribueren op basis van de huidige fase wisselkoers.",
+            "- **Zegen Overbrengen**: Red packets zijn niet alleen geld; ze zijn een overbrenging van zegeningen. Elk gebaar van geven wordt geregistreerd op de blockchain en beloond."
+          ],
+          "invite": [
+            "#### B. Nodig Vrienden uit (Deel Rode Pakketten)",
+            "",
+            "- **Regels**: Nodig nieuwe vrienden uit en voltooi deelopdrachten, beide partijen ontvangen beloningen.",
+            "- **Anti-Spam Mechanisme**: Om eerlijkheid te waarborgen, **heeft elk account een uitnodigingsbeloningslimiet**, die dynamisch zal worden aangepast op basis van de nieuwste aankondiging van het community game ontwerp.",
+            "- **Risicobeheer**: We hebben strikte risicobeheersmechanismen; elk abnormaal spamgedrag wordt als ongeldig beschouwd."
+          ],
+          "quests": [
+            "#### C. Taken Voltooien",
+            "",
+            "**Taaktypes**:",
+            "- Bevat eenmalige prestatietaken (zoals het verzenden van de eerste red packet) en sociale taken (zoals het volgen van de officiële community).",
+            "- Deze taken zijn ontworpen om nieuwkomers vertrouwd te maken met de functies van het platform, **ieder account kan deze slechts eenmaal voltooien of heeft een totaalhoeveelheidslimiet**.",
+            "",
+            "**Ontwerpdoel**:",
+            "- Om te voorkomen dat scripts automatisch munten spammen, zodat er beloningen blijven voor oprecht actieve gebruikers."
+          ]
+        },
+        "fee_structure": {
+          "title": "6.2 Tariefstructuur",
+          "description": [
+            "**Transactiekosten bij het Verzenden van Red Packets**:",
+            "",
+            "| Scenario | Totaal Kosten | Beschrijving |",
+            "|------|---------|------|",
+            "| **Verzenden in Eigen Groep** | 2% | 1% Operaties + 1% Terugkoop |",
+            "| **Cross-Group Verzending** | 5% | 1% Operaties + 1% Terugkoop + 3% Winstdeling Groepseigenaar |",
+            "",
+            "**Gebruik van kosten**:",
+            "- **1% Operaties**: Gebruikt voor server-, ontwikkelings- en marketingkosten.",
+            "- **1% Terugkoop**: Gebruikt om $moonini terug te kopen en de LP te verdiepen (te realiseren in de toekomst).",
+            "- **3% Winstdeling Groeps eigenaar**: Betaald aan de groeps eigenaar (alleen in rekening gebracht voor cross-group verzending)."
+          ]
+        }
+      },
+      "developer": {
+        "contracts": {
+          "title": "7.1 Contractadres (In afwachting van implementatie)",
+          "description": [
+            "Zodra de token officieel wordt gelanceerd, worden hier alle smart contract adressen aangekondigd, samen met de bijbehorende technische specificatielinks.",
+            "",
+            "**Hoofdcontractmodules**:",
+            "- Token Contract",
+            "- Bestuur en Vertraging Controle",
+            "- Publieke Aanbieding Schatkist",
+            "- Team Allocatie Schatkist",
+            "- Terugkoopbeheer",
+            "- Liquiditeitspool",
+            "- Multi-Handtekening Wallet",
+            "",
+            "*Voor gedetailleerde contractadressen en technische specificaties, verwijzen wij naar het: [Technisch Specificatiedocument](/nl-NL/docs/technical)*"
+          ]
+        },
+        "api": {
+          "title": "7.2 Integratiemodi en API (In Planning)",
+          "intro": [
+            "moonpacket is van plan een compleet API-ecosysteem te bieden, waarmee externe ontwikkelaars en partners eenvoudig het $moonini beloningsmechanisme in hun producten kunnen integreren. Of het nu gaat om een Telegram-bot, een Web3-spel of een marketingcampagneplatform, onze API stelt gebruikers in staat om $moonini-beloningen te ontvangen, waarmee de ecologische invloed wordt vergroot."
+          ],
+          "types": [
+            "**API Types**:",
+            "",
+            "We zijn van plan om de volgende types API's te bieden om aan verschillende integratiebehoeften te voldoen:",
+            "",
+            "- **Data Reading API**: Vraag Red Packet-distributiegegevens op, taakvoltooiingsstatus, gebruikers $moonini-saldo en meer, zodat partners de gebruikersactiviteitsstatus kunnen begrijpen.",
+            "",
+            "- **Distributie en Taak API**: stelt partners in staat om Red Packet distributies of taakbeloningen in hun eigen producten te activeren, bijvoorbeeld automatisch $moonini beloningen te distribueren wanneer gebruikers specifieke mijlpalen in een spel bereiken.",
+            "",
+            "- **Webhook Evenementen**: Het systeem meldt proactief partners belangrijke evenementen, zoals wanneer gebruikers taken voltooien, Red Packets claimen of opnames afronden, waardoor realtime reacties en gegevenssynchronisatie mogelijk worden."
+          ],
+          "security": [
+            "**Beveiliging en Toegangen**:",
+            "",
+            "Om de veiligheid en stabiliteit van de API te waarborgen, implementeren we de volgende mechanismen:",
+            "",
+            "- **API-sleutelauthenticatie**: Elke partner ontvangt een speciale API-sleutel of applicatie-ID voor identificatie en autorisatie.",
+            "",
+            "- **Rate Limiting**: Alle API-verzoeken zijn beperkt in aantal om misbruik en overbelasting te voorkomen, wat zorgt voor stabiliteit van de service.",
+            "",
+            "- **Handtekeningverificatie**: Kritieke operaties (bijv. het uitgeven van beloningen) vereisen verificatie van de verzoekhandtekening om vervalsing en ongeoorloofde acties te voorkomen.",
+            "",
+            "- **Toegangslevels**: Verschillende partners hebben verschillende API-toegangslevels op basis van hun samenwerkingsrelatie en behoeften, waarbij het principe van de minimale rechten wordt gewaarborgd."
+          ],
+          "release": [
+            "**Release Rhythm**:",
+            "",
+            "De API zal een progressieve openstrategie aannemen om stabiliteit en veiligheid te waarborgen:",
+            "",
+            "- **Gesloten Bèta**: Aanvankelijk aangeboden aan partners en vroege game-ontwikkelaars in een gesloten bèta-formaat om feedback te verzamelen en ervaringen te optimaliseren.",
+            "",
+            "- **Geleidelijke Opening**: Na het verifiëren van de stabiliteit tijdens de Bèta-fase, zullen aanvraagformulieren geleidelijk worden geopend om meer ontwikkelaars in staat te stellen het $moonini-ecosysteem te integreren.",
+            "",
+            "- **Formele Release**: Zodra de API productie-niveau stabiliteit bereikt, zal deze officieel openstaan voor het publiek, met volledige documentatie en ondersteuning."
+          ],
+          "scenarios": {
+            "title": "Typische Integratiescenario's",
+            "items": [
+              "**Telegram Bot / Mini App**: Stuur Red Packets in je groepen of applicaties om gebruikers toe te staan $moonini beloningen te ontvangen, wat de gebruikersbetrokkenheid vergroot.",
+              "",
+              "**Web3 Games**: Meld de status van taakvoltooiing in games aan moonpacket, zodat spelers automatisch extra $moonini-beloningen ontvangen bij het voltooien van game-taken.",
+              "",
+              "**Marketingcampagneplatforms**: Automatisch $moonini-beloningen verzenden op basis van gebruikersgedrag op sociale media (bijvoorbeeld delen, retweeten, volgen, enz.), wat zorgt voor nauwkeurige marketing.",
+              "",
+              "**DeFi Protocols**: Integreer $moonini als een extra beloningslaag, waarmee gebruikers $moonini-beloningen kunnen verdienen bovenop de originele winsten voor het voltooien van specifieke DeFi-acties.",
+              "",
+              "**Content Creatie Platforms**: Automatisch $moonini beloningen uitgeven wanneer makers specifieke taken voltooien of mijlpalen bereiken, wat kwaliteit van contentcreatie aanmoedigt."
+            ]
+          }
+        },
+        "tools": {
+          "title": "7.3 Ontwikkelaarstools en Documentatie",
+          "description": [
+            "Om ontwikkelaars te helpen de Moonpacket API eenvoudiger te integreren, zijn we van plan om complete ontwikkelaarstools en documentatie te bieden:",
+            "",
+            "- **Ontwikkelaarsportaal**: Biedt een uniforme toegangspunt voor ontwikkelaars, inclusief API-sleutelbeheer, gebruiksstatistieken, foutlogs en meer, waardoor ontwikkelaars hun integraties eenvoudig kunnen beheren.",
+            "",
+            "- **API-documentatie**: Biedt volledige REST API- en Webhook-documentatie, inclusief verzoekvoorbeelden, antwoordformaten, uitleg van foutcodes, enz., zodat ontwikkelaars snel aan de slag kunnen.",
+            "",
+            "- **SDK en Codevoorbeelden**: Biedt SDK's in meerdere talen (zoals JavaScript, Python) en codevoorbeelden om de integratiebarrières te verlagen, zodat ontwikkelaars snel kunnen implementeren.",
+            "",
+            "Momenteel worden technische documenten gepresenteerd vanaf de technische pagina van het documentencentrum (docs), inclusief specificaties van slimme contracten, distributiemechanismen, taaksystemen en andere technische details. Volledige API-documentatie zal worden georganiseerd op de 《[Developer API Documentation](/nl-NL/docs/api/)》 pagina, en officiële API-documentatie en ontwikkeltools zullen geleidelijk worden vrijgegeven rond de lancering van het mainnet, dus houd het in de gaten."
+          ]
+        }
+      },
+      "roadmap": {
+        "labels": {
+          "current": "In Behandeling",
+          "done": "Voltooid"
+        },
+        "phase1": {
+          "title": "Fase 1: Infrastructuur (Voltooid ✅)",
+          "items": [
+            "- [x] Ontwerp tokencontract",
+            "- [x] Technisch specificatiedocument",
+            "- [x] Gegevensstructuurontwerp"
+          ]
+        },
+        "phase2": {
+          "title": "Fase 2: Contractontwikkeling (In uitvoering 🚧)",
+          "items": [
+            "- [ ] Token contract implementatie (Testnet)",
+            "- [ ] Fasebeheercontract",
+            "- [ ] Vestigingscontract",
+            "- [ ] Integratie van timelock",
+            "- [ ] Controle door derde partijen"
+          ]
+        },
+        "phase3": {
+          "title": "Fase 3: Voorbereiding op de lancering (Gepland 📅)",
+          "items": [
+            "- [ ] Mainnet-implementatie",
+            "- [ ] Creatie van de initiële liquiditeitspool",
+            "- [ ] Lancering van het gebruikersincentivesysteem",
+            "- [ ] Lancering van het dashboard"
+          ]
+        },
+        "phase4": {
+          "title": "Fase 4: Uitbreiding van het ecosysteem (Toekomst 🔮)",
+          "items": [
+            "- [ ] Activering van het POL-inkoopmechanisme",
+            "- [ ] Ondersteuning van cross-chain (Polygon / Arbitrum)",
+            "- [ ] Meer DeFi-integraties"
+          ]
+        }
+      },
+      "risks": {
+        "technical": {
+          "title": "9.1 Technisch Risico",
+          "description": [
+            "| Risico | Beschrijving | Mitigatie Maatregelen |",
+            "|------|------|---------|",
+            "| Slimme Contract Kwetsbaarheden | Het contract kan onbekende kwetsbaarheden bevatten | Via externe audits, Bug Bounty |",
+            "| Ongerechtigde toegang tot privésleutels | Beheerders kunnen privésleutels stelen | Gebruik hardwareportefeuilles, MPC, multisignature |",
+            "| Netwerkcongestie | Piektijden op BSC kunnen vertragingen veroorzaken | Multi-node redundantie, Gasoptimalisatie |"
+          ]
+        },
+        "market": {
+          "title": "9.2 Markt Risico",
+          "description": [
+            "- **Prijsvolatiliteit**: Tokenprijzen kunnen aanzienlijk fluctueren.",
+            "- **Liquiditeitsrisico**: Initiële liquiditeit kan onvoldoende zijn",
+            "- **Reguleringsrisico**: Regelgevende beleidsmaatregelen in verschillende landen kunnen veranderen"
+          ]
+        },
+        "notice": {
+          "title": "9.3 Gebruikersmelding",
+          "description": [
+            "- ⚠️ **Investeringsrisico**: Tokenprijzen kunnen tot nul dalen, investeer alstublieft voorzichtig",
+            "- ⚠️ **Geen Beleggingsadvies**: Dit white paper vormt geen beleggingsadvies",
+            "- ⚠️ **Doe Uw Eigen Onderzoek**: Gelieve zelf onderzoek te doen en risico's te beoordelen."
+          ]
+        }
+      },
+      "faq": {
+        "title": "Tien, Problemen om te Bevestigen",
+        "description": [
+          "Dit whitepaper beschrijft de kernontwerpprincipes en het economische model van $moonini. De volgende zaken zijn nog in coördinatie met adviseurs en partners en zullen worden afgerond vóór de lancering van het mainnet:",
+          "",
+          "- **Tokenuitgifte Timing en Notering Beurzen**: De specifieke uitgifte tijd en of het genoteerd zal worden op gecentraliseerde beurzen (CEX) zijn nog in overleg met adviseurs en partners.",
+          "",
+          "- **Technische Details**: Sommige technische implementatiedetails (zoals ondersteuning voor cross-chain en aanpassingen aan de parameters van de terugkoopstrategie) zullen worden afgerond vóór de lancering van het mainnet en bijgewerkt in het technische document.",
+          "",
+          "- **Naleving en Belasting**: Nalevingsvereisten en belastingbehandeling worden continu bijgewerkt op basis van professionele meningen uit Taiwan en de lokale omgeving om te voldoen aan de lokale regelgeving.",
+          "",
+          "- **Updates van het White Paper**: Dit white paper kan kleine aanpassingen bevatten, maar de kernprincipes (90/10 allocatie, 6-fasen halveringsmechanisme, lock-up en lineaire vrijgave) blijven onveranderd.",
+          "",
+          "Alle technische details, implementatiestappen en functie-interfaces zijn te vinden in het [Technisch Specificatiedocument](/nl-NL/docs/technical)."
+        ]
+      }
+    },
+    "charts": {
+      "phase": {
+        "title": "6-fase halveringsmechanisme",
+        "description": "Hoe eerder je deelneemt, hoe meer tokens je zult ontvangen",
+        "xAxis": "Circulatie",
+        "yAxis": "Verhouding voor inwisseling (per 1 USDT)",
+        "phase": "Fase",
+        "ratio": "Verhouding",
+        "range": "Interval",
+        "units": {
+          "ratio": "Stukken",
+          "usdt": "USDT"
+        }
+      },
+      "vesting": {
+        "title": "Release Tijdlijn",
+        "description": "Teamallocatie wordt 3 maanden vergrendeld en daarna lineair per categorie vrijgegeven",
+        "cliff": "Lock-up Periode",
+        "linear": "Lineaire Vrijgaveperiode",
+        "total": "Totale Duur",
+        "months": "Maanden",
+        "operations": "Operaties",
+        "tech": "Technisch Team",
+        "marketing": "Public Relations/Marketing",
+        "investors": "Vroege investeerders"
+      },
+      "flow": {
+        "title": "Token Circulatie Stroom",
+        "userSend": "Gebruiker Stuurt Red Packet",
+        "fee": "Transactiekosten",
+        "operations": "Operationele kosten",
+        "pol": "Terugkoopfonds",
+        "accumulate": "Accumulation",
+        "trigger": "Aankooptrigger",
+        "swap": "Token Wisselen",
+        "addLiquidity": "Voeg liquiditeit toe",
+        "pool": "Liquiditeitspool"
+      },
+      "governance": {
+        "title": "Bestuursproces",
+        "multisig": "Multi-handtekening Portemonnee",
+        "proposal": "Voorstel",
+        "timelock": "Vertraging in uitvoering",
+        "execute": "Uitvoeren",
+        "update": "Bijwerken"
+      },
+      "architecture": {
+        "title": "Slimme Contractarchitectuur",
+        "token": "Tokencontract",
+        "vault": "Kluis",
+        "manager": "Manager",
+        "protection": "Beschermingsmechanisme"
+      },
+      "progress": {
+        "title": "Fase Vooruitgang",
+        "current": "Huidige Fase",
+        "issued": "Uitgegeven",
+        "remaining": "Overblijvend"
+      }
+    }
+  },
+  "api": {
+    "actions": {
+      "items": {
+        "0": "Lees de [whitepaper](/nl-NL/docs/whitepaper/) om meer te leren over de $moonini-token en het economische model.",
+        "1": "Lees het [Technisch Specificatiedocument](/nl-NL/docs/technical/) om meer te begrijpen over slimme contracten en het vrijgavemechanisme.",
+        "2": "Dien uw API-samenwerkingsverzoek in via officiële kanalen (Telegram, E-mail), en wij zullen prioriteit geven aan het informeren van u wanneer de API klaar is."
+      },
+      "title": "Wat kun je nu doen?"
+    },
+    "content": {
+      "0": "Deze pagina zal binnenkort uitgebreide documentatie bieden voor de moonpacket / $moonini API, inclusief technische details over REST API, Webhook-gebeurtenissen, OAuth-authenticatie, API-sleutelbeheer en meer.",
+      "2": "De API bevindt zich momenteel in de ontwerp- en interne validatiefase en zal eerst beschikbaar worden gesteld in een gesloten bèta voor een select aantal partners om te testen, feedback te verzamelen en de ervaring te optimaliseren.",
+      "4": "Alle technische details moeten verwijzen naar het 'Document met technische specificaties' en het whitepaper voordat de officiële API-documentatie wordt gepubliceerd."
+    },
+    "description": "Leer hoe je moonpacket en $moonini in je producten kunt integreren via de API.",
+    "seo": {
+      "description": "Volledige API-documentatie, REST API, Webhook en integratiehandleiding",
+      "title": "Moonpacket / $moonini API-documentatie — moonpacket"
+    },
+    "status": {
+      "planned": "(In planning)"
+    },
+    "subtitle": "Volledige API-documentatie en integratiehandleiding (in planning)",
+    "title": "Moonpacket / $moonini API-documentatie"
+  },
+  "countdown": {
+    "days": "Lucht",
+    "hours": "Uur",
+    "minutes": "minuten",
+    "seconds": "tweede",
+    "title": "Afstand tot de officiële release van $moonini"
+  },
+  "disclaimer": {
+    "badge": "Belangrijke Mededeling",
+    "text": "Dit item is nog in ontwikkeling en volgt de tijdlijn die is uiteengezet op de roadmap op de homepage. De whitepaper kan nog onderhevig zijn aan wijzigingen vóór de officiële tokenverdeling, en we vragen om de begrip van gebruikers. Na de tokenverdeling zullen in het algemeen geen wijzigingen meer worden aangebracht."
+  },
+  "distribution": {
+    "back_to_whitepaper": "Terug naar Whitepaper",
+    "description": "Begrijp de interne distributie regels en boekhoudmethoden van $moonini",
+    "intro": {
+      "0": "**Dit document is bedoeld voor ingenieurs en backend-ontwikkelaars**, en definieert de specifieke regels voor 'hoe uit te geven, hoe gebruikers kunnen inwisselen en bekijken' binnen het moonpacket product.",
+      "2": "**Ontwerp Principes**:",
+      "3": "- **Minimale Wijzigingen**: Geef prioriteit aan het gebruik van de bestaande datastructuur, zonder meteen complexe DB-tabellen toe te voegen.",
+      "4": "- **Uitbreidbaar**: In de toekomst, als $moonini volledig on-chain wil zijn, hoeven we alleen maar de logica voor opname/koppeling toe te voegen.",
+      "5": "- **Transparant en Traceerbaar**: Alle $moonini-distributies en consumptie worden vastgelegd in `user_activity_logs`",
+      "7": "**Hoofdinhoud**:",
+      "8": "- Gegevensmodel en boekhoudmethode (intern grootboek)",
+      "9": "- $moonini distributiebron en regels",
+      "10": "- Boekhoudimplementatiedetails",
+      "12": "*Dit document bevat technische details, algemene gebruikers kunnen verwijzen naar de [whitepaper](/nl-NL/docs/whitepaper/) voor een overzicht van het project.*",
+      "14": "Voor gedetailleerde documentatie verwijzen we naar: `docs/technical/moonini-distribution.md`"
+    },
+    "seo": {
+      "description": "Voltooi de instructies voor de $moonini distributie regels en boekhoudsysteem",
+      "title": "$moonini distributiemechanisme — moonpacket"
+    },
+    "title": "$moonini Verdeler en Verzameling Ontwerp"
+  },
+  "index": {
+    "description": "Voltooi projectdocumentatie, whitepaper en technische specificaties",
+    "sections": {
+      "general": "Algemene Documenten",
+      "technical": "Technische Documentatie"
+    },
+    "title": "moonpacket Document Center"
+  },
+  "missions": {
+    "back_to_whitepaper": "Terug naar White Paper",
+    "description": "Leer hoe je $moonini kunt verdienen door middel van taken en prestaties.",
+    "intro": {
+      "0": "**Dit document is gericht op ingenieurs en productontwikkelaars**, en definieert het missiesysteem en het prestatiemechanisme van $moonini, met een gevoel van voldoening en sociale taken bovenop de twee kernacties van \"Red Packet + Nodig vrienden uit.\"",
+      "2": "**Ontwerpprincipes**:",
+      "3": "- Alle taken \"aanvullende $moonini\" draaien in wezen om: **het verzenden van Red Packets, vrienden uitnodigen, officiële gemeenschappen volgen**",
+      "4": "- De 'Eenmalige Taak' verdwijnt permanent na voltooiing.",
+      "5": "- Het taak systeem biedt alleen \"bonuspunten\" en verandert de basisregels voor distributie niet.",
+      "7": "**Taakcategorie**:",
+      "8": "- **Prestatie Taken** (eenmalig): Mijlpalen voor het verzenden van Red Packets, mijlpalen voor het uitnodigen van vrienden, enz.",
+      "9": "- **Sociale taken** (eenmalig): Volg officiële sociale media, sluit je aan bij officiële gemeenschappen, enz.",
+      "10": "- **Dagelijkse/Wekelijkse Taken** (Gereserveerd): Toekomstige schaalbare periodieke taken",
+      "12": "*Dit document bevat technische details; algemene gebruikers kunnen de [whitepaper](/nl-NL/docs/whitepaper/) raadplegen voor een overzicht van het project.*",
+      "14": "Voor gedetailleerde documentatie, raadpleeg alstublieft: `docs/technical/moonini-missions.md`"
+    },
+    "seo": {
+      "description": "Voltooi de beschrijving van het missiesysteem en het prestatiemechanisme",
+      "title": "$moonini Taak Systeem — moonpacket"
+    },
+    "title": "$moonini taken en prestatieontwerp"
+  },
+  "nav": {
+    "api": "API Documentatie",
+    "distribution": "Distributiemechanisme",
+    "docs": "Document",
+    "missions": "TaakSysteem",
+    "technical": "Technische Specificaties",
+    "whitepaper": "Witte Paper"
+  },
+  "technical": {
+    "back_to_whitepaper": "Terug naar White Paper",
+    "description": "Ingenieurs ontwikkelen specificaties, waaronder interfaces voor slimme contracten, fase-logica en POL-mechanismen.",
+    "intro": {
+      "0": "**Dit document is bedoeld voor ingenieurs, ontwikkelaars van slimme contracten en auditeurs**, en bevat volledige technische implementatiedetails.",
+      "2": "**Doelketen**: Binance Smart Chain (BSC)",
+      "3": "**Versie**: v1.0 (2024-11)",
+      "5": "**Hoofd Inhoud**：",
+      "6": "- Architectuur van slimme contracten en definitie van interfaces",
+      "7": "- Fasebeheerlogica (6-fase halveringsmechanisme)",
+      "8": "- POL (Herinvestering en Marktcreatie) mechanisme implementatie",
+      "9": "- Vesting Vrijgave Mechanisme",
+      "10": "- Governance en Beveiligingsontwerp",
+      "11": "- Codevoorbeelden en technische grafieken",
+      "13": "*Dit document bevat technische details. Algemene gebruikers kunnen de [white paper](/nl-NL/docs/whitepaper/) raadplegen voor een overzicht van het project.*",
+      "15": "Voor gedetailleerde technische documentatie, raadpleeg: `docs/technical/moonini-bsc-technical-spec.md`"
+    },
+    "seo": {
+      "description": "Voltooi BSC smart contract technische specificaties en ontwikkelgids",
+      "title": "$moonini Technische Specificaties — moonpacket"
+    },
+    "title": "$moonini BSC Technische Specificaties"
+  },
+  "title": "Document",
+  "toc": {
+    "back_to_index": "Terug naar Documenten Centrum",
+    "title": "Catalogus"
+  }
+}

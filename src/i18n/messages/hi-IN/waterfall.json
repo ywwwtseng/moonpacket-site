@@ -1,0 +1,27 @@
+{
+  "sent_from": "समूह को भेजें:",
+  "claimed": "दावा करें",
+  "total": "कुल राशि",
+  "progress": "क्लेम किया गया",
+  "groups_directory": {
+    "latest_tab": "नवीनतम Red Packet समूह",
+    "hot_tab": "लोकप्रिय Red Packet समूह",
+    "search_placeholder": "जुड़े हुए समूहों में कीवर्ड खोजें"
+  },
+  "marquee": {
+    "templates": {
+      "send": "💰 {user} ने '{group}' में {amount} {ccy} का Red Packet जारी किया!",
+      "claim": "🎯 {user} ने {amount} {ccy} प्राप्त किया, सबसे भाग्यशाली खिलाड़ी!",
+      "topup": "🔥 समूह के मालिक {user} ने {amount} {ccy} जमा किए",
+      "system": "📢 {message}",
+      "achievement": "🥇 आज का सबसे भाग्यशाली खिलाड़ी: @{user} (जमा किया {amount} {ccy})"
+    },
+    "fallback": [
+      "💰 जॉन ने 'गेम गिल्ड ए' में 100 USDT का लाल पैकेट जारी किया!",
+      "🎯 लिसा ने 3.5 USDT हासिल किया, सभी में से सबसे भाग्यशाली!",
+      "🔥 समूह के मालिक केन ने 2000 USDT जमा किए",
+      "📢 सिस्टम अपग्रेड पूरा हुआ, SOL समर्थन जोड़ा गया!",
+      "🥇 आज के सबसे भाग्यशाली: @Mina (28.3 USDT जमा)"
+    ]
+  }
+}

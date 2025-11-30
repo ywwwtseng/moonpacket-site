@@ -1,0 +1,584 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import { getLocalesForBuild, defaultLocale } from '@/i18n/locales.config';
+import { LOCALE_ORDER } from '@/config/locales';
+import { isRTL } from '@/i18n/rtl';
+import { roadmapConfig } from '@/config/roadmap';
+
+// Components
+import AllocationPieChart from '@/islands/charts/AllocationPieChart';
+import PhaseReductionChart from '@/islands/charts/PhaseReductionChart';
+import VestingChart from '@/islands/charts/VestingChart';
+import TokenFlow from '@/components/litepaper/TokenFlow.astro';
+
+export async function getStaticPaths() {
+  const locales = getLocalesForBuild();
+  return locales.map((l) => ({ params: { lang: l.code } }));
+}
+
+const { lang } = Astro.params as { lang: string };
+const rtl = isRTL(lang);
+
+// Load messages
+const messages = await import('@/i18n/loadMessages')
+  .then((m) => m.loadAllMessages(lang as any))
+  .catch(async () => {
+    const fallback = await import('@/i18n/loadMessages').then((m) =>
+      m.loadAllMessages(defaultLocale),
+    );
+    return fallback;
+  });
+
+// Content
+const litepaper = messages.docs?.litepaper || {};
+const whitepaperContent = messages.docs?.whitepaper?.content || {};
+const t_charts = messages.docs?.litepaper?.charts || {}; 
+const contractLabels = messages.docs?.litepaper?.content?.contracts?.items || {};
+
+// Contract Addresses (Mock/TBD)
+const contractAddresses = {
+  token: "0x... (TBD)",
+  emission: "0x... (Pending TGE)",
+  reserve: "0x... (Pending TGE)",
+  phase: "0x... (Pending TGE)",
+  vesting: "0x... (Pending TGE)",
+  pol: "0x... (Pending TGE)",
+  protection: "0x... (Pending TGE)",
+  timelock: "0x... (Pending TGE)"
+};
+
+// Fallback Vesting Data (Anti-Dump Manifesto)
+const vestingData = litepaper.sections?.lockup || litepaper.lockup || {
+  description: "在充斥著「老鼠倉」與「隱藏籌碼」的市場中，我們選擇了一條最艱難但最誠實的路。我們深知，唯有徹底消除用戶對於「團隊砸盤」的恐懼，才能建立真正的信任。",
+  benefit: "這不僅僅是鎖倉規則，更是我們的「反收割宣言」。通過這種近乎苛刻的自我約束，我們確保了沒有任何人——無論是創始人還是大戶——能夠在早期背叛社群。",
+  items: [
+    "徹底透明，拒絕隱藏：我們沒有任何隱藏錢包或未公開的早期流通盤。所有的籌碼分佈都在鏈上公開，接受社群監督。",
+    "團隊自縛，長期陪跑：核心團隊的釋放期長達 48 個月（4年）。在幣圈，4年是一個漫長的週期。這證明我們不是來賺快錢的，而是決心與社群共同經歷牛熊，建設長期價值。",
+    "投資人共識：我們的早期投資人深刻認同「分享與贈予」的紅包文化，自願簽署 36 個月 的線性釋放協議。這意味著在項目早期，沒有任何一方（包括資方）擁有足夠的籌碼來衝擊市場。"
+  ]
+};
+
+const seoTitle = litepaper.seo?.title || "moonpacket Litepaper";
+const seoDescription = litepaper.seo?.description || "The Social Liquidity Protocol";
+const canonical = new URL(Astro.url.pathname, Astro.site || Astro.url.origin).toString();
+
+// Data prep
+const allocationLabels = {
+  title: t_charts.allocation?.title || 'Token Allocation',
+  public: t_charts.allocation?.public || 'Public Mining',
+  team: t_charts.allocation?.team || 'Team (Vesting)',
+  operations: t_charts.allocation?.operations || 'Operations',
+  tech: t_charts.allocation?.tech || 'Tech',
+  marketing: t_charts.allocation?.marketing || 'Marketing',
+  investors: t_charts.allocation?.investors || 'Investors',
+};
+const allocationData = { public: 90, team: { operations: 2, tech: 2, marketing: 2, investors: 4 } };
+
+const phaseLabels = {
+  title: t_charts.phase?.title || 'Halving Schedule',
+  xAxis: t_charts.phase?.xAxis || 'Issued Supply',
+  yAxis: t_charts.phase?.yAxis || 'Mining Rate',
+  phase: t_charts.phase?.phase || 'Phase',
+  ratio: t_charts.phase?.ratio || 'Ratio',
+  range: t_charts.phase?.range || 'Range',
+};
+const phaseData = [
+  { phase: 1, range: '0-4.5B', ratio: 1.0 },
+  { phase: 2, range: '4.5B-6.75B', ratio: 0.5 },
+  { phase: 3, range: '6.75B-7.875B', ratio: 0.25 },
+  { phase: 4, range: '7.875B-8.43B', ratio: 0.125 },
+  { phase: 5, range: '8.43B-8.71B', ratio: 0.0625 },
+  { phase: 6, range: '8.71B-9.0B', ratio: 0.03125 },
+];
+
+const vestingLabels = {
+  months: t_charts.vesting?.months || 'Months',
+  team: t_charts.allocation?.team || 'Team',
+  investors: t_charts.allocation?.investors || 'Investors',
+  public: t_charts.allocation?.public || 'Public',
+};
+
+const flowLabels = {
+  title: t_charts.flow?.title || 'Token Flow',
+  userSend: t_charts.flow?.userSend || 'User Sends Gift',
+  fee: t_charts.flow?.fee || 'Fee',
+  operations: t_charts.flow?.operations || 'Ops',
+  pol: t_charts.flow?.pol || 'Floor Defense Fund',
+  accumulate: t_charts.flow?.accumulate || 'Accumulate',
+  trigger: t_charts.flow?.trigger || 'Trigger',
+  swap: t_charts.flow?.swap || 'Buyback',
+  addLiquidity: t_charts.flow?.addLiquidity || 'Add LP',
+  pool: t_charts.flow?.pool || 'Liquidity Pool',
+  smart_floor: t_charts.flow?.smart_floor || 'Smart Floor Defense',
+};
+
+// Helper to process simple markdown (bold) and enforce brand styling
+const md = (text: string) => {
+  if (!text) return '';
+  let processed = text.replace(/\*\*(.*?)\*\*/g, '<strong class="text-[var(--gold)]">$1</strong>');
+  // Replace Moonpacket (case insensitive) with styled brand word
+  processed = processed.replace(/Moonpacket/gi, '<span class="brand-word text-[var(--text)]" style="font-weight: 700;">moonpacket</span>');
+  return processed;
+};
+
+// Utility Content Handlers
+// Fix: Robust data fetching for Defense section
+const defenseData = litepaper.defense || 
+                    litepaper.sections?.defense || 
+                    litepaper.content?.defense || 
+                    litepaper.content?.governance?.defense || 
+                    {};
+
+const howToEarn = whitepaperContent?.incentives?.how_to_earn || {};
+const howToUse = litepaper.content?.utility?.how_to_use || {
+    title: "$moonini 的用途",
+    items: [
+        "**折抵手續費**：未來可使用 $moonini 折抵部分紅包手續費",
+        "**解鎖功能**：某些高級功能可能需要持有一定數量的 $moonini 才能使用",
+        "**治理票權**：持有 $moonini 可以參與未來社群治理投票，影響項目發展方向",
+        "**生態兌換**：可在合作夥伴的應用或遊戲中兌換特殊權益或獎勵"
+    ]
+}; // Fallback/Direct injection for missing json data
+
+// Roadmap Data Handling with Config and Structure Check
+// Fix: Prioritize litepaper.content.roadmap which has the correct structure (tracks, phases)
+const rawRoadmap = litepaper.content?.roadmap || whitepaperContent?.roadmap || {};
+
+// Ensure the structure is correct, otherwise fallback
+const roadmapData = (rawRoadmap?.phases || rawRoadmap?.tracks) ? rawRoadmap : {
+  title: "雙軌路線圖 (Dual-Track Roadmap)",
+  status_notice: "⚠️ 當前狀態：計劃公示階段。代幣尚未生成 (TGE Pending)，最終規則以 TGE 時發佈的白皮書版本為準。",
+  tracks: { product: "📱 產品與生態", token: "💎 代幣與經濟" },
+  phases: [
+    {
+      title: "Phase 1: 起源 (Genesis)",
+      product: ["Telegram Bot 上線", "基礎任務系統", "用戶累積"],
+      token: ["積分試運行 (Off-chain)", "代幣模型設計", "Litepaper 公示"]
+    },
+    {
+      title: "Phase 2: 啟動 (Ignition)",
+      product: ["生態結合 (商家/API)", "數據儀表板", "第三方 Bot 接入"],
+      token: ["第三方審計", "TGE (代幣生成)", "初始流動性建立"]
+    },
+    {
+      title: "Phase 3: 擴張 (Expansion)",
+      product: ["獨立 App (Wallet/IM)", "跨平台支援", "DAO 工具"],
+      token: ["經濟循環啟動", "多鏈部署", "完全去中心化"]
+    }
+  ]
+};
+
+// Removed redundant contractItems
+
+---
+
+<BaseLayout
+  lang={lang}
+  title={seoTitle}
+  description={seoDescription}
+  canonicalUrl={canonical}
+  allLocales={LOCALE_ORDER}
+>
+  <!-- Background Ambient Glows -->
+  <div class="fixed inset-0 pointer-events-none overflow-hidden -z-10">
+    <div class="absolute top-0 left-1/4 w-[800px] h-[800px] bg-[var(--primary)] opacity-[0.04] dark:opacity-[0.03] rounded-full blur-[120px]"></div>
+    <div class="absolute bottom-0 right-1/4 w-[600px] h-[600px] bg-[var(--gold)] opacity-[0.04] dark:opacity-[0.03] rounded-full blur-[100px]"></div>
+  </div>
+
+  <main class="mx-auto max-w-6xl px-4 py-16 space-y-32">
+    
+    <!-- 1. Hero Section -->
+    <section class="text-center relative">
+      <div class="inline-flex items-center gap-2 rounded-full border border-[var(--gold)]/20 bg-[var(--gold)]/5 px-4 py-1.5 text-xs font-medium text-[var(--gold)] mb-8 backdrop-blur-sm">
+        <span class="relative flex h-2 w-2">
+          <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-[var(--gold)] opacity-75"></span>
+          <span class="relative inline-flex h-2 w-2 rounded-full bg-[var(--gold)]"></span>
+        </span>
+        {litepaper.hero?.live_status || 'Protocol V1 Live'}
+      </div>
+
+      <h1 class="text-4xl sm:text-5xl md:text-7xl font-bold tracking-tight mb-6 flex flex-col sm:block gap-2">
+        <span class="text-transparent bg-clip-text bg-gradient-to-r from-[var(--text)] to-[var(--text-subtle)]">
+          {litepaper.title?.replace('Litepaper', '')}
+        </span>
+        <span class="text-transparent bg-clip-text bg-gradient-to-r from-[var(--primary)] to-[var(--gold)]">Litepaper</span>
+      </h1>
+      
+      <p class="mx-auto max-w-2xl text-lg md:text-xl text-[var(--text-subtle)] leading-relaxed mb-10 px-4" set:html={md(litepaper.hero?.subtitle)} />
+
+      <div class="flex flex-col sm:flex-row items-center justify-center gap-4 px-4">
+        <a href="#overview" class="w-full sm:w-auto rounded-xl bg-[var(--primary)] px-8 py-4 text-sm font-bold text-white shadow-lg shadow-[var(--primary)]/20 transition-all hover:scale-105 hover:bg-opacity-90">
+          {litepaper.hero?.cta_start || 'Start Reading'}
+        </a>
+        <a href={`/${lang}/docs/api/`} class="w-full sm:w-auto rounded-xl border border-[var(--card-ring)] bg-[var(--card-bg)]/50 backdrop-blur-sm px-8 py-4 text-sm font-bold text-[var(--text)] transition-all hover:bg-[var(--card-bg)] hover:border-[var(--primary)]/30">
+          {litepaper.hero?.cta_hub || 'Developer Hub'}
+        </a>
+      </div>
+    </section>
+
+    <!-- 2. Overview Cards (Glassmorphism) -->
+    <section id="overview">
+      <div class="grid md:grid-cols-3 gap-6">
+        {[litepaper.hero?.cards?.user, litepaper.hero?.cards?.investor, litepaper.hero?.cards?.developer].map((card, i) => (
+          card && (
+            <div class="group relative p-8 rounded-3xl bg-[var(--card-bg)]/90 dark:bg-[var(--card-bg)]/40 backdrop-blur-md border border-[var(--card-ring)] hover:border-[var(--gold)]/30 transition-all hover:-translate-y-1 hover:shadow-xl hover:shadow-[var(--gold)]/5 shadow-sm dark:shadow-none">
+              <div class="absolute inset-0 bg-gradient-to-b from-[var(--gold)]/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity rounded-3xl pointer-events-none"></div>
+              <h3 class="text-xl font-bold mb-4 text-[var(--text)] group-hover:text-[var(--primary)] dark:group-hover:text-[var(--gold)] transition-colors">{card.title}</h3>
+              <p class="text-sm md:text-base text-[var(--text-subtle)] leading-relaxed" set:html={md(card.description)} />
+            </div>
+          )
+        ))}
+      </div>
+    </section>
+
+    <!-- 3. Economic Loop (Token Flow) -->
+    <section class="relative">
+      <div class="text-center max-w-3xl mx-auto mb-12">
+        <h2 class="text-3xl md:text-4xl font-bold mb-6 text-[var(--text)]">{litepaper.content?.governance?.pol?.title || 'Economic Flywheel'}</h2>
+        <p class="text-base md:text-lg text-[var(--text-subtle)] leading-relaxed" set:html={md(litepaper.content?.governance?.pol?.mechanism?.[0])} />
+      </div>
+      
+      <TokenFlow labels={flowLabels} />
+
+      <!-- Floor Defense Logic -->
+      <div class="mt-16 grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+        <div class="p-8 rounded-3xl bg-[var(--card-bg)]/80 dark:bg-[var(--card-bg)]/30 border border-[var(--card-ring)] shadow-sm dark:shadow-none">
+            <h3 class="text-xl font-bold mb-4 text-[var(--text)] dark:text-[var(--gold)] flex items-center gap-2">{defenseData.floor?.title}</h3>
+            <p class="text-sm md:text-base text-[var(--text-subtle)] leading-relaxed mb-4" set:html={md(defenseData.floor?.mechanism)} />
+            <p class="text-sm md:text-base text-[var(--text-subtle)] leading-relaxed text-sm opacity-80">{defenseData.floor?.anti_gaming}</p>
+          </div>
+          <div class="p-8 rounded-3xl bg-[var(--card-bg)]/80 dark:bg-[var(--card-bg)]/30 border border-[var(--card-ring)] shadow-sm dark:shadow-none">
+            <h3 class="text-xl font-bold mb-4 text-[#10B981] flex items-center gap-2">{defenseData.anti_bot?.title}</h3>
+            <ul class="space-y-3 text-[var(--text-subtle)]">
+              {defenseData.anti_bot?.items?.map((item: string) => (
+                <li class="flex items-start gap-3 text-sm md:text-base">
+                  <span class="text-[#10B981] mt-1">✓</span>
+                  <span set:html={md(item)} />
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- 4. Tokenomics (Allocation) -->
+      <section class="grid lg:grid-cols-2 gap-16 items-start">
+        <div class="space-y-8 px-2 md:px-0">
+          <h2 class="text-3xl md:text-4xl font-bold text-[var(--text)]">{litepaper.content?.tokenomics?.title}</h2>
+          
+          <!-- Total Supply Highlight -->
+          <div class="p-6 rounded-2xl bg-gradient-to-r from-[var(--gold)]/20 to-transparent border border-[var(--gold)]/30 dark:border-[var(--gold)]/30">
+              <h3 class="text-sm font-bold text-[var(--text)] dark:text-[var(--gold)] uppercase tracking-wider mb-2">{whitepaperContent.tokenomics?.total?.title || 'Total Supply'}</h3>
+              <p class="text-4xl md:text-5xl font-mono font-bold text-[var(--text)] break-all">10,000,000,000</p>
+          </div>
+
+          <div class="text-base md:text-lg text-[var(--text-subtle)] leading-relaxed">
+          <!-- Description with Governance Highlight -->
+          <div class="space-y-4">
+             {whitepaperContent?.tokenomics?.allocation?.description?.map((text: string) => (
+                <p set:html={md(text)} />
+             ))}
+          </div>
+          
+          <!-- Allocation Table -->
+          {whitepaperContent?.tokenomics?.allocation?.table && (
+            <div class="overflow-hidden rounded-xl border border-[var(--card-ring)] mt-8">
+              <table class="w-full text-xs md:text-sm text-left">
+                <thead class="bg-[var(--card-bg)]/50 text-[var(--text)]">
+                  <tr>
+                    {whitepaperContent.tokenomics.allocation.table.headers.map((header: string) => (
+                      <th class="px-4 py-3 font-bold">{header}</th>
+                    ))}
+                  </tr>
+                </thead>
+                <tbody class="divide-y divide-[var(--card-ring)] bg-[var(--bg-dark)]/30">
+                  {whitepaperContent.tokenomics.allocation.table.rows.map((row: string[]) => (
+                    <tr class="hover:bg-[var(--card-bg)]/30 transition-colors">
+                      {row.map((cell: string, i: number) => (
+                        <td class={`px-4 py-3 ${i === 0 ? 'font-medium text-[var(--text)]' : 'text-[var(--text-subtle)]'}`}>
+                          {cell}
+                        </td>
+                      ))}
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          )}
+        </div>
+      </div>
+      <div class="lg:sticky lg:top-32 relative bg-[var(--card-bg)]/80 dark:bg-[var(--card-bg)]/50 backdrop-blur-xl p-8 rounded-[2rem] border border-[var(--card-ring)] shadow-2xl shadow-black/5 min-h-[500px] flex items-center justify-center">
+        <div class="absolute inset-0 bg-gradient-to-tr from-[var(--gold)]/5 to-transparent rounded-[2rem] pointer-events-none"></div>
+        <div class="w-full h-full flex items-center justify-center">
+           <AllocationPieChart client:only="react" labels={allocationLabels} data={allocationData} isRTL={rtl} />
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. Emission (Halving & Vesting) -->
+    <section>
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-6 text-[var(--text)]">{litepaper.content?.emission?.title}</h2>
+        <p class="text-base md:text-lg text-[var(--text-subtle)]">{litepaper.content?.emission?.halving?.description}</p>
+      </div>
+
+      <!-- Halving Chart & Logic -->
+      <div class="grid lg:grid-cols-5 gap-8 mb-24">
+        <div class="lg:col-span-3 relative bg-[var(--card-bg)] dark:bg-[var(--card-bg)] p-4 md:p-12 rounded-[2rem] border border-[var(--card-ring)] shadow-xl shadow-black/5 dark:shadow-lg min-h-[450px] flex flex-col justify-center overflow-hidden">
+          <div class="absolute top-0 right-0 w-64 h-64 bg-[#10B981]/5 rounded-full blur-[80px] pointer-events-none"></div>
+          <div class="w-full h-full overflow-x-auto">
+             <div class="min-w-[300px] h-full">
+                <PhaseReductionChart client:only="react" labels={phaseLabels} data={phaseData} isRTL={rtl} />
+             </div>
+          </div>
+        </div>
+        
+        <!-- Value Logic (Arbitrage) -->
+        <div class="lg:col-span-2 flex flex-col gap-6">
+           <div class="p-8 rounded-[2rem] bg-[var(--card-bg)]/80 dark:bg-[var(--card-bg)]/30 border border-[var(--card-ring)] shadow-sm dark:shadow-none h-full">
+              <h3 class="text-lg md:text-xl font-bold mb-6 text-[#10B981]">💡 {whitepaperContent?.tokenomics?.phase?.value_logic?.[0]?.replace('💡 ', '') || 'Investment Logic'}</h3>
+              <div class="space-y-4 text-[var(--text-subtle)] text-sm md:text-base leading-relaxed">
+                 {whitepaperContent?.tokenomics?.phase?.value_logic?.slice(1).map((text: string) => (
+                    text && <p set:html={md(text)} />
+                 ))}
+              </div>
+           </div>
+        </div>
+      </div>
+
+      <!-- Vesting Chart & Info -->
+      <div class="grid lg:grid-cols-2 gap-12 items-center">
+        <!-- Chart -->
+        <div>
+           <div class="bg-[var(--card-bg)]/90 dark:bg-[var(--card-bg)]/50 p-6 rounded-[2rem] border border-[var(--card-ring)] shadow-xl shadow-black/5">
+             <h3 class="text-xl md:text-2xl font-bold mb-6 px-2 text-[var(--text)]">{t_charts.vesting?.title || 'Team & Investor Vesting'}</h3>
+             <VestingChart client:only="react" labels={vestingLabels} isRTL={rtl} />
+           </div>
+        </div>
+
+        <!-- Explanation -->
+        <div class="space-y-8 px-2 md:px-0">
+          <div>
+            <h3 class="text-2xl md:text-3xl font-bold mb-6 text-[var(--text)] dark:text-[var(--gold)]">{vestingData.title || "Strategic Lock-up"}</h3>
+            <p class="text-[var(--text-subtle)] text-base md:text-lg mb-6 leading-relaxed">
+              {vestingData.desc || vestingData.description}
+            </p>
+            <p class="text-[var(--text-subtle)] text-base md:text-lg leading-relaxed mb-8">
+              {vestingData.benefit}
+            </p>
+          </div>
+
+          <div class="space-y-4">
+            {vestingData.items?.map((item: string) => (
+              <div class="flex items-start gap-4 p-4 rounded-xl bg-[var(--card-bg)]/80 dark:bg-[var(--card-bg)]/30 border border-[var(--card-ring)] shadow-sm dark:shadow-none">
+                <span class="text-2xl mt-1">🔒</span>
+                <div>
+                  <h4 class="font-bold text-[var(--text)] mb-1" set:html={md(item.split('：')[0])} />
+                  <p class="text-sm md:text-base text-[var(--text-subtle)]">{item.split('：')[1]}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. Incentives & Utility -->
+    <section>
+      <div class="text-center max-w-3xl mx-auto mb-12">
+        <h2 class="text-3xl md:text-4xl font-bold mb-6 text-[var(--text)]">{litepaper.content?.utility?.title || 'Utility & Incentives'}</h2>
+        <p class="text-base md:text-lg text-[var(--text-subtle)]">{litepaper.sections?.utility?.subtitle} <span class="brand-word text-[var(--text)]" style="font-weight: 700;">moonini</span></p>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-8">
+        <!-- How to Earn -->
+        <div class="p-8 rounded-[2rem] bg-[var(--card-bg)]/90 dark:bg-[var(--card-bg)]/40 border border-[var(--card-ring)] shadow-md shadow-black/5 dark:shadow-none flex flex-col h-full">
+          <h3 class="text-xl md:text-2xl font-bold mb-6 text-[#10B981]">{howToEarn?.title || 'How to Earn?'}</h3>
+          <div class="space-y-8 text-[var(--text-subtle)] flex-1">
+             <div>
+                <h4 class="font-bold text-[var(--text)] mb-3">🎁 {howToEarn?.send_gift?.[0]?.replace('#### ', '')}</h4>
+                <div class="space-y-2 pl-1">
+                    {howToEarn?.send_gift?.slice(2)?.map((line: string) => (
+                        line && <div class="text-sm md:text-base opacity-90 leading-relaxed" set:html={md(line)} />
+                    ))}
+                </div>
+             </div>
+             <div>
+                <h4 class="font-bold text-[var(--text)] mb-3">🤝 {howToEarn?.invite?.[0]?.replace('#### ', '')}</h4>
+                <div class="space-y-2 pl-1">
+                    {howToEarn?.invite?.slice(2)?.map((line: string) => (
+                         line && <div class="text-sm md:text-base opacity-90 leading-relaxed" set:html={md(line)} />
+                    ))}
+                </div>
+             </div>
+             <div>
+                <h4 class="font-bold text-[var(--text)] mb-3">🏆 {howToEarn?.quests?.[0]?.replace('#### ', '')}</h4>
+                <div class="space-y-2 pl-1">
+                    {howToEarn?.quests?.slice(2)?.map((line: string) => (
+                        line && <div class="text-sm md:text-base opacity-90 leading-relaxed" set:html={md(line)} />
+                    ))}
+                </div>
+             </div>
+          </div>
+        </div>
+
+        <!-- How to Use -->
+        <div class="p-8 rounded-[2rem] bg-[var(--card-bg)]/90 dark:bg-[var(--card-bg)]/40 border border-[var(--card-ring)] shadow-md shadow-black/5 dark:shadow-none flex flex-col h-full">
+          <h3 class="text-xl md:text-2xl font-bold mb-6 text-[var(--text)] dark:text-[var(--gold)]">{howToUse?.title}</h3>
+          <ul class="space-y-4 flex-1">
+            {howToUse?.items?.map(item => (
+              <li class="flex items-start gap-3 text-[var(--text-subtle)]">
+                <span class="text-[var(--gold)] mt-1 font-bold">●</span>
+                <span class="text-sm md:text-base" set:html={md(item)} />
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. Roadmap -->
+    <section>
+      <div class="text-center mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-6 text-[var(--text)]">{roadmapData.title}</h2>
+        
+        <!-- Status Notice -->
+        {roadmapConfig.showStatus && (
+          <div class="inline-block p-4 rounded-xl bg-yellow-500/10 border border-yellow-500/30 backdrop-blur-sm mx-auto max-w-3xl">
+            <p class="text-yellow-500 font-bold flex flex-col md:flex-row items-center justify-center gap-2 text-center text-sm md:text-base">
+              <span class="animate-pulse">●</span>
+              {roadmapData.status_notice}
+            </p>
+          </div>
+        )}
+      </div>
+
+      <div class="relative max-w-5xl mx-auto space-y-8">
+        <!-- Connecting Line -->
+        <div class="absolute left-1/2 top-0 bottom-0 w-px bg-gradient-to-b from-transparent via-[var(--gold)]/30 to-transparent -ml-[0.5px] hidden md:block"></div>
+
+        {roadmapData.phases?.map((phase: any, index: number) => {
+          const phaseNum = index + 1;
+          const isCurrent = roadmapConfig.currentPhase === phaseNum;
+          const isPast = roadmapConfig.currentPhase > phaseNum;
+          
+          return (
+            <div class={`relative flex flex-col md:grid md:grid-cols-2 gap-6 md:gap-12 items-center pt-8 transition-all duration-500 ${isPast ? 'opacity-60 grayscale' : ''}`}>
+              
+              <!-- Phase Title (Centered on Top) -->
+              <div class="md:col-span-2 text-center z-20 mb-4 md:mb-0 order-1 w-full flex justify-center">
+                 <div class={`inline-block px-4 md:px-6 py-2 rounded-full border backdrop-blur-md transition-all duration-300 max-w-full ${
+                   isCurrent 
+                     ? 'bg-[var(--gold)]/20 dark:bg-[var(--gold)]/10 border-[var(--gold)] shadow-[0_0_15px_rgba(255,186,0,0.3)] dark:shadow-[0_0_15px_var(--gold)] scale-100 md:scale-110' 
+                     : 'bg-[var(--card-bg)] dark:bg-[var(--card-bg)] border-[var(--card-ring)] shadow-sm dark:shadow-none'
+                 }`}>
+                   <h3 class={`text-lg md:text-xl font-bold flex flex-wrap items-center justify-center gap-2 ${isCurrent ? 'text-[var(--text)] dark:text-[var(--gold)]' : 'text-[var(--text)]'}`}>
+                     <span>{phase.title}</span>
+                     {isCurrent && <span class="text-xs bg-[var(--gold)] text-[var(--navy)] dark:text-black px-2 py-0.5 rounded font-bold whitespace-nowrap">{whitepaperContent?.roadmap?.labels?.current || 'CURRENT'}</span>}
+                     {isPast && <span class="text-xs bg-[var(--text-subtle)] text-[var(--bg)] px-2 py-0.5 rounded font-bold whitespace-nowrap">{whitepaperContent?.roadmap?.labels?.done || 'DONE'}</span>}
+                   </h3>
+                 </div>
+              </div>
+
+              <!-- Center Dot (Desktop Only - Absolute Center of the Content Area) -->
+              <div class={`absolute left-1/2 top-[calc(50%+2rem)] -translate-y-1/2 -ml-3 w-6 h-6 rounded-full border-4 z-10 hidden md:block transition-all duration-500 ${
+                isCurrent ? 'bg-[var(--gold)] border-[var(--gold)] shadow-[0_0_20px_var(--gold)] scale-125' : 
+                isPast ? 'bg-[var(--text-subtle)] border-[var(--text-subtle)]' :
+                'bg-[var(--card-bg)] dark:bg-[var(--card-bg)] border-[var(--card-ring)]'
+              }`}></div>
+
+              <!-- Product Track -->
+              <div class={`w-full p-6 rounded-2xl border transition-all duration-300 order-2 ${
+                isCurrent ? 'bg-[var(--card-bg)]/90 dark:bg-[var(--card-bg)]/60 border-[var(--gold)]/50 dark:border-[var(--gold)]/50 shadow-lg shadow-black/5' : 
+                'bg-[var(--card-bg)]/90 dark:bg-[var(--card-bg)]/40 border-[var(--card-ring)] hover:border-[var(--primary)]/30 shadow-sm dark:shadow-none'
+              } ${index % 2 === 0 ? 'md:text-right md:mr-8' : 'md:text-left md:col-start-2 md:ml-8'}`}>
+                <h4 class="text-sm font-bold text-[var(--primary)] uppercase tracking-wider mb-3 flex items-center gap-2 md:justify-end">
+                  {index % 2 === 0 ? <>{roadmapData.tracks?.product} <span class="text-lg">📱</span></> : <><span class="text-lg">📱</span> {roadmapData.tracks?.product}</>}
+                </h4>
+                <ul class="space-y-3">
+                  {phase.product?.map((item: string) => (
+                    <li class="text-sm md:text-base text-[var(--text-subtle)]" set:html={md(item)} />
+                  ))}
+                </ul>
+              </div>
+
+              <!-- Token Track -->
+              <div class={`w-full p-6 rounded-2xl border transition-all duration-300 order-3 ${
+                isCurrent ? 'bg-[var(--card-bg)]/90 dark:bg-[var(--card-bg)]/60 border-[var(--gold)]/50 dark:border-[var(--gold)]/50 shadow-lg shadow-black/5' : 
+                'bg-[var(--card-bg)]/90 dark:bg-[var(--card-bg)]/40 border-[var(--card-ring)] hover:border-[var(--gold)]/30 shadow-sm dark:shadow-none'
+              } ${index % 2 === 0 ? 'md:text-left md:ml-8' : 'md:text-right md:col-start-1 md:row-start-2 md:mr-8'}`}>
+                <h4 class="text-sm font-bold text-[var(--text)] dark:text-[var(--gold)] uppercase tracking-wider mb-3 flex items-center gap-2 md:justify-start">
+                   {index % 2 === 0 ? <><span class="text-lg">💎</span> {roadmapData.tracks?.token}</> : <>{roadmapData.tracks?.token} <span class="text-lg">💎</span></>}
+                </h4>
+                <ul class="space-y-3">
+                   {phase.token?.map((item: string) => (
+                     <li class="text-sm md:text-base text-[var(--text-subtle)]" set:html={md(item)} />
+                   ))}
+                </ul>
+              </div>
+
+            </div>
+          );
+        })}
+      </div>
+    </section>
+
+    <!-- 8. Contracts & Governance -->
+    <section class="grid md:grid-cols-2 gap-8 items-start">
+      <!-- On-chain Registry -->
+      <div class="bg-[var(--card-bg)]/90 dark:bg-[var(--card-bg)]/30 backdrop-blur-md rounded-[2rem] border border-[var(--card-ring)] shadow-lg shadow-black/5 dark:shadow-none p-8">
+         <h2 class="text-2xl font-bold mb-6 flex items-center gap-3 text-[var(--text)]">
+           <span class="text-[var(--gold)]">📜</span> 
+           {litepaper.sections?.registry?.title}
+         </h2>
+         <div class="space-y-4">
+           {Object.entries(contractAddresses).map(([key, addr]) => {
+             const label = contractLabels[key as keyof typeof contractLabels] || key;
+             return (
+               <div class="flex items-center justify-between p-4 rounded-xl bg-[var(--bg)]/50 dark:bg-[var(--bg)]/50 border border-[var(--card-ring)] hover:border-[var(--gold)]/30 transition-colors group">
+                 <div class="flex items-center gap-3">
+                   <div class={`w-2 h-2 rounded-full ${addr.includes('0x') ? 'bg-[#10B981]' : 'bg-yellow-500 animate-pulse'}`}></div>
+                   <span class="text-sm font-medium text-[var(--text-subtle)] group-hover:text-[var(--text)] transition-colors">{label}</span>
+                 </div>
+                 <code class="text-xs font-mono text-[var(--text)] dark:text-[var(--gold)] opacity-80 group-hover:opacity-100 bg-[var(--gold)]/10 dark:bg-[var(--gold)]/5 px-2 py-1 rounded">
+                   {addr}
+                 </code>
+               </div>
+             );
+           })}
+           <div class="mt-6 pt-4 border-t border-[var(--card-ring)] flex justify-between items-center text-xs text-[var(--text-subtle)]">
+             <span>{litepaper.sections?.registry?.network}</span>
+             <span class="flex items-center gap-1" set:html={md(litepaper.sections?.registry?.audit)} />
+           </div>
+         </div>
+      </div>
+
+      <!-- Legal & Risks -->
+      <div class="bg-[var(--card-bg)]/90 dark:bg-[var(--card-bg)]/30 backdrop-blur-md rounded-[2rem] border border-[var(--card-ring)] shadow-lg shadow-black/5 dark:shadow-none p-8">
+        <h2 class="text-2xl font-bold mb-6 flex items-center gap-3 text-[var(--text)]">
+           <span class="text-red-500 dark:text-red-400">⚖️</span> 
+           {litepaper.content?.risks?.title}
+        </h2>
+        <div class="prose prose-sm md:prose-base prose-invert max-w-none text-[var(--text-subtle)] opacity-80 leading-relaxed">
+           {litepaper.content?.risks?.description?.map((text: string) => (
+             <p class="mb-2 last:mb-0" set:html={md(text)} />
+           ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- 9. CTA -->
+    <section class="text-center pt-12">
+      <h2 class="text-3xl font-bold mb-8 text-[var(--text)]">{litepaper.sections?.cta?.title}</h2>
+      <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+        <a href="https://t.me/moonpacket_bot" target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto rounded-xl bg-[var(--primary)] px-8 py-4 text-sm font-bold text-white shadow-lg shadow-[var(--primary)]/20 transition-all hover:scale-105 hover:bg-opacity-90 flex items-center justify-center gap-2">
+           <span class="text-lg">🚀</span> {litepaper.sections?.cta?.earning}
+        </a>
+        <a href={`/${lang}/docs/api/`} class="w-full sm:w-auto rounded-xl border border-[var(--card-ring)] bg-[var(--card-bg)]/50 backdrop-blur-sm px-8 py-4 text-sm font-bold text-[var(--text)] transition-all hover:bg-[var(--card-bg)] hover:border-[var(--primary)]/30">
+           {litepaper.sections?.cta?.devs}
+        </a>
+      </div>
+    </section>
+
+  </main>
+</BaseLayout>

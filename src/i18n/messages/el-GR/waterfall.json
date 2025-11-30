@@ -1,0 +1,27 @@
+{
+  "sent_from": "Αποστολή στην ομάδα:",
+  "claimed": "Αξίωση",
+  "total": "Σύνολο",
+  "progress": "Διεκδικήθηκε",
+  "groups_directory": {
+    "latest_tab": "Τελευταίες Ομάδες Red Packet",
+    "hot_tab": "Δημοφιλείς Ομάδες Red Packet",
+    "search_placeholder": "Αναζητήστε λέξεις-κλειδιά σε καθορισμένα γκρουπ"
+  },
+  "marquee": {
+    "templates": {
+      "send": "💰 Ο {user} εξέδωσε ένα Red Packet {amount} {ccy} στην '{group}'!",
+      "claim": "🎯 Ο {user} έλαβε {amount} {ccy}, πιο τυχερός παίκτης!",
+      "topup": "🔥 Ο ιδιοκτήτης της ομάδας {user} κατέθεσε {amount} {ccy}",
+      "system": "📢 {message}",
+      "achievement": "🥇 Ο πιο τυχερός παίκτης σήμερα: @{user} (συγκέντρωσε {amount} {ccy})"
+    },
+    "fallback": [
+      "💰 Ο John εξέδωσε έναν κόκκινο φάκελο 100 USDT στο 'Game Guild A'!",
+      "🎯 Η Lisa διεκδίκησε 3.5 USDT, η πιο τυχερή από όλους!",
+      "🔥 Ο ιδιοκτήτης της ομάδας, Ken, κατέθεσε 2000 USDT",
+      "📢 Η αναβάθμιση του συστήματος ολοκληρώθηκε, προστέθηκε υποστήριξη SOL!",
+      "🥇 Ο πιο τυχερός σήμερα: @Mina (συγκεντρωμένα 28.3 USDT)"
+    ]
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "title": "moonpacket — sobres rojos de crypto fáciles, seguros y rápidos",
+  "description": "robot de Sobre rojo cifrado de moonpacket | Soporta USDT, TON, SOL, ETH. Envía fácilmente Sobre rojos, recibe al instante, de forma segura y no custodial, perfecto para el crecimiento de la comunidad de Telegram y aumentar la participación.",
+  "nav": {
+    "home": "Inicio",
+    "about": "Acerca de",
+    "pricing": "Precios",
+    "team": "Equipo",
+    "blog": "Blog",
+    "faq": "Preguntas Frecuentes",
+    "contact": "Contáctanos",
+    "careers": "Carreras",
+    "claim": "Reclamar Red Packet",
+    "send": "Enviar Sobre rojo",
+    "api": "Documentación API",
+    "docs": "Documento"
+  },
+  "hero": {
+    "title": "Sobres rojos de criptomonedas, disponibles para todos",
+    "subtitle": "Mejora la experiencia de tu comunidad con servicios simples y globales.",
+    "desc": "El mejor bot de sobre rojo para proyectos de token meme y propietarios de grupos de Telegram para adquirir nuevos usuarios y aumentar la participación.",
+    "ctaPrimaryLabel": "Lanza moonpacket",
+    "ctaPrimaryHref": "https://t.me/moonpacketdevbot https://t.me/MoonPackageDevBot",
+    "ctaSecondaryLabel": "Cómo Conectar",
+    "ctaSecondaryHref": "/es-ES/integration",
+    "lead": "Sobres rojos de Telegram TON, meme, USDT | El mejor bot de sobre rojo para proyectos de token meme y propietarios de grupos de Telegram para adquirir nuevos usuarios y aumentar la participación.",
+    "cta_primary": "Activa moonpacket Ahora",
+    "cta_secondary": "Cómo Integrarse con Grupos",
+    "headline_line1": "moonpacket",
+    "headline_line2": "Comienza, apunta a la luna.",
+    "tagline": "Sobres rojos de Telegram TON, meme y USDT para marketing y retención comunitaria. Un bot de sobre rojo diseñado para administradores para aumentar la participación, atraer nuevos miembros y fomentar la interacción."
+  },
+  "features": {
+    "f1": "Registro rápido",
+    "f2": "Localización global",
+    "f3": "Seguridad no custodial",
+    "title": "Funciones principales",
+    "items": "__TODO_TRANSLATE_zh-CN__"
+  },
+  "sections": {
+    "features_heading": "Destacados de Funciones",
+    "features_subtitle": "Puedes obtener",
+    "tokens_heading": "Tokens y estadísticas",
+    "testimonials_heading": "Opiniones de usuarios",
+    "pricing_heading": "Planes y precios",
+    "waterfall_title": "cascada de sobres rojos"
+  },
+  "footer": {
+    "rights": "",
+    "privacy": "Política de privacidad",
+    "terms": "Términos de Servicio",
+    "social": {
+      "telegram_group": "Grupo de Telegram",
+      "telegram_channel": "Canal de Telegram",
+      "x": "X",
+      "youtube": "YouTube"
+    },
+    "copyright": "Todos los derechos reservados."
+  },
+  "a11y": {
+    "skip_to_main": "Saltar al contenido principal",
+    "language_menu": "Abrir menú de idiomas",
+    "language": "Idioma"
+  },
+  "metrics": {
+    "heading": "Indicadores en tiempo real",
+    "price_btc": "Precio de BTC",
+    "total_sent": "Cantidad Total Enviada",
+    "total_claimed_amount": "Cantidad Total Recibida (USDT)",
+    "title": "Tokens y Estadísticas",
+    "groups": "Grupos Conectados",
+    "groupsLinkLabel": "Grupos de Sobre Rojo Conectados",
+    "sent": "Sobres Rojos Enviados",
+    "claimed": "Cantidad Total Reclamada",
+    "sort": {
+      "latest": "Más Reciente",
+      "oldest": "Más Antiguo",
+      "most": "Participantes Máximos",
+      "least": "Participantes Mínimos"
+    }
+  },
+  "errors": {
+    "stale": "Los datos pueden estar desactualizados",
+    "not_found": "Página no encontrada",
+    "not_found_desc": "Lo sentimos, no hemos podido encontrar esta página, o ha sido eliminada."
+  },
+  "pricing": {
+    "starter": "Plan Básico",
+    "pro": "Servicios Profesionales",
+    "enterprise": "Plan Empresarial",
+    "price_free": "Gratis",
+    "price_19": "19€",
+    "price_contact": "Contáctanos",
+    "sla_support": "SLA y Soporte",
+    "bullets": {
+      "starter": {
+        "0": "Funciones Básicas",
+        "1": "Soporte Comunitario"
+      },
+      "pro": {
+        "0": "Incluye Plan Básico",
+        "1": "Localización Avanzada"
+      },
+      "enterprise": {
+        "0": "SLA y Soporte",
+        "1": "Integración Personalizada"
+      }
+    }
+  },
+  "story": {
+    "belief_title": "🌕 La energía de la luna y la creencia en los sobres rojos",
+    "disclaimer_title": "⚠️ Descargo de responsabilidad",
+    "future_title": "💫 Aplicaciones futuras",
+    "schedule_title": "Reglas de liberación de tokens",
+    "secrets_title": "🌸 Su secreto",
+    "title": "🌕 La historia de moonini"
+  },
+  "waterfall": {
+    "claimed": "Reclamar",
+    "progress": "Reclamado",
+    "sent_from": "Envío en grupo:",
+    "total": "Monto total"
+  },
+  "seo": {
+    "og": {
+      "image": "/images/og-default.png",
+      "type": "sitio web"
+    },
+    "routes": {
+      "claim": {
+        "description": "La función de Sobre rojo de moonpacket admite varios tokens, incluidos SOL y USDT, y permite enviar tus propios tokens meme. Una herramienta poderosa para atraer nuevos usuarios y aumentar la participación en grupos de Telegram.",
+        "title": "Mini APP de Telegram Sobre rojo — moonpacket"
+      },
+      "privacy": {
+        "description": "La Política de Privacidad de moonpacket explica cómo recopilamos, usamos y protegemos tus datos personales.",
+        "title": "Política de privacidad — moonpacket"
+      },
+      "send": {
+        "description": "Utiliza moonpacket para enviar Sobres rojos, establecer condiciones de tarea e integraciones de API para atraer eficazmente a nuevos usuarios y mejorar la participación de usuarios valiosos.",
+        "title": "Enviar Sobre rojo — moonpacket"
+      },
+      "terms": {
+        "description": "Términos de servicio de moonpacket, directrices de uso y declaraciones legales.",
+        "title": "Términos de servicio — moonpacket"
+      },
+      "docs": {
+        "description": "Completar la documentación del proyecto, el libro blanco y las especificaciones técnicas",
+        "distribution": {
+          "description": "Completar las reglas de distribución y la descripción del sistema contable de $moonini",
+          "title": "Mecanismo de distribución de $moonini — moonpacket"
+        },
+        "litepaper": {
+          "description": "$moonini es un token de incentivo comunitario basado en la plataforma moonpacket. Aprende cómo ganar, usar e invertir en su valor.",
+          "title": "Litepaper de $moonini — moonpacket"
+        },
+        "missions": {
+          "description": "Completar la descripción del sistema de tareas y el mecanismo de logros",
+          "title": "Sistema de tareas de $moonini — moonpacket"
+        },
+        "technical": {
+          "description": "Completar las especificaciones técnicas del contrato inteligente de BSC y la guía de desarrollo",
+          "title": "Especificaciones técnicas de $moonini — moonpacket"
+        },
+        "title": "Centro de documentación — moonpacket",
+        "whitepaper": {
+          "description": "Completar la descripción de la tokenómica, la arquitectura técnica y el mecanismo de gobernanza de $moonini",
+          "title": "Libro blanco de $moonini — moonpacket"
+        }
+      }
+    },
+    "site": {
+      "description": "Bot de Telegram de Sobres rojos de criptomonedas de moonpacket | Soporta USDT, TON, SOL, ETH, DOGE. También puedes enviar Sobres rojos de tu propio token meme, ideal para atraer nuevos usuarios, crear un ambiente animado y aumentar la participación en comunidades de Telegram.",
+      "site_name": "moonpacket",
+      "title": "moonpacket — Sobres rojos de criptomonedas de tokens meme, wallet dedicada para Sobres rojos"
+    }
+  }
+}

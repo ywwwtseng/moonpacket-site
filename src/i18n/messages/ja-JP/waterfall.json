@@ -1,0 +1,27 @@
+{
+  "sent_from": "グループに送信：",
+  "claimed": "受け取る",
+  "total": "合計金額",
+  "progress": "すでに請求済み",
+  "groups_directory": {
+    "latest_tab": "最新のレッドパケットグループ",
+    "hot_tab": "人気のレッドパケットグループ",
+    "search_placeholder": "参加しているグループでキーワードを検索"
+  },
+  "marquee": {
+    "templates": {
+      "send": "💰 {user}が'{group}'で{amount} {ccy}のレッドパケットを発行しました！",
+      "claim": "🎯 {user}が{amount} {ccy}を受け取りました、ラッキーなプレイヤー！",
+      "topup": "🔥 グループオーナーの{user}が{amount} {ccy}を入金しました",
+      "system": "📢 {message}",
+      "achievement": "🥇 今日のラッキーなプレイヤー: @{user}（合計{amount} {ccy}）"
+    },
+    "fallback": [
+      "💰 ジョンが「ゲームギルドA」で100 USDTのレッドパケットを発行しました！",
+      "🎯 リサは3.5 USDTを獲得しました、彼女が一番の幸運者です！",
+      "🔥 グループオーナーのケンが2000 USDTを入金しました",
+      "📢 システムアップグレードが完了しました、SOLサポートを追加しました！",
+      "🥇 今日の一番の幸運者: @Mina (累積28.3 USDT)"
+    ]
+  }
+}

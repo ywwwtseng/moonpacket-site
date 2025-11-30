@@ -1,0 +1,108 @@
+---
+import { isRTL } from '@/i18n/rtl';
+
+interface Props {
+  lang: string;
+  sections: Array<{ id: string; title: string }>;
+  currentId?: string;
+  messages: any;
+}
+
+const { lang, sections, currentId, messages } = Astro.props as Props;
+const rtl = isRTL(lang);
+const tocTitle = messages.docs?.toc?.title || messages.docs?.whitepaper?.toc?.title || '目錄';
+---
+
+<details class="mobile-toc lg:hidden relative mb-4" dir={rtl ? 'rtl' : 'ltr'}>
+  <summary class="cursor-pointer py-2 px-4 bg-card-bg border border-card-ring rounded-lg hover:bg-card-ring transition-colors">
+    📑 {tocTitle}
+  </summary>
+  <nav class="mt-2 border border-card-ring rounded-lg bg-card-bg overflow-hidden">
+    <ul class="list-none m-0 p-2 space-y-1">
+      {sections.map((section) => (
+        <li>
+          <a 
+            href={`#${section.id}`}
+            class={`block px-2 py-1 hover:bg-black/5 rounded transition-colors ${currentId === section.id ? 'active' : ''}`}
+          >
+            {section.title}
+          </a>
+        </li>
+      ))}
+    </ul>
+  </nav>
+</details>
+
+<style>
+  .mobile-toc summary {
+    /* 使用 CSS 变量以支持日夜间模式 */
+    background-color: var(--card-bg);
+    border-color: var(--card-ring);
+    color: var(--text);
+    font-family: 'Sora', system-ui, sans-serif;
+    font-size: 0.875rem;
+    font-weight: 600;
+    list-style: none;
+  }
+
+  .mobile-toc summary::-webkit-details-marker {
+    display: none;
+  }
+
+  .mobile-toc summary::marker {
+    display: none;
+  }
+
+  .mobile-toc summary::before {
+    content: '▶';
+    display: inline-block;
+    margin-inline-end: 0.5rem;
+    transition: transform 0.2s ease;
+  }
+
+  .mobile-toc[open] summary::before {
+    transform: rotate(90deg);
+  }
+
+  .mobile-toc nav {
+    /* 使用 CSS 变量以支持日夜间模式 */
+    background-color: var(--card-bg);
+    border-color: var(--card-ring);
+  }
+
+  .mobile-toc a {
+    color: var(--text-subtle);
+    text-decoration: none;
+    display: block;
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+
+  .mobile-toc a:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+    color: var(--text);
+  }
+
+  :global([data-theme="dark"]) .mobile-toc a:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+  }
+
+  .mobile-toc a.active {
+    background-color: var(--card-ring);
+    color: var(--text);
+    font-weight: 600;
+  }
+
+  /* 桌面端隱藏 */
+  @media (min-width: 1024px) {
+    .mobile-toc {
+      display: none;
+    }
+  }
+
+  /* RTL 支持 */
+  [dir="rtl"] .mobile-toc summary::before {
+    margin-inline-end: 0;
+    margin-inline-start: 0.5rem;
+  }
+</style>
+

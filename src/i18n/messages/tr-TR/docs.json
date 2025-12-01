@@ -568,13 +568,13 @@
           {
             "title": "Tetikleyici olay: 'Talep Koşulları Kurulumu'na URL doldurulduğunda ve gönderildiğinde",
             "trigger": "GET ?user_id=...",
-            "request": "Operatörlerle (gt, eq, lt...) kural tanımayı döndürür",
+            "request": "GET <Endpoint>",
             "response": "Aşama 1: Kuralları Tanımla (Yapılandırma)"
           },
           {
             "title": "Aşama 2: Kullanıcıyı Doğrula (Çalışma Zamanı)",
             "trigger": "Olay tetikleme: kullanıcı Red Packet'i talep etmeye çalıştığında",
-            "request": "O belirli kullanıcının gerçek nitelik değerini döndürür (düz değer veya dize)",
+            "request": "GET <Endpoint>?user_id=...",
             "response": "Bu belirli kullanıcının gerçek özellik değerini döndürür (sade değer veya dize)"
           }
         ],

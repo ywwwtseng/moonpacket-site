@@ -568,13 +568,13 @@
           {
             "title": "Fas 1: Definiera regler (konfiguration)",
             "trigger": "Utlösande händelse: när URL:en fylls i 'Inställningar för ansökningsvillkor' och skickas",
-            "request": "GET",
+            "request": "GET <Endpoint>",
             "response": "Returnerar regeldefinitionens objekt med operatörer (gt, eq, lt...)"
           },
           {
             "title": "Fas 2: Validera användare (Körning)",
             "trigger": "Utlösande händelse: när användaren försöker göra anspråk på Red Packet",
-            "request": "GET ?user_id=...",
+            "request": "GET <Endpoint>?user_id=...",
             "response": "Returnerar det verkliga attributvärdet för den specifika användaren (rent värde eller sträng)"
           }
         ],

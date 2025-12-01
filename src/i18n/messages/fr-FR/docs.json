@@ -568,13 +568,13 @@
           {
             "title": "Phase un : définition des règles (Configuration)",
             "trigger": "Moment de déclenchement : lorsque l'URL est remplie et soumise dans les paramètres de conditions de réception",
-            "request": "GET",
+            "request": "GET <Endpoint>",
             "response": "Retourne un objet de définition de règles avec des opérateurs (gt, eq, lt...)"
           },
           {
             "title": "Phase deux : vérification de l'utilisateur (Runtime)",
             "trigger": "Moment de déclenchement : lorsque l'utilisateur essaie de réclamer le red packet.",
-            "request": "GET ?user_id=...",
+            "request": "GET <Endpoint>?user_id=...",
             "response": "Retourne les valeurs réelles des propriétés de cet utilisateur spécifique (valeur numérique pure ou chaîne)"
           }
         ],

@@ -568,13 +568,13 @@
           {
             "title": "Phase 1: Define Rules (Configuration)",
             "trigger": "Triggering event: when the URL is filled in the 'Claim Conditions Setup' and submitted",
-            "request": "GET",
+            "request": "GET <Endpoint>",
             "response": "Returns the rule definition object with operators (gt, eq, lt...)"
           },
           {
             "title": "Phase 2: Validate User (Runtime)",
             "trigger": "Triggering event: when the user attempts to claim the Red Packet",
-            "request": "GET ?user_id=...",
+            "request": "GET <Endpoint>?user_id=...",
             "response": "Returns the actual attribute value of that specific user (plain value or string)"
           }
         ],

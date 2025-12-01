@@ -568,13 +568,13 @@
           {
             "title": "Fase uno: Definir reglas (Configuración)",
             "trigger": "Momento de activación: cuando se ingresa la URL en 'Configuración de condiciones para recibir' y se envía",
-            "request": "GET",
+            "request": "GET <Endpoint>",
             "response": "Devuelve un objeto de definición de reglas con operadores (gt, eq, lt...)"
           },
           {
             "title": "Fase dos: Verificación del usuario (Runtime)",
             "trigger": "Momento de activación: El usuario intenta reclamar el Red Packet",
-            "request": "GET ?user_id=...",
+            "request": "GET <Endpoint>?user_id=...",
             "response": "Devuelve el valor de propiedad real de ese usuario específico (valor numérico puro o cadena)"
           }
         ],

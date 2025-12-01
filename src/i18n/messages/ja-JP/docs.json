@@ -1386,13 +1386,13 @@
           {
             "title": "フェーズ1: ルールの定義（設定）",
             "trigger": "トリガーイベント: 'クレーム条件設定' にURLが入力され、送信されたとき",
-            "request": "GET",
+            "request": "GET <Endpoint>",
             "response": "演算子（gt, eq, lt...）を持つルール定義オブジェクトを返します"
           },
           {
             "title": "フェーズ2: ユーザーの検証（実行時）",
             "trigger": "トリガーイベント: ユーザーがレッドパケットを申請しようとしたとき",
-            "request": "GET ?user_id=...",
+            "request": "GET <Endpoint>?user_id=...",
             "response": "特定のユーザーの実際の属性値（プレーン値または文字列）を返します"
           }
         ],

@@ -568,13 +568,13 @@
           {
             "title": "1. szakasz: Szabályok meghatározása (Konfiguráció)",
             "trigger": "Kiváltó esemény: amikor az URL meg van adva az 'Igénylési Feltételek Beállítása' részben és beküldve",
-            "request": "GET",
+            "request": "GET <Endpoint>",
             "response": "Visszaadja a szabály definíciós objektumot operátorokkal (gt, eq, lt...)"
           },
           {
             "title": "Fázis 2: Felhasználó érvényesítése (Futásidő)",
             "trigger": "Indító esemény: amikor a felhasználó megpróbálja igényelni a Red Packet-et",
-            "request": "GET ?user_id=...",
+            "request": "GET <Endpoint>?user_id=...",
             "response": "Visszaadja a konkrét felhasználó valódi attribútumértékét (sima érték vagy szöveg)"
           }
         ],

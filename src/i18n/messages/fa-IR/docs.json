@@ -568,13 +568,13 @@
           {
             "title": "مرحله اول: تعریف قوانین (پیکربندی)",
             "trigger": "موقعیت تریگر: هنگام ورود URL در 'تنظیم شرایط دریافت' و ارسال آن",
-            "request": "GET",
+            "request": "GET <Endpoint>",
             "response": "برگشت شیء تعریف قوانین با عملگرها (gt, eq, lt...)"
           },
           {
             "title": "مرحله دو: تأیید کاربر (Runtime)",
             "trigger": "زمان triggering: وقتی کاربر سعی در دریافت Red Packet دارد",
-            "request": "GET ?user_id=...",
+            "request": "GET <Endpoint>?user_id=...",
             "response": "بازگشت به ویژگی‌های واقعی آن کاربر خاص (عدد خالص یا رشته)"
           }
         ],

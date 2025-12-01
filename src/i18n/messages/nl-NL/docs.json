@@ -568,13 +568,13 @@
           {
             "title": "Fase 1: Definieer Regels (Configuratie)",
             "trigger": "Triggerende gebeurtenis: wanneer de URL is ingevuld in de 'Instelling van Claimvoorwaarden' en ingediend",
-            "request": "GET",
+            "request": "GET <Endpoint>",
             "response": "Geeft het regeldefinitie-object met operatoren (gt, eq, lt...) terug"
           },
           {
             "title": "Fase 2: Valideer Gebruiker (Runtime)",
             "trigger": "Triggering event: wanneer de gebruiker probeert de Red Packet te claimen",
-            "request": "GET ?user_id=...",
+            "request": "GET <Endpoint>?user_id=...",
             "response": "Geeft de werkelijke attribuutwaarde van die specifieke gebruiker terug (heldere waarde of string)"
           }
         ],

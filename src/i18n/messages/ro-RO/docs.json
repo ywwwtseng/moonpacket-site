@@ -568,13 +568,13 @@
           {
             "title": "Faza 1: Definirea Regulilor (Configurație)",
             "trigger": "Eveniment declanșator: când URL-ul este completat în 'Configurarea condițiilor de revendicare' și trimis",
-            "request": "GET",
+            "request": "GET <Endpoint>",
             "response": "Returnează obiectul definit de regulă cu operatori (gt, eq, lt...)"
           },
           {
             "title": "Faza 2: Validarea Utilizatorului (Runtime)",
             "trigger": "Declanșarea evenimentului: când utilizatorul încearcă să revendice Red Packet",
-            "request": "GET ?user_id=...",
+            "request": "GET <Endpoint>?user_id=...",
             "response": "Returnează valoarea atributului efectiv a acelui utilizator specific (valoare simplă sau șir)"
           }
         ],

@@ -568,13 +568,13 @@
           {
             "title": "Giai đoạn 1: Định nghĩa Quy tắc (Cấu hình)",
             "trigger": "Sự kiện kích hoạt: khi URL được điền vào 'Cài đặt Điều Kiện Yêu Cầu' và được gửi đi",
-            "request": "GET",
+            "request": "GET <Endpoint>",
             "response": "Trả về đối tượng định nghĩa quy tắc với các toán tử (gt, eq, lt...)"
           },
           {
             "title": "Giai đoạn 2: Xác thực người dùng (Thời gian chạy)",
             "trigger": "Sự kiện kích hoạt: khi người dùng cố gắng nhận lì xì",
-            "request": "GET ?user_id=...",
+            "request": "GET <Endpoint>?user_id=...",
             "response": "Trả về giá trị thuộc tính thực tế của người dùng cụ thể đó (giá trị nguyên hoặc chuỗi)"
           }
         ],

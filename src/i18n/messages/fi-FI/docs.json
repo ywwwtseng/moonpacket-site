@@ -568,13 +568,13 @@
           {
             "title": "Vaihe 1: Sääntöjen määrittäminen (Konfiguraatio)",
             "trigger": "Käynnistysohje: Syötä URL „vaatimusehdot“ ja lähetä se",
-            "request": "GET",
+            "request": "GET <Endpoint>",
             "response": "Palauta objekti, jossa on operaattorit (gt, eq, lt...) sääntöjen määrittelemiseksi"
           },
           {
             "title": "Vaihe 2: Käyttäjän vahvistaminen (Suorituskyky)",
             "trigger": "Käynnistysohje: Käyttäjä yrittää nostaa punakirin.",
-            "request": "GET ?user_id=...",
+            "request": "GET <Endpoint>?user_id=...",
             "response": "Palauta kyseisen käyttäjän todelliset ominaisuusarvot (puhdas numero tai merkkijono)"
           }
         ],

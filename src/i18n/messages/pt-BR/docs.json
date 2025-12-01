@@ -568,13 +568,13 @@
           {
             "title": "Fase 1: Definir Regras (Configuração)",
             "trigger": "Evento disparador: quando a URL é preenchida nas 'Configurações de Condições de Solicitação' e submetida",
-            "request": "GET",
+            "request": "GET <Endpoint>",
             "response": "Retorna o objeto de definição de regra com operadores (gt, eq, lt...)"
           },
           {
             "title": "Fase 2: Validar Usuário (Execução)",
             "trigger": "Evento acionador: quando o usuário tenta reivindicar o Red Packet",
-            "request": "GET ?user_id=...",
+            "request": "GET <Endpoint>?user_id=...",
             "response": "Retorna o valor real do atributo daquele usuário específico (valor simples ou string)"
           }
         ],

@@ -568,13 +568,13 @@
           {
             "title": "Faza 1: Zdefiniuj zasady (konfiguracja)",
             "trigger": "Zdarzenie wyzwalające: gdy URL jest wypełniony w 'Ustawieniach warunków roszczenia' i przesłany",
-            "request": "GET",
+            "request": "GET <Endpoint>",
             "response": "Zwraca obiekt definicji zasad z operatorami (gt, eq, lt...)"
           },
           {
             "title": "Faza 2: Weryfikacja użytkownika (Czas działania)",
             "trigger": "Zdarzenie wywołujące: gdy użytkownik próbuje odebrać Red Packet",
-            "request": "GET ?user_id=...",
+            "request": "GET <Endpoint>?user_id=...",
             "response": "Zwraca rzeczywistą wartość atrybutu tego konkretnego użytkownika (wartość prosta lub string)"
           }
         ],

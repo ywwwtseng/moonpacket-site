@@ -568,13 +568,13 @@
           {
             "title": "Fáze 1: definice pravidel (konfigurace)",
             "trigger": "Spouštěcí okamžik: když je zadán URL do „Nastavení podmínek“, a je odeslán",
-            "request": "GET",
+            "request": "GET <Endpoint>",
             "response": "vrátí objekt definice pravidel se znakem (gt, eq, lt...)"
           },
           {
             "title": "Fáze 2: Ověření uživatele (Runtime)",
             "trigger": "Spouštěcí podmínka: Uživatel se pokouší vybrat Red Packet",
-            "request": "GET ?user_id=...",
+            "request": "GET <Endpoint>?user_id=...",
             "response": "vrátí skutečné hodnoty atributů tohoto konkrétního uživatele (čisté číselné nebo řetězcové)"
           }
         ],

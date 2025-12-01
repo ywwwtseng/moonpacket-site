@@ -568,13 +568,13 @@
           {
             "title": "1단계: 규칙 정의(구성)",
             "trigger": "트리거 이벤트: URL이 '청구 조건 설정'에 입력되고 제출되었을 때",
-            "request": "GET",
+            "request": "GET <Endpoint>",
             "response": "연산자(greater than, equal, less than...)가 포함된 규칙 정의 객체를 반환합니다."
           },
           {
             "title": "2단계: 사용자 검증(실행 시간)",
             "trigger": "트리거 이벤트: 사용자가 레드패킷을 청구하려고 시도할 때",
-            "request": "GET ?user_id=...",
+            "request": "GET <Endpoint>?user_id=...",
             "response": "특정 사용자의 실제 속성 값을 반환합니다(일반값 또는 문자열)"
           }
         ],

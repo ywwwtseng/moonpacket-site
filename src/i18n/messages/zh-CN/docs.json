@@ -1386,13 +1386,13 @@
           {
             "title": "阶段一：定义规则 (Configuration)",
             "trigger": "触发时机：在「领取条件设定」填入 URL 并提交时",
-            "request": "GET",
+            "request": "GET <Endpoint>",
             "response": "返回带有运算符 (gt, eq, lt...) 的规则定义物件"
           },
           {
             "title": "阶段二：验证用户 (Runtime)",
             "trigger": "触发时机：用户尝试领取红包时",
-            "request": "GET ?user_id=...",
+            "request": "GET <Endpoint>?user_id=...",
             "response": "返回该特定用户的实际属性值 (纯数值或字符串)"
           }
         ],

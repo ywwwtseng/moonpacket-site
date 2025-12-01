@@ -568,13 +568,13 @@
           {
             "title": "Fase 1: Definire Regole (Configurazione)",
             "trigger": "Evento scatenante: quando l'URL è compilato nella 'Impostazione delle Condizioni di Rivendicazione' e inviato",
-            "request": "GET",
+            "request": "GET <Endpoint>",
             "response": "Restituisce l'oggetto di definizione della regola con operatori (gt, eq, lt...)"
           },
           {
             "title": "Fase 2: Convalida utente (Runtime)",
             "trigger": "Evento attivante: quando l'utente tenta di richiedere il Red Packet",
-            "request": "GET ?user_id=...",
+            "request": "GET <Endpoint>?user_id=...",
             "response": "Restituisce il valore effettivo dell'attributo di quell'utente specifico (valore semplice o stringa)"
           }
         ],

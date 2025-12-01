@@ -568,13 +568,13 @@
           {
             "title": "Phase 1: Regeln definieren (Konfiguration)",
             "trigger": "Auslösemoment: Wenn die URL in die 'Bedingungen zum Einfordern' eingegeben und übermittelt wird",
-            "request": "GET",
+            "request": "GET <Endpoint>",
             "response": "Gibt Regeln mit Operatoren (gt, eq, lt...) zurück"
           },
           {
             "title": "Stufe 2: Benutzervalidierung (Laufzeit)",
             "trigger": "Auslösemoment: Benutzer versucht, ein Red Packet zu beanspruchen",
-            "request": "GET ?user_id=...",
+            "request": "GET <Endpoint>?user_id=...",
             "response": "Gibt den tatsächlichen Attributwert (reine Zahl oder String) des spezifischen Benutzers zurück"
           }
         ],

@@ -16,7 +16,7 @@ concurrency:
 
 env:
   # 預設為新公開倉庫的 GitHub Pages 基址；可在 workflow_dispatch 時覆寫
-  SITE: https://ywwwtseng.github.io/moonpacket-site/
+  SITE: https://moonpacket.com
   # 自訂網域：會在產物根寫入 CNAME，GH Pages 會自動採用
   CNAME: moonpacket.com
 

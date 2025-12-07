@@ -360,39 +360,5 @@ function toLines(value: any): string[] {
     </Section>
 
     <!-- FAQ 結構化資料 (SEO) -->
-    <script
-      type="application/ld+json"
-      set:html={JSON.stringify({
-        '@context': 'https://schema.org',
-        '@type': 'FAQPage',
-        mainEntity: [
-          {
-            '@type': 'Question',
-            name: claimMessages?.faq?.q1_title,
-            acceptedAnswer: { '@type': 'Answer', text: claimMessages?.faq?.q1_body?.[0] },
-          },
-          {
-            '@type': 'Question',
-            name: claimMessages?.faq?.q2_title,
-            acceptedAnswer: { '@type': 'Answer', text: claimMessages?.faq?.q2_body?.[0] },
-          },
-          {
-            '@type': 'Question',
-            name: claimMessages?.faq?.q3_title,
-            acceptedAnswer: { '@type': 'Answer', text: claimMessages?.faq?.q3_body?.[0] },
-          },
-          {
-            '@type': 'Question',
-            name: claimMessages?.faq?.q4_title,
-            acceptedAnswer: { '@type': 'Answer', text: claimMessages?.faq?.q4_body?.[0] },
-          },
-          {
-            '@type': 'Question',
-            name: claimMessages?.faq?.q5_title,
-            acceptedAnswer: { '@type': 'Answer', text: claimMessages?.faq?.q5_body?.[0] },
-          },
-        ],
-      })}
-    />
   </main>
 </BaseLayout>

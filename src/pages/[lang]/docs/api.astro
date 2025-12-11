@@ -37,6 +37,16 @@ const md = (text: string) => {
   return processed;
 };
 
+// NEW: Convert spaces to &nbsp; to preserve formatting in HTML
+const preserveSpaces = (text: string) => {
+  return text
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/ /g, '&nbsp;')
+    .replace(/\n/g, '<br/>');
+};
+
 console.log('[API Page] Rendering for lang:', lang);
 
 const reqModeA = `GET /check HTTP/1.1
@@ -49,7 +59,8 @@ X-API-SIGNATURE: 5d41402abc4b2a76b9719d911017c592...
 
 # No user_id = Get Rules`;
 
-const resModeA = String.raw`{
+// Generate JSON and preserve spaces
+const resModeAObj = {
   "data": {
     "level": {
       "gt": 99
@@ -61,11 +72,9 @@ const resModeA = String.raw`{
       "eq": false
     }
   }
-}`;
-const resModeALines = resModeA.split('\n').map((line) => {
-  const match = line.match(/^(\s*)(.*)$/) || ['', '', line];
-  return { indent: (match[1] || '').length, text: match[2] || '' };
-});
+};
+const resModeA = JSON.stringify(resModeAObj, null, 2);
+const resModeAHtml = preserveSpaces(resModeA);
 
 const reqModeB = `GET /check?user_id=666666666 HTTP/1.1
 Host: api.your-game.com
@@ -117,17 +126,15 @@ function verifySignature(
 const isValid = verifySignature(apiSecret, body, timestamp, nonce, signature);
 console.log("Is Valid:", isValid);`;
 
-const resModeB = String.raw`{
+const resModeBObj = {
   "data": {
     "level": 100,
     "status": "active",
     "is_blacklist": false
   }
-}`;
-const resModeBLines = resModeB.split('\n').map((line) => {
-  const match = line.match(/^(\s*)(.*)$/) || ['', '', line];
-  return { indent: (match[1] || '').length, text: match[2] || '' };
-});
+};
+const resModeB = JSON.stringify(resModeBObj, null, 2);
+const resModeBHtml = preserveSpaces(resModeB);
 
 const tsDefs = `// Step 1: Rules Definition
 interface RulesResponse {
@@ -206,7 +213,7 @@ interface UserStatusResponse {
           user: apiDocs.content?.diagram?.user || "User",
           moonpacket: "moonpacket",
           dev_api: apiDocs.content?.diagram?.dev_api || "Developer API",
-          step1: apiDocs.content?.diagram?.step1 || "Query Rules", // Fallback for safety
+          step1: apiDocs.content?.diagram?.step1 || "Query Rules",
           step2: apiDocs.content?.diagram?.step2 || "Query Status",
           click: apiDocs.content?.diagram?.click || "Click",
           check: apiDocs.content?.diagram?.check || "Logic Check",
@@ -250,16 +257,6 @@ interface UserStatusResponse {
       </div>
     </section>
 
-    <style>
-      :global(.api-json) {
-        white-space: pre;
-        text-align: left;
-        margin: 0;
-        display: inline-block;
-        min-width: 1px;
-      }
-    </style>
-
     <!-- 3. Scenarios -->
     <section id="scenarios">
       <h2 class="text-3xl md:text-4xl font-bold text-[var(--text)] mb-12 text-center">{apiDocs.content?.scenarios?.title}</h2>
@@ -300,13 +297,13 @@ interface UserStatusResponse {
                 <pre class="p-4 text-xs font-mono text-gray-300 leading-relaxed overflow-x-auto"><code>{reqModeA}</code></pre>
              </div>
 
-             <!-- Response -->
+             <!-- Response - Using set:html with preserved spaces -->
              <div class="relative bg-[#1e1e1e] rounded-xl border border-[var(--card-ring)] overflow-hidden shadow-lg">
                 <div class="flex items-center px-4 py-2 bg-[#2d2d2d] border-b border-[var(--card-ring)]">
                     <div class="text-xs text-green-400 font-mono">{apiDocs.labels?.response || 'response'} (200 OK)</div>
                 </div>
                 <div class="px-6 py-4 flex justify-start overflow-auto">
-                  <pre class="api-json text-xs font-mono text-gray-200 leading-7"><code>{resModeA}</code></pre>
+                  <code class="text-xs font-mono text-gray-200 leading-7" set:html={resModeAHtml}></code>
                 </div>
              </div>
           </div>
@@ -330,13 +327,13 @@ interface UserStatusResponse {
                 <pre class="p-4 text-xs font-mono text-gray-300 leading-relaxed overflow-x-auto"><code>{reqModeB}</code></pre>
              </div>
 
-             <!-- Response -->
+             <!-- Response - Using set:html with preserved spaces -->
              <div class="relative bg-[#1e1e1e] rounded-xl border border-[var(--card-ring)] overflow-hidden shadow-lg">
                 <div class="flex items-center px-4 py-2 bg-[#2d2d2d] border-b border-[var(--card-ring)]">
                     <div class="text-xs text-green-400 font-mono">{apiDocs.labels?.response || 'response'} (200 OK)</div>
                 </div>
                 <div class="px-6 py-4 flex justify-start overflow-auto">
-                  <pre class="api-json text-xs font-mono text-gray-200 leading-7"><code>{resModeB}</code></pre>
+                  <code class="text-xs font-mono text-gray-200 leading-7" set:html={resModeBHtml}></code>
                 </div>
              </div>
           </div>

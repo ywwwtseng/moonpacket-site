@@ -360,6 +360,7 @@
     "latest": "最新群组",
     "hot": "热门群组"
   },
+  "ticker_label": "即时动态",
   "search_placeholder": "搜寻群组…",
   "ticker_templates": {
     "SEND": "{actor} 在 {group} 发送了 {amount} {unit} 的红包",

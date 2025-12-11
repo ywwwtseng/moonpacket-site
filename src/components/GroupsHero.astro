@@ -40,6 +40,14 @@ const {
 } = Astro.props as Props;
 
 const isEN = lang === 'en-US';
+const badgeTopLabel =
+  claimMessages?.badges?.top ||
+  claimMessages?.tabs?.hot ||
+  (lang?.startsWith('zh') ? '第一' : 'TOP');
+const badgeHotLabel =
+  claimMessages?.badges?.hot ||
+  claimMessages?.tabs?.hot ||
+  (lang?.startsWith('zh') ? '熱門' : 'HOT');
 
 // label helpers - 使用 claimMessages 中的 i18n 数据
 function labelMembers(): string {
@@ -78,20 +86,45 @@ const initialSlice = initialData.slice(startIndex, startIndex + itemsPerPage);
 
 const initialTotalItems = initialData.length;
 const initialTotalPages = Math.ceil(initialTotalItems / itemsPerPage);
+
+const tickerLabel =
+  claimMessages?.ticker_label ||
+  claimMessages?.tabs?.latest ||
+  claimMessages?.tabs?.hot ||
+  (lang?.startsWith('zh') ? '即時動態' : 'Live feed');
 ---
 
-<section id="hero" class="mx-auto max-w-6xl px-4 py-6">
-  <div class="flex flex-col gap-4">
+<section id="hero" class="mx-auto w-full max-w-6xl px-4 py-8 md:py-12">
+  <div class="flex flex-col gap-6">
     <div class="rounded-2xl bg-white ring-1 ring-black/5 shadow-sm p-0 overflow-hidden">
       <!-- 跑馬燈 -->
-      <div class="relative w-full whitespace-nowrap text-sm">
-        <div class="marquee flex items-center gap-8 px-4 py-2" data-marquee>
-          {tickerEvents.map((ev) => <span>{formatTicker(ev)}</span>)}
+      {tickerEvents.length > 0 && (
+        <div class="ticker-bar relative w-full border-b border-black/5 overflow-hidden">
+          <div class="absolute inset-y-0 left-0 w-20 pointer-events-none bg-gradient-to-r from-[#0a1a30] to-transparent" aria-hidden="true"></div>
+          <div class="absolute inset-y-0 right-0 w-20 pointer-events-none bg-gradient-to-l from-[#0a1a30] to-transparent" aria-hidden="true"></div>
+          <div class="flex items-center gap-3 px-4 py-2.5 text-sm">
+            <div class="ticker-chip inline-flex items-center gap-2 px-3 py-1 rounded-full text-[11px] font-semibold uppercase tracking-[0.14em] text-[#ffba00] bg-white/10 shadow-[0_0_0_1px_rgba(255,186,0,0.35)]">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="drop-shadow">
+                <path d="M13 2L3 14h7l-1 8 10-12h-7l1-8Z"></path>
+              </svg>
+              <span>{tickerLabel}</span>
+            </div>
+            <div class="flex-1 min-w-0 overflow-hidden">
+              <div class="marquee flex items-center gap-8 py-0.5" data-marquee>
+                {tickerEvents.map((ev) => (
+                  <span class="ticker-item inline-flex items-center gap-2 text-white/90">
+                    <span class="h-1.5 w-1.5 rounded-full bg-[#ffba00] shadow-[0_0_0_4px_rgba(255,186,0,0.18)]"></span>
+                    <span class="text-white font-medium">{formatTicker(ev)}</span>
+                  </span>
+                ))}
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
+      )}
 
       <!-- tabs + search -->
-      <div class="flex flex-wrap items-center justify-between gap-3 px-4 pb-4 pt-3">
+      <div class="flex flex-wrap items-center justify-between gap-3 px-4 pb-4 pt-4">
         <div class="inline-flex rounded-lg bg-black/5 p-1" role="tablist" aria-label="groups-sort">
           <button
             type="button"
@@ -124,75 +157,140 @@ const initialTotalPages = Math.ceil(initialTotalItems / itemsPerPage);
               height="16"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
-              class="absolute left-2 top-1/2 -translate-y-1/2"
+              class="absolute left-2 top-1/2 -translate-y-1/2 pointer-events-none"
               focusable="false"
+              data-search-icon
             >
               <path
                 fill="#6B7280"
                 d="M10 4a6 6 0 104.472 10.028l4.75 4.75 1.415-1.415-4.75-4.75A6 6 0 0010 4zm0 2a4 4 0 110 8 4 4 0 010-8z"
               ></path>
             </svg>
+            <svg
+              aria-hidden="true"
+              width="16"
+              height="16"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+              class="absolute left-2 top-1/2 -translate-y-1/2 pointer-events-none hidden animate-spin"
+              focusable="false"
+              data-search-loading
+            >
+              <circle cx="12" cy="12" r="10" stroke="#6B7280" stroke-width="3" fill="none" opacity="0.25"/>
+              <path fill="#6B7280" d="M12 2a10 10 0 0 1 10 10h-3a7 7 0 0 0-7-7V2z"/>
+            </svg>
             <input
               id="q"
-              type="search"
+              type="text"
               inputmode="search"
               placeholder={claimMessages?.search_placeholder}
-              class="w-[220px] md:w-[280px] pl-7 pr-3 py-2 rounded-md border border-black/10 bg-white text-sm outline-none focus:ring-2 focus:ring-primary/30"
+              class="w-[240px] md:w-[300px] pl-7 pr-8 py-2 rounded-md border border-black/10 bg-white text-sm outline-none focus:ring-2 focus:ring-primary/30 transition-colors"
             />
+            <button
+              type="button"
+              data-clear-search
+              class="absolute right-2 top-1/2 -translate-y-1/2 p-0.5 rounded hover:bg-black/5 transition-colors hidden"
+              aria-label="Clear search"
+            >
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M18 6L6 18M6 6l12 12" stroke="#6B7280" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </button>
           </div>
         </div>
       </div>
 
       <!-- 卡片 grid：初始渲染 latest 第 1 頁 -->
-      <div id="group-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 px-4">
+      <div id="group-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 items-stretch gap-4 px-4">
         {
-          initialSlice.map((g) => (
+          initialSlice.map((g, idx) => {
+            const isHot = initialTab === 'hot' && idx < 3;
+            const isVeryHot = initialTab === 'hot' && idx === 0;
+
+            return (
             <a
               href={g.link}
               target="_blank"
               rel="noopener noreferrer"
-              class="packet block rounded-2xl overflow-hidden ring-1 ring-black/20 hover:shadow transition-shadow outline-none focus-visible:ring-2 focus-visible:ring-[#FFBA00]"
+              class={`packet-card group block rounded-2xl overflow-hidden transition-all duration-300 outline-none focus-visible:ring-2 focus-visible:ring-[#FFBA00] h-full flex flex-col ${isVeryHot ? 'very-hot' : isHot ? 'hot' : ''}`}
             >
               <div class="lid relative px-4 pt-3 pb-2 flex items-center justify-between">
-                <div class="min-w-0">
+                <div class="min-w-0 flex-1">
                   <div class="flex items-center gap-2 text-sm font-semibold truncate">
-                    <span>{g.name}</span>
+                    {/* 熱門標籤 */}
+                    {isVeryHot && (
+                      <span class="inline-flex items-center gap-1 px-2 py-1 rounded-md text-[11px] font-extrabold bg-gradient-to-r from-yellow-300 via-yellow-400 to-orange-500 text-white shadow-lg animate-pulse" style="text-shadow: 0 1px 2px rgba(0,0,0,0.3);">
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" class="drop-shadow-md">
+                          <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/>
+                        </svg>
+                        {badgeTopLabel}
+                      </span>
+                    )}
+                    {isHot && !isVeryHot && (
+                      <span class="inline-flex items-center gap-1 px-2 py-1 rounded-md text-[11px] font-extrabold bg-gradient-to-r from-orange-400 via-red-500 to-red-600 text-white shadow-md" style="text-shadow: 0 1px 2px rgba(0,0,0,0.3);">
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" class="drop-shadow-sm">
+                          <path d="M12.5 2C12.5 2 9.5 6 9.5 9.5C9.5 11.99 11.51 14 14 14C16.49 14 18.5 11.99 18.5 9.5C18.5 6 15.5 2 15.5 2C15.5 2 14.8 3.5 14 5C13 3 12.5 2 12.5 2Z"/>
+                        </svg>
+                        {badgeHotLabel}
+                      </span>
+                    )}
+                    <span class="truncate">{g.name}</span>
                   </div>
                   <div
-                    class="text-xs text-white/90 mt-0.5"
+                    class="text-xs text-white/90 mt-0.5 flex items-center gap-1.5"
                     set:html={
-                      claimMessages?.groups?.owner_label?.replace('{handle}', g.owner) ||
-                      `${claimMessages?.groups?.owner}${g.owner}`
+                      `<svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" class="opacity-70 flex-shrink-0"><path d="M12 12C14.21 12 16 10.21 16 8C16 5.79 14.21 4 12 4C9.79 4 8 5.79 8 8C8 10.21 9.79 12 12 12ZM12 14C9.33 14 4 15.34 4 18V20H20V18C20 15.34 14.67 14 12 14Z"/></svg>` +
+                      (claimMessages?.groups?.owner_label?.replace('{handle}', g.owner) ||
+                      `${claimMessages?.groups?.owner}${g.owner}`)
                     }
                   />
                 </div>
                 <div class="seal" aria-hidden="true" />
               </div>
 
-              <div class="body px-4 pb-2 pt-1">
+              <div class="body px-4 pb-3 pt-1">
                 <div class="grid grid-cols-3 gap-2 text-center">
-                  <div class="stat-box rounded-md p-2">
-                    <div class="text-[10px] text-white">{labelMembers()}</div>
-                    <div class="num num-hero whitespace-nowrap">{g.members}</div>
+                  <div class="stat-box rounded-lg p-2 transition-all duration-200 group-hover:bg-white/10">
+                    <div class="flex items-center justify-center gap-1 mb-1">
+                      <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" class="text-white/70">
+                        <path d="M16 11C17.66 11 18.99 9.66 18.99 8C18.99 6.34 17.66 5 16 5C14.34 5 13 6.34 13 8C13 9.66 14.34 11 16 11ZM8 11C9.66 11 10.99 9.66 10.99 8C10.99 6.34 9.66 5 8 5C6.34 5 5 6.34 5 8C5 9.66 6.34 11 8 11ZM8 13C5.67 13 1 14.17 1 16.5V19H15V16.5C15 14.17 10.33 13 8 13ZM16 13C15.71 13 15.38 13.02 15.03 13.05C16.19 13.89 17 15.02 17 16.5V19H23V16.5C23 14.17 18.33 13 16 13Z"/>
+                      </svg>
+                      <div class="text-[10px] text-white/80 font-medium">{labelMembers()}</div>
+                    </div>
+                    <div class="num num-hero whitespace-nowrap font-bold">{g.members}</div>
                   </div>
-                  <div class="stat-box rounded-md p-2">
-                    <div class="text-[10px] text-white">{labelTotalSent()}</div>
-                    <div class="num num-hero whitespace-nowrap">{g.totalSent}</div>
+                  <div class="stat-box rounded-lg p-2 transition-all duration-200 group-hover:bg-white/10">
+                    <div class="flex items-center justify-center gap-1 mb-1">
+                      <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" class="text-white/70">
+                        <path d="M11.8 10.9C9.53 10.31 8.8 9.7 8.8 8.75C8.8 7.66 9.81 6.9 11.5 6.9C13.28 6.9 13.94 7.75 14 9H16.21C16.14 7.28 15.09 5.7 13 5.19V3H10V5.16C8.06 5.58 6.5 6.84 6.5 8.77C6.5 11.08 8.41 12.23 11.2 12.9C13.7 13.5 14.2 14.38 14.2 15.31C14.2 16 13.71 17.1 11.5 17.1C9.44 17.1 8.63 16.18 8.52 15H6.32C6.44 17.19 8.08 18.42 10 18.83V21H13V18.85C14.95 18.48 16.5 17.35 16.5 15.3C16.5 12.46 14.07 11.49 11.8 10.9Z"/>
+                      </svg>
+                      <div class="text-[10px] text-white/80 font-medium">{labelTotalSent()}</div>
+                    </div>
+                    <div class="num num-hero whitespace-nowrap font-bold">{g.totalSent}</div>
                   </div>
-                  <div class="stat-box rounded-md p-2">
-                    <div class="text-[10px] text-white">{labelThisPeriod()}</div>
-                    <div class="num num-hero whitespace-nowrap">{g.periodSent}</div>
+                  <div class="stat-box rounded-lg p-2 transition-all duration-200 group-hover:bg-white/10">
+                    <div class="flex items-center justify-center gap-1 mb-1">
+                      <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" class="text-white/70">
+                        <path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM12 20C7.59 20 4 16.41 4 12C4 7.59 7.59 4 12 4C16.41 4 20 7.59 20 12C20 16.41 16.41 20 12 20ZM12.5 7H11V13L16.25 16.15L17 14.92L12.5 12.25V7Z"/>
+                      </svg>
+                      <div class="text-[10px] text-white/80 font-medium">{labelThisPeriod()}</div>
+                    </div>
+                    <div class="num num-hero whitespace-nowrap font-bold">{g.periodSent}</div>
                   </div>
                 </div>
               </div>
+
+              {/* 卡片底部漸層效果 */}
+              <div class="card-shine absolute inset-0 pointer-events-none opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
             </a>
-          ))
+            );
+          })
         }
       </div>
 
       <!-- 分頁列 -->
-      <div class="flex items-center justify-between mt-3 px-4 pb-4">
-        <div class="text-xs text-textSubtle" data-page-info>
+      <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 mt-3 px-4 pb-4 pt-3 border-t border-black/5">
+        <div class="text-xs md:text-sm text-textSubtle" data-page-info>
           {
             isEN
               ? `${initialTotalItems} groups (Page ${initialPage} / ${initialTotalPages})`
@@ -204,30 +302,29 @@ const initialTotalPages = Math.ceil(initialTotalItems / itemsPerPage);
           <button
             type="button"
             data-prev
-            class="px-2 py-1 rounded border border-black/10 bg-white text-sm"
+            class="px-3 py-1.5 md:px-4 md:py-2 rounded-md border border-black/10 bg-white text-sm font-medium hover:bg-black/5 hover:border-black/20 active:scale-95 transition-all disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:bg-white"
           >
             {claimMessages?.pagination?.prev || (isEN ? 'Prev' : '上一頁')}
           </button>
           <button
             type="button"
             data-next
-            class="px-2 py-1 rounded border border-black/10 bg-white text-sm"
+            class="px-3 py-1.5 md:px-4 md:py-2 rounded-md border border-black/10 bg-white text-sm font-medium hover:bg-black/5 hover:border-black/20 active:scale-95 transition-all disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:bg-white"
           >
             {claimMessages?.pagination?.next || (isEN ? 'Next' : '下一頁')}
           </button>
         </div>
       </div>
-    </div>
-
-    <div>
-      <a
-        href={botUrl}
-        class="btn btn-primary inline-flex items-center gap-2"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        {claimMessages?.cta_launch}
-      </a>
+      <div class="px-4 pb-4 pt-3 border-t border-black/5 bg-black/[0.02]">
+        <a
+          href={botUrl}
+          class="btn btn-primary w-full sm:w-auto inline-flex items-center justify-center gap-2"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {claimMessages?.cta_launch}
+        </a>
+      </div>
     </div>
   </div>
 </section>
@@ -250,10 +347,29 @@ const initialTotalPages = Math.ceil(initialTotalItems / itemsPerPage);
     }
   }
   .marquee {
-    animation: marquee-x 14s linear infinite;
+    animation: marquee-x 10s linear infinite;
+    transition: animation-play-state 0.2s ease;
   }
   [dir='rtl'] .marquee {
-    animation: marquee-x-rtl 14s linear infinite;
+    animation: marquee-x-rtl 10s linear infinite;
+  }
+  .marquee:hover {
+    animation-play-state: paused;
+  }
+
+  .ticker-bar {
+    background: radial-gradient(circle at 15% 50%, rgba(255, 255, 255, 0.08), transparent 40%),
+      radial-gradient(circle at 85% 40%, rgba(255, 186, 0, 0.15), transparent 45%),
+      linear-gradient(90deg, #0f284e 0%, #0c1f3a 50%, #0f284e 100%);
+    color: #fff;
+    box-shadow:
+      inset 0 -1px 0 rgba(255, 255, 255, 0.05),
+      0 6px 18px rgba(0, 0, 0, 0.25);
+  }
+
+  .ticker-item {
+    filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.25));
+    white-space: nowrap;
   }
 
   .num-hero {
@@ -279,51 +395,167 @@ const initialTotalPages = Math.ceil(initialTotalItems / itemsPerPage);
   }
 
   /* Default: dark theme packet */
-  .packet {
-    background: #0c1e3a;
+  :global(.packet-card) {
+    background: radial-gradient(circle at 20% 20%, rgba(255, 255, 255, 0.04), rgba(12, 30, 58, 0)) #0d1f38;
     color: #fff;
-    box-shadow: 0 6px 16px rgba(227, 37, 33, 0.15);
+    position: relative;
+    border: 1.5px solid rgba(255, 255, 255, 0.22);
+    box-shadow:
+      0 0 0 1px rgba(255, 186, 0, 0.12),
+      0 6px 14px rgba(0, 0, 0, 0.18),
+      0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Hot cards with animated gradient border */
+  :global(.packet-card.hot) {
+    background: linear-gradient(135deg, #1a2f4d 0%, #0f1f35 100%);
+    box-shadow:
+      0 6px 18px rgba(255, 140, 0, 0.22),
+      0 0 14px rgba(255, 140, 0, 0.12),
+      inset 0 1px 1px rgba(255, 186, 0, 0.1);
+    border: 2px solid rgba(255, 140, 0, 0.85);
+  }
+
+  :global(.packet-card.very-hot) {
+    background: linear-gradient(135deg, #2a3f5d 0%, #1a2f4d 100%);
+    box-shadow:
+      0 8px 22px rgba(255, 215, 0, 0.35),
+      0 0 20px rgba(255, 215, 0, 0.18),
+      inset 0 1px 2px rgba(255, 215, 0, 0.14);
+    border: 2.5px solid rgba(255, 215, 0, 0.9);
+    animation: pulse-glow 2s ease-in-out infinite;
+  }
+
+  @keyframes pulse-glow {
+    0%, 100% {
+      box-shadow:
+        0 7px 20px rgba(255, 215, 0, 0.32),
+        0 0 20px rgba(255, 215, 0, 0.16),
+        inset 0 1px 2px rgba(255, 215, 0, 0.12);
+      border-color: rgba(255, 215, 0, 0.7);
+    }
+    50% {
+      box-shadow:
+        0 8px 26px rgba(255, 215, 0, 0.46),
+        0 0 26px rgba(255, 215, 0, 0.26),
+        inset 0 1px 3px rgba(255, 215, 0, 0.18);
+      border-color: rgba(255, 215, 0, 0.85);
+    }
+  }
+
+  /* Card shine effect on hover */
+  :global(.card-shine) {
+    background: linear-gradient(
+      135deg,
+      transparent 0%,
+      rgba(255, 255, 255, 0.05) 45%,
+      rgba(255, 255, 255, 0.1) 50%,
+      rgba(255, 255, 255, 0.05) 55%,
+      transparent 100%
+    );
   }
 
   /* Light theme packet */
-  [data-theme='light'] .packet {
+  :global([data-theme='light'] .packet-card) {
     background: #ffffff !important;
     color: #0c1e3a !important;
-    box-shadow: 0 6px 16px rgba(12, 30, 58, 0.08) !important;
+    box-shadow: 0 6px 14px rgba(12, 30, 58, 0.08) !important;
+    border: 1.5px solid rgba(12, 30, 58, 0.14) !important;
+  }
+
+  :global([data-theme='light'] .packet-card.hot) {
+    box-shadow: 0 6px 14px rgba(255, 140, 0, 0.16) !important;
+    border-color: rgba(255, 140, 0, 0.58) !important;
+  }
+
+  :global([data-theme='light'] .packet-card.very-hot) {
+    box-shadow: 0 7px 18px rgba(255, 215, 0, 0.2) !important;
+    border-color: rgba(255, 215, 0, 0.62) !important;
+  }
+
+  @keyframes pulse-glow-light {
+    0%, 100% {
+      box-shadow: 0 8px 24px rgba(255, 215, 0, 0.2) !important;
+    }
+    50% {
+      box-shadow: 0 8px 32px rgba(255, 215, 0, 0.3) !important;
+    }
+  }
+
+  :global([data-theme='light'] .packet-card.very-hot) {
+    animation: pulse-glow-light 2s ease-in-out infinite;
   }
 
   /* Light theme: force stat-box background and text color */
-  [data-theme='light'] .packet .stat-box {
+  :global([data-theme='light'] .packet-card .stat-box) {
     background: rgba(12, 30, 58, 0.04) !important;
   }
 
-  [data-theme='light'] .packet .stat-box .text-white {
+  :global([data-theme='light'] .packet-card .stat-box .text-white),
+  :global([data-theme='light'] .packet-card .stat-box .text-white\/80),
+  :global([data-theme='light'] .packet-card .stat-box .text-white\/70) {
     color: #6a6f76 !important;
   }
 
-  [data-theme='light'] .packet .text-white\/90 {
+  :global([data-theme='light'] .packet-card .text-white\/90) {
     color: rgba(106, 111, 118, 0.9) !important;
   }
 
   /* Seal in light theme */
-  [data-theme='light'] .packet .seal {
+  :global([data-theme='light'] .packet-card .seal) {
     box-shadow: 0 0 0 3px rgba(255, 186, 0, 0.2) inset !important;
   }
 
-  .packet .lid {
+  :global(.packet-card .lid) {
     position: relative;
   }
 
-  .packet .seal {
-    width: 20px;
-    height: 20px;
+  :global(.packet-card .seal) {
+    width: 22px;
+    height: 22px;
     border-radius: 50%;
-    background: #ffba00;
-    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.1) inset;
+    background: linear-gradient(135deg, #ffd700 0%, #ffba00 50%, #ff8c00 100%);
+    box-shadow:
+      0 0 0 3px rgba(0, 0, 0, 0.2) inset,
+      0 2px 8px rgba(255, 186, 0, 0.4),
+      0 0 12px rgba(255, 186, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
 
-  .stat-box {
-    background: rgba(255, 255, 255, 0.06);
+  :global(.packet-card:hover .seal) {
+    transform: scale(1.2) rotate(180deg);
+    box-shadow:
+      0 0 0 2.5px rgba(255, 186, 0, 0.3) inset,
+      0 2px 10px rgba(255, 186, 0, 0.42),
+      0 0 12px rgba(255, 186, 0, 0.32);
+  }
+
+  :global(.packet-card .stat-box) {
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+  }
+
+  /* 增強卡片整體 hover 效果 */
+  :global(.packet-card:hover) {
+    transform: translateY(-4px) scale(1.02);
+    border-color: rgba(255, 186, 0, 0.8);
+    box-shadow:
+      0 8px 18px rgba(227, 37, 33, 0.14),
+      0 3px 9px rgba(0, 0, 0, 0.1),
+      0 0 12px rgba(255, 186, 0, 0.18);
+  }
+
+  :global(.packet-card.hot:hover) {
+    border-color: rgba(255, 140, 0, 0.85);
+    box-shadow:
+      0 8px 20px rgba(255, 140, 0, 0.24),
+      0 0 18px rgba(255, 140, 0, 0.18),
+      inset 0 1px 2px rgba(255, 186, 0, 0.1);
+  }
+
+  :global(.packet-card.very-hot:hover) {
+    border-color: rgba(255, 215, 0, 1);
+    transform: translateY(-4px) scale(1.015);
   }
 </style>
 
@@ -339,6 +571,17 @@ const initialTotalPages = Math.ceil(initialTotalItems / itemsPerPage);
     const nextBtn = document.querySelector('[data-next]');
     const tabBtns = document.querySelectorAll('[data-tab-btn]');
     const searchInput = document.querySelector('#q');
+    const clearBtn = document.querySelector('[data-clear-search]');
+    const searchIcon = document.querySelector('[data-search-icon]');
+    const searchLoading = document.querySelector('[data-search-loading]');
+    const badgeTopLabel =
+      (claimMessages?.badges?.top) ||
+      (claimMessages?.tabs?.hot) ||
+      (lang?.startsWith('zh') ? '第一' : 'TOP');
+    const badgeHotLabel =
+      (claimMessages?.badges?.hot) ||
+      (claimMessages?.tabs?.hot) ||
+      (lang?.startsWith('zh') ? '熱門' : 'HOT');
 
     // 狀態
     let activeTab = 'latest';
@@ -366,7 +609,16 @@ const initialTotalPages = Math.ceil(initialTotalItems / itemsPerPage);
     // 從 API 獲取數據
     async function fetchGroupsFromApi(type, page, q) {
       if (!chatsApiUrl) {
-        return { data: cachedData[type] || [], total: (cachedData[type] || []).length || 0 };
+        let filtered = cachedData[type] || [];
+        if (q && q.trim()) {
+          const query = q.toLowerCase();
+          filtered = filtered.filter((g) => {
+            const name = (g.name || '').toLowerCase();
+            const owner = (g.owner || '').toLowerCase();
+            return name.includes(query) || owner.includes(query);
+          });
+        }
+        return { data: filtered, total: filtered.length };
       }
       try {
         const params = new URLSearchParams({
@@ -416,6 +668,8 @@ const initialTotalPages = Math.ceil(initialTotalItems / itemsPerPage);
     async function render() {
       if (isLoading) return;
 
+      showLoading(true);
+
       // 如果有 API URL，從 API 獲取數據
       if (chatsApiUrl) {
         isLoading = true;
@@ -441,47 +695,106 @@ const initialTotalPages = Math.ceil(initialTotalItems / itemsPerPage);
       const slice = chatsApiUrl
         ? source
         : source.slice((currentPage - 1) * itemsPerPage, currentPage * itemsPerPage);
+      showLoading(false);
 
-      // 1. 渲染卡片 grid
+      if (slice.length === 0) {
+        const emptyMsg = searchQuery
+          ? (lang === 'en-US' ? `No groups found for "${searchQuery}"` : `找不到「${searchQuery}」的相關群組`)
+          : (lang === 'en-US' ? 'No groups available' : '暫無群組');
+        gridEl.innerHTML = `
+          <div class="col-span-full flex flex-col items-center justify-center py-12 text-center">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="text-textSubtle/50 mb-3">
+              <path d="M9 2C7.89543 2 7 2.89543 7 4V20C7 21.1046 7.89543 22 9 22H18C19.1046 22 20 21.1046 20 20V7.41421C20 6.88378 19.7893 6.37507 19.4142 6L16 2.58579C15.6249 2.21071 15.1162 2 14.5858 2H9Z" stroke="currentColor" stroke-width="2"/>
+              <path d="M9 15L15 15" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              <path d="M9 11L13 11" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+            <p class="text-sm text-textSubtle">${emptyMsg}</p>
+          </div>
+        `;
+      } else {
       gridEl.innerHTML = slice
-        .map((g) => {
+        .map((g, idx) => {
           const ownerLabel =
             claimMessages?.groups?.owner_label?.replace('{handle}', g.owner) ||
             (claimMessages?.groups?.owner || 'Owner: ') + g.owner;
           const labelMembers = claimMessages?.groups?.members || 'Members';
           const labelTotal = claimMessages?.groups?.total_sent || 'Total Sent (USDT)';
           const labelPeriod = claimMessages?.groups?.period_sent || 'This Period (USDT)';
+          const isHot = activeTab === 'hot' && idx < 3;
+          const isVeryHot = activeTab === 'hot' && idx === 0;
+          const cardClass = `packet-card group block rounded-2xl overflow-hidden transition-all duration-300 outline-none focus-visible:ring-2 focus-visible:ring-[#FFBA00] h-full flex flex-col ${isVeryHot ? 'very-hot' : isHot ? 'hot' : ''}`;
+          let badgeHtml = '';
+          if (isVeryHot) {
+            badgeHtml = `<span class="inline-flex items-center gap-1 px-2 py-1 rounded-md text-[11px] font-extrabold bg-gradient-to-r from-yellow-300 via-yellow-400 to-orange-500 text-white shadow-lg animate-pulse" style="text-shadow: 0 1px 2px rgba(0,0,0,0.3);">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" class="drop-shadow-md">
+                <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/>
+              </svg>
+              ${badgeTopLabel}
+            </span>`;
+          } else if (isHot) {
+            badgeHtml = `<span class="inline-flex items-center gap-1 px-2 py-1 rounded-md text-[11px] font-extrabold bg-gradient-to-r from-orange-400 via-red-500 to-red-600 text-white shadow-md" style="text-shadow: 0 1px 2px rgba(0,0,0,0.3);">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" class="drop-shadow-sm">
+                <path d="M12.5 2C12.5 2 9.5 6 9.5 9.5C9.5 11.99 11.51 14 14 14C16.49 14 18.5 11.99 18.5 9.5C18.5 6 15.5 2 15.5 2C15.5 2 14.8 3.5 14 5C13 3 12.5 2 12.5 2Z"/>
+              </svg>
+              ${badgeHotLabel}
+            </span>`;
+          }
+
           return `
-      <a href="${g.link}" target="_blank" rel="noopener noreferrer" class="packet block rounded-2xl overflow-hidden ring-1 ring-black/20 hover:shadow transition-shadow outline-none focus-visible:ring-2 focus-visible:ring-[#FFBA00]">
+      <a href="${g.link}" target="_blank" rel="noopener noreferrer" class="${cardClass}">
         <div class="lid relative px-4 pt-3 pb-2 flex items-center justify-between">
-          <div class="min-w-0">
+          <div class="min-w-0 flex-1">
             <div class="flex items-center gap-2 text-sm font-semibold truncate">
-              <span>${g.name}</span>
+              ${badgeHtml}
+              <span class="truncate">${g.name}</span>
             </div>
-            <div class="text-xs text-white/90 mt-0.5">${ownerLabel}</div>
+            <div class="text-xs text-white/90 mt-0.5 flex items-center gap-1.5">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" class="opacity-70 flex-shrink-0">
+                <path d="M12 12C14.21 12 16 10.21 16 8C16 5.79 14.21 4 12 4C9.79 4 8 5.79 8 8C8 10.21 9.79 12 12 12ZM12 14C9.33 14 4 15.34 4 18V20H20V18C20 15.34 14.67 14 12 14Z"/>
+              </svg>
+              ${ownerLabel}
+            </div>
           </div>
           <div class="seal" aria-hidden="true"></div>
         </div>
 
-        <div class="body px-4 pb-2 pt-1">
+        <div class="body px-4 pb-3 pt-1">
           <div class="grid grid-cols-3 gap-2 text-center">
-            <div class="stat-box rounded-md p-2">
-              <div class="text-[10px] text-white">${labelMembers}</div>
-              <div class="num num-hero whitespace-nowrap">${g.members}</div>
+            <div class="stat-box rounded-lg p-2 transition-all duration-200 group-hover:bg-white/10">
+              <div class="flex items-center justify-center gap-1 mb-1">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" class="text-white/70">
+                  <path d="M16 11C17.66 11 18.99 9.66 18.99 8C18.99 6.34 17.66 5 16 5C14.34 5 13 6.34 13 8C13 9.66 14.34 11 16 11ZM8 11C9.66 11 10.99 9.66 10.99 8C10.99 6.34 9.66 5 8 5C6.34 5 5 6.34 5 8C5 9.66 6.34 11 8 11ZM8 13C5.67 13 1 14.17 1 16.5V19H15V16.5C15 14.17 10.33 13 8 13ZM16 13C15.71 13 15.38 13.02 15.03 13.05C16.19 13.89 17 15.02 17 16.5V19H23V16.5C23 14.17 18.33 13 16 13Z"/>
+                </svg>
+                <div class="text-[10px] text-white/80 font-medium">${labelMembers}</div>
+              </div>
+              <div class="num num-hero whitespace-nowrap font-bold">${g.members}</div>
             </div>
-            <div class="stat-box rounded-md p-2">
-              <div class="text-[10px] text-white">${labelTotal}</div>
-              <div class="num num-hero whitespace-nowrap">${g.totalSent}</div>
+            <div class="stat-box rounded-lg p-2 transition-all duration-200 group-hover:bg-white/10">
+              <div class="flex items-center justify-center gap-1 mb-1">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" class="text-white/70">
+                  <path d="M11.8 10.9C9.53 10.31 8.8 9.7 8.8 8.75C8.8 7.66 9.81 6.9 11.5 6.9C13.28 6.9 13.94 7.75 14 9H16.21C16.14 7.28 15.09 5.7 13 5.19V3H10V5.16C8.06 5.58 6.5 6.84 6.5 8.77C6.5 11.08 8.41 12.23 11.2 12.9C13.7 13.5 14.2 14.38 14.2 15.31C14.2 16 13.71 17.1 11.5 17.1C9.44 17.1 8.63 16.18 8.52 15H6.32C6.44 17.19 8.08 18.42 10 18.83V21H13V18.85C14.95 18.48 16.5 17.35 16.5 15.3C16.5 12.46 14.07 11.49 11.8 10.9Z"/>
+                </svg>
+                <div class="text-[10px] text-white/80 font-medium">${labelTotal}</div>
+              </div>
+              <div class="num num-hero whitespace-nowrap font-bold">${g.totalSent}</div>
             </div>
-            <div class="stat-box rounded-md p-2">
-              <div class="text-[10px] text-white">${labelPeriod}</div>
-              <div class="num num-hero whitespace-nowrap">${g.periodSent}</div>
+            <div class="stat-box rounded-lg p-2 transition-all duration-200 group-hover:bg-white/10">
+              <div class="flex items-center justify-center gap-1 mb-1">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" class="text-white/70">
+                  <path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM12 20C7.59 20 4 16.41 4 12C4 7.59 7.59 4 12 4C16.41 4 20 7.59 20 12C20 16.41 16.41 20 12 20ZM12.5 7H11V13L16.25 16.15L17 14.92L12.5 12.25V7Z"/>
+                </svg>
+                <div class="text-[10px] text-white/80 font-medium">${labelPeriod}</div>
+              </div>
+              <div class="num num-hero whitespace-nowrap font-bold">${g.periodSent}</div>
             </div>
           </div>
         </div>
+
+        <div class="card-shine absolute inset-0 pointer-events-none opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
       </a>`;
         })
         .join('');
+      }
 
       // 2. 更新頁碼 summary
       if (lang === 'en-US') {
@@ -521,16 +834,31 @@ const initialTotalPages = Math.ceil(initialTotalItems / itemsPerPage);
 
     function toggleBtn(el, disabled) {
       if (disabled) {
+        el.setAttribute('disabled', 'true');
         el.setAttribute('data-disabled', 'true');
-        el.classList.add('opacity-50', 'pointer-events-none', 'cursor-not-allowed', 'select-none');
       } else {
+        el.removeAttribute('disabled');
         el.removeAttribute('data-disabled');
-        el.classList.remove(
-          'opacity-50',
-          'pointer-events-none',
-          'cursor-not-allowed',
-          'select-none',
-        );
+      }
+    }
+
+    function showLoading(show) {
+      if (!searchIcon || !searchLoading) return;
+      if (show) {
+        searchIcon.classList.add('hidden');
+        searchLoading.classList.remove('hidden');
+      } else {
+        searchIcon.classList.remove('hidden');
+        searchLoading.classList.add('hidden');
+      }
+    }
+
+    function updateClearButton() {
+      if (!clearBtn || !searchInput) return;
+      if (searchInput.value.trim()) {
+        clearBtn.classList.remove('hidden');
+      } else {
+        clearBtn.classList.add('hidden');
       }
     }
 
@@ -567,6 +895,7 @@ const initialTotalPages = Math.ceil(initialTotalItems / itemsPerPage);
     if (searchInput) {
       let searchTimeout;
       searchInput.addEventListener('input', (e) => {
+        updateClearButton();
         clearTimeout(searchTimeout);
         searchTimeout = setTimeout(async () => {
           searchQuery = e.target.value.trim();
@@ -574,6 +903,17 @@ const initialTotalPages = Math.ceil(initialTotalItems / itemsPerPage);
           await render();
           updateUrl();
         }, 300); // 防抖 300ms
+      });
+    }
+    if (clearBtn && searchInput) {
+      clearBtn.addEventListener('click', async () => {
+        searchInput.value = '';
+        searchQuery = '';
+        currentPage = 1;
+        updateClearButton();
+        await render();
+        updateUrl();
+        searchInput.focus();
       });
     }
 
@@ -589,8 +929,7 @@ const initialTotalPages = Math.ceil(initialTotalItems / itemsPerPage);
         history.replaceState(null, '', newQS);
       }
     }
-
-    // 初始化 render
+    updateClearButton();
     render();
   })();
 </script>

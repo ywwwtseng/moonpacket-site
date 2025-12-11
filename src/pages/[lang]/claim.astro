@@ -298,66 +298,78 @@ function toLines(value: any): string[] {
   <main id="main-content">
     <h1 class="sr-only">{claimMessages?.section_title}</h1>
 
-    <GroupsHero
-      botUrl={CTA_LINKS.mainBot}
-      lang={lang}
-      claimMessages={claimMessages}
-      tickerEvents={tickerEvents}
-      latestGroupsData={latestGroupsData}
-      hotGroupsData={hotGroupsData}
-      itemsPerPage={ITEMS_PER_PAGE}
-      chatsApiUrl={DATA_ENDPOINTS.chats || ''}
-    />
+    <div class="space-y-12 md:space-y-16">
+      <GroupsHero
+        botUrl={CTA_LINKS.mainBot}
+        lang={lang}
+        claimMessages={claimMessages}
+        tickerEvents={tickerEvents}
+        latestGroupsData={latestGroupsData}
+        hotGroupsData={hotGroupsData}
+        itemsPerPage={ITEMS_PER_PAGE}
+        chatsApiUrl={DATA_ENDPOINTS.chats || ''}
+      />
 
-    <!-- FAQ / About Claiming Red Packets -->
-    <div id="about-claim"></div>
-    <Section title={claimMessages?.section_title} class="py-10">
-      <div class="grid grid-cols-1 gap-4">
-        {
-          useStructured
-            ? // New structured format with sections
-              faqVM.sections.map((sec) => (
-                <section class="faq-section">
-                  {sec.title && (
-                    <h3 class="text-base font-semibold mb-2" set:html={brandify(sec.title)} />
-                  )}
-                  {sec.items.map((it) => (
-                    <div class="rounded-xl bg-white shadow-sm ring-1 ring-black/5 p-5 mb-4">
-                      <h3 class="text-base font-semibold mb-2" set:html={brandify(it.title)} />
-                      <div class="space-y-3 text-base leading-6">
-                        {toLines(it.body).map((line: string) => (
-                          <p
-                            class="leading-relaxed"
-                            set:html={renderFaqParagraph(line, it.title)}
-                          />
-                        ))}
-                      </div>
+      <!-- FAQ / About Claiming Red Packets -->
+      <div id="about-claim"></div>
+      <section class="mx-auto w-full max-w-6xl px-4">
+        <h2 class="text-xl font-semibold">{claimMessages?.section_title}</h2>
+        <div class="grid grid-cols-1 gap-6 md:gap-8 mt-6">
+          {
+            useStructured
+              ? faqVM.sections.map((sec) => (
+                  <section class="faq-section col-span-full space-y-4">
+                    {sec.title && (
+                      <h3 class="text-lg font-semibold mb-2 md:mb-3 mt-6 first:mt-0 flex items-center gap-3">
+                        <span class="inline-block h-px w-10 bg-gradient-to-r from-[#ffba00] to-transparent" aria-hidden="true" />
+                        <span set:html={brandify(sec.title)} />
+                      </h3>
+                    )}
+                  <div class="grid grid-cols-1 gap-4 md:gap-6">
+                      {sec.items.map((it) => (
+                        <div class="faq-card rounded-2xl border border-white/10 bg-white/95 dark:bg-slate-900/80 shadow-[0_12px_30px_rgba(0,0,0,0.18)] ring-1 ring-black/5 p-5 md:p-6 space-y-3 h-full">
+                        <h3 class="text-base font-semibold leading-snug" set:html={brandify(it.title)} />
+                          <div class="space-y-2.5 text-sm md:text-base leading-relaxed text-slate-700 dark:text-slate-200">
+                            {toLines(it.body).map((line: string) => (
+                              <p class="flex gap-2">
+                                <span class="mt-2 h-1.5 w-1.5 rounded-full bg-[#ffba00] flex-shrink-0"></span>
+                                <span
+                                  class="leading-relaxed"
+                                  set:html={renderFaqParagraph(line, it.title)}
+                                />
+                              </p>
+                            ))}
+                          </div>
+                        </div>
+                      ))}
                     </div>
-                  ))}
-                </section>
-              ))
-            : // Fallback to old flat format
-              faqOrder.map((key) => (
-                <div class="rounded-xl bg-white shadow-sm ring-1 ring-black/5 p-5">
-                  <h3 class="text-base font-semibold mb-2">
-                    {claimMessages?.faq?.[`${key}_title`]}
-                  </h3>
-                  <div class="space-y-3 text-base leading-6">
-                    {toLines(claimMessages?.faq?.[`${key}_body`]).map((line: string) => (
-                      <p
-                        class="leading-relaxed"
-                        set:html={renderFaqParagraph(
-                          line,
-                          claimMessages?.faq?.[`${key}_title`] || '',
-                        )}
-                      />
-                    ))}
+                  </section>
+                ))
+              : faqOrder.map((key) => (
+                  <div class="faq-card rounded-2xl border border-white/10 bg-white/95 dark:bg-slate-900/80 shadow-[0_12px_30px_rgba(0,0,0,0.18)] ring-1 ring-black/5 p-5 md:p-6 space-y-3">
+                    <h3 class="text-base font-semibold">
+                      {claimMessages?.faq?.[`${key}_title`]}
+                    </h3>
+                    <div class="space-y-2.5 text-sm md:text-base leading-relaxed text-slate-700 dark:text-slate-200">
+                      {toLines(claimMessages?.faq?.[`${key}_body`]).map((line: string) => (
+                        <p class="flex gap-2">
+                          <span class="mt-2 h-1.5 w-1.5 rounded-full bg-[#ffba00] flex-shrink-0"></span>
+                          <span
+                            class="leading-relaxed"
+                            set:html={renderFaqParagraph(
+                              line,
+                              claimMessages?.faq?.[`${key}_title`] || '',
+                            )}
+                          />
+                        </p>
+                      ))}
+                    </div>
                   </div>
-                </div>
-              ))
-        }
-      </div>
-    </Section>
+                ))
+          }
+        </div>
+      </section>
+    </div>
 
     <!-- FAQ 結構化資料 (SEO) -->
   </main>

@@ -54,6 +54,7 @@ export default function Waterfall({
     let data: any[] = [];
     let idx = 0;
     let timer: any = null;
+    let displayedIds = new Set<string>();
 
     function mapGroupUrl(name: string): string {
       if (/TON Builders/i.test(name)) return externals.telegram.supergroup;
@@ -210,43 +211,53 @@ export default function Waterfall({
 
     function renderOne(item: any) {
       const card = document.createElement('div');
-      // 版型：所有斷點一列（更緊湊的間距）
       card.className =
-        'col-span-1 sm:col-span-2 lg:col-span-3 p-2 rounded-lg bg-white ring-1 ring-black/5 text-sm';
+        'col-span-1 sm:col-span-2 lg:col-span-3 p-3 md:p-4 rounded-lg bg-white ring-1 ring-black/5 hover:ring-black/10 hover:shadow-md transition-all text-sm';
       card.style.transition = 'transform .28s ease, opacity .28s ease';
       card.style.transform = 'translateY(-12px)';
       card.style.opacity = '0';
       const ccy = item && item.ccy ? String(item.ccy) : 'USDT';
       function formatAmt(v: any, curr: string): string {
         var n = Number(v == null ? 0 : v);
-        var opts = { minimumFractionDigits: 8, maximumFractionDigits: 8 };
+        let decimals = 2;
+        if (n < 0.01) decimals = 4;
+        else if (n < 1) decimals = 3;
+        var opts = { minimumFractionDigits: decimals, maximumFractionDigits: decimals };
         try {
           return new Intl.NumberFormat(undefined, opts).format(n);
         } catch (_) {
-          return String(n.toFixed(8));
+          return String(n.toFixed(decimals));
         }
       }
       const groupHref =
         (item && (item.link || item.group_link)) ||
         mapGroupUrl(item && item.group ? String(item.group) : '');
-      const sideJustify = isRtl ? 'justify-start' : 'justify-end';
-      const innerJustify = isRtl ? 'justify-start' : 'justify-end';
       const textAlignTail = isRtl ? 'text-left' : 'text-right';
       card.innerHTML = `
-        <div class="flex flex-col sm:flex-row ${isRtl ? 'sm:flex-row-reverse' : ''} sm:items-center sm:justify-between gap-1 sm:gap-3 leading-[1.5] text-[13px] sm:text-sm">
-          <div class="min-w-0 flex flex-wrap sm:flex-nowrap items-center overflow-hidden">
-            <span class="inline-flex items-center gap-1 font-semibold whitespace-nowrap sm:w-[96px]">${redPacketIcon()} ${item.user || userFallback || ''}</span>
-            <span class="hidden sm:inline mx-2 text-gray-400 dark:text-gray-600">|</span>
-            <span class="text-textSubtle whitespace-nowrap sm:w-[180px]">${sentFromLabel || ''}${groupHref ? `<a href="${groupHref}" target="_blank" rel="noopener" class="underline hover:opacity-80">${item.group || groupFallback || ''}</a>` : item.group || groupFallback || ''}</span>
-            <span class="hidden sm:inline mx-2 text-gray-400 dark:text-gray-600">|</span>
-            <span class="text-textSubtle whitespace-nowrap sm:w-[220px]">${totalLabel || ''} <span class="num">${formatAmt(item.total_amount ?? item.amount * 100, ccy)}</span> ${ccy}</span>
-            <span class="hidden sm:inline mx-2 text-gray-400 dark:text-gray-600">|</span>
-            <span class="text-textSubtle whitespace-nowrap sm:w-[120px]">${progressLabel || ''} <span class="font-semibold">${fmtInt(item.claimed_count ?? 0)}</span>/<span class="font-semibold">${fmtInt(item.total_count ?? 100)}</span></span>
+        <div class="flex flex-col gap-2">
+          <div class="flex items-center justify-between gap-3">
+            <div class="inline-flex items-center gap-2 font-semibold text-base">
+              ${redPacketIcon()}
+              <span>${item.user || userFallback || ''}</span>
+            </div>
+            <div class="inline-flex items-center gap-1.5 text-primary font-bold text-base">
+              ${currencyIcon(ccy)}
+              <span>${claimedLabel || ''} <span class="num">${formatAmt(item.amount, ccy)}</span> ${ccy}</span>
+            </div>
           </div>
-          <div class="${textAlignTail} whitespace-nowrap flex items-center sm:${sideJustify}">
-            <span class="inline-flex items-center gap-1 sm:w-[240px] ${innerJustify}">${currencyIcon(ccy)} <span>${claimedLabel || ''} <span class="num">${formatAmt(item.amount, ccy)}</span> ${ccy}</span></span>
-            <span class="hidden sm:inline mx-2 text-gray-400 dark:text-gray-600">|</span>
-            <span class="text-xs text-textSubtle sm:w-[64px] ${textAlignTail}">${new Date(item.ts || Date.now()).toLocaleTimeString()}</span>
+          <div class="flex flex-wrap items-center gap-x-3 gap-y-1 text-xs text-textSubtle">
+            <span class="inline-flex items-center gap-1">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/>
+              </svg>
+              ${groupHref ? `<a href="${groupHref}" target="_blank" rel="noopener" class="underline hover:opacity-80">${item.group || groupFallback || ''}</a>` : item.group || groupFallback || ''}
+            </span>
+            <span class="hidden sm:inline text-gray-400">•</span>
+            <span>${totalLabel || 'Total'} <span class="num font-medium">${formatAmt(item.total_amount ?? item.amount * 100, ccy)}</span> ${ccy}</span>
+            <span class="hidden sm:inline text-gray-400">•</span>
+            <span>${progressLabel || 'Progress'} <span class="font-medium">${fmtInt(item.claimed_count ?? 0)}</span>/<span class="font-medium">${fmtInt(item.total_count ?? 100)}</span></span>
+            <span class="hidden sm:inline text-gray-400">•</span>
+            <span class="${textAlignTail}">${new Date(item.ts || Date.now()).toLocaleTimeString()}</span>
           </div>
         </div>
       `;
@@ -291,10 +302,16 @@ export default function Waterfall({
 
     function cycle() {
       if (!data.length) return;
-      // 以不規則節奏推入（1~3 條），讓流感更自然
-      const batch = 1 + Math.floor(Math.random() * 3);
-      for (let i = 0; i < batch; i++) {
-        renderOne(data[idx % data.length]);
+      let rendered = 0;
+      const maxBatch = 3; 
+      while (rendered < maxBatch && idx < data.length) {
+        const item = data[idx];
+        const itemId = item.id || `${item.user}_${item.ts}_${item.amount}`;
+        if (!displayedIds.has(itemId)) {
+          renderOne(item);
+          displayedIds.add(itemId);
+          rendered++;
+        }
         idx++;
       }
     }
@@ -324,53 +341,53 @@ export default function Waterfall({
           // 否则转换为新格式
           return transformApiItem(item);
         });
-        // 使用真实数据，不补充 mock 数据
-        data = jsonItems.slice(0, 30);
-        // 清空 SSR 占位符
-        container.innerHTML = '';
-        // 首次載入：显示所有可用数据（最多 20 条）
-        const initial = Math.min(20, data.length);
-        if (typeof window !== 'undefined') {
-          console.debug(
-            '[Waterfall] About to render',
-            initial,
-            'items. data.length:',
-            data.length,
-            'jsonItems.length:',
-            jsonItems.length,
-          );
-        }
-        for (let i = 0; i < initial; i++) {
-          if (data[i]) {
-            renderOne(data[i]);
+
+        const isInitialLoad = data.length === 0;
+
+        if (isInitialLoad) {
+          data = jsonItems.slice(0, 100);
+          container.innerHTML = '';
+          displayedIds.clear();
+          const initial = Math.min(20, data.length);
+          if (typeof window !== 'undefined') {
+            console.debug('[Waterfall] Initial load, rendering', initial, 'items');
+          }
+          for (let i = 0; i < initial; i++) {
+            if (data[i]) {
+              const itemId = data[i].id || `${data[i].user}_${data[i].ts}_${data[i].amount}`;
+              renderOne(data[i]);
+              displayedIds.add(itemId);
+            }
+          }
+          idx = initial;
+        } else {
+          const newItems = jsonItems.slice(0, 100);
+          const newData: any[] = [];
+          for (const item of newItems) {
+            const itemId = item.id || `${item.user}_${item.ts}_${item.amount}`;
+            if (!displayedIds.has(itemId)) {
+              newData.push(item);
+            }
+          }
+
+          if (newData.length > 0) {
+            if (typeof window !== 'undefined') {
+              console.debug('[Waterfall] Found', newData.length, 'new items');
+            }
+            data = [...newData, ...data].slice(0, 100);
+            idx = 0;
+          } else {
+            if (typeof window !== 'undefined') {
+              console.debug('[Waterfall] No new items found');
+            }
           }
         }
-        if (typeof window !== 'undefined') {
-          console.debug(
-            '[Waterfall] initial rendered',
-            initial,
-            'items. root.children.length:',
-            container.children.length,
-          );
-          if (container.children.length !== initial) {
-            console.error(
-              '[Waterfall] MISMATCH! Expected',
-              initial,
-              'children but got',
-              container.children.length,
-            );
-          }
-        }
-        idx = initial;
+
         return Promise.resolve();
       } catch (err) {
-        // 网络错误或其他异常，清空数据
         if (typeof window !== 'undefined') {
           console.error('[Waterfall] load() error:', err);
         }
-        data = [];
-        idx = 0;
-        container.innerHTML = '';
         return Promise.resolve();
       }
     }

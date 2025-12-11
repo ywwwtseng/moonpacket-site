@@ -3,6 +3,11 @@
     "latest": "最新群組",
     "hot": "熱門群組"
   },
+  "ticker_label": "即時動態",
+  "badges": {
+    "top": "第一",
+    "hot": "熱門"
+  },
   "search_placeholder": "搜尋群組…",
   "ticker_templates": {
     "SEND": "{actor} 在 {group} 發送了 {amount} {unit} 的紅包",

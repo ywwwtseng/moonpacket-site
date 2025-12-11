@@ -368,6 +368,7 @@
     "summary_template_en": "{count} Groups (Page {page} / {pages})"
   },
   "search_placeholder": "Search Groups…",
+  "ticker_label": "Live feed",
   "section_title": "About Receiving red packet",
   "tabs": {
     "hot": "Popular Groups",

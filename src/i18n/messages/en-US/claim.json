@@ -4,6 +4,11 @@
     "latest": "Latest Groups",
     "hot": "Popular Groups"
   },
+  "ticker_label": "Live feed",
+  "badges": {
+    "top": "TOP",
+    "hot": "HOT"
+  },
   "search_placeholder": "Search Groups…",
   "pagination": {
     "prev": "Previous Page",

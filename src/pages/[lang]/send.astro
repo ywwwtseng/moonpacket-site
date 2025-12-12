@@ -10,7 +10,6 @@ import { brandify } from '@/lib/brandify';
 import { bodyWithoutRepeatedHeading, htmlWithLineBreaks, normalizeTitleLike } from '@/utils/text';
 import { dropLeadingDupFromBodyHtml } from '@/utils/dup';
 import { generateFaqJsonLd } from '@/utils/faq-jsonld';
-import { linesArray } from '@/utils/normalize';
 import { isRTL } from '@/i18n/rtl';
 
 export async function getStaticPaths() {
@@ -62,7 +61,12 @@ function toLines(value: any): string[] {
   try {
     if (!value) return [];
     if (Array.isArray(value)) return value.filter(Boolean).map(String);
-    if (typeof value === 'string') return value.replace(/\\n/g,'\n').split(/\r?\n/).map(s=>s.trim()).filter(Boolean);
+    if (typeof value === 'string') {
+      return value
+        .replace(/\\n/g, '\n')
+        .split(/\r?\n/)
+        .filter((s) => s.trim().length > 0);
+    }
     if (typeof value === 'object') return Object.keys(value).sort((a,b)=>Number(a)-Number(b)).map(k=>String(value[k])).filter(Boolean);
     return [];
   } catch { return []; }
@@ -141,25 +145,34 @@ function renderFaqParagraph(raw: string, title?: string): string {
                 // 逐字显示的文本，多行，照这个格式保留换行缩排
                 const apiTitle = typeof apiDemoTitle !== 'undefined' && apiDemoTitle ? apiDemoTitle : '';
                 const apiCodeRaw = typeof apiDemoCode !== 'undefined' && apiDemoCode ? apiDemoCode : '';
-                // JSON 字符串中的 \n 在 JavaScript 中已经是换行符，但如果在 JSON 中存储为 "\\n" 字符串则需替换
-                const apiCode = apiCodeRaw
-                  .replace(/\\n/g, '\n')
-                  .replace(/\\"/g, '"')
-                  .replace(/(["']eq["']\s*:\s*)["'][^"']*["']/g, '$1"active"')
-                  .replace(/("eq"\s*:\s*)"[^"]*"/g, '$1"active"');
-                var fullText = apiCode;
+
+                const normalizeApiCode = (raw) => {
+                  // 1) 還原換行與引號
+                  const decoded = raw
+                    .replace(/\\n/g, '\n')
+                    .replace(/\\"/g, '"')
+                    .replace(/(["']eq["']\s*:\s*)["'][^"']*["']/g, '$1"active"')
+                    .replace(/("eq"\s*:\s*)"[^"]*"/g, '$1"active"');
+
+                  try {
+                    const parsed = JSON.parse(decoded);
+                    return JSON.stringify(parsed, null, 2);
+                  } catch {
+                    return decoded;
+                  }
+                };
+
+                var fullText = normalizeApiCode(apiCodeRaw);
                 var box = document.getElementById('api-demo-box');
                 const copyBtn = document.querySelector('[data-copy-api]');
                 if (!box) return;
-
                 var i = 0;
+                var speed = 18; 
                 function tick() {
                   if (i <= fullText.length) {
                     box.textContent = fullText.slice(0, i);
                     i++;
-                    window.requestAnimationFrame(function () {
-                      setTimeout(tick, 30); // 打字速度
-                    });
+                    setTimeout(() => window.requestAnimationFrame(tick), speed);
                   }
                 }
                 tick();
@@ -261,7 +274,7 @@ function renderFaqParagraph(raw: string, title?: string): string {
                           {toLines(it.body).map((line) => (
                             <p class="flex gap-2">
                               <span class="mt-2 h-1.5 w-1.5 rounded-full bg-[#ffba00] flex-shrink-0"></span>
-                              <span class="leading-relaxed" set:html={renderFaqParagraph(line, it.title)}></span>
+                              <span class="leading-relaxed whitespace-pre-wrap" set:html={renderFaqParagraph(line, it.title)}></span>
                             </p>
                           ))}
                         </div>
@@ -277,7 +290,7 @@ function renderFaqParagraph(raw: string, title?: string): string {
                         {toLines(it.body).map((line) => (
                           <p class="flex gap-2">
                             <span class="mt-2 h-1.5 w-1.5 rounded-full bg-[#ffba00] flex-shrink-0"></span>
-                            <span class="leading-relaxed" set:html={renderFaqParagraph(line, it.title)}></span>
+                            <span class="leading-relaxed whitespace-pre-wrap" set:html={renderFaqParagraph(line, it.title)}></span>
                           </p>
                         ))}
                       </div>
@@ -298,7 +311,7 @@ function renderFaqParagraph(raw: string, title?: string): string {
                   {toLines(sendMessages?.faq?.q1_body).map((para) => (
                     <p class="flex gap-2">
                       <span class="mt-2 h-1.5 w-1.5 rounded-full bg-[#ffba00] flex-shrink-0"></span>
-                      <span class="leading-relaxed" set:html={renderFaqParagraph(para, sendMessages?.faq?.q1_title || '')}></span>
+                      <span class="leading-relaxed whitespace-pre-wrap" set:html={renderFaqParagraph(para, sendMessages?.faq?.q1_title || '')}></span>
                     </p>
                   ))}
                 </div>
@@ -319,7 +332,7 @@ function renderFaqParagraph(raw: string, title?: string): string {
                   {toLines(sendMessages?.faq?.[`${key}_body`]).map((para) => (
                     <p class="flex gap-2">
                       <span class="mt-2 h-1.5 w-1.5 rounded-full bg-[#ffba00] flex-shrink-0"></span>
-                      <span class="leading-relaxed" set:html={renderFaqParagraph(para, sendMessages?.faq?.[`${key}_title`] || '')}></span>
+                      <span class="leading-relaxed whitespace-pre-wrap" set:html={renderFaqParagraph(para, sendMessages?.faq?.[`${key}_title`] || '')}></span>
                     </p>
                   ))}
                 </div>

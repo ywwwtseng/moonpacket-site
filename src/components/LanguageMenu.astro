@@ -9,6 +9,20 @@ import { buildLocaleUrl } from '@/utils/locale-url';
 import { LOCALE_ORDER } from '@/config/locales';
 
 const items = await listLocalesWithStatus();
+const baseCounts = items.reduce((acc, l) => {
+  const base = l.nativeName.replace(/\s*\(.*?\)\s*$/, '');
+  acc[base] = (acc[base] || 0) + 1;
+  return acc;
+}, {} as Record<string, number>);
+
+const fmt = (nativeName: string, code: string) => {
+  const base = nativeName.replace(/\s*\(.*?\)\s*$/, '');
+  if (baseCounts[base] > 1) {
+    const region = code.split('-')[1] || code;
+    return `${base} · ${region}`;
+  }
+  return base;
+};
 
 // Get current lang from props, params, or default to en-US
 const current = lang || Astro.params.lang || 'en-US';
@@ -22,15 +36,15 @@ function hrefFor(code:string) {
 
 <nav aria-label="Language" class="lang-menu relative">
   <details class="relative cursor-pointer">
-    <summary>🌐 {items.find(i=>i.code===current)?.nativeName ?? current}</summary>
+    <summary>🌐 {fmt(items.find(i=>i.code===current)?.nativeName ?? current, current)}</summary>
     <ul class="lang-menu-list">
       {items.map(i => (
         <li class="px-2 py-1">
           {i.ready
             ? <a href={hrefFor(i.code)} aria-current={i.code===current ? 'true':'false'} class={i.code===current ? 'font-semibold underline' : ''}>
-                {i.nativeName} <small>({i.englishName})</small>
+                {fmt(i.nativeName, i.code)}
               </a>
-            : <span class="opacity-45 cursor-not-allowed">{i.nativeName} <small>({i.englishName})</small></span>
+            : <span class="opacity-45 cursor-not-allowed">{fmt(i.nativeName, i.code)}</span>
           }
         </li>
       ))}
@@ -95,4 +109,3 @@ function hrefFor(code:string) {
   }
 }
 </style>
-

@@ -1,4 +1,6 @@
 ---
+import { brandify } from '@/lib/brandify';
+
 interface Props {
   headlineLine1?: string;
   headlineLine2?: string;
@@ -24,12 +26,10 @@ const {
   {withBackground && <div class="absolute inset-0 opacity-10 gradient-primary" />}
   <div class="relative mx-auto max-w-5xl px-4">
     <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold">
-      <span class="block brand-mark">{headlineLine1}</span>
-      <span class="block bg-gradient-to-r from-red-600 to-orange-500 bg-clip-text text-transparent">{headlineLine2}</span>
+      <span class="block" set:html={brandify(headlineLine1 || '')}></span>
+      <span class="block bg-gradient-to-r from-red-600 to-orange-500 bg-clip-text text-transparent" set:html={brandify(headlineLine2 || '')}></span>
     </h1>
-    <p class="mt-4 max-w-2xl text-base sm:text-lg text-textSubtle">
-      {tagline}
-    </p>
+    <p class="mt-4 max-w-2xl text-base sm:text-lg text-textSubtle" set:html={brandify(tagline || '')}></p>
     <div class="mt-6 flex gap-3">
       {ctaPrimaryHref && (
         <a 
@@ -38,11 +38,13 @@ const {
           target="_blank"
           rel="noopener noreferrer"
         >
-          {ctaPrimaryLabel}
+          <span set:html={brandify(ctaPrimaryLabel || '')}></span>
         </a>
       )}
       {ctaSecondaryHref && (
-        <a href={ctaSecondaryHref} class="btn btn-outline btn-text">{ctaSecondaryLabel}</a>
+        <a href={ctaSecondaryHref} class="btn btn-outline btn-text">
+          <span set:html={brandify(ctaSecondaryLabel || '')}></span>
+        </a>
       )}
     </div>
   </div>

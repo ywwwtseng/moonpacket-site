@@ -3,6 +3,7 @@ import BaseLayout from '@/layouts/BaseLayout.astro';
 import { computeCanonical } from '@/utils/head';
 import { getLocalesForBuild, defaultLocale } from '@/i18n/locales.config';
 import { LOCALE_ORDER } from '@/config/locales';
+import { brandify } from '@/lib/brandify';
 
 export async function getStaticPaths() {
   const locales = getLocalesForBuild();
@@ -14,10 +15,10 @@ const t = await import(`@/i18n/messages/${lang}/common.json`).catch(async () => 
 const messages = (t as any).default;
 const canonical = computeCanonical(Astro.url, (Astro.site && Astro.site.toString()) || undefined);
 ---
-<BaseLayout lang={lang} title={messages.site.title} description={messages.site.description} canonicalUrl={canonical} allLocales={LOCALE_ORDER}>
+<BaseLayout lang={lang} title={messages.site.title || ''} description={messages.site.description || ''} canonicalUrl={canonical} allLocales={LOCALE_ORDER}>
   
   <main id="main-content" class="mx-auto max-w-6xl px-4 py-12 grid sm:grid-cols-3 gap-6">
-    <h1 class="sr-only">{messages.nav.team}</h1>
+    <h1 class="sr-only" set:html={brandify(messages.nav.team || '')}></h1>
     <div class="p-6 rounded-xl bg-white ring-1 ring-black/5">
       <div class="font-semibold">Alice</div>
       <div class="text-sm text-textSubtle">CEO</div>

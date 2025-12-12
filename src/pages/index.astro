@@ -24,6 +24,7 @@ import { formatInteger, readPlaceholders } from '@/utils/metrics';
 import { formatFiat, formatCrypto, formatPercent } from '@/utils/number-format';
 import { defaultLocale } from '@/i18n/locales.config';
 import { isRTL } from '@/i18n/rtl';
+import { brandify } from '@/lib/brandify';
 
 // Root page uses English content by default
 const lang = DEFAULT_LOCALE; // 'en-US'
@@ -47,14 +48,6 @@ function toArray(value: any): string[] {
     if (typeof value === 'object') return Object.keys(value).sort((a,b)=>Number(a)-Number(b)).map(k=>String(value[k])).filter(Boolean);
     return [];
   } catch { return []; }
-}
-
-function brandify(text: string): string {
-  if (!text) return '';
-  return text.replace(/\$?Moonini/gi, (m) => {
-    const hasDollar = m[0] === '$';
-    return `<span class="brand-mark">${hasDollar ? '$' : ''}moonini</span>`;
-  });
 }
 
 function formatWithCommas(n: number): string {
@@ -121,24 +114,24 @@ function formatCap(input: string): string {
 
     <!-- BEGIN: METRICS (locked) -->
     <section id="metrics" class="mx-auto max-w-6xl px-4 py-12">
-      <h2 class="text-2xl md:text-3xl font-bold mb-6 text-center">{messages.metrics?.title}</h2>
+      <h2 class="text-2xl md:text-3xl font-bold mb-6 text-center" set:html={brandify(messages.metrics?.title || '')}></h2>
       <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 md:gap-6">
         <!-- groups connected -->
         <div class="rounded-xl bg-white shadow-sm ring-1 ring-black/5 p-5 md:p-6 flex flex-col items-center text-center" data-api-src={(DATA_ENDPOINTS.metrics && DATA_ENDPOINTS.metrics.length ? DATA_ENDPOINTS.metrics : `${import.meta.env.BASE_URL}data/metrics.json`)} data-api-path="data.groups_connected" data-decimals="0">
-          <div class="text-sm text-textSubtle tracking-wide mb-2">{messages.common?.metrics?.groups}</div>
+          <div class="text-sm text-textSubtle tracking-wide mb-2" set:html={brandify(messages.common?.metrics?.groups || '')}></div>
           <div class="text-3xl md:text-4xl font-[800] num" data-metric>0</div>
         </div>
         <!-- total packets sent -->
         <div class="rounded-xl bg-white shadow-sm ring-1 ring-black/5 p-5 md:p-6 flex flex-col items-center text-center" data-api-src={(DATA_ENDPOINTS.metrics && DATA_ENDPOINTS.metrics.length ? DATA_ENDPOINTS.metrics : `${import.meta.env.BASE_URL}data/metrics.json`)} data-api-path="data.total_packets_sent" data-decimals="0">
-          <div class="text-sm text-textSubtle tracking-wide mb-2">{messages.common?.metrics?.sent}</div>
+          <div class="text-sm text-textSubtle tracking-wide mb-2" set:html={brandify(messages.common?.metrics?.sent || '')}></div>
           <div class="text-3xl md:text-4xl font-[800] num" data-metric>{new Intl.NumberFormat('en-US', { maximumFractionDigits: 0 }).format(0)}</div>
-          <div class="text-xs text-textSubtle/80" data-stale hidden>{messages.common?.errors?.stale}</div>
+          <div class="text-xs text-textSubtle/80" data-stale hidden set:html={brandify(messages.common?.errors?.stale || '')}></div>
         </div>
         <!-- total claimed USDT -->
         <div class="rounded-xl bg-white shadow-sm ring-1 ring-black/5 p-5 md:p-6 flex flex-col items-center text-center" data-api-src={(DATA_ENDPOINTS.metrics && DATA_ENDPOINTS.metrics.length ? DATA_ENDPOINTS.metrics : `${import.meta.env.BASE_URL}data/metrics.json`)} data-api-path="data.total_claimed_usdt" data-decimals="8">
-          <div class="text-sm text-textSubtle tracking-wide mb-2">{messages.common?.metrics?.claimed}</div>
+          <div class="text-sm text-textSubtle tracking-wide mb-2" set:html={brandify(messages.common?.metrics?.claimed || '')}></div>
           <div class="text-3xl md:text-4xl font-[800] num" data-metric>{new Intl.NumberFormat('en-US', { maximumFractionDigits: 0 }).format(0)}</div>
-          <div class="text-xs text-textSubtle/80" data-stale hidden>{messages.common?.errors?.stale}</div>
+          <div class="text-xs text-textSubtle/80" data-stale hidden set:html={brandify(messages.common?.errors?.stale || '')}></div>
         </div>
       </div>
       <!-- DYNAMIC METRICS: replace data-api-src with your real endpoint once ready. Schema in /public/data/metrics.json -->
@@ -148,7 +141,7 @@ function formatCap(input: string): string {
 
     <!-- Waterfall placeholder (locked: completed) -->
     <section id="waterfall" class="mx-auto max-w-6xl px-4 py-16">
-      <h2 class="text-2xl md:text-3xl font-bold mb-6 text-center">{messages.common?.sections?.waterfall_title}</h2>
+      <h2 class="text-2xl md:text-3xl font-bold mb-6 text-center" set:html={brandify(messages.common?.sections?.waterfall_title || '')}></h2>
       <div class="grid grid-cols-1 gap-3" data-waterfall>
         <!-- SSR skeleton placeholders (2 items) - will be replaced by dynamic content -->
         <div class="col-span-1 sm:col-span-2 lg:col-span-3 p-3 md:p-4 rounded-lg bg-white ring-1 ring-black/5 text-sm animate-pulse">
@@ -202,7 +195,7 @@ function formatCap(input: string): string {
                 {toArray(messages.story?.origin).map((p: string) => (<p class="leading-relaxed" set:html={brandify(p)} />))}
               </div>
             )}
-            <h3 class="mt-10 md:mt-12 text-lg font-semibold">{messages.story?.secrets_title || '🌸 his secrets'}</h3>
+            <h3 class="mt-10 md:mt-12 text-lg font-semibold" set:html={brandify(messages.story?.secrets_title || '🌸 his secrets')}></h3>
             {messages.story?.secrets_intro && (<p class="mt-3 leading-relaxed" set:html={brandify(messages.story.secrets_intro)} />)}
             {messages.story?.secrets_flow && (<p class="mt-3 leading-relaxed" set:html={brandify(messages.story.secrets_flow)} />)}
             {Array.isArray(messages.story?.secrets_halving) && messages.story.secrets_halving.map((p: string) => (<p class="mt-3 leading-relaxed" set:html={brandify(p)} />))}
@@ -211,7 +204,7 @@ function formatCap(input: string): string {
 
         <!-- BELOW: full-width content aligned with container (left-to-right) -->
         <div class="mt-12 md:mt-16 px-3 sm:px-4 md:px-6">
-          <h3 class="text-lg font-semibold">{messages.story?.schedule_title || 'token release schedule'}</h3>
+          <h3 class="text-lg font-semibold" set:html={brandify(messages.story?.schedule_title || 'token release schedule')}></h3>
           <div class="mt-3 rounded-lg bg-white ring-1 ring-black/5 overflow-hidden">
             <div class="overflow-x-auto">
             <table class="w-full min-w-[640px] text-sm border-collapse">
@@ -238,10 +231,10 @@ function formatCap(input: string): string {
 
           {toArray(messages.story?.cap_note).map((p: string) => (<p class="mt-4" set:html={brandify(p)} />))}
 
-          <h3 class="mt-12 md:mt-16 text-lg font-semibold">{messages.story?.belief_title || '🌕 lunar energy and red packet faith'}</h3>
+          <h3 class="mt-12 md:mt-16 text-lg font-semibold" set:html={brandify(messages.story?.belief_title || '🌕 lunar energy and red packet faith')}></h3>
           {toArray(messages.story?.belief_paragraphs).map((p: string) => (<p class="mt-3 leading-relaxed" set:html={brandify(p)} />))}
 
-          <h3 class="mt-12 md:mt-16 text-lg font-semibold">{messages.story?.future_title || '💫 future applications'}</h3>
+          <h3 class="mt-12 md:mt-16 text-lg font-semibold" set:html={brandify(messages.story?.future_title || '💫 future applications')}></h3>
           {messages.story?.future_intro && (<p class="mt-3 leading-relaxed" set:html={brandify(messages.story.future_intro)} />)}
           {(toArray(messages.story?.future_list).length > 0) && (
             <ul class="mt-4 list-disc pl-6 space-y-2">
@@ -249,7 +242,7 @@ function formatCap(input: string): string {
             </ul>
           )}
 
-          <h3 class="mt-12 md:mt-16 text-lg font-semibold">{messages.story?.disclaimer_title || '⚠️ disclaimer'}</h3>
+          <h3 class="mt-12 md:mt-16 text-lg font-semibold" set:html={brandify(messages.story?.disclaimer_title || '⚠️ disclaimer')}></h3>
           {toArray(messages.story?.disclaimer_paragraphs).map((p: string) => (<p class="mt-3 leading-relaxed" set:html={brandify(p)} />))}
 
           {toArray(messages.story?.closing).map((p: string) => (<p class="mt-4 leading-relaxed" set:html={brandify(p)} />))}

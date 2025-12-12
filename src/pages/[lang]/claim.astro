@@ -102,22 +102,40 @@ let tickerEvents: TickerEvent[] = [];
 try {
   const eventsUrl = DATA_ENDPOINTS.events || '';
   if (eventsUrl) {
-    const response = await fetch(eventsUrl, {
-      cache: 'no-store',
-    });
-    if (response.ok) {
-      const data = await response.json();
-      const rawEvents = (data && data.data) || [];
-      const transformed = rawEvents
-        .map((ev: ApiEvent) => transformApiEvent(ev))
-        .filter((ev: TickerEvent | null): ev is TickerEvent => ev !== null)
-        .slice(0, 20); // 限制最多 20 條
-      tickerEvents = transformed;
+    // 開發環境 3秒超時，生產構建 20秒超時
+    const TIMEOUT_MS = import.meta.env.DEV ? 3000 : 20000;
+    const controller = new AbortController();
+    const timeoutId = setTimeout(() => controller.abort(), TIMEOUT_MS);
+
+    try {
+      const response = await fetch(eventsUrl, {
+        cache: 'no-store',
+        signal: controller.signal,
+      });
+      clearTimeout(timeoutId);
+      if (response.ok) {
+        const data = await response.json();
+        const rawEvents = (data && data.data) || [];
+        const transformed = rawEvents
+          .map((ev: ApiEvent) => transformApiEvent(ev))
+          .filter((ev: TickerEvent | null): ev is TickerEvent => ev !== null)
+          .slice(0, 20); // 限制最多 20 條
+        tickerEvents = transformed;
+      }
+    } catch (fetchErr: any) {
+      clearTimeout(timeoutId);
+      if (fetchErr.name !== 'AbortError') {
+        console.warn('[claim.astro] Failed to fetch events:', fetchErr);
+      } else {
+        console.warn(`[claim.astro] Events API timeout (${TIMEOUT_MS}ms)`);
+      }
+      // 跑馬燈為非關鍵數據，失敗時使用空數組即可
+      tickerEvents = [];
     }
   }
 } catch (err) {
   // API 失敗時使用空數組，不顯示跑馬燈
-  console.warn('[claim.astro] Failed to fetch events:', err);
+  console.warn('[claim.astro] Unexpected error fetching events:', err);
   tickerEvents = [];
 }
 
@@ -181,14 +199,42 @@ async function fetchGroups(
     if (q) {
       params.set('q', q);
     }
-    const response = await fetch(`${chatsUrl}?${params.toString()}`, {
-      cache: 'no-store',
-    });
-    if (response.ok) {
-      const data: ApiGroupsResponse = await response.json();
-      return (data.data || []).map(transformApiGroup);
+
+    // 群組數據為核心內容，生產環境給予更多時間
+    const TIMEOUT_MS = import.meta.env.DEV ? 5000 : 30000;
+    const controller = new AbortController();
+    const timeoutId = setTimeout(() => controller.abort(), TIMEOUT_MS);
+
+    try {
+      const response = await fetch(`${chatsUrl}?${params.toString()}`, {
+        cache: 'no-store',
+        signal: controller.signal,
+      });
+      clearTimeout(timeoutId);
+      if (response.ok) {
+        const data: ApiGroupsResponse = await response.json();
+        return (data.data || []).map(transformApiGroup);
+      }
+    } catch (fetchErr: any) {
+      clearTimeout(timeoutId);
+      
+      // 核心數據處理策略：
+      // 1. 開發環境：返回空數組，允許繼續開發
+      // 2. 生產構建 (GitHub Pages)：拋出錯誤終止構建 (Fail Build)
+      //    注意：在 GitHub Actions 中，構建失敗會阻止部署，GitHub Pages 將保留上一次成功的版本。
+      if (import.meta.env.PROD) {
+        console.error(`[claim.astro] Critical data fetch failed: ${fetchErr.message}`);
+        throw fetchErr; // 讓構建失敗，阻止 GitHub Pages 更新壞掉的版本
+      }
+
+      if (fetchErr.name === 'AbortError') {
+        console.warn(`[claim.astro] ${type} groups API timeout (${TIMEOUT_MS}ms)`);
+        return [];
+      }
+      throw fetchErr;
     }
   } catch (err) {
+    if (import.meta.env.PROD) throw err; // Re-throw critical errors in production
     console.warn(`[claim.astro] Failed to fetch ${type} groups:`, err);
   }
   return [];

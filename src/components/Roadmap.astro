@@ -1,4 +1,6 @@
 ---
+import { brandify } from '@/lib/brandify';
+
 interface Props {
   roadmapMessages: any;
 }
@@ -55,8 +57,8 @@ const updatedLabelFinal = updatedLabelRaw.includes('{date}')
 
 <section aria-labelledby="roadmap-title" class="mx-auto max-w-5xl px-4 py-16">
   <header class="mb-8">
-    <h2 id="roadmap-title" class="text-3xl font-semibold tracking-tight">{roadmapMessages?.title || ''}</h2>
-    <p class="opacity-70 text-sm" set:html={updatedLabelFinal}></p>
+    <h2 id="roadmap-title" class="text-3xl font-semibold tracking-tight" set:html={brandify(roadmapMessages?.title || '')}></h2>
+    <p class="opacity-70 text-sm" set:html={brandify(updatedLabelFinal)}></p>
   </header>
 
   <section class="timeline-block" aria-label={roadmapMessages?.bucket?.progress || ''}>
@@ -79,27 +81,26 @@ const updatedLabelFinal = updatedLabelRaw.includes('{date}')
             <span class="dot" style={`background:${laneColor}`}></span>
             <article class="card">
               <div class="flex items-center justify-between gap-3">
-                <h3 class="text-lg font-semibold">{title}</h3>
-                <span class={`badge status-${st}`}>{status}</span>
+                <h3 class="text-lg font-semibold" set:html={brandify(title)}></h3>
+                <span class={`badge status-${st}`} set:html={brandify(status)}></span>
               </div>
-              <p class="mt-1 text-sm opacity-80">{desc}</p>
-              <p class="mt-2 text-xs opacity-70">{roadmapMessages?.accept || ''}：{accept}</p>
+              <p class="mt-1 text-sm opacity-80" set:html={brandify(desc)}></p>
+              <p class="mt-2 text-xs opacity-70" set:html={brandify((roadmapMessages?.accept || '') + '：' + accept)}></p>
 
               <div class="mt-4 flex items-center gap-3">
                 <span class="lane-tag"
-                  style={`background:${laneColor}22;border-color:${laneColor}55`}>
-                  {laneLabel}
-                </span>
+                  style={`background:${laneColor}22;border-color:${laneColor}55`}
+                  set:html={brandify(laneLabel)}></span>
 
                 {/* progress bar: SSR visible; CSS animates from 0 to --p */}
                 <div class="progress"
                      role="progressbar"
-                     aria-label={progressLabel || title || 'progress'}
+                     aria-label={brandify(progressLabel || title || 'progress').replace(/<[^>]*>/g, '')}
                      aria-valuemin="0" aria-valuemax="100" aria-valuenow={p}
-                     aria-valuetext={`${progressLabel} ${p}%，${status}`}
+                     aria-valuetext={`${brandify(progressLabel).replace(/<[^>]*>/g, '')} ${p}%，${brandify(status).replace(/<[^>]*>/g, '')}`}
                      style={`--p:${p}%`}>
                   <div class="bar"></div>
-                  <span class="pct">{progressLabel} {p}%</span>
+                  <span class="pct" set:html={brandify(`${progressLabel} ${p}%`)}></span>
                 </div>
               </div>
             </article>

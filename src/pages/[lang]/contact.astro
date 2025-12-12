@@ -3,6 +3,7 @@ import BaseLayout from '@/layouts/BaseLayout.astro';
 import { computeCanonical } from '@/utils/head';
 import { getLocalesForBuild, defaultLocale } from '@/i18n/locales.config';
 import { LOCALE_ORDER } from '@/config/locales';
+import { brandify } from '@/lib/brandify';
 
 export async function getStaticPaths() {
   const locales = getLocalesForBuild();
@@ -14,15 +15,15 @@ const t = await import(`@/i18n/messages/${lang}/common.json`).catch(async () => 
 const messages = (t as any).default;
 const canonical = computeCanonical(Astro.url, (Astro.site && Astro.site.toString()) || undefined);
 ---
-<BaseLayout lang={lang} title={messages.site.title} description={messages.site.description} canonicalUrl={canonical} allLocales={LOCALE_ORDER}>
+<BaseLayout lang={lang} title={messages.site.title || ''} description={messages.site.description || ''} canonicalUrl={canonical} allLocales={LOCALE_ORDER}>
   
   <main id="main-content" class="mx-auto max-w-4xl px-4 py-12">
-    <h1 class="text-3xl font-bold mb-4">{messages.nav.contact}</h1>
+    <h1 class="text-3xl font-bold mb-4" set:html={brandify(messages.nav.contact || '')}></h1>
     <p class="text-textSubtle mb-6">contact@example.com</p>
     <form class="grid gap-4 max-w-md">
-      <input class="border rounded px-3 py-2" placeholder={(messages.form && messages.form.your_email) || ''} />
-      <textarea class="border rounded px-3 py-2" rows="5" placeholder={(messages.form && messages.form.message) || ''} />
-      <button class="bg-primary text-white px-4 py-2 rounded">{(messages.form && messages.form.send) || messages.cta.primary}</button>
+      <input class="border rounded px-3 py-2" placeholder={brandify((messages.form && messages.form.your_email) || '').replace(/<[^>]*>/g, '')} />
+      <textarea class="border rounded px-3 py-2" rows="5" placeholder={brandify((messages.form && messages.form.message) || '').replace(/<[^>]*>/g, '')} />
+      <button class="bg-primary text-white px-4 py-2 rounded" set:html={brandify((messages.form && messages.form.send) || messages.cta?.primary || '')}></button>
     </form>
   </main>
 </BaseLayout>

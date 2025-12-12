@@ -628,24 +628,40 @@ const tickerLabel =
         if (q) {
           params.set('q', q);
         }
-        const response = await fetch(`${chatsApiUrl}?${params.toString()}`, {
-          cache: 'no-store',
-        });
-        if (response.ok) {
-          const result = await response.json();
-          const transformed = (result.data || []).map((g) => ({
-            name: g.name || '',
-            owner: g.owner_username ? `@${g.owner_username}` : '',
-            members: g.member_count || 0,
-            totalSent: g.total_send_usdt
-              ? new Intl.NumberFormat('en-US').format(Number(g.total_send_usdt))
-              : '0',
-            periodSent: g.current_send_usdt
-              ? new Intl.NumberFormat('en-US').format(Number(g.current_send_usdt))
-              : '0',
-            link: g.username ? `https://t.me/${g.username}` : '',
-          }));
-          return { data: transformed, total: result.total || 0 };
+
+        const controller = new AbortController();
+        const timeoutId = setTimeout(() => controller.abort(), 5000); // 5秒超時
+
+        try {
+          const response = await fetch(`${chatsApiUrl}?${params.toString()}`, {
+            cache: 'no-store',
+            signal: controller.signal,
+          });
+          clearTimeout(timeoutId);
+          if (response.ok) {
+            const result = await response.json();
+            const transformed = (result.data || []).map((g) => ({
+              name: g.name || '',
+              owner: g.owner_username ? `@${g.owner_username}` : '',
+              members: g.member_count || 0,
+              totalSent: g.total_send_usdt
+                ? new Intl.NumberFormat('en-US').format(Number(g.total_send_usdt))
+                : '0',
+              periodSent: g.current_send_usdt
+                ? new Intl.NumberFormat('en-US').format(Number(g.current_send_usdt))
+                : '0',
+              link: g.username ? `https://t.me/${g.username}` : '',
+            }));
+            return { data: transformed, total: result.total || 0 };
+          }
+        } catch (err) {
+          clearTimeout(timeoutId);
+          if (err.name === 'AbortError') {
+            console.warn('[GroupsHero] API request timeout');
+            // 超時時使用緩存數據
+            return { data: cachedData[type] || [], total: cachedData[type]?.length || 0 };
+          }
+          throw err;
         }
       } catch (err) {
         console.warn('[GroupsHero] Failed to fetch groups:', err);
@@ -665,20 +681,45 @@ const tickerLabel =
       return p;
     }
 
-    async function render() {
-      if (isLoading) return;
+    async function render(forceUpdate = false) {
+      if (isLoading && !forceUpdate) return;
 
       showLoading(true);
 
       // 如果有 API URL，從 API 獲取數據
       if (chatsApiUrl) {
-        isLoading = true;
-        try {
-          const result = await fetchGroupsFromApi(activeTab, currentPage, searchQuery || undefined);
-          cachedData[activeTab] = result.data;
-          totalItems = result.total;
-        } finally {
-          isLoading = false;
+        const hasInitialData = cachedData[activeTab] && cachedData[activeTab].length > 0;
+        const isInitialLoad = currentPage === 1 && !searchQuery;
+
+        if (forceUpdate) {
+           // 已經在後台更新了數據，直接渲染
+        } else if (hasInitialData && isInitialLoad) {
+           // 優先使用緩存渲染，並觸發後台更新
+           setTimeout(async () => {
+             if (isLoading) return;
+             isLoading = true;
+             try {
+               const result = await fetchGroupsFromApi(activeTab, currentPage, searchQuery || undefined);
+               if (result.data.length > 0) {
+                 cachedData[activeTab] = result.data;
+                 totalItems = result.total;
+                 await render(true); // 強制更新 UI
+               }
+             } catch (err) {
+               console.warn('[GroupsHero] Background update failed:', err);
+             } finally {
+               isLoading = false;
+             }
+           }, 100);
+        } else {
+          isLoading = true;
+          try {
+            const result = await fetchGroupsFromApi(activeTab, currentPage, searchQuery || undefined);
+            cachedData[activeTab] = result.data;
+            totalItems = result.total;
+          } finally {
+            isLoading = false;
+          }
         }
       } else {
         // 使用緩存的數據

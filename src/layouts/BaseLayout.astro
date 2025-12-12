@@ -66,10 +66,13 @@ function hrefForLocaleSEO(code: string): string {
   }
 }
 const defaultOg = `${import.meta.env.BASE_URL}images/og-default.png`;
-const lowerBrand = (s: string) => s;
+// SEO tags don't need brandify - users can't see HTML tags in <title> and <meta description>
+// Search engines index plain text, so HTML markup is unnecessary
+const seoTitle = title || 'moonpacket';
+const seoDescription = description || '';
 const meta = {
-  title: lowerBrand(title || 'moonpacket'),
-  description: description || '',
+  title: seoTitle,
+  description: seoDescription,
   url: canonicalUrl,
   image: (ogImage === undefined || ogImage === null || ogImage === '') ? defaultOg : ogImage,
   locale: lang
@@ -89,7 +92,7 @@ const year = new Date().getFullYear();
     <!-- Google Fonts - stable fonts without variable font issues -->
     <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sora:wght@400;600;700&display=swap" rel="stylesheet">
     <!-- Favicon: avoid /favicon.ico 404 by explicitly setting icons -->
     <!-- 使用原本與 logo 一致的 favicon.ico（使用根路徑，避免語言子路徑影響） -->
     <link rel="icon" href={`${import.meta.env.BASE_URL}favicon.ico`} sizes="any" />
@@ -99,8 +102,8 @@ const year = new Date().getFullYear();
     <link rel="apple-touch-icon" href={`${import.meta.env.BASE_URL}icons/logo-192.png`} />
     <link rel="manifest" href={`${import.meta.env.BASE_URL}site.webmanifest`} />
     <!-- Fonts note: DYNAMIC. Real WOFF2 files must exist at /public/fonts to avoid 404. -->
-    <title>{title}</title>
-    <meta name="description" content={description} />
+    <title>{seoTitle}</title>
+    <meta name="description" content={seoDescription} />
     {/* Conditional RTL styles - only loaded for RTL languages */}
     {dir === 'rtl' && <link rel="stylesheet" href={`${import.meta.env.BASE_URL}styles.rtl.css`} />}
     <Fragment set:html={ogTags(meta)} />
@@ -119,6 +122,7 @@ const year = new Date().getFullYear();
       <div class="spinner h-10 w-10 rounded-full border-2 border-t-[#FFBA00] animate-spin"></div>
     </div>
     <script is:inline define:vars={{ lang, defaultLocale }}>
+      
       (function(){
         try{
           var currentLang = lang || (document.documentElement && document.documentElement.getAttribute('lang')) || defaultLocale;
@@ -173,6 +177,7 @@ const year = new Date().getFullYear();
       </div>
     </footer>
     <script is:inline>
+      
       (function(){
         var html = document.documentElement;
         // Enforce dark mode always
@@ -182,6 +187,7 @@ const year = new Date().getFullYear();
       })();
     </script>
     <script is:inline>
+      
       (function(){
         var overlay = document.getElementById('route-loading');
         if(!overlay) return;
@@ -221,10 +227,15 @@ const year = new Date().getFullYear();
           while(t && t.tagName !== 'A'){ t = t.parentElement; }
           if(!t || t.tagName !== 'A') return;
           var href = t.getAttribute('href') || '';
+          
           var target = t.getAttribute('target');
           var isExternal = /^(?:https?:)?\/\//.test(href) || href.startsWith('mailto:') || href.startsWith('tel:');
-          if(isExternal) return;
+          if(isExternal) {
+            
+            return;
+          }
           if(href && !href.startsWith('#') && !href.startsWith('javascript:') && (!target || target === '_self')){
+            
             show();
           }
         }, true);
@@ -233,6 +244,7 @@ const year = new Date().getFullYear();
       })();
     </script>
     <script is:inline>
+      
       (function(){
         try{
           var SKIP = new Set(['SCRIPT','STYLE','CODE','PRE','LINK','META','TITLE','NOSCRIPT','SVG']);

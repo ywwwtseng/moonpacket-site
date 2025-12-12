@@ -40,7 +40,7 @@ const rtl = isRTL(lang);
 // Normalize use cases items to array (supports array|string|object{0..n})
 const useCaseItems = toLines(sendMessages?.hero?.use_cases_items);
 
-// SEO metadata from i18n
+// SEO metadata from i18n (BaseLayout will handle brandify)
 const seoTitle = messages.site?.seo?.routes?.send?.title || sendMessages?.title || '';
 const seoDescription = messages.site?.seo?.routes?.send?.description || messages.site?.description || '';
 
@@ -118,12 +118,12 @@ function renderFaqParagraph(raw: string, title?: string): string {
 <BaseLayout lang={lang} title={seoTitle} description={seoDescription} canonicalUrl={canonical} faqJsonLd={faqJsonLd} allLocales={LOCALE_ORDER}>
   <main id="main-content">
     <section id="hero" class="mx-auto max-w-6xl px-4 py-8 md:py-12">
-      <h1 class="sr-only">{sendMessages?.title || ''}</h1>
+      <h1 class="sr-only" set:html={brandify(sendMessages?.title || '')}></h1>
       <div class={`flex flex-col md:flex-row ${rtl ? 'md:flex-row-reverse' : ''} gap-6 items-stretch`}>
         <div class="basis-full md:basis-3/5">
           <div class={`rounded-2xl ring-1 ring-black/5 bg-gradient-to-br from-[#0F2747] to-[#0B1932] text-[#D1FAE5] p-5 md:p-6 flex flex-col gap-3 md:gap-4 md:min-h-[340px] ${rtl ? 'text-right' : ''}`}>
             <div class="flex items-center justify-between">
-              <h2 class="text-lg font-semibold">{apiDemoHeading}</h2>
+              <h2 class="text-lg font-semibold" set:html={brandify(apiDemoHeading)}></h2>
               <button
                 type="button"
                 class="inline-flex items-center gap-1 text-xs px-3 py-1 rounded-full bg-white/10 text-white/90 hover:bg-white/15 transition"
@@ -157,7 +157,7 @@ function renderFaqParagraph(raw: string, title?: string): string {
                   try {
                     const parsed = JSON.parse(decoded);
                     return JSON.stringify(parsed, null, 2);
-                  } catch {
+                  } catch (e) {
                     return decoded;
                   }
                 };
@@ -165,9 +165,11 @@ function renderFaqParagraph(raw: string, title?: string): string {
                 var fullText = normalizeApiCode(apiCodeRaw);
                 var box = document.getElementById('api-demo-box');
                 const copyBtn = document.querySelector('[data-copy-api]');
-                if (!box) return;
+                if (!box) {
+                  return;
+                }
                 var i = 0;
-                var speed = 18; 
+                var speed = 18;
                 function tick() {
                   if (i <= fullText.length) {
                     box.textContent = fullText.slice(0, i);
@@ -218,15 +220,15 @@ function renderFaqParagraph(raw: string, title?: string): string {
         </div>
         <div class="basis-full md:basis-2/5">
           <div class={`rounded-2xl ring-1 ring-black/5 bg-white/95 dark:bg-slate-900/85 p-5 md:p-6 md:min-h-[340px] flex flex-col gap-4 ${rtl ? 'text-right' : ''}`}>
-            <div>
-              <h2 class="text-2xl md:text-3xl font-semibold tracking-tight">{sendMessages?.hero?.use_cases_title || ''}</h2>
-              <p class="text-sm text-slate-500 dark:text-slate-400 mt-1">{sendMessages?.hero?.use_cases_subtitle || ''}</p>
+            <div class="flex items-center justify-between">
+              <h2 class="text-2xl md:text-3xl font-semibold tracking-tight" set:html={brandify(sendMessages?.hero?.use_cases_title || '')}></h2>
+              <p class="text-sm text-slate-500 dark:text-slate-400 mt-1" set:html={brandify(sendMessages?.hero?.use_cases_subtitle || '')}></p>
             </div>
             <ul class="text-base md:text-lg space-y-3 break-words">
               {useCaseItems.map((line) => (
                 <li class="flex items-start gap-2">
                   <span class="mt-2 h-2 w-2 rounded-full bg-[#ffba00] shadow-[0_0_0_4px_rgba(255,186,0,0.18)] flex-shrink-0"></span>
-                  <span>{line}</span>
+                  <span set:html={brandify(line)}></span>
                 </li>
               ))}
             </ul>
@@ -253,7 +255,7 @@ function renderFaqParagraph(raw: string, title?: string): string {
     </style>
 
     <div id="about-send"></div>
-    <Section title={sendMessages?.faq?.section_title || ''} class="py-12 md:py-16">
+    <Section title={brandify(sendMessages?.faq?.section_title || '')} class="py-12 md:py-16">
       <div class="grid grid-cols-1 gap-6 md:gap-8">
         {useStructured ? (
           // New structured format with sections
@@ -328,7 +330,7 @@ function renderFaqParagraph(raw: string, title?: string): string {
             {['q2','q3','q4','q5','q6','q7'].map((key) => (
               <div class="faq-card rounded-2xl border border-white/10 bg-white/95 dark:bg-slate-900/80 shadow-[0_12px_30px_rgba(0,0,0,0.18)] ring-1 ring-black/5 p-5 md:p-6 space-y-3">
                 <h3 class="text-base font-semibold leading-snug" set:html={brandify(sendMessages?.faq?.[`${key}_title`] || '')}></h3>
-                <div class={`space-y-2.5 text-sm md:text-base leading-relaxed text-slate-700 dark:text-slate-200 ${key >= 'q6' ? 'whitespace-pre-line' : ''}`}> 
+                <div class={`space-y-2.5 text-sm md:text-base leading-relaxed text-slate-700 dark:text-slate-200 ${key >= 'q6' ? 'whitespace-pre-line' : ''}`}>
                   {toLines(sendMessages?.faq?.[`${key}_body`]).map((para) => (
                     <p class="flex gap-2">
                       <span class="mt-2 h-1.5 w-1.5 rounded-full bg-[#ffba00] flex-shrink-0"></span>
@@ -344,15 +346,13 @@ function renderFaqParagraph(raw: string, title?: string): string {
     </Section>
 
     <div class="mx-auto max-w-6xl px-4 pb-6 pt-4 text-center">
-      <a 
-        href={CTA_LINKS.mainBot} 
+      <a
+        href={CTA_LINKS.mainBot}
         class="btn btn-primary"
         target="_blank"
         rel="noopener noreferrer"
       >
-        {sendMessages?.cta_button_prefix || ''}
-        <span class="brand-mark">moonpacket</span>
-        {sendMessages?.cta_button_suffix || ''}
+        <span set:html={brandify((sendMessages?.cta_button_prefix || '') + ' moonpacket ' + (sendMessages?.cta_button_suffix || ''))}></span>
       </a>
       {sendMessages?.footer_tip && (
         <p class="mt-4 text-sm text-textSubtle" set:html={brandify(sendMessages.footer_tip)}></p>

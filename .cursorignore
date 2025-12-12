@@ -1,0 +1,55 @@
+# Cursor AI 忽略文件
+# 這些文件和目錄不會被 Cursor AI 索引，以提升性能和減少噪音
+
+# 依賴目錄
+node_modules/
+
+# 構建產物
+dist/
+build/
+.next/
+.turbo/
+coverage/
+
+# 日誌和調試文件
+*.log
+*.map
+*.zip
+!public/**/*.jpg
+!public/**/*.png
+*.mp4
+*.mov
+
+# 部署和備份
+.env.deploy.local
+backups/
+.tmp-private-push/
+.tmp-public/
+scripts/reports/
+
+# 大型歸檔文件
+public/fonts/*.zip
+dist/fonts/*.zip
+backups/*.bundle.lock
+
+# 臨時和緩存文件
+.temp/
+.cache/
+*.tmp
+*.swp
+*~
+.DS_Store
+
+# IDE 和編輯器文件
+.vscode/
+.idea/
+*.sublime-*
+*.code-workspace
+
+# 注意：以下內容**不**被忽略，因為 AI 需要理解它們：
+# - src/i18n/messages/**/*.json (i18n 消息文件 - 需要理解結構和維護工作流)
+# - scripts/**/*.mjs (維護腳本 - 需要理解 i18n 工作流和構建流程)
+# - src/**/*.astro, src/**/*.ts, src/**/*.tsx (所有源代碼)
+# - 配置文件 (package.json, tsconfig.json, astro.config.mjs 等)
+# - doc/ (文檔目錄 - 包含項目文檔和維護指南)
+

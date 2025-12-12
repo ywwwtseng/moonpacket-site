@@ -3,6 +3,7 @@ import BaseLayout from '@/layouts/BaseLayout.astro';
 import { computeCanonical } from '@/utils/head';
 import { getLocalesForBuild, defaultLocale } from '@/i18n/locales.config';
 import { LOCALE_ORDER } from '@/config/locales';
+import { brandify } from '@/lib/brandify';
 
 export async function getStaticPaths() {
   // Placeholder route generation; in real site, read from content collections
@@ -15,12 +16,15 @@ const { lang, slug } = Astro.params as { lang: string; slug: string };
 const t = await import(`@/i18n/messages/${lang}/common.json`).catch(async () => import(`@/i18n/messages/${defaultLocale}/common.json`));
 const messages = (t as any).default;
 const canonical = computeCanonical(Astro.url, (Astro.site && Astro.site.toString()) || undefined);
+// SEO metadata (BaseLayout will handle brandify)
+const seoTitle = `${messages.site.title || ''} — ${slug}`;
+const seoDescription = messages.site.description || '';
 ---
-<BaseLayout lang={lang} title={`${messages.site.title} — ${slug}`} description={messages.site.description} canonicalUrl={canonical} allLocales={LOCALE_ORDER}>
+<BaseLayout lang={lang} title={seoTitle} description={seoDescription} canonicalUrl={canonical} allLocales={LOCALE_ORDER}>
   
   <main id="main-content" class="mx-auto max-w-3xl px-4 py-12 prose">
-    <h1>{slug}</h1>
-    <p class="text-textSubtle">Localized article placeholder.</p>
+    <h1 set:html={brandify(slug)}></h1>
+    <p class="text-textSubtle" set:html={brandify('Localized article placeholder.')}></p>
   </main>
 </BaseLayout>
 

@@ -3,6 +3,7 @@ import BaseLayout from '@/layouts/BaseLayout.astro';
 import { computeCanonical } from '@/utils/head';
 import { getLocalesForBuild, defaultLocale } from '@/i18n/locales.config';
 import { LOCALE_ORDER } from '@/config/locales';
+import { brandify } from '@/lib/brandify';
 
 export async function getStaticPaths() {
   const locales = getLocalesForBuild();
@@ -18,14 +19,14 @@ const canonical = computeCanonical(Astro.url, (Astro.site && Astro.site.toString
 ---
 <BaseLayout lang={lang} title={messages.site?.title || 'Groups Directory'} description={messages.site?.description || 'Send crypto red packets'} canonicalUrl={canonical} allLocales={LOCALE_ORDER}>
   <main class="mx-auto max-w-6xl px-4 py-10">
-    <h1 class="text-2xl font-semibold mb-4">{(messages.metrics && messages.metrics.title) || 'moonpacket Metrics'}</h1>
+    <h1 class="text-2xl font-semibold mb-4" set:html={brandify((messages.metrics && messages.metrics.title) || 'moonpacket Metrics')}></h1>
     <div class="mb-4">
-      <label for="sort" class="mr-2">{messages.metrics?.sort?.label || 'Sort'}</label>
+      <label for="sort" class="mr-2" set:html={brandify(messages.metrics?.sort?.label || 'Sort')}></label>
       <select id="sort" class="px-2 py-1 rounded border border-black/10 bg-white">
-        <option value="latest">{(messages.metrics && messages.metrics.sort && messages.metrics.sort.latest) || 'Latest'}</option>
-        <option value="oldest">{(messages.metrics && messages.metrics.sort && messages.metrics.sort.oldest) || 'Oldest'}</option>
-        <option value="most">{(messages.metrics && messages.metrics.sort && messages.metrics.sort.most) || 'Most Users'}</option>
-        <option value="least">{(messages.metrics && messages.metrics.sort && messages.metrics.sort.least) || 'Least Users'}</option>
+        <option value="latest" set:html={brandify((messages.metrics && messages.metrics.sort && messages.metrics.sort.latest) || 'Latest')}></option>
+        <option value="oldest" set:html={brandify((messages.metrics && messages.metrics.sort && messages.metrics.sort.oldest) || 'Oldest')}></option>
+        <option value="most" set:html={brandify((messages.metrics && messages.metrics.sort && messages.metrics.sort.most) || 'Most Users')}></option>
+        <option value="least" set:html={brandify((messages.metrics && messages.metrics.sort && messages.metrics.sort.least) || 'Least Users')}></option>
       </select>
     </div>
     <ul id="groups-list" class="space-y-3"></ul>

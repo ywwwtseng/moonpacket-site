@@ -28,8 +28,15 @@ html, body { background-color: var(--bg) !important; color: var(--text) !importa
 
 /* Safe overrides for common utility classes used across pages */
 [data-theme="dark"] .bg-white { background-color: var(--card-bg) !important; }
+[data-theme="dark"] .bg-white\/95 { background-color: var(--card-bg) !important; }
 [data-theme="dark"] .text-black { color: var(--text) !important; }
 [data-theme="dark"] .text-text { color: var(--text) !important; }
+
+/* Force override for common Tailwind text colors in dark mode */
+[data-theme="dark"] .text-slate-700 { color: var(--text) !important; }
+[data-theme="dark"] .text-slate-500 { color: var(--text-subtle) !important; }
+[data-theme="dark"] .text-slate-200 { color: var(--text) !important; }
+[data-theme="dark"] .text-textSubtle { color: var(--text-subtle) !important; }
 
 /* 强制暗色模式下主内容容器的背景色 */
 [data-theme="dark"] .rounded-xl.bg-white {
@@ -204,5 +211,31 @@ html, body { background-color: var(--bg) !important; color: var(--text) !importa
   text-align: right;
 }
 
+/* Force override for FAQ cards in dark mode */
+[data-theme="dark"] .faq-card.bg-white\/95 {
+  background-color: var(--card-bg) !important;
+}
 
+/* 確保所有标题内的 brand-mark 正确继承颜色（全局规则，所有页面一致） */
+[data-theme="dark"] h1 .brand-mark,
+[data-theme="dark"] h2 .brand-mark,
+[data-theme="dark"] h3 .brand-mark,
+[data-theme="dark"] h4 .brand-mark,
+[data-theme="dark"] h5 .brand-mark,
+[data-theme="dark"] h6 .brand-mark {
+  color: inherit !important;
+}
 
+/* 確保 FAQ 卡片内的标题和品牌词正确继承颜色 */
+[data-theme="dark"] .faq-card h3 {
+  color: var(--text) !important;
+}
+
+[data-theme="dark"] .faq-card h3 .brand-mark {
+  color: inherit !important;
+}
+
+/* 確保所有容器内的 brand-mark 正确继承颜色（兜底规则） */
+[data-theme="dark"] .brand-mark {
+  color: inherit !important;
+}

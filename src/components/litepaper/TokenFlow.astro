@@ -63,23 +63,23 @@ const l = {
     <!-- 1. User Action (Left) -->
     <g transform="translate(50, 130)">
       <rect width="140" height="60" rx="12" fill="var(--card-bg)" stroke="var(--primary)" stroke-width="2" fill-opacity="0.8" />
-      <text x="70" y="30" text-anchor="middle" fill="var(--text)" font-weight="bold" font-size="14" dominant-baseline="middle" dy="2">{l.userSend}</text>
+      <text x="70" y="30" text-anchor="middle" fill="var(--text)" font-weight="bold" font-size="10" dominant-baseline="middle" dy="2">{l.userSend}</text>
     </g>
 
     <!-- Path: User -> Fee -->
-    <path d="M190 160 H250" stroke="var(--text-subtle)" stroke-width="2" marker-end="url(#tf-arrow-gold)" stroke-dasharray="4 4" />
+    <path d="M190 160 H260" stroke="var(--text-subtle)" stroke-width="2" marker-end="url(#tf-arrow-gold)" stroke-dasharray="4 4" />
 
     <!-- 2. Fee Logic (Center) -->
     <g transform="translate(260, 110)">
       <circle cx="50" cy="50" r="45" fill="var(--bg-dark)" stroke="var(--gold)" stroke-width="2" />
-      <text x="50" y="50" text-anchor="middle" fill="var(--text)" font-weight="bold" font-size="12" dominant-baseline="middle">{l.fee}</text>
+      <text x="50" y="50" text-anchor="middle" fill="var(--text)" font-weight="bold" font-size="10" dominant-baseline="middle">{l.fee}</text>
     </g>
 
     <!-- Path: Fee -> Ops (Up) -->
-    <path d="M310 110 Q350 60 400 60" stroke="var(--text-subtle)" stroke-width="1" stroke-dasharray="2 2" />
+    <path d="M310 110 Q350 60 400 60" stroke="var(--text-subtle)" stroke-width="2" stroke-dasharray="2 2" />
     
     <!-- Path: Fee -> POL (Down - MAIN PATH) -->
-    <path d="M310 160 Q350 220 400 220" stroke="url(#tf-grad-gold)" stroke-width="4" marker-end="url(#tf-arrow-gold)" />
+    <path d="M310 210 Q310 250 400 250" stroke="url(#tf-grad-gold)" stroke-width="2" marker-end="url(#tf-arrow-gold)" />
 
     <!-- 3. Operations (Top) -->
     <g transform="translate(400, 30)">
@@ -100,7 +100,7 @@ const l = {
       </g>
 
       <!-- Arrow -->
-      <path d="M120 70 H140" stroke="var(--gold)" stroke-width="2" marker-end="url(#tf-arrow-gold)" />
+      <path d="M120 70 H150" stroke="var(--gold)" stroke-width="2" marker-end="url(#tf-arrow-gold)" />
 
       <!-- Buyback Box -->
       <g transform="translate(150, 50)">
@@ -113,12 +113,12 @@ const l = {
     </g>
 
     <!-- Path: POL -> LP (Return) -->
-    <path d="M700 240 H740 V160 H680" stroke="var(--gold)" stroke-width="2" stroke-dasharray="4 4" marker-end="url(#tf-arrow-gold)" />
+    <path d="M700 240 H740 V135 H700" stroke="var(--gold)" stroke-width="2" stroke-dasharray="4 4" marker-end="url(#tf-arrow-gold)" />
 
     <!-- 5. Liquidity Pool (Right) -->
     <g transform="translate(560, 100)">
       <rect width="140" height="70" rx="35" fill="url(#tf-grad-gold)" fill-opacity="0.1" stroke="var(--gold)" stroke-width="2" />
-      <text x="70" y="35" text-anchor="middle" fill="var(--text)" font-weight="bold" font-size="14" dominant-baseline="middle" dy="2">{l.pool}</text>
+      <text x="70" y="35" text-anchor="middle" fill="var(--text)" font-weight="bold" font-size="12" dominant-baseline="middle" dy="2">{l.pool}</text>
     </g>
 
     </svg>

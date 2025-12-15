@@ -63,13 +63,13 @@ export default function AllocationPieChart({ labels, data, isRTL = false }: Prop
     };
   }, []);
 
-  // 顏色方案：Moonpacket Financial Theme
+  // 顏色方案：Moonpacket Financial Theme (High Contrast)
   const colors = {
     public: '#E32521',      // Primary Red (90% Public Share)
-    operations: '#FDE047',  // Yellow
-    tech: '#F97316',        // Orange
+    operations: '#10B981',  // Emerald Green
+    tech: '#3B82F6',        // Blue
     marketing: '#FFBA00',   // Gold (Brand Gold)
-    investors: '#FFD766',   // Light Gold
+    investors: '#8B5CF6',   // Purple
   };
 
   const chartData = {

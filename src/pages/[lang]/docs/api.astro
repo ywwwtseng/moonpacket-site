@@ -4,6 +4,7 @@ import { getLocalesForBuild, defaultLocale } from '@/i18n/locales.config';
 import { LOCALE_ORDER } from '@/config/locales';
 import { isRTL } from '@/i18n/rtl';
 import ApiFlow from '@/components/api/ApiFlow.astro';
+import { computeCanonical } from '@/utils/head';
 
 export async function getStaticPaths() {
   const locales = getLocalesForBuild();
@@ -26,7 +27,7 @@ const messages = await import('@/i18n/loadMessages')
 const apiDocs = messages.docs?.litepaper_api || {};
 const seoTitle = apiDocs.meta?.title || "Moonpacket API Hub";
 const seoDescription = apiDocs.meta?.description || "Developer Integration Guide";
-const canonical = new URL(Astro.url.pathname, Astro.site || Astro.url.origin).toString();
+const canonical = computeCanonical(Astro.url, (Astro.site && Astro.site.toString()) || undefined);
 
 // Helper for bold text and brand styling
 const md = (text: string) => {

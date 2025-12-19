@@ -4,6 +4,7 @@ import { getLocalesForBuild, defaultLocale } from '@/i18n/locales.config';
 import { LOCALE_ORDER } from '@/config/locales';
 import { isRTL } from '@/i18n/rtl';
 import { roadmapConfig } from '@/config/roadmap';
+import { computeCanonical } from '@/utils/head';
 
 // Components
 import AllocationPieChart from '@/islands/charts/AllocationPieChart';
@@ -60,7 +61,7 @@ const vestingData = litepaper.sections?.lockup || litepaper.lockup || {
 
 const seoTitle = litepaper.seo?.title || "moonpacket Litepaper";
 const seoDescription = litepaper.seo?.description || "The Social Liquidity Protocol";
-const canonical = new URL(Astro.url.pathname, Astro.site || Astro.url.origin).toString();
+const canonical = computeCanonical(Astro.url, (Astro.site && Astro.site.toString()) || undefined);
 
 // Data prep
 const allocationLabels = {

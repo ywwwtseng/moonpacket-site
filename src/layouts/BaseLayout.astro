@@ -29,9 +29,10 @@ interface Props {
   faqJsonLd?: string;
   xDefaultForRoot?: boolean;
   allLocales?: readonly string[];
+  noindex?: boolean;
 }
 
-const { lang = defaultLocale, title, description, canonicalUrl, ogImage, faqJsonLd, xDefaultForRoot = false } = Astro.props as Props;
+const { lang = defaultLocale, title, description, canonicalUrl, ogImage, faqJsonLd, xDefaultForRoot = false, noindex = false } = Astro.props as Props;
 const publicOnly = (import.meta as any)?.env?.PUBLIC_ONLY === '1' || (typeof process !== 'undefined' && (process as any)?.env?.PUBLIC_ONLY === '1');
 const allLocales = publicOnly ? (await import('@/i18n/locales.config')).PUBLIC_LOCALE_CODES : LOCALE_ORDER;
 const locale = typeof lang === "string" ? lang : Astro.locals?.lang ?? "en-US";
@@ -89,6 +90,7 @@ const year = new Date().getFullYear();
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="canonical" href={canonicalUrl} />
+    {noindex && <meta name="robots" content="noindex, nofollow" />}
     <!-- Google Fonts - stable fonts without variable font issues -->
     <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

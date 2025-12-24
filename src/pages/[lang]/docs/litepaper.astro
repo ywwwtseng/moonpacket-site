@@ -4,7 +4,7 @@ import { getLocalesForBuild, defaultLocale } from '@/i18n/locales.config';
 import { LOCALE_ORDER } from '@/config/locales';
 import { isRTL } from '@/i18n/rtl';
 import { roadmapConfig } from '@/config/roadmap';
-import { computeCanonical } from '@/utils/head';
+import { computeCanonical, jsonLdBreadcrumbList } from '@/utils/head';
 
 // Components
 import AllocationPieChart from '@/islands/charts/AllocationPieChart';
@@ -62,6 +62,21 @@ const vestingData = litepaper.sections?.lockup || litepaper.lockup || {
 const seoTitle = litepaper.seo?.title || "moonpacket Litepaper";
 const seoDescription = litepaper.seo?.description || "The Social Liquidity Protocol";
 const canonical = computeCanonical(Astro.url, (Astro.site && Astro.site.toString()) || undefined);
+let docsLabel = '';
+try {
+  const nav = (messages as any)?.site?.nav;
+  const docsNav = (messages as any)?.docs?.nav;
+  docsLabel = (nav && nav.docs) ? String(nav.docs) : ((docsNav && docsNav.docs) ? String(docsNav.docs) : '');
+} catch { }
+const crumbHomeName = 'moonpacket';
+const crumbCurrentName = (litepaper && litepaper.title) ? String(litepaper.title) : (seoTitle || '');
+const crumbHomeUrl = new URL(`/${lang}/`, canonical).toString();
+const crumbDocsUrl = new URL(`/${lang}/docs/litepaper/`, canonical).toString();
+const breadcrumbJsonLd = jsonLdBreadcrumbList([
+  { name: crumbHomeName, url: crumbHomeUrl },
+  { name: docsLabel, url: crumbDocsUrl },
+  { name: crumbCurrentName, url: canonical }
+]);
 
 // Data prep
 const allocationLabels = {
@@ -180,6 +195,7 @@ const roadmapData = (rawRoadmap?.phases || rawRoadmap?.tracks) ? rawRoadmap : {
   canonicalUrl={canonical}
   allLocales={LOCALE_ORDER}
 >
+  <script type="application/ld+json" set:html={breadcrumbJsonLd}></script>
   <!-- Background Ambient Glows -->
   <div class="fixed inset-0 pointer-events-none overflow-hidden -z-10">
     <div class="absolute top-0 left-1/4 w-[800px] h-[800px] bg-[var(--primary)] opacity-[0.04] dark:opacity-[0.03] rounded-full blur-[120px]"></div>

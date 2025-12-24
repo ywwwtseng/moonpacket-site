@@ -82,6 +82,27 @@ export function jsonLdOrganization(meta: { name: string; url: string; logo?: str
   return `<script type="application/ld+json">${JSON.stringify(data)}</script>`;
 }
 
+export function jsonLdBreadcrumbList(items: { name: string; url: string }[]) {
+  const list: any[] = [];
+  for (let i = 0; i < items.length; i++) {
+    const it = items[i];
+    if (!it || !it.name || !it.url) continue;
+    list.push({
+      '@type': 'ListItem',
+      position: list.length + 1,
+      name: it.name,
+      item: it.url
+    });
+  }
+
+  const data = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: list
+  };
+  return JSON.stringify(data);
+}
+
 export function escapeHtml(str: string): string {
   return str
     .replaceAll('&', '&amp;')

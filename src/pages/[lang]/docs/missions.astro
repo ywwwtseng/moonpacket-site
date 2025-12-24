@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import { computeCanonical } from '@/utils/head';
+import { jsonLdBreadcrumbList } from '@/utils/head';
 import { getLocalesForBuild, defaultLocale } from '@/i18n/locales.config';
 import { LOCALE_ORDER } from '@/config/locales';
 import { isRTL } from '@/i18n/rtl';
@@ -58,6 +59,21 @@ const canonical = computeCanonical(
   Astro.url, 
   (Astro.site && Astro.site.toString()) || undefined
 );
+let docsLabel = '';
+try {
+  const nav = (messages as any)?.site?.nav;
+  const docsNav = (messages as any)?.docs?.nav;
+  docsLabel = (nav && nav.docs) ? String(nav.docs) : ((docsNav && docsNav.docs) ? String(docsNav.docs) : '');
+} catch { }
+const crumbHomeName = 'moonpacket';
+const crumbCurrentName = (missionsMessages && missionsMessages.title) ? String(missionsMessages.title) : (seoTitle || '');
+const crumbHomeUrl = new URL(`/${lang}/`, canonical).toString();
+const crumbDocsUrl = new URL(`/${lang}/docs/litepaper/`, canonical).toString();
+const breadcrumbJsonLd = jsonLdBreadcrumbList([
+  { name: crumbHomeName, url: crumbHomeUrl },
+  { name: docsLabel, url: crumbDocsUrl },
+  { name: crumbCurrentName, url: canonical }
+]);
 
 const missionsTitle = brandify(missionsMessages?.title || '');
 ---
@@ -70,6 +86,7 @@ const missionsTitle = brandify(missionsMessages?.title || '');
   allLocales={LOCALE_ORDER}
   rtl={rtl}
 >
+  <script type="application/ld+json" set:html={breadcrumbJsonLd}></script>
   <main id="main-content">
     <section id="hero" class="relative mx-auto max-w-6xl px-4 py-6 overflow-visible">
       <div class="mb-4">

@@ -25,7 +25,7 @@
 
 ## Phase 3：Breadcrumb Schema（用戶不可見）
 
-- [ ] 僅在 Docs 頁面加入 `BreadcrumbList` JSON-LD（目前未做；需要你確認是否要做）
+- [x] 僅在 Docs 內容頁加入 `BreadcrumbList` JSON-LD（不改 Layout；`/docs/` 本身為 301 redirect，不加）
 
 ## Phase 4：部署後 GSC（需要你操作）
 

@@ -17,6 +17,7 @@ import DisclaimerBanner from '@/components/DisclaimerBanner.astro';
 import DocsSidebar from '@/components/DocsSidebar.astro';
 import MobileTOC from '@/components/MobileTOC.astro';
 import { shouldShowCountdown, TOKEN_LAUNCH_CONFIG } from '@/config/token-launch';
+import { jsonLdBreadcrumbList } from '@/utils/head';
 
 // 圖表組件
 import AllocationPieChart from '@/islands/charts/AllocationPieChart';
@@ -114,6 +115,21 @@ const canonical = computeCanonical(
   Astro.url, 
   (Astro.site && Astro.site.toString()) || undefined
 );
+let docsLabel = '';
+try {
+  const nav = (messages as any)?.site?.nav;
+  const docsNav = (messages as any)?.docs?.nav;
+  docsLabel = (nav && nav.docs) ? String(nav.docs) : ((docsNav && docsNav.docs) ? String(docsNav.docs) : '');
+} catch { }
+const crumbHomeName = 'moonpacket';
+const crumbCurrentName = (whitepaperMessages && whitepaperMessages.title) ? String(whitepaperMessages.title) : (seoTitle || '');
+const crumbHomeUrl = new URL(`/${lang}/`, canonical).toString();
+const crumbDocsUrl = new URL(`/${lang}/docs/litepaper/`, canonical).toString();
+const breadcrumbJsonLd = jsonLdBreadcrumbList([
+  { name: crumbHomeName, url: crumbHomeUrl },
+  { name: docsLabel, url: crumbDocsUrl },
+  { name: crumbCurrentName, url: canonical }
+]);
 
 // 章節列表（用於側邊欄和 TOC）
 const sections = [
@@ -152,6 +168,7 @@ const showCountdown = shouldShowCountdown();
   allLocales={LOCALE_ORDER}
   rtl={rtl}
 >
+  <script type="application/ld+json" set:html={breadcrumbJsonLd}></script>
   <main id="main-content">
     <!-- Hero 區域 -->
     <section id="hero" class="relative mx-auto max-w-6xl px-4 py-6 overflow-visible">

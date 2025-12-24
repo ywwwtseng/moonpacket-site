@@ -2,7 +2,9 @@
   "name": "moonpacket",
   "short_name": "moonpacket",
   "icons": [
-    { "src": "/favicon.ico", "sizes": "16x16 32x32 48x48", "type": "image/x-icon" }
+    { "src": "/favicon.ico", "sizes": "16x16 32x32 48x48", "type": "image/x-icon" },
+    { "src": "/icons/logo-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/logo-512.png", "sizes": "512x512", "type": "image/png" }
   ],
   "theme_color": "#0C1E3A",
   "background_color": "#ffffff",

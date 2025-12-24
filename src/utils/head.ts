@@ -1,5 +1,6 @@
 import type { APIContext } from 'astro';
 import { publicLocales, defaultLocale, isRTL } from '@/i18n/locales.config';
+import { SOCIAL_LINKS } from '@/config/app';
 
 export type HeadMeta = {
   title: string;
@@ -43,13 +44,41 @@ export function ogTags(meta: HeadMeta) {
 }
 
 export function jsonLdOrganization(meta: { name: string; url: string; logo?: string }) {
-  const data = {
+  let origin = '';
+  try {
+    origin = new URL(meta.url).origin;
+  } catch {
+    origin = '';
+  }
+
+  const sameAsCandidates: string[] = [];
+  if (SOCIAL_LINKS && typeof SOCIAL_LINKS === 'object') {
+    const s: any = SOCIAL_LINKS as any;
+    if (s.channel) sameAsCandidates.push(String(s.channel));
+    if (s.group) sameAsCandidates.push(String(s.group));
+    if (s.x) sameAsCandidates.push(String(s.x));
+    if (s.youtube) sameAsCandidates.push(String(s.youtube));
+  }
+  const sameAs: string[] = [];
+  const seen: Record<string, true> = Object.create(null);
+  for (let i = 0; i < sameAsCandidates.length; i++) {
+    const v = sameAsCandidates[i];
+    if (v && !seen[v]) {
+      seen[v] = true;
+      sameAs.push(v);
+    }
+  }
+
+  const defaultLogo = origin ? `${origin}/logo-512.png` : '';
+  const data: any = {
     '@context': 'https://schema.org',
     '@type': 'Organization',
     name: meta.name,
-    url: meta.url,
-    logo: meta.logo
+    url: meta.url
   };
+  const logo = meta.logo || defaultLogo;
+  if (logo) data.logo = logo;
+  if (sameAs.length > 0) data.sameAs = sameAs;
   return `<script type="application/ld+json">${JSON.stringify(data)}</script>`;
 }
 

@@ -41,3 +41,4 @@ backups/
 .tmp-private-push/
 .tmp-public/
 scripts/reports
+.DS_Store

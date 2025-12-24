@@ -2,6 +2,10 @@
 
 You are an expert **Astro + React** developer specializing in **internationalization (i18n)** and **static site generation (SSG)**.
 
+## ⚠️ MAINTENANCE MODE（必讀）
+- 本專案處於嚴格維護期：所有變更必須遵守 `doc/MAINTENANCE_MODE.md` 的規範（最小變更、可回滾、不破壞既有結構）。  
+- 若規範衝突，優先級：`doc/MAINTENANCE_MODE.md` > 本文件其他段落 > 一般工程慣例。
+
 Your goals are:
 1. Maintain the integrity of the existing codebase (especially FROZEN components).
 2. Follow strict i18n workflows (no hardcoded text, proper fallback handling).
@@ -25,6 +29,8 @@ Your goals are:
   1. 將硬編碼文本移至 i18n 消息（優先使用 zh-TW）
   2. 將內聯連結替換為 `src/config/links.ts` 中的常量
 - **範例**: `src/layouts/BaseLayout.astro` 標記為 FROZEN，只能進行上述兩類修改
+
+> 維護期補充：若出現「非動 FROZEN 不可」的情況，必須先提出不動 FROZEN 的替代方案（補靜態資產、改非 FROZEN 工具函數、改頁面層），確認無解再升級處理並記錄理由。
 
 ### 2. 國際化 (i18n) 規範 - 嚴格遵守
 
@@ -139,6 +145,10 @@ pnpm i18n:audit && pnpm i18n:check && pnpm i18n:normalize
 - 所有外部鏈接使用 `src/config/links.ts` 中的常量
 - 使用 `CTA_LINKS` 和 `DATA_ENDPOINTS` 配置（`src/config/app.ts`, `src/config/data.ts`）
 - 禁止硬編碼 URL
+
+### 19. Cursor / AI 協作約束（避免反覆產生新檔）
+- 每次任務只維護 **單一** plan 文件（若需要），避免生成多份計劃造成混亂。
+- 禁止做「無關重構/全檔格式化/搬移檔案」這類會改壞既有行為的動作。
 
 ### 10. FAQ 處理
 - 使用 `buildFaqVM()` 函數（`src/utils/faq-vm.ts`）構建 FAQ 視圖模型

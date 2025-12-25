@@ -140,6 +140,23 @@ export default function Waterfall({
       return `<svg ${base}><circle cx="12" cy="12" r="10" fill="#0098EA"/><path d="M12 6c3 0 5 1.5 5 3.7 0 .9-.3 1.7-.8 2.4L12 18l-4.2-5.9c-.5-.7-.8-1.5-.8-2.4C7 7.5 9 6 12 6z" fill="#fff"/></svg>`;
     }
 
+    function tokenIcon(item: any, ccy: string): string {
+      // 优先使用 token_icon（如果存在）
+      if (item && item.token_icon) {
+        const icon = String(item.token_icon);
+        // 如果是 URL 或 base64 图片
+        if (icon.startsWith('http://') || icon.startsWith('https://') || icon.startsWith('data:image/')) {
+          return `<img src="${icon}" alt="${ccy}" width="14" height="14" class="rounded-full flex-shrink-0" style="width: 14px; height: 14px; object-fit: cover; border-radius: 50%; display: inline-block; overflow: hidden;" />`;
+        }
+        // 如果是 SVG 字符串
+        if (icon.trim().startsWith('<svg')) {
+          return icon;
+        }
+      }
+      // 回退到 currencyIcon
+      return currencyIcon(ccy);
+    }
+
     function fmtInt(n: any): string {
       try {
         return new Intl.NumberFormat(undefined).format(Number(n || 0));
@@ -167,12 +184,14 @@ export default function Waterfall({
       const divisor = Math.pow(10, decimals);
       const balance = Number(apiItem.balance || 0) / divisor;
       const total = Number(apiItem.total || 0) / divisor;
+      const amount = Number(apiItem.amount || 0) / divisor;
+      
 
       // sented_usdt 是已发送的 USDT 等价金额（可能已经是转换后的值）
       const sentedUsdt = apiItem.sented_usdt ? Number(apiItem.sented_usdt) : null;
       const recipients = Number(apiItem.recipients || 0);
 
-      const amount = total - balance;
+      // const amount = total - balance;
 
       // total_amount 使用 sented_usdt（如果存在，这是已发送的总 USDT 等价金额）
       // 否则使用转换后的 total（原始代币总金额）
@@ -181,7 +200,12 @@ export default function Waterfall({
       // 构建 Telegram 群组链接
       let link = '';
       if (apiItem.tg_chat_username) {
-        link = `https://t.me/${apiItem.tg_chat_username}`;
+        const message_id = apiItem.message_id?.split(':')[1] || '';
+        if (message_id) {
+          link = `https://t.me/${apiItem.tg_chat_username}/${message_id}`;
+        } else {
+          link = `https://t.me/${apiItem.tg_chat_username}`;
+        }
       } else if (apiItem.tg_chat_id) {
         // 如果是数字 ID，可能需要特殊处理
         link = mapGroupUrl(apiItem.tg_chat_name || '');
@@ -200,7 +224,8 @@ export default function Waterfall({
         user: apiItem.user_first_name || userFallback || 'User',
         group: apiItem.tg_chat_name || groupFallback || 'Group',
         link: link,
-        amount: amount,
+        token_icon: apiItem.token_icon,
+        amount,
         ccy: ccy,
         ts: apiItem.updated_at || new Date().toISOString(),
         total_amount: totalAmount,
@@ -241,7 +266,7 @@ export default function Waterfall({
               <span>${item.user || userFallback || ''}</span>
             </div>
             <div class="inline-flex items-center gap-1.5 text-primary font-bold text-base">
-              ${currencyIcon(ccy)}
+              ${tokenIcon(item, ccy)}
               <span>${claimedLabel || ''} <span class="num">${formatAmt(item.amount, ccy)}</span> ${ccy}</span>
             </div>
           </div>

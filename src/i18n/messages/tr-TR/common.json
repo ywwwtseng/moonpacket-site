@@ -40,6 +40,7 @@
     "groupsLinkLabel": "Katıldığınız red packet Grupları",
     "sent": "Gönderildi",
     "claimed": "Talep Edildi (USDT)",
+    "sended": "Toplam Gönderilen Miktar (USDT)",
     "sort": {
       "latest": "Son",
       "oldest": "En Yaşlı",

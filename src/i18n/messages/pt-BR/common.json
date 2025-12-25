@@ -40,6 +40,7 @@
     "groupsLinkLabel": "Grupos de Red Packet Participantes",
     "sent": "Enviado",
     "claimed": "Reivindicado (USDT)",
+    "sended": "Valor Total Enviado (USDT)",
     "sort": {
       "latest": "Últimos",
       "oldest": "Mais Velho",

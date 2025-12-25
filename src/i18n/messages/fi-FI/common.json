@@ -40,6 +40,7 @@
     "groupsLinkLabel": "Liittyneet red packet -ryhmät",
     "sent": "Lähetetty",
     "claimed": "Vaatimukset (USDT)",
+    "sended": "Yhteensä lähetetty määrä (USDT)",
     "sort": {
       "latest": "Uusimmat",
       "oldest": "Vanhin",

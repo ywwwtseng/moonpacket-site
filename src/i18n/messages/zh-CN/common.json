@@ -54,6 +54,7 @@
     "groupsLinkLabel": "接入的红包群",
     "sent": "已发送",
     "claimed": "已领取 (USDT)",
+    "sended": "已发送总额（USDT）",
     "sort": {
       "latest": "Latest",
       "oldest": "最旧",

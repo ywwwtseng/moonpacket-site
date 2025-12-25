@@ -40,6 +40,7 @@
     "groupsLinkLabel": "Присоединившиеся группы Red Packet",
     "sent": "Отправлено",
     "claimed": "Заявлено (USDT)",
+    "sended": "Общая сумма отправлена (USDT)",
     "sort": {
       "latest": "Последние",
       "oldest": "Самый старый",

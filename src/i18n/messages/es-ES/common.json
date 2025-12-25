@@ -40,6 +40,7 @@
     "groupsLinkLabel": "Grupos de Sobre Rojo Unidos",
     "sent": "Enviado",
     "claimed": "Reclamado (USDT)",
+    "sended": "Cantidad Total Enviada (USDT)",
     "sort": {
       "latest": "Último",
       "oldest": "Mayor",

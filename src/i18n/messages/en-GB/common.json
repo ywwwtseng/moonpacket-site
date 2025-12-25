@@ -54,6 +54,7 @@
     "groupsLinkLabel": "Joined red packet Groups",
     "sent": "Sent",
     "claimed": "Claimed (USDT)",
+    "sended": "Total Amount Sent (USDT)",
     "sort": {
       "latest": "Latest",
       "oldest": "Oldest",

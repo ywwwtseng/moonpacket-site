@@ -40,6 +40,7 @@
     "groupsLinkLabel": "Připojené skupiny red packet",
     "sent": "Odesláno",
     "claimed": "Uplatněno (USDT)",
+    "sended": "Celková částka odeslaná (USDT)",
     "sort": {
       "latest": "Nejnovější",
       "oldest": "Nejstarší",

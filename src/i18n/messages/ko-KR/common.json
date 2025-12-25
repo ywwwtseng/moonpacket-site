@@ -54,6 +54,7 @@
     "groupsLinkLabel": "가입한 레드패킷 그룹",
     "sent": "전송됨",
     "claimed": "청구됨 (USDT)",
+    "sended": "총 전송 금액 (USDT)",
     "sort": {
       "latest": "최신",
       "oldest": "최고 연령",

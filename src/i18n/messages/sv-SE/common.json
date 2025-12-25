@@ -40,6 +40,7 @@
     "groupsLinkLabel": "Gå med i red packet-grupper",
     "sent": "Skickat",
     "claimed": "Krävd (USDT)",
+    "sended": "Totalt belopp skickat (USDT)",
     "sort": {
       "latest": "Senaste",
       "oldest": "Äldsta",

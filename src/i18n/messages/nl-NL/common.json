@@ -40,6 +40,7 @@
     "groupsLinkLabel": "Aangesloten red packet-groepen",
     "sent": "Verzonden",
     "claimed": "Geclaimd (USDT)",
+    "sended": "Totaal Aantal Verzonden (USDT)",
     "sort": {
       "latest": "Laatste",
       "oldest": "Oudste",

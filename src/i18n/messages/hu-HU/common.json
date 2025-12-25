@@ -40,6 +40,7 @@
     "groupsLinkLabel": "Csatlakozott red packet csoportok",
     "sent": "Küldve",
     "claimed": "Igényelt (USDT)",
+    "sended": "Összes küldött összeg (USDT)",
     "sort": {
       "latest": "Legfrissebb",
       "oldest": "Legidősebb",

@@ -40,6 +40,7 @@
     "groupsLinkLabel": "Gruppi di red packet Uniti",
     "sent": "Inviato",
     "claimed": "Richiesto (USDT)",
+    "sended": "Importo Totale Inviato (USDT)",
     "sort": {
       "latest": "Ultimo",
       "oldest": "Più Vecchio",

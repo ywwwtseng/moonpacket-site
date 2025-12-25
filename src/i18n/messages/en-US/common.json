@@ -240,6 +240,7 @@
     "groupsLinkLabel": "Joined Red Packet Groups",
     "sent": "Sent",
     "claimed": "Claimed (USDT)",
+    "sended": "Total Amount Sent (USDT)",
     "sort": {
       "latest": "Latest",
       "oldest": "Oldest",

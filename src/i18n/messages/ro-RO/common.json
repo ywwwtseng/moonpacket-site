@@ -40,6 +40,7 @@
     "groupsLinkLabel": "Grupuri de red packet alăturate",
     "sent": "Trimis",
     "claimed": "Cerat (USDT)",
+    "sended": "Suma Totală Trimisă (USDT)",
     "sort": {
       "latest": "Recente",
       "oldest": "Cel Mai Vechi",

@@ -40,6 +40,7 @@
     "groupsLinkLabel": "Deltagede red packet Grupper",
     "sent": "Sendt",
     "claimed": "Krav (USDT)",
+    "sended": "Samlet Beløb Sendt (USDT)",
     "sort": {
       "latest": "Seneste",
       "oldest": "Ældste",

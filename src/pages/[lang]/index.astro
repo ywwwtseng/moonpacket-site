@@ -128,9 +128,9 @@ function formatCap(input: string): string {
           <div class="text-3xl md:text-4xl font-[800] num" data-metric>{new Intl.NumberFormat(Astro.locals?.locale ?? "zh-TW", { maximumFractionDigits: 0 }).format(0)}</div>
           <div class="text-xs text-textSubtle/80" data-stale hidden set:html={brandify(messages.common?.errors?.stale || '')}></div>
         </div>
-        <!-- total claimed USDT -->
-        <div class="rounded-xl bg-white shadow-sm ring-1 ring-black/5 p-5 md:p-6 flex flex-col items-center text-center" data-api-src={(DATA_ENDPOINTS.metrics && DATA_ENDPOINTS.metrics.length ? DATA_ENDPOINTS.metrics : `${import.meta.env.BASE_URL}data/metrics.json`)} data-api-path="data.total_claimed_usdt" data-decimals="8">
-          <div class="text-sm text-textSubtle tracking-wide mb-2" set:html={brandify(messages.common?.metrics?.claimed || '')}></div>
+        <!-- total sented USDT -->
+        <div class="rounded-xl bg-white shadow-sm ring-1 ring-black/5 p-5 md:p-6 flex flex-col items-center text-center" data-api-src={(DATA_ENDPOINTS.metrics && DATA_ENDPOINTS.metrics.length ? DATA_ENDPOINTS.metrics : `${import.meta.env.BASE_URL}data/metrics.json`)} data-api-path="data.total_sented_usdt" data-decimals="8">
+          <div class="text-sm text-textSubtle tracking-wide mb-2" set:html={brandify(messages.common?.metrics?.sended || '')}></div>
           <div class="text-3xl md:text-4xl font-[800] num" data-metric>{new Intl.NumberFormat(Astro.locals?.locale ?? "zh-TW", { maximumFractionDigits:0 }).format(0)}</div>
           <div class="text-xs text-textSubtle/80" data-stale hidden set:html={brandify(messages.common?.errors?.stale || '')}></div>
         </div>

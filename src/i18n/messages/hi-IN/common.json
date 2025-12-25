@@ -40,6 +40,7 @@
     "groupsLinkLabel": "जुड़े हुए रेड पैकेट समूह",
     "sent": "भेजा गया",
     "claimed": "दावा किया गया (USDT)",
+    "sended": "कुल राशि भेजी गई (USDT)",
     "sort": {
       "latest": "नवीनतम",
       "oldest": "सबसे पुराना",

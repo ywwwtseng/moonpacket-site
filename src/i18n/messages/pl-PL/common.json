@@ -40,6 +40,7 @@
     "groupsLinkLabel": "Dołączone grupy red packet",
     "sent": "Wysłane",
     "claimed": "Zgłoszono (USDT)",
+    "sended": "Łączna kwota wysłana (USDT)",
     "sort": {
       "latest": "Najnowsze",
       "oldest": "Najstarszy",

@@ -2,6 +2,6 @@
   "metrics": {
     "groups_connected": 27123,
     "total_packets_sent": 913842,
-    "total_claimed_usdt": 123456.78000000
+    "total_sented_usdt": 123456.78000000
   }
 }

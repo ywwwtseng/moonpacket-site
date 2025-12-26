@@ -227,7 +227,7 @@ export default function Waterfall({
         token_icon: apiItem.token_icon,
         amount,
         ccy: ccy,
-        ts: apiItem.updated_at || new Date().toISOString(),
+        ts: apiItem.created_at || new Date().toISOString(),
         total_amount: totalAmount,
         claimed_count: claimedCount,
         total_count: totalCount,

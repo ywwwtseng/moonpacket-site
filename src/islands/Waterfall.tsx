@@ -242,18 +242,65 @@ export default function Waterfall({
       card.style.transform = 'translateY(-12px)';
       card.style.opacity = '0';
       const ccy = item && item.ccy ? String(item.ccy) : 'USDT';
-      function formatAmt(v: any, curr: string): string {
-        var n = Number(v == null ? 0 : v);
-        let decimals = 2;
-        if (n < 0.01) decimals = 4;
-        else if (n < 1) decimals = 3;
-        var opts = { minimumFractionDigits: decimals, maximumFractionDigits: decimals };
-        try {
-          return new Intl.NumberFormat(undefined, opts).format(n);
-        } catch (_) {
-          return String(n.toFixed(decimals));
+      // function formatAmt(v: any, curr: string): string {
+      //   var n = Number(v == null ? 0 : v);
+      //   let decimals = 2;
+      //   if (n < 0.01) decimals = 4;
+      //   else if (n < 1) decimals = 3;
+      //   var opts = { minimumFractionDigits: decimals, maximumFractionDigits: decimals };
+      //   try {
+      //     return new Intl.NumberFormat(undefined, opts).format(n);
+      //   } catch (_) {
+      //     return String(n.toFixed(decimals));
+      //   }
+      // }
+
+      function formatAmt(v: any) {
+        if (v === undefined || v === null) {
+          return undefined;
         }
+      
+        if (v === '0' || v === 0) {
+          return '0';
+        }
+      
+        let digits = 0;
+        const number = Number(v);
+      
+        if (number > 10000) {
+          digits = 1;
+        } else if (number > 1000) {
+          digits = 2;
+        } else if (number > 100) {
+          digits = 2;
+        } else if (number > 10) {
+          digits = 2;
+        } else if (number === 1) {
+          digits = 2;
+        } else if (number > 1) {
+          digits = 3;
+        } else if (number === 0) {
+          digits = 2;
+        } else if (number > 0.1) {
+          digits = 3;
+        } else if (number > 0.01) {
+          digits = 4;
+        } else {
+          digits = 8;
+        }
+      
+        // 無條件捨去（向下取整）
+        const multiplier = Math.pow(10, digits);
+        const floored = Math.floor(number * multiplier) / multiplier;
+      
+        return floored
+          .toLocaleString('en-US', {
+            minimumFractionDigits: digits,
+            maximumFractionDigits: digits,
+          })
+          .replace(/\.?0+$/, '');
       }
+
       const groupHref =
         (item && (item.link || item.group_link)) ||
         mapGroupUrl(item && item.group ? String(item.group) : '');
@@ -267,7 +314,7 @@ export default function Waterfall({
             </div>
             <div class="inline-flex items-center gap-1.5 text-primary font-bold text-base">
               ${tokenIcon(item, ccy)}
-              <span>${claimedLabel || ''} <span class="num">${formatAmt(item.amount, ccy)}</span> ${ccy}</span>
+              <span>${claimedLabel || ''} <span class="num">${formatAmt(item.amount)}</span> ${ccy}</span>
             </div>
           </div>
           <div class="flex flex-wrap items-center gap-x-3 gap-y-1 text-xs text-textSubtle">
@@ -278,7 +325,7 @@ export default function Waterfall({
               ${groupHref ? `<a href="${groupHref}" target="_blank" rel="noopener" class="underline hover:opacity-80">${item.group || groupFallback || ''}</a>` : item.group || groupFallback || ''}
             </span>
             <span class="hidden sm:inline text-gray-400">•</span>
-            <span>${totalLabel || 'Total'} <span class="num font-medium">${formatAmt(item.total_amount ?? item.amount * 100, ccy)}</span> ${ccy}</span>
+            <span>${totalLabel || 'Total'} <span class="num font-medium">${formatAmt(item.total_amount ?? item.amount * 100)}</span> ${ccy}</span>
             <span class="hidden sm:inline text-gray-400">•</span>
             <span>${progressLabel || 'Progress'} <span class="font-medium">${fmtInt(item.claimed_count ?? 0)}</span>/<span class="font-medium">${fmtInt(item.total_count ?? 100)}</span></span>
             <span class="hidden sm:inline text-gray-400">•</span>

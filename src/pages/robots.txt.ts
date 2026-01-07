@@ -6,8 +6,12 @@ export const GET: APIRoute = ({ site }) => {
   const robotsTxt = `User-agent: *
 Allow: /
 
+# 排除 404 页面，避免 Google 索引错误页面
+Disallow: /404/
+Disallow: /*/404/
+
 # Sitemap
-Sitemap: ${baseUrl}sitemap.xml
+Sitemap: ${baseUrl}sitemap-index.xml
 
 # Crawl-delay for respectful crawling
 Crawl-delay: 1`;

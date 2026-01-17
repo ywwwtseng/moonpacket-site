@@ -54,6 +54,10 @@ function splitCSV(line,n){
 function readCSV(csvPath = CSV_PATH){
   if(!fs.existsSync(csvPath)) throw new Error(`CSV not found: ${csvPath}`);
   const raw=fs.readFileSync(csvPath,'utf8').split(/\r?\n/).filter(Boolean);
+  if(raw.length === 0 || !raw[0]) {
+    // CSV 文件為空，返回空結果
+    return {rows: [], headers: []};
+  }
   const headers=raw[0].split(',').map(s=>s.trim());
   const idx=Object.fromEntries(headers.map((h,i)=>[h,i]));
   // 支持 file 或 namespace 作为文件标识
@@ -111,6 +115,24 @@ function isProtectedFile(filePath) {
 
 function main(){
   const {rows:csv, headers} = readCSV();
+  // 如果 CSV 為空，跳過審計（僅記錄警告）
+  if(csv.length === 0 || headers.length === 0) {
+    console.warn(`[WARN] CSV file is empty or invalid: ${CSV_PATH}`);
+    console.warn(`[WARN] Skipping audit. Please run 'pnpm i18n:export' to generate CSV file.`);
+    console.log(`Audit skipped (empty CSV) → ${OUT_PATH}`);
+    // 創建一個空的報告文件
+    const outDir = path.dirname(OUT_PATH);
+    fs.mkdirSync(outDir,{recursive:true});
+    fs.writeFileSync(OUT_PATH, JSON.stringify({
+      baseline: 'zh-TW',
+      totals: { csv: 0, baseline: 0 },
+      missingInCSV: [],
+      csvUnknownTarget: [],
+      perLang: {},
+      note: 'Audit skipped due to empty CSV file'
+    },null,2));
+    return;
+  }
   const csvLangs = headers.filter(h=>!['file','key','namespace'].includes(h));
   let langSet = Array.from(new Set([...LANGS, ...csvLangs])); // 容錯：若 CSV 多欄位也納入
   

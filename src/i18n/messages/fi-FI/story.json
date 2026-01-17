@@ -13,11 +13,11 @@
     "Kyllä, moonini kasvaa kiitos jokaisen red packet -energian.",
     "",
     "Nämä energiat muuttuivat Solana-ketjulle syntyneiksi red packet -tunnuksiksi —",
-    "Se on $moonini-tokenin alku."
+    "Se on $MOONINI-tokenin alku."
   ],
   "secrets_title": "🌸 Hänen salaisuutensa",
   "secrets_intro": "Joka kerta, kun lähetät red packetin, moonini kirjaa energian merkinnän kuuhun:",
-  "secrets_flow": "Lähetä red packet → Tuota vastaava energiaraha-arvo (muutettuna USDT-arvoksi) → Keri 10 → Saavuta minimivaihdettavan $moonini-arvo.",
+  "secrets_flow": "Lähetä red packet → Tuota vastaava energiaraha-arvo (muutettuna USDT-arvoksi) → Keri 10 → Saavuta minimivaihdettavan $MOONINI-arvo.",
   "secrets_halving": [
     "Alkuvaiheessa (Vaihe 1) moonini palauttaa yleensä parhaan 1:1-suhteen red packetin lähettäjälle. Oikeudenmukaisuuden ylläpitämiseksi ja pesu/ping-pong-riskin vähentämiseksi otamme käyttöön tehokkaan energian käsitteen.",
     "Kun yhteisön lähettämä ja nostettu kokonaismäärä saavuttaa järjestelmän asettaman puolitusrajan, ensimmäinen puolitus tapahtuu; sen jälkeen puolitus laukeaa, kun edellisen vaiheen määrä puolittuu."
@@ -33,37 +33,37 @@
     [
       "Vaihe 1",
       "0 ~ 4.5 billion",
-      "1.0 $moonpacket / USDT",
+      "1.0 $MOONINI / USDT",
       "Initial period, energy overflow."
     ],
     [
       "Vaihe 2",
       "4.5B ~ 6.75B",
-      "0.5 $moonpacket / USDT",
+      "0.5 $MOONINI / USDT",
       "First halving."
     ],
     [
       "Vaihe 3",
       "6.75B ~ 7.875B",
-      "0.25 $moonpacket / USDT",
+      "0.25 $MOONINI / USDT",
       "Stabilization period."
     ],
     [
       "Vaihe 4",
       "7.875B ~ 8.4375B",
-      "0.125 $moonpacket / USDT",
+      "0.125 $MOONINI / USDT",
       "Scarcity period."
     ],
     [
       "Vaihe 5",
       "8.4375B ~ 8.71875B",
-      "0.0625 $moonpacket / USDT",
+      "0.0625 $MOONINI / USDT",
       "Late mining phase."
     ],
     [
       "Vaihe 6",
       "8.71875B ~ 9B",
-      "0.03125 $moonpacket / USDT",
+      "0.03125 $MOONINI / USDT",
       "Crystallization period (final phase)."
     ]
   ],
@@ -77,12 +77,12 @@
     "moonini rakastaa kaikkia, jotka ovat valmiita 'jakamaan'.",
     "Hän uskoo, että punaiset paketit eivät ole vain rahaa, vaan siunausten ja energian vaihtoa.",
     "Aina kun lähetät punaisen paketin, suoritat tehtävän tai liityt moonpacket-yhteisöön,",
-    "sinulla on mahdollisuus saada paluu kuulta — satunnaisesti pudotettu $moonini.",
+    "sinulla on mahdollisuus saada paluu kuulta — satunnaisesti pudotettu $MOONINI.",
     "",
     "Se on valo, jonka universumi antaa takaisin sinulle ilon levittämisen jälkeen."
   ],
   "future_title": "💫 Tulevaisuuden sovellukset",
-  "future_intro": "Tällä hetkellä $moonini ei ole avoinna millekään viralliselle sovellusskenaariolle, mutta se on suunniteltu palkkioksi ja energia-asiakirjaksi tulevaisuuden punaisen paketin maailmassa, mahdollisesti käytettäväksi:",
+  "future_intro": "Tällä hetkellä $MOONINI ei ole avoinna millekään viralliselle sovellusskenaariolle, mutta se on suunniteltu palkkioksi ja energia-asiakirjaksi tulevaisuuden punaisen paketin maailmassa, mahdollisesti käytettäväksi:",
   "future_list": [
     "✅ Punaisen paketinkin maksualennukset",
     "🎁 Kauppiaan alennukset/ostoskuponkit",
@@ -90,7 +90,7 @@
   ],
   "disclaimer_title": "⚠️ Ilmoitus",
   "disclaimer_paragraphs": [
-    "Virallinen taho ei takaa mitään fiat-vaihtokurssiarvoa $moonini:lle.",
+    "Virallinen taho ei takaa mitään fiat-vaihtokurssiarvoa $MOONINI:lle.",
     "Voit ajatella sitä olevan antelias henkilön bonuspisteet.",
     "Symboloi kaikkia, jotka ovat valmiita jakamaan onnea ja levittämään energiaa."
   ],

@@ -13,11 +13,11 @@
     "Ano, moonini roste díky energii z červených obálek od všech.",
     "",
     "Tyto energie se změnily na kredencialy červeného balíčku narozené na Solana řetězci —",
-    "To je původ Tokenu $moonini."
+    "To je původ Tokenu $MOONINI."
   ],
   "secrets_title": "🌸 Jeho tajemství",
   "secrets_intro": "Pokaždé, když odešlete červenou obálku, moonini zaznamená záznam energie na měsíci:",
-  "secrets_flow": "Odeslat červenou obálku → Vyprodukovat odpovídající hodnotu energie (převedeno na hodnotu USDT) → Nahromadit na 10 → Dosáhnout minimální vyplácené hodnoty $moonini.",
+  "secrets_flow": "Odeslat červenou obálku → Vyprodukovat odpovídající hodnotu energie (převedeno na hodnotu USDT) → Nahromadit na 10 → Dosáhnout minimální vyplácené hodnoty $MOONINI.",
   "secrets_halving": [
     "Ve fázi 1 se moonini obecně vrátí v nejlepším poměru 1:1 k odesílateli červené obálky. Abyste zajistili spravedlnost a snížili riziko praní/ping-pong, zavedeme koncept efektivní energie.",
     "Když celkové odeslané a vybrané částky z komunity dosáhnou stanoveného prahu pro rozdělení systému, dojde k prvnímu rozdělení; poté dosažení poloviny částky z předchozí fáze spustí další rozdělení."
@@ -33,37 +33,37 @@
     [
       "Fáze 1",
       "0 ~ 4.5 billion",
-      "1.0 $moonpacket / USDT",
+      "1.0 $MOONINI / USDT",
       "Initial period, energy overflow."
     ],
     [
       "Fáze 2",
       "4.5B ~ 6.75B",
-      "0.5 $moonpacket / USDT",
+      "0.5 $MOONINI / USDT",
       "First halving."
     ],
     [
       "Fáze 3",
       "6.75B ~ 7.875B",
-      "0.25 $moonpacket / USDT",
+      "0.25 $MOONINI / USDT",
       "Stabilization period."
     ],
     [
       "Fáze 4",
       "7.875B ~ 8.4375B",
-      "0.125 $moonpacket / USDT",
+      "0.125 $MOONINI / USDT",
       "Scarcity period."
     ],
     [
       "Fáze 5",
       "8.4375B ~ 8.71875B",
-      "0.0625 $moonpacket / USDT",
+      "0.0625 $MOONINI / USDT",
       "Late mining phase."
     ],
     [
       "Fáze 6",
       "8.71875B ~ 9B",
-      "0.03125 $moonpacket / USDT",
+      "0.03125 $MOONINI / USDT",
       "Crystallization period (final phase)."
     ]
   ],
@@ -77,12 +77,12 @@
     "moonini miluje všechny, kteří jsou ochotni 'sdílet'.",
     "Věří, že červené obálky nejsou jen peníze, ale výměna požehnání a energie.",
     "Každýkrát, když odešlete červenou obálku, splníte úkol nebo se připojíte ke komunitě moonpacket,",
-    "budete mít šanci obdržet návrat z měsíce — náhodně spadlé $moonini.",
+    "budete mít šanci obdržet návrat z měsíce — náhodně spadlé $MOONINI.",
     "",
     "To je světlo, které vám vesmír vrací po rozšíření radosti."
   ],
   "future_title": "💫 Budoucí aplikace",
-  "future_intro": "V současné době $moonini není otevřeno pro žádné oficiální aplikační scénáře, ale je navrženo jako odměna a energetická kredencial pro budoucí svět červených balíčků, možná k použití pro:",
+  "future_intro": "V současné době $MOONINI není otevřeno pro žádné oficiální aplikační scénáře, ale je navrženo jako odměna a energetická kredencial pro budoucí svět červených balíčků, možná k použití pro:",
   "future_list": [
     "✅ Slevy na poplatky za transakce červených balíčků",
     "🎁 Obchodní poukázky/slevy na výměnu",
@@ -90,7 +90,7 @@
   ],
   "disclaimer_title": "⚠️ Prohlášení",
   "disclaimer_paragraphs": [
-    "Oficiální nedává žádnou záruku na hodnotu směny fiat pro $moonini.",
+    "Oficiální nedává žádnou záruku na hodnotu směny fiat pro $MOONINI.",
     "Můžete to považovat za bonusové body štědré osoby.",
     "Symbolizující každého, kdo je ochoten sdílet štěstí a šířit energii."
   ],

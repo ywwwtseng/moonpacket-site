@@ -18,6 +18,7 @@ import RedPacketAnimation from '@/islands/RedPacketAnimation';
 import FlipCounter from '@/islands/FlipCounter';
 import Waterfall from '@/islands/Waterfall';
 import Roadmap from '@/components/Roadmap.astro';
+import LiquidityHub from '@/components/LiquidityHub.astro';
 import { DATA_ENDPOINTS } from '@/config/data';
 import { formatInteger, readPlaceholders } from '@/utils/metrics';
 import { formatFiat, formatCrypto, formatPercent } from '@/utils/number-format';
@@ -38,6 +39,7 @@ const messages = await import(`@/i18n/loadMessages`).then(m => m.loadAllMessages
   const fallback = await import(`@/i18n/loadMessages`).then(m => m.loadAllMessages(defaultLocale));
   return fallback;
 });
+const tokenMsgs = messages.token || {};
 const placeholders = await readPlaceholders(fetch, import.meta.env.BASE_URL);
 const canonical = computeCanonical(Astro.url, (Astro.site && Astro.site.toString()) || undefined);
 // 正規化：array | string(含\n) | object{0..n} -> string[]
@@ -84,6 +86,7 @@ function formatCap(input: string): string {
   
 
   <main id="main-content">
+    
     <!-- BEGIN: HERO (locked-to-this-section edits only) -->
     <section id="hero" class="relative mx-auto max-w-6xl px-4 py-6 overflow-visible">
       <div class="pointer-events-none absolute inset-0 z-[5]">
@@ -112,6 +115,13 @@ function formatCap(input: string): string {
       </div>
     </section>
     <!-- END: HERO -->
+
+    <LiquidityHub 
+      title={tokenMsgs.buy_now}
+      subtitle={tokenMsgs.trade_on_pancake}
+      buttonText={tokenMsgs.buy_now}
+      priceLabel={tokenMsgs.price}
+    />
 
     <!-- BEGIN: METRICS (locked) -->
     <section id="metrics" class="mx-auto max-w-6xl px-4 py-12">
@@ -223,7 +233,7 @@ function formatCap(input: string): string {
                   <tr class="border-b border-black/10 even:bg-black/5">
                     <td class="px-3 py-2 font-medium">{row[0]}</td>
                     <td class="px-3 py-2"><span class="num font-[800]">{formatCap(row[1])}</span></td>
-                    <td class="px-3 py-2"><span class="num font-[800]">{row[2]}</span></td>
+                    <td class="px-3 py-2"><span class="num font-[800]" set:html={brandify(row[2] || '')}></span></td>
                     <td class="px-3 py-2 text-textSubtle">{row[3]}</td>
                   </tr>
                 ))}

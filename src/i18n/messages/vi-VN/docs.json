@@ -1,17 +1,17 @@
 {
   "litepaper": {
-    "title": "$moonini Litepaper",
-    "description": "Hiểu triết lý thiết kế, mô hình kinh tế và giá trị cốt lõi của token $moonini.",
+    "title": "$MOONINI Litepaper",
+    "description": "Hiểu triết lý thiết kế, mô hình kinh tế và giá trị cốt lõi của token $MOONINI.",
     "seo": {
-      "title": "$moonini Litepaper — moonpacket",
-      "description": "$moonini là một token khuyến khích cộng đồng dựa trên nền tảng moonpacket. Tìm hiểu cách để có được, sử dụng và đầu tư vào giá trị của nó."
+      "title": "$MOONINI Litepaper — moonpacket",
+      "description": "$MOONINI là một token khuyến khích cộng đồng dựa trên nền tảng moonpacket. Tìm hiểu cách để có được, sử dụng và đầu tư vào giá trị của nó."
     },
     "hero": {
-      "subtitle": "$moonini là một token khuyến khích cộng đồng dựa trên nền tảng moonpacket. Càng nhiều người dùng tham gia với moonpacket, thực hiện nhiệm vụ và tương tác, họ càng có thể kiếm được nhiều $moonini hơn. Đối với các nhà đầu tư, 90% được phân phối cho người dùng, và 10% còn lại dành cho đội ngũ, với cơ chế giảm một nửa và phát hành theo tuyến tính nhằm giảm thiểu rủi ro bán phá giá, thiết kế cho sự ổn định lâu dài.",
+      "subtitle": "$MOONINI là một token khuyến khích cộng đồng dựa trên nền tảng moonpacket. Càng nhiều người dùng tham gia với moonpacket, thực hiện nhiệm vụ và tương tác, họ càng có thể kiếm được nhiều $MOONINI hơn. Đối với các nhà đầu tư, 90% được phân phối cho người dùng, và 10% còn lại dành cho đội ngũ, với cơ chế giảm một nửa và phát hành theo tuyến tính nhằm giảm thiểu rủi ro bán phá giá, thiết kế cho sự ổn định lâu dài.",
       "cards": {
         "user": {
           "title": "Dành cho Người Dùng Chung",
-          "description": "Kiếm $moonini dễ dàng thông qua việc gửi lì xì, hoàn thành nhiệm vụ, mời bạn bè, v.v. Càng sử dụng nhiều, bạn càng kiếm được nhiều, hoàn toàn miễn phí."
+          "description": "Kiếm $MOONINI dễ dàng thông qua việc gửi lì xì, hoàn thành nhiệm vụ, mời bạn bè, v.v. Càng sử dụng nhiều, bạn càng kiếm được nhiều, hoàn toàn miễn phí."
         },
         "investor": {
           "title": "Dành cho Nhà đầu tư",
@@ -29,7 +29,7 @@
     "sections": {
       "overview": "Tổng quan",
       "problem": "Vấn đề và Giải pháp",
-      "concept": "Các khái niệm cốt lõi của moonpacket & $moonini",
+      "concept": "Các khái niệm cốt lõi của moonpacket & $MOONINI",
       "tokenomics": "Tổng quan về Tokenomics",
       "emission": "Giảm một nửa và Phát hành",
       "utility": {
@@ -81,8 +81,8 @@
       "overview": {
         "paragraphs": [
           "moonpacket là một công cụ lì xì crypto và marketing được thiết kế đặc biệt cho các cộng đồng Telegram. Dù là cho các hoạt động cộng đồng, quảng bá sự kiện, hay mời những người dùng mới, moonpacket có thể giúp bạn hoàn thành điều đó một cách dễ dàng.",
-          "Để khuyến khích người dùng tiếp tục sử dụng nền tảng và thiết lập mối quan hệ lâu dài, chúng tôi đã ra mắt token khuyến khích cộng đồng $moonini. Mọi hành vi tích cực trên nền tảng, bao gồm gửi lì xì, hoàn thành nhiệm vụ và mời bạn bè, đều có thể kiếm được phần thưởng $moonini tương ứng.",
-          "Đối với người dùng chung, $moonini là một phần thưởng bổ sung khi sử dụng Moonpacket; càng sử dụng nhiều, bạn càng kiếm được nhiều hơn. Đối với các nhà đầu tư, thiết kế kinh tế token của $moonini (90% cho người dùng, 10% cho đội ngũ, phân halving 6 giai đoạn, các đợt mở khóa) giúp giảm thiểu hiệu quả rủi ro bán tháo ngắn hạn và tạo điều kiện cho sự ổn định giá trị lâu dài."
+          "Để khuyến khích người dùng tiếp tục sử dụng nền tảng và thiết lập mối quan hệ lâu dài, chúng tôi đã ra mắt token khuyến khích cộng đồng $MOONINI. Mọi hành vi tích cực trên nền tảng, bao gồm gửi lì xì, hoàn thành nhiệm vụ và mời bạn bè, đều có thể kiếm được phần thưởng $MOONINI tương ứng.",
+          "Đối với người dùng chung, $MOONINI là một phần thưởng bổ sung khi sử dụng Moonpacket; càng sử dụng nhiều, bạn càng kiếm được nhiều hơn. Đối với các nhà đầu tư, thiết kế kinh tế token của $MOONINI (90% cho người dùng, 10% cho đội ngũ, phân halving 6 giai đoạn, các đợt mở khóa) giúp giảm thiểu hiệu quả rủi ro bán tháo ngắn hạn và tạo điều kiện cho sự ổn định giá trị lâu dài."
         ],
         "highlights": {
           "title": "Điểm nổi bật chính",
@@ -105,16 +105,16 @@
           ]
         },
         "solutions": {
-          "title": "Giải pháp của moonpacket + $moonini",
+          "title": "Giải pháp của moonpacket + $MOONINI",
           "items": [
             "**Theo dõi hành vi hoàn chỉnh**: moonpacket ghi lại việc nhận từng lì xì, chia sẻ hành vi và giới thiệu người dùng mới, giúp bạn hiểu rõ hiệu quả marketing.",
-            "**Cơ chế khuyến khích dài hạn**: Thông qua token $moonini, càng nhiều người dùng tham gia, họ càng kiếm được nhiều hơn, tạo động lực tham gia lâu dài.",
+            "**Cơ chế khuyến khích dài hạn**: Thông qua token $MOONINI, càng nhiều người dùng tham gia, họ càng kiếm được nhiều hơn, tạo động lực tham gia lâu dài.",
             "**Phân phối giá trị công bằng**: 90% token được phân phối cho người dùng, đảm bảo ưu tiên cho cộng đồng, trong khi các cơ chế như giảm một nửa và khóa sẽ giảm rủi ro bán tháo."
           ]
         }
       },
       "concept": {
-        "title": "Khái niệm Cơ bản về moonpacket & $moonini",
+        "title": "Khái niệm Cơ bản về moonpacket & $MOONINI",
         "moonpacket": {
           "title": "Vai trò của moonpacket",
           "description": "moonpacket là một công cụ lì xì trên Telegram, nhiệm vụ và tiếp thị. Cho dù bạn là người điều hành cộng đồng, tổ chức sự kiện, hay một dự án đang tìm cách thu hút người dùng mới, bạn có thể sử dụng moonpacket để:",
@@ -126,25 +126,25 @@
           ]
         },
         "moonini": {
-          "title": "Vai trò của $moonini",
-          "description": "$moonini là một token điểm thưởng ghi nhận hành vi của người dùng và cộng đồng. Mỗi hành động tích cực bạn thực hiện trên moonpacket sẽ mang lại cho bạn số lượng $moonini tương ứng:",
+          "title": "Vai trò của $MOONINI",
+          "description": "$MOONINI là một token điểm thưởng ghi nhận hành vi của người dùng và cộng đồng. Mỗi hành động tích cực bạn thực hiện trên moonpacket sẽ mang lại cho bạn số lượng $MOONINI tương ứng:",
           "rewards": [
-            "Gửi lì xì: Kiếm được $moonini tương ứng dựa trên số tiền của lì xì và giai đoạn hiện tại",
-            "Hoàn thành Nhiệm vụ: Đạt được thành tựu, nhiệm vụ xã hội, v.v., sẽ kiếm thêm $moonini",
-            "Mời bạn bè: Mời người dùng mới thành công và hoàn thành các nhiệm vụ chia sẻ, cả hai bên đều có thể kiếm được $moonini",
-            "Tham gia chủ động: Hoàn thành các hành động cụ thể trong các trò chơi hoặc ứng dụng hợp tác cũng có thể kiếm được $moonini"
+            "Gửi lì xì: Kiếm được $MOONINI tương ứng dựa trên số tiền của lì xì và giai đoạn hiện tại",
+            "Hoàn thành Nhiệm vụ: Đạt được thành tựu, nhiệm vụ xã hội, v.v., sẽ kiếm thêm $MOONINI",
+            "Mời bạn bè: Mời người dùng mới thành công và hoàn thành các nhiệm vụ chia sẻ, cả hai bên đều có thể kiếm được $MOONINI",
+            "Tham gia chủ động: Hoàn thành các hành động cụ thể trong các trò chơi hoặc ứng dụng hợp tác cũng có thể kiếm được $MOONINI"
           ]
         },
         "logic": {
           "title": "Càng sử dụng nhiều, bạn càng kiếm được nhiều",
-          "description": "Logic rất đơn giản: bạn càng tích cực trên moonpacket, bạn càng kiếm được nhiều $moonini. Người tham gia sớm có thể tận hưởng tỷ lệ thưởng cao hơn (Giai đoạn 1, kiếm 1 $moonini cho mỗi 1 USDT lì xì được gửi đi). Bạn tham gia càng sớm, lợi thế của bạn càng lớn."
+          "description": "Logic rất đơn giản: bạn càng tích cực trên moonpacket, bạn càng kiếm được nhiều $MOONINI. Người tham gia sớm có thể tận hưởng tỷ lệ thưởng cao hơn (Giai đoạn 1, kiếm 1 $MOONINI cho mỗi 1 USDT lì xì được gửi đi). Bạn tham gia càng sớm, lợi thế của bạn càng lớn."
         }
       },
       "tokenomics": {
         "title": "Tổng quan về Tokenomics",
         "total": {
           "title": "Tổng cung token",
-          "description": "Tổng phát hành của $moonini là **10.000.000.000 mã thông báo (10B)**, với tổng cung cố định và không phát hành thêm."
+          "description": "Tổng phát hành của $MOONINI là **10.000.000.000 mã thông báo (10B)**, với tổng cung cố định và không phát hành thêm."
         },
         "allocation": {
           "title": "Kế hoạch phân bổ",
@@ -256,7 +256,7 @@
               ]
             ]
           },
-          "example": "Ví dụ: Trong Giai đoạn 1, nếu bạn gửi một lì xì 100 USDT, bạn có thể kiếm được 100 $moonini; trong Giai đoạn 2, gửi cùng một lì xì 100 USDT chỉ kiếm được 50 $moonini. Bạn tham gia sớm hơn, lợi thế của bạn càng lớn!"
+          "example": "Ví dụ: Trong Giai đoạn 1, nếu bạn gửi một lì xì 100 USDT, bạn có thể kiếm được 100 $MOONINI; trong Giai đoạn 2, gửi cùng một lì xì 100 USDT chỉ kiếm được 50 $MOONINI. Bạn tham gia sớm hơn, lợi thế của bạn càng lớn!"
         },
         "vesting": {
           "title": "Khóa và Giải phóng Tỉ lệ Nhóm",
@@ -280,20 +280,20 @@
       "utility": {
         "title": "Khách hàng và các tình huống sử dụng",
         "how_to_earn": {
-          "title": "Làm thế nào để kiếm $moonini?",
+          "title": "Làm thế nào để kiếm $MOONINI?",
           "methods": [
-            "**Gửi lì xì**: Đối với mỗi **tương đương 1 USDT** được gửi dưới dạng lì xì (hỗ trợ nhiều loại tiền tệ), người tham gia sẽ nhận được $moonini tương ứng dựa trên giai đoạn hiện tại.",
+            "**Gửi lì xì**: Đối với mỗi **tương đương 1 USDT** được gửi dưới dạng lì xì (hỗ trợ nhiều loại tiền tệ), người tham gia sẽ nhận được $MOONINI tương ứng dựa trên giai đoạn hiện tại.",
             "**Hoàn thành nhiệm vụ**: Bao gồm các nhiệm vụ thành tựu một lần và nhiệm vụ xã hội. Để đảm bảo công bằng, mỗi tài khoản chỉ được phép hoàn thành mỗi nhiệm vụ một lần hoặc được thiết lập với giới hạn tổng để tránh việc can thiệp và khai thác đồng tiền một cách độc hại.",
             "**Mời bạn bè**: Mời bạn bè mới và hoàn thành các nhiệm vụ chia sẻ, cả hai bên đều nhận phần thưởng. **Mỗi tài khoản có giới hạn về phần thưởng mời** và các quy tắc cụ thể sẽ theo thông báo từ cộng đồng.",
-            "**Ứng dụng hợp tác**: Thực hiện các hành động cụ thể trong trò chơi hoặc ứng dụng tích hợp với API của moonpacket cũng có thể kiếm được $moonini."
+            "**Ứng dụng hợp tác**: Thực hiện các hành động cụ thể trong trò chơi hoặc ứng dụng tích hợp với API của moonpacket cũng có thể kiếm được $MOONINI."
           ]
         },
         "how_to_use": {
-          "title": "Cách sử dụng $moonini",
+          "title": "Cách sử dụng $MOONINI",
           "items": [
-            "**Giảm Phí**: Trong tương lai, $moonini có thể được sử dụng để bù đắp một phần phí giao dịch lì xì.",
-            "**Mở Khóa Tính Năng**: Một số tính năng cao cấp có thể yêu cầu bạn nắm giữ một số lượng $moonini nhất định để sử dụng.",
-            "**Quyền Bỏ Phiếu Quản Trị**: Nắm giữ $moonini cho phép tham gia vào các cuộc bỏ phiếu quản trị cộng đồng trong tương lai, ảnh hưởng đến hướng phát triển của dự án.",
+            "**Giảm Phí**: Trong tương lai, $MOONINI có thể được sử dụng để bù đắp một phần phí giao dịch lì xì.",
+            "**Mở Khóa Tính Năng**: Một số tính năng cao cấp có thể yêu cầu bạn nắm giữ một số lượng $MOONINI nhất định để sử dụng.",
+            "**Quyền Bỏ Phiếu Quản Trị**: Nắm giữ $MOONINI cho phép tham gia vào các cuộc bỏ phiếu quản trị cộng đồng trong tương lai, ảnh hưởng đến hướng phát triển của dự án.",
             "**Đổi thưởng Hệ sinh thái**: Có thể được đổi để nhận các quyền lợi hoặc phần thưởng đặc biệt trong các ứng dụng hoặc trò chơi đối tác."
           ]
         }
@@ -302,7 +302,7 @@
         "title": "Hệ sinh thái phát triển",
         "description": [
           "moonpacket không chỉ là một công cụ lì xì; nó là một **Tầng Thanh Khoản Xã Hội** mở.",
-          "Thông qua các API và SDK chuẩn hóa, bất kỳ Bot Telegram, GameFi hoặc ứng dụng Web3 nào cũng có thể truy cập vào lớp thưởng $moonini. Bạn tập trung vào sự phát triển sản phẩm, và chúng tôi sẽ hỗ trợ bạn trong việc tăng trưởng và giữ chân người dùng."
+          "Thông qua các API và SDK chuẩn hóa, bất kỳ Bot Telegram, GameFi hoặc ứng dụng Web3 nào cũng có thể truy cập vào lớp thưởng $MOONINI. Bạn tập trung vào sự phát triển sản phẩm, và chúng tôi sẽ hỗ trợ bạn trong việc tăng trưởng và giữ chân người dùng."
         ],
         "architecture": {
           "title": "Khuyến khích có thể lập trình",
@@ -317,14 +317,10 @@
         "title": "Địa chỉ hợp đồng",
         "description": "Để đảm bảo tính minh bạch, tất cả các địa chỉ hợp đồng thông minh cốt lõi sẽ được công khai và xác thực.",
         "items": {
-          "token": "$moonini Token (Hợp đồng Token)",
-          "emission": "Kho Lưu Hành (Kho Phát Hành Công Khai 90%)",
-          "reserve": "Kho Dự Trữ (Kho Quota Nhóm 10%)",
-          "phase": "Trình Quản Lý Giai Đoạn (Điều Khiển Halving)",
+          "token": "$MOONINI Token (Hợp đồng Token)",
           "vesting": "Kho Vesting (Bộ điều khiển phát hành tuyến tính)",
-          "pol": "Quản lý POL (Mua lại và Bảo vệ Giá sàn)",
-          "protection": "Bảo vệ khởi động (Giai đoạn mở chống sniping)",
-          "timelock": "Bộ điều khiển Timelock (Khóa trì hoãn 48h)"
+          "pool": "Liquidity Pool (LP) (Thanh Khoản Thị Trường)",
+          "multisig": "Governance Multisig (Trung Tâm Quyền Lực)"
         },
         "status": "(Sẽ được cập nhật sau khi triển khai mainnet)"
       },
@@ -453,11 +449,11 @@
         "items": [
           {
             "question": "Làm thế nào để tôi kiếm được token?",
-            "answer": "Bạn có thể nhận được $moonini bằng cách gửi lì xì, hoàn thành nhiệm vụ, mời bạn bè, và nhiều hơn nữa. Càng nhiều lì xì bạn gửi và nhiệm vụ bạn hoàn thành, bạn sẽ kiếm được càng nhiều token. Người tham gia sớm cũng sẽ được hưởng tỷ lệ phần thưởng cao hơn."
+            "answer": "Bạn có thể nhận được $MOONINI bằng cách gửi lì xì, hoàn thành nhiệm vụ, mời bạn bè, và nhiều hơn nữa. Càng nhiều lì xì bạn gửi và nhiệm vụ bạn hoàn thành, bạn sẽ kiếm được càng nhiều token. Người tham gia sớm cũng sẽ được hưởng tỷ lệ phần thưởng cao hơn."
           },
           {
             "question": "Khi nào tôi có thể rút?",
-            "answer": "Sau khi mainnet đi vào hoạt động, người dùng có thể rút $moonini về ví của họ. Việc rút tiền yêu cầu một khoản phí Gas nhỏ (phí mạng BSC). Vui lòng chú ý đến thông báo chính thức để biết thời gian ra mắt cụ thể."
+            "answer": "Sau khi mainnet đi vào hoạt động, người dùng có thể rút $MOONINI về ví của họ. Việc rút tiền yêu cầu một khoản phí Gas nhỏ (phí mạng BSC). Vui lòng chú ý đến thông báo chính thức để biết thời gian ra mắt cụ thể."
           },
           {
             "question": "Có thời gian khóa cho phân bổ đội ngũ không?",
@@ -472,16 +468,16 @@
             "answer": "Chúng tôi sẽ giảm thiểu rủi ro thông qua việc kiểm toán an ninh của bên thứ ba, xác nhận nhiều chữ ký, thực hiện trễ, và các cơ chế bảo vệ nhiều lớp khác. Nếu có vấn đề xảy ra, chúng tôi sẽ ngay lập tức khởi động một phản ứng khẩn cấp, xác định kế hoạch xử lý thông qua cơ chế quản trị và thông báo kịp thời cho cộng đồng."
           },
           {
-            "question": "Tổng cung của $moonini là bao nhiêu? Liệu nó có tăng lên không?",
-            "answer": "Tổng cung của $moonini là 10.000.000.000 phần (10B), với tổng số cố định sẽ không bao giờ tăng. 90% sẽ được phát hành dần thông qua các hoạt động của người dùng, và 10% sẽ thuộc về đội ngũ và các nhà đầu tư sớm."
+            "question": "Tổng cung của $MOONINI là bao nhiêu? Liệu nó có tăng lên không?",
+            "answer": "Tổng cung của $MOONINI là 10.000.000.000 phần (10B), với tổng số cố định sẽ không bao giờ tăng. 90% sẽ được phát hành dần thông qua các hoạt động của người dùng, và 10% sẽ thuộc về đội ngũ và các nhà đầu tư sớm."
           },
           {
             "question": "Làm thế nào tôi có thể tham gia vào quản trị?",
-            "answer": "Những người nắm giữ $moonini có thể tham gia vào các cuộc bỏ phiếu quản trị cộng đồng trong tương lai, ảnh hưởng đến hướng phát triển của dự án. Cơ chế quản trị cụ thể và phương pháp bỏ phiếu sẽ được triển khai dần sau khi mainnet ra mắt."
+            "answer": "Những người nắm giữ $MOONINI có thể tham gia vào các cuộc bỏ phiếu quản trị cộng đồng trong tương lai, ảnh hưởng đến hướng phát triển của dự án. Cơ chế quản trị cụ thể và phương pháp bỏ phiếu sẽ được triển khai dần sau khi mainnet ra mắt."
           },
           {
-            "question": "$moonini có thể được giao dịch không?",
-            "answer": "Sau khi mainnet chính thức hoạt động và một bể thanh khoản được thành lập, $moonini có thể được giao dịch trên các sàn giao dịch phi tập trung (như PancakeSwap). Giao dịch sẽ bị ảnh hưởng bởi cung và cầu trên thị trường, và giá cả có thể biến động, vì vậy hãy đầu tư một cách thận trọng."
+            "question": "$MOONINI có thể được giao dịch không?",
+            "answer": "Sau khi mainnet chính thức hoạt động và một bể thanh khoản được thành lập, $MOONINI có thể được giao dịch trên các sàn giao dịch phi tập trung (như PancakeSwap). Giao dịch sẽ bị ảnh hưởng bởi cung và cầu trên thị trường, và giá cả có thể biến động, vì vậy hãy đầu tư một cách thận trọng."
           }
         ]
       }
@@ -719,18 +715,18 @@
     }
   },
   "whitepaper": {
-    "title": "Tài liệu trắng $moonini",
-    "description": "Hiểu rõ triết lý thiết kế, mô hình kinh tế và kiến trúc kỹ thuật của token $moonini",
+    "title": "Tài liệu trắng $MOONINI",
+    "description": "Hiểu rõ triết lý thiết kế, mô hình kinh tế và kiến trúc kỹ thuật của token $MOONINI",
     "seo": {
-      "title": "Tài liệu trắng $moonini — moonpacket",
-      "description": "Hoàn chỉnh mô hình kinh tế, kiến trúc kỹ thuật và mô tả cơ chế quản trị của $moonini"
+      "title": "Tài liệu trắng $MOONINI — moonpacket",
+      "description": "Hoàn chỉnh mô hình kinh tế, kiến trúc kỹ thuật và mô tả cơ chế quản trị của $MOONINI"
     },
     "hero": {
-      "subtitle": "$moonini là token khuyến khích cộng đồng dựa trên nền tảng moonpacket. Càng nhiều người dùng tham gia và tương tác trên moonpacket, họ càng có thể kiếm được nhiều $moonini hơn. Đối với các nhà đầu tư, 90% được phân phối cho người dùng, và 10% cho đội ngũ, hiệu quả giảm thiểu rủi ro sụp đổ thị trường kết hợp với cơ chế giảm một nửa và phát hành tuyến tính.",
+      "subtitle": "$MOONINI là token khuyến khích cộng đồng dựa trên nền tảng moonpacket. Càng nhiều người dùng tham gia và tương tác trên moonpacket, họ càng có thể kiếm được nhiều $MOONINI hơn. Đối với các nhà đầu tư, 90% được phân phối cho người dùng, và 10% cho đội ngũ, hiệu quả giảm thiểu rủi ro sụp đổ thị trường kết hợp với cơ chế giảm một nửa và phát hành tuyến tính.",
       "cards": {
         "user": {
           "title": "Dành cho Người Dùng Chung",
-          "description": "Dễ dàng kiếm $moonini thông qua việc gửi lì xì, hoàn thành nhiệm vụ và mời bạn bè. Càng sử dụng nhiều, bạn càng kiếm được nhiều, hoàn toàn miễn phí."
+          "description": "Dễ dàng kiếm $MOONINI thông qua việc gửi lì xì, hoàn thành nhiệm vụ và mời bạn bè. Càng sử dụng nhiều, bạn càng kiếm được nhiều, hoàn toàn miễn phí."
         },
         "investor": {
           "title": "Dành cho Nhà Đầu Tư",
@@ -760,13 +756,13 @@
     "content": {
       "overview": {
         "what_is": [
-          "**$moonini** là token hệ sinh thái của nền tảng moonpacket, được sử dụng để thưởng cho người dùng vì những hành động tích cực trên nền tảng, bao gồm:",
+          "**$MOONINI** là token hệ sinh thái của nền tảng moonpacket, được sử dụng để thưởng cho người dùng vì những hành động tích cực trên nền tảng, bao gồm:",
           "- Gửi lì xì",
           "- Mời bạn bè",
           "- Hoàn thành các nhiệm vụ",
           "- Tham gia các hoạt động cộng đồng",
           "",
-          "**Nói một cách đơn giản**: Bạn càng sử dụng nhiều trên moonpacket, bạn sẽ kiếm được nhiều $moonini hơn."
+          "**Nói một cách đơn giản**: Bạn càng sử dụng nhiều trên moonpacket, bạn sẽ kiếm được nhiều $MOONINI hơn."
         ],
         "core_values": {
           "title": "Giá trị cốt lõi",
@@ -826,8 +822,8 @@
             "| **Giai đoạn 6** | 8.71875B ~ 9B | **0.03125 token** | Giai đoạn cuối |",
             "",
             "**Ví dụ**:",
-            "- Ở Giai đoạn 1, nếu bạn gửi một lì xì 100 USDT, bạn có thể nhận 100 $moonini",
-            "- Ở Giai đoạn 2, nếu bạn gửi một lì xì 100 USDT, bạn chỉ có thể nhận 50 $moonini",
+            "- Ở Giai đoạn 1, nếu bạn gửi một lì xì 100 USDT, bạn có thể nhận 100 $MOONINI",
+            "- Ở Giai đoạn 2, nếu bạn gửi một lì xì 100 USDT, bạn chỉ có thể nhận 50 $MOONINI",
             "- Càng tham gia sớm, bạn càng nhận được nhiều token!"
           ],
           "value_logic": [
@@ -837,12 +833,12 @@
             "Xuất phát từ văn hóa phương Đông, lì xì không chỉ biểu thị việc chuyển giao quỹ mà còn là tình yêu từ người lớn đến người trẻ, chúc mừng và chia sẻ giữa bạn bè. Tại moonpacket, mỗi lần bạn gửi một lì xì là một tương tác xã hội ấm áp.",
             "",
             "**Từ Hành Vi Xã Hội đến Giá Trị Kinh Tế**:",
-            "Chúng tôi tin rằng những hành động thiện chí này nên được ghi nhận và định giá. $moonini không chỉ là một token thưởng; nó là đại diện cho giá trị của mạng xã hội này, tạo ra các hiệu ứng kinh tế dài hạn từ mỗi 'cho đi'.",
+            "Chúng tôi tin rằng những hành động thiện chí này nên được ghi nhận và định giá. $MOONINI không chỉ là một token thưởng; nó là đại diện cho giá trị của mạng xã hội này, tạo ra các hiệu ứng kinh tế dài hạn từ mỗi 'cho đi'.",
             "",
             "**Hỗ trợ giá trị thực**:",
             "Để duy trì sự ổn định của giá trị xã hội này, giao thức quy định: **50% doanh thu phí giao dịch sẽ được tự động đưa vào Bể Thanh Khoản**.",
             "",
-            "Điều này có nghĩa: cộng đồng càng hoạt động tích cực ➔ càng nhiều tương tác lì xì ➔ càng nhiều quỹ được bơm vào quỹ thanh khoản ➔ nền tảng giá trị của $moonini càng vững chắc. Đây là một chu kỳ tích cực dựa trên nhu cầu xã hội thực và doanh thu kinh doanh, chứ không phải chỉ là đánh bạc đầu cơ thuần túy."
+            "Điều này có nghĩa: cộng đồng càng hoạt động tích cực ➔ càng nhiều tương tác lì xì ➔ càng nhiều quỹ được bơm vào quỹ thanh khoản ➔ nền tảng giá trị của $MOONINI càng vững chắc. Đây là một chu kỳ tích cực dựa trên nhu cầu xã hội thực và doanh thu kinh doanh, chứ không phải chỉ là đánh bạc đầu cơ thuần túy."
           ]
         }
       },
@@ -909,15 +905,15 @@
             "**Phương pháp phát hành**: Phát hành dần qua các hoạt động của người dùng",
             "",
             "**Nguồn Phát Hành**:",
-            "1. **Gửi lì xì**: Mỗi khi gửi 1 lì xì USDT, nhận được $moonini tương ứng dựa trên giai đoạn hiện tại.",
-            "2. **Mời bạn bè**: Mời người dùng mới thành công và hoàn thành các nhiệm vụ chia sẻ để nhận $moonini",
-            "3. **Hoàn thành nhiệm vụ**: Hoàn thành các nhiệm vụ thành tựu, nhiệm vụ xã hội, v.v., để kiếm thêm $moonini",
+            "1. **Gửi lì xì**: Mỗi khi gửi 1 lì xì USDT, nhận được $MOONINI tương ứng dựa trên giai đoạn hiện tại.",
+            "2. **Mời bạn bè**: Mời người dùng mới thành công và hoàn thành các nhiệm vụ chia sẻ để nhận $MOONINI",
+            "3. **Hoàn thành nhiệm vụ**: Hoàn thành các nhiệm vụ thành tựu, nhiệm vụ xã hội, v.v., để kiếm thêm $MOONINI",
             "4. **Chia Sẻ Lợi Nhuận của Chủ Nhóm**: Chủ nhóm có thể nhận được 3% lợi nhuận (USDT) từ việc gửi lì xì qua các nhóm"
           ],
           "cost_vs_price": [
             "💡 **Chi Phí Sản Xuất So Với Giá Thị Trường**:",
             "",
-            "Trong Giai đoạn 1, chi phí ngầm để có được 1 $moonini thông qua việc khai thác lì xì khoảng **0.02 USDT** (dựa trên phí giao dịch 2%).",
+            "Trong Giai đoạn 1, chi phí ngầm để có được 1 $MOONINI thông qua việc khai thác lì xì khoảng **0.02 USDT** (dựa trên phí giao dịch 2%).",
             "",
             "Trong khi giá niêm yết ban đầu của chúng tôi là **0.01 USDT**.",
             "",
@@ -925,10 +921,10 @@
           ],
           "withdraw_mechanism": [
             "**Cơ Chế Rút Tiền**:",
-            "- Sau khi người dùng kiếm được $moonini trên nền tảng, họ có thể rút tiền về ví của mình thông qua cơ chế xác minh danh tính an toàn.",
+            "- Sau khi người dùng kiếm được $MOONINI trên nền tảng, họ có thể rút tiền về ví của mình thông qua cơ chế xác minh danh tính an toàn.",
             "- Hệ thống sẽ xác minh dựa trên hồ sơ hoạt động của người dùng để đảm bảo rằng chỉ người dùng mới có thể thực hiện thao tác.",
             "- Một khi được xác minh, người dùng có thể rút token của họ vào ví.",
-            "- **Ngưỡng Rút Tiền Tối Thiểu**: 10 $moonini",
+            "- **Ngưỡng Rút Tiền Tối Thiểu**: 10 $MOONINI",
             "- **Phí giao dịch**: Người dùng chỉ cần thanh toán phí giao dịch mạng (theo quy định của blockchain)",
             "",
             "*Để biết thông tin chi tiết về triển khai kỹ thuật, vui lòng tham khảo: [Tài liệu Thông số Kỹ thuật](/vi-VN/docs/technical)*"
@@ -957,7 +953,7 @@
             "- **Cơ chế Thông báo**: Thông báo tự động gửi đến người nhận sau khi mỗi lần phát hành hoàn tất.",
             "",
             "**Ví dụ**:",
-            "- Nhà đầu tư A nhận 1.000.000 $moonini",
+            "- Nhà đầu tư A nhận 1.000.000 $MOONINI",
             "- 3 tháng đầu: Thời gian khóa, không cho rút tiền",
             "- Bắt đầu từ tháng thứ 4: Các token sẽ tích lũy một cách tuyến tính theo thời gian, với việc rút tiền thường xuyên từ phần đã tích lũy.",
             "- Sau 33 tháng: Tất cả các phiên bản đã hoàn thành."
@@ -1043,7 +1039,7 @@
           "title": "5.3 Mua lại và Tạo Thị Trường (POL - Mua lại Không Giới Hạn + Bảo Vệ Giá Sàn)",
           "mechanism": [
             "**Cơ chế**:",
-            "- **1%** phí giao dịch trên nền tảng được sử dụng để mua lại $moonini và làm sâu thêm bể thanh khoản",
+            "- **1%** phí giao dịch trên nền tảng được sử dụng để mua lại $MOONINI và làm sâu thêm bể thanh khoản",
             "- **Mua lại không giới hạn**: Không có giới hạn hàng ngày cho việc mua lại; với số phí giao dịch có nhiều bao nhiêu, việc mua lại vẫn tiếp tục cung cấp hỗ trợ thanh khoản cho token",
             "- **Chiến lược Tự động**: Sử dụng các chiến lược mua lại thông minh để giảm khả năng dự đoán và tránh thao túng thị trường",
             "- **Mua Bảo Vệ**: Tự động tăng cường nỗ lực mua lại khi có sự sụt giảm đáng kể trên thị trường, bảo vệ lợi ích của nhà đầu tư"
@@ -1110,11 +1106,11 @@
       },
       "incentives": {
         "how_to_earn": {
-          "title": "6.1 Làm thế nào để nhận được $moonini?",
+          "title": "6.1 Làm thế nào để nhận được $MOONINI?",
           "send_gift": [
             "#### A. Gửi lì xì",
             "",
-            "- **Quy tắc cơ bản**: Đối với mỗi **tương đương 1 USDT** lì xì được gửi (hỗ trợ nhiều token), hệ thống sẽ tính toán và phân phối $moonini dựa trên tỷ giá hối đoái của giai đoạn hiện tại.",
+            "- **Quy tắc cơ bản**: Đối với mỗi **tương đương 1 USDT** lì xì được gửi (hỗ trợ nhiều token), hệ thống sẽ tính toán và phân phối $MOONINI dựa trên tỷ giá hối đoái của giai đoạn hiện tại.",
             "- **Truyền Tải Lời Chúc**: Lì xì không chỉ là tiền; chúng là một phương tiện truyền tải lời chúc phúc. Mỗi hành động tặng quà sẽ được ghi lại trên blockchain và được thưởng."
           ],
           "invite": [
@@ -1147,7 +1143,7 @@
             "",
             "**Sử dụng phí**:",
             "- **1% Hoạt động**: Dùng cho chi phí máy chủ, phát triển và tiếp thị.",
-            "- **1% Mua lại**: Được sử dụng để mua lại $moonini và làm sâu thêm LP (sẽ được thực hiện trong tương lai).",
+            "- **1% Mua lại**: Được sử dụng để mua lại $MOONINI và làm sâu thêm LP (sẽ được thực hiện trong tương lai).",
             "- **3% Chia Sẻ Lợi Nhuận Chủ Nhóm**: Trả cho chủ nhóm (chỉ tính phí đối với việc gửi qua nhóm khác)."
           ]
         }
@@ -1156,33 +1152,30 @@
         "contracts": {
           "title": "7.1 Địa chỉ hợp đồng (Đang chờ triển khai)",
           "description": [
-            "Khi token chính thức ra mắt, tất cả địa chỉ hợp đồng thông minh sẽ được công bố tại đây, cùng với các liên kết thông số kỹ thuật tương ứng.",
+            "以下為 $MOONINI 核心合約與資產地址。為了確保透明度，所有地址均已公開並可於區塊鏈瀏覽器查詢。",
             "",
-            "**Các Mô-đun Hợp Đồng Chính**:",
-            "- Hợp đồng Token",
-            "- Quản trị và Kiểm soát Trễ",
-            "- Quỹ chào bán công khai",
-            "- Quỹ Phân bổ Đội",
-            "- Quản lý Mua lại",
-            "- Pool Thanh Khoản",
-            "- Ví đa chữ ký",
+            "**核心地址**：",
+            "- **代幣合約**：`0xe4d5857271c7978F5fe6b29A73C97142D6d8Befe`",
+            "- **鎖倉合約**：`0x0c0cc023d3c82d22aafd05763393f5af6b0922a1`",
+            "- **Pool Thanh Khoản (LP)**：`0x24248E591eC8FDeC9776f87C497746867305963E`",
+            "- **Trung Tâm Quyền Lực**：`0x8c1c793E73372aCD30DD05fE4Cc718A4ADbe1219`",
             "",
-            "*Để biết địa chỉ hợp đồng và thông số kỹ thuật chi tiết, vui lòng tham khảo: [Tài liệu thông số kỹ thuật](/vi-VN/docs/technical)*"
+            "*詳細技術規格請參考：[技術規格文檔](/zh-TW/docs/technical)*"
           ]
         },
         "api": {
           "title": "7.2 Các chế độ tích hợp và API (Đang lên kế hoạch)",
           "intro": [
-            "moonpacket dự kiến cung cấp một hệ sinh thái API hoàn chỉnh, cho phép các nhà phát triển và đối tác bên thứ ba dễ dàng tích hợp cơ chế thưởng $moonini vào sản phẩm của họ. Dù là bot Telegram, trò chơi Web3 hay nền tảng chiến dịch tiếp thị, API của chúng tôi cho phép người dùng nhận thưởng $moonini, mở rộng ảnh hưởng sinh thái."
+            "moonpacket dự kiến cung cấp một hệ sinh thái API hoàn chỉnh, cho phép các nhà phát triển và đối tác bên thứ ba dễ dàng tích hợp cơ chế thưởng $MOONINI vào sản phẩm của họ. Dù là bot Telegram, trò chơi Web3 hay nền tảng chiến dịch tiếp thị, API của chúng tôi cho phép người dùng nhận thưởng $MOONINI, mở rộng ảnh hưởng sinh thái."
           ],
           "types": [
             "**Loại API**:",
             "",
             "Chúng tôi dự định cung cấp các loại API sau để đáp ứng các nhu cầu tích hợp khác nhau:",
             "",
-            "- **API Đọc Dữ Liệu**: Truy vấn hồ sơ phân phối lì xì, trạng thái hoàn thành nhiệm vụ, số dư người dùng $moonini và nhiều thông tin khác, cho phép các đối tác hiểu tình trạng hoạt động của người dùng.",
+            "- **API Đọc Dữ Liệu**: Truy vấn hồ sơ phân phối lì xì, trạng thái hoàn thành nhiệm vụ, số dư người dùng $MOONINI và nhiều thông tin khác, cho phép các đối tác hiểu tình trạng hoạt động của người dùng.",
             "",
-            "- **API Phân phối và Nhiệm vụ**: Cho phép các đối tác kích hoạt phân phối lì xì hoặc thưởng nhiệm vụ trong sản phẩm của họ, ví dụ, tự động phân phối phần thưởng $moonini khi người dùng đạt được những cột mốc cụ thể trong một trò chơi.",
+            "- **API Phân phối và Nhiệm vụ**: Cho phép các đối tác kích hoạt phân phối lì xì hoặc thưởng nhiệm vụ trong sản phẩm của họ, ví dụ, tự động phân phối phần thưởng $MOONINI khi người dùng đạt được những cột mốc cụ thể trong một trò chơi.",
             "",
             "- **Sự kiện Webhook**: Hệ thống chủ động thông báo cho các đối tác về các sự kiện quan trọng như khi người dùng hoàn thành nhiệm vụ, nhận lì xì, hoặc hoàn tất rút tiền, cho phép phản hồi theo thời gian thực và đồng bộ hóa dữ liệu."
           ],
@@ -1206,22 +1199,22 @@
             "",
             "- **Beta Đóng**: Ban đầu được cung cấp cho các đối tác và các nhà phát triển trò chơi sớm trong định dạng beta đóng để thu thập phản hồi và tối ưu hóa trải nghiệm.",
             "",
-            "- **Mở rộng dần dần**: Sau khi xác minh sự ổn định trong giai đoạn Beta, các ứng dụng sẽ được mở rộng dần dần để cho phép nhiều nhà phát triển tích hợp hệ sinh thái $moonini.",
+            "- **Mở rộng dần dần**: Sau khi xác minh sự ổn định trong giai đoạn Beta, các ứng dụng sẽ được mở rộng dần dần để cho phép nhiều nhà phát triển tích hợp hệ sinh thái $MOONINI.",
             "",
             "- **Phát Hành Chính Thức**: Khi API đạt được mức độ ổn định sản xuất, nó sẽ chính thức mở cho công chúng, cung cấp tài liệu và hỗ trợ đầy đủ."
           ],
           "scenarios": {
             "title": "Các Kịch Bản Tích Hợp Điển Hình",
             "items": [
-              "**Bot Telegram / Ứng Dụng Mini**: Gửi lì xì trong các nhóm hoặc ứng dụng của bạn để cho phép người dùng nhận phần thưởng $moonini, tăng cường sự gắn bó của người dùng.",
+              "**Bot Telegram / Ứng Dụng Mini**: Gửi lì xì trong các nhóm hoặc ứng dụng của bạn để cho phép người dùng nhận phần thưởng $MOONINI, tăng cường sự gắn bó của người dùng.",
               "",
-              "**Trò chơi Web3**: Báo cáo trạng thái hoàn thành nhiệm vụ trong trò chơi cho moonpacket, cho phép người chơi tự động nhận thêm phần thưởng $moonini khi hoàn thành nhiệm vụ trong trò chơi.",
+              "**Trò chơi Web3**: Báo cáo trạng thái hoàn thành nhiệm vụ trong trò chơi cho moonpacket, cho phép người chơi tự động nhận thêm phần thưởng $MOONINI khi hoàn thành nhiệm vụ trong trò chơi.",
               "",
-              "**Nền tảng Chiến dịch Tiếp thị**: Tự động gửi phần thưởng $moonini dựa trên hành vi của người dùng trên mạng xã hội (ví dụ: chia sẻ, retweet, theo dõi, v.v.), đạt được tiếp thị chính xác.",
+              "**Nền tảng Chiến dịch Tiếp thị**: Tự động gửi phần thưởng $MOONINI dựa trên hành vi của người dùng trên mạng xã hội (ví dụ: chia sẻ, retweet, theo dõi, v.v.), đạt được tiếp thị chính xác.",
               "",
-              "**Giao thức DeFi**: Tích hợp $moonini như một lớp thưởng bổ sung, cho phép người dùng kiếm được phần thưởng $moonini bên cạnh lợi nhuận ban đầu khi hoàn thành các hành động DeFi cụ thể.",
+              "**Giao thức DeFi**: Tích hợp $MOONINI như một lớp thưởng bổ sung, cho phép người dùng kiếm được phần thưởng $MOONINI bên cạnh lợi nhuận ban đầu khi hoàn thành các hành động DeFi cụ thể.",
               "",
-              "**Nền tảng Tạo Nội Dung**: Tự động phát hành $moonini phần thưởng khi các nhà sáng tạo hoàn thành nhiệm vụ cụ thể hoặc đạt được cột mốc, khuyến khích việc tạo ra nội dung chất lượng."
+              "**Nền tảng Tạo Nội Dung**: Tự động phát hành $MOONINI phần thưởng khi các nhà sáng tạo hoàn thành nhiệm vụ cụ thể hoặc đạt được cột mốc, khuyến khích việc tạo ra nội dung chất lượng."
             ]
           }
         },
@@ -1312,7 +1305,7 @@
       "faq": {
         "title": "Mười, Vấn đề cần xác nhận",
         "description": [
-          "Tài liệu này mô tả các nguyên tắc thiết kế cốt lõi và mô hình kinh tế của $moonini. Các vấn đề sau đây vẫn đang được phối hợp với các tư vấn viên và đối tác và sẽ được hoàn thiện trước khi ra mắt mạng chính:",
+          "Tài liệu này mô tả các nguyên tắc thiết kế cốt lõi và mô hình kinh tế của $MOONINI. Các vấn đề sau đây vẫn đang được phối hợp với các tư vấn viên và đối tác và sẽ được hoàn thiện trước khi ra mắt mạng chính:",
           "",
           "- **Thời gian phát hành Token và sàn giao dịch niêm yết**: Thời gian phát hành cụ thể và việc nó có được niêm yết trên các sàn giao dịch tập trung (CEX) vẫn đang được phối hợp với các cố vấn và đối tác.",
           "",
@@ -1390,34 +1383,34 @@
   "api": {
     "actions": {
       "items": {
-        "0": "Đọc [whitepaper](/vi-VN/docs/whitepaper/) để tìm hiểu về token $moonini và mô hình kinh tế của nó.",
+        "0": "Đọc [whitepaper](/vi-VN/docs/whitepaper/) để tìm hiểu về token $MOONINI và mô hình kinh tế của nó.",
         "1": "Đọc [Tài liệu Thông số Kỹ thuật](/vi-VN/docs/technical/) để hiểu về hợp đồng thông minh và cơ chế phát hành.",
         "2": "Gửi yêu cầu hợp tác API của bạn qua các kênh chính thức (Telegram, Email), và chúng tôi sẽ ưu tiên thông báo cho bạn khi API sẵn sàng."
       },
       "title": "Bạn có thể làm gì bây giờ?"
     },
     "content": {
-      "0": "Trang này sẽ sớm cung cấp tài liệu hoàn chỉnh cho API của moonpacket / $moonini, bao gồm các chi tiết kỹ thuật về REST API, sự kiện Webhook, xác thực OAuth, quản lý API Key và nhiều hơn nữa.",
+      "0": "Trang này sẽ sớm cung cấp tài liệu hoàn chỉnh cho API của moonpacket / $MOONINI, bao gồm các chi tiết kỹ thuật về REST API, sự kiện Webhook, xác thực OAuth, quản lý API Key và nhiều hơn nữa.",
       "2": "API hiện đang trong giai đoạn thiết kế và xác thực nội bộ và sẽ được cung cấp trước tiên dưới dạng beta kín cho một số đối tác được chọn để thử nghiệm, thu thập phản hồi và tối ưu hóa trải nghiệm.",
       "4": "Tất cả các chi tiết kỹ thuật cần tham khảo vào 'Tài liệu Đặc tả Kỹ thuật' và tài liệu trắng trước khi tài liệu API chính thức được công bố."
     },
-    "description": "Tìm hiểu cách tích hợp moonpacket và $moonini vào sản phẩm của bạn qua API.",
+    "description": "Tìm hiểu cách tích hợp moonpacket và $MOONINI vào sản phẩm của bạn qua API.",
     "seo": {
       "description": "Hoàn thành tài liệu API, REST API, Webhook và hướng dẫn tích hợp",
-      "title": "Tài liệu API Moonpacket / $moonini — moonpacket"
+      "title": "Tài liệu API Moonpacket / $MOONINI — moonpacket"
     },
     "status": {
       "planned": "(Đang lên kế hoạch)"
     },
     "subtitle": "Hoàn tất tài liệu API và hướng dẫn tích hợp (đang lên kế hoạch)",
-    "title": "Tài liệu API Moonpacket / $moonini"
+    "title": "Tài liệu API Moonpacket / $MOONINI"
   },
   "countdown": {
     "days": "Trời",
     "hours": "Giờ",
     "minutes": "phút",
     "seconds": "giây",
-    "title": "Khoảng cách đến ngày phát hành chính thức của $moonini"
+    "title": "Khoảng cách đến ngày phát hành chính thức của $MOONINI"
   },
   "disclaimer": {
     "badge": "Thông báo quan trọng",
@@ -1425,25 +1418,25 @@
   },
   "distribution": {
     "back_to_whitepaper": "Quay lại Tài liệu trắng",
-    "description": "Hiểu rõ quy tắc phân phối nội bộ và phương pháp kế toán của $moonini",
+    "description": "Hiểu rõ quy tắc phân phối nội bộ và phương pháp kế toán của $MOONINI",
     "intro": {
       "0": "**Tài liệu này dành cho kỹ sư và nhà phát triển backend**, định nghĩa các quy tắc cụ thể về 'cách phát hành, cách người dùng có thể đổi và xem' trong sản phẩm moonpacket.",
       "2": "**Nguyên tắc thiết kế**:",
       "3": "- **Thay đổi tối thiểu**: Ưu tiên sử dụng cấu trúc dữ liệu hiện có, mà không ngay lập tức thêm các bảng DB phức tạp.",
-      "4": "- **Có thể mở rộng**: Trong tương lai, nếu $moonini muốn hoàn toàn trên chuỗi, chúng tôi chỉ cần thêm logic rút tiền/định dạng.",
-      "5": "- **Minh bạch và Có thể Theo dõi**: Tất cả các phân phối và tiêu thụ $moonini đều được ghi lại trong `user_activity_logs`",
+      "4": "- **Có thể mở rộng**: Trong tương lai, nếu $MOONINI muốn hoàn toàn trên chuỗi, chúng tôi chỉ cần thêm logic rút tiền/định dạng.",
+      "5": "- **Minh bạch và Có thể Theo dõi**: Tất cả các phân phối và tiêu thụ $MOONINI đều được ghi lại trong `user_activity_logs`",
       "7": "**Nội dung chính**:",
       "8": "- Mô hình dữ liệu và phương pháp kế toán (sổ cái nội bộ)",
-      "9": "- Nguồn phân phối và quy tắc $moonini",
+      "9": "- Nguồn phân phối và quy tắc $MOONINI",
       "10": "- Chi tiết thực hiện kế toán",
       "12": "*Tài liệu này chứa các thông tin kỹ thuật, người dùng thông thường có thể tham khảo [bản whitepaper](/vi-VN/docs/whitepaper/) để có cái nhìn tổng quan về dự án.*",
       "14": "Để biết thêm tài liệu chi tiết, vui lòng tham khảo: `docs/technical/moonini-distribution.md`"
     },
     "seo": {
-      "description": "Hoàn thành hướng dẫn quy tắc phân phối $moonini và hệ thống kế toán",
-      "title": "Cơ chế phân phối $moonini — moonpacket"
+      "description": "Hoàn thành hướng dẫn quy tắc phân phối $MOONINI và hệ thống kế toán",
+      "title": "Cơ chế phân phối $MOONINI — moonpacket"
     },
-    "title": "Thiết kế phân phối và thu thập $moonini"
+    "title": "Thiết kế phân phối và thu thập $MOONINI"
   },
   "index": {
     "description": "Hoàn thành tài liệu dự án, whitepaper và thông số kỹ thuật",
@@ -1455,11 +1448,11 @@
   },
   "missions": {
     "back_to_whitepaper": "Quay lại Giấy Trắng",
-    "description": "Tìm hiểu cách kiếm $moonini thông qua các nhiệm vụ và thành tựu.",
+    "description": "Tìm hiểu cách kiếm $MOONINI thông qua các nhiệm vụ và thành tựu.",
     "intro": {
-      "0": "**Tài liệu này nhằm vào các kỹ sư và nhà phát triển sản phẩm**, định nghĩa hệ thống nhiệm vụ và cơ chế thành tựu của $moonini, kết hợp cảm giác thành công và các nhiệm vụ xã hội dựa trên hai hành động cốt lõi: \"Lì xì + Mời bạn bè.\"",
+      "0": "**Tài liệu này nhằm vào các kỹ sư và nhà phát triển sản phẩm**, định nghĩa hệ thống nhiệm vụ và cơ chế thành tựu của $MOONINI, kết hợp cảm giác thành công và các nhiệm vụ xã hội dựa trên hai hành động cốt lõi: \"Lì xì + Mời bạn bè.\"",
       "2": "**Nguyên Tắc Thiết Kế**:",
-      "3": "- Tất cả các nhiệm vụ \"thêm $moonini\" chủ yếu xoay quanh: **gửi lì xì, mời bạn bè, theo dõi các cộng đồng chính thức**",
+      "3": "- Tất cả các nhiệm vụ \"thêm $MOONINI\" chủ yếu xoay quanh: **gửi lì xì, mời bạn bè, theo dõi các cộng đồng chính thức**",
       "4": "- Nhiệm vụ 'Một lần' sẽ biến mất vĩnh viễn sau khi hoàn thành.",
       "5": "- Hệ thống nhiệm vụ chỉ cung cấp \"điểm thưởng\" và không thay đổi các quy tắc phân phối cơ bản.",
       "7": "**Danh mục nhiệm vụ**:",
@@ -1471,9 +1464,9 @@
     },
     "seo": {
       "description": "Hoàn thành mô tả hệ thống nhiệm vụ và cơ chế thành tích",
-      "title": "Hệ thống nhiệm vụ $moonini — moonpacket"
+      "title": "Hệ thống nhiệm vụ $MOONINI — moonpacket"
     },
-    "title": "$moonini thiết kế nhiệm vụ và thành tựu"
+    "title": "$MOONINI thiết kế nhiệm vụ và thành tựu"
   },
   "nav": {
     "api": "Tài liệu API",
@@ -1502,13 +1495,32 @@
     },
     "seo": {
       "description": "Hoàn thiện các thông số kỹ thuật và hướng dẫn phát triển hợp đồng thông minh BSC",
-      "title": "Thông số kỹ thuật $moonini — moonpacket"
+      "title": "Thông số kỹ thuật $MOONINI — moonpacket"
     },
-    "title": "$moonini BSC Thông số Kỹ thuật"
+    "title": "$MOONINI BSC Thông số Kỹ thuật"
   },
   "title": "Tài liệu",
   "toc": {
     "back_to_index": "Trở lại Trung tâm Tài liệu",
     "title": "Danh mục"
+  },
+  "docs": {
+    "litepaper": {
+      "content": {
+        "contracts": {
+          "title": "",
+          "description": "",
+          "items": {
+            "token": "$MOONINI Token (Lõi Token)",
+            "vesting": "Vesting Vault (V2) (Quản Lý Khóa)",
+            "pool": "Liquidity Pool (LP) (Thanh Khoản Thị Trường)",
+            "multisig": "Governance Multisig (Trung Tâm Quyền Lực)",
+            "timelock": "Timelock Controller (Quản Trị Trì Hoãn)",
+            "emergency": "Emergency Vault (Bộ Đệm An Toàn)"
+          },
+          "status": ""
+        }
+      }
+    }
   }
 }

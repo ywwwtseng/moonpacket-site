@@ -1,17 +1,17 @@
 {
   "litepaper": {
-    "title": "$moonini Litepaper",
-    "description": "Compreender a filosofia de design, o modelo económico e os valores fundamentais do token $moonini.",
+    "title": "$MOONINI Litepaper",
+    "description": "Compreender a filosofia de design, o modelo económico e os valores fundamentais do token $MOONINI.",
     "seo": {
-      "title": "$moonini Litepaper — moonpacket",
-      "description": "$moonini é um token de incentivo da comunidade baseado na plataforma moonpacket. Aprenda como obter, usar e investir no seu valor."
+      "title": "$MOONINI Litepaper — moonpacket",
+      "description": "$MOONINI é um token de incentivo da comunidade baseado na plataforma moonpacket. Aprenda como obter, usar e investir no seu valor."
     },
     "hero": {
-      "subtitle": "$moonini é um token de incentivo comunitário baseado na plataforma moonpacket. Quanto mais os utilizadores se envolvem com o moonpacket, participam em tarefas e interagem, mais $moonini podem ganhar. Para os investidores, 90% é distribuído aos utilizadores e 10% vai para a equipa, com um mecanismo de halving e liberação linear que efetivamente reduz os riscos de venda, concebido para a estabilidade a longo prazo.",
+      "subtitle": "$MOONINI é um token de incentivo comunitário baseado na plataforma moonpacket. Quanto mais os utilizadores se envolvem com o moonpacket, participam em tarefas e interagem, mais $MOONINI podem ganhar. Para os investidores, 90% é distribuído aos utilizadores e 10% vai para a equipa, com um mecanismo de halving e liberação linear que efetivamente reduz os riscos de venda, concebido para a estabilidade a longo prazo.",
       "cards": {
         "user": {
           "title": "Para Utilizadores Gerais",
-          "description": "Ganhe $moonini facilmente ao enviar Red Packets, completar tarefas, convidar amigos, etc. Quanto mais o utilizar, mais ganha, completamente grátis."
+          "description": "Ganhe $MOONINI facilmente ao enviar Red Packets, completar tarefas, convidar amigos, etc. Quanto mais o utilizar, mais ganha, completamente grátis."
         },
         "investor": {
           "title": "Para Investidores",
@@ -29,7 +29,7 @@
     "sections": {
       "overview": "Visão Geral",
       "problem": "Problemas e Soluções",
-      "concept": "Conceitos fundamentais do moonpacket & $moonini",
+      "concept": "Conceitos fundamentais do moonpacket & $MOONINI",
       "tokenomics": "Visão Geral da Tokenomics",
       "emission": "Divisão e Lançamento",
       "utility": {
@@ -81,8 +81,8 @@
       "overview": {
         "paragraphs": [
           "moonpacket é uma ferramenta de Red Packet de criptomoedas e marketing projetada especificamente para comunidades do Telegram. Quer seja para operações comunitárias, promoções de eventos ou para convidar novos utilizadores, a moonpacket pode ajudá-lo a alcançá-lo facilmente.",
-          "Para incentivar os utilizadores a continuarem a usar a plataforma e estabelecerem relações a longo prazo, lançámos o token de incentivo comunitário $moonini. Cada comportamento ativo na plataforma, incluindo o envio de Red Packets, a conclusão de tarefas e o convite a amigos, pode render recompensas correspondentes em $moonini.",
-          "Para utilizadores gerais, $moonini é uma recompensa adicional por usar o Moonpacket; quanto mais utilizar, mais ganha. Para investidores, o design económico do token $moonini (90% para utilizadores, 10% para a equipa, halving em 6 etapas, liberação de bloqueios) reduz efetivamente os riscos de venda a curto prazo e é favorável à estabilidade do valor a longo prazo."
+          "Para incentivar os utilizadores a continuarem a usar a plataforma e estabelecerem relações a longo prazo, lançámos o token de incentivo comunitário $MOONINI. Cada comportamento ativo na plataforma, incluindo o envio de Red Packets, a conclusão de tarefas e o convite a amigos, pode render recompensas correspondentes em $MOONINI.",
+          "Para utilizadores gerais, $MOONINI é uma recompensa adicional por usar o Moonpacket; quanto mais utilizar, mais ganha. Para investidores, o design económico do token $MOONINI (90% para utilizadores, 10% para a equipa, halving em 6 etapas, liberação de bloqueios) reduz efetivamente os riscos de venda a curto prazo e é favorável à estabilidade do valor a longo prazo."
         ],
         "highlights": {
           "title": "Destaques principais",
@@ -105,16 +105,16 @@
           ]
         },
         "solutions": {
-          "title": "A solução do moonpacket + $moonini",
+          "title": "A solução do moonpacket + $MOONINI",
           "items": [
             "**Rastreamento de comportamento completo**: A moonpacket regista a recepção de cada Red Packet, o comportamento de partilha e as introduções de novos utilizadores, permitindo-lhe compreender claramente a eficácia de marketing.",
-            "**Mecanismos de incentivos de longo prazo**: Através do token $moonini, quanto mais usuários participam, mais eles ganham, estabelecendo uma motivação para a participação a longo prazo.",
+            "**Mecanismos de incentivos de longo prazo**: Através do token $MOONINI, quanto mais usuários participam, mais eles ganham, estabelecendo uma motivação para a participação a longo prazo.",
             "**Distribuição de valor justo**: 90% dos tokens vão para os utilizadores, garantindo prioridade à comunidade, enquanto mecanismos como a redução pela metade e o bloqueio diminuem os riscos de desvalorização."
           ]
         }
       },
       "concept": {
-        "title": "Conceitos Fundamentais de moonpacket e $moonini",
+        "title": "Conceitos Fundamentais de moonpacket e $MOONINI",
         "moonpacket": {
           "title": "O Papel da moonpacket",
           "description": "moonpacket é uma ferramenta de Red Packet do Telegram, tarefa e marketing. Quer seja um operador de comunidade, organizador de eventos ou um projeto que procura atrair novos utilizadores, pode usar o moonpacket para:",
@@ -126,25 +126,25 @@
           ]
         },
         "moonini": {
-          "title": "O Papel de $moonini",
-          "description": "$moonini é um token de pontos de recompensa que reconhece o comportamento dos utilizadores e da comunidade. Cada ação ativa que realiza na moonpacket gera-lhe o correspondente $moonini:",
+          "title": "O Papel de $MOONINI",
+          "description": "$MOONINI é um token de pontos de recompensa que reconhece o comportamento dos utilizadores e da comunidade. Cada ação ativa que realiza na moonpacket gera-lhe o correspondente $MOONINI:",
           "rewards": [
-            "Enviar Red Packet: Ganhe o correspondente a $moonini com base na quantia do Red Packet e na fase atual",
-            "Complete Tasks: A realização de conquistas, tarefas sociais, etc., ganha $moonini extra",
-            "Convide Amigos: Ao convidar com sucesso novos utilizadores e concluir tarefas de partilha, ambas as partes podem ganhar $moonini",
-            "Participação Ativa: Completar ações específicas em jogos ou aplicações colaborativas também pode render $moonini"
+            "Enviar Red Packet: Ganhe o correspondente a $MOONINI com base na quantia do Red Packet e na fase atual",
+            "Complete Tasks: A realização de conquistas, tarefas sociais, etc., ganha $MOONINI extra",
+            "Convide Amigos: Ao convidar com sucesso novos utilizadores e concluir tarefas de partilha, ambas as partes podem ganhar $MOONINI",
+            "Participação Ativa: Completar ações específicas em jogos ou aplicações colaborativas também pode render $MOONINI"
           ]
         },
         "logic": {
           "title": "Quanto mais o utilizas, mais ganhas",
-          "description": "A lógica é simples: quanto mais ativo for no moonpacket, mais $moonini ganhará. Os participantes iniciais podem usufruir de uma taxa de recompensa mais alta (Fase 1, ganhe 1 $moonini por cada 1 USDT Red Packet enviado). Quanto mais cedo participar, maior será a sua vantagem."
+          "description": "A lógica é simples: quanto mais ativo for no moonpacket, mais $MOONINI ganhará. Os participantes iniciais podem usufruir de uma taxa de recompensa mais alta (Fase 1, ganhe 1 $MOONINI por cada 1 USDT Red Packet enviado). Quanto mais cedo participar, maior será a sua vantagem."
         }
       },
       "tokenomics": {
         "title": "Visão Geral da Tokenomics",
         "total": {
           "title": "Oferta Total de Tokens",
-          "description": "A emissão total de $moonini é **10,000,000,000 tokens (10 mil milhões)**, com um fornecimento total fixo e sem emissão adicional."
+          "description": "A emissão total de $MOONINI é **10,000,000,000 tokens (10 mil milhões)**, com um fornecimento total fixo e sem emissão adicional."
         },
         "allocation": {
           "title": "Plano de Alocação",
@@ -256,7 +256,7 @@
               ]
             ]
           },
-          "example": "Por exemplo: Na Fase 1, se enviar um Red Packet de 100 USDT, pode ganhar 100 $moonini; na Fase 2, enviar o mesmo Red Packet de 100 USDT apenas lhe renderia 50 $moonini. Quanto mais cedo participar, maior será a sua vantagem!"
+          "example": "Por exemplo: Na Fase 1, se enviar um Red Packet de 100 USDT, pode ganhar 100 $MOONINI; na Fase 2, enviar o mesmo Red Packet de 100 USDT apenas lhe renderia 50 $MOONINI. Quanto mais cedo participar, maior será a sua vantagem!"
         },
         "vesting": {
           "title": "Bloqueio e Liberação de Quotas da Equipa",
@@ -280,20 +280,20 @@
       "utility": {
         "title": "A aquisição de utilizadores e cenários de utilização",
         "how_to_earn": {
-          "title": "Como ganhar $moonini?",
+          "title": "Como ganhar $MOONINI?",
           "methods": [
-            "**Enviar Red Packet**: Para cada **equivalente a 1 USDT** enviado como Red Packet (suportando várias moedas), os participantes recebem $moonini correspondente com base na fase atual.",
+            "**Enviar Red Packet**: Para cada **equivalente a 1 USDT** enviado como Red Packet (suportando várias moedas), os participantes recebem $MOONINI correspondente com base na fase atual.",
             "**Concluir Tarefas**: Inclui tarefas de conquista únicas e tarefas sociais. Para garantir a equidade, cada conta só pode concluir cada tarefa uma vez ou ser configurada com um limite total para evitar a mineração maliciosa de moedas.",
             "**Convidar Amigos**: Convida novos amigos e completa tarefas de partilha, ambas as partes recebem recompensas. **Cada conta tem um limite nas recompensas de convite**, e as regras específicas estão sujeitas a anúncios da comunidade.",
-            "**Aplicações Colaborativas**: Completar ações específicas em jogos ou aplicações integradas com a API da moonpacket também pode render $moonini."
+            "**Aplicações Colaborativas**: Completar ações específicas em jogos ou aplicações integradas com a API da moonpacket também pode render $MOONINI."
           ]
         },
         "how_to_use": {
-          "title": "Utilizações do $moonini",
+          "title": "Utilizações do $MOONINI",
           "items": [
-            "**Descontos nas Taxas**: No futuro, $moonini pode ser utilizado para compensar parte das taxas de transação do Red Packet.",
-            "**Desbloquear Funcionalidades**: Algumas funcionalidades premium podem exigir a detenção de uma certa quantia de $moonini para serem utilizadas.",
-            "**Direitos de Voto na Governança**: Possuir $moonini permite a participação nas futuras votações de governança da comunidade, influenciando a direção do desenvolvimento do projeto.",
+            "**Descontos nas Taxas**: No futuro, $MOONINI pode ser utilizado para compensar parte das taxas de transação do Red Packet.",
+            "**Desbloquear Funcionalidades**: Algumas funcionalidades premium podem exigir a detenção de uma certa quantia de $MOONINI para serem utilizadas.",
+            "**Direitos de Voto na Governança**: Possuir $MOONINI permite a participação nas futuras votações de governança da comunidade, influenciando a direção do desenvolvimento do projeto.",
             "**Resgate do Ecossistema**: Pode ser resgatado por benefícios ou recompensas especiais em aplicações ou jogos parceiros."
           ]
         }
@@ -302,7 +302,7 @@
         "title": "Ecossistema de Desenvolvedores",
         "description": [
           "moonpacket é mais do que apenas uma ferramenta de Red Packet; é uma **Camada de Liquidez Social** aberta.",
-          "Através de APIs e SDKs padronizados, qualquer Bot do Telegram, GameFi ou aplicação Web3 pode aceder à camada de incentivos de $moonini. Você foca no desenvolvimento do produto, e nós ajudamos com o crescimento e retenção."
+          "Através de APIs e SDKs padronizados, qualquer Bot do Telegram, GameFi ou aplicação Web3 pode aceder à camada de incentivos de $MOONINI. Você foca no desenvolvimento do produto, e nós ajudamos com o crescimento e retenção."
         ],
         "architecture": {
           "title": "Incentivos Programáveis",
@@ -317,14 +317,10 @@
         "title": "Endereço do Contrato",
         "description": "Para garantir transparência, todos os endereços de contratos inteligentes principais serão divulgados publicamente e verificados.",
         "items": {
-          "token": "$moonini Token (Contrato do Token)",
-          "emission": "Câmara de Emissão (90% Câmara de Emissão Pública)",
-          "reserve": "Cofr de Reserva (Cofr de Quota da Equipa de 10%)",
-          "phase": "Gestor de Fase (Controlador de Halvings)",
+          "token": "$MOONINI Token (Contrato do Token)",
           "vesting": "Cofr de Vesting (Controlador de Liberação Linear)",
-          "pol": "Gestor POL (Recompra e Defesa do Preço Mínimo)",
-          "protection": "Proteção de Lançamento (Fase Aberta Anti-Sniping)",
-          "timelock": "Controlador de Timelock (Bloqueio de Atraso de 48h)"
+          "pool": "Liquidity Pool (LP) (Liquidez de Mercado)",
+          "multisig": "Governance Multisig (Centro de Poder)"
         },
         "status": "(A ser atualizado após o lançamento da mainnet)"
       },
@@ -453,11 +449,11 @@
         "items": [
           {
             "question": "Como posso ganhar tokens?",
-            "answer": "Você pode obter $moonini enviando Red Packets, completando tarefas, convidando amigos e muito mais. Quanto mais Red Packets você enviar e tarefas você completar, mais tokens você ganhará. Os participantes iniciais também desfrutarão de uma proporção de recompensa mais alta."
+            "answer": "Você pode obter $MOONINI enviando Red Packets, completando tarefas, convidando amigos e muito mais. Quanto mais Red Packets você enviar e tarefas você completar, mais tokens você ganhará. Os participantes iniciais também desfrutarão de uma proporção de recompensa mais alta."
           },
           {
             "question": "Quando posso retirar?",
-            "answer": "Após o lançamento da mainnet, os usuários podem retirar $moonini para suas carteiras. As retiradas requerem uma pequena taxa de Gas (taxa da rede BSC). Por favor, preste atenção aos anúncios oficiais para o horário específico de lançamento."
+            "answer": "Após o lançamento da mainnet, os usuários podem retirar $MOONINI para suas carteiras. As retiradas requerem uma pequena taxa de Gas (taxa da rede BSC). Por favor, preste atenção aos anúncios oficiais para o horário específico de lançamento."
           },
           {
             "question": "Há um período de bloqueio para as alocações da equipe?",
@@ -472,16 +468,16 @@
             "answer": "Reduziremos os riscos através de auditorias de segurança de terceiros, confirmações de múltiplas assinaturas, execução atrasada e outros mecanismos de proteção em várias camadas. Se ocorrer um problema, iniciaremos imediatamente uma resposta de emergência, determinaremos um plano de manejo através do mecanismo de governança e notificaremos prontamente a comunidade."
           },
           {
-            "question": "Qual é o fornecimento total de $moonini? Vai aumentar?",
-            "answer": "O fornecimento total de $moonini é de 10.000.000.000 peças (10B), com um total fixo que nunca aumentará. 90% serão liberados gradualmente através de atividades dos usuários e 10% irá para a equipe e investidores iniciais."
+            "question": "Qual é o fornecimento total de $MOONINI? Vai aumentar?",
+            "answer": "O fornecimento total de $MOONINI é de 10.000.000.000 peças (10B), com um total fixo que nunca aumentará. 90% serão liberados gradualmente através de atividades dos usuários e 10% irá para a equipe e investidores iniciais."
           },
           {
             "question": "Como posso participar da governança?",
-            "answer": "Os detentores de $moonini podem participar de futuros votos de governança da comunidade, influenciando a direção de desenvolvimento do projeto. Mecanismos específicos de governança e métodos de votação serão implementados gradualmente após o lançamento da mainnet."
+            "answer": "Os detentores de $MOONINI podem participar de futuros votos de governança da comunidade, influenciando a direção de desenvolvimento do projeto. Mecanismos específicos de governança e métodos de votação serão implementados gradualmente após o lançamento da mainnet."
           },
           {
-            "question": "O $moonini pode ser negociado?",
-            "answer": "Após o lançamento da mainnet e a criação de um pool de liquidez, $moonini pode ser negociado em exchanges descentralizadas (como PancakeSwap). A negociação será influenciada pela oferta e demanda no mercado, e os preços podem flutuar, por isso, pedimos que invista com cautela."
+            "question": "O $MOONINI pode ser negociado?",
+            "answer": "Após o lançamento da mainnet e a criação de um pool de liquidez, $MOONINI pode ser negociado em exchanges descentralizadas (como PancakeSwap). A negociação será influenciada pela oferta e demanda no mercado, e os preços podem flutuar, por isso, pedimos que invista com cautela."
           }
         ]
       }
@@ -719,18 +715,18 @@
     }
   },
   "whitepaper": {
-    "title": "$moonini Whitepaper",
-    "description": "Compreendendo a filosofia de design, modelo econômico e arquitetura técnica do token $moonini",
+    "title": "$MOONINI Whitepaper",
+    "description": "Compreendendo a filosofia de design, modelo econômico e arquitetura técnica do token $MOONINI",
     "seo": {
-      "title": "$moonini Whitepaper — moonpacket",
-      "description": "Descrição Completa da Tokenomics do $moonini, Arquitetura Técnica e Mecanismo de Governança"
+      "title": "$MOONINI Whitepaper — moonpacket",
+      "description": "Descrição Completa da Tokenomics do $MOONINI, Arquitetura Técnica e Mecanismo de Governança"
     },
     "hero": {
-      "subtitle": "$moonini é o token de incentivo da comunidade baseado na plataforma moonpacket. Quanto mais os usuários se envolvem e interagem na moonpacket, mais $moonini eles podem ganhar. Para investidores, 90% é distribuído aos usuários e 10% à equipe, reduzindo efetivamente o risco de colapso do mercado em combinação com o mecanismo de redução pela metade e liberação linear.",
+      "subtitle": "$MOONINI é o token de incentivo da comunidade baseado na plataforma moonpacket. Quanto mais os usuários se envolvem e interagem na moonpacket, mais $MOONINI eles podem ganhar. Para investidores, 90% é distribuído aos usuários e 10% à equipe, reduzindo efetivamente o risco de colapso do mercado em combinação com o mecanismo de redução pela metade e liberação linear.",
       "cards": {
         "user": {
           "title": "Para Usuários Gerais",
-          "description": "Ganhe facilmente $moonini ao enviar Red Packets, concluir tarefas e convidar amigos. Quanto mais você usar, mais você ganha, completamente grátis."
+          "description": "Ganhe facilmente $MOONINI ao enviar Red Packets, concluir tarefas e convidar amigos. Quanto mais você usar, mais você ganha, completamente grátis."
         },
         "investor": {
           "title": "Para Investidores",
@@ -760,13 +756,13 @@
     "content": {
       "overview": {
         "what_is": [
-          "**$moonini** é o token do ecossistema da plataforma moonpacket, utilizado para recompensar os utilizadores por comportamentos ativos na plataforma, incluindo:",
+          "**$MOONINI** é o token do ecossistema da plataforma moonpacket, utilizado para recompensar os utilizadores por comportamentos ativos na plataforma, incluindo:",
           "- Enviando red packets",
           "- Convidar amigos",
           "- Concluir tarefas",
           "- Participar em atividades comunitárias",
           "",
-          "**Em Termos Simples**: Quanto mais você usar no moonpacket, mais $moonini você ganhará."
+          "**Em Termos Simples**: Quanto mais você usar no moonpacket, mais $MOONINI você ganhará."
         ],
         "core_values": {
           "title": "Valores Fundamentais",
@@ -826,8 +822,8 @@
             "| **Fase 6** | 8.71875B ~ 9B | **0.03125 token** | Fase final |",
             "",
             "**Exemplo**:",
-            "- Na Fase 1, se você enviar um Red Packet de 100 USDT, pode receber 100 $moonini",
-            "- Na Fase 2, se você enviar um Red Packet de 100 USDT, pode receber apenas 50 $moonini",
+            "- Na Fase 1, se você enviar um Red Packet de 100 USDT, pode receber 100 $MOONINI",
+            "- Na Fase 2, se você enviar um Red Packet de 100 USDT, pode receber apenas 50 $MOONINI",
             "- Quanto mais cedo você participar, mais tokens você recebe!"
           ],
           "value_logic": [
@@ -837,12 +833,12 @@
             "Originário da cultura oriental, o Red Packet representa não apenas a transferência de fundos, mas também o amor de mais velhos para mais jovens, congratulações e compartilhamento entre amigos. Na moonpacket, cada vez que você envia um Red Packet, é uma interação social calorosa.",
             "",
             "**Do Comportamento Social ao Valor Econômico**:",
-            "Acreditamos que esses atos de boa vontade devem ser registrados e valorizados. O $moonini não é apenas um token de recompensa; é o portador de valor desta rede social, gerando efeitos econômicos de longo prazo de cada 'dar'.",
+            "Acreditamos que esses atos de boa vontade devem ser registrados e valorizados. O $MOONINI não é apenas um token de recompensa; é o portador de valor desta rede social, gerando efeitos econômicos de longo prazo de cada 'dar'.",
             "",
             "**Suporte a Valor Real**:",
             "Para manter a estabilidade deste valor social, o protocolo especifica: **50% da receita de taxas de transação será automaticamente injetada no Pool de Liquidez**.",
             "",
-            "Isso significa: quanto mais ativa a comunidade ➔ mais interações com Red Packets ➔ mais fundos injetados no pool de liquidez ➔ mais sólida a fundação de valor do $moonini. Este é um ciclo positivo baseado em necessidades sociais reais e receita comercial, em vez de pura especulação."
+            "Isso significa: quanto mais ativa a comunidade ➔ mais interações com Red Packets ➔ mais fundos injetados no pool de liquidez ➔ mais sólida a fundação de valor do $MOONINI. Este é um ciclo positivo baseado em necessidades sociais reais e receita comercial, em vez de pura especulação."
           ]
         }
       },
@@ -909,15 +905,15 @@
             "**Método de Lançamento**: Lançamento gradual através de atividades dos utilizadores",
             "",
             "**Liberar Fontes**:",
-            "1. **Enviar Red Packets**: Cada vez que 1 USDT Red Packet é enviado, recebe correspondentes $moonini com base na fase atual",
-            "2. **Convidar Amigos**: Convide com sucesso novos utilizadores e complete tarefas de partilha para receber $moonini",
-            "3. **Completar Tarefas**: Complete tarefas de conquista, tarefas sociais, etc., para ganhar $moonini extra",
+            "1. **Enviar Red Packets**: Cada vez que 1 USDT Red Packet é enviado, recebe correspondentes $MOONINI com base na fase atual",
+            "2. **Convidar Amigos**: Convide com sucesso novos utilizadores e complete tarefas de partilha para receber $MOONINI",
+            "3. **Completar Tarefas**: Complete tarefas de conquista, tarefas sociais, etc., para ganhar $MOONINI extra",
             "4. **Partilha de Lucros do Proprietário do Grupo**: Os proprietários de grupos podem receber 3% de partilha de lucros (USDT) por enviar Red Packets entre grupos"
           ],
           "cost_vs_price": [
             "💡 **Custo de Produção vs Preço de Mercado**:",
             "",
-            "Na Fase 1, o custo implícito de obter 1 $moonini através da mineração de Red Packet é aproximadamente **0,02 USDT** (com base numa taxa de transação de 2%).",
+            "Na Fase 1, o custo implícito de obter 1 $MOONINI através da mineração de Red Packet é aproximadamente **0,02 USDT** (com base numa taxa de transação de 2%).",
             "",
             "Enquanto o nosso preço de listagem inicial é **0,01 USDT**.",
             "",
@@ -925,10 +921,10 @@
           ],
           "withdraw_mechanism": [
             "**Mecanismo de Retirada**:",
-            "- Depois de os utilizadores ganharem $moonini na plataforma, podem retirá-lo para a sua carteira através de um mecanismo seguro de verificação de identidade.",
+            "- Depois de os utilizadores ganharem $MOONINI na plataforma, podem retirá-lo para a sua carteira através de um mecanismo seguro de verificação de identidade.",
             "- O sistema verificará com base nos registos de atividade do utilizador para garantir que apenas o utilizador pode operar.",
             "- Uma vez verificado, os utilizadores podem retirar os seus tokens para a sua carteira",
-            "- **Limiar Mínimo de Levantamento**: 10 $moonini",
+            "- **Limiar Mínimo de Levantamento**: 10 $MOONINI",
             "- **Taxa de Transação**: Os utilizadores apenas precisam de pagar a taxa de transação da rede (em conformidade com as práticas de blockchain)",
             "",
             "*Para uma implementação técnica detalhada, consulte: [Documento de Especificação Técnica](/pt-PT/docs/technical)*"
@@ -957,7 +953,7 @@
             "- **Mecanismo de Notificação**: Notificações automáticas enviadas aos beneficiários após a conclusão de cada liberação.",
             "",
             "**Exemplo**:",
-            "- O Investidor A recebe 1.000.000 $moonini",
+            "- O Investidor A recebe 1.000.000 $MOONINI",
             "- Primeiros 3 meses: Período de bloqueio, retiradas não permitidas",
             "- A partir do 4º mês: Os Tokens acumulam-se linearmente ao longo do tempo, com retiradas regulares da porção acumulada",
             "- Após 33 meses: Todas as versões concluídas."
@@ -1043,7 +1039,7 @@
           "title": "5.3 Recompra e Criação de Mercado (POL - Recompra Ilimitada + Defesa de Preço Mínimo)",
           "mechanism": [
             "**Mecanismo**:",
-            "- **1%** das taxas de transação da plataforma são utilizadas para recomprar $moonini e aprofundar o pool de liquidez",
+            "- **1%** das taxas de transação da plataforma são utilizadas para recomprar $MOONINI e aprofundar o pool de liquidez",
             "- **Compra Sem Limites**: Sem limite diário nas recompras; quantas taxas de transação houver, as recompras continuam a fornecer suporte de liquidez para o token",
             "- **Estratégia Automatizada**: Utilizando estratégias de recompra inteligentes para reduzir a previsibilidade e evitar manipulação de mercado",
             "- **Comprar Proteção**: Aumenta automaticamente os esforços de recompra quando há uma queda significativa no mercado, protegendo os interesses dos investidores"
@@ -1110,11 +1106,11 @@
       },
       "incentives": {
         "how_to_earn": {
-          "title": "6.1 Como Obter $moonini?",
+          "title": "6.1 Como Obter $MOONINI?",
           "send_gift": [
             "#### A. Envio de Red Packets",
             "",
-            "- **Regras Básicas**: Para cada **equivalente a 1 USDT** red packet enviado (suporta múltiplos tokens), o sistema calculará e distribuirá $moonini com base na taxa de câmbio da fase atual.",
+            "- **Regras Básicas**: Para cada **equivalente a 1 USDT** red packet enviado (suporta múltiplos tokens), o sistema calculará e distribuirá $MOONINI com base na taxa de câmbio da fase atual.",
             "- **Transmitindo Bênçãos**: Red packets não são apenas dinheiro; são um meio de transmitir bênçãos. Cada ato de presente será registado na blockchain e recompensado."
           ],
           "invite": [
@@ -1147,7 +1143,7 @@
             "",
             "**Utilização de Taxas**:",
             "- **1% Operações**: Usado para custos de servidor, desenvolvimento e marketing.",
-            "- **1% Recuperação**: Usada para recomprar $moonini e aprofundar LP (a ser realizado no futuro).",
+            "- **1% Recuperação**: Usada para recomprar $MOONINI e aprofundar LP (a ser realizado no futuro).",
             "- **3% Partilha de Lucros do Proprietário do Grupo**: Pago ao proprietário do grupo (apenas cobrado pelo envio entre grupos)."
           ]
         }
@@ -1156,33 +1152,30 @@
         "contracts": {
           "title": "7.1 Endereço do Contrato (Implantação Pendente)",
           "description": [
-            "Uma vez que o token for oficialmente lançado, todos os endereços de contratos inteligentes serão anunciados aqui, juntamente com os links das especificações técnicas correspondentes.",
+            "以下為 $MOONINI 核心合約與資產地址。為了確保透明度，所有地址均已公開並可於區塊鏈瀏覽器查詢。",
             "",
-            "**Módulos de Contrato Principal**:",
-            "- Contrato do Token",
-            "- Governação e Controlo de Atrasos",
-            "- Tesouraria de Oferta Pública",
-            "- Alocação da Equipa do Tesouro",
-            "- Gestão de Recompra",
-            "- Pool de Liquidez",
-            "- Carteira Multi-Assinatura",
+            "**核心地址**：",
+            "- **代幣合約**：`0xe4d5857271c7978F5fe6b29A73C97142D6d8Befe`",
+            "- **鎖倉合約**：`0x0c0cc023d3c82d22aafd05763393f5af6b0922a1`",
+            "- **Pool de Liquidez (LP)**：`0x24248E591eC8FDeC9776f87C497746867305963E`",
+            "- **Centro de Poder**：`0x8c1c793E73372aCD30DD05fE4Cc718A4ADbe1219`",
             "",
-            "*Para detalhes sobre endereços de contrato e especificações técnicas, consulte o: [Documento de Especificações Técnicas](/pt-PT/docs/technical)*"
+            "*詳細技術規格請參考：[技術規格文檔](/zh-TW/docs/technical)*"
           ]
         },
         "api": {
           "title": "7.2 Modos de Integração e API (Em Planeamento)",
           "intro": [
-            "A moonpacket planeia fornecer um completo ecossistema de API, permitindo que desenvolvedores e parceiros de terceiros integrem facilmente o mecanismo de recompensa $moonini nos seus produtos. Seja um bot Telegram, um jogo Web3 ou uma plataforma de campanha de marketing, a nossa API permite que os utilizadores recebam recompensas $moonini, expandindo a influência ecológica."
+            "A moonpacket planeia fornecer um completo ecossistema de API, permitindo que desenvolvedores e parceiros de terceiros integrem facilmente o mecanismo de recompensa $MOONINI nos seus produtos. Seja um bot Telegram, um jogo Web3 ou uma plataforma de campanha de marketing, a nossa API permite que os utilizadores recebam recompensas $MOONINI, expandindo a influência ecológica."
           ],
           "types": [
             "**Tipos de API**:",
             "",
             "Estamos a planear fornecer os seguintes tipos de APIs para satisfazer diversas necessidades de integração:",
             "",
-            "- **API de Leitura de Dados**: Consulte os registos de distribuição de Red Packet, o estado de conclusão das tarefas, o saldo de $moonini do utilizador e muito mais, permitindo que os parceiros compreendam o estado da atividade do utilizador.",
+            "- **API de Leitura de Dados**: Consulte os registos de distribuição de Red Packet, o estado de conclusão das tarefas, o saldo de $MOONINI do utilizador e muito mais, permitindo que os parceiros compreendam o estado da atividade do utilizador.",
             "",
-            "- **API de Distribuição e Tarefas**: Permite que parceiros acionem distribuições de Red Packet ou recompensas por tarefas nos seus próprios produtos, por exemplo, distribuindo automaticamente recompensas de $moonini quando os utilizadores alcançam marcos específicos num jogo.",
+            "- **API de Distribuição e Tarefas**: Permite que parceiros acionem distribuições de Red Packet ou recompensas por tarefas nos seus próprios produtos, por exemplo, distribuindo automaticamente recompensas de $MOONINI quando os utilizadores alcançam marcos específicos num jogo.",
             "",
             "- **Eventos de Webhook**: O sistema notifica proativamente os parceiros sobre eventos importantes, como quando os utilizadores completam tarefas, reclamam Red Packets ou finalizam levantamentos, permitindo respostas em tempo real e sincronização de dados."
           ],
@@ -1206,22 +1199,22 @@
             "",
             "- **Beta Fechada**: Inicialmente disponibilizada a parceiros e desenvolvedores de jogos iniciais numa formato de beta fechada para recolher feedback e otimizar experiências.",
             "",
-            "- **Abertura Gradual**: Após verificar a estabilidade durante a fase Beta, as aplicações serão abertas gradualmente para permitir que mais desenvolvedores integrem o ecossistema $moonini.",
+            "- **Abertura Gradual**: Após verificar a estabilidade durante a fase Beta, as aplicações serão abertas gradualmente para permitir que mais desenvolvedores integrem o ecossistema $MOONINI.",
             "",
             "- **Lançamento Formal**: Assim que a API atinja uma estabilidade de nível de produção, estará oficialmente aberta ao público, oferecendo documentação completa e suporte."
           ],
           "scenarios": {
             "title": "Cenários típicos de integração",
             "items": [
-              "**Bot do Telegram / Mini App**: Envie Red Packets nos seus grupos ou aplicações para permitir que os utilizadores recebam recompensas de $moonini, aumentando o envolvimento dos utilizadores.",
+              "**Bot do Telegram / Mini App**: Envie Red Packets nos seus grupos ou aplicações para permitir que os utilizadores recebam recompensas de $MOONINI, aumentando o envolvimento dos utilizadores.",
               "",
-              "**Jogos Web3**: Reportar o status de conclusão de tarefas nos jogos para a moonpacket, permitindo que os jogadores recebam automaticamente recompensas adicionais de $moonini ao completar tarefas do jogo.",
+              "**Jogos Web3**: Reportar o status de conclusão de tarefas nos jogos para a moonpacket, permitindo que os jogadores recebam automaticamente recompensas adicionais de $MOONINI ao completar tarefas do jogo.",
               "",
-              "**Plataformas de Campanha de Marketing**: Envie automaticamente recompensas de $moonini com base no comportamento do utilizador nas redes sociais (por exemplo, partilhas, retweets, seguimentos, etc.), alcançando um marketing preciso.",
+              "**Plataformas de Campanha de Marketing**: Envie automaticamente recompensas de $MOONINI com base no comportamento do utilizador nas redes sociais (por exemplo, partilhas, retweets, seguimentos, etc.), alcançando um marketing preciso.",
               "",
-              "**Protocolos DeFi**: Integre $moonini como uma camada adicional de recompensas, permitindo que os utilizadores ganhem recompensas em $moonini além dos lucros originais por completar ações específicas de DeFi.",
+              "**Protocolos DeFi**: Integre $MOONINI como uma camada adicional de recompensas, permitindo que os utilizadores ganhem recompensas em $MOONINI além dos lucros originais por completar ações específicas de DeFi.",
               "",
-              "**Plataformas de Criação de Conteúdo**: Emissão automática de recompensas $moonini quando os criadores completam tarefas específicas ou alcançam marcos, incentivando a criação de conteúdo de qualidade."
+              "**Plataformas de Criação de Conteúdo**: Emissão automática de recompensas $MOONINI quando os criadores completam tarefas específicas ou alcançam marcos, incentivando a criação de conteúdo de qualidade."
             ]
           }
         },
@@ -1312,7 +1305,7 @@
       "faq": {
         "title": "Dez, Questões a Confirmar",
         "description": [
-          "Este white paper descreve os princípios de design e o modelo económico fundamentais do $moonini. As seguintes questões ainda estão em coordenação com conselheiros e parceiros e serão finalizadas antes do lançamento da mainnet:",
+          "Este white paper descreve os princípios de design e o modelo económico fundamentais do $MOONINI. As seguintes questões ainda estão em coordenação com conselheiros e parceiros e serão finalizadas antes do lançamento da mainnet:",
           "",
           "- **Momento da Emissão do Token e Bolsas de Listagem**: O tempo específico de emissão e se será listado em bolsas centralizadas (CEX) ainda estão em coordenação com consultores e parceiros.",
           "",
@@ -1390,34 +1383,34 @@
   "api": {
     "actions": {
       "items": {
-        "0": "Leia o [whitepaper](/pt-PT/docs/whitepaper/) para saber mais sobre o token $moonini e o seu modelo econômico.",
+        "0": "Leia o [whitepaper](/pt-PT/docs/whitepaper/) para saber mais sobre o token $MOONINI e o seu modelo econômico.",
         "1": "Leia o [Documento de Especificações Técnicas](/pt-PT/docs/technical/) para compreender os contratos inteligentes e o mecanismo de lançamento.",
         "2": "Submeta o seu pedido de colaboração de API através dos canais oficiais (Telegram, Email) e iremos priorizar a notificação quando a API estiver pronta."
       },
       "title": "O que pode fazer agora?"
     },
     "content": {
-      "0": "Esta página fornecerá em breve uma documentação completa para a API do moonpacket / $moonini, incluindo detalhes técnicos sobre a API REST, eventos Webhook, autenticação OAuth, gestão de Chaves de API e mais.",
+      "0": "Esta página fornecerá em breve uma documentação completa para a API do moonpacket / $MOONINI, incluindo detalhes técnicos sobre a API REST, eventos Webhook, autenticação OAuth, gestão de Chaves de API e mais.",
       "2": "A API encontra-se atualmente na fase de design e validação interna e será disponibilizada inicialmente numa beta fechada para um número selecionado de parceiros para testar, recolher feedback e otimizar a experiência.",
       "4": "Todos os detalhes técnicos devem referir-se ao 'Documento de Especificações Técnicas' e ao white paper antes da publicação da documentação oficial da API."
     },
-    "description": "Saiba como integrar moonpacket e $moonini nos seus produtos através da API.",
+    "description": "Saiba como integrar moonpacket e $MOONINI nos seus produtos através da API.",
     "seo": {
       "description": "Documentação completa da API, API REST, Webhook e guia de integração",
-      "title": "Documentação da API Moonpacket / $moonini — moonpacket"
+      "title": "Documentação da API Moonpacket / $MOONINI — moonpacket"
     },
     "status": {
       "planned": "(Em Planeamento)"
     },
     "subtitle": "Documentação completa da API e guia de integração (em planeamento)",
-    "title": "Documentação da API Moonpacket / $moonini"
+    "title": "Documentação da API Moonpacket / $MOONINI"
   },
   "countdown": {
     "days": "Céu",
     "hours": "Hora",
     "minutes": "minutos",
     "seconds": "segundo",
-    "title": "Distância até ao lançamento oficial de $moonini"
+    "title": "Distância até ao lançamento oficial de $MOONINI"
   },
   "disclaimer": {
     "badge": "Aviso Importante",
@@ -1425,25 +1418,25 @@
   },
   "distribution": {
     "back_to_whitepaper": "Voltar ao Whitepaper",
-    "description": "Compreenda as regras de distribuição interna e os métodos contabilísticos de $moonini",
+    "description": "Compreenda as regras de distribuição interna e os métodos contabilísticos de $MOONINI",
     "intro": {
       "0": "**Este documento é destinado a engenheiros e desenvolvedores de backend**, definindo as regras específicas para 'como emitir, como os utilizadores podem resgatar e visualizar' dentro do produto moonpacket.",
       "2": "**Princípios de Design**:",
       "3": "- **Mudanças Mínimas**: Priorizar o uso da estrutura de dados existente, sem adicionar imediatamente tabelas de DB complexas.",
-      "4": "- **Expansível**: No futuro, se $moonini quiser estar completamente em cadeia, apenas precisamos de adicionar a lógica de levantamento/mapeamento.",
-      "5": "- **Transparente e Rastreável**: Todas as distribuições e consumos de $moonini estão registados nos `user_activity_logs`",
+      "4": "- **Expansível**: No futuro, se $MOONINI quiser estar completamente em cadeia, apenas precisamos de adicionar a lógica de levantamento/mapeamento.",
+      "5": "- **Transparente e Rastreável**: Todas as distribuições e consumos de $MOONINI estão registados nos `user_activity_logs`",
       "7": "**Conteúdo Principal**:",
       "8": "- Modelo de dados e método de contabilidade (livro razão interno)",
-      "9": "- Fonte e regras de distribuição do $moonini",
+      "9": "- Fonte e regras de distribuição do $MOONINI",
       "10": "- Detalhes de implementação da contabilidade",
       "12": "*Este documento contém detalhes técnicos, os utilizadores gerais podem consultar o [whitepaper](/pt-PT/docs/whitepaper/) para uma visão geral do projeto.*",
       "14": "Para documentação detalhada, consulte: `docs/technical/moonini-distribution.md`"
     },
     "seo": {
-      "description": "Complete as regras de distribuição e instruções do sistema de contabilidade do $moonini",
-      "title": "$moonini mecanismo de distribuição — moonpacket"
+      "description": "Complete as regras de distribuição e instruções do sistema de contabilidade do $MOONINI",
+      "title": "$MOONINI mecanismo de distribuição — moonpacket"
     },
-    "title": "$moonini Distribuição e Design de Coleta"
+    "title": "$MOONINI Distribuição e Design de Coleta"
   },
   "index": {
     "description": "Complete a documentação do projeto, whitepaper e especificações técnicas",
@@ -1455,11 +1448,11 @@
   },
   "missions": {
     "back_to_whitepaper": "Voltar ao Documento Técnico",
-    "description": "Aprende como ganhar $moonini através de tarefas e conquistas.",
+    "description": "Aprende como ganhar $MOONINI através de tarefas e conquistas.",
     "intro": {
-      "0": "**Este documento é destinado a engenheiros e desenvolvedores de produtos**, definindo o sistema de missão e o mecanismo de conquista de $moonini, incorporando uma sensação de realização e tarefas sociais além das duas ações principais de \"Red Packet + Convidar Amigos.\"",
+      "0": "**Este documento é destinado a engenheiros e desenvolvedores de produtos**, definindo o sistema de missão e o mecanismo de conquista de $MOONINI, incorporando uma sensação de realização e tarefas sociais além das duas ações principais de \"Red Packet + Convidar Amigos.\"",
       "2": "**Princípios de Design**:",
-      "3": "- Todas as tarefas \"additional $moonini\" giram essencialmente em torno de: **enviar Red Packets, convidar amigos, seguir comunidades oficiais**",
+      "3": "- Todas as tarefas \"additional $MOONINI\" giram essencialmente em torno de: **enviar Red Packets, convidar amigos, seguir comunidades oficiais**",
       "4": "- A 'Tarefa Única' desaparecerá permanentemente após a conclusão.",
       "5": "- O sistema de tarefas apenas fornece \"pontos bónus\" e não altera as regras básicas de distribuição.",
       "7": "**Categoria de Tarefa**:",
@@ -1471,9 +1464,9 @@
     },
     "seo": {
       "description": "Completar a descrição do sistema de missões e do mecanismo de conquistas",
-      "title": "$moonini Sistema de Tarefas — moonpacket"
+      "title": "$MOONINI Sistema de Tarefas — moonpacket"
     },
-    "title": "$moonini tarefas e design de conquistas"
+    "title": "$MOONINI tarefas e design de conquistas"
   },
   "nav": {
     "api": "Documentação da API",
@@ -1502,13 +1495,32 @@
     },
     "seo": {
       "description": "Completar as especificações técnicas do contrato inteligente BSC e o guia de desenvolvimento",
-      "title": "Especificações Técnicas do $moonini — moonpacket"
+      "title": "Especificações Técnicas do $MOONINI — moonpacket"
     },
-    "title": "$moonini Especificações Técnicas BSC"
+    "title": "$MOONINI Especificações Técnicas BSC"
   },
   "title": "Documento",
   "toc": {
     "back_to_index": "Voltar ao Centro de Documentos",
     "title": "Catálogo"
+  },
+  "docs": {
+    "litepaper": {
+      "content": {
+        "contracts": {
+          "title": "",
+          "description": "",
+          "items": {
+            "token": "$MOONINI Token (Núcleo de Token)",
+            "vesting": "Vesting Vault (V2) (Gestão de Bloqueio)",
+            "pool": "Liquidity Pool (LP) (Liquidez de Mercado)",
+            "multisig": "Governance Multisig (Centro de Poder)",
+            "timelock": "Timelock Controller (Governança Atrasada)",
+            "emergency": "Emergency Vault (Buffer de Segurança)"
+          },
+          "status": ""
+        }
+      }
+    }
   }
 }

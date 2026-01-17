@@ -13,11 +13,11 @@
     "Oui, moonini grandit grâce à l'énergie des red packets de chacun.",
     "",
     "Ces énergies se sont transformées en crédits de red packet nés sur la chaîne Solana —",
-    "C'est l'origine du Token $moonini."
+    "C'est l'origine du Token $MOONINI."
   ],
   "secrets_title": "🌸 Son secret",
   "secrets_intro": "Chaque fois que vous envoyez un red packet, moonini enregistrera une entrée d'énergie sur la lune :",
-  "secrets_flow": "Envoyer un red packet → Produire la valeur énergétique correspondante (convertie en valeur USDT) → Accumuler 10 → Atteindre la valeur $moonini minimum échangeable.",
+  "secrets_flow": "Envoyer un red packet → Produire la valeur énergétique correspondante (convertie en valeur USDT) → Accumuler 10 → Atteindre la valeur $MOONINI minimum échangeable.",
   "secrets_halving": [
     "Dans la phase initiale (Phase 1), moonini retournera généralement dans le meilleur ratio de 1:1 au destinataire du red packet. Pour maintenir l'équité et réduire le risque de manipulation, nous introduirons le concept d'énergie effective.",
     "Lorsque les montants totaux envoyés et retirés de la communauté atteignent le seuil de division fixé par le système, la première division aura lieu ; par la suite, atteindre la moitié du montant de la phase précédente déclenchera une nouvelle division."
@@ -33,19 +33,19 @@
     [
       "Phase 1",
       "0 ~ 4.5 billion",
-      "1.0 $moonpacket / USDT",
+      "1.0 $MOONINI / USDT",
       "Initial period, energy overflow."
     ],
     [
       "Phase 2",
       "4.5B ~ 6.75B",
-      "0.5 $moonpacket / USDT",
+      "0.5 $MOONINI / USDT",
       "First halving."
     ],
     [
       "Phase 3",
       "6.75B ~ 7.875B",
-      "0.25 $moonpacket / USDT",
+      "0.25 $MOONINI / USDT",
       "Stabilization period."
     ],
     [
@@ -77,12 +77,12 @@
     "moonini aime tout le monde prêt à 'partager'.",
     "Il croit que les red packets ne sont pas seulement de l'argent, mais un échange de bénédictions et d'énergie.",
     "Chaque fois que vous envoyez un red packet, complétez une tâche ou rejoignez la communauté moonpacket,",
-    "vous aurez la chance de recevoir un retour de la lune — $moonini laissé tomber au hasard.",
+    "vous aurez la chance de recevoir un retour de la lune — $MOONINI laissé tomber au hasard.",
     "",
     "C'est la lumière que l'univers te renvoie après avoir répandu de la joie."
   ],
   "future_title": "💫 Applications futures",
-  "future_intro": "Actuellement, $moonini n'est pas ouvert à des scénarios d'application officiels, mais il est conçu comme une récompense et un certificat d'énergie pour le futur monde des red packets, pouvant éventuellement être utilisé pour :",
+  "future_intro": "Actuellement, $MOONINI n'est pas ouvert à des scénarios d'application officiels, mais il est conçu comme une récompense et un certificat d'énergie pour le futur monde des red packets, pouvant éventuellement être utilisé pour :",
   "future_list": [
     "✅ Réductions sur les frais de transaction de red packet",
     "🎁 Bons d'achat/réductions pour les commerçants",
@@ -90,7 +90,7 @@
   ],
   "disclaimer_title": "⚠️ Déclaration",
   "disclaimer_paragraphs": [
-    "L'officiel ne garantit aucune valeur d'échange en fiat pour $moonini.",
+    "L'officiel ne garantit aucune valeur d'échange en fiat pour $MOONINI.",
     "Vous pouvez le considérer comme des points bonus d'une personne généreuse.",
     "Symbolisant tous ceux qui souhaitent partager le bonheur et répandre l'énergie."
   ],

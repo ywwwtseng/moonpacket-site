@@ -13,11 +13,11 @@
     "Igen, moonini a mindenki által küldött red packet energia révén növekszik.",
     "",
     "Ezek az energiák átalakulnak red packet hitelesítőkké, amelyek a Solana láncon születtek —",
-    "Ez a $moonini Token eredete."
+    "Ez a $MOONINI Token eredete."
   ],
   "secrets_title": "🌸 Az Ő titka",
   "secrets_intro": "Minden alkalommal, amikor red packetet küldesz, moonini egy energia bejegyzést rögzít a holdon:",
-  "secrets_flow": "Küldj red packetet → Termelj megfelelő energiaértéket (USDT értékre átváltva) → Halmozz 10-re → Érd el a minimum váltható $moonini értéket.",
+  "secrets_flow": "Küldj red packetet → Termelj megfelelő energiaértéket (USDT értékre átváltva) → Halmozz 10-re → Érd el a minimum váltható $MOONINI értéket.",
   "secrets_halving": [
     "A kezdeti fázisban (1. fázis) moonini általában 1:1 arányban tér vissza a red packet küldőjének. A méltányosság fenntartása és a wash/ping-pong kockázatának csökkentése érdekében bevezetjük a hatékony energia fogalmát.",
     "Amikor a közösségből küldött és kivett összegek elérik a rendszer által beállított felezési küszöböt, az első felezés bekövetkezik; ezt követően a korábbi szakasz összegének felének elérése újabb felezést indít."
@@ -33,37 +33,37 @@
     [
       "1. fázis",
       "0 ~ 4.5 billion",
-      "1.0 $moonpacket / USDT",
+      "1.0 $MOONINI / USDT",
       "Initial period, energy overflow."
     ],
     [
       "2. fázis",
       "4.5B ~ 6.75B",
-      "0.5 $moonpacket / USDT",
+      "0.5 $MOONINI / USDT",
       "First halving."
     ],
     [
       "3. fázis",
       "6.75B ~ 7.875B",
-      "0.25 $moonpacket / USDT",
+      "0.25 $MOONINI / USDT",
       "Stabilization period."
     ],
     [
       "4. fázis",
       "7.875B ~ 8.4375B",
-      "0.125 $moonpacket / USDT",
+      "0.125 $MOONINI / USDT",
       "Scarcity period."
     ],
     [
       "5. fázis",
       "8.4375B ~ 8.71875B",
-      "0.0625 $moonpacket / USDT",
+      "0.0625 $MOONINI / USDT",
       "Late mining phase."
     ],
     [
       "6. fázis",
       "8.71875B ~ 9B",
-      "0.03125 $moonpacket / USDT",
+      "0.03125 $MOONINI / USDT",
       "Crystallization period (final phase)."
     ]
   ],
@@ -77,12 +77,12 @@
     "moonini mindenkit szeret, aki hajlandó 'megosztani'.",
     "Azt hiszi, hogy a red packetek nem csupán pénz, hanem áldások és energia cseréje.",
     "Minden alkalommal, amikor red packetet küldesz, feladatot teljesítesz vagy csatlakozol a moonpacket közösséghez,",
-    "lehetőséged lesz, hogy visszatérítést kapj a holdtól — véletlenszerűen eldobott $moonini.",
+    "lehetőséged lesz, hogy visszatérítést kapj a holdtól — véletlenszerűen eldobott $MOONINI.",
     "",
     "Ez az a fény, amit a világmindenség visszaad neked, miután örömet osztottál."
   ],
   "future_title": "💫 Jövőbeli alkalmazások",
-  "future_intro": "Jelenleg a $moonini nem nyitott hivatalos alkalmazási forgatókönyvek számára, de egy jövőbeli red packet világ jutalmazó és energiaigazolási eszközeként lett megtervezve, amit esetleg az alábbiakra használhatnak:",
+  "future_intro": "Jelenleg a $MOONINI nem nyitott hivatalos alkalmazási forgatókönyvek számára, de egy jövőbeli red packet világ jutalmazó és energiaigazolási eszközeként lett megtervezve, amit esetleg az alábbiakra használhatnak:",
   "future_list": [
     "✅ red packet tranzakciós díj kedvezmények",
     "🎁 Kereskedői kuponok/váltási kedvezmények",
@@ -90,7 +90,7 @@
   ],
   "disclaimer_title": "⚠️ Nyilatkozat",
   "disclaimer_paragraphs": [
-    "A hivatal nem garantál semmilyen valutaváltási értéket a $moonini esetében.",
+    "A hivatal nem garantál semmilyen valutaváltási értéket a $MOONINI esetében.",
     "Úgy gondolhatsz rá, mint egy nagylelkű ember bónuszpontjaira.",
     "Jelképezi mindazokat, akik hajlandóak megosztani a boldogságot és terjeszteni az energiát."
   ],

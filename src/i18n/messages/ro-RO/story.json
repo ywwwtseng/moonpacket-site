@@ -13,11 +13,11 @@
     "Da, moonini crește datorită energiei red packet a tuturor.",
     "",
     "Aceste energii s-au transformat în certificate red packet născute pe lanțul Solana —",
-    "Aceasta este originea Tokenului $moonini."
+    "Aceasta este originea Tokenului $MOONINI."
   ],
   "secrets_title": "🌸 Secretul său",
   "secrets_intro": "De fiecare dată când trimiteți un red packet, moonini va înregistra o intrare de energie pe lună:",
-  "secrets_flow": "Trimite red packet → Produce valoarea corespunzătoare a energiei (convertită în valoare USDT) → Acumulează la 10 → Atinge valoarea minimă răscumpărabilă $moonini.",
+  "secrets_flow": "Trimite red packet → Produce valoarea corespunzătoare a energiei (convertită în valoare USDT) → Acumulează la 10 → Atinge valoarea minimă răscumpărabilă $MOONINI.",
   "secrets_halving": [
     "În faza inițială (Faza 1), moonini va returna, în general, în cel mai bun raport de 1:1 către expeditorul red packet-ului. Pentru a menține corectitudinea și a reduce riscul de wash/ping-pong, vom introduce conceptul de energie eficientă.",
     "Când sumele totale trimise și retrase din comunitate ating pragul de jumătate stabilit de sistem, va avea loc prima jumătate; ulterior, atingerea jumătății sumei din etapa anterioară va declanșa o nouă jumătate."
@@ -33,37 +33,37 @@
     [
       "Faza 1",
       "0 ~ 4.5 billion",
-      "1.0 $moonpacket / USDT",
+      "1.0 $MOONINI / USDT",
       "Initial period, energy overflow."
     ],
     [
       "Faza 2",
       "4.5B ~ 6.75B",
-      "0.5 $moonpacket / USDT",
+      "0.5 $MOONINI / USDT",
       "First halving."
     ],
     [
       "Faza 3",
       "6.75B ~ 7.875B",
-      "0.25 $moonpacket / USDT",
+      "0.25 $MOONINI / USDT",
       "Stabilization period."
     ],
     [
       "Faza 4",
       "7.875B ~ 8.4375B",
-      "0.125 $moonpacket / USDT",
+      "0.125 $MOONINI / USDT",
       "Scarcity period."
     ],
     [
       "Faza 5",
       "8.4375B ~ 8.71875B",
-      "0.0625 $moonpacket / USDT",
+      "0.0625 $MOONINI / USDT",
       "Late mining phase."
     ],
     [
       "Faza 6",
       "8.71875B ~ 9B",
-      "0.03125 $moonpacket / USDT",
+      "0.03125 $MOONINI / USDT",
       "Crystallization period (final phase)."
     ]
   ],
@@ -77,12 +77,12 @@
     "moonini iubește pe toți cei dispuși să 'împărtășească'.",
     "Crede că red packets nu sunt doar bani, ci un schimb de binecuvântări și energie.",
     "De fiecare dată când trimiteți un red packet, finalizați o sarcină sau vă alăturați comunității moonpacket,",
-    "veți avea șansa să primiți un retur de la lună — $moonini căzut aleatoriu.",
+    "veți avea șansa să primiți un retur de la lună — $MOONINI căzut aleatoriu.",
     "",
     "Aceasta este lumina pe care universul ți-o dă înapoi după ce răspândești bucurie."
   ],
   "future_title": "💫 Aplicații viitoare",
-  "future_intro": "În prezent, $moonini nu este deschis pentru niciun scenariu oficial de aplicare, dar este conceput ca o recompensă și un certificat de energie pentru viitorul lumii red packet, posibil să fie utilizat pentru:",
+  "future_intro": "În prezent, $MOONINI nu este deschis pentru niciun scenariu oficial de aplicare, dar este conceput ca o recompensă și un certificat de energie pentru viitorul lumii red packet, posibil să fie utilizat pentru:",
   "future_list": [
     "✅ Discounturi la taxele de tranzacție red packet",
     "🎁 Vouchere pentru comercianți/reducere la răscumpărare",
@@ -90,7 +90,7 @@
   ],
   "disclaimer_title": "⚠️ Declarație",
   "disclaimer_paragraphs": [
-    "Oficialul nu garantează nicio valoare de schimb fiat pentru $moonini.",
+    "Oficialul nu garantează nicio valoare de schimb fiat pentru $MOONINI.",
     "Îl poți considera ca fiind punctele bonus ale unei persoane generoase.",
     "Simbolizând pe toți cei dispuși să împărtășească fericirea și să răspândească energie."
   ],

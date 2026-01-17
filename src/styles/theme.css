@@ -102,12 +102,47 @@ html, body { background-color: var(--bg) !important; color: var(--text) !importa
   /* Explicitly do NOT set font-size, color, text-transform, or gradient */
 }
 
-/* Token mark (for moonini and other internal tokens) - shares same styling as brand-mark */
+/* Token mark (for $MOONINI and other asset identifiers) */
 .token-mark {
-  font-family: 'Sora', system-ui, sans-serif;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
   font-weight: 700;
-  letter-spacing: -0.04em;
-  line-height: 1.05;
+  color: var(--gold) !important;
+  text-shadow: 0 0 8px rgba(243, 186, 47, 0.25);
+  letter-spacing: -0.02em;
+  text-transform: uppercase !important; /* 強制大寫，覆蓋任何父容器的 lowercase 規則 */
+  display: inline !important; /* 確保顯示 */
+  visibility: visible !important; /* 確保可見 */
+  opacity: 1 !important; /* 確保不透明 */
+}
+
+/* 在按鈕內部的 token-mark 需要特殊處理（按鈕背景是金色時，文字應該是深色） */
+button .token-mark,
+.btn .token-mark {
+  color: #0b1220 !important; /* 深色背景色，確保在金色按鈕上可見 */
+  text-shadow: none !important; /* 移除陰影，避免在深色文字上不清晰 */
+  text-transform: uppercase !important; /* 強制大寫 */
+}
+
+/* 確保 token-mark 不會被 brand-word 的 lowercase 規則影響 */
+.brand-word .token-mark,
+[class*="brand-word"] .token-mark {
+  text-transform: uppercase !important;
+}
+
+/* Address mark (for contract addresses) */
+.address-mark {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  color: var(--text-subtle);
+  background: rgba(255, 255, 255, 0.05);
+  padding: 0.1rem 0.3rem;
+  border-radius: 0.25rem;
+  font-size: 0.9em;
+  transition: all 0.2s ease;
+}
+
+.address-mark:hover {
+  color: var(--gold);
+  background: rgba(243, 186, 47, 0.1);
 }
 
 /* Legacy brand-word compatibility */
@@ -224,6 +259,54 @@ html, body { background-color: var(--bg) !important; color: var(--text) !importa
 [data-theme="dark"] h5 .brand-mark,
 [data-theme="dark"] h6 .brand-mark {
   color: inherit !important;
+}
+
+/* 確保所有標題內的 token-mark 保持大寫，不受父容器影響 */
+h1 .token-mark,
+h2 .token-mark,
+h3 .token-mark,
+h4 .token-mark,
+h5 .token-mark,
+h6 .token-mark,
+section .token-mark,
+div .token-mark,
+span .token-mark,
+button .token-mark,
+a .token-mark,
+p .token-mark,
+li .token-mark,
+td .token-mark,
+th .token-mark {
+  text-transform: uppercase !important; /* 強制大寫，覆蓋任何父容器的 lowercase 規則 */
+}
+
+/* 覆蓋任何可能的 lowercase 規則 - 使用最高優先級 */
+* .token-mark,
+[class*="lowercase"] .token-mark,
+.lowercase .token-mark,
+.brand-word .token-mark,
+[class*="brand-word"] .token-mark,
+section[class*="lowercase"] .token-mark,
+div[class*="lowercase"] .token-mark {
+  text-transform: uppercase !important;
+  font-variant: normal !important;
+  text-transform: uppercase !important;
+}
+
+/* 最終兜底規則 - 確保 token-mark 永遠是大寫（放在文件最後，最高優先級） */
+.token-mark,
+span.token-mark,
+.token-mark span,
+.token-mark *,
+* .token-mark {
+  text-transform: uppercase !important;
+  font-variant: normal !important;
+}
+
+/* 特別處理：確保在 h2 標題內的 token-mark 也是大寫 */
+h2 .token-mark,
+h2 span.token-mark {
+  text-transform: uppercase !important;
 }
 
 /* 確保 FAQ 卡片内的标题和品牌词正确继承颜色 */

@@ -1,0 +1,77 @@
+---
+import { brandify } from '@/lib/brandify';
+import SwapTrigger from '@/islands/SwapTrigger';
+import PriceChip from '@/islands/PriceChip';
+
+interface Props {
+  title?: string;
+  subtitle?: string;
+  buttonText?: string;
+  priceLabel?: string;
+  className?: string;
+}
+
+const { 
+  title, 
+  subtitle, 
+  buttonText, 
+  priceLabel = 'Live Price',
+  className = '' 
+} = Astro.props;
+---
+
+<section class={`relative w-full overflow-hidden py-10 ${className}`}>
+  {/* Extremely Subtle Space Background */}
+  <div class="absolute inset-0 bg-[#0b1220]">
+    <div class="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-7xl h-full bg-gradient-to-b from-[var(--gold)]/[0.015] to-transparent"></div>
+    <div class="absolute bottom-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-white/[0.03] to-transparent"></div>
+    <div class="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-white/[0.03] to-transparent"></div>
+  </div>
+
+  <div class="relative z-10 mx-auto max-w-6xl px-6">
+    <div class="flex flex-col lg:flex-row items-center justify-between gap-10">
+      
+      {/* Left: Token Identity & Price */}
+      <div class="flex flex-col sm:flex-row items-center gap-6 text-center sm:text-left">
+        <div class="relative flex items-center justify-center">
+          {/* 2026 Minimalist Glow: Barely visible, high completion */}
+          <div class="absolute w-20 h-20 bg-[var(--gold)]/5 blur-lg rounded-full"></div>
+          <img 
+            src="/moonini.svg" 
+            alt="$MOONINI" 
+            class="relative w-20 h-20 sm:w-24 sm:h-24 drop-shadow-[0_0_5px_rgba(243,186,47,0.1)] object-contain" 
+          />
+        </div>
+        
+        <div class="space-y-2.5">
+          <div class="flex flex-col sm:flex-row items-center gap-4">
+             {/* Forced All-Caps Brand Identity */}
+             <h2 class="text-4xl sm:text-5xl font-black tracking-tighter text-white">
+                <span class="token-mark">$MOONINI</span>
+             </h2>
+             <PriceChip client:load label={priceLabel} className="!bg-white/5 !border-white/10 !px-4 !py-1 scale-95" />
+          </div>
+          <p class="text-base text-[var(--text-subtle)] font-medium max-w-md leading-tight opacity-40" set:html={brandify(subtitle || '')}></p>
+        </div>
+      </div>
+
+      {/* Right: Actions */}
+      <div class="flex flex-col sm:flex-row items-center gap-8">
+        <div class="flex flex-col items-center sm:items-end gap-2.5">
+          <span class="text-[9px] font-black uppercase tracking-[0.4em] text-[var(--gold)] opacity-30">Liquidity Hub</span>
+          <div class="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-white/[0.03] border border-white/[0.05]">
+             <span class="text-[9px] font-bold text-white/30">Verified on</span>
+             <span class="text-[9px] font-black text-[var(--gold)]/80 uppercase">PancakeSwap</span>
+          </div>
+        </div>
+        
+        <SwapTrigger 
+          client:only="react" 
+          buttonText={buttonText || ''} 
+          className="!px-12 !py-5 !text-xl !rounded-2xl shadow-[0_10px_30px_-10px_rgba(243,186,47,0.2)]"
+        />
+      </div>
+
+    </div>
+  </div>
+</section>

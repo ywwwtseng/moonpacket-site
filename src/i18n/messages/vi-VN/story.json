@@ -13,11 +13,11 @@
     "Đúng vậy, moonini lớn lên nhờ năng lượng từ từng món lì xì của mọi người.",
     "",
     "Những năng lượng này đã chuyển đổi thành chứng chỉ lì xì sinh ra trên chuỗi Solana —",
-    "Đó là nguồn gốc của Token $moonini."
+    "Đó là nguồn gốc của Token $MOONINI."
   ],
   "secrets_title": "🌸 Bí mật của anh ấy",
   "secrets_intro": "Mỗi lần bạn gửi một món lì xì, moonini sẽ ghi lại một mục năng lượng trên mặt trăng:",
-  "secrets_flow": "Gửi lì xì → Tạo ra giá trị năng lượng tương ứng (được chuyển đổi sang giá trị USDT) → Tích lũy đến 10 → Đạt giá trị $moonini tối thiểu có thể đổi.",
+  "secrets_flow": "Gửi lì xì → Tạo ra giá trị năng lượng tương ứng (được chuyển đổi sang giá trị USDT) → Tích lũy đến 10 → Đạt giá trị $MOONINI tối thiểu có thể đổi.",
   "secrets_halving": [
     "Trong giai đoạn ban đầu (Giai đoạn 1), moonini sẽ thường trả lại theo tỷ lệ tốt nhất 1:1 cho người gửi lì xì. Để duy trì công bằng và giảm rủi ro wash/ping-pong, chúng tôi sẽ giới thiệu khái niệm năng lượng hiệu quả.",
     "Khi tổng số lượng đã gửi và rút khỏi cộng đồng đạt ngưỡng giảm phân do hệ thống đặt ra, lần giảm phân đầu tiên sẽ xảy ra; sau đó, đạt một nửa số lượng của giai đoạn trước sẽ kích hoạt một lần giảm phân khác."
@@ -33,37 +33,37 @@
     [
       "Giai đoạn 1",
       "0 ~ 4.5 billion",
-      "1.0 $moonpacket / USDT",
+      "1.0 $MOONINI / USDT",
       "Initial period, energy overflow."
     ],
     [
       "Giai đoạn 2",
       "4.5B ~ 6.75B",
-      "0.5 $moonpacket / USDT",
+      "0.5 $MOONINI / USDT",
       "First halving."
     ],
     [
       "Giai đoạn 3",
       "6.75B ~ 7.875B",
-      "0.25 $moonpacket / USDT",
+      "0.25 $MOONINI / USDT",
       "Stabilization period."
     ],
     [
       "Giai đoạn 4",
       "7.875B ~ 8.4375B",
-      "0.125 $moonpacket / USDT",
+      "0.125 $MOONINI / USDT",
       "Scarcity period."
     ],
     [
       "Giai đoạn 5",
       "8.4375B ~ 8.71875B",
-      "0.0625 $moonpacket / USDT",
+      "0.0625 $MOONINI / USDT",
       "Late mining phase."
     ],
     [
       "Giai đoạn 6",
       "8.71875B ~ 9B",
-      "0.03125 $moonpacket / USDT",
+      "0.03125 $MOONINI / USDT",
       "Crystallization period (final phase)."
     ]
   ],
@@ -77,12 +77,12 @@
     "moonini yêu mọi người sẵn lòng 'chia sẻ'.",
     "Anh ấy tin rằng lì xì không chỉ là tiền, mà là sự trao đổi phước lành và năng lượng.",
     "Mỗi khi bạn gửi một lì xì, hoàn thành một nhiệm vụ hoặc tham gia cộng đồng moonpacket,",
-    "bạn sẽ có cơ hội nhận lại từ mặt trăng — $moonini được rơi ngẫu nhiên.",
+    "bạn sẽ có cơ hội nhận lại từ mặt trăng — $MOONINI được rơi ngẫu nhiên.",
     "",
     "Đó là ánh sáng mà vũ trụ trao lại cho bạn sau khi lan tỏa niềm vui."
   ],
   "future_title": "💫 Ứng dụng trong tương lai",
-  "future_intro": "Hiện tại, $moonini không mở cho bất kỳ tình huống ứng dụng chính thức nào, nhưng được thiết kế như một phần thưởng và chứng chỉ năng lượng cho thế giới lì xì trong tương lai, có thể được sử dụng cho:",
+  "future_intro": "Hiện tại, $MOONINI không mở cho bất kỳ tình huống ứng dụng chính thức nào, nhưng được thiết kế như một phần thưởng và chứng chỉ năng lượng cho thế giới lì xì trong tương lai, có thể được sử dụng cho:",
   "future_list": [
     "✅ Giảm phí giao dịch lì xì",
     "🎁 Phiếu mua hàng/giảm giá cho thương nhân",
@@ -90,7 +90,7 @@
   ],
   "disclaimer_title": "⚠️ Tuyên bố",
   "disclaimer_paragraphs": [
-    "Chính thức không đảm bảo bất kỳ giá trị trao đổi fiat nào cho $moonini.",
+    "Chính thức không đảm bảo bất kỳ giá trị trao đổi fiat nào cho $MOONINI.",
     "Bạn có thể nghĩ về nó như điểm thưởng của một người hào phóng.",
     "Biểu tượng cho tất cả những ai sẵn sàng chia sẻ hạnh phúc và lan tỏa năng lượng."
   ],

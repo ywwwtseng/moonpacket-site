@@ -13,11 +13,11 @@
     "Ja, moonini wächst dank der red packet Energie von allen.",
     "",
     "Diese Energien verwandelten sich in red packet-Zertifikate, die auf der Solana-Kette geboren wurden —",
-    "Das ist der Ursprung des $moonini Tokens."
+    "Das ist der Ursprung des $MOONINI Tokens."
   ],
   "secrets_title": "🌸 Sein Geheimnis",
   "secrets_intro": "Jedes Mal, wenn Sie ein red packet senden, wird moonini einen Energieeintrag auf dem Mond aufzeichnen:",
-  "secrets_flow": "red packet senden → Entsprechenden Energiewert produzieren (in USDT-Wert umgerechnet) → Auf 10 ansammeln → Mindest einlösbaren $moonini Wert erreichen.",
+  "secrets_flow": "red packet senden → Entsprechenden Energiewert produzieren (in USDT-Wert umgerechnet) → Auf 10 ansammeln → Mindest einlösbaren $MOONINI Wert erreichen.",
   "secrets_halving": [
     "In der Anfangsphase (Phase 1) wird moonini in der Regel im besten 1:1 Verhältnis an den Sender des red packet zurückgeben. Um Fairness zu wahren und das Risiko von Wash/Ping-Pong zu verringern, werden wir das Konzept der effektiven Energie einführen.",
     "Wenn die insgesamt gesendeten und abgehobenen Beträge aus der Gemeinschaft den festgelegten Halving-Schwellenwert des Systems erreichen, wird das erste Halving stattfinden; danach wird das Erreichen der Hälfte der vorherigen Menge ein weiteres Halving auslösen."
@@ -33,37 +33,37 @@
     [
       "Phase 1",
       "0 ~ 4.5 billion",
-      "1.0 $moonpacket / USDT",
+      "1.0 $MOONINI / USDT",
       "Initial period, energy overflow."
     ],
     [
       "Phase 2",
       "4.5B ~ 6.75B",
-      "0.5 $moonpacket / USDT",
+      "0.5 $MOONINI / USDT",
       "First halving."
     ],
     [
       "Phase 3",
       "6.75B ~ 7.875B",
-      "0.25 $moonpacket / USDT",
+      "0.25 $MOONINI / USDT",
       "Stabilization period."
     ],
     [
       "Phase 4",
       "7.875B ~ 8.4375B",
-      "0.125 $moonpacket / USDT",
+      "0.125 $MOONINI / USDT",
       "Scarcity period."
     ],
     [
       "Phase 5",
       "8.4375B ~ 8.71875B",
-      "0.0625 $moonpacket / USDT",
+      "0.0625 $MOONINI / USDT",
       "Late mining phase."
     ],
     [
       "Phase 6",
       "8.71875B ~ 9B",
-      "0.03125 $moonpacket / USDT",
+      "0.03125 $MOONINI / USDT",
       "Crystallization period (final phase)."
     ]
   ],
@@ -77,12 +77,12 @@
     "moonini liebt jeden, der bereit ist zu 'teilen'.",
     "Er glaubt, dass red packets nicht nur Geld sind, sondern einen Austausch von Segnungen und Energie.",
     "Jedes Mal, wenn Sie einen red packet senden, eine Aufgabe abschließen oder der moonpacket-Community beitreten,",
-    "haben Sie die Chance, eine Rückkehr vom Mond zu erhalten – zufällig $moonini.",
+    "haben Sie die Chance, eine Rückkehr vom Mond zu erhalten – zufällig $MOONINI.",
     "",
     "Das ist das Licht, das Ihnen das Universum zurückgibt, nachdem Sie Freude verbreitet haben."
   ],
   "future_title": "💫 Zukünftige Anwendungen",
-  "future_intro": "Derzeit ist $moonini für keine offiziellen Anwendungsszenarien geöffnet, sondern wurde als Belohnung und Energiezertifikat für die zukünftige red packet-Welt konzipiert, möglicherweise zu verwenden für:",
+  "future_intro": "Derzeit ist $MOONINI für keine offiziellen Anwendungsszenarien geöffnet, sondern wurde als Belohnung und Energiezertifikat für die zukünftige red packet-Welt konzipiert, möglicherweise zu verwenden für:",
   "future_list": [
     "✅ Rabatte auf die Transaktionsgebühren für red packets",
     "🎁 Händlergutscheine/Rabatte bei Einlösungen",
@@ -90,7 +90,7 @@
   ],
   "disclaimer_title": "⚠️ Erklärung",
   "disclaimer_paragraphs": [
-    "Der Offizielle garantiert keinen Fiat-Wechselkurs für $moonini.",
+    "Der Offizielle garantiert keinen Fiat-Wechselkurs für $MOONINI.",
     "Man kann es als Bonuspunkte einer großzügigen Person betrachten.",
     "Symbolisiert jeden, der bereit ist, Glück zu teilen und Energie zu verbreiten."
   ],

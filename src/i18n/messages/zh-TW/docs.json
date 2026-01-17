@@ -2,7 +2,6 @@
   "title": "文檔",
   "nav": {
     "docs": "文檔",
-    "whitepaper": "白皮書",
     "technical": "技術規格",
     "distribution": "分發機制",
     "missions": "任務系統",
@@ -17,18 +16,18 @@
     }
   },
   "whitepaper": {
-    "title": "$moonini 白皮書",
-    "description": "了解 $moonini 代幣的設計理念、經濟模型和技術架構",
+    "title": "$MOONINI 白皮書",
+    "description": "了解 $MOONINI 代幣的設計理念、經濟模型和技術架構",
     "seo": {
-      "title": "$moonini 白皮書 — moonpacket",
-      "description": "完整的 $moonini 代幣經濟學、技術架構和治理機制說明"
+      "title": "$MOONINI 白皮書 — moonpacket",
+      "description": "完整的 $MOONINI 代幣經濟學、技術架構和治理機制說明"
     },
     "hero": {
-      "subtitle": "$moonini 是基於 Moonpacket 平台的社群激勵代幣。用戶多用 Moonpacket、多互動，就能賺更多 $moonini。對投資人來說，90% 分給用戶、10% 給團隊，配合減半機制和線性釋放，有效降低砸盤風險。",
+      "subtitle": "$MOONINI 是基於 Moonpacket 平台的社群激勵代幣。用戶多用 Moonpacket、多互動，就能賺更多 $MOONINI。對投資人來說，90% 分給用戶、10% 給團隊，配合減半機制和線性釋放，有效降低砸盤風險。",
       "cards": {
         "user": {
           "title": "給一般用戶",
-          "description": "透過發送紅包、完成任務、邀請好友等方式，輕鬆賺取 $moonini。使用越多，獲得越多，完全免費。"
+          "description": "透過發送紅包、完成任務、邀請好友等方式，輕鬆賺取 $MOONINI。使用越多，獲得越多，完全免費。"
         },
         "investor": {
           "title": "給投資人",
@@ -58,13 +57,13 @@
     "content": {
       "overview": {
         "what_is": [
-          "**$moonini** 是 Moonpacket 平台的生態代幣，用於獎勵用戶在平台上的活躍行為，包括：",
+          "**$MOONINI** 是 Moonpacket 平台的生態代幣，用於獎勵用戶在平台上的活躍行為，包括：",
           "- 發送紅包",
           "- 邀請好友",
           "- 完成任務",
           "- 參與社群活動",
           "",
-          "**簡單來說**：你在 Moonpacket 上使用越多，獲得的 $moonini 就越多。"
+          "**簡單來說**：你在 Moonpacket 上使用越多，獲得的 $MOONINI 就越多。"
         ],
         "core_values": {
           "title": "核心價值",
@@ -124,8 +123,8 @@
             "| **Phase 6** | 8.71875B ~ 9B | **0.03125 枚** | 最後階段 |",
             "",
             "**舉例說明**：",
-            "- 在 Phase 1，你發送 100 USDT 紅包，可以獲得 100 $moonini",
-            "- 在 Phase 2，你發送 100 USDT 紅包，只能獲得 50 $moonini",
+            "- 在 Phase 1，你發送 100 USDT 紅包，可以獲得 100 $MOONINI",
+            "- 在 Phase 2，你發送 100 USDT 紅包，只能獲得 50 $MOONINI",
             "- 越早參與，獲得的代幣越多！"
           ],
           "value_logic": [
@@ -135,12 +134,12 @@
             "源自東方文化的紅包（Red Packet），不僅是資金的轉移，更代表了長輩對晚輩的關愛、朋友間的祝賀與分享。在 Moonpacket，每一次發送紅包都是一次帶有溫度的社交互動。",
             "",
             "**從社交行為到經濟價值**：",
-            "我們認為這種善意的社交行為應該被記錄並賦予價值。$moonini 不僅是激勵代幣，更是這個社交網絡的價值載體，讓每一次「贈予」都產生長尾的經濟效應。",
+            "我們認為這種善意的社交行為應該被記錄並賦予價值。$MOONINI 不僅是激勵代幣，更是這個社交網絡的價值載體，讓每一次「贈予」都產生長尾的經濟效應。",
             "",
             "**真實的價值支撐**：",
             "為了維護這份社交價值的穩定，協議機制規定：**手續費收入的 50% 將自動注入流動性池（Liquidity Pool）**。",
             "",
-            "這意味著：社群越活躍 ➔ 紅包交互越多 ➔ 注入底池的資金越多 ➔ $moonini 的價值基礎越穩固。這是一個基於真實社交需求與業務收入的正向循環，而非單純的投機博弈。"
+            "這意味著：社群越活躍 ➔ 紅包交互越多 ➔ 注入底池的資金越多 ➔ $MOONINI 的價值基礎越穩固。這是一個基於真實社交需求與業務收入的正向循環，而非單純的投機博弈。"
           ]
         }
       },
@@ -207,15 +206,15 @@
             "**釋放方式**：通過用戶活動逐步發放",
             "",
             "**發放來源**：",
-            "1. **發送紅包**：每發送 1 USDT 紅包，根據當前階段獲得對應 $moonini",
-            "2. **邀請好友**：成功邀請新用戶並完成分享任務，獲得 $moonini",
-            "3. **完成任務**：完成成就任務、社交任務等，獲得額外 $moonini",
+            "1. **發送紅包**：每發送 1 USDT 紅包，根據當前階段獲得對應 $MOONINI",
+            "2. **邀請好友**：成功邀請新用戶並完成分享任務，獲得 $MOONINI",
+            "3. **完成任務**：完成成就任務、社交任務等，獲得額外 $MOONINI",
             "4. **群主分潤**：群主可獲得跨群發紅包的 3% 分潤（USDT）"
           ],
           "cost_vs_price": [
             "💡 **生產成本 vs 市場價格**：",
             "",
-            "在 Phase 1，透過紅包挖礦獲得 1 枚 $moonini 的隱性成本約為 **0.02 USDT**（基於 2% 流轉手續費）。",
+            "在 Phase 1，透過紅包挖礦獲得 1 枚 $MOONINI 的隱性成本約為 **0.02 USDT**（基於 2% 流轉手續費）。",
             "",
             "而我們的初始上市價格為 **0.01 USDT**。",
             "",
@@ -223,10 +222,10 @@
           ],
           "withdraw_mechanism": [
             "**提領機制**：",
-            "- 用戶在平台獲得 $moonini 後，可通過安全的身份驗證機制提領到自己的錢包",
+            "- 用戶在平台獲得 $MOONINI 後，可通過安全的身份驗證機制提領到自己的錢包",
             "- 系統會根據用戶的活動記錄進行驗證，確保只有本人可以操作",
             "- 驗證通過後，用戶即可將代幣提領到錢包",
-            "- **最小提領門檻**：10 $moonini",
+            "- **最小提領門檻**：10 $MOONINI",
             "- **手續費**：用戶只需支付網絡手續費（符合區塊鏈慣例）",
             "",
             "*詳細技術實現請參考：[技術規格文檔](/zh-TW/docs/technical)*"
@@ -255,7 +254,7 @@
             "- **通知機制**：每次釋放完成後，自動發送通知給受益人",
             "",
             "**舉例說明**：",
-            "- 投資人 A 獲得 100 萬枚 $moonini",
+            "- 投資人 A 獲得 100 萬枚 $MOONINI",
             "- 前 3 個月：鎖倉期，無法領取",
             "- 第 4 個月開始：代幣按時間線性累積，定期可領取累積的部分",
             "- 33 個月後：全部釋放完成"
@@ -341,7 +340,7 @@
           "title": "5.3 回購與做市（POL - 無限回購 + 地板價防禦）",
           "mechanism": [
             "**機制**：",
-            "- 平台手續費的 **1%** 用於回購 $moonini 並加深流動性池",
+            "- 平台手續費的 **1%** 用於回購 $MOONINI 並加深流動性池",
             "- **無限回購**：不設每日上限，有多少手續費就回購多少，持續為代幣提供流動性支持",
             "- **自動化策略**：採用智能回購策略，降低可預測性，避免被市場操縱",
             "- **接盤保護**：當市場出現大幅下跌時，自動加大回購力度，保護投資人利益"
@@ -408,11 +407,11 @@
       },
       "incentives": {
         "how_to_earn": {
-          "title": "6.1 如何獲得 $moonini？",
+          "title": "6.1 如何獲得 $MOONINI？",
           "send_gift": [
             "#### A. 發送紅包",
             "",
-            "- **基本規則**：每發送 **等值 1 USDT** 的紅包（支援多種代幣），系統將根據當前階段匯率計算並發放 $moonini。",
+            "- **基本規則**：每發送 **等值 1 USDT** 的紅包（支援多種代幣），系統將根據當前階段匯率計算並發放 $MOONINI。",
             "- **傳遞祝福**：紅包不僅是金錢，更是祝福的傳遞。你的每一次贈予行為都將被區塊鏈記錄並獲得回報。"
           ],
           "invite": [
@@ -445,42 +444,39 @@
             "",
             "**手續費用途**：",
             "- **1% 營運**：用於伺服器、開發與行銷成本",
-            "- **1% 回購**：用於回購 $moonini 並加深 LP（未來實現）",
+            "- **1% 回購**：用於回購 $MOONINI 並加深 LP（未來實現）",
             "- **3% 群主分潤**：支付給群主（僅跨群發送時收取）"
           ]
         }
       },
       "developer": {
         "contracts": {
-          "title": "7.1 合約地址（待部署）",
+          "title": "7.1 合約地址",
           "description": [
-            "代幣正式上線後，所有智能合約地址將在此公佈，並提供對應的技術規格連結。",
+            "以下為 $MOONINI 核心合約與資產地址。為了確保透明度，所有地址均已公開並可於區塊鏈瀏覽器查詢。",
             "",
-            "**主要合約模組**：",
-            "- 代幣合約",
-            "- 治理與延時控制",
-            "- 公開發行金庫",
-            "- 團隊配額金庫",
-            "- 回購管理",
-            "- 流動性池",
-            "- 多重簽名錢包",
+            "**核心地址**：",
+            "- **代幣合約**：`0xe4d5857271c7978F5fe6b29A73C97142D6d8Befe`",
+            "- **鎖倉合約**：`0x0c0cc023d3c82d22aafd05763393f5af6b0922a1`",
+            "- **流動性池 (LP)**：`0x24248E591eC8FDeC9776f87C497746867305963E`",
+            "- **權力中心**：`0x8c1c793E73372aCD30DD05fE4Cc718A4ADbe1219`",
             "",
-            "*詳細合約地址與技術規格請參考：[技術規格文檔](/zh-TW/docs/technical)*"
+            "*詳細技術規格請參考：[技術規格文檔](/zh-TW/docs/technical)*"
           ]
         },
         "api": {
           "title": "7.2 整合模式與 API（規劃中）",
           "intro": [
-            "Moonpacket 計劃提供完整的 API 生態系統，讓第三方開發者與合作夥伴可以輕鬆整合 $moonini 獎勵機制到自己的產品中。無論是 Telegram bot、Web3 遊戲，還是行銷活動平台，都可以透過我們的 API 為用戶提供 $moonini 獎勵，擴大生態影響力。"
+            "Moonpacket 計劃提供完整的 API 生態系統，讓第三方開發者與合作夥伴可以輕鬆整合 $MOONINI 獎勵機制到自己的產品中。無論是 Telegram bot、Web3 遊戲，還是行銷活動平台，都可以透過我們的 API 為用戶提供 $MOONINI 獎勵，擴大生態影響力。"
           ],
           "types": [
             "**API 類型**：",
             "",
             "我們計劃提供以下類型的 API，滿足不同場景的整合需求：",
             "",
-            "- **讀取資料 API**：查詢紅包發放記錄、任務完成情況、用戶 $moonini 餘額等資訊，讓合作方了解用戶活動狀態",
+            "- **讀取資料 API**：查詢紅包發放記錄、任務完成情況、用戶 $MOONINI 餘額等資訊，讓合作方了解用戶活動狀態",
             "",
-            "- **發放與任務 API**：讓合作方在自己的產品中觸發紅包發放或任務獎勵，例如當用戶在遊戲中完成特定成就時，自動發放 $moonini 獎勵",
+            "- **發放與任務 API**：讓合作方在自己的產品中觸發紅包發放或任務獎勵，例如當用戶在遊戲中完成特定成就時，自動發放 $MOONINI 獎勵",
             "",
             "- **Webhook 事件**：當用戶完成任務、領取紅包、完成提領等重要事件發生時，系統會主動通知合作方，實現即時響應與數據同步"
           ],
@@ -504,22 +500,22 @@
             "",
             "- **封閉 Beta**：初期以封閉 Beta 方式提供給合作夥伴與早期遊戲開發者，收集反饋並優化體驗",
             "",
-            "- **逐步開放**：在 Beta 階段驗證穩定後，會逐步開放申請，讓更多開發者可以整合 $moonini 生態",
+            "- **逐步開放**：在 Beta 階段驗證穩定後，會逐步開放申請，讓更多開發者可以整合 $MOONINI 生態",
             "",
             "- **正式發佈**：當 API 達到生產級別穩定度後，會正式對外開放，並提供完整的文件與支援"
           ],
           "scenarios": {
             "title": "典型整合場景",
             "items": [
-              "**Telegram Bot / Mini App**：在自己的群組或應用中發送紅包，讓用戶獲得 $moonini 獎勵，提升用戶參與度",
+              "**Telegram Bot / Mini App**：在自己的群組或應用中發送紅包，讓用戶獲得 $MOONINI 獎勵，提升用戶參與度",
               "",
-              "**Web3 遊戲**：將遊戲中的任務完成情況回報給 Moonpacket，讓玩家在完成遊戲任務時自動獲得額外 $moonini 獎勵",
+              "**Web3 遊戲**：將遊戲中的任務完成情況回報給 Moonpacket，讓玩家在完成遊戲任務時自動獲得額外 $MOONINI 獎勵",
               "",
-              "**行銷活動平台**：根據用戶在社群媒體上的行為（如分享、轉推、關注等），自動發送 $moonini 獎勵，實現精準行銷",
+              "**行銷活動平台**：根據用戶在社群媒體上的行為（如分享、轉推、關注等），自動發送 $MOONINI 獎勵，實現精準行銷",
               "",
-              "**DeFi 協議**：整合 $moonini 作為額外獎勵層，當用戶完成特定 DeFi 操作時，除了原本的收益外，還能獲得 $moonini 獎勵",
+              "**DeFi 協議**：整合 $MOONINI 作為額外獎勵層，當用戶完成特定 DeFi 操作時，除了原本的收益外，還能獲得 $MOONINI 獎勵",
               "",
-              "**內容創作平台**：創作者完成特定任務或達到里程碑時，自動發放 $moonini 獎勵，鼓勵優質內容創作"
+              "**內容創作平台**：創作者完成特定任務或達到里程碑時，自動發放 $MOONINI 獎勵，鼓勵優質內容創作"
             ]
           }
         },
@@ -610,7 +606,7 @@
       "faq": {
         "title": "十、需要確認的問題",
         "description": [
-          "本白皮書描述了 $moonini 的核心設計原則與經濟模型。以下事項仍在與顧問、合作方協調中，將在主網上線前最終確認：",
+          "本白皮書描述了 $MOONINI 的核心設計原則與經濟模型。以下事項仍在與顧問、合作方協調中，將在主網上線前最終確認：",
           "",
           "- **代幣發行時間與上市交易所**：具體發行時間與是否上中心化交易所（CEX）仍在與顧問與合作方協調中",
           "",
@@ -621,7 +617,7 @@
           "- **白皮書更新**：本白皮書可能會有小幅調整，但核心原則（90/10 分配、6 階段減半機制、鎖倉與線性釋放）保持不變",
           "",
           "所有技術細節、部署步驟與函式接口請參考：[技術規格文檔](/zh-TW/docs/technical)"
-          ]
+        ]
       }
     },
     "charts": {
@@ -660,7 +656,7 @@
         "trigger": "回購觸發",
         "swap": "換幣",
         "addLiquidity": "添加流動性",
-        "pool": "流動性池"
+        "pool": "Liquidity Pool (LP) (市場流動)"
       },
       "governance": {
         "title": "治理流程",
@@ -686,7 +682,7 @@
     }
   },
   "countdown": {
-    "title": "距離 $moonini 正式發行",
+    "title": "距離 $MOONINI 正式發行",
     "days": "天",
     "hours": "小時",
     "minutes": "分鐘",
@@ -697,10 +693,10 @@
     "text": "本項目目前仍在開發中，時程按照首頁路線圖執行。在正式代幣發放之前，本白皮書仍有可能會更改，請用戶理解。發幣之後，原則上將不再更改。"
   },
   "technical": {
-    "title": "$moonini BSC 技術規格",
+    "title": "$MOONINI BSC 技術規格",
     "description": "工程師開發規格書，包含智能合約接口、Phase 邏輯和 POL 機制",
     "seo": {
-      "title": "$moonini 技術規格 — moonpacket",
+      "title": "$MOONINI 技術規格 — moonpacket",
       "description": "完整的 BSC 智能合約技術規格和開發指南"
     },
     "intro": [
@@ -724,23 +720,23 @@
     "back_to_whitepaper": "返回白皮書"
   },
   "distribution": {
-    "title": "$moonini 發放與領取設計",
-    "description": "了解 $moonini 的內部發放規則和記帳方式",
+    "title": "$MOONINI 發放與領取設計",
+    "description": "了解 $MOONINI 的內部發放規則和記帳方式",
     "seo": {
-      "title": "$moonini 分發機制 — moonpacket",
-      "description": "完整的 $moonini 發放規則和記帳系統說明"
+      "title": "$MOONINI 分發機制 — moonpacket",
+      "description": "完整的 $MOONINI 發放規則和記帳系統說明"
     },
     "intro": [
       "**本文檔面向工程師和後端開發者**，定義在 Moonpacket 產品內「如何發放、如何讓用戶領取與查看」的具體規則。",
       "",
       "**設計原則**：",
       "- **最小改動**：優先沿用現有資料結構，不立即新增複雜 DB 表",
-      "- **可擴充**：未來若要把 $moonini 完全上鏈，只需增加提領/映射邏輯",
-      "- **透明可追溯**：所有 $moonini 發放與消耗都記錄在 `user_activity_logs`",
+      "- **可擴充**：未來若要把 $MOONINI 完全上鏈，只需增加提領/映射邏輯",
+      "- **透明可追溯**：所有 $MOONINI 發放與消耗都記錄在 `user_activity_logs`",
       "",
       "**主要內容**：",
       "- 資料模型與記帳方式（內部賬本）",
-      "- $moonini 發放來源與規則",
+      "- $MOONINI 發放來源與規則",
       "- 記帳實作細節",
       "",
       "*本文檔包含技術細節，一般用戶可參考 [白皮書](/zh-TW/docs/whitepaper/) 了解項目概述。*",
@@ -750,17 +746,17 @@
     "back_to_whitepaper": "返回白皮書"
   },
   "missions": {
-    "title": "$moonini 任務與成就設計",
-    "description": "了解如何通過任務和成就獲得 $moonini",
+    "title": "$MOONINI 任務與成就設計",
+    "description": "了解如何通過任務和成就獲得 $MOONINI",
     "seo": {
-      "title": "$moonini 任務系統 — moonpacket",
+      "title": "$MOONINI 任務系統 — moonpacket",
       "description": "完整的任務系統和成就機制說明"
     },
     "intro": [
-      "**本文檔面向工程師和產品開發者**，定義 $moonini 的任務系統與成就機制，在「發紅包 + 邀請好友」這兩個核心行為之上，增加「成就感」與「社交任務」。",
+      "**本文檔面向工程師和產品開發者**，定義 $MOONINI 的任務系統與成就機制，在「發紅包 + 邀請好友」這兩個核心行為之上，增加「成就感」與「社交任務」。",
       "",
       "**設計原則**：",
-      "- 所有任務「加發的 $moonini」本質上仍圍繞：**發紅包、邀請好友、關注官方社群**",
+      "- 所有任務「加發的 $MOONINI」本質上仍圍繞：**發紅包、邀請好友、關注官方社群**",
       "- 「一次性任務」完成後就永久消失",
       "- 任務系統只做「加分」，不改變基本發放規則",
       "",
@@ -776,18 +772,18 @@
     "back_to_whitepaper": "返回白皮書"
   },
   "api": {
-    "title": "Moonpacket / $moonini API 文檔",
+    "title": "Moonpacket / $MOONINI API 文檔",
     "subtitle": "完整的 API 說明與整合指南（規劃中）",
-    "description": "了解如何透過 API 整合 Moonpacket 與 $moonini 到你的產品中",
+    "description": "了解如何透過 API 整合 Moonpacket 與 $MOONINI 到你的產品中",
     "seo": {
-      "title": "Moonpacket / $moonini API 文檔 — moonpacket",
+      "title": "Moonpacket / $MOONINI API 文檔 — moonpacket",
       "description": "完整的 API 說明、REST API、Webhook 與整合指南"
     },
     "status": {
       "planned": "（規劃中）"
     },
     "content": [
-      "本頁面未來將提供完整的 Moonpacket / $moonini API 說明文件，包含 REST API、Webhook 事件、OAuth 認證、API Key 管理等技術細節。",
+      "本頁面未來將提供完整的 Moonpacket / $MOONINI API 說明文件，包含 REST API、Webhook 事件、OAuth 認證、API Key 管理等技術細節。",
       "",
       "目前 API 仍在設計與內部驗證階段，會先以封閉 Beta 方式開放給少數合作夥伴試用，收集反饋並優化體驗。",
       "",
@@ -796,7 +792,7 @@
     "actions": {
       "title": "你現在可以做什麼？",
       "items": [
-        "閱讀 [白皮書](/zh-TW/docs/whitepaper/) 了解 $moonini 代幣與經濟模型",
+        "閱讀 [白皮書](/zh-TW/docs/whitepaper/) 了解 $MOONINI 代幣與經濟模型",
         "閱讀 [技術規格文檔](/zh-TW/docs/technical/) 了解智能合約與釋放機制",
         "透過官方渠道（Telegram、Email）提出 API 合作需求，我們會在 API 準備就緒時優先通知"
       ]
@@ -807,21 +803,21 @@
     "back_to_index": "返回文檔中心"
   },
   "litepaper": {
-    "title": "$moonini Litepaper",
-    "description": "了解 $moonini 代幣的設計理念、經濟模型和核心價值",
+    "title": "$MOONINI Litepaper",
+    "description": "了解 $MOONINI 代幣的設計理念、經濟模型和核心價值",
     "seo": {
-      "title": "$moonini Litepaper — moonpacket",
-      "description": "$moonini 是基於 Moonpacket 平台的社群激勵代幣。了解如何獲得、使用，以及投資價值。"
+      "title": "$MOONINI Litepaper — moonpacket",
+      "description": "$MOONINI 是基於 Moonpacket 平台的社群激勵代幣。了解如何獲得、使用，以及投資價值。"
     },
     "hero": {
       "live_status": "Protocol V1 已上線",
       "cta_start": "開始閱讀",
       "cta_hub": "開發者中心",
-      "subtitle": "$moonini 是基於 Moonpacket 平台的社群激勵代幣。用戶多用 Moonpacket、多互動、多參與任務，就能賺更多 $moonini。對投資人來說，90% 分給用戶、10% 給團隊，配合減半機制和線性釋放，有效降低砸盤風險，設計有利於長期穩定。",
+      "subtitle": "$MOONINI 是基於 Moonpacket 平台的社群激勵代幣。用戶多用 Moonpacket、多互動、多參與任務，就能賺更多 $MOONINI。對投資人來說，90% 分給用戶、10% 給團隊，配合減半機制和線性釋放，有效降低砸盤風險，設計有利於長期穩定。",
       "cards": {
         "user": {
           "title": "給一般用戶",
-          "description": "透過發送紅包、完成任務、邀請好友等方式，輕鬆賺取 $moonini。使用越多，獲得越多，完全免費。"
+          "description": "透過發送紅包、完成任務、邀請好友等方式，輕鬆賺取 $MOONINI。使用越多，獲得越多，完全免費。"
         },
         "investor": {
           "title": "給投資人",
@@ -836,10 +832,12 @@
     "sections": {
       "overview": "概要",
       "problem": "問題與解決方案",
-      "concept": "Moonpacket & $moonini 核心概念",
+      "concept": "Moonpacket & $MOONINI 核心概念",
       "tokenomics": "Tokenomics 概要",
       "emission": "減半與釋放",
-      "utility": "用戶獲取與使用場景",
+      "utility": {
+        "subtitle": "如何賺取與使用"
+      },
       "developer": "開發者 & API 串接",
       "governance": "治理與安全",
       "roadmap": "路線圖",
@@ -854,9 +852,6 @@
         "title": "鏈上合約註冊表",
         "network": "主網：BSC (BNB Chain)",
         "audit": "審計狀態：**排程中 (Scheduled)**"
-      },
-      "utility": {
-        "subtitle": "如何賺取與使用"
       },
       "defense": {
         "floor": {
@@ -889,8 +884,8 @@
       "overview": {
         "paragraphs": [
           "Moonpacket 是一個專為 Telegram 社群設計的加密紅包與行銷工具。無論是社群運營、活動推廣，還是拉新促活，Moonpacket 都能幫助你輕鬆完成。",
-          "為了鼓勵用戶持續使用平台並建立長期關係，我們推出了 $moonini 社群激勵代幣。用戶在平台上的每一個活躍行為，包括發送紅包、完成任務、邀請好友等，都能獲得對應的 $moonini 獎勵。",
-          "對一般用戶來說，$moonini 是使用 Moonpacket 的額外回饋，使用越多、獲得越多。對投資人來說，$moonini 的代幣經濟學設計（90% 給用戶、10% 給團隊、6 階段減半、鎖倉釋放）有效降低了短期砸盤風險，有利於長期價值穩定。"
+          "為了鼓勵用戶持續使用平台並建立長期關係，我們推出了 $MOONINI 社群激勵代幣。用戶在平台上的每一個活躍行為，包括發送紅包、完成任務、邀請好友等，都能獲得對應的 $MOONINI 獎勵。",
+          "對一般用戶來說，$MOONINI 是使用 Moonpacket 的額外回饋，使用越多、獲得越多。對投資人來說，$MOONINI 的代幣經濟學設計（90% 給用戶、10% 給團隊、6 階段減半、鎖倉釋放）有效降低了短期砸盤風險，有利於長期價值穩定。"
         ],
         "highlights": {
           "title": "核心亮點",
@@ -913,16 +908,16 @@
           ]
         },
         "solutions": {
-          "title": "Moonpacket + $moonini 的解決方案",
+          "title": "Moonpacket + $MOONINI 的解決方案",
           "items": [
             "**完整的行為追蹤**：Moonpacket 記錄每個紅包的領取情況、分享行為、新用戶引入等，讓你清楚了解行銷效果",
-            "**長期激勵機制**：透過 $moonini 代幣，用戶使用越多、獲得越多，建立長期參與動機",
+            "**長期激勵機制**：透過 $MOONINI 代幣，用戶使用越多、獲得越多，建立長期參與動機",
             "**公平的價值分配**：90% 代幣給用戶，確保社群優先，同時透過減半和鎖倉機制降低砸盤風險"
           ]
         }
       },
       "concept": {
-        "title": "Moonpacket & $moonini 核心概念",
+        "title": "Moonpacket & $MOONINI 核心概念",
         "moonpacket": {
           "title": "Moonpacket 的角色",
           "description": "Moonpacket 是一個 Telegram 紅包、任務和行銷工具。無論你是社群運營者、活動主辦方，還是想要拉新的項目方，都可以使用 Moonpacket 來：",
@@ -934,37 +929,72 @@
           ]
         },
         "moonini": {
-          "title": "$moonini 的角色",
-          "description": "$moonini 是對用戶與社群行為給獎勵的積分代幣。你在 Moonpacket 上的每一個活躍行為，都能獲得對應的 $moonini：",
+          "title": "$MOONINI 的角色",
+          "description": "$MOONINI 是對用戶與社群行為給獎勵的積分代幣。你在 Moonpacket 上的每一個活躍行為，都能獲得對應的 $MOONINI：",
           "rewards": [
-            "發送紅包：根據紅包金額和當前階段，獲得對應的 $moonini",
-            "完成任務：達成成就任務、社交任務等，獲得額外 $moonini",
-            "邀請好友：成功邀請新用戶並完成分享任務，雙方都能獲得 $moonini",
-            "活躍參與：在合作遊戲或應用中完成特定行為，也能獲得 $moonini"
+            "發送紅包：根據紅包金額和當前階段，獲得對應的 $MOONINI",
+            "完成任務：達成成就任務、社交任務等，獲得額外 $MOONINI",
+            "邀請好友：成功邀請新用戶並完成分享任務，雙方都能獲得 $MOONINI",
+            "活躍參與：在合作遊戲或應用中完成特定行為，也能獲得 $MOONINI"
           ]
         },
         "logic": {
           "title": "使用越多，獲得越多",
-          "description": "這個邏輯很簡單：你在 Moonpacket 上越活躍，獲得的 $moonini 就越多。早期參與者還能享受更高的獎勵比例（Phase 1 階段，每發送 1 USDT 紅包可獲得 1 $moonini），越早參與，優勢越大。"
+          "description": "這個邏輯很簡單：你在 Moonpacket 上越活躍，獲得的 $MOONINI 就越多。早期參與者還能享受更高的獎勵比例（Phase 1 階段，每發送 1 USDT 紅包可獲得 1 $MOONINI），越早參與，優勢越大。"
         }
       },
       "tokenomics": {
         "title": "Tokenomics 概要",
         "total": {
           "title": "代幣總量",
-          "description": "$moonini 總發行量為 **10,000,000,000 枚（10B）**，固定總量，永不增發。"
+          "description": "$MOONINI 總發行量為 **10,000,000,000 枚（10B）**，固定總量，永不增發。"
         },
         "allocation": {
           "title": "分配方案",
           "table": {
-            "headers": ["類別", "數量", "比例", "說明"],
+            "headers": [
+              "類別",
+              "數量",
+              "比例",
+              "說明"
+            ],
             "rows": [
-              ["公開發行", "9,000,000,000 枚", "90%", "透過用戶活動逐步釋放（6 階段減半）"],
-              ["團隊配額", "1,000,000,000 枚", "10%", "鎖倉 3 個月後，線性釋放 33-45 個月"],
-              ["  ├─ 運營", "200,000,000 枚", "2%", "鎖倉 3 個月，釋放 45 個月"],
-              ["  ├─ 技術團隊", "200,000,000 枚", "2%", "鎖倉 3 個月，釋放 45 個月"],
-              ["  ├─ 公關/行銷", "200,000,000 枚", "2%", "鎖倉 3 個月，釋放 45 個月"],
-              ["  └─ 早期投資人", "400,000,000 枚", "4%", "鎖倉 3 個月，釋放 33 個月"]
+              [
+                "公開發行",
+                "9,000,000,000 枚",
+                "90%",
+                "透過用戶活動逐步釋放（6 階段減半）"
+              ],
+              [
+                "團隊配額",
+                "1,000,000,000 枚",
+                "10%",
+                "鎖倉 3 個月後，線性釋放 33-45 個月"
+              ],
+              [
+                "  ├─ 運營",
+                "200,000,000 枚",
+                "2%",
+                "鎖倉 3 個月，釋放 45 個月"
+              ],
+              [
+                "  ├─ 技術團隊",
+                "200,000,000 枚",
+                "2%",
+                "鎖倉 3 個月，釋放 45 個月"
+              ],
+              [
+                "  ├─ 公關/行銷",
+                "200,000,000 枚",
+                "2%",
+                "鎖倉 3 個月，釋放 45 個月"
+              ],
+              [
+                "  └─ 早期投資人",
+                "400,000,000 枚",
+                "4%",
+                "鎖倉 3 個月，釋放 33 個月"
+              ]
             ]
           }
         },
@@ -984,17 +1014,52 @@
           "title": "6 階段減半機制",
           "description": "為了鼓勵早期參與者，代幣發放採用「漸進式減半」機制。越早參與，獲得的代幣越多：",
           "table": {
-            "headers": ["階段", "已發行量區間", "每 1 USDT 可獲得", "說明"],
+            "headers": [
+              "階段",
+              "已發行量區間",
+              "每 1 USDT 可獲得",
+              "說明"
+            ],
             "rows": [
-              ["Phase 1", "0 ~ 4.5B", "1.0 枚", "早期參與者，1:1 兌換"],
-              ["Phase 2", "4.5B ~ 6.75B", "0.5 枚", "減半"],
-              ["Phase 3", "6.75B ~ 7.875B", "0.25 枚", "再減半"],
-              ["Phase 4", "7.875B ~ 8.4375B", "0.125 枚", "繼續減半"],
-              ["Phase 5", "8.4375B ~ 8.71875B", "0.0625 枚", "接近尾聲"],
-              ["Phase 6", "8.71875B ~ 9B", "0.03125 枚", "最後階段"]
+              [
+                "Phase 1",
+                "0 ~ 4.5B",
+                "1.0 枚",
+                "早期參與者，1:1 兌換"
+              ],
+              [
+                "Phase 2",
+                "4.5B ~ 6.75B",
+                "0.5 枚",
+                "減半"
+              ],
+              [
+                "Phase 3",
+                "6.75B ~ 7.875B",
+                "0.25 枚",
+                "再減半"
+              ],
+              [
+                "Phase 4",
+                "7.875B ~ 8.4375B",
+                "0.125 枚",
+                "繼續減半"
+              ],
+              [
+                "Phase 5",
+                "8.4375B ~ 8.71875B",
+                "0.0625 枚",
+                "接近尾聲"
+              ],
+              [
+                "Phase 6",
+                "8.71875B ~ 9B",
+                "0.03125 枚",
+                "最後階段"
+              ]
             ]
           },
-          "example": "舉例說明：在 Phase 1，你發送 100 USDT 紅包，可以獲得 100 $moonini；在 Phase 2，同樣發送 100 USDT，只能獲得 50 $moonini。越早參與，優勢越大！"
+          "example": "舉例說明：在 Phase 1，你發送 100 USDT 紅包，可以獲得 100 $MOONINI；在 Phase 2，同樣發送 100 USDT，只能獲得 50 $MOONINI。越早參與，優勢越大！"
         },
         "vesting": {
           "title": "團隊配額鎖倉與釋放",
@@ -1018,20 +1083,20 @@
       "utility": {
         "title": "用戶獲取與使用場景",
         "how_to_earn": {
-          "title": "如何獲得 $moonini？",
+          "title": "如何獲得 $MOONINI？",
           "methods": [
-            "**發送紅包**：每發送 **等值 1 USDT** 的紅包（支援多幣種），根據當前階段獲得對應的 $moonini。",
+            "**發送紅包**：每發送 **等值 1 USDT** 的紅包（支援多幣種），根據當前階段獲得對應的 $MOONINI。",
             "**完成任務**：包含一次性的成就任務與社交任務。為了公平性，每個帳號僅限完成一次或設有總量上限，避免惡意刷幣。",
             "**邀請好友**：邀請新好友並完成分享任務，雙方各獲得獎勵。**每個帳號設有邀請獎勵上限**，具體規則依社群公告為準。",
-            "**合作應用**：在整合 Moonpacket API 的遊戲或應用中完成特定行為，也能獲得 $moonini"
+            "**合作應用**：在整合 Moonpacket API 的遊戲或應用中完成特定行為，也能獲得 $MOONINI"
           ]
         },
         "how_to_use": {
-          "title": "$moonini 的用途",
+          "title": "$MOONINI 的用途",
           "items": [
-            "**折抵手續費**：未來可使用 $moonini 折抵部分紅包手續費",
-            "**解鎖功能**：某些高級功能可能需要持有一定數量的 $moonini 才能使用",
-            "**治理票權**：持有 $moonini 可以參與未來社群治理投票，影響項目發展方向",
+            "**折抵手續費**：未來可使用 $MOONINI 折抵部分紅包手續費",
+            "**解鎖功能**：某些高級功能可能需要持有一定數量的 $MOONINI 才能使用",
+            "**治理票權**：持有 $MOONINI 可以參與未來社群治理投票，影響項目發展方向",
             "**生態兌換**：可在合作夥伴的應用或遊戲中兌換特殊權益或獎勵"
           ]
         }
@@ -1040,7 +1105,7 @@
         "title": "開發者生態",
         "description": [
           "Moonpacket 不僅僅是一個紅包工具，更是一個開放的 **Social Liquidity Layer**。",
-          "透過標準化的 API 與 SDK，任何 Telegram Bot、GameFi 或 Web3 應用都可以接入 $moonini 激勵層。你專注做產品，我們幫你做增長與留存。"
+          "透過標準化的 API 與 SDK，任何 Telegram Bot、GameFi 或 Web3 應用都可以接入 $MOONINI 激勵層。你專注做產品，我們幫你做增長與留存。"
         ],
         "architecture": {
           "title": "Programmable Incentives",
@@ -1055,14 +1120,12 @@
         "title": "合約地址",
         "description": "為了確保透明度，所有核心智能合約地址將在此公開並驗證。",
         "items": {
-          "token": "$moonini Token (代幣合約)",
-          "emission": "Emission Vault (90% 公開發行金庫)",
-          "reserve": "Reserve Vault (10% 團隊配額金庫)",
-          "phase": "Phase Manager (減半控制器)",
-          "vesting": "Vesting Vault (線性釋放控制器)",
-          "pol": "POL Manager (回購與底價防禦)",
-          "protection": "Launch Protection (開盤防狙擊)",
-          "timelock": "Timelock Controller (48h 延時鎖)"
+          "token": "$MOONINI Token (代幣核心)",
+          "vesting": "Vesting Vault (V2) (鎖倉管理)",
+          "pool": "Liquidity Pool (LP) (市場流動)",
+          "multisig": "Governance Multisig (權力中心)",
+          "timelock": "Timelock Controller (延遲治理)",
+          "emergency": "Emergency Vault (安全緩衝)"
         },
         "status": "（待主網部署後更新）"
       },
@@ -1191,11 +1254,11 @@
         "items": [
           {
             "question": "代幣如何獲得？",
-            "answer": "你可以透過發送紅包、完成任務、邀請好友等方式獲得 $moonini。發送的紅包越多，完成的任務越多，獲得的代幣就越多。早期參與者還能享受更高的獎勵比例。"
+            "answer": "你可以透過發送紅包、完成任務、邀請好友等方式獲得 $MOONINI。發送的紅包越多，完成的任務越多，獲得的代幣就越多。早期參與者還能享受更高的獎勵比例。"
           },
           {
             "question": "什麼時候可以提領？",
-            "answer": "在主網上線後，用戶可以將 $moonini 提領到自己的錢包。提領需要支付少量 Gas 費用（BSC 網路費用），具體上線時間請關注官方公告。"
+            "answer": "在主網上線後，用戶可以將 $MOONINI 提領到自己的錢包。提領需要支付少量 Gas 費用（BSC 網路費用），具體上線時間請關注官方公告。"
           },
           {
             "question": "團隊分配是否有鎖倉？",
@@ -1210,16 +1273,16 @@
             "answer": "我們會通過第三方安全審計、多重簽名確認、延時執行等多層防護機制降低風險。如果真的發生問題，我們會立即啟動應急程序，透過治理機制決定處理方案，並及時公告社群。"
           },
           {
-            "question": "$moonini 總量是多少？會增發嗎？",
-            "answer": "$moonini 總發行量為 10,000,000,000 枚（10B），固定總量，永不增發。90% 透過用戶活動逐步釋放，10% 給團隊和早期投資人。"
+            "question": "$MOONINI 總量是多少？會增發嗎？",
+            "answer": "$MOONINI 總發行量為 10,000,000,000 枚（10B），固定總量，永不增發。90% 透過用戶活動逐步釋放，10% 給團隊和早期投資人。"
           },
           {
             "question": "如何參與治理？",
-            "answer": "持有 $moonini 的用戶可以參與未來社群治理投票，影響項目發展方向。具體的治理機制和投票方式將在主網上線後逐步推出。"
+            "answer": "持有 $MOONINI 的用戶可以參與未來社群治理投票，影響項目發展方向。具體的治理機制和投票方式將在主網上線後逐步推出。"
           },
           {
-            "question": "可以交易 $moonini 嗎？",
-            "answer": "在主網上線並建立流動性池後，$moonini 可以在去中心化交易所（如 PancakeSwap）交易。交易將受到市場供需影響，價格可能波動，請謹慎投資。"
+            "question": "可以交易 $MOONINI 嗎？",
+            "answer": "在主網上線並建立流動性池後，$MOONINI 可以在去中心化交易所（如 PancakeSwap）交易。交易將受到市場供需影響，價格可能波動，請謹慎投資。"
           }
         ]
       }
@@ -1262,7 +1325,7 @@
         "trigger": "回購觸發",
         "swap": "換幣",
         "addLiquidity": "添加流動性",
-        "pool": "流動性池",
+        "pool": "Liquidity Pool (LP) (市場流動)",
         "smart_floor": "智能地板價防禦"
       }
     }
@@ -1288,126 +1351,126 @@
       "examples": "通信示例",
       "security": "安全驗證"
     },
-      "hero": {
-        "badge": "API Specification v2.3",
-        "title": "資格驗證 API",
-        "subtitle": "Attribute Query Interface (GET)",
-        "desc": "通過標準化的 GET 查詢接口，讓 moonpacket 主動向您的伺服器獲取「獎勵規則」與「用戶屬性」。所有的邏輯判斷由 moonpacket 處理。",
-        "cta_docs": "查看規範",
-        "cta_key": "返回 Litepaper"
+    "hero": {
+      "badge": "API Specification v2.3",
+      "title": "資格驗證 API",
+      "subtitle": "Attribute Query Interface (GET)",
+      "desc": "通過標準化的 GET 查詢接口，讓 moonpacket 主動向您的伺服器獲取「獎勵規則」與「用戶屬性」。所有的邏輯判斷由 moonpacket 處理。",
+      "cta_docs": "查看規範",
+      "cta_key": "返回 Litepaper"
+    },
+    "content": {
+      "overview": {
+        "title": "接入配置 (Configuration)",
+        "desc": [
+          "在 moonpacket 的「領取條件設定」中選擇「自定義 API」時，請提供您的 Endpoint URL。",
+          "**Method**: 請使用 `GET`",
+          "**Content-Type**: `application/json`",
+          "**鑒權**: 鑑權資訊將完全通過 Header (`X-API-KEY` 與 `Signature`) 傳遞，URL 不含敏感資訊。"
+        ]
       },
-      "content": {
-        "overview": {
-          "title": "接入配置 (Configuration)",
-          "desc": [
-            "在 moonpacket 的「領取條件設定」中選擇「自定義 API」時，請提供您的 Endpoint URL。",
-            "**Method**: 請使用 `GET`",
-            "**Content-Type**: `application/json`",
-            "**鑒權**: 鑑權資訊將完全通過 Header (`X-API-KEY` 與 `Signature`) 傳遞，URL 不含敏感資訊。"
-          ]
+      "logic": {
+        "title": "交互邏輯 (Interaction Logic)",
+        "desc": "整個流程分為「配置期」與「運行期」兩個階段。moonpacket 會使用 GET 方法向您的 API 發起請求：",
+        "steps": {
+          "step1_label": "步驟一",
+          "step2_label": "步驟二"
         },
-        "logic": {
-          "title": "交互邏輯 (Interaction Logic)",
-          "desc": "整個流程分為「配置期」與「運行期」兩個階段。moonpacket 會使用 GET 方法向您的 API 發起請求：",
-          "steps": {
-            "step1_label": "步驟一",
-            "step2_label": "步驟二"
+        "modes": [
+          {
+            "title": "階段一：定義規則 (Configuration)",
+            "trigger": "觸發時機：在「領取條件設定」填入 URL 並提交時",
+            "request": "GET <Endpoint>",
+            "response": "返回帶有運算符 (gt, eq, lt...) 的規則定義物件"
           },
-          "modes": [
-            {
-              "title": "階段一：定義規則 (Configuration)",
-              "trigger": "觸發時機：在「領取條件設定」填入 URL 並提交時",
-              "request": "GET <Endpoint>",
-              "response": "返回帶有運算符 (gt, eq, lt...) 的規則定義物件"
-            },
-            {
-              "title": "階段二：驗證用戶 (Runtime)",
-              "trigger": "觸發時機：用戶嘗試領取紅包時",
-              "request": "GET <Endpoint>?user_id=...",
-              "response": "返回該特定用戶的實際屬性值 (純數值或字符串)"
-            }
-          ],
-          "note": "運算符支援：`eq` (等於, 支援字串/數字), `gt` (大於), `gte` (大於等於), `lt` (小於), `lte` (小於等於)。非 `eq` 運算符的值必須為數字。"
-        },
-        "diagram": {
-          "user": "用戶 (User)",
-          "moonpacket": "moonpacket",
-          "dev_api": "您的 API",
-          "step1": "1. 配置時：獲取規則 (GET)",
-          "step2": "2. 領取時：查詢狀態 (GET)",
-          "click": "點擊領取",
-          "check": "邏輯比對 (Local)",
-          "grant": "發放獎勵",
-          "reject": "提示資格不符",
-          "client_app": "客戶端 / 伺服器",
-          "json_data": "JSON 數據",
-          "saved_rule": "已存規則:",
-          "user_state": "用戶狀態:"
-        },
-        "spec": {
-          "title": "介面規範 (Specification)",
-          "request": {
-            "title": "請求參數 (Query Params)",
-            "headers": [],
-            "query": [
-              "**api_key** (必填): 您設定的 API Key，用於識別",
-              "**user_id** (可選): 存在時返回用戶屬性；不存在時返回規則定義"
-            ]
-          },
-          "ts_def": {
-            "title": "數據結構定義 (TypeScript)",
-            "desc": "以下接口定義了必須返回的 JSON 結構，供 AI 輔助工具讀取："
+          {
+            "title": "階段二：驗證用戶 (Runtime)",
+            "trigger": "觸發時機：用戶嘗試領取紅包時",
+            "request": "GET <Endpoint>?user_id=...",
+            "response": "返回該特定用戶的實際屬性值 (純數值或字符串)"
           }
-        },
-        "scenarios": {
-          "title": "應用場景",
-          "items": [
-            {
-              "title": "GameFi 整合",
-              "desc": "定義規則 `level >= 10`。當用戶領取時，moonpacket 查詢用戶屬性，若 `level: 12` 則通過。"
-            },
-            {
-              "title": "身份綁定獎勵",
-              "desc": "定義規則 `kyc == true`。moonpacket 查詢用戶狀態，若返回 `kyc: true` 則發放獎勵。"
-            },
-            {
-              "title": "黑名單過濾",
-              "desc": "定義規則 `is_blacklist == false`。若 API 返回 `is_blacklist: true`，則拒絕領取。"
-            }
+        ],
+        "note": "運算符支援：`eq` (等於, 支援字串/數字), `gt` (大於), `gte` (大於等於), `lt` (小於), `lte` (小於等於)。非 `eq` 運算符的值必須為數字。"
+      },
+      "diagram": {
+        "user": "用戶 (User)",
+        "moonpacket": "moonpacket",
+        "dev_api": "您的 API",
+        "step1": "1. 配置時：獲取規則 (GET)",
+        "step2": "2. 領取時：查詢狀態 (GET)",
+        "click": "點擊領取",
+        "check": "邏輯比對 (Local)",
+        "grant": "發放獎勵",
+        "reject": "提示資格不符",
+        "client_app": "客戶端 / 伺服器",
+        "json_data": "JSON 數據",
+        "saved_rule": "已存規則:",
+        "user_state": "用戶狀態:"
+      },
+      "spec": {
+        "title": "介面規範 (Specification)",
+        "request": {
+          "title": "請求參數 (Query Params)",
+          "headers": [],
+          "query": [
+            "**api_key** (必填): 您設定的 API Key，用於識別",
+            "**user_id** (可選): 存在時返回用戶屬性；不存在時返回規則定義"
           ]
         },
-        "examples": {
-          "title": "通信範例 (GET Request)",
-          "mode_a": {
-            "title": "1. 定義規則 (Setup)",
-            "desc": "提交設定時，返回含運算符的 JSON"
+        "ts_def": {
+          "title": "數據結構定義 (TypeScript)",
+          "desc": "以下接口定義了必須返回的 JSON 結構，供 AI 輔助工具讀取："
+        }
+      },
+      "scenarios": {
+        "title": "應用場景",
+        "items": [
+          {
+            "title": "GameFi 整合",
+            "desc": "定義規則 `level >= 10`。當用戶領取時，moonpacket 查詢用戶屬性，若 `level: 12` 則通過。"
           },
-          "mode_b": {
-            "title": "2. 查詢狀態 (Runtime)",
-            "desc": "用戶領取時，返回純數值或字串"
+          {
+            "title": "身份綁定獎勵",
+            "desc": "定義規則 `kyc == true`。moonpacket 查詢用戶狀態，若返回 `kyc: true` 則發放獎勵。"
+          },
+          {
+            "title": "黑名單過濾",
+            "desc": "定義規則 `is_blacklist == false`。若 API 返回 `is_blacklist: true`，則拒絕領取。"
           }
+        ]
+      },
+      "examples": {
+        "title": "通信範例 (GET Request)",
+        "mode_a": {
+          "title": "1. 定義規則 (Setup)",
+          "desc": "提交設定時，返回含運算符的 JSON"
         },
-        "signature": {
-          "title": "安全驗證 (Security)",
-          "desc": "為了確保請求的真實性，moonpacket 會在 Header 中包含簽名。您可以參考右側的代碼進行驗證：",
-          "required_headers": "必要 Headers",
-          "algo_title": "簽名算法",
-          "headers": {
-            "key": "X-API-KEY",
-            "ts": "X-API-TIMESTAMP",
-            "nonce": "X-API-NONCE",
-            "sig": "X-API-SIGNATURE"
-          },
-          "algo": "HMAC-SHA256",
-          "formula": "Signature = HMAC_SHA256(secret, body + timestamp + nonce)",
-          "steps": [
-            "1. 取出 Headers 中的 Timestamp, Nonce, Signature",
-            "2. 驗證 Timestamp 是否在合理時間範圍 (如 ±5分鐘)",
-            "3. 拼接字串：RequestBody + Timestamp + Nonce",
-            "4. 使用您的 Secret 計算 HMAC-SHA256",
-            "5. 比對計算結果與 Header 中的 Signature"
-          ]
+        "mode_b": {
+          "title": "2. 查詢狀態 (Runtime)",
+          "desc": "用戶領取時，返回純數值或字串"
+        }
+      },
+      "signature": {
+        "title": "安全驗證 (Security)",
+        "desc": "為了確保請求的真實性，moonpacket 會在 Header 中包含簽名。您可以參考右側的代碼進行驗證：",
+        "required_headers": "必要 Headers",
+        "algo_title": "簽名算法",
+        "headers": {
+          "key": "X-API-KEY",
+          "ts": "X-API-TIMESTAMP",
+          "nonce": "X-API-NONCE",
+          "sig": "X-API-SIGNATURE"
         },
+        "algo": "HMAC-SHA256",
+        "formula": "Signature = HMAC_SHA256(secret, body + timestamp + nonce)",
+        "steps": [
+          "1. 取出 Headers 中的 Timestamp, Nonce, Signature",
+          "2. 驗證 Timestamp 是否在合理時間範圍 (如 ±5分鐘)",
+          "3. 拼接字串：RequestBody + Timestamp + Nonce",
+          "4. 使用您的 Secret 計算 HMAC-SHA256",
+          "5. 比對計算結果與 Header 中的 Signature"
+        ]
+      },
       "reliability": {
         "title": "注意",
         "items": [
@@ -1455,6 +1518,24 @@
         "text": "本文檔中提及的第三方平台整合方式僅供參考。請開發者務必查閱並遵循該平台最新的官方開發者文檔。"
       }
     }
+  },
+  "docs": {
+    "litepaper": {
+      "content": {
+        "contracts": {
+          "title": "",
+          "description": "",
+          "items": {
+            "token": "$MOONINI Token (代幣核心)",
+            "vesting": "Vesting Vault (V2) (鎖倉管理)",
+            "pool": "Liquidity Pool (LP) (市場流動)",
+            "multisig": "Governance Multisig (權力中心)",
+            "timelock": "Timelock Controller (延遲治理)",
+            "emergency": "Emergency Vault (安全緩衝)"
+          },
+          "status": ""
+        }
+      }
+    }
   }
 }
-

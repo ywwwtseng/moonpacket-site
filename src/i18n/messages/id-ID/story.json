@@ -13,11 +13,11 @@
     "Ya, moonini tumbuh berkat energi angpao dari semua orang.",
     "",
     "Energi-energi ini diubah menjadi kredensial angpao yang lahir di rantai Solana —",
-    "Itu adalah asal mula Token $moonini."
+    "Itu adalah asal mula Token $MOONINI."
   ],
   "secrets_title": "🌸 Rahasianya",
   "secrets_intro": "Setiap kali Anda mengirim angpao, moonini akan mencatat entri energi di bulan:",
-  "secrets_flow": "Kirim angpao → Hasilkan nilai energi yang sesuai (dikonversi ke nilai USDT) → Kumpulkan hingga 10 → Capai nilai minimum yang dapat ditebus $moonini.",
+  "secrets_flow": "Kirim angpao → Hasilkan nilai energi yang sesuai (dikonversi ke nilai USDT) → Kumpulkan hingga 10 → Capai nilai minimum yang dapat ditebus $MOONINI.",
   "secrets_halving": [
     "Pada fase awal (Fase 1), moonini umumnya akan memberikan kembali dengan rasio terbaik 1:1 kepada pengirim angpao. Untuk menjaga keadilan dan mengurangi risiko pencucian/ping-pong, kami akan memperkenalkan konsep energi efektif.",
     "Ketika jumlah total yang dikirim dan ditarik dari komunitas mencapai ambang batas setengah yang ditetapkan sistem, pemotongan pertama akan terjadi; setelah itu, mencapai setengah dari jumlah tahap sebelumnya akan memicu pemotongan lainnya."
@@ -33,37 +33,37 @@
     [
       "Fase 1",
       "0 ~ 4.5 billion",
-      "1.0 $moonpacket / USDT",
+      "1.0 $MOONINI / USDT",
       "Initial period, energy overflow."
     ],
     [
       "Fase 2",
       "4.5B ~ 6.75B",
-      "0.5 $moonpacket / USDT",
+      "0.5 $MOONINI / USDT",
       "First halving."
     ],
     [
       "Fase 3",
       "6.75B ~ 7.875B",
-      "0.25 $moonpacket / USDT",
+      "0.25 $MOONINI / USDT",
       "Stabilization period."
     ],
     [
       "Fase 4",
       "7.875B ~ 8.4375B",
-      "0.125 $moonpacket / USDT",
+      "0.125 $MOONINI / USDT",
       "Scarcity period."
     ],
     [
       "Fase 5",
       "8.4375B ~ 8.71875B",
-      "0.0625 $moonpacket / USDT",
+      "0.0625 $MOONINI / USDT",
       "Late mining phase."
     ],
     [
       "Fase 6",
       "8.71875B ~ 9B",
-      "0.03125 $moonpacket / USDT",
+      "0.03125 $MOONINI / USDT",
       "Crystallization period (final phase)."
     ]
   ],
@@ -77,12 +77,12 @@
     "moonini mencintai semua orang yang bersedia untuk 'berbagi'.",
     "Dia percaya bahwa angpao bukan hanya uang, tetapi pertukaran berkah dan energi.",
     "Setiap kali Anda mengirim angpao, menyelesaikan tugas, atau bergabung dengan komunitas moonpacket,",
-    "Anda akan memiliki kesempatan untuk menerima imbalan dari bulan — $moonini yang jatuh secara acak.",
+    "Anda akan memiliki kesempatan untuk menerima imbalan dari bulan — $MOONINI yang jatuh secara acak.",
     "",
     "Itu adalah cahaya yang diberikan semesta kepada Anda setelah menyebarkan keceriaan."
   ],
   "future_title": "💫 Aplikasi di masa depan",
-  "future_intro": "Saat ini, $moonini tidak terbuka untuk skenario aplikasi resmi, tetapi dirancang sebagai penghargaan dan kredensial energi untuk dunia angpao di masa depan, mungkin akan digunakan untuk:",
+  "future_intro": "Saat ini, $MOONINI tidak terbuka untuk skenario aplikasi resmi, tetapi dirancang sebagai penghargaan dan kredensial energi untuk dunia angpao di masa depan, mungkin akan digunakan untuk:",
   "future_list": [
     "✅ Diskon biaya transaksi angpao",
     "🎁 Kupon/ diskon penukaran pedagang",
@@ -90,7 +90,7 @@
   ],
   "disclaimer_title": "⚠️ Deklarasi",
   "disclaimer_paragraphs": [
-    "Resmi tidak menjamin nilai tukar fiat untuk $moonini.",
+    "Resmi tidak menjamin nilai tukar fiat untuk $MOONINI.",
     "Anda dapat menganggapnya sebagai poin bonus orang yang murah hati.",
     "Melambangkan setiap orang yang bersedia berbagi kebahagiaan dan menyebarkan energi."
   ],

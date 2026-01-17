@@ -1,17 +1,17 @@
 {
   "litepaper": {
-    "title": "$moonini Litepaper",
-    "description": "Értsd meg a $moonini token tervezési filozófiáját, gazdasági modelljét és alapvető értékeit.",
+    "title": "$MOONINI Litepaper",
+    "description": "Értsd meg a $MOONINI token tervezési filozófiáját, gazdasági modelljét és alapvető értékeit.",
     "seo": {
-      "title": "$moonini Litepaper — moonpacket",
-      "description": "$moonini egy közösségi ösztönző token, amely a moonpacket platformon alapul. Tudjon meg többet arról, hogyan szerezheti meg, használhatja és fektethet be az értékébe."
+      "title": "$MOONINI Litepaper — moonpacket",
+      "description": "$MOONINI egy közösségi ösztönző token, amely a moonpacket platformon alapul. Tudjon meg többet arról, hogyan szerezheti meg, használhatja és fektethet be az értékébe."
     },
     "hero": {
-      "subtitle": "$moonini egy közösségi ösztönző token, amely a moonpacket platformon alapul. Minél több felhasználó vesz részt a moonpacket tevékenységeiben, végez feladatokat és lép kapcsolatba, annál több $moonini-t kereshetnek. A befektetők számára a 90%-ot a felhasználóknak osztják ki, és 10% megy a csapatnak, egy felezési mechanizmussal és lineáris kiadással, amelyek hatékonyan csökkentik a dump kockázatokat, a hosszú távú stabilitás érdekében tervezve.",
+      "subtitle": "$MOONINI egy közösségi ösztönző token, amely a moonpacket platformon alapul. Minél több felhasználó vesz részt a moonpacket tevékenységeiben, végez feladatokat és lép kapcsolatba, annál több $MOONINI-t kereshetnek. A befektetők számára a 90%-ot a felhasználóknak osztják ki, és 10% megy a csapatnak, egy felezési mechanizmussal és lineáris kiadással, amelyek hatékonyan csökkentik a dump kockázatokat, a hosszú távú stabilitás érdekében tervezve.",
       "cards": {
         "user": {
           "title": "Általános Felhasználók Számára",
-          "description": "Könnyen kereshetsz $moonini-t Red Packet küldésével, feladatok teljesítésével, barátok meghívásával stb. Minél többet használod, annál többet keresel, teljesen ingyen."
+          "description": "Könnyen kereshetsz $MOONINI-t Red Packet küldésével, feladatok teljesítésével, barátok meghívásával stb. Minél többet használod, annál többet keresel, teljesen ingyen."
         },
         "investor": {
           "title": "A Befektetők Számára",
@@ -29,7 +29,7 @@
     "sections": {
       "overview": "Áttekintés",
       "problem": "Problémák és megoldások",
-      "concept": "moonpacket és $moonini alapfogalmai",
+      "concept": "moonpacket és $MOONINI alapfogalmai",
       "tokenomics": "Tokenomika áttekintése",
       "emission": "Félidő és Kiadás",
       "utility": {
@@ -81,8 +81,8 @@
       "overview": {
         "paragraphs": [
           "A moonpacket egy kripto Red Packet és marketing eszköz, amely kifejezetten Telegram közösségek számára készült. Legyen szó közösségi műveletekről, események népszerűsítéséről vagy új felhasználók meghívásáról, a moonpacket segítségével ezt könnyedén elérheti.",
-          "A felhasználók folyamatos használatának ösztönzése és a hosszú távú kapcsolatok kiépítése érdekében bevezettük a $moonini közösségi ösztönző tokent. Minden aktív tevékenység a platformon, beleértve a red packet küldését, feladatok teljesítését és barátok meghívását, megfelelő $moonini jutalmakat kereshet.",
-          "Általános felhasználók számára a $moonini egy további jutalom a Moonpacket használatáért; minél többet használ, annál többet keres. Befektetők számára a $moonini token gazdasági tervezése (90% a felhasználóknak, 10% a csapatnak, 6 szakaszos felezés, zárolási kiadások) hatékonyan csökkenti a rövid távú dump kockázatokat, és elősegíti a hosszú távú érték stabilitását."
+          "A felhasználók folyamatos használatának ösztönzése és a hosszú távú kapcsolatok kiépítése érdekében bevezettük a $MOONINI közösségi ösztönző tokent. Minden aktív tevékenység a platformon, beleértve a red packet küldését, feladatok teljesítését és barátok meghívását, megfelelő $MOONINI jutalmakat kereshet.",
+          "Általános felhasználók számára a $MOONINI egy további jutalom a Moonpacket használatáért; minél többet használ, annál többet keres. Befektetők számára a $MOONINI token gazdasági tervezése (90% a felhasználóknak, 10% a csapatnak, 6 szakaszos felezés, zárolási kiadások) hatékonyan csökkenti a rövid távú dump kockázatokat, és elősegíti a hosszú távú érték stabilitását."
         ],
         "highlights": {
           "title": "Főbb jellemzők",
@@ -105,16 +105,16 @@
           ]
         },
         "solutions": {
-          "title": "A moonpacket + $moonini megoldása",
+          "title": "A moonpacket + $MOONINI megoldása",
           "items": [
             "**Teljes viselkedésnyomozás**: A moonpacket nyilvántartja minden red packet átvételét, a megosztási magatartást és az új felhasználók bevezetését, lehetővé téve, hogy világosan megértsd a marketinghatékonyságot.",
-            "**Hosszú távú ösztönző mechanizmusok**: A $moonini token segítségével, minél többen vesznek részt, annál többet keresnek, így ösztönözve a hosszú távú részvételt.",
+            "**Hosszú távú ösztönző mechanizmusok**: A $MOONINI token segítségével, minél többen vesznek részt, annál többet keresnek, így ösztönözve a hosszú távú részvételt.",
             "**Mérsékelt érték elosztás**: A tokenek 90%-a a felhasználóknak jut, biztosítva a közösség prioritását, míg az olyan mechanizmusok, mint a felére csökkentés és a zárolás, csökkentik az árfolyam esésének kockázatát."
           ]
         }
       },
       "concept": {
-        "title": "moonpacket és $moonini alapfogalmai",
+        "title": "moonpacket és $MOONINI alapfogalmai",
         "moonpacket": {
           "title": "A moonpacket szerepe",
           "description": "A moonpacket egy Telegram Red Packet, feladat- és marketingeszköz. Legyen szó közösségi üzemeltetőről, eseményszervezőről vagy olyan projektről, amely új felhasználók vonzására törekszik, a moonpacket használatával:",
@@ -126,25 +126,25 @@
           ]
         },
         "moonini": {
-          "title": "$moonini szerepe",
-          "description": "$moonini egy jutalompont token, amely elismeri a felhasználói és közösségi magatartást. Minden aktív lépés, amelyet a moonpacket-en teszel, a megfelelő $moonini-t hozza számodra.",
+          "title": "$MOONINI szerepe",
+          "description": "$MOONINI egy jutalompont token, amely elismeri a felhasználói és közösségi magatartást. Minden aktív lépés, amelyet a moonpacket-en teszel, a megfelelő $MOONINI-t hozza számodra.",
           "rewards": [
-            "Küldj Red Packet: Keress a Red Packet összegétől és a jelenlegi fázistól függően megfelelő $moonini-t",
-            "Feladatok teljesítése: Az elért sikerek, társadalmi feladatok stb. extra $moonini-t hoznak.",
-            "Hívj meg barátokat: Sikeresen hívj meg új felhasználókat és teljesítsd a megosztási feladatokat, mindkét fél $moonini-t kereshet.",
-            "Aktív Részvétel: Meghatározott tevékenységek végrehajtása együttműködő játékokban vagy alkalmazásokban szintén lehetővé teszi a $moonini megszerzését."
+            "Küldj Red Packet: Keress a Red Packet összegétől és a jelenlegi fázistól függően megfelelő $MOONINI-t",
+            "Feladatok teljesítése: Az elért sikerek, társadalmi feladatok stb. extra $MOONINI-t hoznak.",
+            "Hívj meg barátokat: Sikeresen hívj meg új felhasználókat és teljesítsd a megosztási feladatokat, mindkét fél $MOONINI-t kereshet.",
+            "Aktív Részvétel: Meghatározott tevékenységek végrehajtása együttműködő játékokban vagy alkalmazásokban szintén lehetővé teszi a $MOONINI megszerzését."
           ]
         },
         "logic": {
           "title": "Minél többet használod, annál többet keresel",
-          "description": "A logika egyszerű: minél aktívabb vagy a moonpacket-en, annál több $moonini-t keresel. A korai résztvevők magasabb jutalmi arányt élvezhetnek (1. fázis, 1 $moonini minden elküldött 1 USDT Red Packet után). Minél korábban veszel részt, annál nagyobb az előnyöd."
+          "description": "A logika egyszerű: minél aktívabb vagy a moonpacket-en, annál több $MOONINI-t keresel. A korai résztvevők magasabb jutalmi arányt élvezhetnek (1. fázis, 1 $MOONINI minden elküldött 1 USDT Red Packet után). Minél korábban veszel részt, annál nagyobb az előnyöd."
         }
       },
       "tokenomics": {
         "title": "A Tokenomics áttekintése",
         "total": {
           "title": "Összes Token Kínálat",
-          "description": "A $moonini összes kibocsátása **10,000,000,000 token (10B)**, fix összmennyiséggel és további kibocsátás nélkül."
+          "description": "A $MOONINI összes kibocsátása **10,000,000,000 token (10B)**, fix összmennyiséggel és további kibocsátás nélkül."
         },
         "allocation": {
           "title": "Hozzáférési terv",
@@ -256,7 +256,7 @@
               ]
             ]
           },
-          "example": "Például: Az 1. fázisban, ha küldesz egy 100 USDT Red Packet-et, 100 $moonini-t kereshetsz; a 2. fázisban a ugyanazon 100 USDT Red Packet küldése csak 50 $moonini-t hozna. Minél korábban veszel részt, annál nagyobb az előnyöd!"
+          "example": "Például: Az 1. fázisban, ha küldesz egy 100 USDT Red Packet-et, 100 $MOONINI-t kereshetsz; a 2. fázisban a ugyanazon 100 USDT Red Packet küldése csak 50 $MOONINI-t hozna. Minél korábban veszel részt, annál nagyobb az előnyöd!"
         },
         "vesting": {
           "title": "Csapat kvóta lezárása és felszabadítása",
@@ -280,20 +280,20 @@
       "utility": {
         "title": "Felhasználói megszerzés és használati forgatókönyvek",
         "how_to_earn": {
-          "title": "Hogyan lehet keresni $moonini?",
+          "title": "Hogyan lehet keresni $MOONINI?",
           "methods": [
-            "**Küldj Red Packetet**: Minden **1 USDT megfelelő küldéséért** Red Packet formájában (több valuta támogatásával) a résztvevők a jelenlegi szakasz alapján megfelelő $moonini-t kapnak.",
+            "**Küldj Red Packetet**: Minden **1 USDT megfelelő küldéséért** Red Packet formájában (több valuta támogatásával) a résztvevők a jelenlegi szakasz alapján megfelelő $MOONINI-t kapnak.",
             "**Feladatok teljesítése**: Egyszeri teljesítési feladatokat és társadalmi feladatokat tartalmaz. A méltányosság érdekében minden fiók csak egyszer teljesítheti a feladatokat, vagy összlím kerül beállításra a rosszindulatú coin farmok elkerülése érdekében.",
             "**Barátok meghívása**: Hívj meg új barátokat és teljesítsd a megosztási feladatokat, mindkét fél jutalmat kap. **Minden fióknak van egy korlátja a meghívási jutalmakra**, a konkrét szabályok a közösségi bejelentések hatálya alá tartoznak.",
-            "**Együttműködő Alkalmazások**: Meghatározott műveletek végrehajtása játékokban vagy a moonpacket API-val integrált alkalmazásokban szintén $moonini-t eredményezhet."
+            "**Együttműködő Alkalmazások**: Meghatározott műveletek végrehajtása játékokban vagy a moonpacket API-val integrált alkalmazásokban szintén $MOONINI-t eredményezhet."
           ]
         },
         "how_to_use": {
-          "title": "A $moonini felhasználásai",
+          "title": "A $MOONINI felhasználásai",
           "items": [
-            "**Díjkedvezmények**: A jövőben a $moonini felhasználható a Red Packet tranzakciós díjainak egy részének kompenzálására.",
-            "**Funkciók feloldása**: Néhány prémium funkció használatához szükség lehet egy bizonyos mennyiségű $moonini birtoklására.",
-            "**Kormányzati Szavazati Jogok**: A $moonini birtoklása lehetővé teszi a jövőbeni közösségi kormányzati szavazásokban való részvételt, befolyásolva a projekt fejlesztési irányát.",
+            "**Díjkedvezmények**: A jövőben a $MOONINI felhasználható a Red Packet tranzakciós díjainak egy részének kompenzálására.",
+            "**Funkciók feloldása**: Néhány prémium funkció használatához szükség lehet egy bizonyos mennyiségű $MOONINI birtoklására.",
+            "**Kormányzati Szavazati Jogok**: A $MOONINI birtoklása lehetővé teszi a jövőbeni közösségi kormányzati szavazásokban való részvételt, befolyásolva a projekt fejlesztési irányát.",
             "**Ökoszisztéma Visszaváltás**: Különleges előnyökért vagy jutalmakért váltható be partneralkalmazásokban vagy játékokban."
           ]
         }
@@ -302,7 +302,7 @@
         "title": "Fejlesztői Ökoszisztéma",
         "description": [
           "a moonpacket több mint egy Red Packet eszköz; ez egy nyitott **Social Liquidity Layer**.",
-          "A standardizált API-kon és SDK-kon keresztül bármely Telegram Bot, GameFi vagy Web3 alkalmazás hozzáférhet a $moonini ösztönző réteghez. Ön a termékfejlesztésre összpontosít, mi pedig segítünk a növekedésben és a megtartásban."
+          "A standardizált API-kon és SDK-kon keresztül bármely Telegram Bot, GameFi vagy Web3 alkalmazás hozzáférhet a $MOONINI ösztönző réteghez. Ön a termékfejlesztésre összpontosít, mi pedig segítünk a növekedésben és a megtartásban."
         ],
         "architecture": {
           "title": "Programozható ösztönzők",
@@ -317,14 +317,10 @@
         "title": "Szerződés címe",
         "description": "A transzparencia biztosítása érdekében az összes alapvető okos szerződés címet nyilvánosan közzéteszik és ellenőrzik.",
         "items": {
-          "token": "$moonini Token (Token Szerződés)",
-          "emission": "Kibocsátási Pince (90% Nyilvános Kibocsátási Pince)",
-          "reserve": "Kezelési Pénztárca (10% Csapat Képviseleti Pénztárca)",
-          "phase": "Fázis Menedzser (Félidő Kontroller)",
+          "token": "$MOONINI Token (Token Szerződés)",
           "vesting": "Vesting Vault (Lineáris Kiadás Kezelő)",
-          "pol": "POL Menedzser (Visszavásárlás és Árvédelem)",
-          "protection": "Indítási védelem (Nyitott fázisú Anti-Sniping)",
-          "timelock": "Időzár Szabályozó (48 órás késleltetett zár)"
+          "pool": "Liquidity Pool (LP) (Piaci Likviditás)",
+          "multisig": "Governance Multisig (Hatalom Központ)"
         },
         "status": "(Frissítés a főháló bevezetése után)"
       },
@@ -453,11 +449,11 @@
         "items": [
           {
             "question": "Hogyan szerezhetek tokent?",
-            "answer": "$moonini-t szerezhet azzal, hogy Red Packet-eket küld, feladatokat teljesít, barátokat hív meg, és még sok mást. Minnél több Red Packet-et küldesz és feladatot teljesítesz, annál több tokent fogsz keresni. A korai résztvevők emellett magasabb jutalmi arányt is élveznek."
+            "answer": "$MOONINI-t szerezhet azzal, hogy Red Packet-eket küld, feladatokat teljesít, barátokat hív meg, és még sok mást. Minnél több Red Packet-et küldesz és feladatot teljesítesz, annál több tokent fogsz keresni. A korai résztvevők emellett magasabb jutalmi arányt is élveznek."
           },
           {
             "question": "Mikor tudom visszavonni?",
-            "answer": "Miután a főhálózat elindult, a felhasználók visszavonhatják a $moonini-t a tárcáikba. A visszavonásokhoz egy kis gáz díj (BSC hálózati díj) szükséges. Kérjük, figyelj a hivatalos bejelentésekre a pontos indulási időpontért."
+            "answer": "Miután a főhálózat elindult, a felhasználók visszavonhatják a $MOONINI-t a tárcáikba. A visszavonásokhoz egy kis gáz díj (BSC hálózati díj) szükséges. Kérjük, figyelj a hivatalos bejelentésekre a pontos indulási időpontért."
           },
           {
             "question": "Van lock-up időszak a csapat allokációk számára?",
@@ -472,16 +468,16 @@
             "answer": "A kockázatok csökkentése érdekében harmadik fél általi biztonsági auditokat, multi-aláírásos megerősítéseket, késleltetett végrehajtást és egyéb többrétegű védelmi mechanizmusokat alkalmazunk. Ha probléma merül fel, azonnal megkezdjük a vészhelyzeti válaszadást, meghatározzuk a kezelési tervet a kormányzási mechanizmuson keresztül, és azonnal értesítjük a közösséget."
           },
           {
-            "question": "Mi a $moonini teljes kínálata? Nőni fog?",
-            "answer": "A $moonini teljes kínálata 10,000,000,000 darab (10B), amely egy rögzített összeg, ami soha nem fog nőni. A 90%-ot fokozatosan felosztják a felhasználói tevékenységek során, míg a 10% a csapatot és a korai befektetőket illeti."
+            "question": "Mi a $MOONINI teljes kínálata? Nőni fog?",
+            "answer": "A $MOONINI teljes kínálata 10,000,000,000 darab (10B), amely egy rögzített összeg, ami soha nem fog nőni. A 90%-ot fokozatosan felosztják a felhasználói tevékenységek során, míg a 10% a csapatot és a korai befektetőket illeti."
           },
           {
             "question": "Hogyan vehetnek részt a kormányzásban?",
-            "answer": "A $moonini birtokosai részt vehetnek a jövőbeli közösségi kormányzási szavazásokban, befolyásolva a projekt fejlesztési irányát. A konkrét kormányzási mechanizmusokat és szavazási módszereket fokozatosan vezetik be a főhálózat elindulása után."
+            "answer": "A $MOONINI birtokosai részt vehetnek a jövőbeli közösségi kormányzási szavazásokban, befolyásolva a projekt fejlesztési irányát. A konkrét kormányzási mechanizmusokat és szavazási módszereket fokozatosan vezetik be a főhálózat elindulása után."
           },
           {
-            "question": "Kereskedhető a $moonini?",
-            "answer": "Miután elindult a főhálózat és létrejött egy likviditási pool, a $moonini kereskedhető decentralizált tőzsdéken (például PancakeSwap). A kereskedést befolyásolják a piaci kereslet és kínálat, és az árak ingadozhatnak, ezért kérjük, óvatosan fektessen be."
+            "question": "Kereskedhető a $MOONINI?",
+            "answer": "Miután elindult a főhálózat és létrejött egy likviditási pool, a $MOONINI kereskedhető decentralizált tőzsdéken (például PancakeSwap). A kereskedést befolyásolják a piaci kereslet és kínálat, és az árak ingadozhatnak, ezért kérjük, óvatosan fektessen be."
           }
         ]
       }
@@ -719,18 +715,18 @@
     }
   },
   "whitepaper": {
-    "title": "$moonini Fehér Könyv",
-    "description": "A $moonini token tervezési filozófiájának, gazdasági modelljének és technikai architektúrájának megértése",
+    "title": "$MOONINI Fehér Könyv",
+    "description": "A $MOONINI token tervezési filozófiájának, gazdasági modelljének és technikai architektúrájának megértése",
     "seo": {
-      "title": "$moonini Fehér Könyv — moonpacket",
-      "description": "Teljes $moonini Tokenomika, Technikai Architektúra és Irányítási Mechanizmus Leírás"
+      "title": "$MOONINI Fehér Könyv — moonpacket",
+      "description": "Teljes $MOONINI Tokenomika, Technikai Architektúra és Irányítási Mechanizmus Leírás"
     },
     "hero": {
-      "subtitle": "A $moonini a moonpacket platform alapján működő közösségi ösztönző token. Minél többen vesznek részt és interakcióba lépnek a moonpacket-en, annál több $moonini-t kereshetnek. A befektetők számára az 90%-ot a felhasználóknak osztják ki, míg 10%-ot a csapatnak, hatékonyan csökkentve a piaci összeomlás kockázatát a felezési mechanizmussal és a lineáris kibocsátással kombinálva.",
+      "subtitle": "A $MOONINI a moonpacket platform alapján működő közösségi ösztönző token. Minél többen vesznek részt és interakcióba lépnek a moonpacket-en, annál több $MOONINI-t kereshetnek. A befektetők számára az 90%-ot a felhasználóknak osztják ki, míg 10%-ot a csapatnak, hatékonyan csökkentve a piaci összeomlás kockázatát a felezési mechanizmussal és a lineáris kibocsátással kombinálva.",
       "cards": {
         "user": {
           "title": "Általános felhasználóknak",
-          "description": "Könnyen kereshet $moonini-t Piros Csomagok küldésével, feladatok teljesítésével és barátok meghívásával. Minél többet használ, annál többet keres, teljesen ingyen."
+          "description": "Könnyen kereshet $MOONINI-t Piros Csomagok küldésével, feladatok teljesítésével és barátok meghívásával. Minél többet használ, annál többet keres, teljesen ingyen."
         },
         "investor": {
           "title": "Befektetőknek",
@@ -760,13 +756,13 @@
     "content": {
       "overview": {
         "what_is": [
-          "**$moonini** a moonpacket platform ökoszisztéma tokenje, amelyet a felhasználók aktív viselkedésének jutalmazására használnak a platformon, beleértve a következőket:",
+          "**$MOONINI** a moonpacket platform ökoszisztéma tokenje, amelyet a felhasználók aktív viselkedésének jutalmazására használnak a platformon, beleértve a következőket:",
           "- Piros csomagok küldése",
           "- Barátok meghívása",
           "- Feladatok teljesítése",
           "- Közösségi tevékenységekben való részvétel",
           "",
-          "**Egyszerűen Fogalmazva**: Minél többet használja a moonpacket-et, annál több $moonini-t fog keresni."
+          "**Egyszerűen Fogalmazva**: Minél többet használja a moonpacket-et, annál több $MOONINI-t fog keresni."
         ],
         "core_values": {
           "title": "Alapértékek",
@@ -826,8 +822,8 @@
             "| **6. fázis** | 8.71875B ~ 9B | **0.03125 token** | Végső fázis |",
             "",
             "**Példa**:",
-            "- Az 1. fázisban, ha egy 100 USDT Red Packet-et küldesz, 100 $moonini-t kapsz",
-            "- A 2. fázisban, ha egy 100 USDT Red Packet-et küldesz, csak 50 $moonini-t kaphatsz",
+            "- Az 1. fázisban, ha egy 100 USDT Red Packet-et küldesz, 100 $MOONINI-t kapsz",
+            "- A 2. fázisban, ha egy 100 USDT Red Packet-et küldesz, csak 50 $MOONINI-t kaphatsz",
             "- Minél korábban veszel részt, annál több tokent kapsz!"
           ],
           "value_logic": [
@@ -837,12 +833,12 @@
             "A keleti kultúrából eredően a Red Packet nemcsak a források átvitelét jelenti, hanem az idősebbek szeretetét a fiatalabbak felé, gratulációt és barátok közötti megosztást is. A moonpacketnél minden alkalommal, amikor Red Packet-et küldesz, egy meleg társadalmi interakciót valósítasz meg.",
             "",
             "**A Társadalmi Magatartásból Gazdasági Érték**:",
-            "Úgy véljük, hogy ezeket a jóakarat cselekedeteket nyilván kell tartani és értékelni. A $moonini nem csupán egy jutalom token; ez annak a társadalmi hálózatnak az értékhordozója, amely minden 'adományozás' révén hosszú távú gazdasági hatásokat generál.",
+            "Úgy véljük, hogy ezeket a jóakarat cselekedeteket nyilván kell tartani és értékelni. A $MOONINI nem csupán egy jutalom token; ez annak a társadalmi hálózatnak az értékhordozója, amely minden 'adományozás' révén hosszú távú gazdasági hatásokat generál.",
             "",
             "**Valódi Érték Támogatás**:",
             "A társadalmi érték stabilitásának megőrzése érdekében a protokoll előírja: **a tranzakciós díjak bevételének 50%-át automatikusan a Likviditási Medencébe kell befecskendezni**.",
             "",
-            "Ez azt jelenti: minél aktívabb a közösség ➔ annál több Red Packet interakció ➔ annál több forrás befektetése a likviditási medencébe ➔ annál szilárdabb értékalapja $moonini-nek. Ez egy pozitív ciklus, amely a valós társadalmi szükségleteken és üzleti bevételeken alapul, nem pedig pusztán spekulatív szerencsejátékon."
+            "Ez azt jelenti: minél aktívabb a közösség ➔ annál több Red Packet interakció ➔ annál több forrás befektetése a likviditási medencébe ➔ annál szilárdabb értékalapja $MOONINI-nek. Ez egy pozitív ciklus, amely a valós társadalmi szükségleteken és üzleti bevételeken alapul, nem pedig pusztán spekulatív szerencsejátékon."
           ]
         }
       },
@@ -909,15 +905,15 @@
             "**Kibocsátási Módszer**: Fokozatos kibocsátás a felhasználói tevékenységek alapján",
             "",
             "**Kiadási Források**:",
-            "1. **Küldj Red Packet-et**: Minden alkalommal, amikor 1 USDT Red Packet-et küldesz, a jelenlegi szakasz alapján kapj megfelelő mennyiségű $moonini-t.",
-            "2. **Barátok Meghívása**: Sikeresen hívd meg az új felhasználókat és teljesítsd a megosztási feladatokat, hogy megkapd a $moonini-t.",
-            "3. **Feladatok teljesítése**: Teljesíts elért feladatokat, közösségi feladatokat stb., hogy extra $moonini-t keress.",
+            "1. **Küldj Red Packet-et**: Minden alkalommal, amikor 1 USDT Red Packet-et küldesz, a jelenlegi szakasz alapján kapj megfelelő mennyiségű $MOONINI-t.",
+            "2. **Barátok Meghívása**: Sikeresen hívd meg az új felhasználókat és teljesítsd a megosztási feladatokat, hogy megkapd a $MOONINI-t.",
+            "3. **Feladatok teljesítése**: Teljesíts elért feladatokat, közösségi feladatokat stb., hogy extra $MOONINI-t keress.",
             "4. **Csoporttulajdonosi Profitmegosztás**: A csoporttulajdonosok 3% profitmegosztást (USDT) kaphatnak a Red Packet-ek csoportok közötti küldéséért."
           ],
           "cost_vs_price": [
             "💡 **Termelési költség vs Piaci ár**:",
             "",
-            "Az 1 $moonini megszerzésének implicit költsége a Red Packet bányászaton keresztül az 1. fázisban körülbelül **0,02 USDT** (2%-os tranzakciós díj alapján).",
+            "Az 1 $MOONINI megszerzésének implicit költsége a Red Packet bányászaton keresztül az 1. fázisban körülbelül **0,02 USDT** (2%-os tranzakciós díj alapján).",
             "",
             "Mivel kezdeti listázási árunk **0,01 USDT**.",
             "",
@@ -925,10 +921,10 @@
           ],
           "withdraw_mechanism": [
             "**Kivonási Mechanizmus**:",
-            "- Miután a felhasználók megszerzik a $moonini-t a platformon, biztonságos személyazonosság-ellenőrzési mechanizmuson keresztül átutalhatják azt a pénztárcájukba.",
+            "- Miután a felhasználók megszerzik a $MOONINI-t a platformon, biztonságos személyazonosság-ellenőrzési mechanizmuson keresztül átutalhatják azt a pénztárcájukba.",
             "- A rendszer a felhasználói tevékenységi nyilvántartások alapján ellenőrzi, hogy csak a felhasználó végezheti el a műveleteket.",
             "- A hitelesítést követően a felhasználók visszavonhatják tokenjeiket a tárcájukba",
-            "- **Minimum Withdrawal Threshold**: 10 $moonini",
+            "- **Minimum Withdrawal Threshold**: 10 $MOONINI",
             "- **Tranzakciós díj**: A felhasználóknak csak a hálózati tranzakciós díjat kell megfizetniük (a blokklánc gyakorlatoknak megfelelően)",
             "",
             "*A részletes műszaki végrehajtáshoz kérjük, hivatkozzon a következőre: [Műszaki Specifikációs Dokumentum](/hu-HU/docs/technical)*"
@@ -957,7 +953,7 @@
             "- **Értesítési Mechanizmus**: Automatikus értesítések küldése a kedvezményezetteknek, miután minden kibocsátás befejeződött.",
             "",
             "**Példa**:",
-            "- A Befektető A 1,000,000 $moonini-t kap",
+            "- A Befektető A 1,000,000 $MOONINI-t kap",
             "- Első 3 hónap: Lekötési időszak, a kivételek nem engedélyezettek",
             "- A 4. hónaptól kezdve: A tokenek időben lineárisan gyűlnek, a felhalmozott rész rendszeres kivonása mellett.",
             "- 33 hónap után: Minden kiadás befejezve."
@@ -1043,7 +1039,7 @@
           "title": "5.3 Visszavásárlás és Piacszabályozás (POL - Korlátlan Visszavásárlás + Alapár Védelem)",
           "mechanism": [
             "**Mechanizmus**:",
-            "- **1%** a platform tranzakciós díjakból, amelyet a $moonini visszavásárlására használnak és a likviditási medence mélyítésére.",
+            "- **1%** a platform tranzakciós díjakból, amelyet a $MOONINI visszavásárlására használnak és a likviditási medence mélyítésére.",
             "- **Korlátlan visszavásárlás**: Nincs napi korlát a visszavásárlásokra; annyi tranzakciós díj, amennyi van, a visszavásárlások továbbra is likviditási támogatást nyújtanak a token számára.",
             "- **Automatizált Stratégia**: Okos visszavásárlási stratégiák alkalmazása a kiszámíthatóság csökkentésére és a piaci manipuláció elkerülésére",
             "- **Védelem vásárlása**: Automatikusan növeli a visszavásárlási erőfeszítéseket, ha jelentős piaci csökkenés történik, védve a befektetők érdekeit"
@@ -1110,11 +1106,11 @@
       },
       "incentives": {
         "how_to_earn": {
-          "title": "6.1 Hogyan szerezhetjük meg a $moonini-t?",
+          "title": "6.1 Hogyan szerezhetjük meg a $MOONINI-t?",
           "send_gift": [
             "#### A. Piros Csomagok Küldése",
             "",
-            "- **Alap szabályok**: Minden elküldött **1 USDT** red packet (több token is támogatott) után a rendszer kiszámítja és elosztja a $moonini-t a jelenlegi fázis árfolyama alapján.",
+            "- **Alap szabályok**: Minden elküldött **1 USDT** red packet (több token is támogatott) után a rendszer kiszámítja és elosztja a $MOONINI-t a jelenlegi fázis árfolyama alapján.",
             "- **Áldások Közvetítése**: A Red Packet nem csupán pénz; áldások közvetítője. Minden ajándékozási cselekedet rögzítésre kerül a blokkláncon és jutalmazásra kerül."
           ],
           "invite": [
@@ -1147,7 +1143,7 @@
             "",
             "**Díjak használata**:",
             "- **1% Műveletek**: A szerver, fejlesztési és marketingköltségekhez használják.",
-            "- **1% Visszavásárlás**: A $moonini visszavásárlására szolgál, és mélyíti a likviditási medencét (a jövőben realizálásra kerül).",
+            "- **1% Visszavásárlás**: A $MOONINI visszavásárlására szolgál, és mélyíti a likviditási medencét (a jövőben realizálásra kerül).",
             "- **3% Csoport Tulajdonosi Profitmegosztás**: Kifizetés a csoport tulajdonosának (csak a csoportok közötti küldés esetén kerül felszámításra)."
           ]
         }
@@ -1156,33 +1152,30 @@
         "contracts": {
           "title": "7.1 Szerződés címe (Folyamatban lévő telepítés)",
           "description": [
-            "Amint a token hivatalosan elindul, itt bejelentjük az összes okos szerződés címet, a megfelelő műszaki specifikációs linkekkel együtt.",
+            "以下為 $MOONINI 核心合約與資產地址。為了確保透明度，所有地址均已公開並可於區塊鏈瀏覽器查詢。",
             "",
-            "**Fő Szerződés Modulok**:",
-            "- Token Szerződés",
-            "- Irányítás és Késleltetés Ellenőrzés",
-            "- Nyilvános Kínálati Pénztár",
-            "- Csapatallokációs Kincstár",
-            "- Visszavásárlás Menedzsment",
-            "- Likviditási alap",
-            "- Többleírásos pénztárca",
+            "**核心地址**：",
+            "- **代幣合約**：`0xe4d5857271c7978F5fe6b29A73C97142D6d8Befe`",
+            "- **鎖倉合約**：`0x0c0cc023d3c82d22aafd05763393f5af6b0922a1`",
+            "- **Likviditási Pool (LP)**：`0x24248E591eC8FDeC9776f87C497746867305963E`",
+            "- **Hatalom Központ**：`0x8c1c793E73372aCD30DD05fE4Cc718A4ADbe1219`",
             "",
-            "*A részletes szerződéscímek és műszaki specifikációk megtekintéséhez kérjük, hivatkozzon a következőre: [Műszaki Specifikációs Dokumentum](/hu-HU/docs/technical)*"
+            "*詳細技術規格請參考：[技術規格文檔](/zh-TW/docs/technical)*"
           ]
         },
         "api": {
           "title": "7.2 Integrációs módok és API (Tervezés alatt)",
           "intro": [
-            "a moonpacket tervezi, hogy egy teljes API ökoszisztémát biztosít, lehetővé téve a külső fejlesztők és partnerek számára, hogy könnyen integrálják a $moonini jutalmazási mechanizmust termékeikbe. Legyen szó Telegram botról, Web3 játékról vagy marketingkampány platformról, API-nk lehetővé teszi a felhasználók számára, hogy $moonini jutalmakat kapjanak, ezzel bővítve az ökológiai hatást."
+            "a moonpacket tervezi, hogy egy teljes API ökoszisztémát biztosít, lehetővé téve a külső fejlesztők és partnerek számára, hogy könnyen integrálják a $MOONINI jutalmazási mechanizmust termékeikbe. Legyen szó Telegram botról, Web3 játékról vagy marketingkampány platformról, API-nk lehetővé teszi a felhasználók számára, hogy $MOONINI jutalmakat kapjanak, ezzel bővítve az ökológiai hatást."
           ],
           "types": [
             "**API típusok**:",
             "",
             "Tervezzük, hogy a következő típusú API-kat biztosítjuk a különböző integrációs igények kielégítésére:",
             "",
-            "- **Adatlekérdező API**: Lekérdezheti a Red Packet elosztási nyilvántartásokat, a feladat teljesítési állapotát, a felhasználó $moonini egyenlegét és még sok mást, lehetővé téve a partnerek számára, hogy megértsék a felhasználói aktivitás állapotát.",
+            "- **Adatlekérdező API**: Lekérdezheti a Red Packet elosztási nyilvántartásokat, a feladat teljesítési állapotát, a felhasználó $MOONINI egyenlegét és még sok mást, lehetővé téve a partnerek számára, hogy megértsék a felhasználói aktivitás állapotát.",
             "",
-            "- **Elosztási és Feladat API**: Lehetővé teszi a partnerek számára, hogy Red Packet elosztásokat vagy feladatjutalmakat indítsanak saját termékeikben, például automatikusan elosztva a $moonini jutalmakat, amikor a felhasználók bizonyos mérföldköveket érnek el egy játékban.",
+            "- **Elosztási és Feladat API**: Lehetővé teszi a partnerek számára, hogy Red Packet elosztásokat vagy feladatjutalmakat indítsanak saját termékeikben, például automatikusan elosztva a $MOONINI jutalmakat, amikor a felhasználók bizonyos mérföldköveket érnek el egy játékban.",
             "",
             "- **Webhook események**: A rendszer proaktívan értesíti a partnereket a fontos eseményekről, például amikor a felhasználók feladatokat teljesítenek, Red Packet-eket igényelnek, vagy befejezik a kivételeket, lehetővé téve ezzel a valós idejű válaszokat és az adatok szinkronizálását."
           ],
@@ -1206,22 +1199,22 @@
             "",
             "- **Zárt Béta**: Hozzáférést biztosítunk partnereinknek és korai játékfejlesztőknek egy zárt béta formátumban, hogy visszajelzéseket gyűjtsünk és optimalizáljuk a tapasztalatokat.",
             "",
-            "- **Fokozatos Megnyitás**: A Béta szakaszban tapasztalt stabilitás ellenőrzése után az alkalmazások fokozatosan meg fognak nyílni, hogy több fejlesztő integrálhassa a $moonini ökoszisztémát.",
+            "- **Fokozatos Megnyitás**: A Béta szakaszban tapasztalt stabilitás ellenőrzése után az alkalmazások fokozatosan meg fognak nyílni, hogy több fejlesztő integrálhassa a $MOONINI ökoszisztémát.",
             "",
             "- **Hivatalos Kiadás**: Amint az API eléri a termelési szintű stabilitást, hivatalosan is megnyílik a nyilvánosság számára, teljes dokumentációval és támogatással."
           ],
           "scenarios": {
             "title": "Tipikus integrációs forgatókönyvek",
             "items": [
-              "**Telegram Bot / Mini App**: Küldj Red Packet-eket a csoportjaidban vagy alkalmazásaidban, hogy a felhasználók $moonini jutalmakat kapjanak, növelve a felhasználói elköteleződést.",
+              "**Telegram Bot / Mini App**: Küldj Red Packet-eket a csoportjaidban vagy alkalmazásaidban, hogy a felhasználók $MOONINI jutalmakat kapjanak, növelve a felhasználói elköteleződést.",
               "",
-              "**Web3 Játékok**: A játékokban a feladatok teljesítési státuszát jelentheti a moonpacketnek, lehetővé téve a játékosok számára, hogy automatikusan további $moonini jutalmakat kapjanak a játékfeladatok befejezésekor.",
+              "**Web3 Játékok**: A játékokban a feladatok teljesítési státuszát jelentheti a moonpacketnek, lehetővé téve a játékosok számára, hogy automatikusan további $MOONINI jutalmakat kapjanak a játékfeladatok befejezésekor.",
               "",
-              "**Marketingkampány Platformok**: Automatikusan küldj $moonini jutalmakat a felhasználói viselkedés alapján a közösségi médiában (pl. megosztás, újratweetelés, követés stb.), precíz marketing elérésével.",
+              "**Marketingkampány Platformok**: Automatikusan küldj $MOONINI jutalmakat a felhasználói viselkedés alapján a közösségi médiában (pl. megosztás, újratweetelés, követés stb.), precíz marketing elérésével.",
               "",
-              "**DeFi protokollok**: Integrálja a $moonini-t, mint egy további jutalmi réteget, lehetővé téve a felhasználók számára, hogy $moonini jutalmakat keressenek az eredeti nyereségek felett, ha specifikus DeFi műveleteket végeznek.",
+              "**DeFi protokollok**: Integrálja a $MOONINI-t, mint egy további jutalmi réteget, lehetővé téve a felhasználók számára, hogy $MOONINI jutalmakat keressenek az eredeti nyereségek felett, ha specifikus DeFi műveleteket végeznek.",
               "",
-              "**Tartalomkészítő Platformok**: Automatikusan kiadja a $moonini jutalmakat, amikor a készítők teljesítik a konkrét feladatokat vagy elérik a mérföldköveket, ösztönözve ezzel a minőségi tartalomkészítést."
+              "**Tartalomkészítő Platformok**: Automatikusan kiadja a $MOONINI jutalmakat, amikor a készítők teljesítik a konkrét feladatokat vagy elérik a mérföldköveket, ösztönözve ezzel a minőségi tartalomkészítést."
             ]
           }
         },
@@ -1312,7 +1305,7 @@
       "faq": {
         "title": "Tíz, megerősítendő ügy",
         "description": [
-          "Ez a fehér könyv a $moonini alapvető tervezési elveit és gazdasági modelljét írja le. Az alábbi ügyek még tanácsadókkal és partnerekkel való egyeztetés alatt állnak, és a főhálózat indítása előtt véglegesítve lesznek:",
+          "Ez a fehér könyv a $MOONINI alapvető tervezési elveit és gazdasági modelljét írja le. Az alábbi ügyek még tanácsadókkal és partnerekkel való egyeztetés alatt állnak, és a főhálózat indítása előtt véglegesítve lesznek:",
           "",
           "- **Tokenkiadás időzítése és listázási tőzsdék**: A konkrét kiadási idő és az, hogy központosított tőzsdéken (CEX) kerül-e listázásra, még mindig tanácsadókkal és partnerekkel való egyeztetés alatt áll.",
           "",
@@ -1390,34 +1383,34 @@
   "api": {
     "actions": {
       "items": {
-        "0": "Olvasd el a [whitepaper](/hu-HU/docs/whitepaper/) dokumentumot, hogy többet megtudhass a $moonini tokenről és annak gazdasági modelljéről.",
+        "0": "Olvasd el a [whitepaper](/hu-HU/docs/whitepaper/) dokumentumot, hogy többet megtudhass a $MOONINI tokenről és annak gazdasági modelljéről.",
         "1": "Olvasd el a [Műszaki Specifikációs Dokumentumot](/hu-HU/docs/technical/) a smart contractok és a kibocsátási mechanizmus megértéséhez.",
         "2": "Kérjük, nyújtsa be API együttműködési kérését hivatalos csatornákon (Telegram, Email), és prioritást élvez, hogy értesítsük, amikor az API készen áll."
       },
       "title": "Mit tehetsz most?"
     },
     "content": {
-      "0": "Ez a oldal hamarosan teljes dokumentációt nyújt a moonpacket / $moonini API-ról, beleértve a REST API technikai részleteit, Webhook eseményeket, OAuth hitelesítést, API Kulcs kezelését és még sok mást.",
+      "0": "Ez a oldal hamarosan teljes dokumentációt nyújt a moonpacket / $MOONINI API-ról, beleértve a REST API technikai részleteit, Webhook eseményeket, OAuth hitelesítést, API Kulcs kezelését és még sok mást.",
       "2": "Az API jelenleg a tervezési és belső validációs szakaszban van, és először egy zárt bétában lesz elérhető néhány kiválasztott partner számára, hogy teszteljék, visszajelzést gyűjtsenek és optimalizálják a tapasztalatot.",
       "4": "Minden műszaki részletet a 'Műszaki Specifikációs Dokumentumra' és a fehér könyvre kell hivatkozni, mielőtt a hivatalos API dokumentáció közzétételre kerül."
     },
-    "description": "Tudja meg, hogyan integrálhatja a moonpacket és a $moonini szolgáltatásokat a termékeibe az API-n keresztül.",
+    "description": "Tudja meg, hogyan integrálhatja a moonpacket és a $MOONINI szolgáltatásokat a termékeibe az API-n keresztül.",
     "seo": {
       "description": "Teljes API dokumentáció, REST API, Webhook és integrációs útmutató",
-      "title": "Moonpacket / $moonini API Dokumentáció — moonpacket"
+      "title": "Moonpacket / $MOONINI API Dokumentáció — moonpacket"
     },
     "status": {
       "planned": "(Tervezés alatt)"
     },
     "subtitle": "Teljes API dokumentáció és integrációs útmutató (tervezés alatt)",
-    "title": "moonpacket / $moonini API Dokumentáció"
+    "title": "moonpacket / $MOONINI API Dokumentáció"
   },
   "countdown": {
     "days": "Ég",
     "hours": "Óra",
     "minutes": "percek",
     "seconds": "másodperc",
-    "title": "A távolság a $moonini hivatalos megjelenéséig"
+    "title": "A távolság a $MOONINI hivatalos megjelenéséig"
   },
   "disclaimer": {
     "badge": "Fontos értesítés",
@@ -1425,25 +1418,25 @@
   },
   "distribution": {
     "back_to_whitepaper": "Visszatérés a Fehér Könyvhöz",
-    "description": "Ismerje meg a $moonini belső elosztási szabályait és számviteli módszereit",
+    "description": "Ismerje meg a $MOONINI belső elosztási szabályait és számviteli módszereit",
     "intro": {
       "0": "**Ez a dokumentum mérnökök és háttérfejlesztők számára készült**, meghatározva a konkrét szabályokat azzal kapcsolatban, hogy 'hogyan kell kibocsátani, hogyan tudják a felhasználók beváltani és megtekinteni' a moonpacket terméken belül.",
       "2": "**Tervezési Elvek**:",
       "3": "- **Minimalis változtatások**: Prioritás az meglévő adatstruktúra használatára, anélkül, hogy azonnal összetett DB táblákat adna hozzá.",
-      "4": "- **Bővíthető**: A jövőben, ha a $moonini teljesen on-chain kíván lenni, csak a kivonási/térképezési logikát kell hozzáadnunk.",
-      "5": "- **Átlátható és Nyomon Követhető**: Minden $moonini elosztás és felhasználás rögzítve van a `user_activity_logs`-ban.",
+      "4": "- **Bővíthető**: A jövőben, ha a $MOONINI teljesen on-chain kíván lenni, csak a kivonási/térképezési logikát kell hozzáadnunk.",
+      "5": "- **Átlátható és Nyomon Követhető**: Minden $MOONINI elosztás és felhasználás rögzítve van a `user_activity_logs`-ban.",
       "7": "**Fő Tartalom**:",
       "8": "- Adatmodell és számviteli módszer (belső főkönyv)",
-      "9": "- $moonini elosztási forrás és szabályok",
+      "9": "- $MOONINI elosztási forrás és szabályok",
       "10": "- Könyvelési végrehajtási részletek",
       "12": "*Ez a dokumentum technikai részleteket tartalmaz, a általános felhasználók a projekt áttekintéséhez a [whitepaper](/hu-HU/docs/whitepaper/) dokumentumot használhatják.*",
       "14": "A részletes dokumentációért kérjük, válogasson itt: `docs/technical/moonini-distribution.md`"
     },
     "seo": {
-      "description": "A $moonini elosztási szabályainak és könyvelési rendszerének utasításai",
-      "title": "$moonini elosztási mechanizmus — moonpacket"
+      "description": "A $MOONINI elosztási szabályainak és könyvelési rendszerének utasításai",
+      "title": "$MOONINI elosztási mechanizmus — moonpacket"
     },
-    "title": "$moonini Elosztás és Gyűjtés Tervezés"
+    "title": "$MOONINI Elosztás és Gyűjtés Tervezés"
   },
   "index": {
     "description": "A projekt dokumentációjának, a fehér könyvnek és a műszaki specifikációknak a befejezése",
@@ -1455,11 +1448,11 @@
   },
   "missions": {
     "back_to_whitepaper": "Vissza a Fehér Réteghez",
-    "description": "Tudd meg, hogyan kereshetsz $moonini-t feladatok és teljesítmények révén.",
+    "description": "Tudd meg, hogyan kereshetsz $MOONINI-t feladatok és teljesítmények révén.",
     "intro": {
-      "0": "**Ez a dokumentum mérnököknek és termékfejlesztőknek szól**, meghatározva a $moonini missziós rendszerét és teljesítménymechanizmusát, ötvözve a sikerélményt és a szociális feladatokat a \"Red Packet + Barátok meghívása\" két alapvető cselekedete mellett.",
+      "0": "**Ez a dokumentum mérnököknek és termékfejlesztőknek szól**, meghatározva a $MOONINI missziós rendszerét és teljesítménymechanizmusát, ötvözve a sikerélményt és a szociális feladatokat a \"Red Packet + Barátok meghívása\" két alapvető cselekedete mellett.",
       "2": "**Tervezési Elvek**:",
-      "3": "- Minden feladat az \"additional $moonini\" körül forog: **Pénzes Red Packet küldése, barátok meghívása, hivatalos közösségek követése**",
+      "3": "- Minden feladat az \"additional $MOONINI\" körül forog: **Pénzes Red Packet küldése, barátok meghívása, hivatalos közösségek követése**",
       "4": "- A 'One-time Task' véglegesen eltűnik a befejezés után.",
       "5": "- A feladatkezelő rendszer csak \"bónuszpontokat\" biztosít, és nem változtatja meg az alap elosztási szabályokat.",
       "7": "**Feladatkategória**:",
@@ -1471,9 +1464,9 @@
     },
     "seo": {
       "description": "A küldetésrendszer és a teljesítménymechanizmus leírásának befejezése",
-      "title": "$moonini Feladat Rendszer — moonpacket"
+      "title": "$MOONINI Feladat Rendszer — moonpacket"
     },
-    "title": "$moonini feladatok és eredmények tervezése"
+    "title": "$MOONINI feladatok és eredmények tervezése"
   },
   "nav": {
     "api": "API Dokumentáció",
@@ -1502,13 +1495,32 @@
     },
     "seo": {
       "description": "A BSC okosszerződési műszaki specifikációk és fejlesztési útmutató teljesítése",
-      "title": "$moonini Műszaki Specifikációk — moonpacket"
+      "title": "$MOONINI Műszaki Specifikációk — moonpacket"
     },
-    "title": "$moonini BSC Műszaki Specifikációk"
+    "title": "$MOONINI BSC Műszaki Specifikációk"
   },
   "title": "Dokumentum",
   "toc": {
     "back_to_index": "Vissza a Dokumentumközpontba",
     "title": "Katalógus"
+  },
+  "docs": {
+    "litepaper": {
+      "content": {
+        "contracts": {
+          "title": "",
+          "description": "",
+          "items": {
+            "token": "$MOONINI Token (Token Mag)",
+            "vesting": "Vesting Vault (V2) (Zárolás Kezelése)",
+            "pool": "Liquidity Pool (LP) (Piaci Likviditás)",
+            "multisig": "Governance Multisig (Hatalom Központ)",
+            "timelock": "Timelock Controller (Késleltetett Irányítás)",
+            "emergency": "Emergency Vault (Biztonsági Puffer)"
+          },
+          "status": ""
+        }
+      }
+    }
   }
 }

@@ -13,11 +13,11 @@
     "Evet, moonini herkesin kırmızı paket enerjisi sayesinde büyüyor.",
     "",
     "Bu enerjiler, Solana zincirinde doğan kırmızı paket belgelerine dönüştü —",
-    "Bu, $moonini Token'ının kökenidir."
+    "Bu, $MOONINI Token'ının kökenidir."
   ],
   "secrets_title": "🌸 Onun Sırrı",
   "secrets_intro": "Her kırmızı paket gönderdiğinizde, moonini ayda bir enerji girişi kaydedecek:",
-  "secrets_flow": "Kırmızı paket gönder → Karşılık gelen enerji değerini üret (USDT değerine dönüştür) → 10 biriktir → Minimum geri alınabilir $moonini değerine ulaş.",
+  "secrets_flow": "Kırmızı paket gönder → Karşılık gelen enerji değerini üret (USDT değerine dönüştür) → 10 biriktir → Minimum geri alınabilir $MOONINI değerine ulaş.",
   "secrets_halving": [
     "Başlangıç aşamasında (Aşama 1), moonini genellikle kırmızı paketi gönderen kişi için en iyi 1:1 oranında geri dönecektir. Adaleti sağlamak ve yıkama/ping-pong riskini azaltmak için etkin enerji kavramını tanıtacağız.",
     "Topluluk tarafından gönderilen ve çekilen toplam miktar, sistemin belirlediği yarılanma eşiğine ulaştığında, ilk yarılanma gerçekleşecektir; daha sonra, bir önceki aşamanın miktarının yarısına ulaşmak başka bir yarılanmayı tetikleyecektir."
@@ -33,37 +33,37 @@
     [
       "Aşama 1",
       "0 ~ 4.5 billion",
-      "1.0 $moonpacket / USDT",
+      "1.0 $MOONINI / USDT",
       "Initial period, energy overflow."
     ],
     [
       "Aşama 2",
       "4.5B ~ 6.75B",
-      "0.5 $moonpacket / USDT",
+      "0.5 $MOONINI / USDT",
       "First halving."
     ],
     [
       "Aşama 3",
       "6.75B ~ 7.875B",
-      "0.25 $moonpacket / USDT",
+      "0.25 $MOONINI / USDT",
       "Stabilization period."
     ],
     [
       "Aşama 4",
       "7.875B ~ 8.4375B",
-      "0.125 $moonpacket / USDT",
+      "0.125 $MOONINI / USDT",
       "Scarcity period."
     ],
     [
       "Aşama 5",
       "8.4375B ~ 8.71875B",
-      "0.0625 $moonpacket / USDT",
+      "0.0625 $MOONINI / USDT",
       "Late mining phase."
     ],
     [
       "Aşama 6",
       "8.71875B ~ 9B",
-      "0.03125 $moonpacket / USDT",
+      "0.03125 $MOONINI / USDT",
       "Crystallization period (final phase)."
     ]
   ],
@@ -77,12 +77,12 @@
     "moonini, 'paylaşmaya' istekli herkesi sever.",
     "O, kırmızı paketlerin sadece para olmadığını, aynı zamanda bereket ve enerji alışverişi olduğunu inanıyor.",
     "Her seferinde bir kırmızı paket gönderdiğinizde, bir görevi tamamladığınızda veya moonpacket topluluğuna katıldığınızda,",
-    "Şanslı bir şekilde $moonini geri alma şansına sahip olacaksınız.",
+    "Şanslı bir şekilde $MOONINI geri alma şansına sahip olacaksınız.",
     "",
     "Bu, mutluluk yaydıktan sonra evrenin size geri verdiği ışıktır."
   ],
   "future_title": "💫 Gelecek uygulamalar",
-  "future_intro": "Şu anda, $moonini herhangi bir resmi uygulama senaryosu için açık değildir, ancak gelecekteki kırmızı paket dünyası için bir ödül ve enerji belgesi olarak tasarlanmıştır, muhtemel kullanım alanları şunlardır:",
+  "future_intro": "Şu anda, $MOONINI herhangi bir resmi uygulama senaryosu için açık değildir, ancak gelecekteki kırmızı paket dünyası için bir ödül ve enerji belgesi olarak tasarlanmıştır, muhtemel kullanım alanları şunlardır:",
   "future_list": [
     "✅ Kırmızı paket işlem ücreti indirimleri",
     "🎁 Tüccar kuponları/geri ödeme indirimleri",
@@ -90,7 +90,7 @@
   ],
   "disclaimer_title": "⚠️ Beyan",
   "disclaimer_paragraphs": [
-    "Resmi, $moonini için herhangi bir döviz değişim değeri garanti etmemektedir.",
+    "Resmi, $MOONINI için herhangi bir döviz değişim değeri garanti etmemektedir.",
     "Bunu cömert birinin bonus puanı olarak düşünebilirsiniz.",
     "Herkesin mutluluğu paylaşmaya ve enerjiyi yaymaya istekli olduğunu sembolize ediyor."
   ],

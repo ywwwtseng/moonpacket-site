@@ -1,17 +1,17 @@
 {
   "litepaper": {
-    "title": "$moonini Litepaper",
-    "description": "Pahami filosofi desain, model ekonomi, dan nilai-nilai inti dari token $moonini.",
+    "title": "$MOONINI Litepaper",
+    "description": "Pahami filosofi desain, model ekonomi, dan nilai-nilai inti dari token $MOONINI.",
     "seo": {
-      "title": "$moonini Litepaper — moonpacket",
-      "description": "$moonini adalah token insentif komunitas yang berbasis pada platform moonpacket. Pelajari cara memperoleh, menggunakan, dan berinvestasi dalam nilainya."
+      "title": "$MOONINI Litepaper — moonpacket",
+      "description": "$MOONINI adalah token insentif komunitas yang berbasis pada platform moonpacket. Pelajari cara memperoleh, menggunakan, dan berinvestasi dalam nilainya."
     },
     "hero": {
-      "subtitle": "$moonini adalah token insentif komunitas yang berbasis pada platform moonpacket. Semakin banyak pengguna yang terlibat dengan moonpacket, berpartisipasi dalam tugas, dan berinteraksi, semakin banyak $moonini yang bisa mereka peroleh. Untuk investor, 90% didistribusikan kepada pengguna, dan 10% goes kepada tim, dengan mekanisme halving dan rilis linier yang secara efektif mengurangi risiko penjualan mendadak, dirancang untuk stabilitas jangka panjang.",
+      "subtitle": "$MOONINI adalah token insentif komunitas yang berbasis pada platform moonpacket. Semakin banyak pengguna yang terlibat dengan moonpacket, berpartisipasi dalam tugas, dan berinteraksi, semakin banyak $MOONINI yang bisa mereka peroleh. Untuk investor, 90% didistribusikan kepada pengguna, dan 10% goes kepada tim, dengan mekanisme halving dan rilis linier yang secara efektif mengurangi risiko penjualan mendadak, dirancang untuk stabilitas jangka panjang.",
       "cards": {
         "user": {
           "title": "Untuk Pengguna Umum",
-          "description": "Dapatkan $moonini dengan mudah melalui pengiriman angpao, menyelesaikan tugas, mengundang teman, dll. Semakin sering Anda menggunakannya, semakin banyak yang Anda dapatkan, sepenuhnya gratis."
+          "description": "Dapatkan $MOONINI dengan mudah melalui pengiriman angpao, menyelesaikan tugas, mengundang teman, dll. Semakin sering Anda menggunakannya, semakin banyak yang Anda dapatkan, sepenuhnya gratis."
         },
         "investor": {
           "title": "Untuk Investor",
@@ -29,7 +29,7 @@
     "sections": {
       "overview": "Ikhtisar",
       "problem": "Masalah dan Solusi",
-      "concept": "Konsep inti dari moonpacket & $moonini",
+      "concept": "Konsep inti dari moonpacket & $MOONINI",
       "tokenomics": "Tinjauan Tokenomics",
       "emission": "Pembagian dan Rilis",
       "utility": {
@@ -81,8 +81,8 @@
       "overview": {
         "paragraphs": [
           "moonpacket adalah alat angpao crypto dan pemasaran yang dirancang khusus untuk komunitas Telegram. Baik untuk operasi komunitas, promosi acara, atau mengundang pengguna baru, moonpacket dapat membantu Anda mencapainya dengan mudah.",
-          "Untuk mendorong pengguna agar terus menggunakan platform dan membangun hubungan jangka panjang, kami meluncurkan token insentif komunitas $moonini. Setiap perilaku aktif di platform, termasuk mengirim angpao, menyelesaikan tugas, dan mengundang teman, dapat memperoleh imbalan $moonini yang sesuai.",
-          "Untuk pengguna umum, $moonini adalah imbalan tambahan untuk menggunakan Moonpacket; semakin banyak Anda menggunakan, semakin banyak Anda mendapatkan. Untuk para investor, desain ekonomi token $moonini (90% untuk pengguna, 10% untuk tim, pengurangan dalam 6 tahap, pembebasan terkunci) secara efektif mengurangi risiko penjualan jangka pendek dan mendukung stabilitas nilai jangka panjang."
+          "Untuk mendorong pengguna agar terus menggunakan platform dan membangun hubungan jangka panjang, kami meluncurkan token insentif komunitas $MOONINI. Setiap perilaku aktif di platform, termasuk mengirim angpao, menyelesaikan tugas, dan mengundang teman, dapat memperoleh imbalan $MOONINI yang sesuai.",
+          "Untuk pengguna umum, $MOONINI adalah imbalan tambahan untuk menggunakan Moonpacket; semakin banyak Anda menggunakan, semakin banyak Anda mendapatkan. Untuk para investor, desain ekonomi token $MOONINI (90% untuk pengguna, 10% untuk tim, pengurangan dalam 6 tahap, pembebasan terkunci) secara efektif mengurangi risiko penjualan jangka pendek dan mendukung stabilitas nilai jangka panjang."
         ],
         "highlights": {
           "title": "Sorotan Utama",
@@ -105,16 +105,16 @@
           ]
         },
         "solutions": {
-          "title": "Solusi dari moonpacket + $moonini",
+          "title": "Solusi dari moonpacket + $MOONINI",
           "items": [
             "**Lacak perilaku secara lengkap**: moonpacket mencatat penerimaan setiap angpao, perilaku berbagi, dan pengenalan pengguna baru, memungkinkan Anda untuk memahami efektivitas pemasaran dengan jelas.",
-            "**Mekanisme insentif jangka panjang**: Melalui token $moonini, semakin banyak pengguna yang berpartisipasi, semakin banyak yang mereka dapatkan, menetapkan motivasi partisipasi jangka panjang.",
+            "**Mekanisme insentif jangka panjang**: Melalui token $MOONINI, semakin banyak pengguna yang berpartisipasi, semakin banyak yang mereka dapatkan, menetapkan motivasi partisipasi jangka panjang.",
             "**Distribusi nilai yang adil**: 90% token diberikan kepada pengguna, memastikan prioritas komunitas, sementara mekanisme seperti pemotongan dan penguncian mengurangi risiko penjualan mendadak."
           ]
         }
       },
       "concept": {
-        "title": "Konsep Dasar dari moonpacket & $moonini",
+        "title": "Konsep Dasar dari moonpacket & $MOONINI",
         "moonpacket": {
           "title": "Peran moonpacket",
           "description": "moonpacket adalah alat angpao Telegram, tugas, dan pemasaran. Baik Anda seorang operator komunitas, penyelenggara acara, atau proyek yang ingin menarik pengguna baru, Anda dapat menggunakan moonpacket untuk:",
@@ -126,25 +126,25 @@
           ]
         },
         "moonini": {
-          "title": "Peran dari $moonini",
-          "description": "$moonini adalah token poin hadiah yang mengakui perilaku pengguna dan komunitas. Setiap tindakan aktif yang Anda lakukan di moonpacket akan menghasilkan $moonini yang sesuai:",
+          "title": "Peran dari $MOONINI",
+          "description": "$MOONINI adalah token poin hadiah yang mengakui perilaku pengguna dan komunitas. Setiap tindakan aktif yang Anda lakukan di moonpacket akan menghasilkan $MOONINI yang sesuai:",
           "rewards": [
-            "Kirim angpao: Dapatkan $moonini sesuai dengan jumlah angpao dan fase saat ini",
-            "Selesaikan Tugas: Mencapai pencapaian, tugas sosial, dll., menghasilkan tambahan $moonini",
-            "Undang Teman: Dengan sukses mengundang pengguna baru dan menyelesaikan tugas berbagi, kedua belah pihak dapat memperoleh $moonini",
-            "Partisipasi Aktif: Menyelesaikan tindakan tertentu dalam permainan atau aplikasi kolaboratif juga dapat menghasilkan $moonini"
+            "Kirim angpao: Dapatkan $MOONINI sesuai dengan jumlah angpao dan fase saat ini",
+            "Selesaikan Tugas: Mencapai pencapaian, tugas sosial, dll., menghasilkan tambahan $MOONINI",
+            "Undang Teman: Dengan sukses mengundang pengguna baru dan menyelesaikan tugas berbagi, kedua belah pihak dapat memperoleh $MOONINI",
+            "Partisipasi Aktif: Menyelesaikan tindakan tertentu dalam permainan atau aplikasi kolaboratif juga dapat menghasilkan $MOONINI"
           ]
         },
         "logic": {
           "title": "Semakin sering Anda menggunakannya, semakin banyak Anda memperoleh",
-          "description": "Logiknya sederhana: semakin aktif Anda di moonpacket, semakin banyak $moonini yang Anda dapatkan. Peserta awal dapat menikmati rasio hadiah yang lebih tinggi (Tahap 1, dapatkan 1 $moonini untuk setiap 1 USDT angpao yang dikirim). Semakin awal Anda berpartisipasi, semakin besar keuntungan Anda."
+          "description": "Logiknya sederhana: semakin aktif Anda di moonpacket, semakin banyak $MOONINI yang Anda dapatkan. Peserta awal dapat menikmati rasio hadiah yang lebih tinggi (Tahap 1, dapatkan 1 $MOONINI untuk setiap 1 USDT angpao yang dikirim). Semakin awal Anda berpartisipasi, semakin besar keuntungan Anda."
         }
       },
       "tokenomics": {
         "title": "Ikhtisar Tokenomics",
         "total": {
           "title": "Total Pasokan Token",
-          "description": "Total penerbitan $moonini adalah **10.000.000.000 token (10B)**, dengan pasokan tetap dan tanpa penerbitan tambahan."
+          "description": "Total penerbitan $MOONINI adalah **10.000.000.000 token (10B)**, dengan pasokan tetap dan tanpa penerbitan tambahan."
         },
         "allocation": {
           "title": "Rencana Alokasi",
@@ -256,7 +256,7 @@
               ]
             ]
           },
-          "example": "Misalnya: Di Fase 1, jika Anda mengirim angpao 100 USDT, Anda dapat memperoleh 100 $moonini; di Fase 2, mengirim angpao 100 USDT yang sama hanya akan menghasilkan 50 $moonini. Semakin awal Anda berpartisipasi, semakin besar keuntungan Anda!"
+          "example": "Misalnya: Di Fase 1, jika Anda mengirim angpao 100 USDT, Anda dapat memperoleh 100 $MOONINI; di Fase 2, mengirim angpao 100 USDT yang sama hanya akan menghasilkan 50 $MOONINI. Semakin awal Anda berpartisipasi, semakin besar keuntungan Anda!"
         },
         "vesting": {
           "title": "Kunci dan Lepaskan Kuota Tim",
@@ -280,20 +280,20 @@
       "utility": {
         "title": "Akuisisi pengguna dan skenario penggunaan",
         "how_to_earn": {
-          "title": "Cara menghasilkan $moonini?",
+          "title": "Cara menghasilkan $MOONINI?",
           "methods": [
-            "**Kirim angpao**: Untuk setiap **setara dengan 1 USDT** yang dikirim sebagai angpao (mendukung berbagai mata uang), peserta menerima $moonini yang sesuai berdasarkan tahap saat ini.",
+            "**Kirim angpao**: Untuk setiap **setara dengan 1 USDT** yang dikirim sebagai angpao (mendukung berbagai mata uang), peserta menerima $MOONINI yang sesuai berdasarkan tahap saat ini.",
             "**Selesaikan Tugas**: Termasuk tugas pencapaian satu kali dan tugas sosial. Untuk memastikan keadilan, setiap akun diizinkan untuk menyelesaikan setiap tugas hanya sekali atau ditetapkan dengan batas total untuk menghindari pertanian koin yang merugikan.",
             "**Undang Teman**: Undang teman baru dan selesaikan tugas berbagi, kedua pihak menerima hadiah. **Setiap akun memiliki batasan pada hadiah undangan**, dan aturan spesifik dapat mengacu pada pengumuman komunitas.",
-            "**Aplikasi Kolaboratif**: Menyelesaikan tindakan tertentu dalam permainan atau aplikasi yang terintegrasi dengan API moonpacket juga dapat menghasilkan $moonini."
+            "**Aplikasi Kolaboratif**: Menyelesaikan tindakan tertentu dalam permainan atau aplikasi yang terintegrasi dengan API moonpacket juga dapat menghasilkan $MOONINI."
           ]
         },
         "how_to_use": {
-          "title": "Kegunaan $moonini",
+          "title": "Kegunaan $MOONINI",
           "items": [
-            "**Diskon Biaya**: Di masa depan, $moonini dapat digunakan untuk mengurangi sebagian biaya transaksi angpao.",
-            "**Buka Fitur**: Beberapa fitur premium mungkin memerlukan kepemilikan sejumlah $moonini untuk digunakan.",
-            "**Hak Suara dalam Tata Kelola**: Memegang $moonini memungkinkan partisipasi dalam pemungutan suara tata kelola komunitas di masa depan, mempengaruhi arah pengembangan proyek.",
+            "**Diskon Biaya**: Di masa depan, $MOONINI dapat digunakan untuk mengurangi sebagian biaya transaksi angpao.",
+            "**Buka Fitur**: Beberapa fitur premium mungkin memerlukan kepemilikan sejumlah $MOONINI untuk digunakan.",
+            "**Hak Suara dalam Tata Kelola**: Memegang $MOONINI memungkinkan partisipasi dalam pemungutan suara tata kelola komunitas di masa depan, mempengaruhi arah pengembangan proyek.",
             "**Penukaran Ekosistem**: Dapat ditukarkan untuk manfaat atau hadiah khusus di aplikasi atau game mitra."
           ]
         }
@@ -302,7 +302,7 @@
         "title": "Ekosistem Pengembang",
         "description": [
           "moonpacket lebih dari sekadar alat angpao; ini adalah **Lapisan Likuiditas Sosial** yang terbuka.",
-          "Melalui API dan SDK yang standar, Bot Telegram, GameFi, atau aplikasi Web3 mana pun dapat mengakses lapisan insentif $moonini. Anda fokus pada pengembangan produk, dan kami membantu Anda dengan pertumbuhan dan retensi."
+          "Melalui API dan SDK yang standar, Bot Telegram, GameFi, atau aplikasi Web3 mana pun dapat mengakses lapisan insentif $MOONINI. Anda fokus pada pengembangan produk, dan kami membantu Anda dengan pertumbuhan dan retensi."
         ],
         "architecture": {
           "title": "Insentif yang Dapat Diprogram",
@@ -317,14 +317,10 @@
         "title": "Alamat Kontrak",
         "description": "Untuk memastikan transparansi, semua alamat kontrak pintar inti akan diungkapkan dan diverifikasi secara publik.",
         "items": {
-          "token": "$moonini Token (Kontrak Token)",
-          "emission": "Bendungan Emisi (90% Bendungan Penerbitan Publik)",
-          "reserve": "Brankas Cadangan (10% Kuota Tim Brankas)",
-          "phase": "Manajer Fase (Pengontrol Halving)",
+          "token": "$MOONINI Token (Kontrak Token)",
           "vesting": "Ruang Vesting (Pengontrol Pelepasan Linear)",
-          "pol": "Manajer POL (Pembaruan dan Pertahanan Harga Dasar)",
-          "protection": "Perlindungan Peluncuran (Fase Terbuka Anti-Sniping)",
-          "timelock": "Pengontrol Timelock (Kunci Tunda 48 jam)"
+          "pool": "Liquidity Pool (LP) (Likuiditas Pasar)",
+          "multisig": "Governance Multisig (Pusat Kekuasaan)"
         },
         "status": "(Akan diperbarui setelah penerapan mainnet)"
       },
@@ -453,11 +449,11 @@
         "items": [
           {
             "question": "Bagaimana saya bisa mendapatkan token?",
-            "answer": "Anda bisa mendapatkan $moonini dengan mengirim angpao, menyelesaikan tugas, mengundang teman, dan lainnya. Semakin banyak angpao yang Anda kirim dan tugas yang Anda selesaikan, semakin banyak token yang akan Anda peroleh. Peserta awal juga akan menikmati rasio reward yang lebih tinggi."
+            "answer": "Anda bisa mendapatkan $MOONINI dengan mengirim angpao, menyelesaikan tugas, mengundang teman, dan lainnya. Semakin banyak angpao yang Anda kirim dan tugas yang Anda selesaikan, semakin banyak token yang akan Anda peroleh. Peserta awal juga akan menikmati rasio reward yang lebih tinggi."
           },
           {
             "question": "Kapan saya bisa menarik?",
-            "answer": "Setelah mainnet diluncurkan, pengguna dapat menarik $moonini ke dompet mereka. Penarikan memerlukan biaya Gas kecil (biaya jaringan BSC). Harap perhatikan pengumuman resmi untuk waktu peluncuran spesifik."
+            "answer": "Setelah mainnet diluncurkan, pengguna dapat menarik $MOONINI ke dompet mereka. Penarikan memerlukan biaya Gas kecil (biaya jaringan BSC). Harap perhatikan pengumuman resmi untuk waktu peluncuran spesifik."
           },
           {
             "question": "Apakah ada periode penguncian untuk alokasi tim?",
@@ -472,16 +468,16 @@
             "answer": "Kami akan mengurangi risiko melalui audit keamanan pihak ketiga, konfirmasi multi-tanda tangan, eksekusi tertunda, dan mekanisme perlindungan multi-lapis lainnya. Jika terjadi masalah, kami akan segera memulai respons darurat, menentukan rencana penanganan melalui mekanisme tata kelola, dan segera memberitahu komunitas."
           },
           {
-            "question": "Apa total pasokan $moonini? Akankah meningkat?",
-            "answer": "Total pasokan $moonini adalah 10.000.000.000 potongan (10B), dengan total tetap yang tidak akan pernah meningkat. 90% akan dirilis secara bertahap melalui aktivitas pengguna, dan 10% akan diberikan kepada tim dan investor awal."
+            "question": "Apa total pasokan $MOONINI? Akankah meningkat?",
+            "answer": "Total pasokan $MOONINI adalah 10.000.000.000 potongan (10B), dengan total tetap yang tidak akan pernah meningkat. 90% akan dirilis secara bertahap melalui aktivitas pengguna, dan 10% akan diberikan kepada tim dan investor awal."
           },
           {
             "question": "Bagaimana saya bisa berpartisipasi dalam tata kelola?",
-            "answer": "Pemegang $moonini dapat berpartisipasi dalam pemungutan suara tata kelola komunitas di masa depan, mempengaruhi arah pengembangan proyek. Mekanisme tata kelola dan metode pemungutan suara yang spesifik akan diluncurkan secara bertahap setelah mainnet diluncurkan."
+            "answer": "Pemegang $MOONINI dapat berpartisipasi dalam pemungutan suara tata kelola komunitas di masa depan, mempengaruhi arah pengembangan proyek. Mekanisme tata kelola dan metode pemungutan suara yang spesifik akan diluncurkan secara bertahap setelah mainnet diluncurkan."
           },
           {
-            "question": "Bisakah $moonini diperdagangkan?",
-            "answer": "Setelah mainnet diluncurkan dan kolam likuiditas dibentuk, $moonini dapat diperdagangkan di bursa terdesentralisasi (seperti PancakeSwap). Perdagangan akan dipengaruhi oleh penawaran dan permintaan di pasar, dan harga mungkin berfluktuasi, jadi harap berinvestasi dengan hati-hati."
+            "question": "Bisakah $MOONINI diperdagangkan?",
+            "answer": "Setelah mainnet diluncurkan dan kolam likuiditas dibentuk, $MOONINI dapat diperdagangkan di bursa terdesentralisasi (seperti PancakeSwap). Perdagangan akan dipengaruhi oleh penawaran dan permintaan di pasar, dan harga mungkin berfluktuasi, jadi harap berinvestasi dengan hati-hati."
           }
         ]
       }
@@ -719,18 +715,18 @@
     }
   },
   "whitepaper": {
-    "title": "$moonini Whitepaper",
-    "description": "Memahami filosofi desain, model ekonomi, dan arsitektur teknis dari token $moonini",
+    "title": "$MOONINI Whitepaper",
+    "description": "Memahami filosofi desain, model ekonomi, dan arsitektur teknis dari token $MOONINI",
     "seo": {
-      "title": "$moonini Whitepaper — moonpacket",
-      "description": "Deskripsi Lengkap Tokenomics $moonini, Arsitektur Teknis, dan Mekanisme Tata Kelola"
+      "title": "$MOONINI Whitepaper — moonpacket",
+      "description": "Deskripsi Lengkap Tokenomics $MOONINI, Arsitektur Teknis, dan Mekanisme Tata Kelola"
     },
     "hero": {
-      "subtitle": "$moonini adalah token insentif komunitas yang berbasis pada platform moonpacket. Semakin banyak pengguna terlibat dan berinteraksi di moonpacket, semakin banyak $moonini yang dapat mereka peroleh. Untuk investor, 90% didistribusikan kepada pengguna, dan 10% untuk tim, secara efektif mengurangi risiko jatuhnya pasar yang dikombinasikan dengan mekanisme pengurangan dan rilis linier.",
+      "subtitle": "$MOONINI adalah token insentif komunitas yang berbasis pada platform moonpacket. Semakin banyak pengguna terlibat dan berinteraksi di moonpacket, semakin banyak $MOONINI yang dapat mereka peroleh. Untuk investor, 90% didistribusikan kepada pengguna, dan 10% untuk tim, secara efektif mengurangi risiko jatuhnya pasar yang dikombinasikan dengan mekanisme pengurangan dan rilis linier.",
       "cards": {
         "user": {
           "title": "Untuk Pengguna Umum",
-          "description": "Mudah menghasilkan $moonini melalui mengirim angpao, menyelesaikan tugas, dan mengundang teman. Semakin banyak Anda menggunakan, semakin banyak yang Anda peroleh, sepenuhnya gratis."
+          "description": "Mudah menghasilkan $MOONINI melalui mengirim angpao, menyelesaikan tugas, dan mengundang teman. Semakin banyak Anda menggunakan, semakin banyak yang Anda peroleh, sepenuhnya gratis."
         },
         "investor": {
           "title": "Untuk Investor",
@@ -760,13 +756,13 @@
     "content": {
       "overview": {
         "what_is": [
-          "**$moonini** adalah token ekosistem dari platform moonpacket, yang digunakan untuk memberikan penghargaan kepada pengguna atas perilaku aktif di platform, termasuk:",
+          "**$MOONINI** adalah token ekosistem dari platform moonpacket, yang digunakan untuk memberikan penghargaan kepada pengguna atas perilaku aktif di platform, termasuk:",
           "- Mengirim angpao",
           "- Mengundang teman",
           "- Menyelesaikan tugas",
           "- Berpartisipasi dalam kegiatan komunitas",
           "",
-          "**Dalam Istilah Sederhana**: Semakin sering Anda menggunakan moonpacket, semakin banyak $moonini yang akan Anda dapatkan."
+          "**Dalam Istilah Sederhana**: Semakin sering Anda menggunakan moonpacket, semakin banyak $MOONINI yang akan Anda dapatkan."
         ],
         "core_values": {
           "title": "Nilai Inti",
@@ -826,8 +822,8 @@
             "| **Tahap 6** | 8.71875B ~ 9B | **0.03125 token** | Tahap terakhir |",
             "",
             "**Contoh**:",
-            "- Di Tahap 1, jika Anda mengirim 100 USDT angpao, Anda bisa menerima 100 $moonini",
-            "- Di Tahap 2, jika Anda mengirim 100 USDT angpao, Anda hanya bisa menerima 50 $moonini",
+            "- Di Tahap 1, jika Anda mengirim 100 USDT angpao, Anda bisa menerima 100 $MOONINI",
+            "- Di Tahap 2, jika Anda mengirim 100 USDT angpao, Anda hanya bisa menerima 50 $MOONINI",
             "- Semakin awal Anda berpartisipasi, semakin banyak token yang Anda terima!"
           ],
           "value_logic": [
@@ -837,12 +833,12 @@
             "Berasal dari budaya Timur, Angpao tidak hanya mewakili transfer dana tetapi juga cinta dari orang tua untuk anak muda, ucapan selamat, dan berbagi di antara teman. Di moonpacket, setiap kali Anda mengirim Angpao adalah interaksi sosial yang hangat.",
             "",
             "**Dari Perilaku Sosial ke Nilai Ekonomi**:",
-            "Kami percaya bahwa tindakan baik ini harus dicatat dan dihargai. $moonini bukan hanya token penghargaan; ia adalah pembawa nilai dari jaringan sosial ini, menghasilkan efek ekonomi jangka panjang dari setiap 'memberi'.",
+            "Kami percaya bahwa tindakan baik ini harus dicatat dan dihargai. $MOONINI bukan hanya token penghargaan; ia adalah pembawa nilai dari jaringan sosial ini, menghasilkan efek ekonomi jangka panjang dari setiap 'memberi'.",
             "",
             "**Dukungan Nilai Nyata**:",
             "Untuk mempertahankan stabilitas nilai sosial ini, protokol menetapkan: **50% dari pendapatan biaya transaksi akan secara otomatis disuntikkan ke dalam Pool Likuiditas**.",
             "",
-            "Ini berarti: semakin aktif komunitas ➔ semakin banyak interaksi angpao ➔ semakin banyak dana yang disuntikkan ke kolam likuiditas ➔ semakin solid fondasi nilai $moonini. Ini adalah siklus positif yang berdasarkan pada kebutuhan sosial yang nyata dan pendapatan bisnis, bukan semata perjudian spekulatif."
+            "Ini berarti: semakin aktif komunitas ➔ semakin banyak interaksi angpao ➔ semakin banyak dana yang disuntikkan ke kolam likuiditas ➔ semakin solid fondasi nilai $MOONINI. Ini adalah siklus positif yang berdasarkan pada kebutuhan sosial yang nyata dan pendapatan bisnis, bukan semata perjudian spekulatif."
           ]
         }
       },
@@ -909,15 +905,15 @@
             "**Metode Rilis**: Rilis bertahap melalui aktivitas pengguna",
             "",
             "**Sumber Rilis**:",
-            "1. **Kirim angpao**: Setiap kali 1 USDT angpao dikirim, terima $moonini yang sesuai berdasarkan fase saat ini",
-            "2. **Undang Teman**: Berhasil mengundang pengguna baru dan menyelesaikan tugas berbagi untuk menerima $moonini",
-            "3. **Selesaikan Tugas**: Selesaikan tugas pencapaian, tugas sosial, dll., untuk mendapatkan tambahan $moonini",
+            "1. **Kirim angpao**: Setiap kali 1 USDT angpao dikirim, terima $MOONINI yang sesuai berdasarkan fase saat ini",
+            "2. **Undang Teman**: Berhasil mengundang pengguna baru dan menyelesaikan tugas berbagi untuk menerima $MOONINI",
+            "3. **Selesaikan Tugas**: Selesaikan tugas pencapaian, tugas sosial, dll., untuk mendapatkan tambahan $MOONINI",
             "4. **Pembagian Keuntungan Pemilik Grup**: Pemilik grup dapat menerima 3% bagi hasil (USDT) untuk mengirim angpao ke seluruh grup"
           ],
           "cost_vs_price": [
             "💡 **Biaya Produksi vs Harga Pasar**:",
             "",
-            "Pada Tahap 1, biaya implisit untuk mendapatkan 1 $moonini melalui penambangan angpao adalah sekitar **0,02 USDT** (berdasarkan biaya transaksi 2%).",
+            "Pada Tahap 1, biaya implisit untuk mendapatkan 1 $MOONINI melalui penambangan angpao adalah sekitar **0,02 USDT** (berdasarkan biaya transaksi 2%).",
             "",
             "Sementara harga listing awal kami adalah **0,01 USDT**.",
             "",
@@ -925,10 +921,10 @@
           ],
           "withdraw_mechanism": [
             "**Mekanisme Penarikan**:",
-            "- Setelah pengguna memperoleh $moonini di platform, mereka dapat menariknya ke dompet mereka melalui mekanisme verifikasi identitas yang aman.",
+            "- Setelah pengguna memperoleh $MOONINI di platform, mereka dapat menariknya ke dompet mereka melalui mekanisme verifikasi identitas yang aman.",
             "- Sistem akan memverifikasi berdasarkan catatan aktivitas pengguna untuk memastikan bahwa hanya pengguna yang dapat melakukan operasi",
             "- Setelah terverifikasi, pengguna dapat menarik token mereka ke dompet mereka",
-            "- **Ambang Penarikan Minimum**: 10 $moonini",
+            "- **Ambang Penarikan Minimum**: 10 $MOONINI",
             "- **Biaya Transaksi**: Pengguna hanya perlu membayar biaya transaksi jaringan (sesuai dengan praktik blockchain)",
             "",
             "*Untuk implementasi teknis secara rinci, silakan merujuk ke: [Dokumen Spesifikasi Teknis](/id-ID/docs/technical)*"
@@ -957,7 +953,7 @@
             "- **Mekanisme Notifikasi**: Notifikasi otomatis yang dikirim kepada penerima setelah setiap pelepasan selesai.",
             "",
             "**Contoh**:",
-            "- Investor A menerima 1.000.000 $moonini",
+            "- Investor A menerima 1.000.000 $MOONINI",
             "- 3 bulan pertama: Periode penguncian, penarikan tidak diizinkan",
             "- Mulai dari bulan ke-4: Token terakumulasi secara linier seiring berjalannya waktu, dengan penarikan rutin dari bagian yang terakumulasi.",
             "- Setelah 33 bulan: Semua rilis selesai."
@@ -1043,7 +1039,7 @@
           "title": "5.3 Pembelian Kembali dan Pembuatan Pasar (POL - Pembelian Kembali Tak Terbatas + Pertahanan Harga Lantai)",
           "mechanism": [
             "**Mekanisme**:",
-            "- **1%** dari biaya transaksi platform digunakan untuk membeli kembali $moonini dan meningkatkan kolam likuiditas",
+            "- **1%** dari biaya transaksi platform digunakan untuk membeli kembali $MOONINI dan meningkatkan kolam likuiditas",
             "- **Beli Kembali Tanpa Batas**: Tidak ada batas harian untuk beli kembali; sebanyak biaya transaksi yang ada, beli kembali terus memberikan dukungan likuiditas untuk token tersebut.",
             "- **Strategi Terautomasi**: Menggunakan strategi pembelian kembali yang cerdas untuk mengurangi prediktabilitas dan menghindari manipulasi pasar",
             "- **Beli Perlindungan**: Secara otomatis meningkatkan upaya beli kembali ketika terjadi penurunan pasar yang signifikan, melindungi kepentingan investor"
@@ -1110,11 +1106,11 @@
       },
       "incentives": {
         "how_to_earn": {
-          "title": "6.1 Bagaimana cara mendapatkan $moonini?",
+          "title": "6.1 Bagaimana cara mendapatkan $MOONINI?",
           "send_gift": [
             "#### A. Mengirim Angpao",
             "",
-            "- **Aturan Dasar**: Untuk setiap **setara dengan 1 USDT** angpao yang dikirim (mendukung beberapa token), sistem akan menghitung dan mendistribusikan $moonini berdasarkan tarif pertukaran fase saat ini.",
+            "- **Aturan Dasar**: Untuk setiap **setara dengan 1 USDT** angpao yang dikirim (mendukung beberapa token), sistem akan menghitung dan mendistribusikan $MOONINI berdasarkan tarif pertukaran fase saat ini.",
             "- **Menyampaikan Berkah**: angpao bukan sekadar uang; mereka adalah sarana untuk menyampaikan berkah. Setiap tindakan memberi akan dicatat di blockchain dan diberi imbalan."
           ],
           "invite": [
@@ -1147,7 +1143,7 @@
             "",
             "**Penggunaan Biaya**:",
             "- **1% Operasional**: Digunakan untuk biaya server, pengembangan, dan pemasaran.",
-            "- **1% Pembelian Kembali**: Digunakan untuk membeli kembali $moonini dan memperdalam LP (akan direalisasikan di masa depan).",
+            "- **1% Pembelian Kembali**: Digunakan untuk membeli kembali $MOONINI dan memperdalam LP (akan direalisasikan di masa depan).",
             "- **3% Pembagian Keuntungan Pemilik Grup**: Dibayar kepada pemilik grup (hanya dikenakan biaya untuk pengiriman lintas grup)."
           ]
         }
@@ -1156,33 +1152,30 @@
         "contracts": {
           "title": "7.1 Alamat Kontrak (Menunggu Penempatan)",
           "description": [
-            "Setelah token diluncurkan secara resmi, semua alamat kontrak pintar akan diumumkan di sini, bersamaan dengan tautan spesifikasi teknis yang sesuai.",
+            "以下為 $MOONINI 核心合約與資產地址。為了確保透明度，所有地址均已公開並可於區塊鏈瀏覽器查詢。",
             "",
-            "**Modul Kontrak Utama**:",
-            "- Kontrak Token",
-            "- Tata Kelola dan Kontrol Penundaan",
-            "- Penawaran Umum Perbendaharaan",
-            "- Alokasi Tim Kas",
-            "- Manajemen Buyback",
-            "- Pool Likuiditas",
-            "- Dompet Multi-Tanda Tangan",
+            "**核心地址**：",
+            "- **代幣合約**：`0xe4d5857271c7978F5fe6b29A73C97142D6d8Befe`",
+            "- **鎖倉合約**：`0x0c0cc023d3c82d22aafd05763393f5af6b0922a1`",
+            "- **Pool Likuiditas (LP)**：`0x24248E591eC8FDeC9776f87C497746867305963E`",
+            "- **Pusat Kekuasaan**：`0x8c1c793E73372aCD30DD05fE4Cc718A4ADbe1219`",
             "",
-            "*Untuk alamat kontrak dan spesifikasi teknis yang lebih rinci, silakan merujuk ke: [Dokumen Spesifikasi Teknis](/id-ID/docs/technical)*"
+            "*詳細技術規格請參考：[技術規格文檔](/zh-TW/docs/technical)*"
           ]
         },
         "api": {
           "title": "7.2 Mode Integrasi dan API (Dalam Perencanaan)",
           "intro": [
-            "moonpacket berencana untuk menyediakan ekosistem API yang lengkap, memungkinkan pengembang dan mitra pihak ketiga untuk dengan mudah mengintegrasikan mekanisme hadiah $moonini ke dalam produk mereka. Baik itu bot Telegram, permainan Web3, atau platform kampanye pemasaran, API kami memungkinkan pengguna untuk menerima hadiah $moonini, memperluas pengaruh ekologi."
+            "moonpacket berencana untuk menyediakan ekosistem API yang lengkap, memungkinkan pengembang dan mitra pihak ketiga untuk dengan mudah mengintegrasikan mekanisme hadiah $MOONINI ke dalam produk mereka. Baik itu bot Telegram, permainan Web3, atau platform kampanye pemasaran, API kami memungkinkan pengguna untuk menerima hadiah $MOONINI, memperluas pengaruh ekologi."
           ],
           "types": [
             "**Jenis API**:",
             "",
             "Kami berencana untuk menyediakan jenis API berikut untuk memenuhi berbagai kebutuhan integrasi:",
             "",
-            "- **API Pembacaan Data**: Kuery catatan distribusi angpao, status penyelesaian tugas, saldo $moonini pengguna, dan lainnya, memungkinkan mitra untuk memahami status aktifitas pengguna.",
+            "- **API Pembacaan Data**: Kuery catatan distribusi angpao, status penyelesaian tugas, saldo $MOONINI pengguna, dan lainnya, memungkinkan mitra untuk memahami status aktifitas pengguna.",
             "",
-            "- **Distribusi dan API Tugas**: Memungkinkan mitra untuk memicu distribusi angpao atau penghargaan tugas dalam produk mereka sendiri, misalnya, secara otomatis mendistribusikan reward $moonini saat pengguna mencapai tonggak tertentu dalam sebuah permainan.",
+            "- **Distribusi dan API Tugas**: Memungkinkan mitra untuk memicu distribusi angpao atau penghargaan tugas dalam produk mereka sendiri, misalnya, secara otomatis mendistribusikan reward $MOONINI saat pengguna mencapai tonggak tertentu dalam sebuah permainan.",
             "",
             "- **Acara Webhook**: Sistem secara proaktif memberitahukan mitra tentang acara penting seperti saat pengguna menyelesaikan tugas, mengklaim angpao, atau menyelesaikan penarikan, memungkinkan respons waktu nyata dan sinkronisasi data."
           ],
@@ -1206,22 +1199,22 @@
             "",
             "- **Beta Tertutup**: Awalnya disediakan untuk mitra dan pengembang permainan awal dalam format beta tertutup untuk mengumpulkan umpan balik dan mengoptimalkan pengalaman.",
             "",
-            "- **Pembukaan Bertahap**: Setelah memverifikasi stabilitas selama fase Beta, aplikasi akan dibuka secara bertahap untuk memungkinkan lebih banyak pengembang mengintegrasikan ekosistem $moonini.",
+            "- **Pembukaan Bertahap**: Setelah memverifikasi stabilitas selama fase Beta, aplikasi akan dibuka secara bertahap untuk memungkinkan lebih banyak pengembang mengintegrasikan ekosistem $MOONINI.",
             "",
             "- **Rilis Resmi**: Setelah API mencapai stabilitas tingkat produksi, ini akan secara resmi dibuka untuk umum, menyediakan dokumentasi dan dukungan yang lengkap."
           ],
           "scenarios": {
             "title": "Skenario Integrasi Tipikal",
             "items": [
-              "**Bot Telegram / Aplikasi Mini**: Kirim angpao di grup atau aplikasi Anda untuk memungkinkan pengguna menerima hadiah $moonini, meningkatkan keterlibatan pengguna.",
+              "**Bot Telegram / Aplikasi Mini**: Kirim angpao di grup atau aplikasi Anda untuk memungkinkan pengguna menerima hadiah $MOONINI, meningkatkan keterlibatan pengguna.",
               "",
-              "**Game Web3**: Laporkan status penyelesaian tugas dalam permainan ke moonpacket, memungkinkan pemain untuk secara otomatis menerima tambahan hadiah $moonini setelah menyelesaikan tugas permainan.",
+              "**Game Web3**: Laporkan status penyelesaian tugas dalam permainan ke moonpacket, memungkinkan pemain untuk secara otomatis menerima tambahan hadiah $MOONINI setelah menyelesaikan tugas permainan.",
               "",
-              "**Platform Kampanye Pemasaran**: Kirim secara otomatis hadiah $moonini berdasarkan perilaku pengguna di media sosial (misalnya, berbagi, me-retweet, mengikuti, dll.), mencapai pemasaran yang tepat.",
+              "**Platform Kampanye Pemasaran**: Kirim secara otomatis hadiah $MOONINI berdasarkan perilaku pengguna di media sosial (misalnya, berbagi, me-retweet, mengikuti, dll.), mencapai pemasaran yang tepat.",
               "",
-              "**Protokol DeFi**: Integrasikan $moonini sebagai lapisan hadiah tambahan, yang memungkinkan pengguna untuk mendapatkan hadiah $moonini di atas keuntungan asli untuk menyelesaikan tindakan DeFi tertentu.",
+              "**Protokol DeFi**: Integrasikan $MOONINI sebagai lapisan hadiah tambahan, yang memungkinkan pengguna untuk mendapatkan hadiah $MOONINI di atas keuntungan asli untuk menyelesaikan tindakan DeFi tertentu.",
               "",
-              "**Platform Pembuatan Konten**: Secara otomatis mengeluarkan hadiah $moonini ketika kreator menyelesaikan tugas tertentu atau mencapai tonggak, mendorong pembuatan konten berkualitas."
+              "**Platform Pembuatan Konten**: Secara otomatis mengeluarkan hadiah $MOONINI ketika kreator menyelesaikan tugas tertentu atau mencapai tonggak, mendorong pembuatan konten berkualitas."
             ]
           }
         },
@@ -1312,7 +1305,7 @@
       "faq": {
         "title": "Sepuluh, Masalah yang Perlu Dikonfirmasi",
         "description": [
-          "Dokumen ini menjelaskan prinsip desain inti dan model ekonomi dari $moonini. Hal-hal berikut masih dalam koordinasi dengan penasihat dan mitra dan akan diselesaikan sebelum peluncuran mainnet:",
+          "Dokumen ini menjelaskan prinsip desain inti dan model ekonomi dari $MOONINI. Hal-hal berikut masih dalam koordinasi dengan penasihat dan mitra dan akan diselesaikan sebelum peluncuran mainnet:",
           "",
           "- **Waktu Penerbitan Token dan Bursa Pencatatan**: Waktu penerbitan spesifik dan apakah token ini akan terdaftar di bursa terpusat (CEX) masih dalam koordinasi dengan penasihat dan mitra.",
           "",
@@ -1390,34 +1383,34 @@
   "api": {
     "actions": {
       "items": {
-        "0": "Baca [whitepaper](/id-ID/docs/whitepaper/) untuk mempelajari tentang token $moonini dan model ekonominya.",
+        "0": "Baca [whitepaper](/id-ID/docs/whitepaper/) untuk mempelajari tentang token $MOONINI dan model ekonominya.",
         "1": "Baca [Dokumen Spesifikasi Teknis](/id-ID/docs/technical/) untuk memahami kontrak pintar dan mekanisme rilis.",
         "2": "Kirim permintaan kolaborasi API Anda melalui saluran resmi (Telegram, Email), dan kami akan memprioritaskan memberi tahu Anda saat API sudah siap."
       },
       "title": "Apa yang bisa Anda lakukan sekarang?"
     },
     "content": {
-      "0": "Halaman ini akan segera menyediakan dokumentasi lengkap untuk API Moonpacket / $moonini, termasuk rincian teknis tentang REST API, event Webhook, autentikasi OAuth, manajemen API Key, dan banyak lagi.",
+      "0": "Halaman ini akan segera menyediakan dokumentasi lengkap untuk API Moonpacket / $MOONINI, termasuk rincian teknis tentang REST API, event Webhook, autentikasi OAuth, manajemen API Key, dan banyak lagi.",
       "2": "API saat ini berada dalam tahap desain dan validasi internal dan akan terlebih dahulu tersedia dalam beta tertutup untuk beberapa mitra terpilih untuk diuji, mengumpulkan umpan balik, dan mengoptimalkan pengalaman.",
       "4": "Semua rincian teknis harus merujuk pada 'Dokumen Spesifikasi Teknis' dan kertas putih sebelum dokumentasi API resmi diterbitkan."
     },
-    "description": "Pelajari cara mengintegrasikan moonpacket dan $moonini ke dalam produk Anda melalui API.",
+    "description": "Pelajari cara mengintegrasikan moonpacket dan $MOONINI ke dalam produk Anda melalui API.",
     "seo": {
       "description": "Dokumentasi API lengkap, REST API, Webhook, dan panduan integrasi",
-      "title": "Dokumentasi API Moonpacket / $moonini — moonpacket"
+      "title": "Dokumentasi API Moonpacket / $MOONINI — moonpacket"
     },
     "status": {
       "planned": "(Dalam Perencanaan)"
     },
     "subtitle": "Dokumentasi API lengkap dan panduan integrasi (dalam perencanaan)",
-    "title": "Dokumentasi API Moonpacket / $moonini"
+    "title": "Dokumentasi API Moonpacket / $MOONINI"
   },
   "countdown": {
     "days": "Langit",
     "hours": "Jam",
     "minutes": "menit",
     "seconds": "kedua",
-    "title": "Jarak ke rilis resmi $moonini"
+    "title": "Jarak ke rilis resmi $MOONINI"
   },
   "disclaimer": {
     "badge": "Pemberitahuan Penting",
@@ -1425,25 +1418,25 @@
   },
   "distribution": {
     "back_to_whitepaper": "Kembali ke Buku Putih",
-    "description": "Pahami aturan distribusi internal dan metode akuntansi dari $moonini",
+    "description": "Pahami aturan distribusi internal dan metode akuntansi dari $MOONINI",
     "intro": {
       "0": "**Dokumen ini ditujukan untuk insinyur dan pengembang backend**, yang menjelaskan aturan spesifik tentang 'cara menerbitkan, bagaimana pengguna dapat menebus dan melihat' dalam produk moonpacket.",
       "2": "**Prinsip Desain**:",
       "3": "- **Perubahan Minimal**: Prioritaskan untuk menggunakan struktur data yang ada, tanpa segera menambahkan tabel DB yang kompleks.",
-      "4": "- **Dapat Diperluas**: Di masa depan, jika $moonini ingin sepenuhnya on-chain, kita hanya perlu menambahkan logika penarikan/pemetaan.",
-      "5": "- **Transparan dan Terlacak**: Semua distribusi dan konsumsi $moonini dicatat dalam `user_activity_logs`",
+      "4": "- **Dapat Diperluas**: Di masa depan, jika $MOONINI ingin sepenuhnya on-chain, kita hanya perlu menambahkan logika penarikan/pemetaan.",
+      "5": "- **Transparan dan Terlacak**: Semua distribusi dan konsumsi $MOONINI dicatat dalam `user_activity_logs`",
       "7": "**Konten Utama**:",
       "8": "- Model data dan metode akuntansi (buku besar internal)",
-      "9": "- sumber dan aturan distribusi $moonini",
+      "9": "- sumber dan aturan distribusi $MOONINI",
       "10": "- Rincian pelaksanaan pembukuan",
       "12": "*Dokumen ini berisi rincian teknis, pengguna umum dapat merujuk ke [whitepaper](/id-ID/docs/whitepaper/) untuk mendapatkan gambaran proyek.*",
       "14": "Untuk dokumentasi lengkap, silakan merujuk ke: `docs/technical/moonini-distribution.md`"
     },
     "seo": {
-      "description": "Lengkapi petunjuk distribusi dan sistem akuntansi $moonini",
-      "title": "$moonini mekanisme distribusi — moonpacket"
+      "description": "Lengkapi petunjuk distribusi dan sistem akuntansi $MOONINI",
+      "title": "$MOONINI mekanisme distribusi — moonpacket"
     },
-    "title": "Desain Distribusi dan Koleksi $moonini"
+    "title": "Desain Distribusi dan Koleksi $MOONINI"
   },
   "index": {
     "description": "Lengkapi dokumentasi proyek, whitepaper, dan spesifikasi teknis",
@@ -1455,11 +1448,11 @@
   },
   "missions": {
     "back_to_whitepaper": "Kembali ke White Paper",
-    "description": "Pelajari cara mendapatkan $moonini melalui tugas dan pencapaian.",
+    "description": "Pelajari cara mendapatkan $MOONINI melalui tugas dan pencapaian.",
     "intro": {
-      "0": "**Dokumen ini ditujukan untuk para insinyur dan pengembang produk**, mendefinisikan sistem misi dan mekanisme pencapaian dari $moonini, menggabungkan rasa pencapaian dan tugas sosial di atas dua tindakan inti \"angpao + Undang Teman.\"",
+      "0": "**Dokumen ini ditujukan untuk para insinyur dan pengembang produk**, mendefinisikan sistem misi dan mekanisme pencapaian dari $MOONINI, menggabungkan rasa pencapaian dan tugas sosial di atas dua tindakan inti \"angpao + Undang Teman.\"",
       "2": "**Prinsip Desain**:",
-      "3": "- Semua tugas \"tambahan $moonini\" pada dasarnya berputar di sekitar: **mengirim angpao, mengundang teman, mengikuti komunitas resmi**",
+      "3": "- Semua tugas \"tambahan $MOONINI\" pada dasarnya berputar di sekitar: **mengirim angpao, mengundang teman, mengikuti komunitas resmi**",
       "4": "- 'One-time Task' akan hilang secara permanen setelah selesai.",
       "5": "- Sistem tugas hanya menyediakan \"poin bonus\" dan tidak mengubah aturan distribusi dasar.",
       "7": "**Kategori Tugas**:",
@@ -1471,9 +1464,9 @@
     },
     "seo": {
       "description": "Lengkapi deskripsi sistem misi dan mekanisme pencapaian",
-      "title": "Sistem Tugas $moonini — moonpacket"
+      "title": "Sistem Tugas $MOONINI — moonpacket"
     },
-    "title": "$moonini tugas dan desain pencapaian"
+    "title": "$MOONINI tugas dan desain pencapaian"
   },
   "nav": {
     "api": "Dokumentasi API",
@@ -1502,13 +1495,32 @@
     },
     "seo": {
       "description": "Selesaikan spesifikasi teknis kontrak pintar BSC dan panduan pengembangan",
-      "title": "Spesifikasi Teknik $moonini — moonpacket"
+      "title": "Spesifikasi Teknik $MOONINI — moonpacket"
     },
-    "title": "$moonini Spesifikasi Teknis BSC"
+    "title": "$MOONINI Spesifikasi Teknis BSC"
   },
   "title": "Dokumen",
   "toc": {
     "back_to_index": "Kembali ke Pusat Dokumen",
     "title": "Katalog"
+  },
+  "docs": {
+    "litepaper": {
+      "content": {
+        "contracts": {
+          "title": "",
+          "description": "",
+          "items": {
+            "token": "$MOONINI Token (Inti Token)",
+            "vesting": "Vesting Vault (V2) (Manajemen Kunci)",
+            "pool": "Liquidity Pool (LP) (Likuiditas Pasar)",
+            "multisig": "Governance Multisig (Pusat Kekuasaan)",
+            "timelock": "Timelock Controller (Tata Kelola Tertunda)",
+            "emergency": "Emergency Vault (Buffer Keamanan)"
+          },
+          "status": ""
+        }
+      }
+    }
   }
 }

@@ -1,17 +1,17 @@
 {
   "litepaper": {
-    "title": "$moonini Litepaper",
-    "description": "Pochopte designovou filozofii, ekonomický model a základní hodnoty tokenu $moonini.",
+    "title": "$MOONINI Litepaper",
+    "description": "Pochopte designovou filozofii, ekonomický model a základní hodnoty tokenu $MOONINI.",
     "seo": {
-      "title": "$moonini Litepaper — moonpacket",
-      "description": "$moonini je token pro komunitní pobídky založený na platformě moonpacket. Naučte se, jak jej získat, používat a investovat do jeho hodnoty."
+      "title": "$MOONINI Litepaper — moonpacket",
+      "description": "$MOONINI je token pro komunitní pobídky založený na platformě moonpacket. Naučte se, jak jej získat, používat a investovat do jeho hodnoty."
     },
     "hero": {
-      "subtitle": "$moonini je token incentivující komunitu založený na platformě moonpacket. Čím více uživatelé interagují s moonpacket, účastní se úkolů a komunikují, tím více $moonini mohou vydělat. Pro investory je 90 % rozděleno uživatelům a 10 % jde týmu, s mechanismem půlení a lineárním uvolňováním, které efektivně snižují rizika dumpů, navržené pro dlouhodobou stabilitu.",
+      "subtitle": "$MOONINI je token incentivující komunitu založený na platformě moonpacket. Čím více uživatelé interagují s moonpacket, účastní se úkolů a komunikují, tím více $MOONINI mohou vydělat. Pro investory je 90 % rozděleno uživatelům a 10 % jde týmu, s mechanismem půlení a lineárním uvolňováním, které efektivně snižují rizika dumpů, navržené pro dlouhodobou stabilitu.",
       "cards": {
         "user": {
           "title": "Pro běžné uživatele",
-          "description": "Snadno získejte $moonini posíláním Red Packet, plněním úkolů, zváním přátel atd. Čím více to používáte, tím více vyděláváte, zcela zdarma."
+          "description": "Snadno získejte $MOONINI posíláním Red Packet, plněním úkolů, zváním přátel atd. Čím více to používáte, tím více vyděláváte, zcela zdarma."
         },
         "investor": {
           "title": "Pro investory",
@@ -29,7 +29,7 @@
     "sections": {
       "overview": "Přehled",
       "problem": "Problémy a řešení",
-      "concept": "Základní koncepty moonpacket a $moonini",
+      "concept": "Základní koncepty moonpacket a $MOONINI",
       "tokenomics": "Přehled tokenomics",
       "emission": "Halving a Uvolnění",
       "utility": {
@@ -81,8 +81,8 @@
       "overview": {
         "paragraphs": [
           "moonpacket je kryptoměnový Red Packet a marketingový nástroj navržený výhradně pro komunity na Telegramu. Ať už pro provoz komunity, propagaci akcí nebo pozvání nových uživatelů, moonpacket vám s tím může snadno pomoci.",
-          "Abychom povzbudili uživatele k dalšímu používání platformy a navázali dlouhodobé vztahy, spustili jsme komunitní incentivu token $moonini. Každé aktivní chování na platformě, včetně posílání Red Packet, plnění úkolů a pozvání přátel, může přinést odpovídající odměny v $moonini.",
-          "Pro běžné uživatele je $moonini dodatečnou odměnou za používání moonpacket; čím více používáte, tím více vyděláte. Pro investory je návrh tokenové ekonomiky $moonini (90 % pro uživatele, 10 % pro tým, 6-stupňové snižování, uvolnění zámků) efektivně zaměřen na snížení rizik krátkodobého propadu a je příznivý pro dlouhodobou stabilitu hodnoty."
+          "Abychom povzbudili uživatele k dalšímu používání platformy a navázali dlouhodobé vztahy, spustili jsme komunitní incentivu token $MOONINI. Každé aktivní chování na platformě, včetně posílání Red Packet, plnění úkolů a pozvání přátel, může přinést odpovídající odměny v $MOONINI.",
+          "Pro běžné uživatele je $MOONINI dodatečnou odměnou za používání moonpacket; čím více používáte, tím více vyděláte. Pro investory je návrh tokenové ekonomiky $MOONINI (90 % pro uživatele, 10 % pro tým, 6-stupňové snižování, uvolnění zámků) efektivně zaměřen na snížení rizik krátkodobého propadu a je příznivý pro dlouhodobou stabilitu hodnoty."
         ],
         "highlights": {
           "title": "Hlavní body",
@@ -105,16 +105,16 @@
           ]
         },
         "solutions": {
-          "title": "Řešení Moonpacket + $moonini",
+          "title": "Řešení Moonpacket + $MOONINI",
           "items": [
             "**Úplné sledování chování**: moonpacket zaznamenává příjem každého červeného balíčku, sdílení chování a uvádění nových uživatelů, což vám umožňuje jasně pochopit účinnost marketingu.",
-            "**Dlouhodobé motivační mechanismy**: Prostřednictvím tokenu $moonini, čím více uživatelé participují, tím více vydělávají, čímž se vytváří motivace k dlouhodobé účasti.",
+            "**Dlouhodobé motivační mechanismy**: Prostřednictvím tokenu $MOONINI, čím více uživatelé participují, tím více vydělávají, čímž se vytváří motivace k dlouhodobé účasti.",
             "**Spravedlivé rozdělení hodnoty**: 90 % tokenů jde uživatelům, což zajišťuje prioritu komunity, zatímco mechanismy jako halving a zamčení snižují riziko dumpování."
           ]
         }
       },
       "concept": {
-        "title": "Základní koncepty moonpacket a $moonini",
+        "title": "Základní koncepty moonpacket a $MOONINI",
         "moonpacket": {
           "title": "Role moonpacket",
           "description": "moonpacket je nástroj pro Telegram Red Packet, úkoly a marketing. Ať už jste komunitní operátor, organizátor událostí nebo projekt, který se snaží přitáhnout nové uživatele, můžete moonpacket použít k:",
@@ -126,25 +126,25 @@
           ]
         },
         "moonini": {
-          "title": "Úloha $moonini",
-          "description": "$moonini je token odměnových bodů, který uznává chování uživatelů a komunity. Každá aktivní akce, kterou na moonpacket provedete, vám přináší odpovídající $moonini:",
+          "title": "Úloha $MOONINI",
+          "description": "$MOONINI je token odměnových bodů, který uznává chování uživatelů a komunity. Každá aktivní akce, kterou na moonpacket provedete, vám přináší odpovídající $MOONINI:",
           "rewards": [
-            "Odeslat Red Packet: Získejte odpovídající $moonini na základě částky Red Packet a aktuální fáze",
-            "Dokončete úkoly: Splněním úspěchů, sociálních úkolů atd. získáte navíc $moonini",
-            "Pozvěte přátele: Úspěšně pozvěte nové uživatele a dokončete úkoly sdílení, obě strany mohou vydělat $moonini",
-            "Aktivní účast: Dokončení konkrétních akcí ve spolupráci ve hrách nebo aplikacích může také vydělat $moonini"
+            "Odeslat Red Packet: Získejte odpovídající $MOONINI na základě částky Red Packet a aktuální fáze",
+            "Dokončete úkoly: Splněním úspěchů, sociálních úkolů atd. získáte navíc $MOONINI",
+            "Pozvěte přátele: Úspěšně pozvěte nové uživatele a dokončete úkoly sdílení, obě strany mohou vydělat $MOONINI",
+            "Aktivní účast: Dokončení konkrétních akcí ve spolupráci ve hrách nebo aplikacích může také vydělat $MOONINI"
           ]
         },
         "logic": {
           "title": "Čím více to používáte, tím více vyděláváte",
-          "description": "Logika je jednoduchá: čím aktivnější jste na moonpacket, tím více $moonini vyděláte. Ranní účastníci mohou vychutnat vyšší poměr odměn (Fáze 1, získejte 1 $moonini za každý 1 USDT Red Packet zaslaný). Čím dříve se zúčastníte, tím větší je vaše výhoda."
+          "description": "Logika je jednoduchá: čím aktivnější jste na moonpacket, tím více $MOONINI vyděláte. Ranní účastníci mohou vychutnat vyšší poměr odměn (Fáze 1, získejte 1 $MOONINI za každý 1 USDT Red Packet zaslaný). Čím dříve se zúčastníte, tím větší je vaše výhoda."
         }
       },
       "tokenomics": {
         "title": "Přehled tokenomiky",
         "total": {
           "title": "Celková nabídka tokenů",
-          "description": "Celková emise $moonini je **10 000 000 000 tokenů (10B)**, s pevně stanovenou celkovou nabídkou a bez další emise."
+          "description": "Celková emise $MOONINI je **10 000 000 000 tokenů (10B)**, s pevně stanovenou celkovou nabídkou a bez další emise."
         },
         "allocation": {
           "title": "Plán alokace",
@@ -256,7 +256,7 @@
               ]
             ]
           },
-          "example": "Například: V Fázi 1, pokud odešlete 100 USDT Red Packet, můžete získat 100 $moonini; v Fázi 2, odeslání stejného 100 USDT Red Packet by vám přineslo pouze 50 $moonini. Čím dříve se zapojíte, tím větší je vaše výhoda!"
+          "example": "Například: V Fázi 1, pokud odešlete 100 USDT Red Packet, můžete získat 100 $MOONINI; v Fázi 2, odeslání stejného 100 USDT Red Packet by vám přineslo pouze 50 $MOONINI. Čím dříve se zapojíte, tím větší je vaše výhoda!"
         },
         "vesting": {
           "title": "Uzamčení a uvolnění kvóty týmu",
@@ -280,20 +280,20 @@
       "utility": {
         "title": "Získávání uživatelů a scénáře použití",
         "how_to_earn": {
-          "title": "Jak vydělat $moonini?",
+          "title": "Jak vydělat $MOONINI?",
           "methods": [
-            "**Odeslat Red Packet**: Za každý **ekvivalent 1 USDT** odeslaný jako Red Packet (podporující více měn) účastníci obdrží odpovídající $moonini na základě aktuální fáze.",
+            "**Odeslat Red Packet**: Za každý **ekvivalent 1 USDT** odeslaný jako Red Packet (podporující více měn) účastníci obdrží odpovídající $MOONINI na základě aktuální fáze.",
             "**Dokončit úkoly**: Zahrnuje jednorázové úkoly a sociální úkoly. Aby byla zajištěna spravedlnost, každému účtu je povoleno dokončit každý úkol pouze jednou nebo je nastaven celkový limit, aby se předešlo zlému farmaření mincí.",
             "**Pozvi přátele**: Pozvi nové přátele a dokonči úkoly sdílení, obě strany obdrží odměny. **Každý účet má limit na odměny za pozvání**, a konkrétní pravidla se řídí oznámeními komunity.",
-            "**Spolupracující aplikace**: Dokončování specifických akcí ve hrách nebo aplikacích integrovaných s Moonpacket API může také přinést $moonini."
+            "**Spolupracující aplikace**: Dokončování specifických akcí ve hrách nebo aplikacích integrovaných s Moonpacket API může také přinést $MOONINI."
           ]
         },
         "how_to_use": {
-          "title": "Použití $moonini",
+          "title": "Použití $MOONINI",
           "items": [
-            "**Slevy na poplatky**: V budoucnu může být $moonini použito k pokrytí části poplatků za transakci Red Packet.",
-            "**Odemkněte funkce**: Některé prémiové funkce mohou vyžadovat držení určitého množství $moonini pro použití.",
-            "**Práva na hlasování v rámci správy**: Držení $moonini umožňuje účast v budoucích hlasováních o správě komunity, ovlivňující směr vývoje projektu.",
+            "**Slevy na poplatky**: V budoucnu může být $MOONINI použito k pokrytí části poplatků za transakci Red Packet.",
+            "**Odemkněte funkce**: Některé prémiové funkce mohou vyžadovat držení určitého množství $MOONINI pro použití.",
+            "**Práva na hlasování v rámci správy**: Držení $MOONINI umožňuje účast v budoucích hlasováních o správě komunity, ovlivňující směr vývoje projektu.",
             "**Redemption Ekosystému**: Můžete jej uplatnit za speciální výhody nebo odměny v partnerských aplikacích nebo hrách."
           ]
         }
@@ -302,7 +302,7 @@
         "title": "Ekosystém vývojářů",
         "description": [
           "moonpacket je více než jen nástroj pro Red Packet; je to otevřená **sociální likviditní vrstva**.",
-          "Díky standardizovaným API a SDK může jakýkoli Telegram bot, GameFi nebo Web3 aplikace přistupovat k incentivní vrstvě $moonini. Soustřeďte se na vývoj produktu a my vám pomůžeme s růstem a udržením."
+          "Díky standardizovaným API a SDK může jakýkoli Telegram bot, GameFi nebo Web3 aplikace přistupovat k incentivní vrstvě $MOONINI. Soustřeďte se na vývoj produktu a my vám pomůžeme s růstem a udržením."
         ],
         "architecture": {
           "title": "Naprogramovatelné pobídky",
@@ -317,14 +317,10 @@
         "title": "Adresa smlouvy",
         "description": "Aby byla zajištěna transparentnost, všechny klíčové adresy chytrých kontraktů budou zveřejněny a ověřeny.",
         "items": {
-          "token": "$moonini Token (Smlouva o minulosti)",
-          "emission": "Emisní trezor (90% trezor veřejného vydání)",
-          "reserve": "Rezervní trezor (10% týmová kvóta trezoru)",
-          "phase": "Správce Fáze (Kontrolor Halvingu)",
+          "token": "$MOONINI Token (Smlouva o minulosti)",
           "vesting": "Vesting Vault (Kontroler lineárního uvolnění)",
-          "pol": "POL Manažer (Odkup a Obrana Cenového Dna)",
-          "protection": "Ochrana spuštění (Otevřená fáze proti snipingům)",
-          "timelock": "Řídicí prvek s časovým zámkem (48hodinový zpožděný zámek)"
+          "pool": "Liquidity Pool (LP) (Tržní Likvidita)",
+          "multisig": "Governance Multisig (Centrum Moci)"
         },
         "status": "(Bude aktualizováno po nasazení mainnetu)"
       },
@@ -453,11 +449,11 @@
         "items": [
           {
             "question": "Jak získat tokeny?",
-            "answer": "$moonini můžete získat prostřednictvím odesílání Red Packet, plněním úkolů, pozváním přátel atd. Čím více Red Packet odešlete a čím více úkolů splníte, tím více tokenů získáte. První účastníci získají také vyšší odměny."
+            "answer": "$MOONINI můžete získat prostřednictvím odesílání Red Packet, plněním úkolů, pozváním přátel atd. Čím více Red Packet odešlete a čím více úkolů splníte, tím více tokenů získáte. První účastníci získají také vyšší odměny."
           },
           {
             "question": "Kdy mohu provést výběr?",
-            "answer": "Po spuštění hlavní sítě mohou uživatelé vybrat $moonini do své peněženky. Výběr vyžaduje zaplatit malé poplatky za plyn (poplatky na BSC síti), prosím, sledujte oficiální oznámení pro přesný čas spuštění."
+            "answer": "Po spuštění hlavní sítě mohou uživatelé vybrat $MOONINI do své peněženky. Výběr vyžaduje zaplatit malé poplatky za plyn (poplatky na BSC síti), prosím, sledujte oficiální oznámení pro přesný čas spuštění."
           },
           {
             "question": "Je podíl týmu uzamčen?",
@@ -472,16 +468,16 @@
             "answer": "Snížíme riziko pomocí vícestupňových ochranných mechanismů, jako jsou bezpečnostní audity třetími stranami, potvrzení více podpisy a zpožděné provedení. Pokud nastanou problémy, aktivujeme pohotovostní postup, rozhodneme o řešení prostřednictvím správních mechanismů a včas oznámíme komunitě."
           },
           {
-            "question": "Jaké je celkové množství $moonini? Bude se zvyšovat?",
-            "answer": "Celková nabídka $moonini je 10 000 000 000 kusů (10B), pevně stanovené množství, nikdy se nebude zvyšovat. 90 % bude postupně uvolňováno prostřednictvím uživatelských aktivit, 10 % je určeno týmu a raným investorům."
+            "question": "Jaké je celkové množství $MOONINI? Bude se zvyšovat?",
+            "answer": "Celková nabídka $MOONINI je 10 000 000 000 kusů (10B), pevně stanovené množství, nikdy se nebude zvyšovat. 90 % bude postupně uvolňováno prostřednictvím uživatelských aktivit, 10 % je určeno týmu a raným investorům."
           },
           {
             "question": "Jak se zapojit do správy?",
-            "answer": "Uživatelé, kteří drží $moonini, se mohou zapojit do budoucího hlasování o správě komunity a ovlivnit směr vývoje projektu. Konkrétní mechanismy správy a způsob hlasování budou postupně zaváděny po spuštění hlavní sítě."
+            "answer": "Uživatelé, kteří drží $MOONINI, se mohou zapojit do budoucího hlasování o správě komunity a ovlivnit směr vývoje projektu. Konkrétní mechanismy správy a způsob hlasování budou postupně zaváděny po spuštění hlavní sítě."
           },
           {
-            "question": "Lze obchodovat s $moonini?",
-            "answer": "Po spuštění hlavní sítě a vytvoření likviditního fondu bude možné obchodovat $moonini na decentralizovaných burzách (jako je PancakeSwap). Obchodování bude ovlivněno poptávkou a nabídkou na trhu, ceny se mohou měnit, proto investujte opatrně."
+            "question": "Lze obchodovat s $MOONINI?",
+            "answer": "Po spuštění hlavní sítě a vytvoření likviditního fondu bude možné obchodovat $MOONINI na decentralizovaných burzách (jako je PancakeSwap). Obchodování bude ovlivněno poptávkou a nabídkou na trhu, ceny se mohou měnit, proto investujte opatrně."
           }
         ]
       }
@@ -719,18 +715,18 @@
     }
   },
   "whitepaper": {
-    "title": "$moonini Bíla kniha",
-    "description": "Porozumění designové filozofii, ekonomickému modelu a technické architektuře tokenu $moonini",
+    "title": "$MOONINI Bíla kniha",
+    "description": "Porozumění designové filozofii, ekonomickému modelu a technické architektuře tokenu $MOONINI",
     "seo": {
-      "title": "$moonini Bíla kniha — moonpacket",
-      "description": "Kompletní popis tokenomiky $moonini, technické architektury a mechanismu správy"
+      "title": "$MOONINI Bíla kniha — moonpacket",
+      "description": "Kompletní popis tokenomiky $MOONINI, technické architektury a mechanismu správy"
     },
     "hero": {
-      "subtitle": "$moonini je pobídkový token komunity založený na platformě moonpacket. Čím více se uživatelé zapojují a interagují na moonpacket, tím více $moonini mohou získat. Pro investory je 90 % distribuováno uživatelům a 10 % týmu, čímž se efektivně snižuje riziko kolapsu trhu v kombinaci s mechanismem půlení a lineárním uvolněním.",
+      "subtitle": "$MOONINI je pobídkový token komunity založený na platformě moonpacket. Čím více se uživatelé zapojují a interagují na moonpacket, tím více $MOONINI mohou získat. Pro investory je 90 % distribuováno uživatelům a 10 % týmu, čímž se efektivně snižuje riziko kolapsu trhu v kombinaci s mechanismem půlení a lineárním uvolněním.",
       "cards": {
         "user": {
           "title": "Pro běžné uživatele",
-          "description": "Snadno vydělávejte $moonini zasíláním Red Packets, plněním úkolů a zváním přátel. Čím více používáte, tím více vyděláte, zcela zdarma."
+          "description": "Snadno vydělávejte $MOONINI zasíláním Red Packets, plněním úkolů a zváním přátel. Čím více používáte, tím více vyděláte, zcela zdarma."
         },
         "investor": {
           "title": "Pro investory",
@@ -760,13 +756,13 @@
     "content": {
       "overview": {
         "what_is": [
-          "**$moonini** je token ekosystému platformy moonpacket, který se používá k odměňování uživatelů za aktivní chování na platformě, včetně:",
+          "**$MOONINI** je token ekosystému platformy moonpacket, který se používá k odměňování uživatelů za aktivní chování na platformě, včetně:",
           "- Odesílání červených obálek",
           "- Pozvání přátel",
           "- Dokončení úkolů",
           "- Účast na komunitních aktivitách",
           "",
-          "**Jednoduše řečeno**: Čím více používáte moonpacket, tím více $moonini vyděláte."
+          "**Jednoduše řečeno**: Čím více používáte moonpacket, tím více $MOONINI vyděláte."
         ],
         "core_values": {
           "title": "Základní hodnoty",
@@ -826,8 +822,8 @@
             "| **Fáze 6** | 8.71875B ~ 9B | **0.03125 token** | Poslední fáze |",
             "",
             "**Příklad**:",
-            "- Ve fázi 1, pokud pošlete Red Packet 100 USDT, můžete obdržet 100 $moonini",
-            "- Ve fázi 2, pokud pošlete Red Packet 100 USDT, můžete obdržet pouze 50 $moonini",
+            "- Ve fázi 1, pokud pošlete Red Packet 100 USDT, můžete obdržet 100 $MOONINI",
+            "- Ve fázi 2, pokud pošlete Red Packet 100 USDT, můžete obdržet pouze 50 $MOONINI",
             "- Čím dříve se zapojíte, tím více tokenů obdržíte!"
           ],
           "value_logic": [
@@ -837,12 +833,12 @@
             "Pocházející z východní kultury, Red Packet představuje nejen převod prostředků, ale také lásku od starších k mladším, gratulace a sdílení mezi přáteli. V moonpacket, každé odeslání Red Packet je teplá sociální interakce.",
             "",
             "**Od sociálního chování k ekonomické hodnotě**:",
-            "Věříme, že tyto činy dobré vůle by měly být zaznamenány a oceněny. $moonini není pouze odměnový token; je hodnotovým nosičem této sociální sítě, generující dlouhodobé ekonomické efekty z každého 'dávání'.",
+            "Věříme, že tyto činy dobré vůle by měly být zaznamenány a oceněny. $MOONINI není pouze odměnový token; je hodnotovým nosičem této sociální sítě, generující dlouhodobé ekonomické efekty z každého 'dávání'.",
             "",
             "**Podpora skutečné hodnoty:**",
             "Pro udržení stability této sociální hodnoty protokol specifikuje: **50 % příjmů z transakčních poplatků bude automaticky vloženo do likviditního fondu**.",
             "",
-            "To znamená: čím aktivnější je komunita ➔ tím více interakcí s Red Packet ➔ tím více prostředků vložených do likviditního poolu ➔ tím solidnější základ hodnoty $moonini. Toto je pozitivní cyklus založený na skutečných společenských potřebách a podnikových příjmech, spíše než pouze spekulativním hazardem."
+            "To znamená: čím aktivnější je komunita ➔ tím více interakcí s Red Packet ➔ tím více prostředků vložených do likviditního poolu ➔ tím solidnější základ hodnoty $MOONINI. Toto je pozitivní cyklus založený na skutečných společenských potřebách a podnikových příjmech, spíše než pouze spekulativním hazardem."
           ]
         }
       },
@@ -909,15 +905,15 @@
             "**Metoda vydání**: Postupné vydání prostřednictvím uživatelských aktivit",
             "",
             "**Zdroje verze**:",
-            "1. **Odeslat Red Packet**: Za každé odeslání 1 USDT Red Packet obdržíte odpovídající $moonini podle aktuální fáze",
-            "2. **Pozvěte přátele**: Úspěšně pozvěte nové uživatele a dokončete úkoly sdílení, abyste získali $moonini",
-            "3. **Dokončete úkoly**: Dokončete úkoly za úspěch, sociální úkoly atd., abyste získali extra $moonini",
+            "1. **Odeslat Red Packet**: Za každé odeslání 1 USDT Red Packet obdržíte odpovídající $MOONINI podle aktuální fáze",
+            "2. **Pozvěte přátele**: Úspěšně pozvěte nové uživatele a dokončete úkoly sdílení, abyste získali $MOONINI",
+            "3. **Dokončete úkoly**: Dokončete úkoly za úspěch, sociální úkoly atd., abyste získali extra $MOONINI",
             "4. **Ziskový Podíl Majitele Skupiny**: Majitelé skupin mohou získat 3% ziskový podíl (USDT) za rozesílání Red Packetů mezi skupinami"
           ],
           "cost_vs_price": [
             "💡 **Náklady na výrobu vs Tržní cena**:",
             "",
-            "V Fázi 1 je implicitní náklad na získání 1 $moonini prostřednictvím těžby Red Packet přibližně **0,02 USDT** (na základě 2% transakčního poplatku).",
+            "V Fázi 1 je implicitní náklad na získání 1 $MOONINI prostřednictvím těžby Red Packet přibližně **0,02 USDT** (na základě 2% transakčního poplatku).",
             "",
             "Naše počáteční cena za uvedení je **0,01 USDT**.",
             "",
@@ -925,10 +921,10 @@
           ],
           "withdraw_mechanism": [
             "**Mechanismus výběru**:",
-            "- Po získání $moonini na platformě mohou uživatelé provést výběr do své peněženky prostřednictvím bezpečného mechanismu ověření identity.",
+            "- Po získání $MOONINI na platformě mohou uživatelé provést výběr do své peněženky prostřednictvím bezpečného mechanismu ověření identity.",
             "- Systém ověří na základě záznamů o aktivitách uživatele, aby zajistil, že operace může provádět pouze uživatel.",
             "- Jakmile budou ověřeni, uživatelé si mohou vybrat své tokeny do své peněženky.",
-            "- **Minimální práh výběru**: 10 $moonini",
+            "- **Minimální práh výběru**: 10 $MOONINI",
             "- **Transakční poplatek**: Uživatelé musí zaplatit pouze poplatek za transakci v síti (v souladu s praktiky blockchainu)",
             "",
             "*Pro podrobné technické provedení se prosím podívejte na: [Dokument technických specifikací](/cs-CZ/docs/technical)*"
@@ -957,7 +953,7 @@
             "- **Mechanismus upozornění**: Automatická upozornění zasílaná příjemcům po dokončení každého uvolnění.",
             "",
             "**Příklad**:",
-            "- Investor A obdrží 1 000 000 $moonini",
+            "- Investor A obdrží 1 000 000 $MOONINI",
             "- První 3 měsíce: Uzamčení, vybírání není povoleno",
             "- Od 4. měsíce: Tokeny se akumulují lineárně v průběhu času, s pravidelnými výběry nahromaděné části",
             "- Po 33 měsících: Všechny vydání dokončena."
@@ -1043,7 +1039,7 @@
           "title": "5.3 Vykup a tržní tvorba (POL - Neomezený vykup + Ochrana podlahové ceny)",
           "mechanism": [
             "**Mechanismus**:",
-            "- **1 %** z poplatků za transakce na platformě použito k odkupu $moonini a prohloubení likviditního fondu",
+            "- **1 %** z poplatků za transakce na platformě použito k odkupu $MOONINI a prohloubení likviditního fondu",
             "- **Neomezené zpětné odkupy**: Žádný denní limit na zpětné odkupy; tolik transakčních poplatků, kolik jich je, zpětné odkupy i nadále poskytují podporu likvidity pro token.",
             "- **Automatizovaná strategie**: Použití chytrých strategií zpětného odkupu k snížení předvídatelnosti a vyhnutí se manipulaci s trhem",
             "- **Koupit ochranu**: Automaticky zvyšuje snahy o zpětný odkup, když dojde k výraznému poklesu na trhu, čímž chrání zájmy investorů."
@@ -1110,11 +1106,11 @@
       },
       "incentives": {
         "how_to_earn": {
-          "title": "6.1 Jak získat $moonini?",
+          "title": "6.1 Jak získat $MOONINI?",
           "send_gift": [
             "#### A. Odesílání Red Packetů",
             "",
-            "- **Základní pravidla**: Za každý odeslaný **ekvivalent 1 USDT** červeného balíčku (podporuje více tokenů) systém vypočítá a rozdělí $moonini na základě aktuálního směnného kurzu fáze.",
+            "- **Základní pravidla**: Za každý odeslaný **ekvivalent 1 USDT** červeného balíčku (podporuje více tokenů) systém vypočítá a rozdělí $MOONINI na základě aktuálního směnného kurzu fáze.",
             "- **Přenos požehnání**: Červené obálky nejsou jen peníze; jsou přenosem požehnání. Každý akt darování bude zaznamenán na blockchainu a odměněn."
           ],
           "invite": [
@@ -1147,7 +1143,7 @@
             "",
             "**Použití poplatků**:",
             "- **1% Operace**: Používá se na náklady spojené se servery, vývojem a marketingem.",
-            "- **1% zpětné odkupy**: Používá se k odkupu $moonini a prohloubení LP (bude realizováno v budoucnu).",
+            "- **1% zpětné odkupy**: Používá se k odkupu $MOONINI a prohloubení LP (bude realizováno v budoucnu).",
             "- **3% Zisk z Podílu pro Vlastníka Skupiny**: Vypláceno vlastníkovi skupiny (poplatek se účtuje pouze za odesílání mezi skupinami)."
           ]
         }
@@ -1156,33 +1152,30 @@
         "contracts": {
           "title": "7.1 Adresa smlouvy (čeká na nasazení)",
           "description": [
-            "Jakmile token oficiálně spustí, zde budou oznámeny všechny adresy chytrých kontraktů spolu se odpovídajícími odkazy na technické specifikace.",
+            "以下為 $MOONINI 核心合約與資產地址。為了確保透明度，所有地址均已公開並可於區塊鏈瀏覽器查詢。",
             "",
-            "**Hlavní smluvní moduly**:",
-            "- Smlouva o tokenu",
-            "- Správa a kontrola prodlev",
-            "- Veřejná nabídka pokladny",
-            "- Alokace týmu (pokladna)",
-            "- Správa odkupu",
-            "- Likviditní fond",
-            "- Víceúčelová peněženka",
+            "**核心地址**：",
+            "- **代幣合約**：`0xe4d5857271c7978F5fe6b29A73C97142D6d8Befe`",
+            "- **鎖倉合約**：`0x0c0cc023d3c82d22aafd05763393f5af6b0922a1`",
+            "- **Pool Likvidity (LP)**：`0x24248E591eC8FDeC9776f87C497746867305963E`",
+            "- **Centrum Moci**：`0x8c1c793E73372aCD30DD05fE4Cc718A4ADbe1219`",
             "",
-            "*Pro podrobné adresy smluv a technické specifikace prosím odkazujte na: [Dokument technických specifikací](/cs-CZ/docs/technical)*"
+            "*詳細技術規格請參考：[技術規格文檔](/zh-TW/docs/technical)*"
           ]
         },
         "api": {
           "title": "7.2 Módy integrace a API (v plánování)",
           "intro": [
-            "moonpacket plánuje poskytnout kompletní API ekosystém, který umožní třetím stranám a partnerům snadno integrovat mechanismus odměn $moonini do svých produktů. Ať už se jedná o Telegram bota, Web3 hru nebo platformu pro marketingové kampaně, naše API umožňuje uživatelům přijímat odměny $moonini a rozšiřovat ekologický vliv."
+            "moonpacket plánuje poskytnout kompletní API ekosystém, který umožní třetím stranám a partnerům snadno integrovat mechanismus odměn $MOONINI do svých produktů. Ať už se jedná o Telegram bota, Web3 hru nebo platformu pro marketingové kampaně, naše API umožňuje uživatelům přijímat odměny $MOONINI a rozšiřovat ekologický vliv."
           ],
           "types": [
             "**Typy API**:",
             "",
             "Plánujeme poskytnout následující typy API, abychom splnili různé integrační potřeby:",
             "",
-            "- **API pro čtení dat**: Dotazujte se na záznamy o distribuci Red Packet, stav dokončení úloh, zůstatek uživatele $moonini a další, což umožňuje partnerům pochopit stav aktivity uživatelů.",
+            "- **API pro čtení dat**: Dotazujte se na záznamy o distribuci Red Packet, stav dokončení úloh, zůstatek uživatele $MOONINI a další, což umožňuje partnerům pochopit stav aktivity uživatelů.",
             "",
-            "- **Distribuční a úkolový API**: Umožňuje partnerům spouštět distribuce Red Packet nebo odměny za úkoly ve svých vlastních produktech, například automaticky distribuovat odměny $moonini, když uživatelé dosáhnou konkrétních milníků ve hře.",
+            "- **Distribuční a úkolový API**: Umožňuje partnerům spouštět distribuce Red Packet nebo odměny za úkoly ve svých vlastních produktech, například automaticky distribuovat odměny $MOONINI, když uživatelé dosáhnou konkrétních milníků ve hře.",
             "",
             "- **Webhook události**: Systém proaktivně informuje partnery o důležitých událostech, jako je dokončení úkolů, uplatnění Red Packet nebo dokončení výběrů, což umožňuje reakce v reálném čase a synchronizaci dat."
           ],
@@ -1206,22 +1199,22 @@
             "",
             "- **Uzavřená Beta**: Původně poskytováno partnerům a raným vývojářům her v formátu uzavřené bety pro sběr zpětné vazby a optimalizaci zkušeností.",
             "",
-            "- **Postupné Otevírání**: Po ověření stability během beta fáze se aplikace postupně otevírají, aby umožnily více vývojářům integrovat ekosystém $moonini.",
+            "- **Postupné Otevírání**: Po ověření stability během beta fáze se aplikace postupně otevírají, aby umožnily více vývojářům integrovat ekosystém $MOONINI.",
             "",
             "- **Oficiální vydání**: Jakmile API dosáhne stabilní produkční úrovně, bude oficiálně otevřeno pro veřejnost, s kompletní dokumentací a podporou."
           ],
           "scenarios": {
             "title": "Typické integrační scénáře",
             "items": [
-              "**Telegram Bot / Mini App**: Posílejte Red Packets ve svých skupinách nebo aplikacích, aby uživatelé mohli získat odměny $moonini a zvýšili tak zapojení uživatelů.",
+              "**Telegram Bot / Mini App**: Posílejte Red Packets ve svých skupinách nebo aplikacích, aby uživatelé mohli získat odměny $MOONINI a zvýšili tak zapojení uživatelů.",
               "",
-              "**Web3 hry**: Nahlaste stav dokončení úkolů ve hrách moonpacket, což hráčům umožní automaticky získat další odměny $moonini po dokončení herních úkolů.",
+              "**Web3 hry**: Nahlaste stav dokončení úkolů ve hrách moonpacket, což hráčům umožní automaticky získat další odměny $MOONINI po dokončení herních úkolů.",
               "",
-              "**Platformy marketingových kampaní**: Automaticky zasílejte odměny $moonini na základě chování uživatelů na sociálních médiích (např. sdílení, přetweetování, sledování atd.), čímž dosáhnete přesného marketingu.",
+              "**Platformy marketingových kampaní**: Automaticky zasílejte odměny $MOONINI na základě chování uživatelů na sociálních médiích (např. sdílení, přetweetování, sledování atd.), čímž dosáhnete přesného marketingu.",
               "",
-              "**DeFi protokoly**: Integrujte $moonini jako další vrstvu odměn, která uživatelům umožní získávat odměny v $moonini navíc k původním ziskům za splnění specifických DeFi akcí.",
+              "**DeFi protokoly**: Integrujte $MOONINI jako další vrstvu odměn, která uživatelům umožní získávat odměny v $MOONINI navíc k původním ziskům za splnění specifických DeFi akcí.",
               "",
-              "**Platformy pro tvorbu obsahu**: Automaticky vydávejte odměny $moonini, když tvůrci dokončí specifické úkoly nebo dosáhnou milníků, což podporuje kvalitní tvorbu obsahu."
+              "**Platformy pro tvorbu obsahu**: Automaticky vydávejte odměny $MOONINI, když tvůrci dokončí specifické úkoly nebo dosáhnou milníků, což podporuje kvalitní tvorbu obsahu."
             ]
           }
         },
@@ -1312,7 +1305,7 @@
       "faq": {
         "title": "Deset, problémy k potvrzení",
         "description": [
-          "Tento white paper popisuje základní zásady návrhu a ekonomický model $moonini. Následující záležitosti jsou stále v koordinaci s poradci a partnery a budou finalizovány před spuštěním mainnetu:",
+          "Tento white paper popisuje základní zásady návrhu a ekonomický model $MOONINI. Následující záležitosti jsou stále v koordinaci s poradci a partnery a budou finalizovány před spuštěním mainnetu:",
           "",
           "- **Časování vydání tokenu a burzy pro kotaci**: Konkrétní čas vydání a to, zda bude kotován na centralizovaných burzách (CEX), je stále v koordinaci s poradci a partnery.",
           "",
@@ -1390,34 +1383,34 @@
   "api": {
     "actions": {
       "items": {
-        "0": "Přečtěte si [whitepaper](/cs-CZ/docs/whitepaper/) a dozvíte se o tokenu $moonini a jeho ekonomickém modelu.",
+        "0": "Přečtěte si [whitepaper](/cs-CZ/docs/whitepaper/) a dozvíte se o tokenu $MOONINI a jeho ekonomickém modelu.",
         "1": "Přečtěte si [Dokument o technických specifikacích](/cs-CZ/docs/technical/), abyste porozuměli chytrým kontraktům a mechanismu uvolňování.",
         "2": "Odešlete svůj požadavek na spolupráci s API přes oficiální kanály (Telegram, e-mail) a my vás prioritně informujeme, když bude API připraveno."
       },
       "title": "Co můžete nyní udělat?"
     },
     "content": {
-      "0": "Tato stránka brzy poskytne kompletní dokumentaci pro Moonpacket / $moonini API, včetně technických podrobností o REST API, událostech Webhook, OAuth autentizaci, správě API klíčů a další.",
+      "0": "Tato stránka brzy poskytne kompletní dokumentaci pro Moonpacket / $MOONINI API, včetně technických podrobností o REST API, událostech Webhook, OAuth autentizaci, správě API klíčů a další.",
       "2": "API je v současnosti ve fázi návrhu a interní validace a bude nejprve zpřístupněna v uzavřené betě pro vybrané partnery, aby ji otestovali, shromáždili zpětnou vazbu a optimalizovali zkušenosti.",
       "4": "Všechny technické detaily by měly odkazovat na 'Dokument technických specifikací' a bílé konto před zveřejněním oficiální dokumentace API."
     },
-    "description": "Zjistěte, jak integrovat moonpacket a $moonini do svých produktů prostřednictvím API.",
+    "description": "Zjistěte, jak integrovat moonpacket a $MOONINI do svých produktů prostřednictvím API.",
     "seo": {
       "description": "Kompletní dokumentace API, REST API, Webhook a průvodce integrací",
-      "title": "Moonpacket / $moonini API Dokumentace — moonpacket"
+      "title": "Moonpacket / $MOONINI API Dokumentace — moonpacket"
     },
     "status": {
       "planned": "(V přípravě)"
     },
     "subtitle": "Dokončit dokumentaci k API a průvodce integrací (v plánování)",
-    "title": "Dokumentace API Moonpacket / $moonini"
+    "title": "Dokumentace API Moonpacket / $MOONINI"
   },
   "countdown": {
     "days": "Sky",
     "hours": "Hodina",
     "minutes": "minuty",
     "seconds": "druhý",
-    "title": "Vzdálenost k oficiálnímu vydání $moonini"
+    "title": "Vzdálenost k oficiálnímu vydání $MOONINI"
   },
   "disclaimer": {
     "badge": "Důležitá zpráva",
@@ -1425,25 +1418,25 @@
   },
   "distribution": {
     "back_to_whitepaper": "Vrátit se k whitepaperu",
-    "description": "Rozumějte interním pravidlům distribuce a účetním metodám $moonini",
+    "description": "Rozumějte interním pravidlům distribuce a účetním metodám $MOONINI",
     "intro": {
       "0": "**Tento dokument je určen pro inženýry a vývojáře backendu**, a definuje specifická pravidla pro 'jak vydávat, jak mohou uživatelé uplatnit a zobrazit' v rámci produktu moonpacket.",
       "2": "**Principy designu**:",
       "3": "- **Minimální změny**: Upřednostněte použití stávající datové struktury, aniž byste okamžitě přidávali složité databázové tabulky.",
-      "4": "- **Rozšiřitelný**: V budoucnu, pokud $moonini chce být plně na blockchainu, stačí přidat logiku pro výběr/mapování.",
-      "5": "- **Transparentní a dohledatelné**: Všechny rozdělení a spotřeba $moonini jsou zaznamenány v `user_activity_logs`",
+      "4": "- **Rozšiřitelný**: V budoucnu, pokud $MOONINI chce být plně na blockchainu, stačí přidat logiku pro výběr/mapování.",
+      "5": "- **Transparentní a dohledatelné**: Všechny rozdělení a spotřeba $MOONINI jsou zaznamenány v `user_activity_logs`",
       "7": "**Hlavní obsah**:",
       "8": "- Datový model a účetní metoda (interní účetnictví)",
-      "9": "- $moonini distribuční zdroj a pravidla",
+      "9": "- $MOONINI distribuční zdroj a pravidla",
       "10": "- Podrobnosti o realizaci účetnictví",
       "12": "*Tento dokument obsahuje technické detaily, běžní uživatelé se mohou odkazovat na [whitepaper](/cs-CZ/docs/whitepaper/) pro přehled projektu.*",
       "14": "Pro podrobnou dokumentaci se prosím odkažte na: `docs/technical/moonini-distribution.md`"
     },
     "seo": {
-      "description": "Dokončete pokyny k pravidlům a účetnímu systému distribuce $moonini",
-      "title": "$moonini distribuční mechanismus — moonpacket"
+      "description": "Dokončete pokyny k pravidlům a účetnímu systému distribuce $MOONINI",
+      "title": "$MOONINI distribuční mechanismus — moonpacket"
     },
-    "title": "$moonini Distribuce a design sběru"
+    "title": "$MOONINI Distribuce a design sběru"
   },
   "index": {
     "description": "Dokončete projektovou dokumentaci, bílou knihu a technické specifikace",
@@ -1455,11 +1448,11 @@
   },
   "missions": {
     "back_to_whitepaper": "Vrátit se k bílé knize",
-    "description": "Zjistěte, jak vydělávat $moonini prostřednictvím úkolů a dosažení.",
+    "description": "Zjistěte, jak vydělávat $MOONINI prostřednictvím úkolů a dosažení.",
     "intro": {
-      "0": "**Tento dokument je určen inženýrům a vývojářům produktů**, definuje systém misí a mechanismus dosažení $moonini, a zahrnuje pocit úspěchu a společenské úkoly nad dvěma základními akcemi \"Red Packet + Pozvi přátele.\"",
+      "0": "**Tento dokument je určen inženýrům a vývojářům produktů**, definuje systém misí a mechanismus dosažení $MOONINI, a zahrnuje pocit úspěchu a společenské úkoly nad dvěma základními akcemi \"Red Packet + Pozvi přátele.\"",
       "2": "**Principy návrhu**:",
-      "3": "- Všechny úkoly \"dodatečný $moonini\" se v zásadě točí kolem: **posílání Red Packetů, zvání přátel, sledování oficiálních komunit**",
+      "3": "- Všechny úkoly \"dodatečný $MOONINI\" se v zásadě točí kolem: **posílání Red Packetů, zvání přátel, sledování oficiálních komunit**",
       "4": "- Úkol 'Jednorázová úloha' trvale zmizí po dokončení.",
       "5": "- Systém úkolů poskytuje pouze \"bonusové body\" a nemění základní pravidla rozdělování.",
       "7": "**Kategorie úkolu**:",
@@ -1471,9 +1464,9 @@
     },
     "seo": {
       "description": "Dokončení popisu systému misí a mechanismu úspěchů",
-      "title": "$moonini Úkolový systém — moonpacket"
+      "title": "$MOONINI Úkolový systém — moonpacket"
     },
-    "title": "$moonini úkoly a design dosažení"
+    "title": "$MOONINI úkoly a design dosažení"
   },
   "nav": {
     "api": "API dokumentace",
@@ -1502,13 +1495,32 @@
     },
     "seo": {
       "description": "Dokončete technické specifikace a vývojovou příručku BSC smart kontraktů",
-      "title": "$moonini Technické specifikace — moonpacket"
+      "title": "$MOONINI Technické specifikace — moonpacket"
     },
-    "title": "$moonini BSC Technické specifikace"
+    "title": "$MOONINI BSC Technické specifikace"
   },
   "title": "Dokument",
   "toc": {
     "back_to_index": "Návrat do Centra dokumentů",
     "title": "Katalog"
+  },
+  "docs": {
+    "litepaper": {
+      "content": {
+        "contracts": {
+          "title": "",
+          "description": "",
+          "items": {
+            "token": "$MOONINI Token (Jádro Tokenu)",
+            "vesting": "Vesting Vault (V2) (Správa Zámku)",
+            "pool": "Liquidity Pool (LP) (Tržní Likvidita)",
+            "multisig": "Governance Multisig (Centrum Moci)",
+            "timelock": "Timelock Controller (Zpožděná Správa)",
+            "emergency": "Emergency Vault (Bezpečnostní Buffer)"
+          },
+          "status": ""
+        }
+      }
+    }
   }
 }

@@ -25,6 +25,7 @@
     "backup:push": "node scripts/backup-smart.mjs --push",
     "deploy:public": "node scripts/deploy-public.mjs",
     "i18n:check": "node scripts/i18n-check.mjs",
+    "i18n:test:chinese": "node scripts/i18n-test-chinese-remnants.mjs",
     "i18n:dry": "node tools/i18n-pipeline.mjs",
     "i18n:apply": "node tools/i18n-apply-from-csv.mjs --locale=zh-TW",
     "i18n:apply:locale": "node tools/i18n-apply-from-csv.mjs",

@@ -40,9 +40,16 @@ export function brandify(input?: string): string {
   result = escapeHtml(result);
   // 還原 Markdown 連結為 HTML
   result = restoreMarkdownLinks(result);
+  
+  // 先處理代幣品牌字：$moonini (不區分大小寫) -> $MOONINI (全大寫，token-mark)
+  // 優先處理帶 $ 的符號，避免被後續的品牌詞處理影響
+  result = result.replace(/\$moonini/gi, '<span class="token-mark">$MOONINI</span>');
+  
   // Replace all occurrences of "moonpacket" (case-insensitive) with brand-mark span.
   result = result.replace(/moonpacket/gi, '<span class="brand-mark">moonpacket</span>');
-  // Replace all occurrences of "moonini" (case-insensitive) with brand-mark span.
-  result = result.replace(/moonini/gi, '<span class="brand-mark">moonini</span>');
+  // Replace all occurrences of "moonini" (不帶 $，case-insensitive) with brand-mark span.
+  // 使用單詞邊界 \b 確保只匹配完整的單詞，避免匹配 $moonini 中的 moonini
+  result = result.replace(/\bmoonini\b/gi, '<span class="brand-mark">moonini</span>');
+  
   return result;
 }

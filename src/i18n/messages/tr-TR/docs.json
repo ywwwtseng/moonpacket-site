@@ -1,17 +1,17 @@
 {
   "litepaper": {
-    "title": "$moonini Litepaper",
-    "description": "$moonini tokeninin tasarım felsefesini, ekonomik modelini ve temel değerlerini anlayın.",
+    "title": "$MOONINI Litepaper",
+    "description": "$MOONINI tokeninin tasarım felsefesini, ekonomik modelini ve temel değerlerini anlayın.",
     "seo": {
-      "title": "$moonini Litepaper — moonpacket",
-      "description": "$moonini, moonpacket platformına dayalı bir topluluk teşvik tokenıdır. Onun değerini nasıl elde edeceğinizi, kullanacağınızı ve yatırım yapacağınızı öğrenin."
+      "title": "$MOONINI Litepaper — moonpacket",
+      "description": "$MOONINI, moonpacket platformına dayalı bir topluluk teşvik tokenıdır. Onun değerini nasıl elde edeceğinizi, kullanacağınızı ve yatırım yapacağınızı öğrenin."
     },
     "hero": {
-      "subtitle": "$moonini, moonpacket platformına dayalı bir topluluk teşvik tokenidir. Kullanıcılar moonpacket ile ne kadar çok etkileşime geçer, görevlere katılır ve etkileşimde bulunursa, o kadar çok $moonini kazanabilirler. Yatırımcılar için, %90 kullanıcılar arasında dağıtılırken, %10 ekip için ayrılmakta, yarıya indirme mekanizması ve doğrusal bir salım ile dump riskleri etkili bir şekilde azaltılmakta ve uzun vadeli istikrar için tasarlanmaktadır.",
+      "subtitle": "$MOONINI, moonpacket platformına dayalı bir topluluk teşvik tokenidir. Kullanıcılar moonpacket ile ne kadar çok etkileşime geçer, görevlere katılır ve etkileşimde bulunursa, o kadar çok $MOONINI kazanabilirler. Yatırımcılar için, %90 kullanıcılar arasında dağıtılırken, %10 ekip için ayrılmakta, yarıya indirme mekanizması ve doğrusal bir salım ile dump riskleri etkili bir şekilde azaltılmakta ve uzun vadeli istikrar için tasarlanmaktadır.",
       "cards": {
         "user": {
           "title": "Genel Kullanıcılar İçin",
-          "description": "Kırmızı Paketler göndererek, görevleri tamamlayarak, arkadaşlarınızı davet ederek vb. kolayca $moonini kazanın. Ne kadar çok kullanırsanız, o kadar fazla kazanırsınız, tamamen ücretsiz."
+          "description": "Kırmızı Paketler göndererek, görevleri tamamlayarak, arkadaşlarınızı davet ederek vb. kolayca $MOONINI kazanın. Ne kadar çok kullanırsanız, o kadar fazla kazanırsınız, tamamen ücretsiz."
         },
         "investor": {
           "title": "Yatırımcılar İçin",
@@ -29,7 +29,7 @@
     "sections": {
       "overview": "Genel Bakış",
       "problem": "Problemler ve Çözümler",
-      "concept": "moonpacket ve $moonini'nin Temel Kavramları",
+      "concept": "moonpacket ve $MOONINI'nin Temel Kavramları",
       "tokenomics": "Tokenomik Genel Bakış",
       "emission": "Yarıya İndirme ve Yayınlama",
       "utility": {
@@ -81,8 +81,8 @@
       "overview": {
         "paragraphs": [
           "moonpacket, Telegram toplulukları için özel olarak tasarlanmış bir kripto Red Packet ve pazarlama aracıdır. Topluluk operasyonları, etkinlik promosyonları veya yeni kullanıcı davetleri için olsun, moonpacket sizin bunu kolaylıkla gerçekleştirmenize yardımcı olabilir.",
-          "Kullanıcıların platformu kullanmaya devam etmelerini teşvik etmek ve uzun vadeli ilişkiler kurmak için $moonini topluluk teşvik token'ını başlattık. Platformda aktif her davranış, kırmızı paket göndermek, görevleri tamamlamak ve arkadaşları davet etmek dahil, karşılık gelen $moonini ödüllerini kazanabilir.",
-          "Genel kullanıcılar için, $moonini Moonpacket kullanmanın ek bir ödülüdür; ne kadar çok kullanırsanız, o kadar çok kazanırsınız. Yatırımcılar için, $moonini'nin token ekonomisi tasarımı (kullanıcılar için %90, ekip için %10, 6 aşamalı yarılanma, kilit açma sürümleri) kısa vadeli dump risklerini etkili bir şekilde azaltır ve uzun vadeli değer istikrarına katkı sağlar."
+          "Kullanıcıların platformu kullanmaya devam etmelerini teşvik etmek ve uzun vadeli ilişkiler kurmak için $MOONINI topluluk teşvik token'ını başlattık. Platformda aktif her davranış, kırmızı paket göndermek, görevleri tamamlamak ve arkadaşları davet etmek dahil, karşılık gelen $MOONINI ödüllerini kazanabilir.",
+          "Genel kullanıcılar için, $MOONINI Moonpacket kullanmanın ek bir ödülüdür; ne kadar çok kullanırsanız, o kadar çok kazanırsınız. Yatırımcılar için, $MOONINI'nin token ekonomisi tasarımı (kullanıcılar için %90, ekip için %10, 6 aşamalı yarılanma, kilit açma sürümleri) kısa vadeli dump risklerini etkili bir şekilde azaltır ve uzun vadeli değer istikrarına katkı sağlar."
         ],
         "highlights": {
           "title": "Temel vurgular",
@@ -105,16 +105,16 @@
           ]
         },
         "solutions": {
-          "title": "Moonpacket + $moonini çözümü",
+          "title": "Moonpacket + $MOONINI çözümü",
           "items": [
             "**Davranış takibini tamamla**: moonpacket, her red packet'ın alınmasını, paylaşım davranışını ve yeni kullanıcı tanıtmalarını kaydeder, böylece pazarlama etkinliğini net bir şekilde anlamanızı sağlar.",
-            "**Uzun vadeli teşvik mekanizmaları**: $moonini token'ı aracılığıyla, kullanıcılar ne kadar fazla katılırlarsa, o kadar fazla kazanırlar ve uzun vadeli katılım motivasyonu oluştururlar.",
+            "**Uzun vadeli teşvik mekanizmaları**: $MOONINI token'ı aracılığıyla, kullanıcılar ne kadar fazla katılırlarsa, o kadar fazla kazanırlar ve uzun vadeli katılım motivasyonu oluştururlar.",
             "**Adil değer dağılımı**: Token'ların %90'ı kullanıcılara gidiyor, topluluk önceliğini sağlıyor, halving ve kilitleme gibi mekanizmalar ise satış risklerini azaltıyor."
           ]
         }
       },
       "concept": {
-        "title": "moonpacket ve $moonini'nin Temel Kavramları",
+        "title": "moonpacket ve $MOONINI'nin Temel Kavramları",
         "moonpacket": {
           "title": "moonpacket'in Rolü",
           "description": "moonpacket, bir Telegram Red Packet, görev ve pazarlama aracıdır. İster bir topluluk yöneticisi, ister bir etkinlik organizatörü, isterse yeni kullanıcılar çekmek isteyen bir proje olun, moonpacket'i kullanabilirsiniz:",
@@ -126,25 +126,25 @@
           ]
         },
         "moonini": {
-          "title": "$moonini'nin Rolü",
-          "description": "$moonini, kullanıcı ve topluluk davranışlarını tanıyan bir ödül puanı token'ıdır. moonpacket'te yaptığınız her aktif eylem, size karşılık gelen $moonini kazandırır:",
+          "title": "$MOONINI'nin Rolü",
+          "description": "$MOONINI, kullanıcı ve topluluk davranışlarını tanıyan bir ödül puanı token'ıdır. moonpacket'te yaptığınız her aktif eylem, size karşılık gelen $MOONINI kazandırır:",
           "rewards": [
-            "Red Packet Gönder: Red Packet tutarına ve mevcut aşamaya göre ilgili $moonini kazanın",
-            "Görevleri Tamamla: Başarılar, sosyal görevler vb. tamamlamak ekstra $moonini kazanmanı sağlar.",
-            "Arkadaşlarını Davet Et: Yeni kullanıcıları başarılı bir şekilde davet et ve paylaşım görevlerini tamamla, her iki taraf da $moonini kazanabilir.",
-            "Aktif Katılım: İşbirlikçi oyunlarda veya uygulamalarda belirli eylemleri tamamlamak da $moonini kazanmanızı sağlayabilir."
+            "Red Packet Gönder: Red Packet tutarına ve mevcut aşamaya göre ilgili $MOONINI kazanın",
+            "Görevleri Tamamla: Başarılar, sosyal görevler vb. tamamlamak ekstra $MOONINI kazanmanı sağlar.",
+            "Arkadaşlarını Davet Et: Yeni kullanıcıları başarılı bir şekilde davet et ve paylaşım görevlerini tamamla, her iki taraf da $MOONINI kazanabilir.",
+            "Aktif Katılım: İşbirlikçi oyunlarda veya uygulamalarda belirli eylemleri tamamlamak da $MOONINI kazanmanızı sağlayabilir."
           ]
         },
         "logic": {
           "title": "Ne kadar çok kullanırsanız, o kadar çok kazanırsınız.",
-          "description": "Mantık basit: moonpacket'ta ne kadar aktif olursanız, o kadar çok $moonini kazanırsınız. Erken katılım gösterenler, daha yüksek bir ödül oranından yararlanabilir (Aşama 1, gönderilen her 1 USDT Red Packet için 1 $moonini kazanın). Ne kadar erken katılırsanız, avantajınız o kadar büyük olur."
+          "description": "Mantık basit: moonpacket'ta ne kadar aktif olursanız, o kadar çok $MOONINI kazanırsınız. Erken katılım gösterenler, daha yüksek bir ödül oranından yararlanabilir (Aşama 1, gönderilen her 1 USDT Red Packet için 1 $MOONINI kazanın). Ne kadar erken katılırsanız, avantajınız o kadar büyük olur."
         }
       },
       "tokenomics": {
         "title": "Tokenomiklerin Genel Görünümü",
         "total": {
           "title": "Toplam Token Arzı",
-          "description": "$moonini'nin toplam arzı **10.000.000.000 token (10B)** olup, sabit bir toplam arzı vardır ve ek bir arz gerçekleşmeyecektir."
+          "description": "$MOONINI'nin toplam arzı **10.000.000.000 token (10B)** olup, sabit bir toplam arzı vardır ve ek bir arz gerçekleşmeyecektir."
         },
         "allocation": {
           "title": "Tahsis Planı",
@@ -256,7 +256,7 @@
               ]
             ]
           },
-          "example": "Örneğin: Aşama 1'de, eğer 100 USDT'lik bir Red Packet gönderirseniz, 100 $moonini kazanabilirsiniz; Aşama 2'de, aynı 100 USDT'lik Red Packet'ı göndermek sadece 50 $moonini kazandırır. Ne kadar erken katılırsanız, avantajınız o kadar büyük olur!"
+          "example": "Örneğin: Aşama 1'de, eğer 100 USDT'lik bir Red Packet gönderirseniz, 100 $MOONINI kazanabilirsiniz; Aşama 2'de, aynı 100 USDT'lik Red Packet'ı göndermek sadece 50 $MOONINI kazandırır. Ne kadar erken katılırsanız, avantajınız o kadar büyük olur!"
         },
         "vesting": {
           "title": "Takım Kotası Kilitlenmesi ve Serbest Bırakılması",
@@ -280,20 +280,20 @@
       "utility": {
         "title": "Kullanıcı kazanımı ve kullanım senaryoları",
         "how_to_earn": {
-          "title": "$moonini nasıl kazanılır?",
+          "title": "$MOONINI nasıl kazanılır?",
           "methods": [
-            "**Kırmızı Paket Gönder**: Bir Kırmızı Paket olarak gönderilen **1 USDT eşdeğeri** için (birden fazla para birimini desteklerken), katılımcılar mevcut aşamaya göre karşılık gelen $moonini alır.",
+            "**Kırmızı Paket Gönder**: Bir Kırmızı Paket olarak gönderilen **1 USDT eşdeğeri** için (birden fazla para birimini desteklerken), katılımcılar mevcut aşamaya göre karşılık gelen $MOONINI alır.",
             "**Görevleri Tamamla**: Tek seferlik başarı görevlerini ve sosyal görevleri içerir. Adaleti sağlamak için, her hesap her görevi yalnızca bir kez tamamlamaya izin verilmiştir veya kötü niyetli madeni para çiftliğini önlemek için toplam bir limit ile ayarlanabilir.",
             "**Arkadaşları Davet Et**: Yeni arkadaşlar davet et ve paylaşım görevlerini tamamla, her iki taraf da ödül kazanır. **Her hesabın davet ödülleri için bir limiti vardır**, ve özel kurallar topluluk duyurularına tabidir.",
-            "**İşbirliği Yapan Uygulamalar**: Moonpacket API ile entegre edilen oyunlarda veya uygulamalarda belirli eylemleri tamamlamak da $moonini kazanabilir."
+            "**İşbirliği Yapan Uygulamalar**: Moonpacket API ile entegre edilen oyunlarda veya uygulamalarda belirli eylemleri tamamlamak da $MOONINI kazanabilir."
           ]
         },
         "how_to_use": {
-          "title": "$moonini Kullanımları",
+          "title": "$MOONINI Kullanımları",
           "items": [
-            "**Ücret İndirimleri**: Gelecekte, $moonini Kırmızı Paket işlem ücretlerinin bir kısmını karşılamak için kullanılabilir.",
-            "**Özellikleri Aç**: Belirli premium özellikleri kullanmak için belirli bir miktar $moonini bulundurmak gerekebilir.",
-            "**Yönetim Oylama Hakları**: $moonini tutmak, gelecekteki topluluk yönetim oylamalarına katılma imkanı sunar, projenin gelişim yönünü etkileme fırsatı verir.",
+            "**Ücret İndirimleri**: Gelecekte, $MOONINI Kırmızı Paket işlem ücretlerinin bir kısmını karşılamak için kullanılabilir.",
+            "**Özellikleri Aç**: Belirli premium özellikleri kullanmak için belirli bir miktar $MOONINI bulundurmak gerekebilir.",
+            "**Yönetim Oylama Hakları**: $MOONINI tutmak, gelecekteki topluluk yönetim oylamalarına katılma imkanı sunar, projenin gelişim yönünü etkileme fırsatı verir.",
             "**Eko Sistem İadesi**: Partner uygulamalarında veya oyunlarda özel avantajlar veya ödüller için kullanılabilir."
           ]
         }
@@ -302,7 +302,7 @@
         "title": "Geliştirici Ekosistemi",
         "description": [
           "moonpacket, sadece bir Red Packet aracı değildir; aynı zamanda açık bir **Sosyal Likidite Katmanı**dır.",
-          "Standart API'ler ve SDK'lar aracılığıyla, herhangi bir Telegram Botu, GameFi veya Web3 uygulaması $moonini teşvik katmanına erişebilir. Ürün geliştirmeye odaklanın, büyüme ve müşteri bağlılığı konusunda size yardımcı olalım."
+          "Standart API'ler ve SDK'lar aracılığıyla, herhangi bir Telegram Botu, GameFi veya Web3 uygulaması $MOONINI teşvik katmanına erişebilir. Ürün geliştirmeye odaklanın, büyüme ve müşteri bağlılığı konusunda size yardımcı olalım."
         ],
         "architecture": {
           "title": "Programlanabilir Teşvikler",
@@ -317,14 +317,10 @@
         "title": "Sözleşme Adresi",
         "description": "Şeffaflığı sağlamak için, tüm temel akıllı sözleşme adresleri halka açıklanacak ve doğrulama işlemine tabi tutulacaktır.",
         "items": {
-          "token": "$moonini Token (Token Sözleşmesi)",
-          "emission": "Emisyon Vault (90% Kamu İhracı Vault'u)",
-          "reserve": "Rezerv Kasa (10% Ekip Kota Kasası)",
-          "phase": "Aşama Yöneticisi (Yarılanma Kontrolörü)",
+          "token": "$MOONINI Token (Token Sözleşmesi)",
           "vesting": "Vesting Vault (Lineer Serbest Bırakma Kontrolörü)",
-          "pol": "POL Yöneticisi (Geri Alım ve Fiyat Tabanı Savunması)",
-          "protection": "Başlatma Koruması (Açık Aşama Anti-Sniping)",
-          "timelock": "Zaman Kilidi Kontrol Cihazı (48 saat Gecikmeli Kilit)"
+          "pool": "Liquidity Pool (LP) (Piyasa Likiditesi)",
+          "multisig": "Governance Multisig (Güç Merkezi)"
         },
         "status": "(Ana ağın devreye alımından sonra güncellenecek)"
       },
@@ -453,11 +449,11 @@
         "items": [
           {
             "question": "Tokenleri nasıl kazanabilirim?",
-            "answer": "Red Packet göndererek, görevleri tamamlayarak, arkadaşlarınızı davet ederek ve daha fazlasıyla $moonini elde edebilirsiniz. Gönderdiğiniz Red Packet sayısı ve tamamladığınız görev sayısı arttıkça daha fazla token kazanırsınız. Erken katılımcılar ayrıca daha yüksek bir ödül oranından yararlanacaktır."
+            "answer": "Red Packet göndererek, görevleri tamamlayarak, arkadaşlarınızı davet ederek ve daha fazlasıyla $MOONINI elde edebilirsiniz. Gönderdiğiniz Red Packet sayısı ve tamamladığınız görev sayısı arttıkça daha fazla token kazanırsınız. Erken katılımcılar ayrıca daha yüksek bir ödül oranından yararlanacaktır."
           },
           {
             "question": "Ne zaman çekim yapabilirim?",
-            "answer": "Ana ağ aktif hale geldikten sonra kullanıcılar $moonini cüzdanlarına çekebilir. Çekimler küçük bir Gas ücreti (BSC ağ ücreti) gerektirir. Lütfen belirli lansman zamanları için resmi duyurulara dikkat edin."
+            "answer": "Ana ağ aktif hale geldikten sonra kullanıcılar $MOONINI cüzdanlarına çekebilir. Çekimler küçük bir Gas ücreti (BSC ağ ücreti) gerektirir. Lütfen belirli lansman zamanları için resmi duyurulara dikkat edin."
           },
           {
             "question": "Ekip tahsisleri için bir kilitlenme süresi var mı?",
@@ -472,16 +468,16 @@
             "answer": "Üçüncü taraf güvenlik denetimleri, çoklu imza onayları, gecikmeli yürütme ve diğer çok katmanlı koruma mekanizmaları ile riskleri azaltacağız. Bir sorun meydana gelirse, hemen acil bir yanıt başlatacağız, yönetim mekanizması aracılığıyla bir çözüm planı belirleyecek ve topluluğu zamanında bilgilendireceğiz."
           },
           {
-            "question": "$moonini'nin toplam arzı nedir? Artacak mı?",
-            "answer": "$moonini'nin toplam arzı 10.000.000.000 parça (10B) olup, artırılamayacak sabit bir toplam arzı vardır. %90, kullanıcı etkinlikleri aracılığıyla kademeli olarak serbest bırakılacak, %10 ise ekibe ve erken yatırımcılara verilecektir."
+            "question": "$MOONINI'nin toplam arzı nedir? Artacak mı?",
+            "answer": "$MOONINI'nin toplam arzı 10.000.000.000 parça (10B) olup, artırılamayacak sabit bir toplam arzı vardır. %90, kullanıcı etkinlikleri aracılığıyla kademeli olarak serbest bırakılacak, %10 ise ekibe ve erken yatırımcılara verilecektir."
           },
           {
             "question": "Yönetimde nasıl katılabilirim?",
-            "answer": "$moonini sahipleri, gelecekteki topluluk yönetim oylamalarına katılabilir ve projenin gelişim yönünü etkileyebilir. Belirli yönetim mekanizmaları ve oylama yöntemleri, ana ağ faaliyete geçtiğinde kademeli olarak uygulanacaktır."
+            "answer": "$MOONINI sahipleri, gelecekteki topluluk yönetim oylamalarına katılabilir ve projenin gelişim yönünü etkileyebilir. Belirli yönetim mekanizmaları ve oylama yöntemleri, ana ağ faaliyete geçtiğinde kademeli olarak uygulanacaktır."
           },
           {
-            "question": "$moonini işlem yapılabilir mi?",
-            "answer": "Ana ağ faaliyete geçtiğinde ve bir likidite havuzu kurulduğunda, $moonini merkeziyetsiz borsalarda (örneğin PancakeSwap) işlem görebilir. İşlem, piyasadaki arz ve talebe bağlı olarak etkilenecek ve fiyatlar dalgalanabilir; bu nedenle lütfen dikkatli yatırım yapın."
+            "question": "$MOONINI işlem yapılabilir mi?",
+            "answer": "Ana ağ faaliyete geçtiğinde ve bir likidite havuzu kurulduğunda, $MOONINI merkeziyetsiz borsalarda (örneğin PancakeSwap) işlem görebilir. İşlem, piyasadaki arz ve talebe bağlı olarak etkilenecek ve fiyatlar dalgalanabilir; bu nedenle lütfen dikkatli yatırım yapın."
           }
         ]
       }
@@ -719,18 +715,18 @@
     }
   },
   "whitepaper": {
-    "title": "$moonini Beyaz Kağıt",
-    "description": "$moonini token'ının tasarım felsefesini, ekonomik modelini ve teknik mimarisini anlama",
+    "title": "$MOONINI Beyaz Kağıt",
+    "description": "$MOONINI token'ının tasarım felsefesini, ekonomik modelini ve teknik mimarisini anlama",
     "seo": {
-      "title": "$moonini Beyaz Kağıt — moonpacket",
-      "description": "Tam $moonini Tokenomik, Teknik Mimari ve Yönetim Mekanizması Açıklaması"
+      "title": "$MOONINI Beyaz Kağıt — moonpacket",
+      "description": "Tam $MOONINI Tokenomik, Teknik Mimari ve Yönetim Mekanizması Açıklaması"
     },
     "hero": {
-      "subtitle": "$moonini, moonpacket platformuna dayanan topluluk teşvik token'ıdır. Kullanıcılar moonpacket'te ne kadar çok etkileşimde bulunursa ve katılırsa, o kadar çok $moonini kazanabilirler. Yatırımcılar için, %90 kullanıcılar arasında dağıtılır ve %10 ekip için, yarılanma mekanizması ve lineer yayın ile birleşerek piyasa çöküşü riskini etkili bir şekilde azaltır.",
+      "subtitle": "$MOONINI, moonpacket platformuna dayanan topluluk teşvik token'ıdır. Kullanıcılar moonpacket'te ne kadar çok etkileşimde bulunursa ve katılırsa, o kadar çok $MOONINI kazanabilirler. Yatırımcılar için, %90 kullanıcılar arasında dağıtılır ve %10 ekip için, yarılanma mekanizması ve lineer yayın ile birleşerek piyasa çöküşü riskini etkili bir şekilde azaltır.",
       "cards": {
         "user": {
           "title": "Genel Kullanıcılar için",
-          "description": "Gönderim Red Packet'ları, görevleri tamamlama ve arkadaşları davet etme ile kolayca $moonini kazanın. Ne kadar çok kullanırsanız, o kadar çok kazanırsınız, tamamen ücretsiz."
+          "description": "Gönderim Red Packet'ları, görevleri tamamlama ve arkadaşları davet etme ile kolayca $MOONINI kazanın. Ne kadar çok kullanırsanız, o kadar çok kazanırsınız, tamamen ücretsiz."
         },
         "investor": {
           "title": "Yatırımcılar için",
@@ -760,13 +756,13 @@
     "content": {
       "overview": {
         "what_is": [
-          "**$moonini**, moonpacket platformının ekosistem token'ıdır ve kullanıcıları platform üzerindeki aktif davranışları için ödüllendirmek amacıyla kullanılır, bunlar arasında:",
+          "**$MOONINI**, moonpacket platformının ekosistem token'ıdır ve kullanıcıları platform üzerindeki aktif davranışları için ödüllendirmek amacıyla kullanılır, bunlar arasında:",
           "- Kırmızı paket gönderme",
           "- Arkadaşları davet etme",
           "- Görevleri tamamlama",
           "- Topluluk etkinliklerine katılma",
           "",
-          "**Basit Terimlerle**: moonpacket üzerinde ne kadar çok kullanırsanız, o kadar çok $moonini kazanırsınız."
+          "**Basit Terimlerle**: moonpacket üzerinde ne kadar çok kullanırsanız, o kadar çok $MOONINI kazanırsınız."
         ],
         "core_values": {
           "title": "Temel Değerler",
@@ -826,8 +822,8 @@
             "| **Aşama 6** | 8.71875B ~ 9B | **0.03125 token** | Son aşama |",
             "",
             "**Örnek**:",
-            "- Aşama 1’de, eğer 100 USDT Kırmızı Paket gönderirseniz, 100 $moonini alabilirsiniz",
-            "- Aşama 2’de, eğer 100 USDT Kırmızı Paket gönderirseniz, yalnızca 50 $moonini alabilirsiniz",
+            "- Aşama 1’de, eğer 100 USDT Kırmızı Paket gönderirseniz, 100 $MOONINI alabilirsiniz",
+            "- Aşama 2’de, eğer 100 USDT Kırmızı Paket gönderirseniz, yalnızca 50 $MOONINI alabilirsiniz",
             "- Ne kadar erken katılırsanız, o kadar çok token alırsınız!"
           ],
           "value_logic": [
@@ -837,12 +833,12 @@
             "Doğu kültüründen doğan Kırmızı Paket, yalnızca fon transferini değil, aynı zamanda büyüklerden küçüklere verilen sevgiyi, tebrikleri ve arkadaşlar arasında paylaşımı temsil eder. moonpacket'te, her seferinde bir Kırmızı Paket gönderdiğinizde sıcak bir sosyal etkileşim gerçekleşir.",
             "",
             "**Sosyal Davranıştan Ekonomik Değere**:",
-            "Bu iyilik eylemlerinin kaydedilmesi ve değerlenmesi gerektiğine inanıyoruz. $moonini sadece bir ödül token'ı değil; bu sosyal ağın değer taşıyıcısıdır ve her 'verme' eyleminden uzun kuyruklu ekonomik etkiler üretir.",
+            "Bu iyilik eylemlerinin kaydedilmesi ve değerlenmesi gerektiğine inanıyoruz. $MOONINI sadece bir ödül token'ı değil; bu sosyal ağın değer taşıyıcısıdır ve her 'verme' eyleminden uzun kuyruklu ekonomik etkiler üretir.",
             "",
             "**Gerçek Değer Desteği**:",
             "Bu sosyal değerin istikrarını korumak için protokol şunları belirtir: **İşlem ücreti gelirinin %50'si otomatik olarak Likidite Havuzuna aktarılacaktır**.",
             "",
-            "Bu şunu ifade eder: topluluk ne kadar aktif olursa ➔ o kadar çok Kırmızı Paket etkileşimi ➔ likidite havuzuna daha fazla fon enjekte edilir ➔ $moonini'nin değer temeli daha sağlam olur. Bu, tamamen spekülatif kumar değil, gerçek sosyal ihtiyaçlar ve iş gelirlerine dayanan olumlu bir döngüdür."
+            "Bu şunu ifade eder: topluluk ne kadar aktif olursa ➔ o kadar çok Kırmızı Paket etkileşimi ➔ likidite havuzuna daha fazla fon enjekte edilir ➔ $MOONINI'nin değer temeli daha sağlam olur. Bu, tamamen spekülatif kumar değil, gerçek sosyal ihtiyaçlar ve iş gelirlerine dayanan olumlu bir döngüdür."
           ]
         }
       },
@@ -909,15 +905,15 @@
             "**Yayımlama Yöntemi**: Kullanıcı aktiviteleri aracılığıyla kademeli yayımlama",
             "",
             "**Yayın Kaynakları**:",
-            "1. **Kırmızı Paket Gönder**: Her seferinde 1 USDT Kırmızı Paket gönderildiğinde, mevcut aşamaya göre karşılık gelen $moonini al.",
-            "2. **Arkadaşları Davet Et**: Yeni kullanıcıları başarılı bir şekilde davet edin ve paylaşım görevlerini tamamlayarak $moonini kazanın.",
-            "3. **Görevleri Tamamla**: Ekstra $moonini kazanmak için başarı görevlerini, sosyal görevleri vb. tamamlayın.",
+            "1. **Kırmızı Paket Gönder**: Her seferinde 1 USDT Kırmızı Paket gönderildiğinde, mevcut aşamaya göre karşılık gelen $MOONINI al.",
+            "2. **Arkadaşları Davet Et**: Yeni kullanıcıları başarılı bir şekilde davet edin ve paylaşım görevlerini tamamlayarak $MOONINI kazanın.",
+            "3. **Görevleri Tamamla**: Ekstra $MOONINI kazanmak için başarı görevlerini, sosyal görevleri vb. tamamlayın.",
             "4. **Grup Sahibi Kar Paylaşımı**: Grup sahipleri, gruplar arasında Red Packet göndererek %3 kar payı (USDT) alabilirler."
           ],
           "cost_vs_price": [
             "💡 **Üretim Maliyeti vs Piyasa Fiyatı**:",
             "",
-            "1. Aşamada, Red Packet madenciliği aracılığıyla 1 $moonini elde etmenin dolaylı maliyeti yaklaşık olarak **0.02 USDT**'dir (yüzde 2 işlem ücreti baz alınarak).",
+            "1. Aşamada, Red Packet madenciliği aracılığıyla 1 $MOONINI elde etmenin dolaylı maliyeti yaklaşık olarak **0.02 USDT**'dir (yüzde 2 işlem ücreti baz alınarak).",
             "",
             "Başlangıç liste fiyatımız **0.01 USDT**'dir.",
             "",
@@ -925,10 +921,10 @@
           ],
           "withdraw_mechanism": [
             "**Para Çekme Mekanizması**:",
-            "- Kullanıcılar platformda $moonini kazandıktan sonra, bunu güvenli bir kimlik doğrulama mekanizması aracılığıyla cüzdanlarına çekebilirler.",
+            "- Kullanıcılar platformda $MOONINI kazandıktan sonra, bunu güvenli bir kimlik doğrulama mekanizması aracılığıyla cüzdanlarına çekebilirler.",
             "- Sistem, yalnızca kullanıcının işlem yapabileceğinden emin olmak için kullanıcı etkinlik kayıtlarına dayanarak doğrulama yapacaktır.",
             "- Onaylandığında, kullanıcılar tokenlarını cüzdanlarına çekebilirler.",
-            "- **Minimum Withdrawal Threshold**: 10 $moonini",
+            "- **Minimum Withdrawal Threshold**: 10 $MOONINI",
             "- **İşlem Ücreti**: Kullanıcıların yalnızca ağ işlem ücretini ödemeleri gerekmektedir (blok zinciri uygulamalarına uygun olarak)",
             "",
             "*Detaylı teknik uygulama için lütfen şuraya bakın: [Teknik Şartname Belgesi](/tr-TR/docs/technical)*"
@@ -957,7 +953,7 @@
             "- **Bildirim Mekanizması**: Her serbest bırakma tamamlandıktan sonra yararlanıcılara otomatik bildirimler gönderilir.",
             "",
             "**Örnek**:",
-            "- Yatırımcı A 1.000.000 $moonini alıyor",
+            "- Yatırımcı A 1.000.000 $MOONINI alıyor",
             "- İlk 3 ay: Kilitlenme süresi, para çekme işlemlerine izin verilmez",
             "- 4. aydan itibaren: Token'lar zamanla doğrusal bir şekilde birikir, birikmiş kısmın düzenli çekimleri ile.",
             "- 33 ay sonra: Tüm sürümler tamamlandı."
@@ -1043,7 +1039,7 @@
           "title": "5.3 Geri Alım ve Piyasa Oluşturma (POL - Sınırsız Geri Alım + Taban Fiyat Savunması)",
           "mechanism": [
             "**Mekanizma**:",
-            "- **%1** platform işlem ücretleri $moonini geri almak ve likidite havuzunu derinleştirmek için kullanılacaktır",
+            "- **%1** platform işlem ücretleri $MOONINI geri almak ve likidite havuzunu derinleştirmek için kullanılacaktır",
             "- **Sınırsız Geri Alım**: Geri alımlar için günlük bir limit yoktur; işlem ücretleri ne kadar olursa olsun, geri alımlar token için likidite desteği sağlamaya devam eder.",
             "- **Otomatik Strateji**: Tahmin edilebilirliği azaltmak ve piyasa manipülasyonundan kaçınmak için akıllı geri alım stratejileri kullanma",
             "- **Koruma Satın Al**: Önemli bir piyasa düşüşü olduğunda geri satın alma çabalarını otomatik olarak artırır, yatırımcı çıkarlarını korur."
@@ -1110,11 +1106,11 @@
       },
       "incentives": {
         "how_to_earn": {
-          "title": "6.1 $moonini Nasıl Elde Edilir?",
+          "title": "6.1 $MOONINI Nasıl Elde Edilir?",
           "send_gift": [
             "#### A. Kırmızı Paket Gönderme",
             "",
-            "- **Temel Kurallar**: Gönderilen her **1 USDT** eşdeğerindeki kırmızı paket (birden fazla token desteklenmektedir) için, sistem mevcut aşama döviz kuru üzerinden $moonini hesaplayacak ve dağıtacaktır.",
+            "- **Temel Kurallar**: Gönderilen her **1 USDT** eşdeğerindeki kırmızı paket (birden fazla token desteklenmektedir) için, sistem mevcut aşama döviz kuru üzerinden $MOONINI hesaplayacak ve dağıtacaktır.",
             "- **Nimetleri İletmek**: Red packet'lar sadece para değil; aynı zamanda nimetlerin bir iletimi. Hediye verme işleminin her biri blok zincirine kaydedilecek ve ödüllendirilecektir."
           ],
           "invite": [
@@ -1147,7 +1143,7 @@
             "",
             "**Ücretlerin Kullanımı**:",
             "- **1% Operasyonlar**: Sunucu, geliştirme ve pazarlama maliyetleri için kullanılır.",
-            "- **%1 Geri Alım**: $moonini geri almak ve LP'yi derinleştirmek için kullanılacak (gelecekte gerçekleştirilmesi planlanmaktadır).",
+            "- **%1 Geri Alım**: $MOONINI geri almak ve LP'yi derinleştirmek için kullanılacak (gelecekte gerçekleştirilmesi planlanmaktadır).",
             "- **%3 Grup Sahibi Kar Paylaşımı**: Grup sahibine (sadece grup dışı gönderimler için ücretlendirilir) ödenir."
           ]
         }
@@ -1156,33 +1152,30 @@
         "contracts": {
           "title": "7.1 Sözleşme Adresi (Yüklenme Bekleniyor)",
           "description": [
-            "Token resmi olarak piyasaya sürüldüğünde, tüm akıllı sözleşme adresleri burada açıklanacak ve ilgili teknik spesifikasyon bağlantılarıyla birlikte verilecektir.",
+            "以下為 $MOONINI 核心合約與資產地址。為了確保透明度，所有地址均已公開並可於區塊鏈瀏覽器查詢。",
             "",
-            "**Ana Sözleşme Modülleri**:",
-            "- Token Sözleşmesi",
-            "- Yönetim ve Gecikme Kontrolü",
-            "- Kamu Arz Hazine",
-            "- Ekip Tahsisatı Hazine",
-            "- Geri Alım Yönetimi",
-            "- Likidite Havuzu",
-            "- Çoklu İmza Cüzdanı",
+            "**核心地址**：",
+            "- **代幣合約**：`0xe4d5857271c7978F5fe6b29A73C97142D6d8Befe`",
+            "- **鎖倉合約**：`0x0c0cc023d3c82d22aafd05763393f5af6b0922a1`",
+            "- **Likidite Havuzu (LP)**：`0x24248E591eC8FDeC9776f87C497746867305963E`",
+            "- **Güç Merkezi**：`0x8c1c793E73372aCD30DD05fE4Cc718A4ADbe1219`",
             "",
-            "*Detaylı sözleşme adresleri ve teknik spesifikasyonlar için lütfen şu kaynağa başvurun: [Teknik Spesifikasyon Belgesi](/tr-TR/docs/technical)*"
+            "*詳細技術規格請參考：[技術規格文檔](/zh-TW/docs/technical)*"
           ]
         },
         "api": {
           "title": "7.2 Entegrasyon Modları ve API (Planlama Aşamasında)",
           "intro": [
-            "moonpacket, üçüncü taraf geliştiricilerin ve ortakların $moonini ödül mekanizmasını ürünlerine kolayca entegre etmelerini sağlayacak komple bir API ekosistemi sunmayı planlıyor. İster bir Telegram botu, ister bir Web3 oyunu veya pazarlama kampanyası platformu olsun, API'miz kullanıcıların $moonini ödülleri almasına olanak tanır ve ekolojik etkiyi genişletir."
+            "moonpacket, üçüncü taraf geliştiricilerin ve ortakların $MOONINI ödül mekanizmasını ürünlerine kolayca entegre etmelerini sağlayacak komple bir API ekosistemi sunmayı planlıyor. İster bir Telegram botu, ister bir Web3 oyunu veya pazarlama kampanyası platformu olsun, API'miz kullanıcıların $MOONINI ödülleri almasına olanak tanır ve ekolojik etkiyi genişletir."
           ],
           "types": [
             "**API Türleri**:",
             "",
             "Çeşitli entegrasyon ihtiyaçlarını karşılamak için aşağıdaki türde API'leri sağlamayı planlıyoruz:",
             "",
-            "- **Veri Okuma API'si**: Red Packet dağıtım kayıtlarını, görev tamamlama durumunu, kullanıcı $moonini bakiyesini ve daha fazlasını sorgulama, ortakların kullanıcı aktivite durumunu anlamalarını sağlar.",
+            "- **Veri Okuma API'si**: Red Packet dağıtım kayıtlarını, görev tamamlama durumunu, kullanıcı $MOONINI bakiyesini ve daha fazlasını sorgulama, ortakların kullanıcı aktivite durumunu anlamalarını sağlar.",
             "",
-            "- **Dağıtım ve Görev API'si**: Ortakların, kendi ürünlerinde Red Packet dağıtımlarını veya görev ödüllerini tetiklemelerine olanak tanır. Örneğin, kullanıcılar bir oyunda belirli kilometre taşlarına ulaştıklarında otomatik olarak $moonini ödüllerini dağıtmak.",
+            "- **Dağıtım ve Görev API'si**: Ortakların, kendi ürünlerinde Red Packet dağıtımlarını veya görev ödüllerini tetiklemelerine olanak tanır. Örneğin, kullanıcılar bir oyunda belirli kilometre taşlarına ulaştıklarında otomatik olarak $MOONINI ödüllerini dağıtmak.",
             "",
             "- **Webhook Olayları**: Sistem, kullanıcılar görevleri tamamladığında, Red Packet talep ettiğinde veya para çekimlerini tamamladığında, ortakları önemli olaylar hakkında proaktif bir şekilde bilgilendirir, bu sayede gerçek zamanlı yanıtlar ve veri senkronizasyonu sağlar."
           ],
@@ -1206,22 +1199,22 @@
             "",
             "- **Kapalı Beta**: Geri bildirim toplamak ve deneyimleri optimize etmek amacıyla başlangıçta ortaklara ve erken dönem oyun geliştiricilerine kapalı beta formatında sunulmuştur.",
             "",
-            "- **Aşamalı Açılış**: Beta aşamasında istikrar doğrulandıktan sonra, uygulamalar yavaş yavaş açılacak ve daha fazla geliştiricinin $moonini ekosistemine entegrasyonuna olanak tanınacaktır.",
+            "- **Aşamalı Açılış**: Beta aşamasında istikrar doğrulandıktan sonra, uygulamalar yavaş yavaş açılacak ve daha fazla geliştiricinin $MOONINI ekosistemine entegrasyonuna olanak tanınacaktır.",
             "",
             "- **Resmi Yayın**: API üretim seviyesinde stabiliteye ulaştığında, halka resmi olarak açılacak ve tam dökümantasyon ile destek sağlayacaktır."
           ],
           "scenarios": {
             "title": "Tipik Entegrasyon Senaryoları",
             "items": [
-              "**Telegram Bot / Mini Uygulama**: Kullanıcıların $moonini ödülleri alabilmesi için gruplarınızda veya uygulamalarınızda Red Packet gönderin, kullanıcı etkileşimini artırın.",
+              "**Telegram Bot / Mini Uygulama**: Kullanıcıların $MOONINI ödülleri alabilmesi için gruplarınızda veya uygulamalarınızda Red Packet gönderin, kullanıcı etkileşimini artırın.",
               "",
-              "**Web3 Oyunları**: Oyunlarda görev tamamlama durumunu moonpacket'e bildirerek, oyuncuların oyun görevlerini tamamladıklarında otomatik olarak ek $moonini ödülleri almalarını sağlar.",
+              "**Web3 Oyunları**: Oyunlarda görev tamamlama durumunu moonpacket'e bildirerek, oyuncuların oyun görevlerini tamamladıklarında otomatik olarak ek $MOONINI ödülleri almalarını sağlar.",
               "",
-              "**Pazarlama Kampanya Platformları**: Kullanıcı davranışlarına göre (örneğin; paylaşım, retweet, takip etme vb.) otomatik olarak $moonini ödülleri gönderin ve hassas pazarlama sağlayın.",
+              "**Pazarlama Kampanya Platformları**: Kullanıcı davranışlarına göre (örneğin; paylaşım, retweet, takip etme vb.) otomatik olarak $MOONINI ödülleri gönderin ve hassas pazarlama sağlayın.",
               "",
-              "**DeFi Protokolleri**: $moonini'yi ek bir ödül katmanı olarak entegre edin, kullanıcıların belirli DeFi işlemlerini tamamlayarak orijinal kazançlarının üzerinde $moonini ödülleri kazanmalarını sağlayın.",
+              "**DeFi Protokolleri**: $MOONINI'yi ek bir ödül katmanı olarak entegre edin, kullanıcıların belirli DeFi işlemlerini tamamlayarak orijinal kazançlarının üzerinde $MOONINI ödülleri kazanmalarını sağlayın.",
               "",
-              "**İçerik Üretim Platformları**: Yaratıcılar belirli görevleri tamamladığında veya kilometre taşlarına ulaştıklarında $moonini ödüllerini otomatik olarak dağıtın, kaliteli içerik oluşturmayı teşvik edin."
+              "**İçerik Üretim Platformları**: Yaratıcılar belirli görevleri tamamladığında veya kilometre taşlarına ulaştıklarında $MOONINI ödüllerini otomatik olarak dağıtın, kaliteli içerik oluşturmayı teşvik edin."
             ]
           }
         },
@@ -1312,7 +1305,7 @@
       "faq": {
         "title": "On, Onaylanacak Konular",
         "description": [
-          "Bu beyaz kağıt, $moonini'nin temel tasarım ilkelerini ve ekonomik modelini açıklamaktadır. Aşağıdaki konular hala danışmanlar ve ortaklarla koordinasyon halindedir ve ana ağ lansmanından önce kesinleştirilecektir:",
+          "Bu beyaz kağıt, $MOONINI'nin temel tasarım ilkelerini ve ekonomik modelini açıklamaktadır. Aşağıdaki konular hala danışmanlar ve ortaklarla koordinasyon halindedir ve ana ağ lansmanından önce kesinleştirilecektir:",
           "",
           "- **Token İhracı Zamanlaması ve Listeleneceği Borsalar**: Belirli ihracat zamanı ve merkezi borsalarda (CEX) listelenip listelenmeyeceği, hala danışmanlar ve ortaklarla koordine edilmektedir.",
           "",
@@ -1390,34 +1383,34 @@
   "api": {
     "actions": {
       "items": {
-        "0": "$moonini token ve ekonomik modeli hakkında bilgi almak için [whitepaper](/tr-TR/docs/whitepaper/)i okuyun.",
+        "0": "$MOONINI token ve ekonomik modeli hakkında bilgi almak için [whitepaper](/tr-TR/docs/whitepaper/)i okuyun.",
         "1": "Akıllı sözleşmeleri ve dağıtım mekanizmasını anlamak için [Teknik Şartlar Belgesini](/tr-TR/docs/technical/) okuyun.",
         "2": "API iş birliği talebinizi resmi kanallar (Telegram, E-posta) aracılığıyla gönderin ve API hazır olduğunda sizi bilgilendirmeye öncelik vereceğiz."
       },
       "title": "Şimdi ne yapabilirsiniz?"
     },
     "content": {
-      "0": "Bu sayfa yakında Moonpacket / $moonini API'si için REST API, Webhook olayları, OAuth kimlik doğrulama, API Anahtarı yönetimi ve daha fazlası hakkında teknik detayları içeren kapsamlı bir belgeler sunacaktır.",
+      "0": "Bu sayfa yakında Moonpacket / $MOONINI API'si için REST API, Webhook olayları, OAuth kimlik doğrulama, API Anahtarı yönetimi ve daha fazlası hakkında teknik detayları içeren kapsamlı bir belgeler sunacaktır.",
       "2": "API şu anda tasarım ve iç doğrulama aşamasında olup, öncelikle sınırlı sayıda ortak için kapalı beta sürümünde test edilmeye, geri bildirim toplanmaya ve deneyimi optimize etmeye sunulacaktır.",
       "4": "Tüm teknik detaylar, resmi API dokümantasyonu yayımlanmadan önce 'Teknik Şartname Belgesi' ve beyaz kağıda atıfta bulunmalıdır."
     },
-    "description": "Moonpacket ve $moonini'yi ürünlerinize API aracılığıyla nasıl entegre edeceğinizi öğrenin.",
+    "description": "Moonpacket ve $MOONINI'yi ürünlerinize API aracılığıyla nasıl entegre edeceğinizi öğrenin.",
     "seo": {
       "description": "API belgeleri, REST API, Webhook ve entegrasyon kılavuzu tamamlandı",
-      "title": "Moonpacket / $moonini API Dokümantasyonu — moonpacket"
+      "title": "Moonpacket / $MOONINI API Dokümantasyonu — moonpacket"
     },
     "status": {
       "planned": "(Planlama Aşamasında)"
     },
     "subtitle": "Tam API dokümantasyonu ve entegrasyon kılavuzu (planlama aşamasında)",
-    "title": "Moonpacket / $moonini API Dokümantasyonu"
+    "title": "Moonpacket / $MOONINI API Dokümantasyonu"
   },
   "countdown": {
     "days": "Gökyüzü",
     "hours": "Saat",
     "minutes": "dakikalar",
     "seconds": "ikinci",
-    "title": "$moonini'nin resmi sürümüne olan mesafe"
+    "title": "$MOONINI'nin resmi sürümüne olan mesafe"
   },
   "disclaimer": {
     "badge": "Önemli Bildirim",
@@ -1425,25 +1418,25 @@
   },
   "distribution": {
     "back_to_whitepaper": "Beyaz Kitaba Dön",
-    "description": "$moonini'nin iç dağıtım kurallarını ve muhasebe yöntemlerini anlayın",
+    "description": "$MOONINI'nin iç dağıtım kurallarını ve muhasebe yöntemlerini anlayın",
     "intro": {
       "0": "**Bu belge mühendisler ve arka uç geliştiricileri için tasarlanmıştır**, moonpacket ürününde 'nasıl ihraç edileceği, kullanıcıların nasıl nakit alacağı ve görüntüleyebileceği' ile ilgili özel kuralları tanımlar.",
       "2": "**Tasarım İlkeleri**:",
       "3": "- **Minimal Değişiklikler**: Mevcut veri yapısını kullanmaya öncelik verin, karmaşık DB tablolarını hemen eklemekten kaçının.",
-      "4": "- **Genişletilebilir**: Gelecekte, eğer $moonini tamamen on-chain olmak istiyorsa, sadece çekim/haritalama mantığını eklememiz gerekiyor.",
-      "5": "- **Şeffaf ve İzlenebilir**: Tüm $moonini dağıtımları ve tüketimleri `user_activity_logs` içinde kaydedilmektedir.",
+      "4": "- **Genişletilebilir**: Gelecekte, eğer $MOONINI tamamen on-chain olmak istiyorsa, sadece çekim/haritalama mantığını eklememiz gerekiyor.",
+      "5": "- **Şeffaf ve İzlenebilir**: Tüm $MOONINI dağıtımları ve tüketimleri `user_activity_logs` içinde kaydedilmektedir.",
       "7": "**Ana İçerik**:",
       "8": "- Veri modeli ve muhasebe yöntemi (iç muhasebe)",
-      "9": "- $moonini dağıtım kaynağı ve kuralları",
+      "9": "- $MOONINI dağıtım kaynağı ve kuralları",
       "10": "- Muhasebe uygulama detayları",
       "12": "*Bu belge teknik detayları içermektedir, genel kullanıcılar projenin genel görünümü için [beyaz sayfa](/tr-TR/docs/whitepaper/) referans alabilir.*",
       "14": "Detaylı belgeler için lütfen şuraya bakın: `docs/technical/moonini-distribution.md`"
     },
     "seo": {
-      "description": "$moonini dağıtım kuralları ve muhasebe sistemi talimatlarını tamamlayın",
-      "title": "$moonini dağıtım mekanizması — moonpacket"
+      "description": "$MOONINI dağıtım kuralları ve muhasebe sistemi talimatlarını tamamlayın",
+      "title": "$MOONINI dağıtım mekanizması — moonpacket"
     },
-    "title": "$moonini Dağıtım ve Toplama Tasarımı"
+    "title": "$MOONINI Dağıtım ve Toplama Tasarımı"
   },
   "index": {
     "description": "Proje belgelerini, beyaz bülteni ve teknik spesifikasyonları tamamlayın",
@@ -1455,11 +1448,11 @@
   },
   "missions": {
     "back_to_whitepaper": "Beyaz Kitaba Dön",
-    "description": "Görevler ve başarılar aracılığıyla $moonini nasıl kazanacağınızı öğrenin.",
+    "description": "Görevler ve başarılar aracılığıyla $MOONINI nasıl kazanacağınızı öğrenin.",
     "intro": {
-      "0": "**Bu belge mühendisler ve ürün geliştiricilerine yöneliktir**, $moonini'nin görev sistemini ve başarı mekanizmasını tanımlamakta, \"Red Packet + Arkadaşları Davet Et\" iki temel eyleminin üzerine bir başarı hissi ve sosyal görevler eklemektedir.",
+      "0": "**Bu belge mühendisler ve ürün geliştiricilerine yöneliktir**, $MOONINI'nin görev sistemini ve başarı mekanizmasını tanımlamakta, \"Red Packet + Arkadaşları Davet Et\" iki temel eyleminin üzerine bir başarı hissi ve sosyal görevler eklemektedir.",
       "2": "**Tasarım İlkeleri**:",
-      "3": "- Tüm \"ek $moonini\" görevleri esasen şunlarla ilgilidir: **Kırmızı Paketler göndermek, arkadaş davet etmek, resmi toplulukları takip etmek**",
+      "3": "- Tüm \"ek $MOONINI\" görevleri esasen şunlarla ilgilidir: **Kırmızı Paketler göndermek, arkadaş davet etmek, resmi toplulukları takip etmek**",
       "4": "- 'Tek Seferlik Görev', tamamlandıktan sonra kalıcı olarak kaybolacaktır.",
       "5": "- Görev sistemi yalnızca \"bonus puanlar\" sağlar ve temel dağıtım kurallarını değiştirmez.",
       "7": "**Görev Kategorisi**:",
@@ -1471,9 +1464,9 @@
     },
     "seo": {
       "description": "Görev sistemi ve başarı mekanizması açıklamasını tamamlayın",
-      "title": "$moonini Görev Sistemi — moonpacket"
+      "title": "$MOONINI Görev Sistemi — moonpacket"
     },
-    "title": "$moonini görev ve başarı tasarımı"
+    "title": "$MOONINI görev ve başarı tasarımı"
   },
   "nav": {
     "api": "API Belgelendirmesi",
@@ -1502,13 +1495,32 @@
     },
     "seo": {
       "description": "BSC akıllı sözleşme teknik spesifikasyonları ve geliştirme kılavuzunu tamamlayın",
-      "title": "$moonini Teknik Özellikleri — moonpacket"
+      "title": "$MOONINI Teknik Özellikleri — moonpacket"
     },
-    "title": "$moonini BSC Teknik Özellikleri"
+    "title": "$MOONINI BSC Teknik Özellikleri"
   },
   "title": "Belge",
   "toc": {
     "back_to_index": "Belge Merkezine Dön",
     "title": "Katalog"
+  },
+  "docs": {
+    "litepaper": {
+      "content": {
+        "contracts": {
+          "title": "",
+          "description": "",
+          "items": {
+            "token": "$MOONINI Token (Token Çekirdeği)",
+            "vesting": "Vesting Vault (V2) (Kilitleme Yönetimi)",
+            "pool": "Liquidity Pool (LP) (Piyasa Likiditesi)",
+            "multisig": "Governance Multisig (Güç Merkezi)",
+            "timelock": "Timelock Controller (Gecikmeli Yönetim)",
+            "emergency": "Emergency Vault (Güvenlik Tamponu)"
+          },
+          "status": ""
+        }
+      }
+    }
   }
 }

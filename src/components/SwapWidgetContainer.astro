@@ -1,0 +1,58 @@
+---
+import { brandify } from '@/lib/brandify';
+import SwapTrigger from '@/islands/SwapTrigger';
+import PriceChip from '@/islands/PriceChip';
+
+interface Props {
+  title?: string;
+  subtitle?: string;
+  buttonText?: string;
+  modalTitle?: string;
+  priceLabel?: string;
+  className?: string;
+}
+
+const { 
+  title, 
+  subtitle, 
+  buttonText, 
+  modalTitle,
+  priceLabel = 'Price',
+  className = '' 
+} = Astro.props;
+---
+
+<div class={`relative p-8 sm:p-12 rounded-[2.5rem] bg-[var(--card-bg)]/60 backdrop-blur-xl border border-white/5 overflow-hidden group ${className}`}>
+  {/* Decorative Background Elements */}
+  <div class="absolute -top-24 -right-24 w-64 h-64 bg-[var(--gold)]/5 rounded-full blur-[80px] group-hover:bg-[var(--gold)]/10 transition-colors duration-700"></div>
+
+  <div class="relative z-10 flex flex-col md:flex-row items-center justify-between gap-10">
+    <div class="text-center md:text-left flex-1">
+      <div class="mb-6 inline-block">
+        <PriceChip client:load label={priceLabel} />
+      </div>
+      
+      {title && (
+        <h2 class="text-2xl sm:text-4xl font-bold mb-4 tracking-tight" set:html={brandify(title)}></h2>
+      )}
+      {subtitle && (
+        <p class="text-lg text-[var(--text-subtle)] leading-relaxed opacity-80" set:html={brandify(subtitle)}></p>
+      )}
+    </div>
+
+    <div class="shrink-0">
+      <SwapTrigger 
+        client:load 
+        buttonText={buttonText} 
+        modalTitle={modalTitle}
+        className="shadow-2xl !px-10 !py-4 !text-lg"
+      />
+    </div>
+  </div>
+</div>
+
+<style>
+  div {
+    box-shadow: 0 20px 50px -12px rgba(0, 0, 0, 0.5);
+  }
+</style>

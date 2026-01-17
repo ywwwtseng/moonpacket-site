@@ -1,17 +1,17 @@
 {
   "litepaper": {
-    "title": "$moonini Litepaper",
-    "description": "Ymmärrä $moonini-tokenin muotoilufilosofia, taloudellinen malli ja ydin arvot.",
+    "title": "$MOONINI Litepaper",
+    "description": "Ymmärrä $MOONINI-tokenin muotoilufilosofia, taloudellinen malli ja ydin arvot.",
     "seo": {
-      "title": "$moonini Litepaper — moonpacket",
-      "description": "$moonini on moonpacket-alustaan perustuva yhteisöpalkkiovaluutta. Opi, kuinka hankkia, käyttää ja sijoittaa sen arvoon."
+      "title": "$MOONINI Litepaper — moonpacket",
+      "description": "$MOONINI on moonpacket-alustaan perustuva yhteisöpalkkiovaluutta. Opi, kuinka hankkia, käyttää ja sijoittaa sen arvoon."
     },
     "hero": {
-      "subtitle": "$moonini on moonpacket-alustalle perustuva yhteisöpalkkio token. Mitä enemmän käyttäjät osallistuvat moonpacketin toimintaan, suorittavat tehtäviä ja ovat vuorovaikutuksessa, sitä enemmän $moonini he voivat ansaita. Sijoittajille 90 % jakautuu käyttäjille ja 10 % menee tiimille, ja käytössä on puolitusmekanismi sekä lineaarinen julkaisu, jotka tehokkaasti vähentävät romahdusriskejä, ja suunniteltu pitkäaikaista vakautta varten.",
+      "subtitle": "$MOONINI on moonpacket-alustalle perustuva yhteisöpalkkio token. Mitä enemmän käyttäjät osallistuvat moonpacketin toimintaan, suorittavat tehtäviä ja ovat vuorovaikutuksessa, sitä enemmän $MOONINI he voivat ansaita. Sijoittajille 90 % jakautuu käyttäjille ja 10 % menee tiimille, ja käytössä on puolitusmekanismi sekä lineaarinen julkaisu, jotka tehokkaasti vähentävät romahdusriskejä, ja suunniteltu pitkäaikaista vakautta varten.",
       "cards": {
         "user": {
           "title": "Yleisiä käyttäjiä varten",
-          "description": "Ansaitse $moonini helposti lähettämällä Red Packets, suorittamalla tehtäviä, kutsumalla ystäviä jne. Mitä enemmän käytät sitä, sitä enemmän ansaitset, täysin ilmaiseksi."
+          "description": "Ansaitse $MOONINI helposti lähettämällä Red Packets, suorittamalla tehtäviä, kutsumalla ystäviä jne. Mitä enemmän käytät sitä, sitä enemmän ansaitset, täysin ilmaiseksi."
         },
         "investor": {
           "title": "Sijoittajille",
@@ -29,7 +29,7 @@
     "sections": {
       "overview": "Yleisnäkymä",
       "problem": "Ongelmia ja ratkaisuja",
-      "concept": "moonpacketin ja $mooninin ydinperiaatteet",
+      "concept": "moonpacketin ja $MOONINIn ydinperiaatteet",
       "tokenomics": "Tokenomiikka Yhteenveto",
       "emission": "Jakaminen ja Julkaisu",
       "utility": {
@@ -81,8 +81,8 @@
       "overview": {
         "paragraphs": [
           "moonpacket on kryptopohjainen Red Packet ja markkinointityökalu, joka on suunniteltu erityisesti Telegram-yhteisöille. Olipa kyseessä yhteisön toiminnot, tapahtumien mainostaminen tai uusien käyttäjien kutsuminen, moonpacket voi auttaa sinua saavuttamaan sen helposti.",
-          "Kannustaaksemme käyttäjiä jatkamaan alustan käyttöä ja luomaan pitkäaikaisia suhteita, lanseerasimme $moonini-yhteisö kannustintokenin. Jokainen aktiivinen toiminta alustalla, mukaan lukien punapaketin lähettäminen, tehtävien suorittaminen ja ystävien kutsuminen, voi ansaita vastaavia $moonini-palkintoja.",
-          "Yleisille käyttäjille $moonini on lisäbonus Moonpacketin käytöstä; mitä enemmän käytät, sitä enemmän ansaitset. Sijoittajille $mooninin token-ekonomiassa on suunniteltu 90 % käyttäjille, 10 % tiimille, 6-vaiheinen puolitus ja lukitusvapautukset, joka tehokkaasti vähentää lyhytaikaisia dump-riskkejä ja edistää pitkän aikavälin arvon vakautta."
+          "Kannustaaksemme käyttäjiä jatkamaan alustan käyttöä ja luomaan pitkäaikaisia suhteita, lanseerasimme $MOONINI-yhteisö kannustintokenin. Jokainen aktiivinen toiminta alustalla, mukaan lukien punapaketin lähettäminen, tehtävien suorittaminen ja ystävien kutsuminen, voi ansaita vastaavia $MOONINI-palkintoja.",
+          "Yleisille käyttäjille $MOONINI on lisäbonus Moonpacketin käytöstä; mitä enemmän käytät, sitä enemmän ansaitset. Sijoittajille $MOONINIn token-ekonomiassa on suunniteltu 90 % käyttäjille, 10 % tiimille, 6-vaiheinen puolitus ja lukitusvapautukset, joka tehokkaasti vähentää lyhytaikaisia dump-riskkejä ja edistää pitkän aikavälin arvon vakautta."
         ],
         "highlights": {
           "title": "Ydin kohokohdat",
@@ -105,16 +105,16 @@
           ]
         },
         "solutions": {
-          "title": "Moonpacketin ratkaisu + $moonini",
+          "title": "Moonpacketin ratkaisu + $MOONINI",
           "items": [
             "**Käyttäytymisen seurannan täydentäminen**: moonpacket tallentaa jokaisen Red Packetin vastaanoton, jakamiseen liittyvän käyttäytymisen sekä uusien käyttäjien esittelyn, mikä auttaa sinua ymmärtämään markkinoinnin tehokkuutta selkeästi.",
-            "**Pitkäaikaiset kannustimekanismit**: $moonini-tokenin avulla, mitä enemmän käyttäjät osallistuvat, sitä enemmän he ansaitsevat, luoden pitkäaikaista osallistumismotivaatiota.",
+            "**Pitkäaikaiset kannustimekanismit**: $MOONINI-tokenin avulla, mitä enemmän käyttäjät osallistuvat, sitä enemmän he ansaitsevat, luoden pitkäaikaista osallistumismotivaatiota.",
             "**Reilu arvon jakaminen**: 90 % tokenista menee käyttäjille, varmistamalla yhteisön prioriteetti, kun taas mekanismit kuten puolitus ja lukitus vähentävät romahdusriskejä."
           ]
         }
       },
       "concept": {
-        "title": "moonpacketin ja $mooninin ydin käsitteet",
+        "title": "moonpacketin ja $MOONINIn ydin käsitteet",
         "moonpacket": {
           "title": "moonpacketin rooli",
           "description": "moonpacket on Telegram Red Packet, tehtävä ja markkinointityökalu. Olitpa sitten yhteisön ylläpitäjä, tapahtuman järjestäjä tai projekti, joka haluaa houkutella uusia käyttäjiä, voit käyttää moonpacketia:",
@@ -126,25 +126,25 @@
           ]
         },
         "moonini": {
-          "title": "$moonini:n rooli",
-          "description": "$moonini on palkkioiden pisteetoken, joka tunnustaa käyttäjien ja yhteisön käyttäytymisen. Jokainen aktiivinen toimi, jonka teet moonpacketissa, ansaitsee sinulle vastaavat $moonini:",
+          "title": "$MOONINI:n rooli",
+          "description": "$MOONINI on palkkioiden pisteetoken, joka tunnustaa käyttäjien ja yhteisön käyttäytymisen. Jokainen aktiivinen toimi, jonka teet moonpacketissa, ansaitsee sinulle vastaavat $MOONINI:",
           "rewards": [
-            "Lähetä Red Packet: Ansaitse vastaava $moonini Red Packetin määrästä ja nykyisestä vaiheesta",
-            "Suorita tehtäviä: Saavuttamalla saavutuksia, sosiaalisia tehtäviä jne. ansaitset ylimääräistä $moonini",
-            "Kutsu ystäviä: Onnistuneesti kutsu uusia käyttäjiä ja suorita jakotehtävät, molemmat osapuolet voivat ansaita $moonini",
-            "Aktiivinen osallistuminen: Tiettyjen toimintojen suorittaminen yhteistyöpeleissä tai -sovelluksissa voi myös ansaita $moonini"
+            "Lähetä Red Packet: Ansaitse vastaava $MOONINI Red Packetin määrästä ja nykyisestä vaiheesta",
+            "Suorita tehtäviä: Saavuttamalla saavutuksia, sosiaalisia tehtäviä jne. ansaitset ylimääräistä $MOONINI",
+            "Kutsu ystäviä: Onnistuneesti kutsu uusia käyttäjiä ja suorita jakotehtävät, molemmat osapuolet voivat ansaita $MOONINI",
+            "Aktiivinen osallistuminen: Tiettyjen toimintojen suorittaminen yhteistyöpeleissä tai -sovelluksissa voi myös ansaita $MOONINI"
           ]
         },
         "logic": {
           "title": "Mitä enemmän käytät sitä, sitä enemmän ansaitset",
-          "description": "Logiikka on yksinkertainen: mitä aktiivisempi olet moonpacketissa, sitä enemmän ansaitset $moonini. Varhaiset osallistujat voivat nauttia korkeammasta palkkiosuhteesta (Vaihe 1, ansaitse 1 $moonini jokaisesta lähetetystä 1 USDT Red Packetista). Mitä aikaisemmin osallistut, sitä suurempi etu sinulla on."
+          "description": "Logiikka on yksinkertainen: mitä aktiivisempi olet moonpacketissa, sitä enemmän ansaitset $MOONINI. Varhaiset osallistujat voivat nauttia korkeammasta palkkiosuhteesta (Vaihe 1, ansaitse 1 $MOONINI jokaisesta lähetetystä 1 USDT Red Packetista). Mitä aikaisemmin osallistut, sitä suurempi etu sinulla on."
         }
       },
       "tokenomics": {
         "title": "Tokenomisten yleiskatsaus",
         "total": {
           "title": "Kokonais token-öförity",
-          "description": "$moonini:n kokonais määrä on **10,000,000,000 tokenia (10B)**, ja sillä on kiinteä kokonais tarjonta ilman lisä tuotantoa."
+          "description": "$MOONINI:n kokonais määrä on **10,000,000,000 tokenia (10B)**, ja sillä on kiinteä kokonais tarjonta ilman lisä tuotantoa."
         },
         "allocation": {
           "title": "Jakosuunnitelma",
@@ -256,7 +256,7 @@
               ]
             ]
           },
-          "example": "Esimerkiksi: Vaiheessa 1, jos lähetät 100 USDT Red Packetin, voit ansaita 100 $moonini; vaiheessa 2, saman 100 USDT Red Packetin lähettäminen tuottaa sinulle vain 50 $moonini. Mitä aikaisemmin osallistut, sitä enemmän etua saat!"
+          "example": "Esimerkiksi: Vaiheessa 1, jos lähetät 100 USDT Red Packetin, voit ansaita 100 $MOONINI; vaiheessa 2, saman 100 USDT Red Packetin lähettäminen tuottaa sinulle vain 50 $MOONINI. Mitä aikaisemmin osallistut, sitä enemmän etua saat!"
         },
         "vesting": {
           "title": "Tiimin kiintiö lukitus ja vapautus",
@@ -280,20 +280,20 @@
       "utility": {
         "title": "Käyttäjähankinta ja käyttötilanteet",
         "how_to_earn": {
-          "title": "Miten ansaita $moonini?",
+          "title": "Miten ansaita $MOONINI?",
           "methods": [
-            "**Lähetä Red Packet**: Jokaisesta **1 USDT:n** arvoisesta Red Packetista (useita valuuttoja tukien) osallistujat saavat vastaavan määrän $moonini tämänhetkisen vaiheen perusteella.",
+            "**Lähetä Red Packet**: Jokaisesta **1 USDT:n** arvoisesta Red Packetista (useita valuuttoja tukien) osallistujat saavat vastaavan määrän $MOONINI tämänhetkisen vaiheen perusteella.",
             "**Suorita tehtävät**: sisältää kertaluonteiset saavutustehtävät ja sosiaaliset tehtävät. Reiluuden varmistamiseksi jokaisen tilin sallitaan suorittaa jokainen tehtävä vain kerran tai asettaa niille kokonaisraja välttääkseen haitallista kolikkoviljelyä.",
             "**Kutsu ystäviä**: Kutsu uusia ystäviä ja suorita jakotehtäviä, jolloin molemmat osapuolet saavat palkintoja. **Jokaisella tilillä on rajoitus kutsupalkinnoissa**, ja tarkat säännöt määräytyvät yhteisöilmoitusten mukaan.",
-            "**Yhteistyösovellukset**: Tiettyjen toimintojen suorittaminen peleissä tai sovelluksissa, jotka on integroitu moonpacket API:hin, voi myös ansaita $moonini."
+            "**Yhteistyösovellukset**: Tiettyjen toimintojen suorittaminen peleissä tai sovelluksissa, jotka on integroitu moonpacket API:hin, voi myös ansaita $MOONINI."
           ]
         },
         "how_to_use": {
-          "title": "$moonini käyttötarkoitukset",
+          "title": "$MOONINI käyttötarkoitukset",
           "items": [
-            "**Maksualennukset**: Tulevaisuudessa $moonini voidaan käyttää osan Red Packet -transaktiomaksujen kattamiseen.",
-            "**Avaa ominaisuudet**: Tietyt premium-ominaisuudet saattavat vaatia tietyn määrän $moonini käyttöä varten.",
-            "**Hallituksen äänestysoikeudet**: $moonini:n pitäminen mahdollistaa osallistumisen tuleviin yhteisöhallinnan äänestyksiin, vaikuttaen projektin kehityssuuntaan.",
+            "**Maksualennukset**: Tulevaisuudessa $MOONINI voidaan käyttää osan Red Packet -transaktiomaksujen kattamiseen.",
+            "**Avaa ominaisuudet**: Tietyt premium-ominaisuudet saattavat vaatia tietyn määrän $MOONINI käyttöä varten.",
+            "**Hallituksen äänestysoikeudet**: $MOONINI:n pitäminen mahdollistaa osallistumisen tuleviin yhteisöhallinnan äänestyksiin, vaikuttaen projektin kehityssuuntaan.",
             "**Ekosysteemi Lunastus**: Voidaan lunastaa erityisiä etuja tai palkintoja kumppanisovelluksissa tai peleissä."
           ]
         }
@@ -302,7 +302,7 @@
         "title": "Kehittäjäekosysteemi",
         "description": [
           "moonpacket on enemmän kuin pelkkä Red Packet -työkalu; se on avoin **Sosiaalinen Likviditeettikerros**.",
-          "Standardisoitujen API:en ja SDK:iden kautta mikä tahansa Telegram-botti, GameFi- tai Web3-sovellus voi käyttää $moonini-incentiivikerrosta. Keskittymällä tuotekehitykseen autamme sinua kasvussa ja asiakasuskollisuudessa."
+          "Standardisoitujen API:en ja SDK:iden kautta mikä tahansa Telegram-botti, GameFi- tai Web3-sovellus voi käyttää $MOONINI-incentiivikerrosta. Keskittymällä tuotekehitykseen autamme sinua kasvussa ja asiakasuskollisuudessa."
         ],
         "architecture": {
           "title": "Ohjelmoitavat kannustimet",
@@ -317,14 +317,10 @@
         "title": "Sopimusosoite",
         "description": "Varmistaaksemme läpinäkyvyyden, kaikki keskeiset älykkäät sopimusosoitteet julkistetaan ja vahvistetaan.",
         "items": {
-          "token": "$moonini Token (Token Sopimus)",
-          "emission": "Eläkeholvi (90 % julkinen liikkeeseenlaskuholvi)",
-          "reserve": "Varauskaappi (10 % Tiimin Kiintiö Kaappi)",
-          "phase": "Vaihehallinta (Puolitusohjain)",
+          "token": "$MOONINI Token (Token Sopimus)",
           "vesting": "Vesting Vault (Lineaarinen Vapautusohjain)",
-          "pol": "POL Manager (Ostot ja hintalattian puolustus)",
-          "protection": "Käynnistys suojaus (Avoin vaihe Anti-Sniping)",
-          "timelock": "Aikalukon ohjain (48h viivästyslukko)"
+          "pool": "Liquidity Pool (LP) (Markkinoiden Likviditeetti)",
+          "multisig": "Governance Multisig (Valtakeskus)"
         },
         "status": "(Päivitetään mainnetin käyttöönoton jälkeen)"
       },
@@ -453,11 +449,11 @@
         "items": [
           {
             "question": "Miten tokeneita voidaan ansaita?",
-            "answer": "Voit ansaita $moonini lähettämällä punaisia paketteja, suorittamalla tehtäviä, kutsumalla ystäviä ja muita tapoja. Mitä enemmän lähetät punaisia paketteja ja suoritat tehtäviä, sitä enemmän voittoja saat. Varhaiset osallistujat saavat myös korkeampia palkintoja."
+            "answer": "Voit ansaita $MOONINI lähettämällä punaisia paketteja, suorittamalla tehtäviä, kutsumalla ystäviä ja muita tapoja. Mitä enemmän lähetät punaisia paketteja ja suoritat tehtäviä, sitä enemmän voittoja saat. Varhaiset osallistujat saavat myös korkeampia palkintoja."
           },
           {
             "question": "Milloin voi nostaa?",
-            "answer": "Kun päälohkoketju avataan, käyttäjät voivat nostaa $moonini omalle lompakolleen. Nostaminen vaatii pienen kaasumaksun (BSC-verkkomaksu), tarkka avausaika ilmoitetaan virallisessa ilmoituksessa."
+            "answer": "Kun päälohkoketju avataan, käyttäjät voivat nostaa $MOONINI omalle lompakolleen. Nostaminen vaatii pienen kaasumaksun (BSC-verkkomaksu), tarkka avausaika ilmoitetaan virallisessa ilmoituksessa."
           },
           {
             "question": "Onko tiimin jakoon lukitsemista?",
@@ -472,16 +468,16 @@
             "answer": "Vähennämme riskejä kolmannen osapuolen turvallisuustarkastusten, moninkertaisten allekirjoitusten varmistamisen ja viivästettyjen toimintojen avulla. Jos ongelmia ilmenee, käynnistämme välittömästi hätäprosessin ja päätämme ratkaisusta hallintomekanismin kautta sekä ilmoitamme yhteisölle."
           },
           {
-            "question": "Mikä on $moonini kokonaismäärä? Lisääkö se?",
-            "answer": "$moonini kokonaismäärä on 10,000,000,000 kpl (10B), kiinteä määrä, eikä lisää julkaista. 90% julkaistaan käyttäjätoimintojen kautta asteittain, 10% tiimille ja varhaisille sijoittajille."
+            "question": "Mikä on $MOONINI kokonaismäärä? Lisääkö se?",
+            "answer": "$MOONINI kokonaismäärä on 10,000,000,000 kpl (10B), kiinteä määrä, eikä lisää julkaista. 90% julkaistaan käyttäjätoimintojen kautta asteittain, 10% tiimille ja varhaisille sijoittajille."
           },
           {
             "question": "Miten osallistun hallintaan?",
-            "answer": "$moonini haltijat voivat osallistua tulevassa yhteisön hallintovaalissa, joka vaikuttaa projektin kehityssuuntiin. Tarkemmat hallintomekanismit ja äänestystavat julkaistaan päälohkoketjun avauksen jälkeen."
+            "answer": "$MOONINI haltijat voivat osallistua tulevassa yhteisön hallintovaalissa, joka vaikuttaa projektin kehityssuuntiin. Tarkemmat hallintomekanismit ja äänestystavat julkaistaan päälohkoketjun avauksen jälkeen."
           },
           {
-            "question": "Voiko $moonini kaupata?",
-            "answer": "Kun päälohkoketju avataan ja likviditeettipooli perustetaan, $moonini voidaan kaupata hajautetuilla pörsseillä (kuten PancakeSwap). Kauppa vaikuttaa markkinoiden kysyntään ja tarjontaan, joten hinnat saattavat vaihdella; sijoita varovaisesti."
+            "question": "Voiko $MOONINI kaupata?",
+            "answer": "Kun päälohkoketju avataan ja likviditeettipooli perustetaan, $MOONINI voidaan kaupata hajautetuilla pörsseillä (kuten PancakeSwap). Kauppa vaikuttaa markkinoiden kysyntään ja tarjontaan, joten hinnat saattavat vaihdella; sijoita varovaisesti."
           }
         ]
       }
@@ -719,18 +715,18 @@
     }
   },
   "whitepaper": {
-    "title": "$moonini Valkoinen Kirja",
-    "description": "Ymmärrys $moonini-tokenin suunnittelufilosofiasta, taloudellisesta mallista ja teknisestä arkkitehtuurista",
+    "title": "$MOONINI Valkoinen Kirja",
+    "description": "Ymmärrys $MOONINI-tokenin suunnittelufilosofiasta, taloudellisesta mallista ja teknisestä arkkitehtuurista",
     "seo": {
-      "title": "$moonini Valkoinen Kirja — moonpacket",
-      "description": "Kattava kuvaus $moonini Tokenomista, Teknistä Arkkitehtuuria ja Hallintomekanismista"
+      "title": "$MOONINI Valkoinen Kirja — moonpacket",
+      "description": "Kattava kuvaus $MOONINI Tokenomista, Teknistä Arkkitehtuuria ja Hallintomekanismista"
     },
     "hero": {
-      "subtitle": "$moonini on moonpacket-alustalle perustuva yhteisöincentiiviraha. Mitä enemmän käyttäjät osallistuvat ja vuorovaikuttavat moonpacketilla, sitä enemmän $moonini:ta he voivat ansaita. Sijoittajille 90 % jaetaan käyttäjille ja 10 % tiimille, mikä vähentää tehokkaasti markkinakaatumisen riskiä puolitusmekanismin ja lineaarisen julkaisun yhdistelmän avulla.",
+      "subtitle": "$MOONINI on moonpacket-alustalle perustuva yhteisöincentiiviraha. Mitä enemmän käyttäjät osallistuvat ja vuorovaikuttavat moonpacketilla, sitä enemmän $MOONINI:ta he voivat ansaita. Sijoittajille 90 % jaetaan käyttäjille ja 10 % tiimille, mikä vähentää tehokkaasti markkinakaatumisen riskiä puolitusmekanismin ja lineaarisen julkaisun yhdistelmän avulla.",
       "cards": {
         "user": {
           "title": "Yleiskäyttäjille",
-          "description": "Voit ansaita helposti $moonini:ta lähettämällä Red Packetteja, suorittamalla tehtäviä ja kutsumalla ystäviä. Mitä enemmän käytät, sitä enemmän ansaitset, täysin ilmaiseksi."
+          "description": "Voit ansaita helposti $MOONINI:ta lähettämällä Red Packetteja, suorittamalla tehtäviä ja kutsumalla ystäviä. Mitä enemmän käytät, sitä enemmän ansaitset, täysin ilmaiseksi."
         },
         "investor": {
           "title": "Sijoittajille",
@@ -760,13 +756,13 @@
     "content": {
       "overview": {
         "what_is": [
-          "**$moonini** on moonpacket-alustalla käytettävä ekosysteemin token, jota käytetään käyttäjien palkitsemiseen aktiivisista toiminnoista alustalla, mukaan lukien:",
+          "**$MOONINI** on moonpacket-alustalla käytettävä ekosysteemin token, jota käytetään käyttäjien palkitsemiseen aktiivisista toiminnoista alustalla, mukaan lukien:",
           "- Lähettää red packet",
           "- Kutsutaan ystäviä",
           "- Tehtävien suorittaminen",
           "- Osallistuminen yhteisön toimintaan",
           "",
-          "**Yksinkertaisesti sanottuna**: Mitä enemmän käytät moonpacketia, sitä enemmän $moonini ansaitset."
+          "**Yksinkertaisesti sanottuna**: Mitä enemmän käytät moonpacketia, sitä enemmän $MOONINI ansaitset."
         ],
         "core_values": {
           "title": "Ydinarvot",
@@ -826,8 +822,8 @@
             "| **Vaihe 6** | 8.71875B ~ 9B | **0.03125 token** | Viimeinen vaihe |",
             "",
             "**Esimerkki**:",
-            "- Vaiheessa 1, jos lähetät 100 USDT Red Packetin, voit vastaanottaa 100 $moonini",
-            "- Vaiheessa 2, jos lähetät 100 USDT Red Packetin, voit vastaanottaa vain 50 $moonini",
+            "- Vaiheessa 1, jos lähetät 100 USDT Red Packetin, voit vastaanottaa 100 $MOONINI",
+            "- Vaiheessa 2, jos lähetät 100 USDT Red Packetin, voit vastaanottaa vain 50 $MOONINI",
             "- Mitä aikaisemmin osallistut, sitä enemmän tokenia saat!"
           ],
           "value_logic": [
@@ -837,12 +833,12 @@
             "Itäisestä kulttuurista juontava Red Packet edustaa ei vain rahansiirtoa, vaan myös rakkautta vanhemmilta nuoremmille, onnituksia ja jakamista ystävien kesken. moonpacketissa, jokainen kerta kun lähetät Red Packetin, on lämmin sosiaalinen vuorovaikutus.",
             "",
             "**Sosiaalisesta Käyttäytymisestä Taloudelliseen Arvoon**:",
-            "Uskomme, että nämä hyvyyskohteet tulisi kirjata ja arvostaa. $moonini ei ole pelkästään palkkio-token; se on tämän sosiaalisen verkoston arvon kantaja, tuottaen pitkän aikavälin taloudellisia vaikutuksia jokaisesta 'antamisesta'.",
+            "Uskomme, että nämä hyvyyskohteet tulisi kirjata ja arvostaa. $MOONINI ei ole pelkästään palkkio-token; se on tämän sosiaalisen verkoston arvon kantaja, tuottaen pitkän aikavälin taloudellisia vaikutuksia jokaisesta 'antamisesta'.",
             "",
             "**Todellinen Arvon Tuki**:",
             "Tämän sosiaalisen arvon vakauden ylläpitämiseksi protokolla määrittelee: **50 % transaktiomaksuista ohjataan automaattisesti Likviditeettialtaaseen**.",
             "",
-            "Tämä tarkoittaa: mitä aktiivisempi yhteisö ➔ sitä enemmän Red Packet vuorovaikutuksia ➔ sitä enemmän varoja injektoidaan likviditeettipooliin ➔ sitä vahvempi $moonini:n arvopohja. Tämä on positiivinen sykli, joka perustuu todellisiin sosiaalisiin tarpeisiin ja liiketoimintatulokseen, ei pelkästään spekulatiiviseen uhkapeliin."
+            "Tämä tarkoittaa: mitä aktiivisempi yhteisö ➔ sitä enemmän Red Packet vuorovaikutuksia ➔ sitä enemmän varoja injektoidaan likviditeettipooliin ➔ sitä vahvempi $MOONINI:n arvopohja. Tämä on positiivinen sykli, joka perustuu todellisiin sosiaalisiin tarpeisiin ja liiketoimintatulokseen, ei pelkästään spekulatiiviseen uhkapeliin."
           ]
         }
       },
@@ -909,15 +905,15 @@
             "**Julkaisumenetelmä**: Vähittäinen julkaisu käyttäjien aktiviteettien kautta",
             "",
             "**Julkaisulähteet**:",
-            "1. **Lähetä Red Packet**: Jokaisella kerralla, kun 1 USDT Red Packet lähetetään, saat vastaavan määrän $moonini nykyisen vaiheen mukaan.",
-            "2. **Kutsu ystäviä**: Onnistuneesti kutsu uusia käyttäjiä ja suorita jakotehtävät saadaksesi $moonini",
-            "3. **Suorita tehtävät**: Suorita saavutustehtäviä, sosiaalisia tehtäviä jne. ansaitaksesi ylimääräistä $moonini",
+            "1. **Lähetä Red Packet**: Jokaisella kerralla, kun 1 USDT Red Packet lähetetään, saat vastaavan määrän $MOONINI nykyisen vaiheen mukaan.",
+            "2. **Kutsu ystäviä**: Onnistuneesti kutsu uusia käyttäjiä ja suorita jakotehtävät saadaksesi $MOONINI",
+            "3. **Suorita tehtävät**: Suorita saavutustehtäviä, sosiaalisia tehtäviä jne. ansaitaksesi ylimääräistä $MOONINI",
             "4. **Ryhmän Omistajan Voitto-osuus**: Ryhmän omistajat voivat saada 3 % voitto-osuutta (USDT) lähettämällä Red Packetteja ryhmien välillä."
           ],
           "cost_vs_price": [
             "💡 **Tuotantokustannus vs Markkinahinta**:",
             "",
-            "Vaiheessa 1, 1 $moonini saamisen epäsuora kustannus Red Packet -kaivoksen kautta on noin **0,02 USDT** (perustuen 2 %:n transaktiomaksuun).",
+            "Vaiheessa 1, 1 $MOONINI saamisen epäsuora kustannus Red Packet -kaivoksen kautta on noin **0,02 USDT** (perustuen 2 %:n transaktiomaksuun).",
             "",
             "Vaikka alkuperäinen listahinta on **0.01 USDT**.",
             "",
@@ -925,10 +921,10 @@
           ],
           "withdraw_mechanism": [
             "**Nostomekanismi**:",
-            "- Kun käyttäjät ansaitsevat $moonini alustalla, he voivat nostaa sen lompakkoonsa turvallisen henkilöllisyystarkistusmekanismin kautta.",
+            "- Kun käyttäjät ansaitsevat $MOONINI alustalla, he voivat nostaa sen lompakkoonsa turvallisen henkilöllisyystarkistusmekanismin kautta.",
             "- Järjestelmä tarkistaa käyttäjätoimintatietojen perusteella varmistaakseen, että vain käyttäjä voi toimia.",
             "- Kun vahvistus on saatu, käyttäjät voivat nostaa tokeninsa lompakkoonsa.",
-            "- **Minimimiesiirto**: 10 $moonini",
+            "- **Minimimiesiirto**: 10 $MOONINI",
             "- **Käsittelykulu**: Käyttäjien tarvitsee maksaa vain verkkotapahtumamaksu (lohkoketjukäytännön mukaisesti)",
             "",
             "*Yksityiskohtaisia teknisiä toteutuksia varten, katso: [Tekninen eräspesifikaatiodokumentti](/fi-FI/docs/technical)*"
@@ -957,7 +953,7 @@
             "- **Ilmoitusmekanismi**: Automaattiset ilmoitukset lähetetään vastaanottajille jokaisen vapautuksen jälkeen.",
             "",
             "**Esimerkki**:",
-            "- Sijoittaja A vastaanottaa 1 000 000 $moonini",
+            "- Sijoittaja A vastaanottaa 1 000 000 $MOONINI",
             "- Ensimmäiset 3 kuukautta: Lukituskausi, kotiutuksia ei sallita",
             "- Alkaen 4. kuukaudesta: Tokenit kertyvät lineaarisesti ajan myötä, säännöllisillä nostoilla kertyneestä osasta",
             "- 33 kuukauden jälkeen: Kaikki julkaisut saatu päätökseen."
@@ -1043,7 +1039,7 @@
           "title": "5.3 Osto takaisin ja markkinoiden luominen (POL - Rajaton osto takaisin + Lattiahintapuolustus)",
           "mechanism": [
             "**Mekaniikka**:",
-            "- **1%** alustatransaktioista käytetään $moonini takaisinostamiseen ja likviditeettipoolin syventämiseen",
+            "- **1%** alustatransaktioista käytetään $MOONINI takaisinostamiseen ja likviditeettipoolin syventämiseen",
             "- **Rajoittamaton takaisinosto**: Ei päivittäistä rajaa takaisinostoille; niin monta transaktiomaksua kuin on, takaisinostot jatkavat likviditeettituen tarjoamista tokenille",
             "- **Automaattinen strategia**: Älykkäiden takaisinostostrategioiden käyttäminen ennakoitavuuden vähentämiseksi ja markkinoiden manipuloinnin välttämiseksi",
             "- **Osta Suojelua**: Automaattisesti lisää takaisinosto-pyrkimyksiä, kun markkinoilla on merkittävä lasku, suojaten sijoittajien etuja"
@@ -1110,11 +1106,11 @@
       },
       "incentives": {
         "how_to_earn": {
-          "title": "6.1 Kuinka hankkia $moonini?",
+          "title": "6.1 Kuinka hankkia $MOONINI?",
           "send_gift": [
             "#### A. Lähettäminen Red Packet -paketteja",
             "",
-            "- **Perus Säännöt**: Jokaisesta lähetetystä **1 USDT** punaisesta paketista (tukee useita tokeneita) järjestelmä laskee ja jakaa $moonini nykyisen vaihtoarvon mukaan.",
+            "- **Perus Säännöt**: Jokaisesta lähetetystä **1 USDT** punaisesta paketista (tukee useita tokeneita) järjestelmä laskee ja jakaa $MOONINI nykyisen vaihtoarvon mukaan.",
             "- **Siunausten Välittäminen**: Red Packetit eivät ole pelkästään rahaa; ne ovat siunauksien välittämistä. Jokainen lahjananto tallennetaan lohkoketjuun ja siitä palkitaan."
           ],
           "invite": [
@@ -1147,7 +1143,7 @@
             "",
             "**Käyttö maksuille**:",
             "- **1% Toiminnot**: Käytetään palvelin-, kehitys- ja markkinointikustannuksiin.",
-            "- **1% Osto takaisin**: Käytetään $moonini:n takaisinostamiseen ja LP:n syventämiseen (realisoituu tulevaisuudessa).",
+            "- **1% Osto takaisin**: Käytetään $MOONINI:n takaisinostamiseen ja LP:n syventämiseen (realisoituu tulevaisuudessa).",
             "- **3% Ryhmän Omistajan Voitto-osuus**: Maksetaan ryhmän omistajalle (vain ylityöryhmälähetyksille veloitettu)."
           ]
         }
@@ -1156,33 +1152,30 @@
         "contracts": {
           "title": "7.1 Sopimusosoite (Odottaa käyttöönottoa)",
           "description": [
-            "Kun token virallisesti lanseerataan, kaikki älykkään sopimuksen osoitteet ilmoitetaan täällä yhdessä vastaavien teknisten spesifikaatioiden linkkien kanssa.",
+            "以下為 $MOONINI 核心合約與資產地址。為了確保透明度，所有地址均已公開並可於區塊鏈瀏覽器查詢。",
             "",
-            "**Pääsopimuksen moduulit**:",
-            "- Token-sopimus",
-            "- Hallinto ja Viivekontrolli",
-            "- Julkinen tarjoaminen Treasury",
-            "- Tiimi Allocointi Valtiovarainministeriö",
-            "- Osto-ohjauksen hallinta",
-            "- Likviditeettipooli",
-            "- Monimerkkilompakko",
+            "**核心地址**：",
+            "- **代幣合約**：`0xe4d5857271c7978F5fe6b29A73C97142D6d8Befe`",
+            "- **鎖倉合約**：`0x0c0cc023d3c82d22aafd05763393f5af6b0922a1`",
+            "- **Likviditeettipooli (LP)**：`0x24248E591eC8FDeC9776f87C497746867305963E`",
+            "- **Valtakeskus**：`0x8c1c793E73372aCD30DD05fE4Cc718A4ADbe1219`",
             "",
-            "*Yksityiskohtaisia sopimusosoitteita ja teknisiä erittelyjä varten viittaatte seuraavaan: [Tekninen Eritysasiakirja](/fi-FI/docs/technical)*"
+            "*詳細技術規格請參考：[技術規格文檔](/zh-TW/docs/technical)*"
           ]
         },
         "api": {
           "title": "7.2 Integraatiotavat ja API (Suunnittelussa)",
           "intro": [
-            "moonpacket aikoo tarjota täydellisen API-ekosysteemin, jonka avulla kolmannen osapuolen kehittäjät ja kumppanit voivat helposti integroida $moonini-palkitsemismekanismia tuotteisiinsa. Olipa kyseessä Telegram-botti, Web3-peli tai markkinointikampanjalava, API:mme mahdollistaa käyttäjien vastaanottaa $moonini-palkintoja, laajentaen ekologista vaikutusta."
+            "moonpacket aikoo tarjota täydellisen API-ekosysteemin, jonka avulla kolmannen osapuolen kehittäjät ja kumppanit voivat helposti integroida $MOONINI-palkitsemismekanismia tuotteisiinsa. Olipa kyseessä Telegram-botti, Web3-peli tai markkinointikampanjalava, API:mme mahdollistaa käyttäjien vastaanottaa $MOONINI-palkintoja, laajentaen ekologista vaikutusta."
           ],
           "types": [
             "**API-tyypit**:",
             "",
             "Suunnittelumme on tarjota seuraavanlaisia API-tyyppejä erilaisten integraatiotarpeiden täyttämiseksi:",
             "",
-            "- **Tietojen Lukeminen API**: Kysely Red Packet -jakelutiedoista, tehtävien suoritusstatus, käyttäjän $moonini-saldo ja paljon muuta, mikä mahdollistaa kumppaneiden ymmärtää käyttäjätoiminnan tilaa.",
+            "- **Tietojen Lukeminen API**: Kysely Red Packet -jakelutiedoista, tehtävien suoritusstatus, käyttäjän $MOONINI-saldo ja paljon muuta, mikä mahdollistaa kumppaneiden ymmärtää käyttäjätoiminnan tilaa.",
             "",
-            "- **Jakelu- ja Tehtävä-API**: Mahdollistaa kumppaneille Red Packet -jakelujen tai tehtäväpalkkioiden käynnistämisen omissa tuotteissaan, esimerkiksi automaattisesti jakamalla $moonini-palkintoja, kun käyttäjät saavuttavat tiettyjä virstanpylväitä pelissä.",
+            "- **Jakelu- ja Tehtävä-API**: Mahdollistaa kumppaneille Red Packet -jakelujen tai tehtäväpalkkioiden käynnistämisen omissa tuotteissaan, esimerkiksi automaattisesti jakamalla $MOONINI-palkintoja, kun käyttäjät saavuttavat tiettyjä virstanpylväitä pelissä.",
             "",
             "- **Webhook-tapahtumat**: Järjestelmä ilmoittaa aktiivisesti kumppaneille tärkeistä tapahtumista, kuten kun käyttäjät suorittavat tehtäviä, vaativat Red Packets tai viimeistelevät nostot, mikä mahdollistaa reaaliaikaiset vastaukset ja tietojen synkronoinnin."
           ],
@@ -1206,22 +1199,22 @@
             "",
             "- **Suljettu Beta**: Aluksi tarjottu kumppaneille ja varhaisille pelinkehittäjille suljetun beta-muodon kautta palautteen keräämiseksi ja kokemusten optimoimiseksi.",
             "",
-            "- **Vähittäinen avaus**: Beta-vaiheen vakauden vahvistamisen jälkeen sovellukset avautuvat vähitellen, jotta yhä useammat kehittäjät voivat integroida $moonini-ekosysteemin.",
+            "- **Vähittäinen avaus**: Beta-vaiheen vakauden vahvistamisen jälkeen sovellukset avautuvat vähitellen, jotta yhä useammat kehittäjät voivat integroida $MOONINI-ekosysteemin.",
             "",
             "- **Virallinen Julkaisu**: Kun API saavuttaa tuotantotason vakauden, se avataan virallisesti yleisölle, tarjoten täydelliset asiakirjat ja tuen."
           ],
           "scenarios": {
             "title": "Tyypilliset integrointitilanteet",
             "items": [
-              "**Telegram Bot / Mini App**: Lähetä Red Packets ryhmissäsi tai sovelluksissasi, jotta käyttäjät voivat vastaanottaa $moonini palkintoja, mikä lisää käyttäjien sitoutumista.",
+              "**Telegram Bot / Mini App**: Lähetä Red Packets ryhmissäsi tai sovelluksissasi, jotta käyttäjät voivat vastaanottaa $MOONINI palkintoja, mikä lisää käyttäjien sitoutumista.",
               "",
-              "**Web3-pelit**: Ilmoita tehtävän valmistumisesta moonpacketille, jolloin pelaajat voivat automaattisesti vastaanottaa lisä $moonini -palkintoja pelitehtävien suorittamisesta.",
+              "**Web3-pelit**: Ilmoita tehtävän valmistumisesta moonpacketille, jolloin pelaajat voivat automaattisesti vastaanottaa lisä $MOONINI -palkintoja pelitehtävien suorittamisesta.",
               "",
-              "**Markkinointikampanjat**: Lähetä automaattisesti $moonini-palkintoja käyttäjien käyttäytymisen perusteella sosiaalisessa mediassa (esim. jakaminen, uudelleen twiittaminen, seuraaminen jne.), saavuttaen tarkan markkinoinnin.",
+              "**Markkinointikampanjat**: Lähetä automaattisesti $MOONINI-palkintoja käyttäjien käyttäytymisen perusteella sosiaalisessa mediassa (esim. jakaminen, uudelleen twiittaminen, seuraaminen jne.), saavuttaen tarkan markkinoinnin.",
               "",
-              "**DeFi-protokollat**: Integroi $moonini lisäpalkkiokerrokseksi, jonka avulla käyttäjät voivat ansaita $moonini-palkintoja alkuperäisten voittojen lisäksi suorittamalla tiettyjä DeFi-toimia.",
+              "**DeFi-protokollat**: Integroi $MOONINI lisäpalkkiokerrokseksi, jonka avulla käyttäjät voivat ansaita $MOONINI-palkintoja alkuperäisten voittojen lisäksi suorittamalla tiettyjä DeFi-toimia.",
               "",
-              "**Sisältöluontialustat**: Anna automaattisesti $moonini palkintoja, kun luojat suorittavat tiettyjä tehtäviä tai saavuttavat virstanpylväitä, kannustaen laadukkaan sisällön luomiseen."
+              "**Sisältöluontialustat**: Anna automaattisesti $MOONINI palkintoja, kun luojat suorittavat tiettyjä tehtäviä tai saavuttavat virstanpylväitä, kannustaen laadukkaan sisällön luomiseen."
             ]
           }
         },
@@ -1312,7 +1305,7 @@
       "faq": {
         "title": "Kymmenen, vahvistettavaa asiaa",
         "description": [
-          "Tässä asiakirjassa kuvataan $moonini:n ydinsuunnitteluperiaatteet ja talousmalli. Seuraavat asiat ovat edelleen neuvotteluvaiheessa neuvonantajien ja kumppaneiden kanssa ja ne tullaan viimeistelemään ennen pääverkon lanseerausta:",
+          "Tässä asiakirjassa kuvataan $MOONINI:n ydinsuunnitteluperiaatteet ja talousmalli. Seuraavat asiat ovat edelleen neuvotteluvaiheessa neuvonantajien ja kumppaneiden kanssa ja ne tullaan viimeistelemään ennen pääverkon lanseerausta:",
           "",
           "- **Tokenin julkaisuajankohta ja listauspörssit**: Tarkka julkaisuajankohta ja se, listataanko se keskitettyihin pörsseihin (CEX), ovat edelleen koordinaatiossa neuvonantajien ja kumppaneiden kanssa.",
           "",
@@ -1390,34 +1383,34 @@
   "api": {
     "actions": {
       "items": {
-        "0": "Lue [whitepaper](/fi-FI/docs/whitepaper/) saadaksesi tietoa $moonini tokenista ja sen talousmallista.",
+        "0": "Lue [whitepaper](/fi-FI/docs/whitepaper/) saadaksesi tietoa $MOONINI tokenista ja sen talousmallista.",
         "1": "Lue [Teknisten Erityisasiakirjojen](/fi-FI/docs/technical/) dokumentti ymmärtääksesi älysopimukset ja julkaisumekanismin.",
         "2": "Lähetä API-yhteistyöpyyntösi virallisten kanavien (Telegram, sähköposti) kautta, ja priorisoimme ilmoittamisen sinulle, kun API on valmis."
       },
       "title": "Mitä voit tehdä nyt?"
     },
     "content": {
-      "0": "Tämä sivu tarjoaa pian täydelliset asiakirjat moonpacket / $moonini API:lle, mukaan lukien tekniset tiedot REST API:sta, Webhook-tapahtumista, OAuth-todennuksesta, API-avainten hallinnasta ja muusta.",
+      "0": "Tämä sivu tarjoaa pian täydelliset asiakirjat moonpacket / $MOONINI API:lle, mukaan lukien tekniset tiedot REST API:sta, Webhook-tapahtumista, OAuth-todennuksesta, API-avainten hallinnasta ja muusta.",
       "2": "API on tällä hetkellä suunnittelu- ja sisäisessä validointivaiheessa, ja se tulee aluksi saataville suljetussa beetaversiossa valituille kumppaneille testattavaksi, palautteen keräämiseksi ja kokemuksen optimoinniksi.",
       "4": "Kaikkien teknisten yksityiskohtien tulisi viitata 'Teknisten erittelyjen asiakirjaan' ja valkoiseen kirjaan ennen virallisen API-dokumentaation julkaisua."
     },
-    "description": "Opettele integroidaksesi moonpacket ja $moonini tuotteisiisi API:n kautta.",
+    "description": "Opettele integroidaksesi moonpacket ja $MOONINI tuotteisiisi API:n kautta.",
     "seo": {
       "description": "Täydellinen API-dokumentaatio, REST API, Webhook ja integrointiohje",
-      "title": "Moonpacket / $moonini API-dokumentaatio — moonpacket"
+      "title": "Moonpacket / $MOONINI API-dokumentaatio — moonpacket"
     },
     "status": {
       "planned": "(Suunnitteilla)"
     },
     "subtitle": "Täydellinen API-dokumentaatio ja integrointiopas (suunnitteilla)",
-    "title": "Moonpacket / $moonini API Dokumentaatio"
+    "title": "Moonpacket / $MOONINI API Dokumentaatio"
   },
   "countdown": {
     "days": "Taivas",
     "hours": "Tunti",
     "minutes": "minuuttia",
     "seconds": "toinen",
-    "title": "Etäisyys $moonini virallisesta julkaisusta"
+    "title": "Etäisyys $MOONINI virallisesta julkaisusta"
   },
   "disclaimer": {
     "badge": "Tärkeä ilmoitus",
@@ -1425,25 +1418,25 @@
   },
   "distribution": {
     "back_to_whitepaper": "Palaa valkoiseen kirjaan",
-    "description": "Ymmärrä $moonini:n sisäiset jakosäännöt ja kirjanpitomenetelmät",
+    "description": "Ymmärrä $MOONINI:n sisäiset jakosäännöt ja kirjanpitomenetelmät",
     "intro": {
       "0": "**Tämä asiakirja on tarkoitettu insinööreille ja taustakehittäjille**, ja se määrittelee erityiset säännöt siitä, 'kuinka myöntää, kuinka käyttäjät voivat lunastaa ja nähdä' moonpacket-tuotteessa.",
       "2": "**Suunnitteluperiaatteet**:",
       "3": "- **Vähäiset muutokset**: Aseta etusijalle olemassa olevan tietorakenteen käyttäminen, ilman että lisätään monimutkaisia tietokantatauluja heti.",
-      "4": "- **Laajennettavissa**: Tulevaisuudessa, jos $moonini haluaa olla täysin on-chain, meidän täytyy vain lisätä nostamisen/kartoituksen logiikka.",
-      "5": "- **Läpinäkyvä ja jäljitettävä**: Kaikki $moonini-jakelut ja kulutus tallennetaan `user_activity_logs`-tiedostoon",
+      "4": "- **Laajennettavissa**: Tulevaisuudessa, jos $MOONINI haluaa olla täysin on-chain, meidän täytyy vain lisätä nostamisen/kartoituksen logiikka.",
+      "5": "- **Läpinäkyvä ja jäljitettävä**: Kaikki $MOONINI-jakelut ja kulutus tallennetaan `user_activity_logs`-tiedostoon",
       "7": "**Pääsisältö**:",
       "8": "- Datan malli ja kirjanpitomenetelmä (sisäinen kirjanpito)",
-      "9": "- $moonini jakelulähde ja säännöt",
+      "9": "- $MOONINI jakelulähde ja säännöt",
       "10": "- Kirjanpidon toteutuksen yksityiskohdat",
       "12": "*Tämä asiakirja sisältää teknisiä tietoja, tavalliset käyttäjät voivat tutustua [whitepaperiin](/fi-FI/docs/whitepaper/) saadakseen yleiskatsauksen hankkeesta.*",
       "14": "Yksityiskohtaisen asiakirjoituksen osalta viittaatte: `docs/technical/moonini-distribution.md`"
     },
     "seo": {
-      "description": "Täytä $moonini jakosäännöt ja kirjanpitojärjestelmän ohjeet",
-      "title": "$moonini jakelumekanismi — moonpacket"
+      "description": "Täytä $MOONINI jakosäännöt ja kirjanpitojärjestelmän ohjeet",
+      "title": "$MOONINI jakelumekanismi — moonpacket"
     },
-    "title": "$moonini jakelu- ja keräysasu"
+    "title": "$MOONINI jakelu- ja keräysasu"
   },
   "index": {
     "description": "Valmiit projektin asiakirjat, valkoinen kirja ja tekniset vaatimukset",
@@ -1455,11 +1448,11 @@
   },
   "missions": {
     "back_to_whitepaper": "Palaa valkoiseen kirjaan",
-    "description": "Opettele, miten ansaita $moonini tehtävien ja saavutusten kautta.",
+    "description": "Opettele, miten ansaita $MOONINI tehtävien ja saavutusten kautta.",
     "intro": {
-      "0": "**Tämä asiakirja on suunnattu insinööreille ja tuotekehittäjille**, ja siinä määritellään $mooninin tehtäväjärjestelmä ja saavutuskäytännöt, jotka sisältävät saavutuksen tunnetta ja sosiaalisia tehtäviä kahden ydintoiminnan, \"Red Packet + Kutsu ystäviä\", lisäksi.",
+      "0": "**Tämä asiakirja on suunnattu insinööreille ja tuotekehittäjille**, ja siinä määritellään $MOONINIn tehtäväjärjestelmä ja saavutuskäytännöt, jotka sisältävät saavutuksen tunnetta ja sosiaalisia tehtäviä kahden ydintoiminnan, \"Red Packet + Kutsu ystäviä\", lisäksi.",
       "2": "**Suunnitteluperiaatteet**:",
-      "3": "- Kaikki tehtävät \"lisä $moonini\" liittyvät olennaisesti: **punaisia paketteja lähettämiseen, ystävien kutsumiseen, virallisten yhteisöjen seuraamiseen**",
+      "3": "- Kaikki tehtävät \"lisä $MOONINI\" liittyvät olennaisesti: **punaisia paketteja lähettämiseen, ystävien kutsumiseen, virallisten yhteisöjen seuraamiseen**",
       "4": "- 'One-time Task' häviää pysyvästi suorittamisen jälkeen.",
       "5": "- Tehtäväjärjestelmä tarjoaa vain \"bonuspisteitä\" eikä muuta perusjakosääntöjä.",
       "7": "**Tehtäväkategoria**:",
@@ -1471,9 +1464,9 @@
     },
     "seo": {
       "description": "Valmistele tehtäväjärjestelmän ja saavutusten mekanismin kuvaus",
-      "title": "$moonini Tehtäväsysteemi — moonpacket"
+      "title": "$MOONINI Tehtäväsysteemi — moonpacket"
     },
-    "title": "$moonini tehtävät ja saavutusten suunnittelu"
+    "title": "$MOONINI tehtävät ja saavutusten suunnittelu"
   },
   "nav": {
     "api": "API-dokumentaatio",
@@ -1502,13 +1495,32 @@
     },
     "seo": {
       "description": "Viimeistele BSC älysopimuksen tekniset eritelmät ja kehitysopas",
-      "title": "$moonini tekniset tiedot — moonpacket"
+      "title": "$MOONINI tekniset tiedot — moonpacket"
     },
-    "title": "$moonini BSC Teknisiä Erityisvaatimuksia"
+    "title": "$MOONINI BSC Teknisiä Erityisvaatimuksia"
   },
   "title": "Asiakirja",
   "toc": {
     "back_to_index": "Paluu asiakirjakeskukseen",
     "title": "Katalogi"
+  },
+  "docs": {
+    "litepaper": {
+      "content": {
+        "contracts": {
+          "title": "",
+          "description": "",
+          "items": {
+            "token": "$MOONINI Token (Token Ydin)",
+            "vesting": "Vesting Vault (V2) (Lukituksen Hallinta)",
+            "pool": "Liquidity Pool (LP) (Markkinoiden Likviditeetti)",
+            "multisig": "Governance Multisig (Valtakeskus)",
+            "timelock": "Timelock Controller (Viivästetty Hallinto)",
+            "emergency": "Emergency Vault (Turvapuskuri)"
+          },
+          "status": ""
+        }
+      }
+    }
   }
 }

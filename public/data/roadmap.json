@@ -16,8 +16,8 @@
           "titleKey": "roadmap.phase.open-beta.title",
           "descKey": "roadmap.phase.open-beta.desc",
           "acceptKey": "roadmap.phase.open-beta.accept",
-          "status": "shipping",
-          "progress": 70
+          "status": "live",
+          "progress": 95
         },
         {
           "lane": "build",
@@ -25,8 +25,8 @@
           "titleKey": "roadmap.phase.multi-chain.title",
           "descKey": "roadmap.phase.multi-chain.desc",
           "acceptKey": "roadmap.phase.multi-chain.accept",
-          "status": "planned",
-          "progress": 30
+          "status": "shipping",
+          "progress": 60
         },
         {
           "lane": "trust",
@@ -34,8 +34,8 @@
           "titleKey": "roadmap.phase.compliance.title",
           "descKey": "roadmap.phase.compliance.desc",
           "acceptKey": "roadmap.phase.compliance.accept",
-          "status": "planned",
-          "progress": 20
+          "status": "shipping",
+          "progress": 60
         },
         {
           "lane": "growth",
@@ -44,7 +44,7 @@
           "descKey": "roadmap.phase.growth-integration.desc",
           "acceptKey": "roadmap.phase.growth-integration.accept",
           "status": "planned",
-          "progress": 25
+          "progress": 40
         },
         {
           "lane": "token",
@@ -52,8 +52,8 @@
           "titleKey": "roadmap.phase.token-moonini.title",
           "descKey": "roadmap.phase.token-moonini.desc",
           "acceptKey": "roadmap.phase.token-moonini.accept",
-          "status": "research",
-          "progress": 10
+          "status": "live",
+          "progress": 85
         }
       ]
     }

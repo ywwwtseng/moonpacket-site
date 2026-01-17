@@ -2,9 +2,9 @@ import { ALL_LOCALES } from './locales.config';
 type LocaleCode = typeof ALL_LOCALES[number];
 
 // 定义消息模块类型
-export type MessageModule = 
+export type MessageModule =
   | 'site'
-  | 'claim' 
+  | 'claim'
   | 'send'
   | 'privacy'
   | 'terms'
@@ -15,6 +15,7 @@ export type MessageModule =
   | 'story'
   | 'legal'
   | 'docs'
+  | 'token'
   | 'common';
 
 // 加载指定语言和模块的消息
@@ -42,8 +43,8 @@ export async function loadMessages(locale: LocaleCode, module: MessageModule) {
 export async function loadAllMessages(locale: LocaleCode) {
   const modules: MessageModule[] = ['site', 'claim', 'send', 'privacy', 'terms', 'waterfall', 'groups', 'metrics', 'roadmap', 'common'];
   
-  // 为所有语言添加 story、legal 和 docs 模块
-  modules.push('story', 'legal', 'docs');
+  // 为所有语言添加 story、legal、docs 和 token 模块
+  modules.push('story', 'legal', 'docs', 'token');
   
   const allMessages = await Promise.all(
     modules.map(async (module) => {

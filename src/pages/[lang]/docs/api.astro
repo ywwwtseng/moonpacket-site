@@ -45,11 +45,25 @@ const breadcrumbJsonLd = jsonLdBreadcrumbList([
 ]);
 
 // Helper for bold text and brand styling
+// 注意：先處理 Markdown，然後處理品牌字，避免轉義 HTML 標籤
 const md = (text: string) => {
   if (!text) return '';
+  // 先處理 Markdown 粗體，轉換為 HTML
   let processed = text.replace(/\*\*(.*?)\*\*/g, '<strong class="text-[var(--gold)]">$1</strong>');
-  // Replace Moonpacket (case insensitive) with styled brand word
-  processed = processed.replace(/Moonpacket/gi, '<span class="brand-word text-[var(--text)]" style="font-weight: 700;">moonpacket</span>');
+  
+  // 處理品牌字（不通過 brandify，因為它會轉義 HTML）
+  // 先處理代幣品牌字：$moonini (不區分大小寫) -> $MOONINI (全大寫，token-mark)
+  processed = processed.replace(/\$moonini/gi, '<span class="token-mark">$MOONINI</span>');
+  // 處理 moonpacket 品牌字
+  processed = processed.replace(/moonpacket/gi, '<span class="brand-mark">moonpacket</span>');
+  // 處理 Moonpacket（大寫開頭）
+  processed = processed.replace(/Moonpacket/g, '<span class="brand-word text-[var(--text)]" style="font-weight: 700;">moonpacket</span>');
+  // 處理 moonini 品牌字（不帶 $）
+  processed = processed.replace(/\bmoonini\b/gi, '<span class="brand-mark">moonini</span>');
+  
+  // 處理 Markdown 連結
+  processed = processed.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" class="link">$1</a>');
+  
   return processed;
 };
 

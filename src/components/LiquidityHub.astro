@@ -2,12 +2,14 @@
 import { brandify } from '@/lib/brandify';
 import SwapTrigger from '@/islands/SwapTrigger';
 import PriceChip from '@/islands/PriceChip';
+import { TOKEN_INFO } from '@/config/token';
 
 interface Props {
   title?: string;
   subtitle?: string;
   buttonText?: string;
   priceLabel?: string;
+  verifiedOnLabel?: string;
   className?: string;
 }
 
@@ -16,6 +18,7 @@ const {
   subtitle, 
   buttonText, 
   priceLabel = 'Live Price',
+  verifiedOnLabel = 'Verified on',
   className = '' 
 } = Astro.props;
 ---
@@ -31,38 +34,50 @@ const {
   <div class="relative z-10 mx-auto max-w-6xl px-6">
     <div class="flex flex-col lg:flex-row items-center justify-between gap-10">
       
-      {/* Left: Token Identity & Price */}
-      <div class="flex flex-col sm:flex-row items-center gap-6 text-center sm:text-left">
+      {/* Left: Token Identity & Price - Wrapped in PancakeSwap Trade Link */}
+      <a 
+        href={TOKEN_INFO.pancakeUrl}
+        target="_blank"
+        rel="noopener noreferrer"
+        class="flex flex-col sm:flex-row items-center gap-6 text-center sm:text-left group/identity cursor-pointer transition-all"
+        title="Trade $MOONINI on PancakeSwap"
+      >
         <div class="relative flex items-center justify-center">
           {/* 2026 Minimalist Glow: Barely visible, high completion */}
-          <div class="absolute w-20 h-20 bg-[var(--gold)]/5 blur-lg rounded-full"></div>
+          <div class="absolute w-20 h-20 bg-[var(--gold)]/5 blur-lg rounded-full group-hover/identity:bg-[var(--gold)]/10 transition-colors"></div>
           <img 
             src="/moonini.svg" 
             alt="$MOONINI" 
-            class="relative w-20 h-20 sm:w-24 sm:h-24 drop-shadow-[0_0_5px_rgba(243,186,47,0.1)] object-contain" 
+            class="relative w-20 h-20 sm:w-24 sm:h-24 drop-shadow-[0_0_5px_rgba(243,186,47,0.1)] object-contain group-hover/identity:scale-105 transition-transform duration-500" 
           />
         </div>
         
         <div class="space-y-2.5">
           <div class="flex flex-col sm:flex-row items-center gap-4">
              {/* Forced All-Caps Brand Identity */}
-             <h2 class="text-4xl sm:text-5xl font-black tracking-tighter text-white">
+             <h2 class="text-4xl sm:text-5xl font-black tracking-tighter text-white group-hover/identity:text-[var(--gold)] transition-colors">
                 <span class="token-mark">$MOONINI</span>
              </h2>
-             <PriceChip client:load label={priceLabel} className="!bg-white/5 !border-white/10 !px-4 !py-1 scale-95" />
+             <PriceChip client:load label={priceLabel} className="!bg-white/5 !border-white/10 !px-4 !py-1 scale-95 group-hover/identity:!border-[var(--gold)]/30 transition-all" />
           </div>
-          <p class="text-base text-[var(--text-subtle)] font-medium max-w-md leading-tight opacity-40" set:html={brandify(subtitle || '')}></p>
+          <p class="text-base text-[var(--text-subtle)] font-medium max-w-md leading-tight opacity-40 group-hover/identity:opacity-60 transition-opacity" set:html={brandify(subtitle || '')}></p>
         </div>
-      </div>
+      </a>
 
       {/* Right: Actions */}
       <div class="flex flex-col sm:flex-row items-center gap-8">
         <div class="flex flex-col items-center sm:items-end gap-2.5">
           <span class="text-[9px] font-black uppercase tracking-[0.4em] text-[var(--gold)] opacity-30">Liquidity Hub</span>
-          <div class="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-white/[0.03] border border-white/[0.05]">
-             <span class="text-[9px] font-bold text-white/30">Verified on</span>
-             <span class="text-[9px] font-black text-[var(--gold)]/80 uppercase">PancakeSwap</span>
-          </div>
+          <a 
+            href={TOKEN_INFO.pancakeUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-white/[0.03] border border-white/[0.05] hover:bg-white/[0.08] hover:border-[var(--gold)]/30 transition-all group cursor-pointer"
+            title="Trade on PancakeSwap"
+          >
+             <span class="text-[9px] font-bold text-white/30 group-hover:text-white/50 transition-colors">{verifiedOnLabel}</span>
+             <span class="text-[9px] font-black text-[var(--gold)]/80 uppercase group-hover:text-[var(--gold)] transition-colors">PancakeSwap</span>
+          </a>
         </div>
         
         <SwapTrigger 

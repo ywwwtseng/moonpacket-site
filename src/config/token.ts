@@ -11,7 +11,8 @@ export const TOKEN_INFO = {
   decimals: 18,
   chain: "BSC",
   explorerBaseUrl: "https://bscscan.com/token/",
-  pancakeUrl: "https://pancakeswap.finance/swap?outputCurrency=0xe4d5857271c7978F5fe6b29A73C97142D6d8Befe",
+  pancakeUrl: "https://pancakeswap.finance/swap?chain=bsc&inputCurrency=0x55d398326f99059fF775485246999027B3197955&outputCurrency=0xe4d5857271c7978F5fe6b29A73C97142D6d8Befe",
+  dexScreenerUrl: "https://dexscreener.com/bsc/0xe4d5857271c7978F5fe6b29A73C97142D6d8Befe",
   lpAddress: "0x24248E591eC8FDeC9776f87C497746867305963E"
 } as const;
 

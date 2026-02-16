@@ -215,7 +215,7 @@ export default function Waterfall({
 
       // 计算 total_count：如果没有明确的值，使用一个合理的默认值
       // 可以根据 claimed_count 和 total_amount 估算，或使用固定值
-      const claimedCount = Number(apiItem.recipients || 0);
+      const claimedCount = Number(apiItem.claim_index || 0) + 1;
       const totalCount =
         apiItem.total_count || (claimedCount > 0 ? Math.max(claimedCount * 2, 50) : 100);
 
